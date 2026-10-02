@@ -1,0 +1,313 @@
+{
+  "checkedAt": "2026-09-25T03:23:17.322902+00:00",
+  "passed": true,
+  "method": "Actual Blender Cycles PBR baking, independent PNG decoding, official ktx validate, KTX2 header/DFD/orientation checks, SHA-256 protected-source verification, and visual inspection of actual receiver-only Cycles preview.",
+  "scope": "New intro-clean-v1 texture assets only. Website shader timing/fade and screenshot comparison are the integration task.",
+  "atlases": [
+    {
+      "atlas": 0,
+      "png": "public/textures/intro-clean-v1/day-0.png",
+      "pngSha256": "adec125584be52482a74ec9d4069b5e8771308cbdcf1fe44fcb8f089f23b4eae",
+      "ktx2": "public/textures/intro-clean-v1/day-0.ktx2",
+      "ktx2Sha256": "9184484727bdf8c4d5fa6e46ee1aec649eb8f82289b6185fbd1c70c65b2cb14f",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "pngDecoded": true,
+      "pngMode": "RGB",
+      "pixelExtrema": [
+        [
+          0,
+          243
+        ],
+        [
+          0,
+          244
+        ],
+        [
+          0,
+          247
+        ]
+      ],
+      "sameDimensionsAsOriginalDayAtlas": true,
+      "differentFromOriginalDayAtlas": true,
+      "ktxDFDTransferFunction": 2,
+      "sRGB": true,
+      "orientation": "rd",
+      "ktxValidate": "passed",
+      "mipLevels": 13
+    },
+    {
+      "atlas": 1,
+      "png": "public/textures/intro-clean-v1/day-1.png",
+      "pngSha256": "f20a996f788ec240811331a9a1ecf453ec3fbdae651073f3f5af7a714943d7ca",
+      "ktx2": "public/textures/intro-clean-v1/day-1.ktx2",
+      "ktx2Sha256": "46fa3b7558f34aeb71a8a8883fadbbaf493b92c8a9bb4a2f68f8539e64a135ec",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "pngDecoded": true,
+      "pngMode": "RGB",
+      "pixelExtrema": [
+        [
+          0,
+          248
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "sameDimensionsAsOriginalDayAtlas": true,
+      "differentFromOriginalDayAtlas": true,
+      "ktxDFDTransferFunction": 2,
+      "sRGB": true,
+      "orientation": "rd",
+      "ktxValidate": "passed",
+      "mipLevels": 13
+    },
+    {
+      "atlas": 8,
+      "png": "public/textures/intro-clean-v1/day-8.png",
+      "pngSha256": "2f97469c947fc7c3e66b0b3a926f071a3828a276157b5d82d0ba8396f4f3ef4c",
+      "ktx2": "public/textures/intro-clean-v1/day-8.ktx2",
+      "ktx2Sha256": "5703d1e8ae6c91af21cb7039cd85cfea9d917524c400000ec0196f0d15d376b7",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "pngDecoded": true,
+      "pngMode": "RGB",
+      "pixelExtrema": [
+        [
+          0,
+          243
+        ],
+        [
+          0,
+          246
+        ],
+        [
+          0,
+          249
+        ]
+      ],
+      "sameDimensionsAsOriginalDayAtlas": true,
+      "differentFromOriginalDayAtlas": true,
+      "ktxDFDTransferFunction": 2,
+      "sRGB": true,
+      "orientation": "rd",
+      "ktxValidate": "passed",
+      "mipLevels": 12
+    }
+  ],
+  "emptyMaterialSlotAudit": [
+    {
+      "name": "WEB8_room_static__baked__A0",
+      "emptySlots": [
+        4
+      ],
+      "polygonsUsingEmptySlots": 0
+    },
+    {
+      "name": "WEB8_room_static__baked__A8",
+      "emptySlots": [
+        4
+      ],
+      "polygonsUsingEmptySlots": 0
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A0",
+      "emptySlots": [],
+      "polygonsUsingEmptySlots": 0
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A8",
+      "emptySlots": [],
+      "polygonsUsingEmptySlots": 0
+    }
+  ],
+  "bakeWarnings": "Two prepared static meshes contain one unused empty material slot; zero polygons use it, independently checked in the unchanged source blend. No bake receiver polygons were skipped for missing materials.",
+  "protectedOriginalFileCount": 69,
+  "allProtectedOriginalFilesUnchanged": true,
+  "protectedFiles": {
+    "assets/blender/orbital-dual-bake-v15.blend": true,
+    "assets/blender/orbital-atelier-v15.blend": true,
+    "public/models/orbital-atelier-v15.glb": true,
+    "public/models/orbital-atelier-v15-compressed.glb": true,
+    "LICENSE.md": true,
+    "public/textures/lighting-v15/day-0.ktx2": true,
+    "public/textures/lighting-v15/day-0.png": true,
+    "public/textures/lighting-v15/day-1.ktx2": true,
+    "public/textures/lighting-v15/day-1.png": true,
+    "public/textures/lighting-v15/day-10.ktx2": true,
+    "public/textures/lighting-v15/day-10.png": true,
+    "public/textures/lighting-v15/day-11.ktx2": true,
+    "public/textures/lighting-v15/day-11.png": true,
+    "public/textures/lighting-v15/day-2.ktx2": true,
+    "public/textures/lighting-v15/day-2.png": true,
+    "public/textures/lighting-v15/day-3.ktx2": true,
+    "public/textures/lighting-v15/day-3.png": true,
+    "public/textures/lighting-v15/day-4.ktx2": true,
+    "public/textures/lighting-v15/day-4.png": true,
+    "public/textures/lighting-v15/day-5.ktx2": true,
+    "public/textures/lighting-v15/day-5.png": true,
+    "public/textures/lighting-v15/day-6.ktx2": true,
+    "public/textures/lighting-v15/day-6.png": true,
+    "public/textures/lighting-v15/day-7.ktx2": true,
+    "public/textures/lighting-v15/day-7.png": true,
+    "public/textures/lighting-v15/day-8.ktx2": true,
+    "public/textures/lighting-v15/day-8.png": true,
+    "public/textures/lighting-v15/day-9.ktx2": true,
+    "public/textures/lighting-v15/day-9.png": true,
+    "public/textures/lighting-v15/day-v15-architecture-manifest.json": true,
+    "public/textures/lighting-v15/day-v15-chair-manifest.json": true,
+    "public/textures/lighting-v15/day-v15-desk-retained-manifest.json": true,
+    "public/textures/lighting-v15/day-v15-manifest.json": true,
+    "public/textures/lighting-v15/day-window.ktx2": true,
+    "public/textures/lighting-v15/night-0.ktx2": true,
+    "public/textures/lighting-v15/night-0.png": true,
+    "public/textures/lighting-v15/night-1.ktx2": true,
+    "public/textures/lighting-v15/night-1.png": true,
+    "public/textures/lighting-v15/night-10.ktx2": true,
+    "public/textures/lighting-v15/night-10.png": true,
+    "public/textures/lighting-v15/night-11.ktx2": true,
+    "public/textures/lighting-v15/night-11.png": true,
+    "public/textures/lighting-v15/night-2.ktx2": true,
+    "public/textures/lighting-v15/night-2.png": true,
+    "public/textures/lighting-v15/night-3.ktx2": true,
+    "public/textures/lighting-v15/night-3.png": true,
+    "public/textures/lighting-v15/night-4.ktx2": true,
+    "public/textures/lighting-v15/night-4.png": true,
+    "public/textures/lighting-v15/night-5.ktx2": true,
+    "public/textures/lighting-v15/night-5.png": true,
+    "public/textures/lighting-v15/night-6.ktx2": true,
+    "public/textures/lighting-v15/night-6.png": true,
+    "public/textures/lighting-v15/night-7.ktx2": true,
+    "public/textures/lighting-v15/night-7.png": true,
+    "public/textures/lighting-v15/night-8.ktx2": true,
+    "public/textures/lighting-v15/night-8.png": true,
+    "public/textures/lighting-v15/night-9.ktx2": true,
+    "public/textures/lighting-v15/night-9.png": true,
+    "public/textures/lighting-v15/night-v15-architecture-manifest.json": true,
+    "public/textures/lighting-v15/night-v15-chair-manifest.json": true,
+    "public/textures/lighting-v15/night-v15-desk-retained-manifest.json": true,
+    "public/textures/lighting-v15/night-v15-manifest.json": true,
+    "public/textures/lighting-v15/night-window.ktx2": true,
+    "public/textures/lighting-v15/screen-art-render.png": true,
+    "public/textures/lighting-v15/screen-v15-manifest.json": true,
+    "public/textures/lighting-v15/static-screen.ktx2": true,
+    "public/textures/lighting-v15/window-day.png": true,
+    "public/textures/lighting-v15/window-night.png": true,
+    "public/textures/lighting-v15/window-v15-manifest.json": true
+  },
+  "hiddenOriginalObjects": 220,
+  "receivers": [
+    {
+      "name": "WEB8_room_static__baked__A0",
+      "atlas": 0,
+      "vertices": 12066,
+      "polygons": 11779,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    },
+    {
+      "name": "WEB8_room_static__baked__A8",
+      "atlas": 8,
+      "vertices": 9670,
+      "polygons": 9649,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A0",
+      "atlas": 0,
+      "vertices": 322,
+      "polygons": 446,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A8",
+      "atlas": 8,
+      "vertices": 1118,
+      "polygons": 2054,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    }
+  ],
+  "authoringScriptHashMatchesBakeRecord": true,
+  "preview": {
+    "path": "renders/intro-clean-v1/receiver-preview.png",
+    "sha256": "e65c6ebc77e510068ab18b2765000ada45ab8129d84d010894ebb29a6ca423b1",
+    "bytes": 1401225,
+    "method": "Actual Cycles render of the receiver-only original PBR setup; not AI-generated and not an atlas repaint."
+  },
+  "visualInspection": "Receiver-only floor retains blue-grey metallic lighting and panel seams without the missing lounge, chair, rug, coffee table or other prop silhouettes. Any small static hardware visible in the preview belongs to the unchanged joined architecture receiver and is not new geometry.",
+  "colorTreatment": "Original PBR shader response and Cycles light transport, not an RGB lift or texture repaint.",
+  "totalKtxBytes": 16530232,
+  "gpuBlockMipBytes": 57322256,
+  "protectedPreviouslyVerifiedIntroTextureCount": 4,
+  "protectedPreviouslyVerifiedIntroTextures": {
+    "public/textures/intro-clean-v1/day-0.png": true,
+    "public/textures/intro-clean-v1/day-0.ktx2": true,
+    "public/textures/intro-clean-v1/day-8.png": true,
+    "public/textures/intro-clean-v1/day-8.ktx2": true
+  },
+  "allPreviouslyVerifiedIntroTexturesUnchanged": true,
+  "primaryBakeAtlases": [
+    0,
+    8
+  ],
+  "additionalReceiverPasses": [
+    {
+      "atlases": [
+        1
+      ],
+      "sourceReport": "public/textures/intro-clean-v1/atlas-1-SOURCE.json",
+      "receiverMeshes": [
+        {
+          "name": "WEB8_furniture.desk__baked__A1",
+          "atlas": 1,
+          "vertices": 2287,
+          "polygons": 4500,
+          "shadowVisibility": false,
+          "uv": "BakeUV"
+        },
+        {
+          "name": "WEB8_furniture.coffee_table__baked__A1",
+          "atlas": 1,
+          "vertices": 2262,
+          "polygons": 4500,
+          "shadowVisibility": false,
+          "uv": "BakeUV"
+        },
+        {
+          "name": "WEB8_furniture.rug__baked__A1",
+          "atlas": 1,
+          "vertices": 1751,
+          "polygons": 3498,
+          "shadowVisibility": false,
+          "uv": "BakeUV"
+        }
+      ],
+      "hiddenOriginalObjects": 221,
+      "all73ProtectedFilesUnchanged": true,
+      "authoringScriptHashMatchesBakeRecord": true,
+      "sameLightingAndBakeSettingsAsPrimary": true,
+      "preview": {
+        "path": "renders/intro-clean-v1/receiver-atlas1-preview.png",
+        "sha256": "a6ecb5f8a794beafbd862e7c8c10a59f1d09bd597c303d34fe2e72e36b00a0ba",
+        "bytes": 1155608,
+        "method": "Actual Cycles render of the receiver-only original PBR setup; not AI-generated and not an atlas repaint."
+      },
+      "visualInspection": "Actual Cycles receiver-only preview inspected: blue-grey desktop and coffee-table surfaces are smooth, with no missing computer or desktop-object silhouettes. The dark graphite rug retains its concentric embossed line design without an absent coffee-table shadow."
+    }
+  ]
+}

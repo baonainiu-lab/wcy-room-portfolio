@@ -1,0 +1,1169 @@
+{
+  "complete": true,
+  "source": "assets/blender/orbital-dual-bake-v16.blend",
+  "sourceSha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+  "samples": 96,
+  "slots": [
+    0,
+    1,
+    8
+  ],
+  "oldIntroV1Untouched": true,
+  "receiverPipelineAndLightingUnchanged": true,
+  "geometryUvChecks": [
+    {
+      "inheritedAuthoringScript": "assets/blender/scripts/bake_intro_clean_v1.py",
+      "inheritedScriptSha256": "4dae9f90f2e2f918a0c04c95350d3210ccd6e7a7d8296f7ef154c426d85d6465",
+      "geometryUvsNormalsUnchanged": true,
+      "fingerprints": {
+        "2::main_display": {
+          "atlas": 2,
+          "vertices": 152,
+          "loops": 600,
+          "sha256": "328aafb84b8f0e118b7ab427fc2e2cb446d0ce4c3a4b4f1b3bd2ce4da406b4bf"
+        },
+        "2::compute_core": {
+          "atlas": 2,
+          "vertices": 1384,
+          "loops": 7500,
+          "sha256": "33f1c5ebd76de6c9b638f22c4c0b81ed59c2d47352735a05122f58f33c52dae0"
+        },
+        "1::furniture.desk": {
+          "atlas": 1,
+          "vertices": 2287,
+          "loops": 13500,
+          "sha256": "02b1f6af6ab141ce16f4241a336c6d0374e69bcc6e179899523442abe104caea"
+        },
+        "11::furniture.work_chair": {
+          "atlas": 11,
+          "vertices": 24755,
+          "loops": 96952,
+          "sha256": "d16420e1bb88f8049b51e32f38ccf3efabce92479ff1e3995265f512883ac40b"
+        },
+        "7::furniture.lounge": {
+          "atlas": 7,
+          "vertices": 33265,
+          "loops": 131346,
+          "sha256": "5f9ecf08eabd44600d35a8fe60ff3719e03cc91f6f594fa20e28e5de3a1751aa"
+        },
+        "1::furniture.coffee_table": {
+          "atlas": 1,
+          "vertices": 2262,
+          "loops": 13500,
+          "sha256": "412bc94230938b5cdb8b14a6d6216c100404da27e118623e474f372c67e0942e"
+        },
+        "1::furniture.rug": {
+          "atlas": 1,
+          "vertices": 1751,
+          "loops": 10494,
+          "sha256": "8958bad8f8e57a30e82291adb349118a98244e5800e4c46d40f4b8d2bf02c362"
+        },
+        "2::robot_companion": {
+          "atlas": 2,
+          "vertices": 1320,
+          "loops": 7500,
+          "sha256": "2826373dcfe75e2142bf00d30a1c134517782612afcbe4476c178ab1f31d1ae6"
+        },
+        "2::robot_service_hatch": {
+          "atlas": 2,
+          "vertices": 1264,
+          "loops": 7500,
+          "sha256": "ca63f8e95c8bceee40b57826a870c4eeecc28c0ab1e14a349d03728cd9881b11"
+        },
+        "2::robot_leg_00": {
+          "atlas": 2,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "13b9d47235b1e29b2735d1bf3715a52dad1afacd37e59c99a6e81b7ba2fad10a"
+        },
+        "2::robot_leg_01": {
+          "atlas": 2,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "4d33b7535d5b5f62b37a97fb88cf0002f10e5b5e1c0c8a5b2b5ebe672f58a89e"
+        },
+        "2::robot_leg_02": {
+          "atlas": 2,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "691d82ca85e550273b22d9b41d8942ad499198cb3aaade642066ee5c7938d840"
+        },
+        "10::folding_drawing_terminal": {
+          "atlas": 10,
+          "vertices": 688,
+          "loops": 2480,
+          "sha256": "2af1042ca2b723004b83831185b551684958917d3da253d2c8d5aa510c8c6e45"
+        },
+        "10::terminal_tilt": {
+          "atlas": 10,
+          "vertices": 1262,
+          "loops": 7500,
+          "sha256": "0003823ee569434b42b0a05465b2bd9e6fe8dcc47f8d2ae81b24eedca8d8ee65"
+        },
+        "10::terminal_panel_L": {
+          "atlas": 10,
+          "vertices": 5071,
+          "loops": 30000,
+          "sha256": "033da90a50bea5efc202f53499cf392b5120553a8a49fe40f42e1a2f396bd9e6"
+        },
+        "10::terminal_panel_R": {
+          "atlas": 10,
+          "vertices": 5072,
+          "loops": 30000,
+          "sha256": "5d1ccf39c3034191e17e5a0823eecdfc4a19fe8cdcca06bd1a5a1852a9c62da8"
+        },
+        "9::drawing_stylus": {
+          "atlas": 9,
+          "vertices": 1262,
+          "loops": 7500,
+          "sha256": "07e19f5e175c79e5966041ba8528212d958422d3d1a3fd62a6f37194ea1c9515"
+        },
+        "10::c_archive_dock": {
+          "atlas": 10,
+          "vertices": 1262,
+          "loops": 7500,
+          "sha256": "c86687178dec14444b0e59e66e5389031ba5f329faf72c2beb171f6ca884e4ea"
+        },
+        "10::archive_cartridge_00": {
+          "atlas": 10,
+          "vertices": 1288,
+          "loops": 7500,
+          "sha256": "e4840d50c0d5985c77e46ef272520fe5ffa160bef04c91b6cb9bd72560c5d779"
+        },
+        "10::archive_cartridge_01": {
+          "atlas": 10,
+          "vertices": 1288,
+          "loops": 7500,
+          "sha256": "b104eb61f10a788c23e128780919e071e7460d563d8262b4e06ca2de449228e3"
+        },
+        "10::archive_cartridge_02": {
+          "atlas": 10,
+          "vertices": 1288,
+          "loops": 7500,
+          "sha256": "bd3b2e6448d7ab62cb1b8e8ef9e8d2bff740246512d7c55eef0798363a83a549"
+        },
+        "10::kinetic_three_petal_flower": {
+          "atlas": 10,
+          "vertices": 1278,
+          "loops": 7500,
+          "sha256": "402e938cce2a2db018bd252f881453d9c3adb4266c9a476c141edb64c610a051"
+        },
+        "10::flower_petal_0": {
+          "atlas": 10,
+          "vertices": 1272,
+          "loops": 7500,
+          "sha256": "eae8730ac7a263e68fa9ebbb06e82852e2de0997c061369b121cab5624bc0096"
+        },
+        "10::flower_petal_1": {
+          "atlas": 10,
+          "vertices": 1278,
+          "loops": 7500,
+          "sha256": "d548279ceb4bcd0f6bd0fbcc3bad3203e62fbbdc50c0b786f0973c373194d67e"
+        },
+        "10::flower_petal_2": {
+          "atlas": 10,
+          "vertices": 1278,
+          "loops": 7500,
+          "sha256": "384b39ff4680da2071f782aa7c31feaca3d03a04055ec8b04ce891dcd7fc1d70"
+        },
+        "9::headphones_on_stand": {
+          "atlas": 9,
+          "vertices": 1299,
+          "loops": 7497,
+          "sha256": "ac194bbf042aeb6fc4ec93bc06401be8d8b2b536fcbf1cdd0296553d1b6dbc94"
+        },
+        "9::headphone_cup_0": {
+          "atlas": 9,
+          "vertices": 1284,
+          "loops": 7500,
+          "sha256": "9ec1240ead7a3087846efd9baf5fd5c669448adc5ce4ae9bc1dab372f9989af3"
+        },
+        "9::headphone_cup_1": {
+          "atlas": 9,
+          "vertices": 1284,
+          "loops": 7500,
+          "sha256": "a9d79859df14040dc844d8fcf3e00b7de89be76e58c61a6a664c8e572f9be722"
+        },
+        "9::ceramic_ring_speaker": {
+          "atlas": 9,
+          "vertices": 1256,
+          "loops": 7500,
+          "sha256": "264ca263e407b161dff4dc7ca39d7c7d65efa75274f779c52efdf4bc56dd22ce"
+        },
+        "9::speaker_gimbal": {
+          "atlas": 9,
+          "vertices": 1260,
+          "loops": 7500,
+          "sha256": "7e6774237671bdf652973edf163108436f558822b5530b73cb2247881e098da6"
+        },
+        "9::keyboard_half_0": {
+          "atlas": 9,
+          "vertices": 1308,
+          "loops": 7500,
+          "sha256": "6d4255185f3a37c5eeb7590414a64fadd0837f5fa6aacc473b27860609bad111"
+        },
+        "9::keyboard_half_1": {
+          "atlas": 9,
+          "vertices": 1308,
+          "loops": 7500,
+          "sha256": "a0e6a34621e7a5cac26ffba8c51e82372e41f5b7fa1e76e0606e7e67124e294b"
+        },
+        "9::keyboard_dial": {
+          "atlas": 9,
+          "vertices": 1322,
+          "loops": 7500,
+          "sha256": "a919126fe29f77d8053b5d3cc0b1e3b7936c32531abedde3bd360b799f2b24fb"
+        },
+        "9::desktop_creative_controller": {
+          "atlas": 9,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "dbbdbdf05d6c0daad5dbfbf0a2e5ec81f84be8cf853f0111018e4a30e1e1c9f4"
+        },
+        "9::compact_camera": {
+          "atlas": 9,
+          "vertices": 1292,
+          "loops": 7500,
+          "sha256": "76ee0a2f17add31c5e7713770ab749a28d6c54ea0bcd52cc9da039448379cc9f"
+        },
+        "9::camera_focus_lens": {
+          "atlas": 9,
+          "vertices": 1392,
+          "loops": 7500,
+          "sha256": "bbcc760a124b49b7c1f4e2c5b853a41a62673681933c71dcae69e989f57b87d9"
+        },
+        "9::thermal_cup": {
+          "atlas": 9,
+          "vertices": 1314,
+          "loops": 7500,
+          "sha256": "5a8c994b86e497cad64957d4738a76c984abd582e29f15774cdd81519ffd7dc8"
+        },
+        "10::creative_folio": {
+          "atlas": 10,
+          "vertices": 608,
+          "loops": 2400,
+          "sha256": "b77e0c0322eb0356226873ba14b85cbed24d479218f14cc726f7caaea4214a95"
+        },
+        "10::notebook": {
+          "atlas": 10,
+          "vertices": 1280,
+          "loops": 7500,
+          "sha256": "b4a0e9deeac90cf9fe3c082301ea7a19f33d85ff4639636950fca329bfc80efe"
+        },
+        "9::coffee_table_pen": {
+          "atlas": 9,
+          "vertices": 1202,
+          "loops": 4568,
+          "sha256": "b52c15e64be6481a1085e894887276f0fc4bdfdc28a4b1d84daa73b06af400e4"
+        },
+        "9::coffee_table_dial": {
+          "atlas": 9,
+          "vertices": 1308,
+          "loops": 7500,
+          "sha256": "56dd2dc95eed2a382b6d41b7102bf5f5fb62ded9009d891f8316480a3a88e9b6"
+        },
+        "10::glass_bonsai_terrarium": {
+          "atlas": 10,
+          "vertices": 9605,
+          "loops": 53997,
+          "sha256": "928e6b34e68a0232747ec12ff4e65d7b6df56c0dfe09dfc464b6533dc88e775e"
+        },
+        "10::trailing_wall_plant": {
+          "atlas": 10,
+          "vertices": 5603,
+          "loops": 28500,
+          "sha256": "eb6f7af7df48b5f23d5dcec285d89a83654f845a18da1414c273f621c90f297d"
+        },
+        "3::creative_book_0": {
+          "atlas": 3,
+          "vertices": 1276,
+          "loops": 7500,
+          "sha256": "84feb5b2eea44be4a02d8bd53b4af6b8860fbef8590037dc7faab666a66ebfcf"
+        },
+        "3::creative_book_1": {
+          "atlas": 3,
+          "vertices": 1276,
+          "loops": 7500,
+          "sha256": "e992743f9908160b46ff6f5bf717565eb19dab02606754bb647d2fe184a8e01e"
+        },
+        "3::creative_book_2": {
+          "atlas": 3,
+          "vertices": 1276,
+          "loops": 7500,
+          "sha256": "4c1278ab6f3eb233c31386a6ba0466e188f4f18a0864ccfa5c67e163e7f95115"
+        },
+        "3::titanium_bookend_0": {
+          "atlas": 3,
+          "vertices": 900,
+          "loops": 3528,
+          "sha256": "39d3a2689aa56584bc2947eb20dcba52bb00fee22c01102dad66e94546efd2d0"
+        },
+        "3::titanium_bookend_1": {
+          "atlas": 3,
+          "vertices": 900,
+          "loops": 3528,
+          "sha256": "15b1f55d855fa3f229045899b5e4929533abbd7f40a9963df5bb2344e8600fc5"
+        },
+        "3::geometric_specimen_cloche": {
+          "atlas": 3,
+          "vertices": 1314,
+          "loops": 7500,
+          "sha256": "8ce0c891e8d84568db52ab2eda43d112149f1c706cc5d319590df71f4a7a75d0"
+        },
+        "3::original_trefoil_geometry": {
+          "atlas": 3,
+          "vertices": 1252,
+          "loops": 7500,
+          "sha256": "d218bc119c7471c6c3aa186711ce0563dbade03092dd0c31674c0f0d9719fc7e"
+        },
+        "3::portable_fold_communicator": {
+          "atlas": 3,
+          "vertices": 604,
+          "loops": 2352,
+          "sha256": "bf4bc7985e909fc26bc81bfcce97e3a567340c3516f0af350aa3371d0cb169e8"
+        },
+        "3::communicator_panel_0": {
+          "atlas": 3,
+          "vertices": 910,
+          "loops": 5400,
+          "sha256": "027945cebdff00d54247d3bfe5c661a142035ccafaa56f831f7634ab79711096"
+        },
+        "3::communicator_panel_1": {
+          "atlas": 3,
+          "vertices": 909,
+          "loops": 5400,
+          "sha256": "a5ea1aade2cf612eec146c74ec71e81b75d48329c8443d19c3d1eb04aba35efa"
+        },
+        "3::folding_communicator_handset": {
+          "atlas": 3,
+          "vertices": 1256,
+          "loops": 7500,
+          "sha256": "27950acf1894286018ebf7686ffd5c5f71dd8ff989c98bfd7ec98e202dfed362"
+        },
+        "3::ceramic_mobius_study": {
+          "atlas": 3,
+          "vertices": 1254,
+          "loops": 7500,
+          "sha256": "1c35d84a67955ff656b4d4f821e4891a2e29f693136e80201eece97337881978"
+        },
+        "3::ceramic_mobius_form": {
+          "atlas": 3,
+          "vertices": 2260,
+          "loops": 13500,
+          "sha256": "5aa074c34b1efc8b16fd63eb389dc2966e5a5b1c6872efbaaefa853f156b3db4"
+        },
+        "3::glass_cutting_planter": {
+          "atlas": 3,
+          "vertices": 1254,
+          "loops": 7500,
+          "sha256": "b128dfb2c31b8e38edea8eecdd41edef68fb679b60a9a0d3e198d248397bb1e8"
+        },
+        "3::small_planter_leaf_0": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "5e239bc8b0546ed3cdc4f98b1623c668cb60c9da91083284886a32fcc5714b4d"
+        },
+        "3::small_planter_leaf_1": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "89274a1af871eae51ac3f3b594bbd24119ac5506a5263cd5f85e8f14fc3362b8"
+        },
+        "3::small_planter_leaf_2": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "0daa357f8149bf00b443186cf5f05e53e2c2b3197798e2a45940b82b3727bad0"
+        },
+        "3::small_planter_leaf_3": {
+          "atlas": 3,
+          "vertices": 96,
+          "loops": 537,
+          "sha256": "12cd70edbc04504f62a08a34e2b775d2f5322747651c27dee98660f51ae94657"
+        },
+        "3::small_planter_leaf_4": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "ddf751b9271a18b84612122d12951ba462849ef4e1345f4022ecc5cad631490a"
+        },
+        "3::black_ceramic_floor_planter": {
+          "atlas": 3,
+          "vertices": 1316,
+          "loops": 7500,
+          "sha256": "f800fd8ae8938c9a851169d0a19b28d5b3896cff92bb1d9ac84c347767b67e27"
+        },
+        "3::floor_vase_leaf_0": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "97977e78d00c5d022df3e6da393759a3a7a65b97c9feecba42b7594ee99b1cb5"
+        },
+        "3::floor_vase_leaf_1": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "f900501a9b717cafa111df301f9899ad1f9382d26e035e05f1618dc9aec8615a"
+        },
+        "3::floor_vase_leaf_2": {
+          "atlas": 3,
+          "vertices": 96,
+          "loops": 540,
+          "sha256": "8039091fd8c605a00faebcdd2cd887dbe0b6588166df97a938217a6f42b9f94d"
+        },
+        "3::floor_vase_leaf_3": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "98e7bff29407e41ac54e0bb4aa9cf54b5e0b11409772b86ede1829efbcedb03b"
+        },
+        "3::floor_vase_leaf_4": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "c987f6d5f1884a223d6ba0f998d015ff540c87c3af664095ad15c8bdb92ab202"
+        },
+        "3::floor_vase_leaf_5": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "8b70e36e7168e2610b2ba3d670390e0b60259d2ee3bf0f986b99c57279feacb7"
+        },
+        "3::floor_vase_leaf_6": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "69ac23080545de62789f55cc9eb8a98c8c1375d4bd2b958a92a1999e050a0b3f"
+        },
+        "4::v5_orbital_clock": {
+          "atlas": 4,
+          "vertices": 1960,
+          "loops": 7536,
+          "sha256": "66814a34c63e1283ada2f274e087d8371d77225156febddaf91b62091449f5ea"
+        },
+        "4::v5_clock_dial": {
+          "atlas": 4,
+          "vertices": 256,
+          "loops": 960,
+          "sha256": "4cb772919dd7266dfd9987e9cfeff9829c1557ebb4ffb084617387ba81edd343"
+        },
+        "4::v5_portable_projector": {
+          "atlas": 4,
+          "vertices": 680,
+          "loops": 2600,
+          "sha256": "c48f8138dae18e5b3c7fb5489336de5cf8c2ba5e126ae240886a28cfc0321500"
+        },
+        "4::v5_projector_lens": {
+          "atlas": 4,
+          "vertices": 688,
+          "loops": 2576,
+          "sha256": "90fa99217de5f73f99482705372b345dae14fec213a61be841106b38fff3c3ea"
+        },
+        "4::v5_magnetic_pen_dock": {
+          "atlas": 4,
+          "vertices": 1560,
+          "loops": 5944,
+          "sha256": "3db1a4c23a2a22eedfffcaac2ebf09b4c271513effc406f0f97b07306b05dd33"
+        },
+        "4::v5_magnetic_stylus": {
+          "atlas": 4,
+          "vertices": 192,
+          "loops": 704,
+          "sha256": "f06fcb16c944b10e5f2989288cff94283182788fb9f2492fb80a74ba643fdd7e"
+        },
+        "4::v5_modular_equipment_cases": {
+          "atlas": 4,
+          "vertices": 760,
+          "loops": 2920,
+          "sha256": "d03d78effc3e07a7a8a4ef9561d90f190c0a81cfd76ca2fb4bed6993ebfee118"
+        },
+        "4::v5_upper_equipment_case": {
+          "atlas": 4,
+          "vertices": 536,
+          "loops": 2056,
+          "sha256": "3016e72923de97b7a2ed80c4af3e4b3e4921a1ab05111cb907233631907d6def"
+        },
+        "4::v5_geometric_floor_lamp": {
+          "atlas": 4,
+          "vertices": 728,
+          "loops": 2808,
+          "sha256": "9447ffe2b8598f2a410b31dd4de97127ad7a8c3ec97c0fa1070f7a02deb947d6"
+        },
+        "4::v5_floor_lamp_head": {
+          "atlas": 4,
+          "vertices": 1440,
+          "loops": 5664,
+          "sha256": "21225e98e23c006d0e83b3df4a13a6d5afc1b066b839d5b7cd3e0ff6d3843e42"
+        },
+        "4::v5_energy_capsule_rack": {
+          "atlas": 4,
+          "vertices": 1240,
+          "loops": 4728,
+          "sha256": "7ab8bbb8651ffc766cea33f20cbbe008f4b1eb85edb5d26ceb9435ddd5e6f6f0"
+        },
+        "4::v5_energy_capsule": {
+          "atlas": 4,
+          "vertices": 536,
+          "loops": 2040,
+          "sha256": "2687ca75f82193c1f6a5ab980d934756cc8f5ec5ad6c0f0fbf0eb46dc649964c"
+        },
+        "4::v5_mechanical_data_panel": {
+          "atlas": 4,
+          "vertices": 824,
+          "loops": 3096,
+          "sha256": "20d7a495bdac960dbb45fcfd209d634178dd878e9281512d14c3db1988731608"
+        },
+        "4::v5_data_panel_selector": {
+          "atlas": 4,
+          "vertices": 200,
+          "loops": 744,
+          "sha256": "e5338b05304b7700d175f0d068395626b6a96ea508fb82f442506e218c24c690"
+        },
+        "4::v5_scout_drone_display": {
+          "atlas": 4,
+          "vertices": 232,
+          "loops": 872,
+          "sha256": "fb5d552eb07ba366d78b36938ca56869976ee2c256f3d0ff0890fb1598ef7b86"
+        },
+        "4::v5_scout_drone": {
+          "atlas": 4,
+          "vertices": 1016,
+          "loops": 3864,
+          "sha256": "264f90c5851bd8b896ccdb248559e4a066b754189387a709ba6e9621056ebffe"
+        },
+        "5::environment.orbital_dock": {
+          "atlas": 5,
+          "vertices": 13112,
+          "loops": 49512,
+          "sha256": "6b0fb190055147dad2c698ba65dbe4901d29258ce0aa80d2b9972903cbd0cd67"
+        },
+        "6::environment.warm_gallery": {
+          "atlas": 6,
+          "vertices": 8706,
+          "loops": 32360,
+          "sha256": "01ba218c141f3a1468198ef9ceefcb024257c72a174304aaf738f673a90545ee"
+        },
+        "4::v8_desk_glow_lamp": {
+          "atlas": 4,
+          "vertices": 328,
+          "loops": 984,
+          "sha256": "4c1b0741e7a04d412cdd7276cd0c4fb8cdc13b59e8a1636253e2559c2f3d9ecc"
+        },
+        "4::v8_window_light_bar": {
+          "atlas": 4,
+          "vertices": 232,
+          "loops": 696,
+          "sha256": "80b3384e069f797b4c359ad4bfb83e452f80d5d125c9220ff8db192e30325447"
+        },
+        "4::v8_reading_puck": {
+          "atlas": 4,
+          "vertices": 264,
+          "loops": 792,
+          "sha256": "6b52a37f8868c4f7e2aa8fab4657bbf84379f4c4cb800031a39a16c1010e4bf4"
+        },
+        "0::room_static": {
+          "atlas": 0,
+          "vertices": 12066,
+          "loops": 47270,
+          "sha256": "bb8501ee0d2bbcab084d3e3fc96bef697ddfaa4ffba83906952ba09394afac2c"
+        },
+        "8::room_static": {
+          "atlas": 8,
+          "vertices": 9670,
+          "loops": 38626,
+          "sha256": "67ac259fe8ed3328e596d9a4f7cb44dc3a37c7d5b68f8712874f9996a8345f88"
+        },
+        "0::architecture.platform": {
+          "atlas": 0,
+          "vertices": 322,
+          "loops": 1338,
+          "sha256": "ad3b9cca1e34e202fb906559c5fbb0c8ef6896b00ab773ae340507bd7f53fe73"
+        },
+        "8::architecture.platform": {
+          "atlas": 8,
+          "vertices": 1118,
+          "loops": 6162,
+          "sha256": "ba1de69f1ec55ff105c1328077faf69cdd3d6e73bbe613354ff9d8b3eab63d8c"
+        }
+      }
+    },
+    {
+      "inheritedAuthoringScript": "assets/blender/scripts/bake_intro_clean_atlas1_v1.py",
+      "inheritedScriptSha256": "4e9ca09de9efc46fdba7f002915f93b2fe9c807223e9ea141da314bb3a3111d1",
+      "geometryUvsNormalsUnchanged": true,
+      "fingerprints": {
+        "2::main_display": {
+          "atlas": 2,
+          "vertices": 152,
+          "loops": 600,
+          "sha256": "328aafb84b8f0e118b7ab427fc2e2cb446d0ce4c3a4b4f1b3bd2ce4da406b4bf"
+        },
+        "2::compute_core": {
+          "atlas": 2,
+          "vertices": 1384,
+          "loops": 7500,
+          "sha256": "33f1c5ebd76de6c9b638f22c4c0b81ed59c2d47352735a05122f58f33c52dae0"
+        },
+        "1::furniture.desk": {
+          "atlas": 1,
+          "vertices": 2287,
+          "loops": 13500,
+          "sha256": "02b1f6af6ab141ce16f4241a336c6d0374e69bcc6e179899523442abe104caea"
+        },
+        "11::furniture.work_chair": {
+          "atlas": 11,
+          "vertices": 24755,
+          "loops": 96952,
+          "sha256": "d16420e1bb88f8049b51e32f38ccf3efabce92479ff1e3995265f512883ac40b"
+        },
+        "7::furniture.lounge": {
+          "atlas": 7,
+          "vertices": 33265,
+          "loops": 131346,
+          "sha256": "5f9ecf08eabd44600d35a8fe60ff3719e03cc91f6f594fa20e28e5de3a1751aa"
+        },
+        "1::furniture.coffee_table": {
+          "atlas": 1,
+          "vertices": 2262,
+          "loops": 13500,
+          "sha256": "412bc94230938b5cdb8b14a6d6216c100404da27e118623e474f372c67e0942e"
+        },
+        "1::furniture.rug": {
+          "atlas": 1,
+          "vertices": 1751,
+          "loops": 10494,
+          "sha256": "8958bad8f8e57a30e82291adb349118a98244e5800e4c46d40f4b8d2bf02c362"
+        },
+        "2::robot_companion": {
+          "atlas": 2,
+          "vertices": 1320,
+          "loops": 7500,
+          "sha256": "2826373dcfe75e2142bf00d30a1c134517782612afcbe4476c178ab1f31d1ae6"
+        },
+        "2::robot_service_hatch": {
+          "atlas": 2,
+          "vertices": 1264,
+          "loops": 7500,
+          "sha256": "ca63f8e95c8bceee40b57826a870c4eeecc28c0ab1e14a349d03728cd9881b11"
+        },
+        "2::robot_leg_00": {
+          "atlas": 2,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "13b9d47235b1e29b2735d1bf3715a52dad1afacd37e59c99a6e81b7ba2fad10a"
+        },
+        "2::robot_leg_01": {
+          "atlas": 2,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "4d33b7535d5b5f62b37a97fb88cf0002f10e5b5e1c0c8a5b2b5ebe672f58a89e"
+        },
+        "2::robot_leg_02": {
+          "atlas": 2,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "691d82ca85e550273b22d9b41d8942ad499198cb3aaade642066ee5c7938d840"
+        },
+        "10::folding_drawing_terminal": {
+          "atlas": 10,
+          "vertices": 688,
+          "loops": 2480,
+          "sha256": "2af1042ca2b723004b83831185b551684958917d3da253d2c8d5aa510c8c6e45"
+        },
+        "10::terminal_tilt": {
+          "atlas": 10,
+          "vertices": 1262,
+          "loops": 7500,
+          "sha256": "0003823ee569434b42b0a05465b2bd9e6fe8dcc47f8d2ae81b24eedca8d8ee65"
+        },
+        "10::terminal_panel_L": {
+          "atlas": 10,
+          "vertices": 5071,
+          "loops": 30000,
+          "sha256": "033da90a50bea5efc202f53499cf392b5120553a8a49fe40f42e1a2f396bd9e6"
+        },
+        "10::terminal_panel_R": {
+          "atlas": 10,
+          "vertices": 5072,
+          "loops": 30000,
+          "sha256": "5d1ccf39c3034191e17e5a0823eecdfc4a19fe8cdcca06bd1a5a1852a9c62da8"
+        },
+        "9::drawing_stylus": {
+          "atlas": 9,
+          "vertices": 1262,
+          "loops": 7500,
+          "sha256": "07e19f5e175c79e5966041ba8528212d958422d3d1a3fd62a6f37194ea1c9515"
+        },
+        "10::c_archive_dock": {
+          "atlas": 10,
+          "vertices": 1262,
+          "loops": 7500,
+          "sha256": "c86687178dec14444b0e59e66e5389031ba5f329faf72c2beb171f6ca884e4ea"
+        },
+        "10::archive_cartridge_00": {
+          "atlas": 10,
+          "vertices": 1288,
+          "loops": 7500,
+          "sha256": "e4840d50c0d5985c77e46ef272520fe5ffa160bef04c91b6cb9bd72560c5d779"
+        },
+        "10::archive_cartridge_01": {
+          "atlas": 10,
+          "vertices": 1288,
+          "loops": 7500,
+          "sha256": "b104eb61f10a788c23e128780919e071e7460d563d8262b4e06ca2de449228e3"
+        },
+        "10::archive_cartridge_02": {
+          "atlas": 10,
+          "vertices": 1288,
+          "loops": 7500,
+          "sha256": "bd3b2e6448d7ab62cb1b8e8ef9e8d2bff740246512d7c55eef0798363a83a549"
+        },
+        "10::kinetic_three_petal_flower": {
+          "atlas": 10,
+          "vertices": 1278,
+          "loops": 7500,
+          "sha256": "402e938cce2a2db018bd252f881453d9c3adb4266c9a476c141edb64c610a051"
+        },
+        "10::flower_petal_0": {
+          "atlas": 10,
+          "vertices": 1272,
+          "loops": 7500,
+          "sha256": "eae8730ac7a263e68fa9ebbb06e82852e2de0997c061369b121cab5624bc0096"
+        },
+        "10::flower_petal_1": {
+          "atlas": 10,
+          "vertices": 1278,
+          "loops": 7500,
+          "sha256": "d548279ceb4bcd0f6bd0fbcc3bad3203e62fbbdc50c0b786f0973c373194d67e"
+        },
+        "10::flower_petal_2": {
+          "atlas": 10,
+          "vertices": 1278,
+          "loops": 7500,
+          "sha256": "384b39ff4680da2071f782aa7c31feaca3d03a04055ec8b04ce891dcd7fc1d70"
+        },
+        "9::headphones_on_stand": {
+          "atlas": 9,
+          "vertices": 1299,
+          "loops": 7497,
+          "sha256": "ac194bbf042aeb6fc4ec93bc06401be8d8b2b536fcbf1cdd0296553d1b6dbc94"
+        },
+        "9::headphone_cup_0": {
+          "atlas": 9,
+          "vertices": 1284,
+          "loops": 7500,
+          "sha256": "9ec1240ead7a3087846efd9baf5fd5c669448adc5ce4ae9bc1dab372f9989af3"
+        },
+        "9::headphone_cup_1": {
+          "atlas": 9,
+          "vertices": 1284,
+          "loops": 7500,
+          "sha256": "a9d79859df14040dc844d8fcf3e00b7de89be76e58c61a6a664c8e572f9be722"
+        },
+        "9::ceramic_ring_speaker": {
+          "atlas": 9,
+          "vertices": 1256,
+          "loops": 7500,
+          "sha256": "264ca263e407b161dff4dc7ca39d7c7d65efa75274f779c52efdf4bc56dd22ce"
+        },
+        "9::speaker_gimbal": {
+          "atlas": 9,
+          "vertices": 1260,
+          "loops": 7500,
+          "sha256": "7e6774237671bdf652973edf163108436f558822b5530b73cb2247881e098da6"
+        },
+        "9::keyboard_half_0": {
+          "atlas": 9,
+          "vertices": 1308,
+          "loops": 7500,
+          "sha256": "6d4255185f3a37c5eeb7590414a64fadd0837f5fa6aacc473b27860609bad111"
+        },
+        "9::keyboard_half_1": {
+          "atlas": 9,
+          "vertices": 1308,
+          "loops": 7500,
+          "sha256": "a0e6a34621e7a5cac26ffba8c51e82372e41f5b7fa1e76e0606e7e67124e294b"
+        },
+        "9::keyboard_dial": {
+          "atlas": 9,
+          "vertices": 1322,
+          "loops": 7500,
+          "sha256": "a919126fe29f77d8053b5d3cc0b1e3b7936c32531abedde3bd360b799f2b24fb"
+        },
+        "9::desktop_creative_controller": {
+          "atlas": 9,
+          "vertices": 1282,
+          "loops": 7500,
+          "sha256": "dbbdbdf05d6c0daad5dbfbf0a2e5ec81f84be8cf853f0111018e4a30e1e1c9f4"
+        },
+        "9::compact_camera": {
+          "atlas": 9,
+          "vertices": 1292,
+          "loops": 7500,
+          "sha256": "76ee0a2f17add31c5e7713770ab749a28d6c54ea0bcd52cc9da039448379cc9f"
+        },
+        "9::camera_focus_lens": {
+          "atlas": 9,
+          "vertices": 1392,
+          "loops": 7500,
+          "sha256": "bbcc760a124b49b7c1f4e2c5b853a41a62673681933c71dcae69e989f57b87d9"
+        },
+        "9::thermal_cup": {
+          "atlas": 9,
+          "vertices": 1314,
+          "loops": 7500,
+          "sha256": "5a8c994b86e497cad64957d4738a76c984abd582e29f15774cdd81519ffd7dc8"
+        },
+        "10::creative_folio": {
+          "atlas": 10,
+          "vertices": 608,
+          "loops": 2400,
+          "sha256": "b77e0c0322eb0356226873ba14b85cbed24d479218f14cc726f7caaea4214a95"
+        },
+        "10::notebook": {
+          "atlas": 10,
+          "vertices": 1280,
+          "loops": 7500,
+          "sha256": "b4a0e9deeac90cf9fe3c082301ea7a19f33d85ff4639636950fca329bfc80efe"
+        },
+        "9::coffee_table_pen": {
+          "atlas": 9,
+          "vertices": 1202,
+          "loops": 4568,
+          "sha256": "b52c15e64be6481a1085e894887276f0fc4bdfdc28a4b1d84daa73b06af400e4"
+        },
+        "9::coffee_table_dial": {
+          "atlas": 9,
+          "vertices": 1308,
+          "loops": 7500,
+          "sha256": "56dd2dc95eed2a382b6d41b7102bf5f5fb62ded9009d891f8316480a3a88e9b6"
+        },
+        "10::glass_bonsai_terrarium": {
+          "atlas": 10,
+          "vertices": 9605,
+          "loops": 53997,
+          "sha256": "928e6b34e68a0232747ec12ff4e65d7b6df56c0dfe09dfc464b6533dc88e775e"
+        },
+        "10::trailing_wall_plant": {
+          "atlas": 10,
+          "vertices": 5603,
+          "loops": 28500,
+          "sha256": "eb6f7af7df48b5f23d5dcec285d89a83654f845a18da1414c273f621c90f297d"
+        },
+        "3::creative_book_0": {
+          "atlas": 3,
+          "vertices": 1276,
+          "loops": 7500,
+          "sha256": "84feb5b2eea44be4a02d8bd53b4af6b8860fbef8590037dc7faab666a66ebfcf"
+        },
+        "3::creative_book_1": {
+          "atlas": 3,
+          "vertices": 1276,
+          "loops": 7500,
+          "sha256": "e992743f9908160b46ff6f5bf717565eb19dab02606754bb647d2fe184a8e01e"
+        },
+        "3::creative_book_2": {
+          "atlas": 3,
+          "vertices": 1276,
+          "loops": 7500,
+          "sha256": "4c1278ab6f3eb233c31386a6ba0466e188f4f18a0864ccfa5c67e163e7f95115"
+        },
+        "3::titanium_bookend_0": {
+          "atlas": 3,
+          "vertices": 900,
+          "loops": 3528,
+          "sha256": "39d3a2689aa56584bc2947eb20dcba52bb00fee22c01102dad66e94546efd2d0"
+        },
+        "3::titanium_bookend_1": {
+          "atlas": 3,
+          "vertices": 900,
+          "loops": 3528,
+          "sha256": "15b1f55d855fa3f229045899b5e4929533abbd7f40a9963df5bb2344e8600fc5"
+        },
+        "3::geometric_specimen_cloche": {
+          "atlas": 3,
+          "vertices": 1314,
+          "loops": 7500,
+          "sha256": "8ce0c891e8d84568db52ab2eda43d112149f1c706cc5d319590df71f4a7a75d0"
+        },
+        "3::original_trefoil_geometry": {
+          "atlas": 3,
+          "vertices": 1252,
+          "loops": 7500,
+          "sha256": "d218bc119c7471c6c3aa186711ce0563dbade03092dd0c31674c0f0d9719fc7e"
+        },
+        "3::portable_fold_communicator": {
+          "atlas": 3,
+          "vertices": 604,
+          "loops": 2352,
+          "sha256": "bf4bc7985e909fc26bc81bfcce97e3a567340c3516f0af350aa3371d0cb169e8"
+        },
+        "3::communicator_panel_0": {
+          "atlas": 3,
+          "vertices": 910,
+          "loops": 5400,
+          "sha256": "027945cebdff00d54247d3bfe5c661a142035ccafaa56f831f7634ab79711096"
+        },
+        "3::communicator_panel_1": {
+          "atlas": 3,
+          "vertices": 909,
+          "loops": 5400,
+          "sha256": "a5ea1aade2cf612eec146c74ec71e81b75d48329c8443d19c3d1eb04aba35efa"
+        },
+        "3::folding_communicator_handset": {
+          "atlas": 3,
+          "vertices": 1256,
+          "loops": 7500,
+          "sha256": "27950acf1894286018ebf7686ffd5c5f71dd8ff989c98bfd7ec98e202dfed362"
+        },
+        "3::ceramic_mobius_study": {
+          "atlas": 3,
+          "vertices": 1254,
+          "loops": 7500,
+          "sha256": "1c35d84a67955ff656b4d4f821e4891a2e29f693136e80201eece97337881978"
+        },
+        "3::ceramic_mobius_form": {
+          "atlas": 3,
+          "vertices": 2260,
+          "loops": 13500,
+          "sha256": "5aa074c34b1efc8b16fd63eb389dc2966e5a5b1c6872efbaaefa853f156b3db4"
+        },
+        "3::glass_cutting_planter": {
+          "atlas": 3,
+          "vertices": 1254,
+          "loops": 7500,
+          "sha256": "b128dfb2c31b8e38edea8eecdd41edef68fb679b60a9a0d3e198d248397bb1e8"
+        },
+        "3::small_planter_leaf_0": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "5e239bc8b0546ed3cdc4f98b1623c668cb60c9da91083284886a32fcc5714b4d"
+        },
+        "3::small_planter_leaf_1": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "89274a1af871eae51ac3f3b594bbd24119ac5506a5263cd5f85e8f14fc3362b8"
+        },
+        "3::small_planter_leaf_2": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "0daa357f8149bf00b443186cf5f05e53e2c2b3197798e2a45940b82b3727bad0"
+        },
+        "3::small_planter_leaf_3": {
+          "atlas": 3,
+          "vertices": 96,
+          "loops": 537,
+          "sha256": "12cd70edbc04504f62a08a34e2b775d2f5322747651c27dee98660f51ae94657"
+        },
+        "3::small_planter_leaf_4": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "ddf751b9271a18b84612122d12951ba462849ef4e1345f4022ecc5cad631490a"
+        },
+        "3::black_ceramic_floor_planter": {
+          "atlas": 3,
+          "vertices": 1316,
+          "loops": 7500,
+          "sha256": "f800fd8ae8938c9a851169d0a19b28d5b3896cff92bb1d9ac84c347767b67e27"
+        },
+        "3::floor_vase_leaf_0": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "97977e78d00c5d022df3e6da393759a3a7a65b97c9feecba42b7594ee99b1cb5"
+        },
+        "3::floor_vase_leaf_1": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "f900501a9b717cafa111df301f9899ad1f9382d26e035e05f1618dc9aec8615a"
+        },
+        "3::floor_vase_leaf_2": {
+          "atlas": 3,
+          "vertices": 96,
+          "loops": 540,
+          "sha256": "8039091fd8c605a00faebcdd2cd887dbe0b6588166df97a938217a6f42b9f94d"
+        },
+        "3::floor_vase_leaf_3": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "98e7bff29407e41ac54e0bb4aa9cf54b5e0b11409772b86ede1829efbcedb03b"
+        },
+        "3::floor_vase_leaf_4": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "c987f6d5f1884a223d6ba0f998d015ff540c87c3af664095ad15c8bdb92ab202"
+        },
+        "3::floor_vase_leaf_5": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 537,
+          "sha256": "8b70e36e7168e2610b2ba3d670390e0b60259d2ee3bf0f986b99c57279feacb7"
+        },
+        "3::floor_vase_leaf_6": {
+          "atlas": 3,
+          "vertices": 95,
+          "loops": 540,
+          "sha256": "69ac23080545de62789f55cc9eb8a98c8c1375d4bd2b958a92a1999e050a0b3f"
+        },
+        "4::v5_orbital_clock": {
+          "atlas": 4,
+          "vertices": 1960,
+          "loops": 7536,
+          "sha256": "66814a34c63e1283ada2f274e087d8371d77225156febddaf91b62091449f5ea"
+        },
+        "4::v5_clock_dial": {
+          "atlas": 4,
+          "vertices": 256,
+          "loops": 960,
+          "sha256": "4cb772919dd7266dfd9987e9cfeff9829c1557ebb4ffb084617387ba81edd343"
+        },
+        "4::v5_portable_projector": {
+          "atlas": 4,
+          "vertices": 680,
+          "loops": 2600,
+          "sha256": "c48f8138dae18e5b3c7fb5489336de5cf8c2ba5e126ae240886a28cfc0321500"
+        },
+        "4::v5_projector_lens": {
+          "atlas": 4,
+          "vertices": 688,
+          "loops": 2576,
+          "sha256": "90fa99217de5f73f99482705372b345dae14fec213a61be841106b38fff3c3ea"
+        },
+        "4::v5_magnetic_pen_dock": {
+          "atlas": 4,
+          "vertices": 1560,
+          "loops": 5944,
+          "sha256": "3db1a4c23a2a22eedfffcaac2ebf09b4c271513effc406f0f97b07306b05dd33"
+        },
+        "4::v5_magnetic_stylus": {
+          "atlas": 4,
+          "vertices": 192,
+          "loops": 704,
+          "sha256": "f06fcb16c944b10e5f2989288cff94283182788fb9f2492fb80a74ba643fdd7e"
+        },
+        "4::v5_modular_equipment_cases": {
+          "atlas": 4,
+          "vertices": 760,
+          "loops": 2920,
+          "sha256": "d03d78effc3e07a7a8a4ef9561d90f190c0a81cfd76ca2fb4bed6993ebfee118"
+        },
+        "4::v5_upper_equipment_case": {
+          "atlas": 4,
+          "vertices": 536,
+          "loops": 2056,
+          "sha256": "3016e72923de97b7a2ed80c4af3e4b3e4921a1ab05111cb907233631907d6def"
+        },
+        "4::v5_geometric_floor_lamp": {
+          "atlas": 4,
+          "vertices": 728,
+          "loops": 2808,
+          "sha256": "9447ffe2b8598f2a410b31dd4de97127ad7a8c3ec97c0fa1070f7a02deb947d6"
+        },
+        "4::v5_floor_lamp_head": {
+          "atlas": 4,
+          "vertices": 1440,
+          "loops": 5664,
+          "sha256": "21225e98e23c006d0e83b3df4a13a6d5afc1b066b839d5b7cd3e0ff6d3843e42"
+        },
+        "4::v5_energy_capsule_rack": {
+          "atlas": 4,
+          "vertices": 1240,
+          "loops": 4728,
+          "sha256": "7ab8bbb8651ffc766cea33f20cbbe008f4b1eb85edb5d26ceb9435ddd5e6f6f0"
+        },
+        "4::v5_energy_capsule": {
+          "atlas": 4,
+          "vertices": 536,
+          "loops": 2040,
+          "sha256": "2687ca75f82193c1f6a5ab980d934756cc8f5ec5ad6c0f0fbf0eb46dc649964c"
+        },
+        "4::v5_mechanical_data_panel": {
+          "atlas": 4,
+          "vertices": 824,
+          "loops": 3096,
+          "sha256": "20d7a495bdac960dbb45fcfd209d634178dd878e9281512d14c3db1988731608"
+        },
+        "4::v5_data_panel_selector": {
+          "atlas": 4,
+          "vertices": 200,
+          "loops": 744,
+          "sha256": "e5338b05304b7700d175f0d068395626b6a96ea508fb82f442506e218c24c690"
+        },
+        "4::v5_scout_drone_display": {
+          "atlas": 4,
+          "vertices": 232,
+          "loops": 872,
+          "sha256": "fb5d552eb07ba366d78b36938ca56869976ee2c256f3d0ff0890fb1598ef7b86"
+        },
+        "4::v5_scout_drone": {
+          "atlas": 4,
+          "vertices": 1016,
+          "loops": 3864,
+          "sha256": "264f90c5851bd8b896ccdb248559e4a066b754189387a709ba6e9621056ebffe"
+        },
+        "5::environment.orbital_dock": {
+          "atlas": 5,
+          "vertices": 13112,
+          "loops": 49512,
+          "sha256": "6b0fb190055147dad2c698ba65dbe4901d29258ce0aa80d2b9972903cbd0cd67"
+        },
+        "6::environment.warm_gallery": {
+          "atlas": 6,
+          "vertices": 8706,
+          "loops": 32360,
+          "sha256": "01ba218c141f3a1468198ef9ceefcb024257c72a174304aaf738f673a90545ee"
+        },
+        "4::v8_desk_glow_lamp": {
+          "atlas": 4,
+          "vertices": 328,
+          "loops": 984,
+          "sha256": "4c1b0741e7a04d412cdd7276cd0c4fb8cdc13b59e8a1636253e2559c2f3d9ecc"
+        },
+        "4::v8_window_light_bar": {
+          "atlas": 4,
+          "vertices": 232,
+          "loops": 696,
+          "sha256": "80b3384e069f797b4c359ad4bfb83e452f80d5d125c9220ff8db192e30325447"
+        },
+        "4::v8_reading_puck": {
+          "atlas": 4,
+          "vertices": 264,
+          "loops": 792,
+          "sha256": "6b52a37f8868c4f7e2aa8fab4657bbf84379f4c4cb800031a39a16c1010e4bf4"
+        },
+        "0::room_static": {
+          "atlas": 0,
+          "vertices": 12066,
+          "loops": 47270,
+          "sha256": "bb8501ee0d2bbcab084d3e3fc96bef697ddfaa4ffba83906952ba09394afac2c"
+        },
+        "8::room_static": {
+          "atlas": 8,
+          "vertices": 9670,
+          "loops": 38626,
+          "sha256": "67ac259fe8ed3328e596d9a4f7cb44dc3a37c7d5b68f8712874f9996a8345f88"
+        },
+        "0::architecture.platform": {
+          "atlas": 0,
+          "vertices": 322,
+          "loops": 1338,
+          "sha256": "ad3b9cca1e34e202fb906559c5fbb0c8ef6896b00ab773ae340507bd7f53fe73"
+        },
+        "8::architecture.platform": {
+          "atlas": 8,
+          "vertices": 1118,
+          "loops": 6162,
+          "sha256": "ba1de69f1ec55ff105c1328077faf69cdd3d6e73bbe613354ff9d8b3eab63d8c"
+        }
+      }
+    }
+  ]
+}

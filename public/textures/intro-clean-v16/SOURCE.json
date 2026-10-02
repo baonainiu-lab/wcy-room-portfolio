@@ -1,0 +1,1628 @@
+{
+  "version": 16,
+  "purpose": "Clean receiver-only daylight textures used only while the room and its furniture assemble; original finished-room day/night maps are unchanged.",
+  "sourceBlend": "assets/blender/orbital-dual-bake-v16.blend",
+  "sourceBlendSha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+  "authoringScript": "assets/blender/scripts/bake_intro_clean_v16.py",
+  "authoringScriptSha256": "c5c039636f439fac3edec4344cdefabce1e52103bbdb24c28948ddaee2ad8247",
+  "sourceScene": "WEB_DUAL_V8",
+  "sourceMaterials": "V16 Principled PBR and verified scans/procedural microtextures with fixed world triplanar mapping; no unlit GLB import, color lifting, or fabricated pixels.",
+  "geometryUVUnchanged": true,
+  "receiverMeshes": [
+    {
+      "name": "WEB8_room_static__baked__A0",
+      "atlas": 0,
+      "vertices": 12066,
+      "polygons": 11779,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    },
+    {
+      "name": "WEB8_room_static__baked__A8",
+      "atlas": 8,
+      "vertices": 9670,
+      "polygons": 9649,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A0",
+      "atlas": 0,
+      "vertices": 322,
+      "polygons": 446,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A8",
+      "atlas": 8,
+      "vertices": 1118,
+      "polygons": 2054,
+      "shadowVisibility": false,
+      "uv": "BakeUV"
+    }
+  ],
+  "excludedObjects": [
+    {
+      "name": "WEB8_room_static__image__A0",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V10__A_Platform",
+      "type": "EMPTY",
+      "asset_id": "architecture.platform"
+    },
+    {
+      "name": "WEB8_L_Niche_0",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_L_Niche_1",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_L_Niche_2",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_L_Key_Softbox",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_L_Fill_Front",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_L_Rim",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_L_Warm_Bounce",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_L_WindowLight",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Camera_Reference",
+      "type": "CAMERA",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Camera_Window_Assets",
+      "type": "CAMERA",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_T_MainDisplay",
+      "type": "EMPTY",
+      "asset_id": "main_display"
+    },
+    {
+      "name": "WEB8_main_display__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_main_display__image__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_T_ComputeCore",
+      "type": "EMPTY",
+      "asset_id": "compute_core"
+    },
+    {
+      "name": "WEB8_compute_core__glass__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_compute_core__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_STUDIO_Ground",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_F_Cantilever_Desk",
+      "type": "EMPTY",
+      "asset_id": "furniture.desk"
+    },
+    {
+      "name": "WEB8_furniture.desk__baked__A1",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_F_Sculptural_Work_Chair",
+      "type": "EMPTY",
+      "asset_id": "furniture.work_chair"
+    },
+    {
+      "name": "WEB8_furniture.work_chair__baked__A1",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_F_Crescent_Orange_Lounge",
+      "type": "EMPTY",
+      "asset_id": "furniture.lounge"
+    },
+    {
+      "name": "WEB8_furniture.lounge__baked__A7",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_F_Smoked_Glass_Coffee_Table",
+      "type": "EMPTY",
+      "asset_id": "furniture.coffee_table"
+    },
+    {
+      "name": "WEB8_furniture.coffee_table__baked__A1",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_furniture.coffee_table__glass__A1",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_F_Charcoal_Inlaid_Rug",
+      "type": "EMPTY",
+      "asset_id": "furniture.rug"
+    },
+    {
+      "name": "WEB8_furniture.rug__baked__A1",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_ROBOT_Root",
+      "type": "EMPTY",
+      "asset_id": "robot_companion"
+    },
+    {
+      "name": "WEB8_robot_companion__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Robot_ServiceHatch",
+      "type": "EMPTY",
+      "asset_id": "robot_service_hatch"
+    },
+    {
+      "name": "WEB8_robot_service_hatch__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Robot_Leg_00_Pivot",
+      "type": "EMPTY",
+      "asset_id": "robot_leg_00"
+    },
+    {
+      "name": "WEB8_robot_leg_00__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Robot_Leg_01_Pivot",
+      "type": "EMPTY",
+      "asset_id": "robot_leg_01"
+    },
+    {
+      "name": "WEB8_robot_leg_01__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Robot_Leg_02_Pivot",
+      "type": "EMPTY",
+      "asset_id": "robot_leg_02"
+    },
+    {
+      "name": "WEB8_robot_leg_02__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_TERMINAL_Root",
+      "type": "EMPTY",
+      "asset_id": "folding_drawing_terminal"
+    },
+    {
+      "name": "WEB8_folding_drawing_terminal__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Terminal_TiltPivot",
+      "type": "EMPTY",
+      "asset_id": "terminal_tilt"
+    },
+    {
+      "name": "WEB8_terminal_tilt__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Terminal_L_FoldPivot",
+      "type": "EMPTY",
+      "asset_id": "terminal_panel_L"
+    },
+    {
+      "name": "WEB8_terminal_panel_L__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Terminal_R_FoldPivot",
+      "type": "EMPTY",
+      "asset_id": "terminal_panel_R"
+    },
+    {
+      "name": "WEB8_terminal_panel_R__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Terminal_Stylus_Root",
+      "type": "EMPTY",
+      "asset_id": "drawing_stylus"
+    },
+    {
+      "name": "WEB8_drawing_stylus__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_ARCHIVE_Root",
+      "type": "EMPTY",
+      "asset_id": "c_archive_dock"
+    },
+    {
+      "name": "WEB8_c_archive_dock__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Archive_Cartridge_00_Root",
+      "type": "EMPTY",
+      "asset_id": "archive_cartridge_00"
+    },
+    {
+      "name": "WEB8_archive_cartridge_00__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Archive_Cartridge_01_Root",
+      "type": "EMPTY",
+      "asset_id": "archive_cartridge_01"
+    },
+    {
+      "name": "WEB8_archive_cartridge_01__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Archive_Cartridge_02_Root",
+      "type": "EMPTY",
+      "asset_id": "archive_cartridge_02"
+    },
+    {
+      "name": "WEB8_archive_cartridge_02__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_FLOWER_Root",
+      "type": "EMPTY",
+      "asset_id": "kinetic_three_petal_flower"
+    },
+    {
+      "name": "WEB8_kinetic_three_petal_flower__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Flower_Petal_0_Hinge",
+      "type": "EMPTY",
+      "asset_id": "flower_petal_0"
+    },
+    {
+      "name": "WEB8_flower_petal_0__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Flower_Petal_1_Hinge",
+      "type": "EMPTY",
+      "asset_id": "flower_petal_1"
+    },
+    {
+      "name": "WEB8_flower_petal_1__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Flower_Petal_2_Hinge",
+      "type": "EMPTY",
+      "asset_id": "flower_petal_2"
+    },
+    {
+      "name": "WEB8_flower_petal_2__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_HEADPHONES_Root",
+      "type": "EMPTY",
+      "asset_id": "headphones_on_stand"
+    },
+    {
+      "name": "WEB8_headphones_on_stand__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Headphones_Cup_0_Pivot",
+      "type": "EMPTY",
+      "asset_id": "headphone_cup_0"
+    },
+    {
+      "name": "WEB8_headphone_cup_0__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Headphones_Cup_1_Pivot",
+      "type": "EMPTY",
+      "asset_id": "headphone_cup_1"
+    },
+    {
+      "name": "WEB8_headphone_cup_1__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_SPEAKER_Root",
+      "type": "EMPTY",
+      "asset_id": "ceramic_ring_speaker"
+    },
+    {
+      "name": "WEB8_ceramic_ring_speaker__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Speaker_Gimbal",
+      "type": "EMPTY",
+      "asset_id": "speaker_gimbal"
+    },
+    {
+      "name": "WEB8_speaker_gimbal__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_KEYBOARD_Root",
+      "type": "EMPTY",
+      "asset_id": "split_keyboard"
+    },
+    {
+      "name": "WEB8_P_Keyboard_L_Half",
+      "type": "EMPTY",
+      "asset_id": "keyboard_half_0"
+    },
+    {
+      "name": "WEB8_keyboard_half_0__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Keyboard_R_Half",
+      "type": "EMPTY",
+      "asset_id": "keyboard_half_1"
+    },
+    {
+      "name": "WEB8_keyboard_half_1__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Keyboard_Dial_Root",
+      "type": "EMPTY",
+      "asset_id": "keyboard_dial"
+    },
+    {
+      "name": "WEB8_keyboard_dial__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Desktop_Controller_Root",
+      "type": "EMPTY",
+      "asset_id": "desktop_creative_controller"
+    },
+    {
+      "name": "WEB8_desktop_creative_controller__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_CAMERA_Root",
+      "type": "EMPTY",
+      "asset_id": "compact_camera"
+    },
+    {
+      "name": "WEB8_compact_camera__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_Camera_Lens_Root",
+      "type": "EMPTY",
+      "asset_id": "camera_focus_lens"
+    },
+    {
+      "name": "WEB8_camera_focus_lens__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_CUP_Root",
+      "type": "EMPTY",
+      "asset_id": "thermal_cup"
+    },
+    {
+      "name": "WEB8_thermal_cup__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_TABLE_OBJECTS_Root",
+      "type": "EMPTY",
+      "asset_id": "table_notebook_group"
+    },
+    {
+      "name": "WEB8_P_Notebook_Root",
+      "type": "EMPTY",
+      "asset_id": "notebook"
+    },
+    {
+      "name": "WEB8_P_CreativeFolio_Root",
+      "type": "EMPTY",
+      "asset_id": "creative_folio"
+    },
+    {
+      "name": "WEB8_creative_folio__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_notebook__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_CoffeePen_Root",
+      "type": "EMPTY",
+      "asset_id": "coffee_table_pen"
+    },
+    {
+      "name": "WEB8_coffee_table_pen__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_CoffeeDial_Root",
+      "type": "EMPTY",
+      "asset_id": "coffee_table_dial"
+    },
+    {
+      "name": "WEB8_coffee_table_dial__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_TERRARIUM_Root",
+      "type": "EMPTY",
+      "asset_id": "glass_bonsai_terrarium"
+    },
+    {
+      "name": "WEB8_glass_bonsai_terrarium__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_glass_bonsai_terrarium__glass__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_P_VINES_Root",
+      "type": "EMPTY",
+      "asset_id": "trailing_wall_plant"
+    },
+    {
+      "name": "WEB8_trailing_wall_plant__baked__A2",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_BOOKS_Root",
+      "type": "EMPTY",
+      "asset_id": "studio_reference_books"
+    },
+    {
+      "name": "WEB8_D_Book_0_Root",
+      "type": "EMPTY",
+      "asset_id": "creative_book_0"
+    },
+    {
+      "name": "WEB8_creative_book_0__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Book_1_Root",
+      "type": "EMPTY",
+      "asset_id": "creative_book_1"
+    },
+    {
+      "name": "WEB8_creative_book_1__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Book_2_Root",
+      "type": "EMPTY",
+      "asset_id": "creative_book_2"
+    },
+    {
+      "name": "WEB8_creative_book_2__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Bookend_0_Root",
+      "type": "EMPTY",
+      "asset_id": "titanium_bookend_0"
+    },
+    {
+      "name": "WEB8_titanium_bookend_0__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Bookend_1_Root",
+      "type": "EMPTY",
+      "asset_id": "titanium_bookend_1"
+    },
+    {
+      "name": "WEB8_titanium_bookend_1__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_SPECIMEN_Root",
+      "type": "EMPTY",
+      "asset_id": "geometric_specimen_cloche"
+    },
+    {
+      "name": "WEB8_geometric_specimen_cloche__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_geometric_specimen_cloche__glass__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Specimen_Geometry_Root",
+      "type": "EMPTY",
+      "asset_id": "original_trefoil_geometry"
+    },
+    {
+      "name": "WEB8_original_trefoil_geometry__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_COMMUNICATOR_Root",
+      "type": "EMPTY",
+      "asset_id": "portable_fold_communicator"
+    },
+    {
+      "name": "WEB8_portable_fold_communicator__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Comms_Handset_Root",
+      "type": "EMPTY",
+      "asset_id": "folding_communicator_handset"
+    },
+    {
+      "name": "WEB8_D_Comms_Panel_0_Hinge",
+      "type": "EMPTY",
+      "asset_id": "communicator_panel_0"
+    },
+    {
+      "name": "WEB8_communicator_panel_0__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Comms_Panel_1_Hinge",
+      "type": "EMPTY",
+      "asset_id": "communicator_panel_1"
+    },
+    {
+      "name": "WEB8_communicator_panel_1__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_folding_communicator_handset__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_SCULPTURE_Root",
+      "type": "EMPTY",
+      "asset_id": "ceramic_mobius_study"
+    },
+    {
+      "name": "WEB8_ceramic_mobius_study__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Sculpture_Form_Root",
+      "type": "EMPTY",
+      "asset_id": "ceramic_mobius_form"
+    },
+    {
+      "name": "WEB8_ceramic_mobius_form__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_SMALL_PLANTER_Root",
+      "type": "EMPTY",
+      "asset_id": "glass_cutting_planter"
+    },
+    {
+      "name": "WEB8_glass_cutting_planter__glass__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_glass_cutting_planter__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Planter_Leaf_0_Pivot",
+      "type": "EMPTY",
+      "asset_id": "small_planter_leaf_0"
+    },
+    {
+      "name": "WEB8_small_planter_leaf_0__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Planter_Leaf_1_Pivot",
+      "type": "EMPTY",
+      "asset_id": "small_planter_leaf_1"
+    },
+    {
+      "name": "WEB8_small_planter_leaf_1__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Planter_Leaf_2_Pivot",
+      "type": "EMPTY",
+      "asset_id": "small_planter_leaf_2"
+    },
+    {
+      "name": "WEB8_small_planter_leaf_2__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Planter_Leaf_3_Pivot",
+      "type": "EMPTY",
+      "asset_id": "small_planter_leaf_3"
+    },
+    {
+      "name": "WEB8_small_planter_leaf_3__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_Planter_Leaf_4_Pivot",
+      "type": "EMPTY",
+      "asset_id": "small_planter_leaf_4"
+    },
+    {
+      "name": "WEB8_small_planter_leaf_4__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FLOOR_VASE_Root",
+      "type": "EMPTY",
+      "asset_id": "black_ceramic_floor_planter"
+    },
+    {
+      "name": "WEB8_black_ceramic_floor_planter__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FloorVase_Leaf_0_Pivot",
+      "type": "EMPTY",
+      "asset_id": "floor_vase_leaf_0"
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_0__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FloorVase_Leaf_1_Pivot",
+      "type": "EMPTY",
+      "asset_id": "floor_vase_leaf_1"
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_1__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FloorVase_Leaf_2_Pivot",
+      "type": "EMPTY",
+      "asset_id": "floor_vase_leaf_2"
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_2__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FloorVase_Leaf_3_Pivot",
+      "type": "EMPTY",
+      "asset_id": "floor_vase_leaf_3"
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_3__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FloorVase_Leaf_4_Pivot",
+      "type": "EMPTY",
+      "asset_id": "floor_vase_leaf_4"
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_4__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FloorVase_Leaf_5_Pivot",
+      "type": "EMPTY",
+      "asset_id": "floor_vase_leaf_5"
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_5__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_D_FloorVase_Leaf_6_Pivot",
+      "type": "EMPTY",
+      "asset_id": "floor_vase_leaf_6"
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_6__baked__A3",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_ORBITAL_CLOCK_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_orbital_clock"
+    },
+    {
+      "name": "WEB8_v5_orbital_clock__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_CLOCK_DIAL_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_clock_dial"
+    },
+    {
+      "name": "WEB8_v5_clock_dial__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_PROJECTOR_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_portable_projector"
+    },
+    {
+      "name": "WEB8_v5_portable_projector__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_PROJECTOR_LENS_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_projector_lens"
+    },
+    {
+      "name": "WEB8_v5_projector_lens__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_PEN_DOCK_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_magnetic_pen_dock"
+    },
+    {
+      "name": "WEB8_v5_magnetic_pen_dock__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_MAGNETIC_STYLUS_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_magnetic_stylus"
+    },
+    {
+      "name": "WEB8_v5_magnetic_stylus__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_MODULAR_CASES_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_modular_equipment_cases"
+    },
+    {
+      "name": "WEB8_v5_modular_equipment_cases__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_UPPER_CASE_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_upper_equipment_case"
+    },
+    {
+      "name": "WEB8_v5_upper_equipment_case__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_GEOMETRIC_LAMP_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_geometric_floor_lamp"
+    },
+    {
+      "name": "WEB8_v5_geometric_floor_lamp__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_LAMP_HEAD_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_floor_lamp_head"
+    },
+    {
+      "name": "WEB8_v5_floor_lamp_head__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_CAPSULE_RACK_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_energy_capsule_rack"
+    },
+    {
+      "name": "WEB8_v5_energy_capsule_rack__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_ENERGY_CAPSULE_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_energy_capsule"
+    },
+    {
+      "name": "WEB8_v5_energy_capsule__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_MECHANICAL_PANEL_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_mechanical_data_panel"
+    },
+    {
+      "name": "WEB8_v5_mechanical_data_panel__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_DATA_SELECTOR_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_data_panel_selector"
+    },
+    {
+      "name": "WEB8_v5_data_panel_selector__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_SCOUT_DISPLAY_Root",
+      "type": "EMPTY",
+      "asset_id": "v5_scout_drone_display"
+    },
+    {
+      "name": "WEB8_v5_scout_drone_display__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_V5_SCOUT_DRONE_Pivot",
+      "type": "EMPTY",
+      "asset_id": "v5_scout_drone"
+    },
+    {
+      "name": "WEB8_v5_scout_drone__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_EXT6_ORBITAL_DOCK_Root",
+      "type": "EMPTY",
+      "asset_id": "environment.orbital_dock"
+    },
+    {
+      "name": "WEB8_environment.orbital_dock__baked__A5",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_WG7_WARM_GALLERY_Root",
+      "type": "EMPTY",
+      "asset_id": "environment.warm_gallery"
+    },
+    {
+      "name": "WEB8_environment.warm_gallery__baked__A6",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 0",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 1",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 2",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 3",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 4",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 5",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 6",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 7",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 8",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 9",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 10",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 11",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 12",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 13",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 14",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_Gallery warm practical 15",
+      "type": "LIGHT",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_IW8_DeskPetal_Root",
+      "type": "EMPTY",
+      "asset_id": "v8_desk_glow_lamp"
+    },
+    {
+      "name": "WEB8_v8_desk_glow_lamp__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_IW8_WindowUndershelf_Root",
+      "type": "EMPTY",
+      "asset_id": "v8_window_light_bar"
+    },
+    {
+      "name": "WEB8_v8_window_light_bar__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    },
+    {
+      "name": "WEB8_IW8_ReadingPuck_Root",
+      "type": "EMPTY",
+      "asset_id": "v8_reading_puck"
+    },
+    {
+      "name": "WEB8_v8_reading_puck__baked__A4",
+      "type": "MESH",
+      "asset_id": null
+    }
+  ],
+  "hiddenObjectCount": 220,
+  "lighting": {
+    "worldLinearColor": [
+      0.36,
+      0.44,
+      0.55
+    ],
+    "worldStrength": 0.8,
+    "lights": [
+      {
+        "name": "INTRO_CLEAN_V16_Key",
+        "type": "AREA",
+        "location": [
+          -4,
+          -4,
+          8
+        ],
+        "target": [
+          0,
+          0,
+          1.2
+        ],
+        "watts": 1500,
+        "diameter": 10,
+        "colorLinear": [
+          0.85,
+          0.92,
+          1
+        ]
+      },
+      {
+        "name": "INTRO_CLEAN_V16_Fill",
+        "type": "AREA",
+        "location": [
+          6,
+          -2,
+          5
+        ],
+        "target": [
+          0,
+          0,
+          1.2
+        ],
+        "watts": 650,
+        "diameter": 9,
+        "colorLinear": [
+          0.72,
+          0.85,
+          1
+        ]
+      },
+      {
+        "name": "INTRO_CLEAN_V16_Rear",
+        "type": "AREA",
+        "location": [
+          0,
+          5,
+          7
+        ],
+        "target": [
+          0,
+          0,
+          1.5
+        ],
+        "watts": 1000,
+        "diameter": 9,
+        "colorLinear": [
+          1,
+          0.93,
+          0.84
+        ]
+      }
+    ],
+    "sunCount": 0,
+    "receiverShadowRays": false,
+    "reason": "Merged static architecture atlases include hardware, so disabling receiver shadow-ray visibility prevents ghost silhouettes from any not-yet-present furniture/metal hardware; PBR normal/roughness/metallic response and soft physical reflections remain."
+  },
+  "materials": [
+    {
+      "name": "WEB8_BAKE_A0_MAT_Warm_White",
+      "baseColor": [
+        0.949999988079071,
+        0.699999988079071,
+        0.38999998569488525,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.30000001192092896,
+      "baseColorLinked": false,
+      "roughnessLinked": false,
+      "originalEmissionStrength": 3.0,
+      "introEmissionStrength": 0.6000000238418579
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Optical_White",
+      "baseColor": [
+        0.550000011920929,
+        0.8500000238418579,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.23000000417232513,
+      "baseColorLinked": false,
+      "roughnessLinked": false,
+      "originalEmissionStrength": 2.200000047683716,
+      "introEmissionStrength": 0.4399999976158142
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Satin_Titanium",
+      "baseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ],
+      "metallic": 0.9399999976158142,
+      "roughness": 0.5,
+      "baseColorLinked": false,
+      "roughnessLinked": true,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Titanium_Floor",
+      "baseColor": [
+        0.07500000298023224,
+        0.09000000357627869,
+        0.11500000208616257,
+        1.0
+      ],
+      "metallic": 0.6600000262260437,
+      "roughness": 0.5,
+      "baseColorLinked": false,
+      "roughnessLinked": true,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Optical_Black",
+      "baseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ],
+      "metallic": 0.4000000059604645,
+      "roughness": 0.18000000715255737,
+      "baseColorLinked": false,
+      "roughnessLinked": false,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Graphite_Enamel",
+      "baseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ],
+      "metallic": 0.550000011920929,
+      "roughness": 0.5,
+      "baseColorLinked": false,
+      "roughnessLinked": true,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Optical_White",
+      "baseColor": [
+        0.550000011920929,
+        0.8500000238418579,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.23000000417232513,
+      "baseColorLinked": false,
+      "roughnessLinked": false,
+      "originalEmissionStrength": 2.200000047683716,
+      "introEmissionStrength": 0.4399999976158142
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Satin_Titanium",
+      "baseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ],
+      "metallic": 0.9399999976158142,
+      "roughness": 0.5,
+      "baseColorLinked": false,
+      "roughnessLinked": true,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Graphite_Enamel",
+      "baseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ],
+      "metallic": 0.550000011920929,
+      "roughness": 0.5,
+      "baseColorLinked": false,
+      "roughnessLinked": true,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Warm_White",
+      "baseColor": [
+        0.949999988079071,
+        0.699999988079071,
+        0.38999998569488525,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.30000001192092896,
+      "baseColorLinked": false,
+      "roughnessLinked": false,
+      "originalEmissionStrength": 3.0,
+      "introEmissionStrength": 0.6000000238418579
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Titanium_Floor",
+      "baseColor": [
+        0.07500000298023224,
+        0.09000000357627869,
+        0.11500000208616257,
+        1.0
+      ],
+      "metallic": 0.6600000262260437,
+      "roughness": 0.5,
+      "baseColorLinked": false,
+      "roughnessLinked": true,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Optical_Black",
+      "baseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ],
+      "metallic": 0.4000000059604645,
+      "roughness": 0.18000000715255737,
+      "baseColorLinked": false,
+      "roughnessLinked": false,
+      "originalEmissionStrength": 0.0,
+      "introEmissionStrength": 0.0
+    }
+  ],
+  "bake": {
+    "engine": "CYCLES",
+    "device": "GPU",
+    "samples": 96,
+    "type": "COMBINED",
+    "passes": [
+      "DIRECT",
+      "INDIRECT",
+      "COLOR",
+      "DIFFUSE",
+      "GLOSSY",
+      "EMIT"
+    ],
+    "marginPixels": 16,
+    "imageColorMode": "RGB",
+    "imageBitDepth": 8,
+    "viewTransform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.15000000596046448
+  },
+  "atlases": [
+    {
+      "atlas": 0,
+      "state": "day",
+      "path": "public/textures/intro-clean-v16/day-0.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "bytes": 4352804,
+      "sha256": "e01da8ea51d1ec398c0885d8655277e0cfef04309e20cc676479ad6b07005017",
+      "bakeSeconds": 76.65
+    },
+    {
+      "atlas": 8,
+      "state": "day",
+      "path": "public/textures/intro-clean-v16/day-8.png",
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "bytes": 4309318,
+      "sha256": "30aa21acfa8333f650409b618e3afb38cf017aa9462f05286efe1b7b1f3b2cf8",
+      "bakeSeconds": 46.36
+    }
+  ],
+  "protectedFilesBefore": {
+    "assets/blender/orbital-dual-bake-v16.blend": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+    "assets/blender/orbital-atelier-v15.blend": "ee353085b7f0004ced816f5b681b43c295210a41998c87af5467df89705a9ef2",
+    "public/models/orbital-atelier-v15.glb": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15",
+    "public/models/orbital-atelier-v15-compressed.glb": "3787d233559af32f2e3ababb21b71c56c5805e7c7f2e286f87634efe8cd6bffd",
+    "LICENSE.md": "d5a2f3bada492ced1c2514dad4a7de4c8f62f3c73da7ba961e692621fa33cc51",
+    "public/textures/lighting-v15/day-0.ktx2": "70f196ae1b662a606aa5314b33ed3333cc893485a6eafb74a51534fb8aab6343",
+    "public/textures/lighting-v15/day-0.png": "41011f1e5c30ae690ee3dcd3958b8ac4e6cfa210067a3f6c1d3568d6b2384012",
+    "public/textures/lighting-v15/day-1.ktx2": "cb09037ae5ee7140a1327c642caf714ff0c94bf07afc1dc493a4cd79295f4462",
+    "public/textures/lighting-v15/day-1.png": "2e8a994bc1007fecbd94f15a9136cc56f405985fe4deda81097fddab12670504",
+    "public/textures/lighting-v15/day-10.ktx2": "c0c50518195a5f089d13d7be94ff0b28afe7bd06850121fdcb704aee5f6584b8",
+    "public/textures/lighting-v15/day-10.png": "a4949729f75be1905d0edfcaa62665a27d1dd430a23a93689e9165236015b8be",
+    "public/textures/lighting-v15/day-11.ktx2": "b367c57920f0b93ecc42988bd67701c7d34476261db0535fa951a018c647589b",
+    "public/textures/lighting-v15/day-11.png": "e089640e9dc8d0cfc0e079210ab4b1c3a4dca18da9cb49a0e384e325291ba1cd",
+    "public/textures/lighting-v15/day-2.ktx2": "ab43474f598aa4947846e4dbe9a5aa3f34d494a0d15cb03f6ed53be6a53e72da",
+    "public/textures/lighting-v15/day-2.png": "1c0e5bf8394f55857c432c8b800117990b4590791b22e30feb04e61e7669ad77",
+    "public/textures/lighting-v15/day-3.ktx2": "cafc770f1a74cc235bc84562345b6fe1458fc26f5de6288fa875f1ef6e864fc4",
+    "public/textures/lighting-v15/day-3.png": "f8f7736612448ed00c618a626b167d8bd56e91d17f3bbfb7976348657834fc92",
+    "public/textures/lighting-v15/day-4.ktx2": "c09117ecc63ba3e5a2a1ca85012a148bf0246cabb1ee5abf1b6ca0cde43fe0e1",
+    "public/textures/lighting-v15/day-4.png": "f185b1ad89bcadb1b59807c4a40288dc26dfc3933a98aadf38f477a39c9b5c5d",
+    "public/textures/lighting-v15/day-5.ktx2": "903f6d4f418818184c0a925ce333efb2bb2a336054e5cfb1960e9db73a9f8af8",
+    "public/textures/lighting-v15/day-5.png": "8c74d66a846d0022d9544787e0a35c5fd6b7cc365d5cfe027853d09203fafabb",
+    "public/textures/lighting-v15/day-6.ktx2": "7bb217e1f3570edf6e3828298beab7805d9c3254ebe2561c35eaf04f1d529408",
+    "public/textures/lighting-v15/day-6.png": "dd2fe72093ca2a863bd523c38c92323600e6bd912a1949f786a70b2e2041b903",
+    "public/textures/lighting-v15/day-7.ktx2": "581f68593b9fa672855834862aa5d9c489713db8b2d64b633a219565aaa1a8f1",
+    "public/textures/lighting-v15/day-7.png": "967f0097db7dd9da895c8b57508d84634a7e3fcc773194b81e580bbdd2b4f79e",
+    "public/textures/lighting-v15/day-8.ktx2": "645831db2448e4d737e0ce6d072d251a6bb3e9ecc542d91dc44aa14feae5f031",
+    "public/textures/lighting-v15/day-8.png": "09f9f5c9e6b5cf73c8b753de2025fede1e41ce69df8ca4c3c3675266db40349b",
+    "public/textures/lighting-v15/day-9.ktx2": "d820dd71ddf0a0a19f7f22224edf56ba262735360c7b1022f3e96b4f9329faba",
+    "public/textures/lighting-v15/day-9.png": "fe0c1871b1e5d038bc2399d9258b3a92fa72174a40ebfaa844c6f87e02cddf02",
+    "public/textures/lighting-v15/day-v15-architecture-manifest.json": "731f4530c0fd002c98be53380b5dbfb2c54d2be1cb220b76bdda7a35f9930942",
+    "public/textures/lighting-v15/day-v15-chair-manifest.json": "5e574ea62b70179fc4bc7a8e24868051b9aac2efbb14dfdd4ca43610819ccb8e",
+    "public/textures/lighting-v15/day-v15-desk-retained-manifest.json": "7e64e8a5e5419e7c239a2b1609d8c2f6a119e25d2710b982fc50dc39f42f596e",
+    "public/textures/lighting-v15/day-v15-manifest.json": "ca29c29d5b3ef96b0c7c628b3633a76df737b3c67e1d6bb506c09d8ace0dfee0",
+    "public/textures/lighting-v15/day-window.ktx2": "fcff9b5690ecd856882dd2861e8fde8676375bd72ac1de3fa17c76ceb5c88b1e",
+    "public/textures/lighting-v15/night-0.ktx2": "c02216181cc8f22f2a29fd36754182b5f658e387913f45b6a234fb59c5b375c0",
+    "public/textures/lighting-v15/night-0.png": "869acc1fb01e250553ed4925f83b871dd4e157187984465fd70e22d99882d16a",
+    "public/textures/lighting-v15/night-1.ktx2": "f77971fe93ebc7572000a0f5005a46cdcbdd094c233f60c35a2641a3b8a2c222",
+    "public/textures/lighting-v15/night-1.png": "ade804d2d5417b8360602d2273c4b8e3e35cdc32d8b57c06609778db3e92e885",
+    "public/textures/lighting-v15/night-10.ktx2": "1010bcb6fddb8abb73a32c1f47c653b5d146f18a0ea306a8c9e16dd6af499344",
+    "public/textures/lighting-v15/night-10.png": "3651abc63d84e0bd042743483d488f5a85375f2c46bab56364d89dcf6834471f",
+    "public/textures/lighting-v15/night-11.ktx2": "c7d9b1b575a2b4632aedf54bb50f9c9e6aba73f0fff571441e9c1cb053bef39d",
+    "public/textures/lighting-v15/night-11.png": "aa28e308fa9402cfc48734d35d491706ae1b0b661021fc9cc356579ea02a6861",
+    "public/textures/lighting-v15/night-2.ktx2": "188d4756ccc8c7ed6700fb45fda4a0b4df57d7bdbef2fe9c3b4e000134f91a80",
+    "public/textures/lighting-v15/night-2.png": "67aaa6b71d829a669d92e14bda62e015e953202054a89ecf791e924918b061de",
+    "public/textures/lighting-v15/night-3.ktx2": "c0e835a0c5fc78de11f3f6b0768cd8315e7dc113dc38a847e5ed4d3c559b207b",
+    "public/textures/lighting-v15/night-3.png": "42e006aa6dddb8f00c4064e4955440ad13f733d255719259623ed116df5cde67",
+    "public/textures/lighting-v15/night-4.ktx2": "1326d1a1a7031d216a8777a9dbfcab483c214d9b3e12d29057465cd1badde894",
+    "public/textures/lighting-v15/night-4.png": "8f579815017cf8f414d15207c5da2fce7fd822914bf5eb90b64df4e727cacdf5",
+    "public/textures/lighting-v15/night-5.ktx2": "45cd02c9c50fc6c1722038dfbe3301c9c7180575530fc042faa2130fa3927465",
+    "public/textures/lighting-v15/night-5.png": "2a67d7469e724bf761ce9996ba62d81b83d665aed49a04848382d2e0830bf94a",
+    "public/textures/lighting-v15/night-6.ktx2": "d55ed6d4886678435ef95444c2dbdfcfbf165facd564df9624324c4224c40859",
+    "public/textures/lighting-v15/night-6.png": "144b95907137c45846c7aa78a0a7702c2152aa2f5c825e5896be7f2c63f8f60a",
+    "public/textures/lighting-v15/night-7.ktx2": "2186a61a745a8e64b5fe2ebbaee1a73c5f5365588124be4a0648bc71f1af1fb9",
+    "public/textures/lighting-v15/night-7.png": "0b39b9e71d666861caa9a5d48ad8194b23b413ae183d412d5a7193794f447603",
+    "public/textures/lighting-v15/night-8.ktx2": "76afe75d637766790d125cfe772488f69ba157fee72353a97a5952837caef280",
+    "public/textures/lighting-v15/night-8.png": "dc73575db5ecb47a7d5820867f415f7d94cfd9373a34197620f2f283a7874d27",
+    "public/textures/lighting-v15/night-9.ktx2": "4d520007054ddeeac5440cdba70f7979077495fd4c0b3dce129b5f8452b33ca9",
+    "public/textures/lighting-v15/night-9.png": "b9a9840370f8a0f7b5292d526606b23ba460d475f36a4ca5cb9fbc53ee45f983",
+    "public/textures/lighting-v15/night-v15-architecture-manifest.json": "bfdf9f813535ba50cd5df70eac4fe06c8d008a8092d998df746075d59de94011",
+    "public/textures/lighting-v15/night-v15-chair-manifest.json": "e6da4f64adcda687c436ab0d8874815ecef3c578bdef75bcf92635fd87069338",
+    "public/textures/lighting-v15/night-v15-desk-retained-manifest.json": "fd61e634cf94803a0cafb2f10d027a37088fd073c38c50c80aeac07073374478",
+    "public/textures/lighting-v15/night-v15-manifest.json": "20929dd031b626be5235fba3d9fb81b1385cab3f9233997a88a04feecce1b848",
+    "public/textures/lighting-v15/night-window.ktx2": "2ebc2758aedf310430c2e406d34b5c45ea623eefcbbfd0c68c942544185e02d1",
+    "public/textures/lighting-v15/screen-art-render.png": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+    "public/textures/lighting-v15/screen-v15-manifest.json": "90ee2596f1f23dc8c475e3651b60db905f783bfc9e32a7723c83725c27091675",
+    "public/textures/lighting-v15/static-screen.ktx2": "67c99d974e2454c3e3920c27505bb2e7170c4aada5e6346afe34f2d647b9edb8",
+    "public/textures/lighting-v15/window-day.png": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968",
+    "public/textures/lighting-v15/window-night.png": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf",
+    "public/textures/lighting-v15/window-v15-manifest.json": "48381b874ad5053a091c07f3aba80c912db606179260d6b99c41542164800bf2",
+    "public/textures/intro-clean-v1/SOURCE.json": "8b1abc2a8f97fc3537384d9bd04dc322310b3e3d3624ea652509723e69dbf78d",
+    "public/textures/intro-clean-v1/atlas-1-SOURCE.json": "bc84d9fe39079fae478171c730fc147251e38e89e482f23984d95477e1f2435a",
+    "public/textures/intro-clean-v1/atlas-1-bake-progress.json": "b61ea0d8a2f591359aaaf0db0a245e6032f8c70c136a6a1b0e402dbc90b752cf",
+    "public/textures/intro-clean-v1/bake-progress.json": "6bca968b890ce53262116c4f90dda40319d931c4e3aa62dbae696f1857f2396a",
+    "public/textures/intro-clean-v1/compression.json": "6793bd1271726d1d920e1a5c05ca1ce8a9c6f4f5b42d43b0241bbb62ebba2cfb",
+    "public/textures/intro-clean-v1/day-0.ktx2": "9184484727bdf8c4d5fa6e46ee1aec649eb8f82289b6185fbd1c70c65b2cb14f",
+    "public/textures/intro-clean-v1/day-0.png": "adec125584be52482a74ec9d4069b5e8771308cbdcf1fe44fcb8f089f23b4eae",
+    "public/textures/intro-clean-v1/day-1.ktx2": "46fa3b7558f34aeb71a8a8883fadbbaf493b92c8a9bb4a2f68f8539e64a135ec",
+    "public/textures/intro-clean-v1/day-1.png": "f20a996f788ec240811331a9a1ecf453ec3fbdae651073f3f5af7a714943d7ca",
+    "public/textures/intro-clean-v1/day-8.ktx2": "5703d1e8ae6c91af21cb7039cd85cfea9d917524c400000ec0196f0d15d376b7",
+    "public/textures/intro-clean-v1/day-8.png": "2f97469c947fc7c3e66b0b3a926f071a3828a276157b5d82d0ba8396f4f3ef4c",
+    "public/textures/intro-clean-v1/validation.json": "896a225a1e0db3c0df03acc732939ab80337b5948739ae54cad08220636b82ba"
+  },
+  "complete": true,
+  "sourceSaved": false,
+  "receiverPreview": {
+    "path": "renders/intro-clean-v16/receiver-preview.png",
+    "sha256": "43d7d4076425b7ab16b171719d492d6bc57e1dff9ab987314d363d7e6a788c8f",
+    "bytes": 1357380,
+    "method": "Actual Cycles render of the receiver-only original PBR setup; not AI-generated and not an atlas repaint."
+  },
+  "protectedFilesAfter": {
+    "assets/blender/orbital-dual-bake-v16.blend": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+    "assets/blender/orbital-atelier-v15.blend": "ee353085b7f0004ced816f5b681b43c295210a41998c87af5467df89705a9ef2",
+    "public/models/orbital-atelier-v15.glb": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15",
+    "public/models/orbital-atelier-v15-compressed.glb": "3787d233559af32f2e3ababb21b71c56c5805e7c7f2e286f87634efe8cd6bffd",
+    "LICENSE.md": "d5a2f3bada492ced1c2514dad4a7de4c8f62f3c73da7ba961e692621fa33cc51",
+    "public/textures/lighting-v15/day-0.ktx2": "70f196ae1b662a606aa5314b33ed3333cc893485a6eafb74a51534fb8aab6343",
+    "public/textures/lighting-v15/day-0.png": "41011f1e5c30ae690ee3dcd3958b8ac4e6cfa210067a3f6c1d3568d6b2384012",
+    "public/textures/lighting-v15/day-1.ktx2": "cb09037ae5ee7140a1327c642caf714ff0c94bf07afc1dc493a4cd79295f4462",
+    "public/textures/lighting-v15/day-1.png": "2e8a994bc1007fecbd94f15a9136cc56f405985fe4deda81097fddab12670504",
+    "public/textures/lighting-v15/day-10.ktx2": "c0c50518195a5f089d13d7be94ff0b28afe7bd06850121fdcb704aee5f6584b8",
+    "public/textures/lighting-v15/day-10.png": "a4949729f75be1905d0edfcaa62665a27d1dd430a23a93689e9165236015b8be",
+    "public/textures/lighting-v15/day-11.ktx2": "b367c57920f0b93ecc42988bd67701c7d34476261db0535fa951a018c647589b",
+    "public/textures/lighting-v15/day-11.png": "e089640e9dc8d0cfc0e079210ab4b1c3a4dca18da9cb49a0e384e325291ba1cd",
+    "public/textures/lighting-v15/day-2.ktx2": "ab43474f598aa4947846e4dbe9a5aa3f34d494a0d15cb03f6ed53be6a53e72da",
+    "public/textures/lighting-v15/day-2.png": "1c0e5bf8394f55857c432c8b800117990b4590791b22e30feb04e61e7669ad77",
+    "public/textures/lighting-v15/day-3.ktx2": "cafc770f1a74cc235bc84562345b6fe1458fc26f5de6288fa875f1ef6e864fc4",
+    "public/textures/lighting-v15/day-3.png": "f8f7736612448ed00c618a626b167d8bd56e91d17f3bbfb7976348657834fc92",
+    "public/textures/lighting-v15/day-4.ktx2": "c09117ecc63ba3e5a2a1ca85012a148bf0246cabb1ee5abf1b6ca0cde43fe0e1",
+    "public/textures/lighting-v15/day-4.png": "f185b1ad89bcadb1b59807c4a40288dc26dfc3933a98aadf38f477a39c9b5c5d",
+    "public/textures/lighting-v15/day-5.ktx2": "903f6d4f418818184c0a925ce333efb2bb2a336054e5cfb1960e9db73a9f8af8",
+    "public/textures/lighting-v15/day-5.png": "8c74d66a846d0022d9544787e0a35c5fd6b7cc365d5cfe027853d09203fafabb",
+    "public/textures/lighting-v15/day-6.ktx2": "7bb217e1f3570edf6e3828298beab7805d9c3254ebe2561c35eaf04f1d529408",
+    "public/textures/lighting-v15/day-6.png": "dd2fe72093ca2a863bd523c38c92323600e6bd912a1949f786a70b2e2041b903",
+    "public/textures/lighting-v15/day-7.ktx2": "581f68593b9fa672855834862aa5d9c489713db8b2d64b633a219565aaa1a8f1",
+    "public/textures/lighting-v15/day-7.png": "967f0097db7dd9da895c8b57508d84634a7e3fcc773194b81e580bbdd2b4f79e",
+    "public/textures/lighting-v15/day-8.ktx2": "645831db2448e4d737e0ce6d072d251a6bb3e9ecc542d91dc44aa14feae5f031",
+    "public/textures/lighting-v15/day-8.png": "09f9f5c9e6b5cf73c8b753de2025fede1e41ce69df8ca4c3c3675266db40349b",
+    "public/textures/lighting-v15/day-9.ktx2": "d820dd71ddf0a0a19f7f22224edf56ba262735360c7b1022f3e96b4f9329faba",
+    "public/textures/lighting-v15/day-9.png": "fe0c1871b1e5d038bc2399d9258b3a92fa72174a40ebfaa844c6f87e02cddf02",
+    "public/textures/lighting-v15/day-v15-architecture-manifest.json": "731f4530c0fd002c98be53380b5dbfb2c54d2be1cb220b76bdda7a35f9930942",
+    "public/textures/lighting-v15/day-v15-chair-manifest.json": "5e574ea62b70179fc4bc7a8e24868051b9aac2efbb14dfdd4ca43610819ccb8e",
+    "public/textures/lighting-v15/day-v15-desk-retained-manifest.json": "7e64e8a5e5419e7c239a2b1609d8c2f6a119e25d2710b982fc50dc39f42f596e",
+    "public/textures/lighting-v15/day-v15-manifest.json": "ca29c29d5b3ef96b0c7c628b3633a76df737b3c67e1d6bb506c09d8ace0dfee0",
+    "public/textures/lighting-v15/day-window.ktx2": "fcff9b5690ecd856882dd2861e8fde8676375bd72ac1de3fa17c76ceb5c88b1e",
+    "public/textures/lighting-v15/night-0.ktx2": "c02216181cc8f22f2a29fd36754182b5f658e387913f45b6a234fb59c5b375c0",
+    "public/textures/lighting-v15/night-0.png": "869acc1fb01e250553ed4925f83b871dd4e157187984465fd70e22d99882d16a",
+    "public/textures/lighting-v15/night-1.ktx2": "f77971fe93ebc7572000a0f5005a46cdcbdd094c233f60c35a2641a3b8a2c222",
+    "public/textures/lighting-v15/night-1.png": "ade804d2d5417b8360602d2273c4b8e3e35cdc32d8b57c06609778db3e92e885",
+    "public/textures/lighting-v15/night-10.ktx2": "1010bcb6fddb8abb73a32c1f47c653b5d146f18a0ea306a8c9e16dd6af499344",
+    "public/textures/lighting-v15/night-10.png": "3651abc63d84e0bd042743483d488f5a85375f2c46bab56364d89dcf6834471f",
+    "public/textures/lighting-v15/night-11.ktx2": "c7d9b1b575a2b4632aedf54bb50f9c9e6aba73f0fff571441e9c1cb053bef39d",
+    "public/textures/lighting-v15/night-11.png": "aa28e308fa9402cfc48734d35d491706ae1b0b661021fc9cc356579ea02a6861",
+    "public/textures/lighting-v15/night-2.ktx2": "188d4756ccc8c7ed6700fb45fda4a0b4df57d7bdbef2fe9c3b4e000134f91a80",
+    "public/textures/lighting-v15/night-2.png": "67aaa6b71d829a669d92e14bda62e015e953202054a89ecf791e924918b061de",
+    "public/textures/lighting-v15/night-3.ktx2": "c0e835a0c5fc78de11f3f6b0768cd8315e7dc113dc38a847e5ed4d3c559b207b",
+    "public/textures/lighting-v15/night-3.png": "42e006aa6dddb8f00c4064e4955440ad13f733d255719259623ed116df5cde67",
+    "public/textures/lighting-v15/night-4.ktx2": "1326d1a1a7031d216a8777a9dbfcab483c214d9b3e12d29057465cd1badde894",
+    "public/textures/lighting-v15/night-4.png": "8f579815017cf8f414d15207c5da2fce7fd822914bf5eb90b64df4e727cacdf5",
+    "public/textures/lighting-v15/night-5.ktx2": "45cd02c9c50fc6c1722038dfbe3301c9c7180575530fc042faa2130fa3927465",
+    "public/textures/lighting-v15/night-5.png": "2a67d7469e724bf761ce9996ba62d81b83d665aed49a04848382d2e0830bf94a",
+    "public/textures/lighting-v15/night-6.ktx2": "d55ed6d4886678435ef95444c2dbdfcfbf165facd564df9624324c4224c40859",
+    "public/textures/lighting-v15/night-6.png": "144b95907137c45846c7aa78a0a7702c2152aa2f5c825e5896be7f2c63f8f60a",
+    "public/textures/lighting-v15/night-7.ktx2": "2186a61a745a8e64b5fe2ebbaee1a73c5f5365588124be4a0648bc71f1af1fb9",
+    "public/textures/lighting-v15/night-7.png": "0b39b9e71d666861caa9a5d48ad8194b23b413ae183d412d5a7193794f447603",
+    "public/textures/lighting-v15/night-8.ktx2": "76afe75d637766790d125cfe772488f69ba157fee72353a97a5952837caef280",
+    "public/textures/lighting-v15/night-8.png": "dc73575db5ecb47a7d5820867f415f7d94cfd9373a34197620f2f283a7874d27",
+    "public/textures/lighting-v15/night-9.ktx2": "4d520007054ddeeac5440cdba70f7979077495fd4c0b3dce129b5f8452b33ca9",
+    "public/textures/lighting-v15/night-9.png": "b9a9840370f8a0f7b5292d526606b23ba460d475f36a4ca5cb9fbc53ee45f983",
+    "public/textures/lighting-v15/night-v15-architecture-manifest.json": "bfdf9f813535ba50cd5df70eac4fe06c8d008a8092d998df746075d59de94011",
+    "public/textures/lighting-v15/night-v15-chair-manifest.json": "e6da4f64adcda687c436ab0d8874815ecef3c578bdef75bcf92635fd87069338",
+    "public/textures/lighting-v15/night-v15-desk-retained-manifest.json": "fd61e634cf94803a0cafb2f10d027a37088fd073c38c50c80aeac07073374478",
+    "public/textures/lighting-v15/night-v15-manifest.json": "20929dd031b626be5235fba3d9fb81b1385cab3f9233997a88a04feecce1b848",
+    "public/textures/lighting-v15/night-window.ktx2": "2ebc2758aedf310430c2e406d34b5c45ea623eefcbbfd0c68c942544185e02d1",
+    "public/textures/lighting-v15/screen-art-render.png": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+    "public/textures/lighting-v15/screen-v15-manifest.json": "90ee2596f1f23dc8c475e3651b60db905f783bfc9e32a7723c83725c27091675",
+    "public/textures/lighting-v15/static-screen.ktx2": "67c99d974e2454c3e3920c27505bb2e7170c4aada5e6346afe34f2d647b9edb8",
+    "public/textures/lighting-v15/window-day.png": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968",
+    "public/textures/lighting-v15/window-night.png": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf",
+    "public/textures/lighting-v15/window-v15-manifest.json": "48381b874ad5053a091c07f3aba80c912db606179260d6b99c41542164800bf2",
+    "public/textures/intro-clean-v1/SOURCE.json": "8b1abc2a8f97fc3537384d9bd04dc322310b3e3d3624ea652509723e69dbf78d",
+    "public/textures/intro-clean-v1/atlas-1-SOURCE.json": "bc84d9fe39079fae478171c730fc147251e38e89e482f23984d95477e1f2435a",
+    "public/textures/intro-clean-v1/atlas-1-bake-progress.json": "b61ea0d8a2f591359aaaf0db0a245e6032f8c70c136a6a1b0e402dbc90b752cf",
+    "public/textures/intro-clean-v1/bake-progress.json": "6bca968b890ce53262116c4f90dda40319d931c4e3aa62dbae696f1857f2396a",
+    "public/textures/intro-clean-v1/compression.json": "6793bd1271726d1d920e1a5c05ca1ce8a9c6f4f5b42d43b0241bbb62ebba2cfb",
+    "public/textures/intro-clean-v1/day-0.ktx2": "9184484727bdf8c4d5fa6e46ee1aec649eb8f82289b6185fbd1c70c65b2cb14f",
+    "public/textures/intro-clean-v1/day-0.png": "adec125584be52482a74ec9d4069b5e8771308cbdcf1fe44fcb8f089f23b4eae",
+    "public/textures/intro-clean-v1/day-1.ktx2": "46fa3b7558f34aeb71a8a8883fadbbaf493b92c8a9bb4a2f68f8539e64a135ec",
+    "public/textures/intro-clean-v1/day-1.png": "f20a996f788ec240811331a9a1ecf453ec3fbdae651073f3f5af7a714943d7ca",
+    "public/textures/intro-clean-v1/day-8.ktx2": "5703d1e8ae6c91af21cb7039cd85cfea9d917524c400000ec0196f0d15d376b7",
+    "public/textures/intro-clean-v1/day-8.png": "2f97469c947fc7c3e66b0b3a926f071a3828a276157b5d82d0ba8396f4f3ef4c",
+    "public/textures/intro-clean-v1/validation.json": "896a225a1e0db3c0df03acc732939ab80337b5948739ae54cad08220636b82ba"
+  },
+  "protectedFilesUnchanged": true,
+  "seconds": 142.15
+}
