@@ -1,0 +1,37 @@
+{
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/works-gallery-v6/day-2.png",
+  "sha256": "7292a8a1dcc651f520010d6806fa859f4271ef7c1a54c214968113e3a8c180d5",
+  "bytes": 3698472,
+  "dimensions": [
+    4096,
+    4096
+  ],
+  "colorSpace": "NoColorSpace / linear data",
+  "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+  "channels": 4,
+  "encoding": "RGBM32",
+  "decode": "32 * rgb * alpha",
+  "range": 32,
+  "sourceRadianceMaximum": 2.552785873413086,
+  "valuesAboveRangeFraction": 0.0,
+  "negativeInputFraction": 0.0,
+  "quantizationMAE": 4.2188203224213794e-05,
+  "quantizationMaxError": 0.005124568939208984,
+  "alphaIsMultiplier": true,
+  "slot": 2,
+  "state": "day",
+  "engine": "CYCLES",
+  "samples": 64,
+  "passFilter": [
+    "DIRECT",
+    "INDIRECT",
+    "COLOR",
+    "DIFFUSE",
+    "EMIT"
+  ],
+  "glossyExcluded": true,
+  "geometryUvNormalsUnchanged": true,
+  "seconds": 53.75,
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/works-gallery-bake-v6.blend",
+  "sourceSha256": "5c79709604e3b7436cd782862cdaca6f3e775936905bffe1ad298ad7eb9b390f"
+}
