@@ -1,0 +1,77 @@
+{
+  "state": "night",
+  "atlases": [
+    {
+      "atlas": 9,
+      "path": "public/textures/lighting-v15/night-9.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "bytes": 6278511,
+      "sha256": "b9a9840370f8a0f7b5292d526606b23ba460d475f36a4ca5cb9fbc53ee45f983",
+      "preparedSha256": "d53d3f4ed77ae411ab019dd47eaa555000af4b93f7fafba1814baf156fcaa87e",
+      "preparedSnapshot": "assets/blender/orbital-dual-bake-v15-props-snapshot.blend",
+      "windowGeometry": "Completed before window-aperture correction. Retained; adjacent window props and architectural receivers separately rebaked from corrected source."
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/lighting-v15/night-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "bytes": 4908621,
+      "sha256": "67aaa6b71d829a669d92e14bda62e015e953202054a89ecf791e924918b061de",
+      "preparedSha256": "d53d3f4ed77ae411ab019dd47eaa555000af4b93f7fafba1814baf156fcaa87e",
+      "preparedSnapshot": "assets/blender/orbital-dual-bake-v15-props-snapshot.blend",
+      "windowGeometry": "Completed before window-aperture correction. Retained; adjacent window props and architectural receivers separately rebaked from corrected source."
+    },
+    {
+      "atlas": 10,
+      "path": "public/textures/lighting-v15/night-10.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "bytes": 5175803,
+      "sha256": "3651abc63d84e0bd042743483d488f5a85375f2c46bab56364d89dcf6834471f",
+      "preparedSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+      "windowGeometry": "Repaired window with 25 cm narrower right edge; corrected daylight aperture."
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/lighting-v15/night-3.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 4168377,
+      "sha256": "42e006aa6dddb8f00c4064e4955440ad13f733d255719259623ed116df5cde67",
+      "preparedSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+      "windowGeometry": "Repaired window with 25 cm narrower right edge; corrected daylight aperture."
+    },
+    {
+      "atlas": 4,
+      "path": "public/textures/lighting-v15/night-4.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 5849216,
+      "sha256": "8f579815017cf8f414d15207c5da2fce7fd822914bf5eb90b64df4e727cacdf5",
+      "preparedSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+      "windowGeometry": "Repaired window with 25 cm narrower right edge; corrected daylight aperture."
+    }
+  ],
+  "seconds": 447.79,
+  "samples": 96,
+  "preparedSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+  "mixedPreparationSnapshots": true,
+  "complete": true
+}

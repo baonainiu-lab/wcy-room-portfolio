@@ -1,0 +1,75 @@
+{
+  "revision": 15,
+  "complete": true,
+  "source": "assets/blender/orbital-atelier-v15.blend",
+  "sourceSha256": "0ba9f8611dcd91bbcdf6224b0be51e187d82078d3554783df20a456d857b7713",
+  "source_scene": "SCREEN_ART",
+  "source_objects": 130,
+  "sourceConfiguration": {
+    "resolution": [
+      1440,
+      600
+    ],
+    "samples": 48,
+    "exposure": -0.20000000298023224,
+    "world": "SCREEN_Black_Studio"
+  },
+  "camera": {
+    "name": "SCREEN_Camera",
+    "type": "ORTHO",
+    "orthographicScale": 9.5,
+    "matrixWorld": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.03569162264466286,
+        -0.9993628263473511,
+        -14.0
+      ],
+      [
+        0.0,
+        0.9993628263473511,
+        0.03569162264466286,
+        0.6000000238418579
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "path": "public/textures/lighting-v15/screen-art-render.png",
+  "resolution": [
+    2880,
+    1200
+  ],
+  "resolutionPercentage": 100,
+  "engine": "CYCLES",
+  "samples": 96,
+  "device": "GPU",
+  "backend": "METAL",
+  "deviceNames": [
+    "Apple M5 (GPU - 10 cores)"
+  ],
+  "viewTransform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": -0.20000000298023224,
+  "resampling": false,
+  "compositionAndLightingUnchanged": true,
+  "originalContent": "The existing orange/ice-blue folded ribbon sculpture, not a new portfolio project",
+  "renderProof": "Actual Cycles render of the original SCREEN_ART scene at 2880x1200, 100%, 96 samples; no source PNG loaded or resampled.",
+  "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+  "bytes": 4040686,
+  "seconds": 21.98,
+  "sourceUnchanged": true,
+  "previousPng": "assets/textures/screen-art-render.png",
+  "previousPngUnchanged": true,
+  "previousPngSha256": "62d931999242d5e62552d7af43c483b8cba0a6f67fdef4e6cd17689ed5b8f08d"
+}
