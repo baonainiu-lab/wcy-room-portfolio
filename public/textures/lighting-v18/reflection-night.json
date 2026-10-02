@@ -1,0 +1,22 @@
+{
+  "state": "night",
+  "path": "public/textures/lighting-v18/reflection-night.hdr",
+  "sha256": "32ecc9d9a3e3b673e72fce811548353208edd86c6738c0670e72be7fc4531c3a",
+  "dimensions": [
+    2048,
+    1024
+  ],
+  "cameraLocation": [
+    0.0,
+    -0.6499999761581421,
+    1.7000000476837158
+  ],
+  "cameraEuler": [
+    1.5707963705062866,
+    0.0,
+    0.0
+  ],
+  "encoding": "scene-linear Radiance HDR",
+  "samples": 64,
+  "sourceSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79"
+}
