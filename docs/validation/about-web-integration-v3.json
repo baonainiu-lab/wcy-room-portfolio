@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-09-30T03:27:48.307Z",
+  "status": "local_integration_browser_verified",
+  "scope": "About Atelier V3 local integration, original architecture restoration and sofa-side book entry",
+  "localIntegrationAuthorization": {
+    "source": "user_message",
+    "quote": "接入到网站",
+    "scope": "About Atelier V3 接入新项目本地网站；不表示离线渲染另行验收通过，不部署。"
+  },
+  "renderApproved": false,
+  "websiteIntegrated": true,
+  "previewURL": "http://127.0.0.1:5173/",
+  "source": {
+    "path": "assets/blender/about-atelier-v3.blend",
+    "sha256": "d7a9ec353e8214201c586e823283259c64f63a99f8284913d8aff94c691a2b40",
+    "unchanged": true
+  },
+  "webAssets": {
+    "model": "public/models/about-atelier-v3-compressed.glb",
+    "bytes": 41100996,
+    "assetIds": 128,
+    "interactiveAssetIds": 127,
+    "triangles": 430574,
+    "atlases": {
+      "count": 4,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "samples": 32,
+      "encoding": "KTX2 UASTC + Zstd; complete mip chains",
+      "bake": "Cycles COMBINED daylight; AgX to sRGB"
+    },
+    "architectureModel": "public/models/about-atelier-v3-architecture.glb",
+    "architecture": {
+      "opaqueSourceObjects": 90,
+      "opaqueMeshes": 1,
+      "glassMeshes": 8,
+      "triangles": 29400,
+      "atlasResolution": [
+        4096,
+        4096
+      ],
+      "newDecorAdded": false,
+      "excludedFromFraming": true,
+      "interactive": false,
+      "revision": "V2 connected pavilion with closed plinth",
+      "bytes": 5960632,
+      "sourceObjects": 98
+    },
+    "landscape": "public/textures/about-atelier-v3/landscape/lake-pier-day.png",
+    "sourceLicensesUnchanged": true,
+    "nightAtlases": {
+      "count": 5,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "samples": 64,
+      "compressedBytes": 12191506,
+      "encoding": "KTX2 UASTC + Zstd",
+      "originalUvsPreserved": true
+    },
+    "nightLandscape": "public/textures/about-atelier-v3/landscape/lake-pier-night.png"
+  },
+  "entry": {
+    "assetId": "notebook",
+    "location": "沙发旁茶几上的书册",
+    "scaleFactor": [
+      1.4,
+      1.2,
+      1.4
+    ],
+    "supportingFolioScaleFactor": [
+      1.34,
+      1.12,
+      1.34
+    ],
+    "replacesRobotPortal": true,
+    "direction": "left",
+    "stageOffsetX": -34,
+    "worksStageOffsetX": 34
+  },
+  "lighting": {
+    "about": "real Cycles day/night bakes + synchronized lake + glass/metal illumination",
+    "sharedClock": true,
+    "cycleSeconds": 60,
+    "sunriseSeconds": 15,
+    "sunsetSeconds": 15,
+    "manualControls": false,
+    "bottomClockVisible": false,
+    "defaultIntroHour": 10,
+    "materialBindings": 127
+  },
+  "validation": {
+    "transition": {
+      "passed": 30,
+      "failed": 0,
+      "report": "docs/validation/gallery-transition-v4.json"
+    },
+    "framing": {
+      "passed": 3,
+      "failed": 0,
+      "viewports": 9,
+      "report": "docs/validation/about-framing-v3.json"
+    },
+    "bookPlacement": {
+      "supportedCorners": 16,
+      "neighborClearancePassed": true,
+      "evidence": "Parent agent actual-geometry check; no separate persisted report supplied."
+    },
+    "architectureReport": "assets/blender/about-atelier-v3-web/architecture-validation-report.json",
+    "landscapeReport": "assets/blender/about-atelier-v3-web/landscape-preview-report.json",
+    "browser": {
+      "finalVisualCheckComplete": true,
+      "status": "verified_local",
+      "viewports": [
+        [
+          824,
+          795
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "observedDayMix": [
+        0,
+        0.001321290629714873,
+        0.08572762120777905,
+        0.22877657999112652,
+        0.8965286202325773,
+        0.9771404301111234,
+        1
+      ],
+      "aboutAndSkyMixEqualClock": true,
+      "compressedNightMaps": 5,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sceneErrors": [],
+      "bookEntryLeft": true,
+      "physicalReturnRestoresRoomControls": true,
+      "robotRetainsOwnInteraction": true,
+      "notes": "Manual browser observations and exposed QA DOM; no GPU benchmark claim. Desktop/mobile framing and actual day/night visuals inspected."
+    },
+    "stable120Verified": false,
+    "nightBakeReport": "assets/blender/about-atelier-v3-web/night-validation.json",
+    "nightPixelsReport": "assets/blender/about-atelier-v3-web/night-pixel-validation.json",
+    "dayNightLifecycleReport": "output/about-daynight-lifecycle-audit.json"
+  },
+  "limits": [
+    "Personal details, actual awards, skills and contacts remain 待补充.",
+    "User visual acceptance remains pending.",
+    "Automated camera and geometry checks do not prove every possible view.",
+    "No stable 120 FPS claim."
+  ],
+  "localOnly": true,
+  "deployed": false,
+  "legacyProjectModified": false,
+  "historicOfflineReviewManifestModified": false
+}

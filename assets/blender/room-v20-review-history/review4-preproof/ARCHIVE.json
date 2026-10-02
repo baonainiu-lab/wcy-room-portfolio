@@ -1,0 +1,15 @@
+{
+  "reason": "Same approved visual rev4; rederive to add complete material-binding proofs and uncached original image re-verification before final freeze. No visual setting change.",
+  "files": [
+    {
+      "source": "assets/blender/orbital-dual-bake-v20.blend",
+      "archive": "assets/blender/room-v20-review-history/review4-preproof/orbital-dual-bake-v20.blend",
+      "sha256": "03b9290d7cc7e2d9b7feeff9df7d2bfc8a05c1cb9266414d205025a3061b8089"
+    },
+    {
+      "source": "assets/blender/photoreal-materials-v20-prepared.json",
+      "archive": "assets/blender/room-v20-review-history/review4-preproof/photoreal-materials-v20-prepared.json",
+      "sha256": "6da83e5b55b54cc8df7cca660345bf8e7c0c4f1cf1ce86b4e156ed9111f6657b"
+    }
+  ]
+}

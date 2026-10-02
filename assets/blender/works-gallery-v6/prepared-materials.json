@@ -1,0 +1,220 @@
+{
+  "complete": true,
+  "via": "Blender MCP isolated file operation",
+  "source": "assets/blender/works-gallery-bake-v5.blend",
+  "sourceSha256": "7f60264c50df924f6489ffd52e24c6e45d41eb40a00736d7ead74d30763da765",
+  "output": "assets/blender/works-gallery-bake-v6.blend",
+  "outputSha256": "5c79709604e3b7436cd782862cdaca6f3e775936905bffe1ad298ad7eb9b390f",
+  "geometrySha256": "4cdf8fd40c145e1f65722fa101fa09b2a8453474fa2fb29b71d31e1e07fd69d9",
+  "geometryUnchanged": true,
+  "lightingUnchanged": true,
+  "materials": [
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_bronze.001",
+      "family": "bronze",
+      "description": "Satin champagne brass, directional machining",
+      "bumpMetres": 9e-05
+    },
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_ink.001",
+      "family": "ink",
+      "description": "Matte pigment and archival ink",
+      "bumpMetres": 0.00023
+    },
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_ivory.001",
+      "family": "ivory",
+      "description": "Satin glazed warm porcelain, restrained microscopic pores",
+      "bumpMetres": 6e-05
+    },
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_navy.001",
+      "family": "navy",
+      "description": "Midnight petrol powder-coated aluminium, orange-peel finish",
+      "bumpMetres": 0.00012
+    },
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_silver.001",
+      "family": "silver",
+      "description": "Fine directional brushed aluminium",
+      "bumpMetres": 9e-05
+    },
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_terrazzo.001",
+      "family": "terrazzo",
+      "description": "Honed warm mineral terrazzo with photographed aggregate",
+      "bumpMetres": 0.00065
+    },
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_v4_glass_edge_trim",
+      "family": "v4_glass_edge_trim",
+      "description": "Low-iron optical glass, dielectric Fresnel and polished edges",
+      "bumpMetres": 0
+    },
+    {
+      "name": "GALLERY_PREP_A0_baked_GALLERY_warm.001",
+      "family": "warm",
+      "description": "Warm diffusing luminaire lens; day/night emission controlled by existing lighting",
+      "bumpMetres": 0
+    },
+    {
+      "name": "GALLERY_PREP_A0_glass_GALLERY_ARCH_GLASS_PBR",
+      "family": "ARCH_GLASS_PBR",
+      "description": "Low-iron optical glass, dielectric Fresnel and polished edges",
+      "bumpMetres": 0
+    },
+    {
+      "name": "GALLERY_PREP_A1_baked_GALLERY_navy",
+      "family": "navy",
+      "description": "Midnight petrol powder-coated aluminium, orange-peel finish",
+      "bumpMetres": 0.00012
+    },
+    {
+      "name": "GALLERY_PREP_A1_baked_GALLERY_silver",
+      "family": "silver",
+      "description": "Fine directional brushed aluminium",
+      "bumpMetres": 9e-05
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_black",
+      "family": "black",
+      "description": "Dense soft-touch rubber and dark hardware",
+      "bumpMetres": 0.00023
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_bronze",
+      "family": "bronze",
+      "description": "Satin champagne brass, directional machining",
+      "bumpMetres": 9e-05
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_ink",
+      "family": "ink",
+      "description": "Matte pigment and archival ink",
+      "bumpMetres": 0.00023
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_ivory",
+      "family": "ivory",
+      "description": "Satin glazed warm porcelain, restrained microscopic pores",
+      "bumpMetres": 6e-05
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_navy",
+      "family": "navy",
+      "description": "Midnight petrol powder-coated aluminium, orange-peel finish",
+      "bumpMetres": 0.00012
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_paper",
+      "family": "paper",
+      "description": "Uncoated cotton archival paper with visible fibre tooth",
+      "bumpMetres": 0.00018
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_silver",
+      "family": "silver",
+      "description": "Fine directional brushed aluminium",
+      "bumpMetres": 9e-05
+    },
+    {
+      "name": "GALLERY_PREP_A2_baked_GALLERY_warm",
+      "family": "warm",
+      "description": "Warm diffusing luminaire lens; day/night emission controlled by existing lighting",
+      "bumpMetres": 0
+    },
+    {
+      "name": "GALLERY_PREP_A2_glass_GALLERY_glass",
+      "family": "glass",
+      "description": "Low-iron optical glass, dielectric Fresnel and polished edges",
+      "bumpMetres": 0
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_black",
+      "family": "black",
+      "description": "Dense soft-touch rubber and dark hardware",
+      "bumpMetres": 0.00023
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_bronze",
+      "family": "bronze",
+      "description": "Satin champagne brass, directional machining",
+      "bumpMetres": 9e-05
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_ink",
+      "family": "ink",
+      "description": "Matte pigment and archival ink",
+      "bumpMetres": 0.00023
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_ivory",
+      "family": "ivory",
+      "description": "Satin glazed warm porcelain, restrained microscopic pores",
+      "bumpMetres": 6e-05
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_leaf",
+      "family": "leaf",
+      "description": "Botanical waxy leaves, restrained chlorophyll variation and vein relief",
+      "bumpMetres": 0.00024
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_leather",
+      "family": "leather",
+      "description": "Full-grain cognac saddle leather, photographed pores and folds",
+      "bumpMetres": 0.0013
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_navy",
+      "family": "navy",
+      "description": "Midnight petrol powder-coated aluminium, orange-peel finish",
+      "bumpMetres": 0.00012
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_paper",
+      "family": "paper",
+      "description": "Uncoated cotton archival paper with visible fibre tooth",
+      "bumpMetres": 0.00018
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_silver",
+      "family": "silver",
+      "description": "Fine directional brushed aluminium",
+      "bumpMetres": 9e-05
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_soil",
+      "family": "soil",
+      "description": "Granular dark mineral potting soil",
+      "bumpMetres": 0.002
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_terrazzo",
+      "family": "terrazzo",
+      "description": "Honed warm mineral terrazzo with photographed aggregate",
+      "bumpMetres": 0.00065
+    },
+    {
+      "name": "GALLERY_PREP_A3_baked_GALLERY_warm",
+      "family": "warm",
+      "description": "Warm diffusing luminaire lens; day/night emission controlled by existing lighting",
+      "bumpMetres": 0
+    },
+    {
+      "name": "GALLERY_PREP_A3_glass_GALLERY_ARCH_GLASS_PBR",
+      "family": "ARCH_GLASS_PBR",
+      "description": "Low-iron optical glass, dielectric Fresnel and polished edges",
+      "bumpMetres": 0
+    },
+    {
+      "name": "GALLERY_PREP_A3_glass_GALLERY_glass",
+      "family": "glass",
+      "description": "Low-iron optical glass, dielectric Fresnel and polished edges",
+      "bumpMetres": 0
+    }
+  ],
+  "allUsedMaterialFamiliesCovered": true,
+  "textureLicenseManifest": "assets/textures/about-atelier-v3/texture-manifest.json",
+  "preparation_id": "978a21b30757fd3ce6528b2c62a2d0317f526c173cce0d60cf1fceaf737de3d5"
+}

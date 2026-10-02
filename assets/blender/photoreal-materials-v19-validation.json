@@ -1,0 +1,185 @@
+{
+  "complete": true,
+  "status": "cpu_release_passed",
+  "revision": 19,
+  "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "editableSha256": "175deff40751433f8e39783cc67b8fc437dd067a69ac9652df7d213f3ba8832f",
+  "model": {
+    "path": "public/models/orbital-atelier-v19-compressed.glb",
+    "bytes": 57755992,
+    "sha256": "9f1ead74d33e4b58ec295c2bfb28ce32debf91368053b199213ce9aaa75c31ef",
+    "sourceSha256": "bea7daa74b9f67a96397119b755fdb564f604d5dcd7215286ddf0bf44459505c",
+    "sourceBytes": 52427248,
+    "preservedNonAtlasBufferViews": 410,
+    "geometryAndHierarchyUnchanged": true,
+    "replacedImages": 15
+  },
+  "surfaceReuse": {
+    "sourceSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79",
+    "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+    "slots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "proofs": [
+      {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v18-surface-reuse-proof.json",
+        "sha256": "1506cfb956249a2f9b1e9e57217b407be7d45fbab67e8bb98eef7d9aa4fe5c6b"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-surface-reuse-proof.json",
+        "sha256": "15ec8c8e76ab531e6adfe8cddf102b99d0fa0d0051f0110327d17078ad956bc1"
+      }
+    ]
+  },
+  "freshSurfaceSlots": [
+    0,
+    8,
+    12
+  ],
+  "surfaceInheritanceProofSha256": "f7d4769ef2cf30a25b283f6711f949ba2009a1902831ae1b66cf3ffe2a61f592",
+  "geometryAudit": "assets/blender/room-v19-geometry-audit.json",
+  "geometryAuditSha256": "a727e796e44dcd6f5d324e7181065b742a20ea782344f01127045cbe8a600bfc",
+  "floorGridStripsRemoved": 9,
+  "retainedFloorIndexedCornersExactlyPreserved": true,
+  "otherExistingGeometryUvsNormalsUnchanged": true,
+  "preservedAssetIds": 95,
+  "addedAssetIds": [
+    "lighting.ceiling_warm"
+  ],
+  "independentCeilingFixture": true,
+  "all58TextureHashesVerified": true,
+  "all29LightMapsFreshSourceBound": true,
+  "allRecordedNightHdrOutliersRecovered": true,
+  "recoveredNightHighlights": [
+    {
+      "slot": 0,
+      "scale": 2,
+      "peak": 39.39752197265625,
+      "channels": 306,
+      "sidecarSha256": "4b63091f6a859c64b9894c43207ca7e754248c9a01d2126ab2035fac4b836068"
+    },
+    {
+      "slot": 1,
+      "scale": 2,
+      "peak": 33.52783203125,
+      "channels": 1,
+      "sidecarSha256": "89372b40e5e4ffdc142db26995595b68a378f0ada3886749aaf71005390b76e3"
+    },
+    {
+      "slot": 2,
+      "scale": 2,
+      "peak": 53.252193450927734,
+      "channels": 266,
+      "sidecarSha256": "1e23f63fd9db26af02fec2b9c1285232a55d772b28421a727da012f7741d2c49"
+    },
+    {
+      "slot": 4,
+      "scale": 8,
+      "peak": 135.7487030029297,
+      "channels": 5028,
+      "sidecarSha256": "7c4f93df7c4b2ceda7ecf10038ecfbfba1784bf56989fa083a54d36f390c6f44"
+    },
+    {
+      "slot": 12,
+      "scale": 128,
+      "peak": 2950.88818359375,
+      "channels": 6582,
+      "sidecarSha256": "c184e87beb4b8af121b2b03fb933b0d055f07aa717a7c44a42405ada913589fc"
+    }
+  ],
+  "nightRadianceScale": {
+    "0": 2.0,
+    "1": 2.0,
+    "2": 2.0,
+    "4": 8.0,
+    "12": 128.0
+  },
+  "webLogRgb32Gain256": true,
+  "webLightAlphaConstantOne": true,
+  "actualKtxLinearTransferAndFullMipChainsVerified": true,
+  "ktxValidationCount": 58,
+  "linearMipGenerationEvidenceVerified": true,
+  "probeOrientationMatches": true,
+  "reflectionProbeSamples": 64,
+  "reflectionProbeDimensions": [
+    2048,
+    1024
+  ],
+  "mainAtlasPairs": 13,
+  "surfaceAtlasPairs": 13,
+  "introAtlases": 3,
+  "lightingSamples": 96,
+  "triangles": 418383,
+  "nodes": 199,
+  "materials": 20,
+  "assetIds": 96,
+  "v18SourceFilesUnchanged": true,
+  "legacyModelsTexturesUnchanged": true,
+  "legacyTextureRecordsChecked": 135,
+  "legacyModelVersionsVerified": [
+    "v16",
+    "v18"
+  ],
+  "legacyIncompleteBakeTextureVersionsVerified": [
+    "v17"
+  ],
+  "approvedAboutFilesUnchanged": 38,
+  "lightingBakeSeconds": 1796.06,
+  "glass": [
+    {
+      "object": "WEB8_compute_core__glass__A2",
+      "material": "WEB8_CLEAR_WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+      "ior": 1.48,
+      "roughness": 0.035,
+      "transmission": 1,
+      "note": "Runtime must not overwrite this with legacy unlit glass settings."
+    },
+    {
+      "object": "WEB8_furniture.coffee_table__glass__A1",
+      "material": "WEB8_CLEAR_WEB8_GLASS_MAT_Smoke_Glass",
+      "ior": 1.48,
+      "roughness": 0.035,
+      "transmission": 1,
+      "note": "Runtime must not overwrite this with legacy unlit glass settings."
+    },
+    {
+      "object": "WEB8_glass_bonsai_terrarium__glass__A2",
+      "material": "WEB8_CLEAR_WEB8_GLASS_P_ClearTerrariumGlass",
+      "ior": 1.48,
+      "roughness": 0.035,
+      "transmission": 1,
+      "note": "Runtime must not overwrite this with legacy unlit glass settings."
+    },
+    {
+      "object": "WEB8_geometric_specimen_cloche__glass__A3",
+      "material": "WEB8_CLEAR_WEB8_GLASS_D_SpecimenSmokeGlass",
+      "ior": 1.48,
+      "roughness": 0.035,
+      "transmission": 1,
+      "note": "Runtime must not overwrite this with legacy unlit glass settings."
+    },
+    {
+      "object": "WEB8_glass_cutting_planter__glass__A3",
+      "material": "WEB8_CLEAR_WEB8_GLASS_D_PlanterGlass",
+      "ior": 1.48,
+      "roughness": 0.035,
+      "transmission": 1,
+      "note": "Runtime must not overwrite this with legacy unlit glass settings."
+    }
+  ],
+  "browserVerified": false,
+  "visualApproval": false,
+  "limitations": [
+    "CPU asset integrity does not establish browser rendering quality, wall-wash appearance, or subjective timber whiteness."
+  ],
+  "provenance": "Room19 scene/model/material preparation, surface bakes, HDR reflection captures and raw GLB export through Blender MCP; remaining full-atlas lighting and intro bakes use the documented offline Blender CLI fallback after repeated MCP 120-second timeouts. GPU OIDN changes only the denoising backend, with quality/input settings retained. Export hashes bind the resulting assets to the same prepared source. Compression and this gate are CPU-only."
+}

@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "recordedMethod": "File-targeted Blender MCP with Python helper scripts",
+  "offlineCliFallbackUsed": false,
+  "sourceBoundManifestRecords": 44,
+  "deliveryPath": "assets/blender/room-v20-bake-delivery.json",
+  "deliverySha256": "fb84b20eaa1b5059afbe055c1d7f6321c162118d3ce953839fa1f1bbd369c5c9",
+  "executionMethodPath": "assets/blender/room-v20-execution-method.json",
+  "executionMethodSha256": "81f4b114c4424f7e620f8a891b71c062c6816f4da6c1f2fcc0629606d14fc610",
+  "limitation": "CPU verifies evidence consistency and source hashes; the actual MCP invocations are recorded by the producing task.",
+  "status": "delivery_provenance_consistency_passed"
+}

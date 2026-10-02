@@ -1,0 +1,812 @@
+{
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v10.blend",
+  "output": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v11.blend",
+  "source_sha256": "efd7fb7408708148eff69ab9085047f10a655755445cefe0eb56c84532f9f0ca",
+  "source_file_unchanged": true,
+  "bytes": 73854298,
+  "sha256": "f60171543a8bf48c855e672a2055ced1dce2a178d0b1a47eefb0437ea240d785",
+  "scenes": {
+    "ORBITAL_ATELIER_V2": {
+      "scene": "ORBITAL_ATELIER_V2",
+      "header_lift_max": 0.16,
+      "header_affected_x": [
+        1.1,
+        3.3
+      ],
+      "header_lift_plateau_x": [
+        2.1,
+        2.65
+      ],
+      "lifted_header_vertices": 98,
+      "lifted_wall_vertices": 6,
+      "top_gap_exact_z_lower_bound": 0.12438392639160156,
+      "wall_cap_envelope_verification": {
+        "vertical_envelope_samples": 600,
+        "minimum_cap_cover_over_wall": 0.04286003112792969,
+        "minimum_wall_embed_into_cap": 0.05667686462402344,
+        "protruding_wall_fin": false,
+        "wall_lift_max": 0.04,
+        "header_lift_max": 0.16
+      },
+      "top_gap_verified_x_slab": [
+        -3.0000000953674317,
+        3.5000000953674317
+      ],
+      "relief_box": {
+        "min": [
+          2.75,
+          3.045,
+          3.36
+        ],
+        "max": [
+          3.43,
+          3.6,
+          4.45
+        ]
+      },
+      "new_relief_edge_bevel": 0.008,
+      "bounds_before": {
+        "A_BackWall_Graphite": {
+          "min": [
+            -4.960000038146973,
+            3.309999942779541,
+            0.18000000715255737
+          ],
+          "max": [
+            4.960000038146973,
+            3.740000009536743,
+            5.130000114440918
+          ]
+        },
+        "A_DisplayTowerFrame": {
+          "min": [
+            3.174999952316284,
+            2.549999952316284,
+            0.4099999964237213
+          ],
+          "max": [
+            4.824999809265137,
+            3.1700000762939453,
+            4.690000057220459
+          ]
+        },
+        "A_SweepingTopBand": {
+          "min": [
+            -4.908666610717773,
+            3.119999885559082,
+            4.34438419342041
+          ],
+          "max": [
+            4.915319442749023,
+            3.7799999713897705,
+            5.21248722076416
+          ]
+        },
+        "A_DisplayTowerBack": {
+          "min": [
+            3.2249999046325684,
+            3.059999942779541,
+            0.44999998807907104
+          ],
+          "max": [
+            4.775000095367432,
+            3.299999952316284,
+            4.650000095367432
+          ]
+        }
+      },
+      "bounds_after": {
+        "A_BackWall_Graphite": {
+          "min": [
+            -4.960000038146973,
+            3.309999942779541,
+            0.18000000715255737
+          ],
+          "max": [
+            4.960000038146973,
+            3.740000009536743,
+            5.130000114440918
+          ]
+        },
+        "A_DisplayTowerFrame": {
+          "min": [
+            3.174999952316284,
+            2.549999952316284,
+            0.4099999964237213
+          ],
+          "max": [
+            4.824999809265137,
+            3.1700000762939453,
+            4.690000057220459
+          ]
+        },
+        "A_SweepingTopBand": {
+          "min": [
+            -4.908666610717773,
+            3.119999885559082,
+            4.4649128913879395
+          ],
+          "max": [
+            4.915319442749023,
+            3.7799999713897705,
+            5.21248722076416
+          ]
+        },
+        "A_DisplayTowerBack": {
+          "min": [
+            3.2249999046325684,
+            3.059999942779541,
+            0.44999998807907104
+          ],
+          "max": [
+            4.775000095367432,
+            3.299999952316284,
+            4.650000095367432
+          ]
+        }
+      },
+      "checks": {
+        "A_SweepingTopBand / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.12438392639160156,
+          "closest_points": [
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.5043840408325195
+            ],
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.380000114440918
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_SweepingTopBand / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.3093838691711426,
+          "closest_points": [
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.5043840408325195
+            ],
+            [
+              2.4845235347747803,
+              3.125,
+              4.195000171661377
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_DisplayTowerFrame / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.034999847412109375,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              4.269893646240234
+            ],
+            [
+              3.1782379150390625,
+              3.0799999237060547,
+              4.269893646240234
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.029999971389770508,
+          "closest_points": [
+            [
+              3.430000066757202,
+              3.296149969100952,
+              3.9049997329711914
+            ],
+            [
+              3.4000000953674316,
+              3.296149969100952,
+              3.9049997329711914
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerFrame / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.07499980926513672,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              3.816565752029419
+            ],
+            [
+              3.1782386302948,
+              3.119999885559082,
+              3.8165652751922607
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.2200000286102295,
+          "closest_points": [
+            [
+              3.2100000381469727,
+              3.119999885559082,
+              3.8949999809265137
+            ],
+            [
+              3.430000066757202,
+              3.119999885559082,
+              3.8949995040893555
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        }
+      },
+      "protected_window_and_sill_bounds_unchanged": true,
+      "all_asset_ids_and_transforms_unchanged": true,
+      "all_object_transforms_unchanged": true,
+      "asset_count": 129,
+      "new_asset_ids": 0
+    },
+    "ORIGINAL_DAY_V11": {
+      "scene": "ORIGINAL_DAY_V11",
+      "header_lift_max": 0.16,
+      "header_affected_x": [
+        1.1,
+        3.3
+      ],
+      "header_lift_plateau_x": [
+        2.1,
+        2.65
+      ],
+      "lifted_header_vertices": 98,
+      "lifted_wall_vertices": 6,
+      "top_gap_exact_z_lower_bound": 0.12438392639160156,
+      "wall_cap_envelope_verification": {
+        "vertical_envelope_samples": 600,
+        "minimum_cap_cover_over_wall": 0.04286003112792969,
+        "minimum_wall_embed_into_cap": 0.05667686462402344,
+        "protruding_wall_fin": false,
+        "wall_lift_max": 0.04,
+        "header_lift_max": 0.16
+      },
+      "top_gap_verified_x_slab": [
+        -3.0000000953674317,
+        3.5000000953674317
+      ],
+      "relief_box": {
+        "min": [
+          2.75,
+          3.045,
+          3.36
+        ],
+        "max": [
+          3.43,
+          3.6,
+          4.45
+        ]
+      },
+      "new_relief_edge_bevel": 0.008,
+      "bounds_before": {
+        "A_BackWall_Graphite": {
+          "min": [
+            -4.960000038146973,
+            3.309999942779541,
+            0.18000000715255737
+          ],
+          "max": [
+            4.960000038146973,
+            3.740000009536743,
+            5.130000114440918
+          ]
+        },
+        "A_DisplayTowerFrame": {
+          "min": [
+            3.174999952316284,
+            2.549999952316284,
+            0.4099999964237213
+          ],
+          "max": [
+            4.824999809265137,
+            3.1700000762939453,
+            4.690000057220459
+          ]
+        },
+        "A_SweepingTopBand": {
+          "min": [
+            -4.908666610717773,
+            3.119999885559082,
+            4.34438419342041
+          ],
+          "max": [
+            4.915319442749023,
+            3.7799999713897705,
+            5.21248722076416
+          ]
+        },
+        "A_DisplayTowerBack": {
+          "min": [
+            3.2249999046325684,
+            3.059999942779541,
+            0.44999998807907104
+          ],
+          "max": [
+            4.775000095367432,
+            3.299999952316284,
+            4.650000095367432
+          ]
+        }
+      },
+      "bounds_after": {
+        "A_BackWall_Graphite": {
+          "min": [
+            -4.960000038146973,
+            3.309999942779541,
+            0.18000000715255737
+          ],
+          "max": [
+            4.960000038146973,
+            3.740000009536743,
+            5.130000114440918
+          ]
+        },
+        "A_DisplayTowerFrame": {
+          "min": [
+            3.174999952316284,
+            2.549999952316284,
+            0.4099999964237213
+          ],
+          "max": [
+            4.824999809265137,
+            3.1700000762939453,
+            4.690000057220459
+          ]
+        },
+        "A_SweepingTopBand": {
+          "min": [
+            -4.908666610717773,
+            3.119999885559082,
+            4.4649128913879395
+          ],
+          "max": [
+            4.915319442749023,
+            3.7799999713897705,
+            5.21248722076416
+          ]
+        },
+        "A_DisplayTowerBack": {
+          "min": [
+            3.2249999046325684,
+            3.059999942779541,
+            0.44999998807907104
+          ],
+          "max": [
+            4.775000095367432,
+            3.299999952316284,
+            4.650000095367432
+          ]
+        }
+      },
+      "checks": {
+        "A_SweepingTopBand / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.12438392639160156,
+          "closest_points": [
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.5043840408325195
+            ],
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.380000114440918
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_SweepingTopBand / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.3093838691711426,
+          "closest_points": [
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.5043840408325195
+            ],
+            [
+              2.4845235347747803,
+              3.125,
+              4.195000171661377
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_DisplayTowerFrame / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.034999847412109375,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              4.269893646240234
+            ],
+            [
+              3.1782379150390625,
+              3.0799999237060547,
+              4.269893646240234
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.029999971389770508,
+          "closest_points": [
+            [
+              3.430000066757202,
+              3.296149969100952,
+              3.9049997329711914
+            ],
+            [
+              3.4000000953674316,
+              3.296149969100952,
+              3.9049997329711914
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerFrame / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.07499980926513672,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              3.816565752029419
+            ],
+            [
+              3.1782386302948,
+              3.119999885559082,
+              3.8165652751922607
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.2200000286102295,
+          "closest_points": [
+            [
+              3.2100000381469727,
+              3.119999885559082,
+              3.8949999809265137
+            ],
+            [
+              3.430000066757202,
+              3.119999885559082,
+              3.8949995040893555
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        }
+      },
+      "protected_window_and_sill_bounds_unchanged": true,
+      "all_asset_ids_and_transforms_unchanged": true,
+      "all_object_transforms_unchanged": true,
+      "asset_count": 129,
+      "new_asset_ids": 0
+    },
+    "ORIGINAL_NIGHT_V11": {
+      "scene": "ORIGINAL_NIGHT_V11",
+      "header_lift_max": 0.16,
+      "header_affected_x": [
+        1.1,
+        3.3
+      ],
+      "header_lift_plateau_x": [
+        2.1,
+        2.65
+      ],
+      "lifted_header_vertices": 98,
+      "lifted_wall_vertices": 6,
+      "top_gap_exact_z_lower_bound": 0.12438392639160156,
+      "wall_cap_envelope_verification": {
+        "vertical_envelope_samples": 600,
+        "minimum_cap_cover_over_wall": 0.04286003112792969,
+        "minimum_wall_embed_into_cap": 0.05667686462402344,
+        "protruding_wall_fin": false,
+        "wall_lift_max": 0.04,
+        "header_lift_max": 0.16
+      },
+      "top_gap_verified_x_slab": [
+        -3.0000000953674317,
+        3.5000000953674317
+      ],
+      "relief_box": {
+        "min": [
+          2.75,
+          3.045,
+          3.36
+        ],
+        "max": [
+          3.43,
+          3.6,
+          4.45
+        ]
+      },
+      "new_relief_edge_bevel": 0.008,
+      "bounds_before": {
+        "A_BackWall_Graphite": {
+          "min": [
+            -4.960000038146973,
+            3.309999942779541,
+            0.18000000715255737
+          ],
+          "max": [
+            4.960000038146973,
+            3.740000009536743,
+            5.130000114440918
+          ]
+        },
+        "A_DisplayTowerFrame": {
+          "min": [
+            3.174999952316284,
+            2.549999952316284,
+            0.4099999964237213
+          ],
+          "max": [
+            4.824999809265137,
+            3.1700000762939453,
+            4.690000057220459
+          ]
+        },
+        "A_SweepingTopBand": {
+          "min": [
+            -4.908666610717773,
+            3.119999885559082,
+            4.34438419342041
+          ],
+          "max": [
+            4.915319442749023,
+            3.7799999713897705,
+            5.21248722076416
+          ]
+        },
+        "A_DisplayTowerBack": {
+          "min": [
+            3.2249999046325684,
+            3.059999942779541,
+            0.44999998807907104
+          ],
+          "max": [
+            4.775000095367432,
+            3.299999952316284,
+            4.650000095367432
+          ]
+        }
+      },
+      "bounds_after": {
+        "A_BackWall_Graphite": {
+          "min": [
+            -4.960000038146973,
+            3.309999942779541,
+            0.18000000715255737
+          ],
+          "max": [
+            4.960000038146973,
+            3.740000009536743,
+            5.130000114440918
+          ]
+        },
+        "A_DisplayTowerFrame": {
+          "min": [
+            3.174999952316284,
+            2.549999952316284,
+            0.4099999964237213
+          ],
+          "max": [
+            4.824999809265137,
+            3.1700000762939453,
+            4.690000057220459
+          ]
+        },
+        "A_SweepingTopBand": {
+          "min": [
+            -4.908666610717773,
+            3.119999885559082,
+            4.4649128913879395
+          ],
+          "max": [
+            4.915319442749023,
+            3.7799999713897705,
+            5.21248722076416
+          ]
+        },
+        "A_DisplayTowerBack": {
+          "min": [
+            3.2249999046325684,
+            3.059999942779541,
+            0.44999998807907104
+          ],
+          "max": [
+            4.775000095367432,
+            3.299999952316284,
+            4.650000095367432
+          ]
+        }
+      },
+      "checks": {
+        "A_SweepingTopBand / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.12438392639160156,
+          "closest_points": [
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.5043840408325195
+            ],
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.380000114440918
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_SweepingTopBand / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.3093838691711426,
+          "closest_points": [
+            [
+              2.4845235347747803,
+              3.12506365776062,
+              4.5043840408325195
+            ],
+            [
+              2.4845235347747803,
+              3.125,
+              4.195000171661377
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_DisplayTowerFrame / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.034999847412109375,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              4.269893646240234
+            ],
+            [
+              3.1782379150390625,
+              3.0799999237060547,
+              4.269893646240234
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack / A_PanoramaTitaniumBezel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.029999971389770508,
+          "closest_points": [
+            [
+              3.430000066757202,
+              3.296149969100952,
+              3.9049997329711914
+            ],
+            [
+              3.4000000953674316,
+              3.296149969100952,
+              3.9049997329711914
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerFrame / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.07499980926513672,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              3.816565752029419
+            ],
+            [
+              3.1782386302948,
+              3.119999885559082,
+              3.8165652751922607
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack / A_Window_CityPanel": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.2200000286102295,
+          "closest_points": [
+            [
+              3.2100000381469727,
+              3.119999885559082,
+              3.8949999809265137
+            ],
+            [
+              3.430000066757202,
+              3.119999885559082,
+              3.8949995040893555
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        }
+      },
+      "protected_window_and_sill_bounds_unchanged": true,
+      "all_asset_ids_and_transforms_unchanged": true,
+      "all_object_transforms_unchanged": true,
+      "asset_count": 129,
+      "new_asset_ids": 0
+    }
+  },
+  "renders_executed": 0,
+  "active_scene": "ORIGINAL_DAY_V11",
+  "reopened_fin_camera_ray_verification": {
+    "reopened_visible_camera_rays": [
+      {
+        "pixel": [
+          1000,
+          175
+        ],
+        "object": "A_SweepingTopBand",
+        "world": [
+          0.7991523146629333,
+          3.464384078979492,
+          4.799712181091309
+        ]
+      },
+      {
+        "pixel": [
+          1020,
+          181
+        ],
+        "object": "A_SweepingTopBand",
+        "world": [
+          0.9950480461120605,
+          3.488797426223755,
+          4.772593021392822
+        ]
+      },
+      {
+        "pixel": [
+          1030,
+          184
+        ],
+        "object": "A_SweepingTopBand",
+        "world": [
+          1.0978889465332031,
+          3.492818832397461,
+          4.762757301330566
+        ]
+      },
+      {
+        "pixel": [
+          1050,
+          190
+        ],
+        "object": "A_SweepingTopBand",
+        "world": [
+          1.3110151290893555,
+          3.4884071350097656,
+          4.748748302459717
+        ]
+      }
+    ],
+    "all_former_fin_pixels_now_hit_cap": true
+  }
+}

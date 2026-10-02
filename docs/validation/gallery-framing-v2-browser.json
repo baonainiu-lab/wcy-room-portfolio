@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-09-28T05:14:20.064Z",
+  "desktop": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "framing": {
+      "revision": 2,
+      "aspect": 1.7777777777777777,
+      "distance": 22.096481632958074,
+      "maxDistance": 24.748059428913045,
+      "silhouette": {
+        "minX": -0.7195618203974543,
+        "maxX": 0.7199318323509203,
+        "minY": -0.8199999999999997,
+        "maxY": 0.8185482239225061
+      },
+      "vertices": 649013
+    },
+    "limits": {
+      "minDistance": 10,
+      "maxDistance": 24.748059428913045
+    },
+    "errors": []
+  },
+  "farZoom": {
+    "distance": 24.74805942891304,
+    "limits": {
+      "minDistance": 10,
+      "maxDistance": 24.748059428913045
+    }
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "framing": {
+      "revision": 2,
+      "aspect": 0.46208530805687204,
+      "distance": 69.06657820526783,
+      "maxDistance": 77.35456758989997,
+      "silhouette": {
+        "minX": -0.8799997556049335,
+        "maxX": 0.88,
+        "minY": -0.25670383261609475,
+        "maxY": 0.25670345882385986
+      },
+      "vertices": 649013
+    },
+    "controls": true,
+    "errors": []
+  },
+  "return": {
+    "scene": "room",
+    "limits": {
+      "minDistance": 5,
+      "maxDistance": 45
+    },
+    "positionError": 0,
+    "targetError": 0,
+    "controls": true,
+    "errors": []
+  }
+}

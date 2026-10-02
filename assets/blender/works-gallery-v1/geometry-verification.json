@@ -1,0 +1,821 @@
+{
+  "status": "passed",
+  "scene": "WORKS_GALLERY_V1",
+  "objects": 2415,
+  "independentAssetIDs": 86,
+  "workStations": [
+    "gallery.work.01",
+    "gallery.work.02",
+    "gallery.work.03",
+    "gallery.work.04",
+    "gallery.work.05",
+    "gallery.work.06"
+  ],
+  "duplicateIDs": [],
+  "nonfiniteGeometry": [],
+  "evaluatedMeshObjects": 2329,
+  "evaluatedTrianglesBeforeWebPreparation": 785522,
+  "atlasesPlanned": {
+    "0": {
+      "objects": 88,
+      "triangles": 75600
+    },
+    "1": {
+      "objects": 1457,
+      "triangles": 233828
+    },
+    "2": {
+      "objects": 246,
+      "triangles": 324862
+    },
+    "3": {
+      "objects": 538,
+      "triangles": 151232
+    }
+  },
+  "sourceBytes": 1526789,
+  "sourceSha256": "a588a0d540e8aa90ae998516e7f64bd225468e744922a5ec2b4c6b3deeaa239f",
+  "originalRoomGLBUnchanged": true,
+  "originalRoomGLBSha256": "a933ce1ba865c5ad5293e11bfac51ad082f8c1522ff828ad89d45aa17bd5e232",
+  "limits": [
+    "Counts reflect editable source, not runtime performance.",
+    "No exhaustive inter-object collision proof.",
+    "Web bakes and scene transition have not been executed or approved."
+  ],
+  "ids": {
+    "gallery.architecture": {
+      "name": "gallery.architecture",
+      "type": "EMPTY",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.architecture.glazing": {
+      "name": "gallery.architecture.glazing",
+      "type": "EMPTY",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.environment.terrace": {
+      "name": "gallery.environment.terrace",
+      "type": "EMPTY",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.architecture.portal": {
+      "name": "gallery.architecture.portal",
+      "type": "EMPTY",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.environment.city": {
+      "name": "gallery.environment.city",
+      "type": "EMPTY",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.work.01": {
+      "name": "gallery.work.01",
+      "type": "EMPTY",
+      "pivot": [
+        -4.800000190734863,
+        2.450000047683716,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.01.art": {
+      "name": "gallery.work.01.art",
+      "type": "EMPTY",
+      "pivot": [
+        -4.800000190734863,
+        2.180000066757202,
+        2.119999885559082
+      ]
+    },
+    "gallery.work.01.console": {
+      "name": "gallery.work.01.console",
+      "type": "EMPTY",
+      "pivot": [
+        -4.800000190734863,
+        1.9049999713897705,
+        0.8349999189376831
+      ]
+    },
+    "gallery.work.01.label": {
+      "name": "gallery.work.01.label",
+      "type": "EMPTY",
+      "pivot": [
+        -4.635000228881836,
+        1.8370000123977661,
+        0.9850000143051147
+      ]
+    },
+    "gallery.work.01.maquette": {
+      "name": "gallery.work.01.maquette",
+      "type": "EMPTY",
+      "pivot": [
+        -5.28000020980835,
+        1.8459999561309814,
+        0.9199999570846558
+      ]
+    },
+    "gallery.work.02": {
+      "name": "gallery.work.02",
+      "type": "EMPTY",
+      "pivot": [
+        -2.700000047683716,
+        2.450000047683716,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.02.vitrine": {
+      "name": "gallery.work.02.vitrine",
+      "type": "EMPTY",
+      "pivot": [
+        -2.700000047683716,
+        1.690000057220459,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.02.vitrine.glass.side.-1": {
+      "name": "gallery.work.02.vitrine.glass.side.-1",
+      "type": "MESH",
+      "pivot": [
+        -3.2679998874664307,
+        1.690000057220459,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.02.vitrine.glass.face.-1": {
+      "name": "gallery.work.02.vitrine.glass.face.-1",
+      "type": "MESH",
+      "pivot": [
+        -2.700000047683716,
+        1.2710000276565552,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.02.vitrine.glass.side.1": {
+      "name": "gallery.work.02.vitrine.glass.side.1",
+      "type": "MESH",
+      "pivot": [
+        -2.131999969482422,
+        1.690000057220459,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.02.vitrine.glass.face.1": {
+      "name": "gallery.work.02.vitrine.glass.face.1",
+      "type": "MESH",
+      "pivot": [
+        -2.700000047683716,
+        2.1089999675750732,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.02.vitrine.glass.roof": {
+      "name": "gallery.work.02.vitrine.glass.roof",
+      "type": "MESH",
+      "pivot": [
+        -2.700000047683716,
+        1.690000057220459,
+        2.5999999046325684
+      ]
+    },
+    "gallery.work.02.label": {
+      "name": "gallery.work.02.label",
+      "type": "EMPTY",
+      "pivot": [
+        -2.700000047683716,
+        1.090000033378601,
+        1.0360000133514404
+      ]
+    },
+    "gallery.work.02.geometry": {
+      "name": "gallery.work.02.geometry",
+      "type": "EMPTY",
+      "pivot": [
+        -2.700000047683716,
+        1.690000057220459,
+        1.0449999570846558
+      ]
+    },
+    "gallery.work.02.geometry.sphere": {
+      "name": "gallery.work.02.geometry.sphere",
+      "type": "MESH",
+      "pivot": [
+        -2.930000066757202,
+        1.690000057220459,
+        1.690000057220459
+      ]
+    },
+    "gallery.work.02.geometry.folded_form": {
+      "name": "gallery.work.02.geometry.folded_form",
+      "type": "MESH",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.work.03": {
+      "name": "gallery.work.03",
+      "type": "EMPTY",
+      "pivot": [
+        -0.6000000238418579,
+        2.450000047683716,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.03.art": {
+      "name": "gallery.work.03.art",
+      "type": "EMPTY",
+      "pivot": [
+        -0.6000000238418579,
+        2.180000066757202,
+        2.119999885559082
+      ]
+    },
+    "gallery.work.03.console": {
+      "name": "gallery.work.03.console",
+      "type": "EMPTY",
+      "pivot": [
+        -0.6000000238418579,
+        1.9049999713897705,
+        0.8349999189376831
+      ]
+    },
+    "gallery.work.03.label": {
+      "name": "gallery.work.03.label",
+      "type": "EMPTY",
+      "pivot": [
+        -0.4350000023841858,
+        1.8370000123977661,
+        0.9850000143051147
+      ]
+    },
+    "gallery.work.03.maquette": {
+      "name": "gallery.work.03.maquette",
+      "type": "EMPTY",
+      "pivot": [
+        -1.0800000429153442,
+        1.8459999561309814,
+        0.9199999570846558
+      ]
+    },
+    "gallery.work.04": {
+      "name": "gallery.work.04",
+      "type": "EMPTY",
+      "pivot": [
+        1.5,
+        2.450000047683716,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.04.sculpture": {
+      "name": "gallery.work.04.sculpture",
+      "type": "EMPTY",
+      "pivot": [
+        1.5,
+        1.690000057220459,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.04.sculpture.model": {
+      "name": "gallery.work.04.sculpture.model",
+      "type": "EMPTY",
+      "pivot": [
+        1.5,
+        1.690000057220459,
+        1.3220000267028809
+      ]
+    },
+    "gallery.work.04.sculpture.model.silver_ribbon": {
+      "name": "gallery.work.04.sculpture.model.silver_ribbon",
+      "type": "MESH",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.work.04.sculpture.model.champagne_ribbon": {
+      "name": "gallery.work.04.sculpture.model.champagne_ribbon",
+      "type": "MESH",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.work.04.label": {
+      "name": "gallery.work.04.label",
+      "type": "EMPTY",
+      "pivot": [
+        1.5,
+        0.9249999523162842,
+        0.9769999980926514
+      ]
+    },
+    "gallery.work.05": {
+      "name": "gallery.work.05",
+      "type": "EMPTY",
+      "pivot": [
+        3.5999999046325684,
+        2.450000047683716,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.05.vitrine": {
+      "name": "gallery.work.05.vitrine",
+      "type": "EMPTY",
+      "pivot": [
+        3.5999999046325684,
+        1.690000057220459,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.05.vitrine.glass.side.-1": {
+      "name": "gallery.work.05.vitrine.glass.side.-1",
+      "type": "MESH",
+      "pivot": [
+        3.0320000648498535,
+        1.690000057220459,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.05.vitrine.glass.face.-1": {
+      "name": "gallery.work.05.vitrine.glass.face.-1",
+      "type": "MESH",
+      "pivot": [
+        3.5999999046325684,
+        1.2710000276565552,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.05.vitrine.glass.side.1": {
+      "name": "gallery.work.05.vitrine.glass.side.1",
+      "type": "MESH",
+      "pivot": [
+        4.168000221252441,
+        1.690000057220459,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.05.vitrine.glass.face.1": {
+      "name": "gallery.work.05.vitrine.glass.face.1",
+      "type": "MESH",
+      "pivot": [
+        3.5999999046325684,
+        2.1089999675750732,
+        1.8309999704360962
+      ]
+    },
+    "gallery.work.05.vitrine.glass.roof": {
+      "name": "gallery.work.05.vitrine.glass.roof",
+      "type": "MESH",
+      "pivot": [
+        3.5999999046325684,
+        1.690000057220459,
+        2.5999999046325684
+      ]
+    },
+    "gallery.work.05.label": {
+      "name": "gallery.work.05.label",
+      "type": "EMPTY",
+      "pivot": [
+        3.5999999046325684,
+        1.090000033378601,
+        1.0360000133514404
+      ]
+    },
+    "gallery.work.05.geometry": {
+      "name": "gallery.work.05.geometry",
+      "type": "EMPTY",
+      "pivot": [
+        3.5999999046325684,
+        1.690000057220459,
+        1.034000039100647
+      ]
+    },
+    "gallery.work.05.geometry.faceted_core": {
+      "name": "gallery.work.05.geometry.faceted_core",
+      "type": "MESH",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gallery.work.06": {
+      "name": "gallery.work.06",
+      "type": "EMPTY",
+      "pivot": [
+        5.699999809265137,
+        2.450000047683716,
+        0.15000000596046448
+      ]
+    },
+    "gallery.work.06.art": {
+      "name": "gallery.work.06.art",
+      "type": "EMPTY",
+      "pivot": [
+        5.699999809265137,
+        2.180000066757202,
+        2.119999885559082
+      ]
+    },
+    "gallery.work.06.console": {
+      "name": "gallery.work.06.console",
+      "type": "EMPTY",
+      "pivot": [
+        5.699999809265137,
+        1.9049999713897705,
+        0.8349999189376831
+      ]
+    },
+    "gallery.work.06.label": {
+      "name": "gallery.work.06.label",
+      "type": "EMPTY",
+      "pivot": [
+        5.864999771118164,
+        1.8370000123977661,
+        0.9850000143051147
+      ]
+    },
+    "gallery.work.06.maquette": {
+      "name": "gallery.work.06.maquette",
+      "type": "EMPTY",
+      "pivot": [
+        5.21999979019165,
+        1.8459999561309814,
+        0.9199999570846558
+      ]
+    },
+    "gallery.table.main": {
+      "name": "gallery.table.main",
+      "type": "EMPTY",
+      "pivot": [
+        0.3499999940395355,
+        -0.550000011920929,
+        0.0
+      ]
+    },
+    "gallery.library.01": {
+      "name": "gallery.library.01",
+      "type": "EMPTY",
+      "pivot": [
+        -1.7799999713897705,
+        -0.7599999904632568,
+        0.41499999165534973
+      ]
+    },
+    "gallery.library.02": {
+      "name": "gallery.library.02",
+      "type": "EMPTY",
+      "pivot": [
+        -0.7200000286102295,
+        -0.7599999904632568,
+        0.41499999165534973
+      ]
+    },
+    "gallery.library.03": {
+      "name": "gallery.library.03",
+      "type": "EMPTY",
+      "pivot": [
+        0.3499999940395355,
+        -0.7599999904632568,
+        0.41499999165534973
+      ]
+    },
+    "gallery.library.04": {
+      "name": "gallery.library.04",
+      "type": "EMPTY",
+      "pivot": [
+        1.409999966621399,
+        -0.7599999904632568,
+        0.41499999165534973
+      ]
+    },
+    "gallery.library.05": {
+      "name": "gallery.library.05",
+      "type": "EMPTY",
+      "pivot": [
+        2.4800000190734863,
+        -0.7599999904632568,
+        0.41499999165534973
+      ]
+    },
+    "gallery.album.01": {
+      "name": "gallery.album.01",
+      "type": "EMPTY",
+      "pivot": [
+        -1.149999976158142,
+        -0.6800000071525574,
+        1.1200000047683716
+      ]
+    },
+    "gallery.album.02": {
+      "name": "gallery.album.02",
+      "type": "EMPTY",
+      "pivot": [
+        0.3499999940395355,
+        -0.6800000071525574,
+        1.1200000047683716
+      ]
+    },
+    "gallery.album.03": {
+      "name": "gallery.album.03",
+      "type": "EMPTY",
+      "pivot": [
+        1.850000023841858,
+        -0.6800000071525574,
+        1.1200000047683716
+      ]
+    },
+    "gallery.sculpture.ring": {
+      "name": "gallery.sculpture.ring",
+      "type": "EMPTY",
+      "pivot": [
+        -2.700000047683716,
+        -0.5299999713897705,
+        1.4500000476837158
+      ]
+    },
+    "gallery.lamp.base": {
+      "name": "gallery.lamp.base",
+      "type": "EMPTY",
+      "pivot": [
+        2.8299999237060547,
+        -0.25999999046325684,
+        1.100000023841858
+      ]
+    },
+    "gallery.lamp.head": {
+      "name": "gallery.lamp.head",
+      "type": "EMPTY",
+      "pivot": [
+        2.7300000190734863,
+        -0.25999999046325684,
+        1.6799999475479126
+      ]
+    },
+    "gallery.cup": {
+      "name": "gallery.cup",
+      "type": "EMPTY",
+      "pivot": [
+        -2.0999999046325684,
+        -0.7900000214576721,
+        1.100000023841858
+      ]
+    },
+    "gallery.planter.table": {
+      "name": "gallery.planter.table",
+      "type": "EMPTY",
+      "pivot": [
+        3.430000066757202,
+        -0.4699999988079071,
+        1.100000023841858
+      ]
+    },
+    "gallery.tool.pencil": {
+      "name": "gallery.tool.pencil",
+      "type": "EMPTY",
+      "pivot": [
+        2.869999885559082,
+        -0.8999999761581421,
+        1.1169999837875366
+      ]
+    },
+    "gallery.tool.caliper": {
+      "name": "gallery.tool.caliper",
+      "type": "EMPTY",
+      "pivot": [
+        3.0799999237060547,
+        -0.6700000166893005,
+        1.1200000047683716
+      ]
+    },
+    "gallery.tool.measure_disc": {
+      "name": "gallery.tool.measure_disc",
+      "type": "EMPTY",
+      "pivot": [
+        -3.130000114440918,
+        -0.550000011920929,
+        1.1200000047683716
+      ]
+    },
+    "gallery.bench": {
+      "name": "gallery.bench",
+      "type": "EMPTY",
+      "pivot": [
+        0.30000001192092896,
+        -2.3499999046325684,
+        0.0
+      ]
+    },
+    "gallery.archive.cart": {
+      "name": "gallery.archive.cart",
+      "type": "EMPTY",
+      "pivot": [
+        6.099999904632568,
+        -1.2999999523162842,
+        0.2409999966621399
+      ]
+    },
+    "gallery.archive.drawer.01": {
+      "name": "gallery.archive.drawer.01",
+      "type": "EMPTY",
+      "pivot": [
+        6.099999904632568,
+        -1.5750000476837158,
+        0.5009999871253967
+      ]
+    },
+    "gallery.archive.drawer.02": {
+      "name": "gallery.archive.drawer.02",
+      "type": "EMPTY",
+      "pivot": [
+        6.099999904632568,
+        -1.5750000476837158,
+        0.8109999895095825
+      ]
+    },
+    "gallery.archive.wheel.00": {
+      "name": "gallery.archive.wheel.00",
+      "type": "EMPTY",
+      "pivot": [
+        5.800000190734863,
+        -1.5399999618530273,
+        0.22100000083446503
+      ]
+    },
+    "gallery.archive.wheel.01": {
+      "name": "gallery.archive.wheel.01",
+      "type": "EMPTY",
+      "pivot": [
+        5.800000190734863,
+        -1.059999942779541,
+        0.22100000083446503
+      ]
+    },
+    "gallery.archive.wheel.10": {
+      "name": "gallery.archive.wheel.10",
+      "type": "EMPTY",
+      "pivot": [
+        6.400000095367432,
+        -1.5399999618530273,
+        0.22100000083446503
+      ]
+    },
+    "gallery.archive.wheel.11": {
+      "name": "gallery.archive.wheel.11",
+      "type": "EMPTY",
+      "pivot": [
+        6.400000095367432,
+        -1.059999942779541,
+        0.22100000083446503
+      ]
+    },
+    "gallery.planter.floor.01": {
+      "name": "gallery.planter.floor.01",
+      "type": "EMPTY",
+      "pivot": [
+        -6.0,
+        -2.799999952316284,
+        0.15000000596046448
+      ]
+    },
+    "gallery.planter.floor.02": {
+      "name": "gallery.planter.floor.02",
+      "type": "EMPTY",
+      "pivot": [
+        -5.800000190734863,
+        1.399999976158142,
+        0.15000000596046448
+      ]
+    },
+    "gallery.planter.floor.03": {
+      "name": "gallery.planter.floor.03",
+      "type": "EMPTY",
+      "pivot": [
+        6.599999904632568,
+        1.399999976158142,
+        0.15000000596046448
+      ]
+    },
+    "gallery.planter.floor.04": {
+      "name": "gallery.planter.floor.04",
+      "type": "EMPTY",
+      "pivot": [
+        6.5,
+        -3.200000047683716,
+        0.15000000596046448
+      ]
+    },
+    "gallery.lantern.01": {
+      "name": "gallery.lantern.01",
+      "type": "EMPTY",
+      "pivot": [
+        -6.400000095367432,
+        -2.5,
+        0.14249999821186066
+      ]
+    },
+    "gallery.lantern.02": {
+      "name": "gallery.lantern.02",
+      "type": "EMPTY",
+      "pivot": [
+        6.800000190734863,
+        -2.5999999046325684,
+        0.14249999821186066
+      ]
+    },
+    "gallery.environment.plant.00": {
+      "name": "gallery.environment.plant.00",
+      "type": "EMPTY",
+      "pivot": [
+        -10.0,
+        7.0,
+        0.15000000596046448
+      ]
+    },
+    "gallery.environment.plant.01": {
+      "name": "gallery.environment.plant.01",
+      "type": "EMPTY",
+      "pivot": [
+        -7.800000190734863,
+        8.0,
+        0.15000000596046448
+      ]
+    },
+    "gallery.environment.plant.02": {
+      "name": "gallery.environment.plant.02",
+      "type": "EMPTY",
+      "pivot": [
+        -4.199999809265137,
+        7.800000190734863,
+        0.15000000596046448
+      ]
+    },
+    "gallery.environment.plant.03": {
+      "name": "gallery.environment.plant.03",
+      "type": "EMPTY",
+      "pivot": [
+        -1.2000000476837158,
+        8.399999618530273,
+        0.15000000596046448
+      ]
+    },
+    "gallery.environment.plant.04": {
+      "name": "gallery.environment.plant.04",
+      "type": "EMPTY",
+      "pivot": [
+        2.0,
+        7.800000190734863,
+        0.15000000596046448
+      ]
+    },
+    "gallery.environment.plant.05": {
+      "name": "gallery.environment.plant.05",
+      "type": "EMPTY",
+      "pivot": [
+        5.0,
+        8.199999809265137,
+        0.15000000596046448
+      ]
+    },
+    "gallery.environment.plant.06": {
+      "name": "gallery.environment.plant.06",
+      "type": "EMPTY",
+      "pivot": [
+        8.5,
+        8.0,
+        0.15000000596046448
+      ]
+    },
+    "gallery.environment.plant.07": {
+      "name": "gallery.environment.plant.07",
+      "type": "EMPTY",
+      "pivot": [
+        10.5,
+        6.699999809265137,
+        0.15000000596046448
+      ]
+    }
+  }
+}

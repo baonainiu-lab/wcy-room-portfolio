@@ -1,0 +1,14 @@
+{
+  "scene": "WEB_BAKE_V4",
+  "mesh_groups": 79,
+  "triangles_before": 1061198,
+  "triangles_after": 198412,
+  "bake_groups": [
+    2,
+    5,
+    38,
+    27
+  ],
+  "atlas_resolution": 4096,
+  "root_count": 26
+}

@@ -1,0 +1,27 @@
+{
+  "source": "assets/blender/orbital-atelier-v7.blend",
+  "model": "public/models/orbital-warm-gallery-v7.glb",
+  "texture": "assets/textures/baked/room-warm-gallery-v7.png",
+  "atlas": 3072,
+  "samples": 32,
+  "triangles": 16384,
+  "drawCalls": 1,
+  "bytes": 5253476,
+  "sha256": "f3786896d6ab0a651be1ed0b68bd2430dd16248f66679ae75e33003655e1a45b",
+  "roots": [
+    {
+      "id": "environment.warm_gallery",
+      "name": "WG7_WARM_GALLERY_Root__web",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "componentIds": [
+    "environment.warm_gallery"
+  ],
+  "seconds": 40.45,
+  "blenderDevice": "GPU"
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "looseProps": [
+    {
+      "id": "thermal_cup",
+      "bottomBefore": 1.8478199290334434,
+      "bottomAfter": 1.872810004274558
+    },
+    {
+      "id": "compact_camera",
+      "bottomBefore": 1.853519947414398,
+      "bottomAfter": 1.8807312363714757
+    },
+    {
+      "id": "studio_reference_books",
+      "bottomBefore": 1.4199999012053013,
+      "bottomAfter": 1.4624836947012145
+    },
+    {
+      "id": "ceramic_mobius_study",
+      "bottomBefore": 1.4249989446252584,
+      "bottomAfter": 1.4694385088235138
+    },
+    {
+      "id": "folding_drawing_terminal",
+      "bottomBefore": 1.8455394854253586,
+      "bottomAfter": 1.9173645109102684
+    },
+    {
+      "id": "table_notebook_group",
+      "bottomBefore": 0.9485501399382976,
+      "bottomAfter": 0.9564262299948381
+    }
+  ],
+  "mountedParts": 3
+}

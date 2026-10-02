@@ -1,0 +1,17 @@
+{
+  "state": "night",
+  "completed": [
+    {
+      "atlas": 11,
+      "path": "public/textures/lighting-v15/night-11.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 12,
+      "bytes": 3225816
+    }
+  ],
+  "phase": "baking",
+  "elapsed": 119.63
+}

@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-01T01:58:30.352502+00:00",
+  "method": "Actual local main page via Codex in-app browser; screenshots inspected inline, DOM accessibility and production QA diagnostics read. No hidden browser APIs or simulated progress.",
+  "materialRelease": "room18-gallery5-terminal3",
+  "logo": "public/media/brand/atelier-crossfold-v3.svg",
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "observations": [
+    {
+      "check": "desktop loading visuals",
+      "passed": true,
+      "details": "Observed real 45% room stage, new faceted logo with luminous tracing and ink-blue layered perspective frames."
+    },
+    {
+      "check": "gallery failure gate",
+      "passed": true,
+      "details": "Explicit failStartup=gallery route stayed at60%, with reload button, no welcome, startup.ready=false; this is an intentionally injected error."
+    },
+    {
+      "check": "retry",
+      "passed": true,
+      "details": "Reload button removed failure flag, all four stages became ready at100%, both satellite transitions prepared; welcome unveiled."
+    },
+    {
+      "check": "mobile loading and welcome",
+      "passed": true,
+      "details": "390x844: full logo/progress and background visible; welcome terminal, identity and down-arrow fit without clipping."
+    },
+    {
+      "check": "keyboard entry after loader",
+      "passed": true,
+      "details": "Return on mobile enter button completed one opening; startCount=1,completeCount=1,controls=true,errors=[]."
+    }
+  ],
+  "console": "Only the intentionally injected gallery errors were observed; successful page diagnostics errors=[].",
+  "pending": [
+    "Final Room19 asset release and its day/night browser appearance",
+    "First satellite transition resource/program count check after Room19 activation"
+  ],
+  "sourceSha256": {
+    "src/cube-intro.js": "434e76749e5fd4582b88e9921e4e9a6e0c171122e6e1fa15b0a7db0406fe37c7",
+    "src/cube-intro.scss": "920241a35fa8ffa17093e5d670171235938f82949169fccb92493c8822c52979",
+    "src/main.js": "737b57cc0004938d6969f536c805b5be6019bccf8314b34a4221543ae5b0d4f4",
+    "index.html": "d8a93e87c692e1b57a0bee15b7b2effb9a38af2be9fb352a13405d10a2b81d65",
+    "public/media/brand/atelier-crossfold-v3.svg": "1a669f5435003a5c5d09b4d1a13d4c5b60a69ddf78a784c520cb1fcde7a48f8a"
+  }
+}

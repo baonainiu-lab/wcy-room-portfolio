@@ -1,0 +1,492 @@
+{
+  "complete": true,
+  "source": "assets/blender/works-gallery-v4.blend",
+  "source_sha256": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+  "prepared": "assets/blender/works-gallery-bake-v4.blend",
+  "prepared_sha256": "8b6930dae3273a32e3d5c0e3bc267ca14b3049a78f248b6b56777a2a2a3836e9",
+  "model": {
+    "source": "public/models/works-gallery-v4.glb",
+    "sourceBytes": 38550188,
+    "sourceSha256": "ef6f54192a538afaf5d427c5b04d9c99f22043aff0023439277913da6cb84bbf",
+    "path": "public/models/works-gallery-v4-compressed.glb",
+    "bytes": 40606824,
+    "sha256": "da7f6045703dee51f4ea83f644451293992ba5e2fc7b86a42e41a98779577bbf",
+    "nodes": 142,
+    "meshes": 80,
+    "materials": 6,
+    "triangles": 542976,
+    "replacedImageBufferViews": [
+      4,
+      17,
+      66,
+      156
+    ],
+    "preservedNonImageBufferViews": 303,
+    "geometryAndHierarchyUnchanged": true,
+    "otherTopLevelJsonUnchanged": true,
+    "sourceGlbUnchanged": true,
+    "requiredExtension": "KHR_texture_basisu"
+  },
+  "ids": 77,
+  "asset_hierarchy_preserved": true,
+  "interior_geometry_and_uv_unchanged": "802e2dbd447a2d2c044d72003b36a9a4ba4c6a82c9276ec8ce537f76a9e8c84a",
+  "triangles": 542976,
+  "primitives": 80,
+  "nodes": 142,
+  "materials": [
+    "GALLERY_LIGHTMAP_2",
+    "GALLERY_LIGHTMAP_0",
+    "GALLERY_ARCH_GLASS",
+    "GALLERY_CLEAR",
+    "GALLERY_LIGHTMAP_3",
+    "GALLERY_LIGHTMAP_1"
+  ],
+  "atlas_sizes": [
+    4096,
+    4096,
+    4096,
+    1024
+  ],
+  "bakes": [
+    {
+      "state": "day",
+      "seconds": 240.65,
+      "atlases": [
+        {
+          "atlas": 0,
+          "path": "public/textures/works-gallery-v4/day-0.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "bytes": 4062190,
+          "sha256": "a853dc9982ef2c0a7813b3ae8bcea097b08beb2050afcea5a3d6e3e5243d9652",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 90.25
+        },
+        {
+          "atlas": 1,
+          "path": "public/textures/works-gallery-v4/day-1.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "bytes": 5286537,
+          "sha256": "1bc36422d7138c68682d642d2a77640f28bb55f8388777edcd41ce0e97f2f794",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 75.5
+        },
+        {
+          "atlas": 2,
+          "path": "public/textures/works-gallery-v4/day-2.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "bytes": 5060901,
+          "sha256": "632cd77a87659c005d19fc02949bb0bc28eaef99e383b43818e2781a05431ffc",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 66.09
+        },
+        {
+          "atlas": 3,
+          "path": "public/textures/works-gallery-v4/day-3.png",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "bytes": 171580,
+          "sha256": "651d109fb8150aaa791260ad1b62c73685c09c1a74fbab70f4f6ed0f07e9cab0",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 8.27
+        }
+      ]
+    },
+    {
+      "state": "night",
+      "seconds": 235.63,
+      "atlases": [
+        {
+          "atlas": 0,
+          "path": "public/textures/works-gallery-v4/night-0.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "bytes": 3398349,
+          "sha256": "5403b00c3581f4eac596c8a769c758b14100ee7f5e1c57bc95fd58b00fe7f37d",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 77.94
+        },
+        {
+          "atlas": 1,
+          "path": "public/textures/works-gallery-v4/night-1.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "bytes": 5426635,
+          "sha256": "106163a66ddb2e7fc8acf027c57218eee60c579c4662f39371fb483cc9ee905a",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 77.25
+        },
+        {
+          "atlas": 2,
+          "path": "public/textures/works-gallery-v4/night-2.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "bytes": 5150214,
+          "sha256": "0cd82daf2ecc54663e3d3ab713ff366a2eecb511bfd7d4a88fe7bfef2138f313",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 72.48
+        },
+        {
+          "atlas": 3,
+          "path": "public/textures/works-gallery-v4/night-3.png",
+          "resolution": [
+            1024,
+            1024
+          ],
+          "bytes": 123724,
+          "sha256": "b8807b8d39c561f961f348b3a3d95c8eb98de97e25958d065bafa5055878a0fe",
+          "margin": 16,
+          "device": "GPU",
+          "seconds": 7.92
+        }
+      ]
+    }
+  ],
+  "glass_normals": [
+    {
+      "node": "GALLERY_WEB_gallery.architecture.glazing__glass__A0.001",
+      "material": "GALLERY_ARCH_GLASS",
+      "normals": 7896,
+      "min_length": 0.9999999349347842,
+      "max_length": 1.0000001285227775,
+      "web_bounds": {
+        "min": [
+          -7.284999847412109,
+          0.4749999940395355,
+          -3.4821109771728516
+        ],
+        "max": [
+          7.284999847412109,
+          5.190808296203613,
+          -1.2851918935775757
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.archive.cart__glass__A3.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 4560,
+      "min_length": 0.9999999303823739,
+      "max_length": 1.000000099815904,
+      "web_bounds": {
+        "min": [
+          5.772500038146973,
+          0.9749999716877937,
+          1.027500033378601
+        ],
+        "max": [
+          6.427499771118164,
+          1.2269999459385872,
+          1.5724999904632568
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.environment.terrace__glass__A1.001",
+      "material": "GALLERY_ARCH_GLASS",
+      "normals": 2400,
+      "min_length": 0.9999999456445096,
+      "max_length": 1.0000001106005716,
+      "web_bounds": {
+        "min": [
+          -6.7499998807907104,
+          -0.06999999284744263,
+          -5.358999904245138
+        ],
+        "max": [
+          6.749999523162842,
+          0.9300000071525574,
+          -5.3409999050199986
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.lantern.01__glass__A3.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 966,
+      "min_length": 0.9999999343459949,
+      "max_length": 1.0000000761826644,
+      "web_bounds": {
+        "min": [
+          -6.53000009059906,
+          0.2825000435113907,
+          2.3700000047683716
+        ],
+        "max": [
+          -6.270000100135803,
+          0.8125000149011612,
+          2.6299999952316284
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.lantern.02__glass__A3.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 966,
+      "min_length": 0.9999999343459949,
+      "max_length": 1.0000000761826644,
+      "web_bounds": {
+        "min": [
+          6.670000195503235,
+          0.2825000435113907,
+          2.46999990940094
+        ],
+        "max": [
+          6.930000185966492,
+          0.8125000149011612,
+          2.7299998998641968
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.02.vitrine.glass.face.-1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          -3.255500018596649,
+          1.0719999969005585,
+          -1.2770000277087092
+        ],
+        "max": [
+          -2.1445000767707825,
+          2.5900000035762787,
+          -1.2650000276044011
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.02.vitrine.glass.face.1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          -3.255500018596649,
+          1.0719999969005585,
+          -2.1149999676272273
+        ],
+        "max": [
+          -2.1445000767707825,
+          2.5900000035762787,
+          -2.102999967522919
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.02.vitrine.glass.roof__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          -3.2520000338554382,
+          2.593999815173447,
+          -2.093000054359436
+        ],
+        "max": [
+          -2.1480000615119934,
+          2.6059998152777553,
+          -1.287000060081482
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.02.vitrine.glass.side.-1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          -3.2739998875185847,
+          1.0719999969005585,
+          -2.0965000689029694
+        ],
+        "max": [
+          -3.2619998874142766,
+          2.5900000035762787,
+          -1.2835000455379486
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.02.vitrine.glass.side.1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          -2.137999969534576,
+          1.0719999969005585,
+          -2.0965000689029694
+        ],
+        "max": [
+          -2.125999969430268,
+          2.5900000035762787,
+          -1.2835000455379486
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.05.vitrine.glass.face.-1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          3.044499933719635,
+          1.0719999969005585,
+          -1.2770000277087092
+        ],
+        "max": [
+          4.155499875545502,
+          2.5900000035762787,
+          -1.2650000276044011
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.05.vitrine.glass.face.1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          3.044499933719635,
+          1.0719999969005585,
+          -2.1149999676272273
+        ],
+        "max": [
+          4.155499875545502,
+          2.5900000035762787,
+          -2.102999967522919
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.05.vitrine.glass.roof__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          3.047999918460846,
+          2.593999815173447,
+          -2.093000054359436
+        ],
+        "max": [
+          4.151999890804291,
+          2.6059998152777553,
+          -1.287000060081482
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.05.vitrine.glass.side.-1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          3.0260000647976995,
+          1.0719999969005585,
+          -2.0965000689029694
+        ],
+        "max": [
+          3.0380000649020076,
+          2.5900000035762787,
+          -1.2835000455379486
+        ]
+      }
+    },
+    {
+      "node": "GALLERY_WEB_gallery.work.05.vitrine.glass.side.1__glass__A2.001",
+      "material": "GALLERY_CLEAR",
+      "normals": 600,
+      "min_length": 0.9999999496503571,
+      "max_length": 1.0000000668643731,
+      "web_bounds": {
+        "min": [
+          4.162000221200287,
+          1.0719999969005585,
+          -2.0965000689029694
+        ],
+        "max": [
+          4.1740002213045955,
+          2.5900000035762787,
+          -1.2835000455379486
+        ]
+      }
+    }
+  ],
+  "architecture_glass_thickness_m": {
+    "rear": 0.032,
+    "canopy": 0.03
+  },
+  "source_to_prepared_all_world_vertices_verified": true,
+  "transform_verification_report": "assets/blender/works-gallery-v4/source-prepared-transform-verification.json",
+  "structural_shell_single_closed_component": true,
+  "top_glass_no_outer_corner_protrusion": true,
+  "geometry_report": "assets/blender/works-gallery-v4/geometry-final-audit.json",
+  "web_bounds": {
+    "min": [
+      -11.104989051818848,
+      -0.8550000190734863,
+      -8.100000381469727
+    ],
+    "max": [
+      11.104989051818848,
+      5.409999847412109,
+      6.480000019073486
+    ]
+  },
+  "native_floor_y": -0.88,
+  "shared_stage_y_offset": -0.185,
+  "protected_old_assets": {
+    "public/models/works-gallery-v1.glb": true,
+    "public/models/works-gallery-v1-compressed.glb": true,
+    "public/models/works-gallery-v2.glb": true,
+    "public/models/works-gallery-v2-compressed.glb": true,
+    "public/models/works-gallery-v3.glb": true,
+    "public/models/works-gallery-v3-compressed.glb": true,
+    "assets/blender/works-gallery-v3.blend": true
+  },
+  "probe_manifest": "public/textures/works-gallery-v4/reflection-SOURCE.json",
+  "ground_manifest": "public/textures/gallery-atmosphere-v2/SOURCE.json",
+  "render_report": "renders/works-gallery-v4/render-final.json",
+  "gpu_jobs_complete": true,
+  "estimated_main_astc_mib_both_states": 130.6668701171875
+}

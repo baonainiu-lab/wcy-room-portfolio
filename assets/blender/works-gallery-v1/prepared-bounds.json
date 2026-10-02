@@ -1,0 +1,1359 @@
+{
+  "all": {
+    "blender": {
+      "min": [
+        -40.06082534790039,
+        -6.480000019073486,
+        -5.909999847412109
+      ],
+      "max": [
+        35.06399917602539,
+        60.95798873901367,
+        16.764598846435547
+      ]
+    },
+    "web": {
+      "min": [
+        -40.06082534790039,
+        -5.909999847412109,
+        -60.95798873901367
+      ],
+      "max": [
+        35.06399917602539,
+        16.764598846435547,
+        6.480000019073486
+      ]
+    }
+  },
+  "galleryArchitectureAndExhibits": {
+    "blender": {
+      "min": [
+        -9.289999961853027,
+        -6.480000019073486,
+        -0.49000000953674316
+      ],
+      "max": [
+        8.199999809265137,
+        4.0,
+        5.411657810211182
+      ]
+    },
+    "web": {
+      "min": [
+        -9.289999961853027,
+        -0.49000000953674316,
+        -4.0
+      ],
+      "max": [
+        8.199999809265137,
+        5.411657810211182,
+        6.480000019073486
+      ]
+    }
+  },
+  "camera": {
+    "type": "PERSP",
+    "blenderPosition": [
+      17.0,
+      -28.0,
+      15.5
+    ],
+    "webPosition": [
+      17.0,
+      15.5,
+      28.0
+    ]
+  },
+  "assets": {
+    "gallery.architecture": {
+      "name": "GALLERY_WEB_gallery.architecture",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.architecture.glazing": {
+      "name": "GALLERY_WEB_gallery.architecture.glazing",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.environment.terrace": {
+      "name": "GALLERY_WEB_gallery.environment.terrace",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.architecture.portal": {
+      "name": "GALLERY_WEB_gallery.architecture.portal",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.environment.city": {
+      "name": "GALLERY_WEB_gallery.environment.city",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.work.01": {
+      "name": "GALLERY_WEB_gallery.work.01",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -4.800000190734863,
+        2.450000047683716,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -4.800000190734863,
+        0.15000000596046448,
+        -2.450000047683716
+      ]
+    },
+    "gallery.work.01.art": {
+      "name": "GALLERY_WEB_gallery.work.01.art",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.01",
+      "blenderPivot": [
+        -4.800000190734863,
+        2.180000066757202,
+        2.119999885559082
+      ],
+      "webPivot": [
+        -4.800000190734863,
+        2.119999885559082,
+        -2.180000066757202
+      ]
+    },
+    "gallery.work.01.console": {
+      "name": "GALLERY_WEB_gallery.work.01.console",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.01",
+      "blenderPivot": [
+        -4.800000190734863,
+        1.9049999713897705,
+        0.8349999189376831
+      ],
+      "webPivot": [
+        -4.800000190734863,
+        0.8349999189376831,
+        -1.9049999713897705
+      ]
+    },
+    "gallery.work.01.label": {
+      "name": "GALLERY_WEB_gallery.work.01.label",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.01",
+      "blenderPivot": [
+        -4.635000228881836,
+        1.8370000123977661,
+        0.9850000143051147
+      ],
+      "webPivot": [
+        -4.635000228881836,
+        0.9850000143051147,
+        -1.8370000123977661
+      ]
+    },
+    "gallery.work.01.maquette": {
+      "name": "GALLERY_WEB_gallery.work.01.maquette",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.01",
+      "blenderPivot": [
+        -5.28000020980835,
+        1.8459999561309814,
+        0.9199999570846558
+      ],
+      "webPivot": [
+        -5.28000020980835,
+        0.9199999570846558,
+        -1.8459999561309814
+      ]
+    },
+    "gallery.work.02": {
+      "name": "GALLERY_WEB_gallery.work.02",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -2.700000047683716,
+        2.450000047683716,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        0.15000000596046448,
+        -2.450000047683716
+      ]
+    },
+    "gallery.work.02.vitrine": {
+      "name": "GALLERY_WEB_gallery.work.02.vitrine",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.02",
+      "blenderPivot": [
+        -2.700000047683716,
+        1.690000057220459,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        0.15000000596046448,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.02.vitrine.glass.side.-1": {
+      "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.side.-1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.02.vitrine",
+      "blenderPivot": [
+        -3.2679998874664307,
+        1.690000057220459,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        -3.2679998874664307,
+        1.8309999704360962,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.02.vitrine.glass.face.-1": {
+      "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.face.-1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.02.vitrine",
+      "blenderPivot": [
+        -2.700000047683716,
+        1.2710000276565552,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        1.8309999704360962,
+        -1.2710000276565552
+      ]
+    },
+    "gallery.work.02.vitrine.glass.side.1": {
+      "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.side.1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.02.vitrine",
+      "blenderPivot": [
+        -2.131999969482422,
+        1.690000057220459,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        -2.131999969482422,
+        1.8309999704360962,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.02.vitrine.glass.face.1": {
+      "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.face.1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.02.vitrine",
+      "blenderPivot": [
+        -2.700000047683716,
+        2.1089999675750732,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        1.8309999704360962,
+        -2.1089999675750732
+      ]
+    },
+    "gallery.work.02.vitrine.glass.roof": {
+      "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.roof__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.02.vitrine",
+      "blenderPivot": [
+        -2.700000047683716,
+        1.690000057220459,
+        2.5999999046325684
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        2.5999999046325684,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.02.label": {
+      "name": "GALLERY_WEB_gallery.work.02.label",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.02",
+      "blenderPivot": [
+        -2.700000047683716,
+        1.090000033378601,
+        1.0360000133514404
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        1.0360000133514404,
+        -1.090000033378601
+      ]
+    },
+    "gallery.work.02.geometry": {
+      "name": "GALLERY_WEB_gallery.work.02.geometry",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.02",
+      "blenderPivot": [
+        -2.700000047683716,
+        1.690000057220459,
+        1.0449999570846558
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        1.0449999570846558,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.02.geometry.sphere": {
+      "name": "GALLERY_WEB_gallery.work.02.geometry.sphere__baked__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.02.geometry",
+      "blenderPivot": [
+        -2.930000066757202,
+        1.690000057220459,
+        1.690000057220459
+      ],
+      "webPivot": [
+        -2.930000066757202,
+        1.690000057220459,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.02.geometry.folded_form": {
+      "name": "GALLERY_WEB_gallery.work.02.geometry.folded_form__baked__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.02.geometry",
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.work.03": {
+      "name": "GALLERY_WEB_gallery.work.03",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -0.6000000238418579,
+        2.450000047683716,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -0.6000000238418579,
+        0.15000000596046448,
+        -2.450000047683716
+      ]
+    },
+    "gallery.work.03.art": {
+      "name": "GALLERY_WEB_gallery.work.03.art",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.03",
+      "blenderPivot": [
+        -0.6000000238418579,
+        2.180000066757202,
+        2.119999885559082
+      ],
+      "webPivot": [
+        -0.6000000238418579,
+        2.119999885559082,
+        -2.180000066757202
+      ]
+    },
+    "gallery.work.03.console": {
+      "name": "GALLERY_WEB_gallery.work.03.console",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.03",
+      "blenderPivot": [
+        -0.6000000238418579,
+        1.9049999713897705,
+        0.8349999189376831
+      ],
+      "webPivot": [
+        -0.6000000238418579,
+        0.8349999189376831,
+        -1.9049999713897705
+      ]
+    },
+    "gallery.work.03.label": {
+      "name": "GALLERY_WEB_gallery.work.03.label",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.03",
+      "blenderPivot": [
+        -0.4350000023841858,
+        1.8370000123977661,
+        0.9850000143051147
+      ],
+      "webPivot": [
+        -0.4350000023841858,
+        0.9850000143051147,
+        -1.8370000123977661
+      ]
+    },
+    "gallery.work.03.maquette": {
+      "name": "GALLERY_WEB_gallery.work.03.maquette",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.03",
+      "blenderPivot": [
+        -1.0800000429153442,
+        1.8459999561309814,
+        0.9199999570846558
+      ],
+      "webPivot": [
+        -1.0800000429153442,
+        0.9199999570846558,
+        -1.8459999561309814
+      ]
+    },
+    "gallery.work.04": {
+      "name": "GALLERY_WEB_gallery.work.04",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        1.5,
+        2.450000047683716,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        1.5,
+        0.15000000596046448,
+        -2.450000047683716
+      ]
+    },
+    "gallery.work.04.sculpture": {
+      "name": "GALLERY_WEB_gallery.work.04.sculpture",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.04",
+      "blenderPivot": [
+        1.5,
+        1.690000057220459,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        1.5,
+        0.15000000596046448,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.04.sculpture.model": {
+      "name": "GALLERY_WEB_gallery.work.04.sculpture.model",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.04.sculpture",
+      "blenderPivot": [
+        1.5,
+        1.690000057220459,
+        1.3220000267028809
+      ],
+      "webPivot": [
+        1.5,
+        1.3220000267028809,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.04.sculpture.model.silver_ribbon": {
+      "name": "GALLERY_WEB_gallery.work.04.sculpture.model.silver_ribbon__baked__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.04.sculpture.model",
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.work.04.sculpture.model.champagne_ribbon": {
+      "name": "GALLERY_WEB_gallery.work.04.sculpture.model.champagne_ribbon__baked__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.04.sculpture.model",
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.work.04.label": {
+      "name": "GALLERY_WEB_gallery.work.04.label",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.04",
+      "blenderPivot": [
+        1.5,
+        0.9249999523162842,
+        0.9769999980926514
+      ],
+      "webPivot": [
+        1.5,
+        0.9769999980926514,
+        -0.9249999523162842
+      ]
+    },
+    "gallery.work.05": {
+      "name": "GALLERY_WEB_gallery.work.05",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        3.5999999046325684,
+        2.450000047683716,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        3.5999999046325684,
+        0.15000000596046448,
+        -2.450000047683716
+      ]
+    },
+    "gallery.work.05.vitrine": {
+      "name": "GALLERY_WEB_gallery.work.05.vitrine",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.05",
+      "blenderPivot": [
+        3.5999999046325684,
+        1.690000057220459,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        3.5999999046325684,
+        0.15000000596046448,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.05.vitrine.glass.side.-1": {
+      "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.side.-1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.05.vitrine",
+      "blenderPivot": [
+        3.0320000648498535,
+        1.690000057220459,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        3.0320000648498535,
+        1.8309999704360962,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.05.vitrine.glass.face.-1": {
+      "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.face.-1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.05.vitrine",
+      "blenderPivot": [
+        3.5999999046325684,
+        1.2710000276565552,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        3.5999999046325684,
+        1.8309999704360962,
+        -1.2710000276565552
+      ]
+    },
+    "gallery.work.05.vitrine.glass.side.1": {
+      "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.side.1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.05.vitrine",
+      "blenderPivot": [
+        4.168000221252441,
+        1.690000057220459,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        4.168000221252441,
+        1.8309999704360962,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.05.vitrine.glass.face.1": {
+      "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.face.1__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.05.vitrine",
+      "blenderPivot": [
+        3.5999999046325684,
+        2.1089999675750732,
+        1.8309999704360962
+      ],
+      "webPivot": [
+        3.5999999046325684,
+        1.8309999704360962,
+        -2.1089999675750732
+      ]
+    },
+    "gallery.work.05.vitrine.glass.roof": {
+      "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.roof__glass__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.05.vitrine",
+      "blenderPivot": [
+        3.5999999046325684,
+        1.690000057220459,
+        2.5999999046325684
+      ],
+      "webPivot": [
+        3.5999999046325684,
+        2.5999999046325684,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.05.label": {
+      "name": "GALLERY_WEB_gallery.work.05.label",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.05",
+      "blenderPivot": [
+        3.5999999046325684,
+        1.090000033378601,
+        1.0360000133514404
+      ],
+      "webPivot": [
+        3.5999999046325684,
+        1.0360000133514404,
+        -1.090000033378601
+      ]
+    },
+    "gallery.work.05.geometry": {
+      "name": "GALLERY_WEB_gallery.work.05.geometry",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.05",
+      "blenderPivot": [
+        3.5999999046325684,
+        1.690000057220459,
+        1.034000039100647
+      ],
+      "webPivot": [
+        3.5999999046325684,
+        1.034000039100647,
+        -1.690000057220459
+      ]
+    },
+    "gallery.work.05.geometry.faceted_core": {
+      "name": "GALLERY_WEB_gallery.work.05.geometry.faceted_core__baked__A2",
+      "type": "MESH",
+      "parentAssetId": "gallery.work.05.geometry",
+      "blenderPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webPivot": [
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gallery.work.06": {
+      "name": "GALLERY_WEB_gallery.work.06",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        5.699999809265137,
+        2.450000047683716,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        5.699999809265137,
+        0.15000000596046448,
+        -2.450000047683716
+      ]
+    },
+    "gallery.work.06.art": {
+      "name": "GALLERY_WEB_gallery.work.06.art",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.06",
+      "blenderPivot": [
+        5.699999809265137,
+        2.180000066757202,
+        2.119999885559082
+      ],
+      "webPivot": [
+        5.699999809265137,
+        2.119999885559082,
+        -2.180000066757202
+      ]
+    },
+    "gallery.work.06.console": {
+      "name": "GALLERY_WEB_gallery.work.06.console",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.06",
+      "blenderPivot": [
+        5.699999809265137,
+        1.9049999713897705,
+        0.8349999189376831
+      ],
+      "webPivot": [
+        5.699999809265137,
+        0.8349999189376831,
+        -1.9049999713897705
+      ]
+    },
+    "gallery.work.06.label": {
+      "name": "GALLERY_WEB_gallery.work.06.label",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.06",
+      "blenderPivot": [
+        5.864999771118164,
+        1.8370000123977661,
+        0.9850000143051147
+      ],
+      "webPivot": [
+        5.864999771118164,
+        0.9850000143051147,
+        -1.8370000123977661
+      ]
+    },
+    "gallery.work.06.maquette": {
+      "name": "GALLERY_WEB_gallery.work.06.maquette",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.work.06",
+      "blenderPivot": [
+        5.21999979019165,
+        1.8459999561309814,
+        0.9199999570846558
+      ],
+      "webPivot": [
+        5.21999979019165,
+        0.9199999570846558,
+        -1.8459999561309814
+      ]
+    },
+    "gallery.table.main": {
+      "name": "GALLERY_WEB_gallery.table.main",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.3499999940395355,
+        -0.550000011920929,
+        0.0
+      ],
+      "webPivot": [
+        0.3499999940395355,
+        0.0,
+        0.550000011920929
+      ]
+    },
+    "gallery.library.01": {
+      "name": "GALLERY_WEB_gallery.library.01",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -1.7799999713897705,
+        -0.7599999904632568,
+        0.41499999165534973
+      ],
+      "webPivot": [
+        -1.7799999713897705,
+        0.41499999165534973,
+        0.7599999904632568
+      ]
+    },
+    "gallery.library.02": {
+      "name": "GALLERY_WEB_gallery.library.02",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -0.7200000286102295,
+        -0.7599999904632568,
+        0.41499999165534973
+      ],
+      "webPivot": [
+        -0.7200000286102295,
+        0.41499999165534973,
+        0.7599999904632568
+      ]
+    },
+    "gallery.library.03": {
+      "name": "GALLERY_WEB_gallery.library.03",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.3499999940395355,
+        -0.7599999904632568,
+        0.41499999165534973
+      ],
+      "webPivot": [
+        0.3499999940395355,
+        0.41499999165534973,
+        0.7599999904632568
+      ]
+    },
+    "gallery.library.04": {
+      "name": "GALLERY_WEB_gallery.library.04",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        1.409999966621399,
+        -0.7599999904632568,
+        0.41499999165534973
+      ],
+      "webPivot": [
+        1.409999966621399,
+        0.41499999165534973,
+        0.7599999904632568
+      ]
+    },
+    "gallery.library.05": {
+      "name": "GALLERY_WEB_gallery.library.05",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        2.4800000190734863,
+        -0.7599999904632568,
+        0.41499999165534973
+      ],
+      "webPivot": [
+        2.4800000190734863,
+        0.41499999165534973,
+        0.7599999904632568
+      ]
+    },
+    "gallery.album.01": {
+      "name": "GALLERY_WEB_gallery.album.01",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -1.149999976158142,
+        -0.6800000071525574,
+        1.1200000047683716
+      ],
+      "webPivot": [
+        -1.149999976158142,
+        1.1200000047683716,
+        0.6800000071525574
+      ]
+    },
+    "gallery.album.02": {
+      "name": "GALLERY_WEB_gallery.album.02",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.3499999940395355,
+        -0.6800000071525574,
+        1.1200000047683716
+      ],
+      "webPivot": [
+        0.3499999940395355,
+        1.1200000047683716,
+        0.6800000071525574
+      ]
+    },
+    "gallery.album.03": {
+      "name": "GALLERY_WEB_gallery.album.03",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        1.850000023841858,
+        -0.6800000071525574,
+        1.1200000047683716
+      ],
+      "webPivot": [
+        1.850000023841858,
+        1.1200000047683716,
+        0.6800000071525574
+      ]
+    },
+    "gallery.sculpture.ring": {
+      "name": "GALLERY_WEB_gallery.sculpture.ring",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -2.700000047683716,
+        -0.5299999713897705,
+        1.4500000476837158
+      ],
+      "webPivot": [
+        -2.700000047683716,
+        1.4500000476837158,
+        0.5299999713897705
+      ]
+    },
+    "gallery.lamp.base": {
+      "name": "GALLERY_WEB_gallery.lamp.base",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        2.8299999237060547,
+        -0.25999999046325684,
+        1.100000023841858
+      ],
+      "webPivot": [
+        2.8299999237060547,
+        1.100000023841858,
+        0.25999999046325684
+      ]
+    },
+    "gallery.lamp.head": {
+      "name": "GALLERY_WEB_gallery.lamp.head",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.lamp.base",
+      "blenderPivot": [
+        2.7300000190734863,
+        -0.25999999046325684,
+        1.6799999475479126
+      ],
+      "webPivot": [
+        2.7300000190734863,
+        1.6799999475479126,
+        0.25999999046325684
+      ]
+    },
+    "gallery.cup": {
+      "name": "GALLERY_WEB_gallery.cup",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -2.0999999046325684,
+        -0.7900000214576721,
+        1.100000023841858
+      ],
+      "webPivot": [
+        -2.0999999046325684,
+        1.100000023841858,
+        0.7900000214576721
+      ]
+    },
+    "gallery.planter.table": {
+      "name": "GALLERY_WEB_gallery.planter.table",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        3.430000066757202,
+        -0.4699999988079071,
+        1.100000023841858
+      ],
+      "webPivot": [
+        3.430000066757202,
+        1.100000023841858,
+        0.4699999988079071
+      ]
+    },
+    "gallery.tool.pencil": {
+      "name": "GALLERY_WEB_gallery.tool.pencil",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        2.869999885559082,
+        -0.8999999761581421,
+        1.1169999837875366
+      ],
+      "webPivot": [
+        2.869999885559082,
+        1.1169999837875366,
+        0.8999999761581421
+      ]
+    },
+    "gallery.tool.caliper": {
+      "name": "GALLERY_WEB_gallery.tool.caliper",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        3.0799999237060547,
+        -0.6700000166893005,
+        1.1200000047683716
+      ],
+      "webPivot": [
+        3.0799999237060547,
+        1.1200000047683716,
+        0.6700000166893005
+      ]
+    },
+    "gallery.tool.measure_disc": {
+      "name": "GALLERY_WEB_gallery.tool.measure_disc",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -3.130000114440918,
+        -0.550000011920929,
+        1.1200000047683716
+      ],
+      "webPivot": [
+        -3.130000114440918,
+        1.1200000047683716,
+        0.550000011920929
+      ]
+    },
+    "gallery.bench": {
+      "name": "GALLERY_WEB_gallery.bench",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        0.30000001192092896,
+        -2.3499999046325684,
+        0.0
+      ],
+      "webPivot": [
+        0.30000001192092896,
+        0.0,
+        2.3499999046325684
+      ]
+    },
+    "gallery.archive.cart": {
+      "name": "GALLERY_WEB_gallery.archive.cart",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        6.099999904632568,
+        -1.2999999523162842,
+        0.2409999966621399
+      ],
+      "webPivot": [
+        6.099999904632568,
+        0.2409999966621399,
+        1.2999999523162842
+      ]
+    },
+    "gallery.archive.drawer.01": {
+      "name": "GALLERY_WEB_gallery.archive.drawer.01",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.archive.cart",
+      "blenderPivot": [
+        6.099999904632568,
+        -1.5750000476837158,
+        0.5009999871253967
+      ],
+      "webPivot": [
+        6.099999904632568,
+        0.5009999871253967,
+        1.5750000476837158
+      ]
+    },
+    "gallery.archive.drawer.02": {
+      "name": "GALLERY_WEB_gallery.archive.drawer.02",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.archive.cart",
+      "blenderPivot": [
+        6.099999904632568,
+        -1.5750000476837158,
+        0.8109999895095825
+      ],
+      "webPivot": [
+        6.099999904632568,
+        0.8109999895095825,
+        1.5750000476837158
+      ]
+    },
+    "gallery.archive.wheel.00": {
+      "name": "GALLERY_WEB_gallery.archive.wheel.00",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.archive.cart",
+      "blenderPivot": [
+        5.800000190734863,
+        -1.5399999618530273,
+        0.22100000083446503
+      ],
+      "webPivot": [
+        5.800000190734863,
+        0.22100000083446503,
+        1.5399999618530273
+      ]
+    },
+    "gallery.archive.wheel.01": {
+      "name": "GALLERY_WEB_gallery.archive.wheel.01",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.archive.cart",
+      "blenderPivot": [
+        5.800000190734863,
+        -1.059999942779541,
+        0.22100000083446503
+      ],
+      "webPivot": [
+        5.800000190734863,
+        0.22100000083446503,
+        1.059999942779541
+      ]
+    },
+    "gallery.archive.wheel.10": {
+      "name": "GALLERY_WEB_gallery.archive.wheel.10",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.archive.cart",
+      "blenderPivot": [
+        6.400000095367432,
+        -1.5399999618530273,
+        0.22100000083446503
+      ],
+      "webPivot": [
+        6.400000095367432,
+        0.22100000083446503,
+        1.5399999618530273
+      ]
+    },
+    "gallery.archive.wheel.11": {
+      "name": "GALLERY_WEB_gallery.archive.wheel.11",
+      "type": "EMPTY",
+      "parentAssetId": "gallery.archive.cart",
+      "blenderPivot": [
+        6.400000095367432,
+        -1.059999942779541,
+        0.22100000083446503
+      ],
+      "webPivot": [
+        6.400000095367432,
+        0.22100000083446503,
+        1.059999942779541
+      ]
+    },
+    "gallery.planter.floor.01": {
+      "name": "GALLERY_WEB_gallery.planter.floor.01",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -6.0,
+        -2.799999952316284,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -6.0,
+        0.15000000596046448,
+        2.799999952316284
+      ]
+    },
+    "gallery.planter.floor.02": {
+      "name": "GALLERY_WEB_gallery.planter.floor.02",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -5.800000190734863,
+        1.399999976158142,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -5.800000190734863,
+        0.15000000596046448,
+        -1.399999976158142
+      ]
+    },
+    "gallery.planter.floor.03": {
+      "name": "GALLERY_WEB_gallery.planter.floor.03",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        6.599999904632568,
+        1.399999976158142,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        6.599999904632568,
+        0.15000000596046448,
+        -1.399999976158142
+      ]
+    },
+    "gallery.planter.floor.04": {
+      "name": "GALLERY_WEB_gallery.planter.floor.04",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        6.5,
+        -3.200000047683716,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        6.5,
+        0.15000000596046448,
+        3.200000047683716
+      ]
+    },
+    "gallery.lantern.01": {
+      "name": "GALLERY_WEB_gallery.lantern.01",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -6.400000095367432,
+        -2.5,
+        0.14249999821186066
+      ],
+      "webPivot": [
+        -6.400000095367432,
+        0.14249999821186066,
+        2.5
+      ]
+    },
+    "gallery.lantern.02": {
+      "name": "GALLERY_WEB_gallery.lantern.02",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        6.800000190734863,
+        -2.5999999046325684,
+        0.14249999821186066
+      ],
+      "webPivot": [
+        6.800000190734863,
+        0.14249999821186066,
+        2.5999999046325684
+      ]
+    },
+    "gallery.environment.plant.00": {
+      "name": "GALLERY_WEB_gallery.environment.plant.00",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -10.0,
+        7.0,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -10.0,
+        0.15000000596046448,
+        -7.0
+      ]
+    },
+    "gallery.environment.plant.01": {
+      "name": "GALLERY_WEB_gallery.environment.plant.01",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -7.800000190734863,
+        8.0,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -7.800000190734863,
+        0.15000000596046448,
+        -8.0
+      ]
+    },
+    "gallery.environment.plant.02": {
+      "name": "GALLERY_WEB_gallery.environment.plant.02",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -4.199999809265137,
+        7.800000190734863,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -4.199999809265137,
+        0.15000000596046448,
+        -7.800000190734863
+      ]
+    },
+    "gallery.environment.plant.03": {
+      "name": "GALLERY_WEB_gallery.environment.plant.03",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        -1.2000000476837158,
+        8.399999618530273,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        -1.2000000476837158,
+        0.15000000596046448,
+        -8.399999618530273
+      ]
+    },
+    "gallery.environment.plant.04": {
+      "name": "GALLERY_WEB_gallery.environment.plant.04",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        2.0,
+        7.800000190734863,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        2.0,
+        0.15000000596046448,
+        -7.800000190734863
+      ]
+    },
+    "gallery.environment.plant.05": {
+      "name": "GALLERY_WEB_gallery.environment.plant.05",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        5.0,
+        8.199999809265137,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        5.0,
+        0.15000000596046448,
+        -8.199999809265137
+      ]
+    },
+    "gallery.environment.plant.06": {
+      "name": "GALLERY_WEB_gallery.environment.plant.06",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        8.5,
+        8.0,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        8.5,
+        0.15000000596046448,
+        -8.0
+      ]
+    },
+    "gallery.environment.plant.07": {
+      "name": "GALLERY_WEB_gallery.environment.plant.07",
+      "type": "EMPTY",
+      "parentAssetId": null,
+      "blenderPivot": [
+        10.5,
+        6.699999809265137,
+        0.15000000596046448
+      ],
+      "webPivot": [
+        10.5,
+        0.15000000596046448,
+        -6.699999809265137
+      ]
+    }
+  }
+}

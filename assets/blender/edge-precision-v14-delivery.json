@@ -1,0 +1,57 @@
+{
+  "revision": 14,
+  "geometryInheritedFrom": 12,
+  "lightRigInheritedFrom": 13,
+  "files": {
+    "assets/blender/orbital-atelier-v14.blend": {
+      "bytes": 73847397,
+      "sha256": "dacc38f1097cd479b5094807b3ea24e1601c5e0be735089ed34ef54504a32075"
+    },
+    "assets/blender/orbital-dual-bake-v14.blend": {
+      "bytes": 82981933,
+      "sha256": "c27fbb08d5b55a6d32ec681bd97a6ba4b33b8fb301a0aa8325ccfda593255b4d"
+    },
+    "public/models/orbital-atelier-v14.glb": {
+      "bytes": 49383384,
+      "sha256": "a933ce1ba865c5ad5293e11bfac51ad082f8c1522ff828ad89d45aa17bd5e232"
+    },
+    "public/textures/lighting-v14/day-8.png": {
+      "bytes": 4296462,
+      "sha256": "399d1690ae3d3e2e0f588f5d7dd603416d44dd978652168d6c13cd2c79a9d31b"
+    },
+    "public/textures/lighting-v14/night-8.png": {
+      "bytes": 3229510,
+      "sha256": "4c7cd95a572e8368c1d2d122b47b85252c59b639ea5f0f33c9114e4bde7e5129"
+    }
+  },
+  "source": {
+    "editable": "assets/blender/orbital-atelier-v14.blend",
+    "webPrepared": "assets/blender/orbital-dual-bake-v14.blend",
+    "note": "Editable source geometry, procedural PBR materials and light rigs match V13. V14 local precision is implemented on independently owned web meshes in the prepared Blender scene; no source silhouette changes."
+  },
+  "knownLimits": [
+    "Floor joint and lounge/rug stitch tubes remain geometry from V13; this revision does not redesign or remove them.",
+    "Unlit web glass retains the existing alpha approximation; UV precision does not restore physical refraction or dynamic reflections.",
+    "Local atlas improves baked metal rail highlights; very distant lines can still occupy less than one screen pixel.",
+    "GLB unlit proof is a Blender render of actual exported textures; final browser sampling and runtime performance must be checked separately."
+  ],
+  "verification": "renders/edge-precision-v14-export-check.json",
+  "uvReport": "assets/blender/edge-atlas-v14-report.json",
+  "pipelines": [
+    "assets/blender/scripts/refine_edge_atlas_v14.py -- --save",
+    "assets/blender/scripts/run_edge_precision_v14.py",
+    "assets/blender/scripts/verify_edge_precision_v14.py",
+    "assets/blender/scripts/render_unlit_edges_v14.py"
+  ],
+  "budget": {
+    "triangles": 373203,
+    "primitivesBefore": 100,
+    "primitivesAfter": 102,
+    "addedAtlasPixelsPerState": 9437184,
+    "existingAtlasPixelsPerState": 114294784,
+    "atlasPixelIncreasePercent": 8.257,
+    "newAtlasDecodedRGBA8PerStateBytes": 37748736,
+    "newAtlasDecodedRGBA8BothStatesIncludingMipmapsApproxBytes": 100663296,
+    "modelBytesDelta": 3205200
+  }
+}

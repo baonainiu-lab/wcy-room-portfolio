@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "model": {
+    "path": "public/models/orbital-atelier-v15-compressed.glb",
+    "bytes": 70844508,
+    "sha256": "3787d233559af32f2e3ababb21b71c56c5805e7c7f2e286f87634efe8cd6bffd",
+    "sourceSha256": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15",
+    "sourceBytes": 70281488,
+    "preservedNonAtlasBufferViews": 406,
+    "geometryAndHierarchyUnchanged": true,
+    "replacedImages": 14
+  },
+  "independentIds": 95,
+  "triangles": 413855,
+  "mappedMaterials": {
+    "WEB8_WINDOW_CITY": [
+      3072,
+      1344
+    ],
+    "WEB8_LIGHTMAP_0": [
+      4096,
+      4096
+    ],
+    "WEB8_LIGHTMAP_8": [
+      3072,
+      3072
+    ],
+    "WEB8_LIGHTMAP_2": [
+      4096,
+      4096
+    ],
+    "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork": [
+      2880,
+      1200
+    ],
+    "WEB8_LIGHTMAP_1": [
+      4096,
+      4096
+    ],
+    "WEB8_LIGHTMAP_11": [
+      3072,
+      3072
+    ],
+    "WEB8_LIGHTMAP_7": [
+      2048,
+      2048
+    ],
+    "WEB8_LIGHTMAP_10": [
+      4096,
+      4096
+    ],
+    "WEB8_LIGHTMAP_9": [
+      4096,
+      4096
+    ],
+    "WEB8_LIGHTMAP_3": [
+      4096,
+      4096
+    ],
+    "WEB8_LIGHTMAP_4": [
+      4096,
+      4096
+    ],
+    "WEB8_LIGHTMAP_5": [
+      4096,
+      4096
+    ],
+    "WEB8_LIGHTMAP_6": [
+      3072,
+      3072
+    ]
+  },
+  "verifiedTextures": 27,
+  "previousV14Unchanged": true,
+  "windowRepairReport": "assets/blender/window-clearance-v15-repair.json",
+  "textureRgba8MipBytes": 1840856436,
+  "textureAstcOrBc7MipBytes": 460217376
+}

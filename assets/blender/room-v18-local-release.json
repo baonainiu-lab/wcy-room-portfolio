@@ -1,0 +1,379 @@
+{
+  "complete": true,
+  "stage": "CPU assets complete; main browser QA and runtime activation owned by root",
+  "preparedSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79",
+  "model": {
+    "path": "public/models/orbital-atelier-v18-compressed.glb",
+    "bytes": 55695352,
+    "sha256": "ff5fe981b92ef704a041b2bcae4304d142c2ba95a98356132be943533d822eaa",
+    "sourceSha256": "11e0449c84a38fc8458c81fc68eecdf92ddda26d99bcc5005add16b790622897",
+    "sourceBytes": 50477268,
+    "preservedNonAtlasBufferViews": 406,
+    "geometryAndHierarchyUnchanged": true,
+    "replacedImages": 14
+  },
+  "nightRadianceScale": {
+    "0": 2.0,
+    "2": 2.0,
+    "4": 8.0
+  },
+  "runtimeTextureCount": 54,
+  "reflectionProbeCount": 2,
+  "assetIds": 95,
+  "geometryNodes": 197,
+  "triangles": 413855,
+  "textureKtxBytes": 132583844,
+  "reflectionHdrBytes": 7205886,
+  "assets": [
+    {
+      "role": "day-window",
+      "path": "public/textures/lighting-v18/day-window.ktx2",
+      "bytes": 2928384,
+      "sha256": "fcff9b5690ecd856882dd2861e8fde8676375bd72ac1de3fa17c76ceb5c88b1e"
+    },
+    {
+      "role": "night-window",
+      "path": "public/textures/lighting-v18/night-window.ktx2",
+      "bytes": 2716120,
+      "sha256": "2ebc2758aedf310430c2e406d34b5c45ea623eefcbbfd0c68c942544185e02d1"
+    },
+    {
+      "role": "static-screen",
+      "path": "public/textures/lighting-v18/static-screen.ktx2",
+      "bytes": 2365894,
+      "sha256": "67c99d974e2454c3e3920c27505bb2e7170c4aada5e6346afe34f2d647b9edb8"
+    },
+    {
+      "role": "normal-0",
+      "path": "public/textures/lighting-v18/normal-0.ktx2",
+      "bytes": 1176161,
+      "sha256": "e574c9d11ce4727e5e9fe077b42e7c0ca1b4f1f99d6995b22bb499f323e5026f"
+    },
+    {
+      "role": "specular-0",
+      "path": "public/textures/lighting-v18/specular-0.ktx2",
+      "bytes": 1232428,
+      "sha256": "7438112fd3b8ec078a8da97c59e3ab8306848ceaa3d044213650e8694032b4fe"
+    },
+    {
+      "role": "normal-1",
+      "path": "public/textures/lighting-v18/normal-1.ktx2",
+      "bytes": 1737553,
+      "sha256": "5e960c8bf2ae5536e5d9f75534d130a880aebe9ea91c4c57f451390248395c00"
+    },
+    {
+      "role": "specular-1",
+      "path": "public/textures/lighting-v18/specular-1.ktx2",
+      "bytes": 1255287,
+      "sha256": "903c3f47be32be29f27973d35d7391d2173fe0b0e015feb0e9d9a625c9f60df3"
+    },
+    {
+      "role": "normal-2",
+      "path": "public/textures/lighting-v18/normal-2.ktx2",
+      "bytes": 1955136,
+      "sha256": "0ac4d65559d9189cbdbd1675ffbe9291edbdc9319d136c2612aa1a372744c623"
+    },
+    {
+      "role": "specular-2",
+      "path": "public/textures/lighting-v18/specular-2.ktx2",
+      "bytes": 2451908,
+      "sha256": "c0874e6529c8582cbaee193681c2a833da825e6082aaf4a0561dec6e1ca9efc6"
+    },
+    {
+      "role": "normal-3",
+      "path": "public/textures/lighting-v18/normal-3.ktx2",
+      "bytes": 2190783,
+      "sha256": "ffb8555eef46215dce066d231bb0716346e8eafd933fb1b13d8c4662f946069b"
+    },
+    {
+      "role": "specular-3",
+      "path": "public/textures/lighting-v18/specular-3.ktx2",
+      "bytes": 1893686,
+      "sha256": "13d6e320017ba22d29d7f08d797b1952b64831d8981b01d81d177aa81f1d8b4e"
+    },
+    {
+      "role": "normal-4",
+      "path": "public/textures/lighting-v18/normal-4.ktx2",
+      "bytes": 1677525,
+      "sha256": "28ae7b484bc19b952985f84dc3f4287d31b9d088a28d8342d59b888dc87ffe4d"
+    },
+    {
+      "role": "specular-4",
+      "path": "public/textures/lighting-v18/specular-4.ktx2",
+      "bytes": 2141893,
+      "sha256": "5e699583d2e07e527c5972fbfb99355cf871935fed1374b8d6aeaf25bc9ad312"
+    },
+    {
+      "role": "normal-5",
+      "path": "public/textures/lighting-v18/normal-5.ktx2",
+      "bytes": 377171,
+      "sha256": "8ed081a80a05064a4f89a72a6ef5f063d2c3f29b6453827319293fbecbcd2484"
+    },
+    {
+      "role": "specular-5",
+      "path": "public/textures/lighting-v18/specular-5.ktx2",
+      "bytes": 491182,
+      "sha256": "0f7358cdf2c12c2d4eb106af5892e7760d85cf7c8c047d67b112291d166d6b6f"
+    },
+    {
+      "role": "normal-6",
+      "path": "public/textures/lighting-v18/normal-6.ktx2",
+      "bytes": 408233,
+      "sha256": "33e433ecb5e3c5c03b156e5216c5e8e8956edfd73398abdee7c335f3dadaf23c"
+    },
+    {
+      "role": "specular-6",
+      "path": "public/textures/lighting-v18/specular-6.ktx2",
+      "bytes": 543972,
+      "sha256": "508ab274cd2b4becbf2a05fcd9a1d8d9bc4b0b82f5a6445ff00d4ca484485db0"
+    },
+    {
+      "role": "normal-7",
+      "path": "public/textures/lighting-v18/normal-7.ktx2",
+      "bytes": 1591620,
+      "sha256": "79d2dbd05827fc7d7fdd7c8d9ab338a2d2095a326332c5c305dade873970a3fa"
+    },
+    {
+      "role": "specular-7",
+      "path": "public/textures/lighting-v18/specular-7.ktx2",
+      "bytes": 1262683,
+      "sha256": "784dd103f8992e21b5078fc4b0b9e460fb62a573bbe2145cd584fb10380e09ff"
+    },
+    {
+      "role": "normal-8",
+      "path": "public/textures/lighting-v18/normal-8.ktx2",
+      "bytes": 1301564,
+      "sha256": "d82eb37b5a9be4f22d04877024cb9eafe67b327ad190814560b4ee5001a8ad03"
+    },
+    {
+      "role": "specular-8",
+      "path": "public/textures/lighting-v18/specular-8.ktx2",
+      "bytes": 1311909,
+      "sha256": "7648aef2a324f2ddd38d78e2d9764e89a549698cd07546de7bee1b7375ec3836"
+    },
+    {
+      "role": "normal-9",
+      "path": "public/textures/lighting-v18/normal-9.ktx2",
+      "bytes": 2435618,
+      "sha256": "350e35289e7529f2424dbfbe3193f5ad4f4272860975b63c17a15fbcbf7d7cf1"
+    },
+    {
+      "role": "specular-9",
+      "path": "public/textures/lighting-v18/specular-9.ktx2",
+      "bytes": 2382658,
+      "sha256": "69a036b9a375343b888da8138f8cf877620dd14bb197d8c6c9a7152c6a602a7a"
+    },
+    {
+      "role": "normal-10",
+      "path": "public/textures/lighting-v18/normal-10.ktx2",
+      "bytes": 2605047,
+      "sha256": "b15561ea52606604bcb9fad16ce4791d81ef679464bd161bb10383ead3839a33"
+    },
+    {
+      "role": "specular-10",
+      "path": "public/textures/lighting-v18/specular-10.ktx2",
+      "bytes": 2083343,
+      "sha256": "5525842ea1fddf3428273fd6af815c9ea571241cea65eb6fc11bb830b64cc4a2"
+    },
+    {
+      "role": "normal-11",
+      "path": "public/textures/lighting-v18/normal-11.ktx2",
+      "bytes": 1792476,
+      "sha256": "53ad0db45f46544a61577df9f0208b99a64181fc0020984a744bf5c34b01f189"
+    },
+    {
+      "role": "specular-11",
+      "path": "public/textures/lighting-v18/specular-11.ktx2",
+      "bytes": 2267245,
+      "sha256": "3db2c52be7ab3189aa397c1b3441a3723958a656ea0660de3a432a8003f8e003"
+    },
+    {
+      "role": "day-0",
+      "path": "public/textures/lighting-v18/day-0.ktx2",
+      "bytes": 2355911,
+      "sha256": "b935c6593c62bbaaf9ffa750092fc2af156bbb560fd00dbc49c356868ec0c881"
+    },
+    {
+      "role": "day-1",
+      "path": "public/textures/lighting-v18/day-1.ktx2",
+      "bytes": 2218401,
+      "sha256": "f341340a18b946ae1890ea38df7f9670692de836118940fe99714ced1aa9dc02"
+    },
+    {
+      "role": "day-2",
+      "path": "public/textures/lighting-v18/day-2.ktx2",
+      "bytes": 4242786,
+      "sha256": "97f860eae6549d4729e1ac7b085f7bd99cc684e3d6603a10cbd871e242f3d480"
+    },
+    {
+      "role": "day-3",
+      "path": "public/textures/lighting-v18/day-3.ktx2",
+      "bytes": 5201023,
+      "sha256": "aacef5eb09b60511891d2a6d179714658f267da2d7faa925ca2a536226e2da13"
+    },
+    {
+      "role": "day-4",
+      "path": "public/textures/lighting-v18/day-4.ktx2",
+      "bytes": 4533876,
+      "sha256": "19b3b9afb5853cf5fcd3362e6d0da4584238aca0f67131e44102ddf9c0411f9c"
+    },
+    {
+      "role": "day-5",
+      "path": "public/textures/lighting-v18/day-5.ktx2",
+      "bytes": 3815557,
+      "sha256": "c3f62b39352e89ce740740a7037205c6722ee03b782cd479919433c32997c54a"
+    },
+    {
+      "role": "day-6",
+      "path": "public/textures/lighting-v18/day-6.ktx2",
+      "bytes": 2580173,
+      "sha256": "8ac882aede89cde13ccdb3d758c76578c4dcbfd68f1e86850f7a6ed69d44271e"
+    },
+    {
+      "role": "day-7",
+      "path": "public/textures/lighting-v18/day-7.ktx2",
+      "bytes": 951854,
+      "sha256": "66ac7dd8e8e6848c066eecc91f448f8755a3105586989cc99d8254141f48878e"
+    },
+    {
+      "role": "day-8",
+      "path": "public/textures/lighting-v18/day-8.ktx2",
+      "bytes": 1574901,
+      "sha256": "7b39ca47f2b56898cd8b3a2e411fffed99f572805a18b82b8d52784bdcb2bcc2"
+    },
+    {
+      "role": "day-9",
+      "path": "public/textures/lighting-v18/day-9.ktx2",
+      "bytes": 4865409,
+      "sha256": "f5eabced258621ba600d07b2396211d4305d1379a4e79990b0d099d7fb58ed9b"
+    },
+    {
+      "role": "day-10",
+      "path": "public/textures/lighting-v18/day-10.ktx2",
+      "bytes": 5274987,
+      "sha256": "b219b6eec0926404bd0b37f11fc5a5cff4233c34c766ca4a015c390ae6314ef8"
+    },
+    {
+      "role": "day-11",
+      "path": "public/textures/lighting-v18/day-11.ktx2",
+      "bytes": 2976915,
+      "sha256": "403a1200df253409d696169a6b740b786b71699debb47c48099e9d3bb852c578"
+    },
+    {
+      "role": "night-0",
+      "path": "public/textures/lighting-v18/night-0.ktx2",
+      "bytes": 1601623,
+      "sha256": "61f4250b108a07d360e9ed0951a7a9ec3cfe692036f226a1d9a886ee5a28bd22"
+    },
+    {
+      "role": "night-1",
+      "path": "public/textures/lighting-v18/night-1.ktx2",
+      "bytes": 2054466,
+      "sha256": "22bff34b75c622fc40c552e4793b28660ea777567e9bcad2f562da3d12fae718"
+    },
+    {
+      "role": "night-2",
+      "path": "public/textures/lighting-v18/night-2.ktx2",
+      "bytes": 3783745,
+      "sha256": "05e9e7df3c64fc2a5bf2305158b1cc36a67c76b556cf50408254596c43b34de4"
+    },
+    {
+      "role": "night-3",
+      "path": "public/textures/lighting-v18/night-3.ktx2",
+      "bytes": 3954168,
+      "sha256": "8539ccd55203ea48605a4d2d9c681fadf3731aed9be5dc433e49765c8e142809"
+    },
+    {
+      "role": "night-4",
+      "path": "public/textures/lighting-v18/night-4.ktx2",
+      "bytes": 3314596,
+      "sha256": "fa697b66b39061df04e0be630df094e01ad0c081545729b3edd3eee79da19661"
+    },
+    {
+      "role": "night-5",
+      "path": "public/textures/lighting-v18/night-5.ktx2",
+      "bytes": 3453246,
+      "sha256": "0a6e42070fb8669c5ee78e651a9600c8cbde8dfb1f6bef8f70dcbd2d9a279b37"
+    },
+    {
+      "role": "night-6",
+      "path": "public/textures/lighting-v18/night-6.ktx2",
+      "bytes": 2546482,
+      "sha256": "19d2e22b9026e272adce562920114704d0389021be415fdec2aa6b021f25b0d7"
+    },
+    {
+      "role": "night-7",
+      "path": "public/textures/lighting-v18/night-7.ktx2",
+      "bytes": 805637,
+      "sha256": "64d928d34528e42bdacb34a1e32d1191e5c47155501d1f39f1672089290ce31b"
+    },
+    {
+      "role": "night-8",
+      "path": "public/textures/lighting-v18/night-8.ktx2",
+      "bytes": 902094,
+      "sha256": "4bf69ef6174e3a9df7c4f86e3c650598bfd1a44e4e3adb51fb871af1183fb128"
+    },
+    {
+      "role": "night-9",
+      "path": "public/textures/lighting-v18/night-9.ktx2",
+      "bytes": 4493029,
+      "sha256": "ac6c3264d542918a5476d9509ad7da7e2464a06f383ef12edd851f8ddf10e1fc"
+    },
+    {
+      "role": "night-10",
+      "path": "public/textures/lighting-v18/night-10.ktx2",
+      "bytes": 4850044,
+      "sha256": "b99c9db88be7ab8d511b19dd2a9e5201dd02192d23b14e8e96c4a5cb0c18e759"
+    },
+    {
+      "role": "night-11",
+      "path": "public/textures/lighting-v18/night-11.ktx2",
+      "bytes": 3017733,
+      "sha256": "9479a78278d139ce06f584cb3c02b72a60e0dc8246cbd85a04bf57d9a8d975f6"
+    },
+    {
+      "role": "intro-0",
+      "path": "public/textures/intro-clean-v18/day-0.ktx2",
+      "bytes": 3914077,
+      "sha256": "af62fc9c282693977c802212a4dd648f9e61821eb2bb96e0a34c3673a29f8a23"
+    },
+    {
+      "role": "intro-1",
+      "path": "public/textures/intro-clean-v18/day-1.ktx2",
+      "bytes": 4671637,
+      "sha256": "73b49d293ef9e022f424cda943827a9b4e7c6f5d40d6f1554daa9587253926df"
+    },
+    {
+      "role": "intro-8",
+      "path": "public/textures/intro-clean-v18/day-8.ktx2",
+      "bytes": 2051995,
+      "sha256": "ab2269c376c62e98411cabf16e71e5577ab5169eebbce6a3de973f082ffe2a34"
+    },
+    {
+      "role": "reflection-day",
+      "path": "public/textures/lighting-v18/reflection-day.hdr",
+      "bytes": 3559130,
+      "sha256": "65ccb0cd3bcf31ec031051c7c30c2ceed83eb4f3fd28cee8aa63dfd4702550b7"
+    },
+    {
+      "role": "reflection-night",
+      "path": "public/textures/lighting-v18/reflection-night.hdr",
+      "bytes": 3646756,
+      "sha256": "32ecc9d9a3e3b673e72fce811548353208edd86c6738c0670e72be7fc4531c3a"
+    }
+  ],
+  "verificationReports": [
+    "assets/blender/photoreal-materials-v18-validation.json",
+    "assets/blender/room-v18-warm-pixels-validation.json",
+    "assets/blender/room-v18-day0-codec-audit.json",
+    "assets/blender/room-v18-night4-codec-audit.json"
+  ],
+  "sourceGeometryAndHierarchyUnchanged": true,
+  "aboutUnchangedCount": 38,
+  "notes": [
+    "UASTC runtime GLB is larger on disk than its source PNG GLB; the benefit is compressed GPU residency, not a smaller download.",
+    "KTX texture sum includes the 14 images embedded in the GLB and must not be treated as additional request bytes.",
+    "CPU UASTC-to-RGBA8 audits do not claim ASTC/WebGL appearance or sustained frame rate.",
+    "24 day/night and 3 clean-intro maps freshly baked through Blender MCP; no prior-review GI reused."
+  ]
+}

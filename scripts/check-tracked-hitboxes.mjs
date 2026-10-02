@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import * as THREE from 'three';
+import { createTrackedHitboxes } from '../src/tracked-hitboxes.js';
+
+const scene = new THREE.Scene(), room = new THREE.Group();
+scene.add(room); room.rotation.y = .4; room.scale.setScalar(1.2);
+const robot = new THREE.Group(); room.add(robot);
+const leg = new THREE.Group(); robot.add(leg); leg.position.set(.3, .2, 0);
+const volume = new THREE.Mesh(new THREE.BoxGeometry(.2, .2, .2), new THREE.MeshBasicMaterial());
+scene.add(volume); leg.updateWorldMatrix(true, false);
+volume.position.copy(leg.getWorldPosition(new THREE.Vector3()));
+const tracker = createTrackedHitboxes(); tracker.bind(volume, leg);
+const originalPosition = volume.position.clone(), geometry = volume.geometry;
+robot.position.set(2, 0, 1); robot.rotation.y = 1.2; robot.scale.setScalar(1.3);
+tracker.update();
+const centre = leg.getWorldPosition(new THREE.Vector3());
+assert.ok(volume.getWorldPosition(new THREE.Vector3()).distanceTo(centre) < 1e-10);
+const ray = new THREE.Raycaster(centre.clone().add(new THREE.Vector3(0, 4, 0)), new THREE.Vector3(0, -1, 0));
+assert.ok(ray.intersectObject(volume).length > 0, 'moving limb remains clickable at its new position');
+ray.set(originalPosition.clone().add(new THREE.Vector3(0, 4, 0)), new THREE.Vector3(0, -1, 0));
+assert.equal(ray.intersectObject(volume).length, 0, 'old location has no phantom hitbox');
+assert.equal(volume.parent, scene); assert.equal(leg.parent, robot);
+assert.equal(volume.geometry, geometry); assert.equal(tracker.getState().trackedCount, 1);
+console.log(JSON.stringify({passed:3,failed:0,checks:['transformed parent/rotation/hover-scale following','ray hits moving asset, not old location','unchanged geometry and model hierarchy']}));

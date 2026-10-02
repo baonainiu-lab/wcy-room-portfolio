@@ -1,0 +1,226 @@
+{
+  "complete": true,
+  "revision": "V5 photographed mineral aggregate and saddle leather; stable world-metre brushed finishes",
+  "originalInputsUnchanged": {
+    "assets/blender/works-gallery-v4.blend": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+    "assets/blender/works-gallery-bake-v4.blend": "8b6930dae3273a32e3d5c0e3bc267ca14b3049a78f248b6b56777a2a2a3836e9"
+  },
+  "derivatives": [
+    {
+      "input": "assets/blender/works-gallery-v4.blend",
+      "output": "assets/blender/works-gallery-v5.blend",
+      "sha256": "32cb5f98a4e8d51f682c6e148a53bd1f410762db013d1da9c1c5897f7f1834d4",
+      "scene": "WORKS_GALLERY_V4",
+      "assets": 77,
+      "identityHierarchyUnchanged": true,
+      "geometryTransformsAllUVsBefore": "3517092fddff9a97f7a9cc61cad788a38d16b244741e33ed8cb8737ca53362c6",
+      "geometryTransformsAllUVsAfter": "3517092fddff9a97f7a9cc61cad788a38d16b244741e33ed8cb8737ca53362c6",
+      "geometryUVFingerprint": null,
+      "lightsUnchanged": true,
+      "modifiedMaterials": [
+        {
+          "name": "GALLERY_bronze",
+          "source": "GALLERY_bronze",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_leather",
+          "source": "GALLERY_leather",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 0.00065,
+          "maps": [
+            "brown_leather/brown_leather_albedo_2k.jpg",
+            "brown_leather/brown_leather_rough_2k.jpg",
+            "brown_leather/brown_leather_disp_2k.jpg"
+          ]
+        },
+        {
+          "name": "GALLERY_navy",
+          "source": "GALLERY_navy",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_paper",
+          "source": "GALLERY_paper",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_silver",
+          "source": "GALLERY_silver",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_terrazzo",
+          "source": "GALLERY_terrazzo",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 0.00024,
+          "maps": [
+            "Terrazzo001/Terrazzo001_2K-JPG_Color.jpg",
+            "Terrazzo001/Terrazzo001_2K-JPG_Roughness.jpg",
+            "Terrazzo001/Terrazzo001_2K-JPG_Displacement.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "assets/blender/works-gallery-bake-v4.blend",
+      "output": "assets/blender/works-gallery-bake-v5.blend",
+      "sha256": "7f60264c50df924f6489ffd52e24c6e45d41eb40a00736d7ead74d30763da765",
+      "scene": "WEB_WORKS_GALLERY_V4",
+      "assets": 77,
+      "identityHierarchyUnchanged": true,
+      "geometryTransformsAllUVsBefore": "4cdf8fd40c145e1f65722fa101fa09b2a8453474fa2fb29b71d31e1e07fd69d9",
+      "geometryTransformsAllUVsAfter": "4cdf8fd40c145e1f65722fa101fa09b2a8453474fa2fb29b71d31e1e07fd69d9",
+      "geometryUVFingerprint": "216dfe9b61f30aa54e0ab383029e2e82e5bedd7e1f890e5b8f82db619fd9ec9a",
+      "lightsUnchanged": true,
+      "modifiedMaterials": [
+        {
+          "name": "GALLERY_PREP_A0_baked_GALLERY_bronze.001",
+          "source": "GALLERY_bronze",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A0_baked_GALLERY_navy.001",
+          "source": "GALLERY_navy",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A0_baked_GALLERY_silver.001",
+          "source": "GALLERY_silver",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A0_baked_GALLERY_terrazzo.001",
+          "source": "GALLERY_terrazzo",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 0.00024,
+          "maps": [
+            "Terrazzo001/Terrazzo001_2K-JPG_Color.jpg",
+            "Terrazzo001/Terrazzo001_2K-JPG_Roughness.jpg",
+            "Terrazzo001/Terrazzo001_2K-JPG_Displacement.jpg"
+          ]
+        },
+        {
+          "name": "GALLERY_PREP_A1_baked_GALLERY_navy",
+          "source": "GALLERY_navy",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A1_baked_GALLERY_silver",
+          "source": "GALLERY_silver",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A2_baked_GALLERY_bronze",
+          "source": "GALLERY_bronze",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A2_baked_GALLERY_navy",
+          "source": "GALLERY_navy",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A2_baked_GALLERY_paper",
+          "source": "GALLERY_paper",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A2_baked_GALLERY_silver",
+          "source": "GALLERY_silver",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A3_baked_GALLERY_bronze",
+          "source": "GALLERY_bronze",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A3_baked_GALLERY_leather",
+          "source": "GALLERY_leather",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 0.00065,
+          "maps": [
+            "brown_leather/brown_leather_albedo_2k.jpg",
+            "brown_leather/brown_leather_rough_2k.jpg",
+            "brown_leather/brown_leather_disp_2k.jpg"
+          ]
+        },
+        {
+          "name": "GALLERY_PREP_A3_baked_GALLERY_navy",
+          "source": "GALLERY_navy",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A3_baked_GALLERY_paper",
+          "source": "GALLERY_paper",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A3_baked_GALLERY_silver",
+          "source": "GALLERY_silver",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 2.5e-05,
+          "maps": []
+        },
+        {
+          "name": "GALLERY_PREP_A3_baked_GALLERY_terrazzo",
+          "source": "GALLERY_terrazzo",
+          "coordinates": "World metres: explicit triplanar with normalized world-normal weights for scans; world-position procedural finishes",
+          "height_m": 0.00024,
+          "maps": [
+            "Terrazzo001/Terrazzo001_2K-JPG_Color.jpg",
+            "Terrazzo001/Terrazzo001_2K-JPG_Roughness.jpg",
+            "Terrazzo001/Terrazzo001_2K-JPG_Displacement.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceMapsCC0": {
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Color.jpg": "e075ccaaced9f10e4b9900a866e43e41f95c8d1a8f4a2e2f81895499951df355",
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Roughness.jpg": "d37b2befb5643c5b820c9fb1bf76709b33ca8dd6d3d8668866e9b1e96f124b34",
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Displacement.jpg": "9c1e6fb0c7a5f6ea5f35c2557f7e9fa3d361d842ae16e490d3adaf3a3be05f73",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_albedo_2k.jpg": "b0de2403a31efa31e501b0028c0bd8e504d5bd6318f4a5ce90c550c3067f96d8",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_rough_2k.jpg": "8a47afca2630310849034fe40ca9497db0956c67c0d933e6efd49d3cd2befe83",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_disp_2k.jpg": "37ff21737b1ca5ea8cfe88d9a8fe1e2ace0ef190d9ee2d23369307f63c7c3eab"
+  },
+  "licenseManifest": "assets/textures/about-atelier-v3/texture-manifest.json",
+  "notes": [
+    "No re-unwrapping or geometry operation. All material slots preserved.",
+    "Tangent-space normal images are retained in source library; triplanar uses scanned height to avoid invalid UV-tangent normals.",
+    "World coordinates are stable across source and disposable joined bake proxies."
+  ]
+}

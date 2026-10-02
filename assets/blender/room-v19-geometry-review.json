@@ -1,0 +1,9 @@
+{
+  "path": "assets/blender/room-v19-geometry-review.glb",
+  "sha256": "f38e362e352f4f70538f0b910c16808f7f4ec6864dbace8e8a7e7ff10338555a",
+  "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+  "geometryReviewOnly": true,
+  "notForRuntime": true,
+  "nodes": 199,
+  "triangles": 417527
+}

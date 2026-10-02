@@ -1,0 +1,92 @@
+{
+  "phase": "complete",
+  "started": 1790056595.007234,
+  "finished": 1790057264.682644,
+  "night_changed": false,
+  "result": {
+    "state": "day",
+    "atlases": [
+      {
+        "atlas": 0,
+        "path": "public/textures/lighting-v9/day-0.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 4723068
+      },
+      {
+        "atlas": 1,
+        "path": "public/textures/lighting-v9/day-1.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 3514487
+      },
+      {
+        "atlas": 2,
+        "path": "public/textures/lighting-v9/day-2.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 4561544
+      },
+      {
+        "atlas": 3,
+        "path": "public/textures/lighting-v9/day-3.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 6327274
+      },
+      {
+        "atlas": 4,
+        "path": "public/textures/lighting-v9/day-4.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 6676699
+      },
+      {
+        "atlas": 5,
+        "path": "public/textures/lighting-v9/day-5.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 5958082
+      },
+      {
+        "atlas": 6,
+        "path": "public/textures/lighting-v9/day-6.png",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "margin": 16,
+        "bytes": 4183858
+      },
+      {
+        "atlas": 7,
+        "path": "public/textures/lighting-v9/day-7.png",
+        "resolution": [
+          2048,
+          2048
+        ],
+        "margin": 32,
+        "bytes": 1406425
+      }
+    ],
+    "seconds": 665.98
+  }
+}

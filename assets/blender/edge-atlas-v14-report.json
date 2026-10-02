@@ -1,0 +1,953 @@
+{
+  "revision": 14,
+  "input": "orbital-dual-bake-v13.blend",
+  "resolution": 3072,
+  "geometryUnchanged": true,
+  "addedDrawPrimitives": 2,
+  "groups": [
+    {
+      "label": "floor_precision_rim",
+      "object": "WEB8_room_static__baked__A8",
+      "before": {
+        "worldArea": 2.860430309663021,
+        "uvArea": 0.001557946832631412,
+        "texelsPerMeter": 95.59178660986483,
+        "trianglesBelowOnePixel": 0
+      },
+      "unwrap": {
+        "method": "perimeter_cross_section_strips",
+        "sections": 4,
+        "perimeter_m": 33.07276823630615
+      },
+      "linearTexelWeight": 1.15,
+      "after": {
+        "worldArea": 2.860430309663021,
+        "uvArea": 0.014753071922985589,
+        "texelsPerMeter": 220.62095265012525,
+        "trianglesBelowOnePixel": 0
+      },
+      "densityFactor": 2.3079488361331424,
+      "faceCount": 520
+    },
+    {
+      "label": "window_recess_light",
+      "object": "WEB8_room_static__baked__A8",
+      "before": {
+        "worldArea": 0.8080572512411116,
+        "uvArea": 0.0004314334473662106,
+        "texelsPerMeter": 94.64458857551789,
+        "trianglesBelowOnePixel": 465
+      },
+      "unwrap": {
+        "method": "perimeter_cross_section_strips",
+        "sections": 4,
+        "perimeter_m": 16.350529607588737
+      },
+      "linearTexelWeight": 1.15,
+      "after": {
+        "worldArea": 0.8080572512411116,
+        "uvArea": 0.004167680685855296,
+        "texelsPerMeter": 220.62126179362411,
+        "trianglesBelowOnePixel": 0
+      },
+      "densityFactor": 2.331049932322207,
+      "faceCount": 520
+    },
+    {
+      "label": "sweeping_wall_cap",
+      "object": "WEB8_room_static__baked__A8",
+      "before": {
+        "worldArea": 18.01251117720351,
+        "uvArea": 0.010421393873077405,
+        "texelsPerMeter": 98.52256758730911,
+        "trianglesBelowOnePixel": 3254
+      },
+      "unwrap": {
+        "method": "continuous_dominant_axis_projection"
+      },
+      "linearTexelWeight": 1.0,
+      "after": {
+        "worldArea": 18.01251117720351,
+        "uvArea": 0.07024729125158438,
+        "texelsPerMeter": 191.84428708855862,
+        "trianglesBelowOnePixel": 1588
+      },
+      "densityFactor": 1.9472116063007523,
+      "faceCount": 4353
+    },
+    {
+      "label": "left_wall_cap",
+      "object": "WEB8_room_static__baked__A8",
+      "before": {
+        "worldArea": 9.616015603137772,
+        "uvArea": 0.005425264202092106,
+        "texelsPerMeter": 97.29103298959932,
+        "trianglesBelowOnePixel": 480
+      },
+      "unwrap": {
+        "method": "continuous_dominant_axis_projection"
+      },
+      "linearTexelWeight": 1.0,
+      "after": {
+        "worldArea": 9.616015603137772,
+        "uvArea": 0.03750166437690616,
+        "texelsPerMeter": 191.84430128865623,
+        "trianglesBelowOnePixel": 391
+      },
+      "densityFactor": 1.9718600511638613,
+      "faceCount": 1386
+    },
+    {
+      "label": "left_front_post",
+      "object": "WEB8_room_static__baked__A8",
+      "before": {
+        "worldArea": 6.200372686781847,
+        "uvArea": 0.00368770458105272,
+        "texelsPerMeter": 99.89163281964129,
+        "trianglesBelowOnePixel": 432
+      },
+      "unwrap": {
+        "method": "continuous_dominant_axis_projection"
+      },
+      "linearTexelWeight": 1.0,
+      "after": {
+        "worldArea": 6.200372686781847,
+        "uvArea": 0.024180931997161537,
+        "texelsPerMeter": 191.84426988380108,
+        "trianglesBelowOnePixel": 336
+      },
+      "densityFactor": 1.920523916454387,
+      "faceCount": 294
+    },
+    {
+      "label": "display_tower_frame",
+      "object": "WEB8_room_static__baked__A8",
+      "before": {
+        "worldArea": 15.185511786210645,
+        "uvArea": 0.00861148094486841,
+        "texelsPerMeter": 97.5403150105597,
+        "trianglesBelowOnePixel": 608
+      },
+      "unwrap": {
+        "method": "perimeter_cross_section_strips",
+        "sections": 4,
+        "perimeter_m": 10.727504006391841
+      },
+      "linearTexelWeight": 1.0,
+      "after": {
+        "worldArea": 15.185511786210645,
+        "uvArea": 0.05922224398845488,
+        "texelsPerMeter": 191.84431069552124,
+        "trianglesBelowOnePixel": 519
+      },
+      "densityFactor": 1.9668207004944798,
+      "faceCount": 1120
+    },
+    {
+      "label": "window_metal_frame",
+      "object": "WEB8_room_static__baked__A8",
+      "before": {
+        "worldArea": 14.088940926779598,
+        "uvArea": 0.008112963938271545,
+        "texelsPerMeter": 98.29027420834518,
+        "trianglesBelowOnePixel": 59
+      },
+      "unwrap": {
+        "method": "perimeter_cross_section_strips",
+        "sections": 4,
+        "perimeter_m": 16.908918293200408
+      },
+      "linearTexelWeight": 1.15,
+      "after": {
+        "worldArea": 14.088940926779598,
+        "uvArea": 0.07266572052845735,
+        "texelsPerMeter": 220.62099015084033,
+        "trianglesBelowOnePixel": 0
+      },
+      "densityFactor": 2.2445861701758165,
+      "faceCount": 1456
+    },
+    {
+      "label": "platform_side_0.11",
+      "object": "WEB8_architecture.platform__baked__A8",
+      "before": {
+        "worldArea": 3.4419014405702946,
+        "uvArea": 0.001683507693645098,
+        "texelsPerMeter": 90.58750236405349,
+        "trianglesBelowOnePixel": 0
+      },
+      "unwrap": {
+        "applied": true,
+        "triangles": 680,
+        "strip_sections": 4,
+        "uv_area_preserved": 0.0016835,
+        "circumference_m": 33.02771,
+        "inverted_triangles": 0,
+        "degenerate_triangles": 0
+      },
+      "linearTexelWeight": 1.08,
+      "after": {
+        "worldArea": 3.4419014405702946,
+        "uvArea": 0.015656744476200746,
+        "texelsPerMeter": 207.19187862869228,
+        "trianglesBelowOnePixel": 0
+      },
+      "densityFactor": 2.2872015810307755,
+      "faceCount": 680
+    },
+    {
+      "label": "platform_side_-0.18",
+      "object": "WEB8_architecture.platform__baked__A8",
+      "before": {
+        "worldArea": 4.995143519200314,
+        "uvArea": 0.0023821912904009785,
+        "texelsPerMeter": 89.44875059925363,
+        "trianglesBelowOnePixel": 0
+      },
+      "unwrap": {
+        "applied": true,
+        "triangles": 682,
+        "strip_sections": 4,
+        "uv_area_preserved": 0.0023822,
+        "circumference_m": 32.35329,
+        "inverted_triangles": 0,
+        "degenerate_triangles": 0
+      },
+      "linearTexelWeight": 1.08,
+      "after": {
+        "worldArea": 4.995143519200314,
+        "uvArea": 0.022722228148067812,
+        "texelsPerMeter": 207.19185755883396,
+        "trianglesBelowOnePixel": 0
+      },
+      "densityFactor": 2.3163191902712033,
+      "faceCount": 682
+    },
+    {
+      "label": "platform_side_-0.06",
+      "object": "WEB8_architecture.platform__baked__A8",
+      "before": {
+        "worldArea": 6.890571789547923,
+        "uvArea": 0.0032490517369360315,
+        "texelsPerMeter": 88.94276585034007,
+        "trianglesBelowOnePixel": 0
+      },
+      "unwrap": {
+        "applied": true,
+        "triangles": 692,
+        "strip_sections": 4,
+        "uv_area_preserved": 0.0032491,
+        "circumference_m": 33.63279,
+        "inverted_triangles": 0,
+        "degenerate_triangles": 0
+      },
+      "linearTexelWeight": 1.08,
+      "after": {
+        "worldArea": 6.890571789547923,
+        "uvArea": 0.03134425656274626,
+        "texelsPerMeter": 207.19180182091225,
+        "trianglesBelowOnePixel": 0
+      },
+      "densityFactor": 2.3294958262209255,
+      "faceCount": 692
+    }
+  ],
+  "localCornerSeamCorrections": [
+    1,
+    0
+  ],
+  "validation": {
+    "WEB8_room_static__baked__A8": {
+      "islands": 43,
+      "islandsWithMixedWinding": 0,
+      "degenerateUVTriangles": 0,
+      "finiteInBounds": true,
+      "details": [
+        {
+          "faces": 6,
+          "firstFace": 0,
+          "positive": 12,
+          "negative": 0,
+          "bbox": [
+            0.0037271976470947266,
+            0.005103409290313721
+          ],
+          "area": 1.8719094608599107e-05
+        },
+        {
+          "faces": 124,
+          "firstFace": 3,
+          "positive": 248,
+          "negative": 0,
+          "bbox": [
+            0.00870947539806366,
+            0.6927153924480081
+          ],
+          "area": 0.004320926925392916
+        },
+        {
+          "faces": 130,
+          "firstFace": 130,
+          "positive": 260,
+          "negative": 0,
+          "bbox": [
+            0.007523685693740845,
+            0.49051373451948166
+          ],
+          "area": 0.003036886034716149
+        },
+        {
+          "faces": 130,
+          "firstFace": 260,
+          "positive": 260,
+          "negative": 0,
+          "bbox": [
+            0.008842501789331436,
+            0.6933002769947052
+          ],
+          "area": 0.004339649409265477
+        },
+        {
+          "faces": 130,
+          "firstFace": 390,
+          "positive": 260,
+          "negative": 0,
+          "bbox": [
+            0.007409483194351196,
+            0.4905642569065094
+          ],
+          "area": 0.0030368904590024476
+        },
+        {
+          "faces": 5,
+          "firstFace": 520,
+          "positive": 10,
+          "negative": 0,
+          "bbox": [
+            0.0017749667167663574,
+            0.0030061304569244385
+          ],
+          "area": 5.272012304935458e-06
+        },
+        {
+          "faces": 125,
+          "firstFace": 525,
+          "positive": 250,
+          "negative": 0,
+          "bbox": [
+            0.005296587944030762,
+            0.40578702092170715
+          ],
+          "area": 0.001478966320572539
+        },
+        {
+          "faces": 130,
+          "firstFace": 650,
+          "positive": 260,
+          "negative": 0,
+          "bbox": [
+            0.0038491487503051758,
+            0.16896858159452677
+          ],
+          "area": 0.00059959844229443
+        },
+        {
+          "faces": 130,
+          "firstFace": 780,
+          "positive": 260,
+          "negative": 0,
+          "bbox": [
+            0.005518794059753418,
+            0.40611562971025705
+          ],
+          "area": 0.0014842465588325027
+        },
+        {
+          "faces": 130,
+          "firstFace": 910,
+          "positive": 260,
+          "negative": 0,
+          "bbox": [
+            0.004078090190887451,
+            0.16904598474502563
+          ],
+          "area": 0.000599597351850889
+        },
+        {
+          "faces": 728,
+          "firstFace": 1040,
+          "positive": 1456,
+          "negative": 0,
+          "bbox": [
+            0.04112786054611206,
+            0.4860851550474763
+          ],
+          "area": 0.019827831480477023
+        },
+        {
+          "faces": 49,
+          "firstFace": 1042,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.014587163925170898,
+            0.041184961795806885
+          ],
+          "area": 0.0005936358094746907
+        },
+        {
+          "faces": 1066,
+          "firstFace": 1058,
+          "positive": 2132,
+          "negative": 0,
+          "bbox": [
+            0.04513847827911377,
+            0.6130779683589935
+          ],
+          "area": 0.009093948324254517
+        },
+        {
+          "faces": 644,
+          "firstFace": 1069,
+          "positive": 1288,
+          "negative": 0,
+          "bbox": [
+            0.04105335474014282,
+            0.4676750088110566
+          ],
+          "area": 0.01906884132801745
+        },
+        {
+          "faces": 1066,
+          "firstFace": 1103,
+          "positive": 2132,
+          "negative": 0,
+          "bbox": [
+            0.04513949155807495,
+            0.6131110712885857
+          ],
+          "area": 0.009093955889132616
+        },
+        {
+          "faces": 298,
+          "firstFace": 1148,
+          "positive": 595,
+          "negative": 0,
+          "bbox": [
+            0.0408976674079895,
+            0.14052281621843576
+          ],
+          "area": 0.005727759916548558
+        },
+        {
+          "faces": 52,
+          "firstFace": 1151,
+          "positive": 103,
+          "negative": 0,
+          "bbox": [
+            0.014748632907867432,
+            0.04170632362365723
+          ],
+          "area": 0.000593309053123825
+        },
+        {
+          "faces": 422,
+          "firstFace": 1175,
+          "positive": 844,
+          "negative": 0,
+          "bbox": [
+            0.0409775972366333,
+            0.1490357667207718
+          ],
+          "area": 0.006067425306080398
+        },
+        {
+          "faces": 21,
+          "firstFace": 3398,
+          "positive": 42,
+          "negative": 0,
+          "bbox": [
+            0.0017850399017333984,
+            0.04075121879577637
+          ],
+          "area": 6.19073797345493e-05
+        },
+        {
+          "faces": 7,
+          "firstFace": 3731,
+          "positive": 14,
+          "negative": 0,
+          "bbox": [
+            0.0031065046787261963,
+            0.04076260328292847
+          ],
+          "area": 0.00011867676474075495
+        },
+        {
+          "faces": 326,
+          "firstFace": 5393,
+          "positive": 652,
+          "negative": 0,
+          "bbox": [
+            0.03577578067779541,
+            0.39107635617256165
+          ],
+          "area": 0.01349202098062019
+        },
+        {
+          "faces": 49,
+          "firstFace": 5402,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.012787103652954102,
+            0.0347382128238678
+          ],
+          "area": 0.00042497274530894913
+        },
+        {
+          "faces": 322,
+          "firstFace": 5411,
+          "positive": 644,
+          "negative": 0,
+          "bbox": [
+            0.019594788551330566,
+            0.3908810317516327
+          ],
+          "area": 0.004831898469626061
+        },
+        {
+          "faces": 318,
+          "firstFace": 5429,
+          "positive": 636,
+          "negative": 0,
+          "bbox": [
+            0.03587162494659424,
+            0.3915247619152069
+          ],
+          "area": 0.013494702158123317
+        },
+        {
+          "faces": 322,
+          "firstFace": 5456,
+          "positive": 644,
+          "negative": 0,
+          "bbox": [
+            0.01956278085708618,
+            0.3908604383468628
+          ],
+          "area": 0.0048314189832314725
+        },
+        {
+          "faces": 49,
+          "firstFace": 5519,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.012392938137054443,
+            0.03450119495391846
+          ],
+          "area": 0.00042665103999617315
+        },
+        {
+          "faces": 49,
+          "firstFace": 6779,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.03611072897911072,
+            0.2302415370941162
+          ],
+          "area": 0.008309972023157641
+        },
+        {
+          "faces": 49,
+          "firstFace": 6788,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.01420682668685913,
+            0.23026996850967407
+          ],
+          "area": 0.003269256040792534
+        },
+        {
+          "faces": 49,
+          "firstFace": 6797,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.014201611280441284,
+            0.03607720136642456
+          ],
+          "area": 0.0005112440602097479
+        },
+        {
+          "faces": 49,
+          "firstFace": 6824,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.014206886291503906,
+            0.23027026653289795
+          ],
+          "area": 0.0032692567295047326
+        },
+        {
+          "faces": 49,
+          "firstFace": 6833,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.03609713912010193,
+            0.23024380207061768
+          ],
+          "area": 0.008309961331776528
+        },
+        {
+          "faces": 49,
+          "firstFace": 6905,
+          "positive": 98,
+          "negative": 0,
+          "bbox": [
+            0.014201521873474121,
+            0.036077022552490234
+          ],
+          "area": 0.0005112418117203532
+        },
+        {
+          "faces": 563,
+          "firstFace": 7073,
+          "positive": 1138,
+          "negative": 0,
+          "bbox": [
+            0.09362339973449707,
+            0.17786052823066711
+          ],
+          "area": 0.010825591000275026
+        },
+        {
+          "faces": 9,
+          "firstFace": 7076,
+          "positive": 18,
+          "negative": 0,
+          "bbox": [
+            0.005170166492462158,
+            0.04916572570800781
+          ],
+          "area": 0.00013963490155166625
+        },
+        {
+          "faces": 131,
+          "firstFace": 7343,
+          "positive": 272,
+          "negative": 0,
+          "bbox": [
+            0.08934204280376434,
+            0.21577197313308716
+          ],
+          "area": 0.017739078819257514
+        },
+        {
+          "faces": 400,
+          "firstFace": 7349,
+          "positive": 800,
+          "negative": 0,
+          "bbox": [
+            0.09205895662307739,
+            0.1243705153465271
+          ],
+          "area": 0.011149012747459608
+        },
+        {
+          "faces": 16,
+          "firstFace": 7649,
+          "positive": 32,
+          "negative": 0,
+          "bbox": [
+            0.08913024514913559,
+            0.2148255705833435
+          ],
+          "area": 0.018896984609848122
+        },
+        {
+          "faces": 1,
+          "firstFace": 8183,
+          "positive": 12,
+          "negative": 0,
+          "bbox": [
+            0.011073499917984009,
+            0.06837207078933716
+          ],
+          "area": 0.00047194191006294517
+        },
+        {
+          "faces": 349,
+          "firstFace": 8193,
+          "positive": 698,
+          "negative": 0,
+          "bbox": [
+            0.06076174974441528,
+            0.433446385897696
+          ],
+          "area": 0.02540857050212411
+        },
+        {
+          "faces": 15,
+          "firstFace": 8199,
+          "positive": 30,
+          "negative": 0,
+          "bbox": [
+            0.005519092082977295,
+            0.03905653953552246
+          ],
+          "area": 0.00012854174778809124
+        },
+        {
+          "faces": 364,
+          "firstFace": 8505,
+          "positive": 728,
+          "negative": 0,
+          "bbox": [
+            0.06239412818104029,
+            0.18312829732894897
+          ],
+          "area": 0.010795747561980651
+        },
+        {
+          "faces": 364,
+          "firstFace": 8817,
+          "positive": 728,
+          "negative": 0,
+          "bbox": [
+            0.060834407806396484,
+            0.4330091178417206
+          ],
+          "area": 0.025537114812284933
+        },
+        {
+          "faces": 364,
+          "firstFace": 9129,
+          "positive": 728,
+          "negative": 0,
+          "bbox": [
+            0.062393516302108765,
+            0.18312817811965942
+          ],
+          "area": 0.010795745904279563
+        }
+      ]
+    },
+    "WEB8_architecture.platform__baked__A8": {
+      "islands": 18,
+      "islandsWithMixedWinding": 0,
+      "degenerateUVTriangles": 0,
+      "finiteInBounds": true,
+      "details": [
+        {
+          "faces": 170,
+          "firstFace": 0,
+          "positive": 170,
+          "negative": 0,
+          "bbox": [
+            0.008018434047698975,
+            0.4605533666908741
+          ],
+          "area": 0.003221884541666359
+        },
+        {
+          "faces": 162,
+          "firstFace": 36,
+          "positive": 162,
+          "negative": 0,
+          "bbox": [
+            0.008229538798332214,
+            0.6583555154502392
+          ],
+          "area": 0.004588841306903152
+        },
+        {
+          "faces": 4,
+          "firstFace": 70,
+          "positive": 4,
+          "negative": 0,
+          "bbox": [
+            0.002086162567138672,
+            0.004917114973068237
+          ],
+          "area": 8.791866637380963e-06
+        },
+        {
+          "faces": 170,
+          "firstFace": 72,
+          "positive": 170,
+          "negative": 0,
+          "bbox": [
+            0.00801849365234375,
+            0.46055268961936235
+          ],
+          "area": 0.0032218762827362635
+        },
+        {
+          "faces": 170,
+          "firstFace": 108,
+          "positive": 170,
+          "negative": 0,
+          "bbox": [
+            0.00796520709991455,
+            0.6579364510253072
+          ],
+          "area": 0.004606495989554454
+        },
+        {
+          "faces": 4,
+          "firstFace": 219,
+          "positive": 4,
+          "negative": 0,
+          "bbox": [
+            0.002045750617980957,
+            0.004917144775390625
+          ],
+          "area": 8.854488703136099e-06
+        },
+        {
+          "faces": 170,
+          "firstFace": 340,
+          "positive": 170,
+          "negative": 0,
+          "bbox": [
+            0.013000011444091797,
+            0.452268042601645
+          ],
+          "area": 0.0046797915811417345
+        },
+        {
+          "faces": 163,
+          "firstFace": 375,
+          "positive": 163,
+          "negative": 0,
+          "bbox": [
+            0.017952635884284973,
+            0.6445208489894867
+          ],
+          "area": 0.006663025243688017
+        },
+        {
+          "faces": 4,
+          "firstFace": 408,
+          "positive": 4,
+          "negative": 0,
+          "bbox": [
+            0.002084970474243164,
+            0.0050827860832214355
+          ],
+          "area": 9.11832395811274e-06
+        },
+        {
+          "faces": 170,
+          "firstFace": 410,
+          "positive": 170,
+          "negative": 0,
+          "bbox": [
+            0.013000190258026123,
+            0.4523039758205414
+          ],
+          "area": 0.004679780390931143
+        },
+        {
+          "faces": 171,
+          "firstFace": 445,
+          "positive": 171,
+          "negative": 0,
+          "bbox": [
+            0.01765720546245575,
+            0.6443021595478058
+          ],
+          "area": 0.006681326698679442
+        },
+        {
+          "faces": 4,
+          "firstFace": 554,
+          "positive": 4,
+          "negative": 0,
+          "bbox": [
+            0.0020454227924346924,
+            0.005082845687866211
+          ],
+          "area": 9.185909669362502e-06
+        },
+        {
+          "faces": 172,
+          "firstFace": 674,
+          "positive": 172,
+          "negative": 0,
+          "bbox": [
+            0.015780925750732422,
+            0.47112800274044275
+          ],
+          "area": 0.006458566178124153
+        },
+        {
+          "faces": 166,
+          "firstFace": 711,
+          "positive": 166,
+          "negative": 0,
+          "bbox": [
+            0.015858717262744904,
+            0.6709415838122368
+          ],
+          "area": 0.009193004796936598
+        },
+        {
+          "faces": 4,
+          "firstFace": 745,
+          "positive": 4,
+          "negative": 0,
+          "bbox": [
+            0.002078533172607422,
+            0.005668044090270996
+          ],
+          "area": 1.0255256168711924e-05
+        },
+        {
+          "faces": 172,
+          "firstFace": 747,
+          "positive": 172,
+          "negative": 0,
+          "bbox": [
+            0.01578313112258911,
+            0.47114163637161255
+          ],
+          "area": 0.006458502210168804
+        },
+        {
+          "faces": 174,
+          "firstFace": 784,
+          "positive": 174,
+          "negative": 0,
+          "bbox": [
+            0.01486680656671524,
+            0.6707535684108734
+          ],
+          "area": 0.009213586810148625
+        },
+        {
+          "faces": 4,
+          "firstFace": 897,
+          "positive": 4,
+          "negative": 0,
+          "bbox": [
+            0.0020421743392944336,
+            0.005668163299560547
+          ],
+          "area": 1.0341311199368874e-05
+        }
+      ]
+    }
+  },
+  "packGapPixelsSetting": 32,
+  "bakeExtensionPixels": 16,
+  "texturePolicy": "Atlases 0\u20137 and windows byte-identical; Atlas8 only added; no existing visible surface downweighted",
+  "triangles": 373203,
+  "output": "assets/blender/orbital-dual-bake-v14.blend"
+}

@@ -1,0 +1,372 @@
+{
+  "desk": {
+    "name": "WEB8_furniture.desk__baked__A1",
+    "min": [
+      -4.648340225219727,
+      -1.9567978382110596,
+      0.1811399906873703
+    ],
+    "max": [
+      -2.002964973449707,
+      2.3398900032043457,
+      1.858083724975586
+    ]
+  },
+  "tests": [
+    {
+      "deskHitZRange": null,
+      "propHitZRange": null,
+      "name": "WEB8_compute_core__glass__A2",
+      "owner": "compute_core",
+      "min": [
+        -3.543780565261841,
+        -1.975801944732666,
+        0.22559994459152222
+      ],
+      "max": [
+        -2.5604655742645264,
+        -0.8822055459022522,
+        1.6164000034332275
+      ],
+      "intersectionFaces": 0,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        0.19841602444648743,
+        0.23785163462162018
+      ],
+      "propHitZRange": [
+        0.206084206700325,
+        1.6164000034332275
+      ],
+      "name": "WEB8_compute_core__baked__A2",
+      "owner": "compute_core",
+      "min": [
+        -3.613034725189209,
+        -2.044832468032837,
+        0.206084206700325
+      ],
+      "max": [
+        -2.4912102222442627,
+        -0.813174843788147,
+        1.635915756225586
+      ],
+      "intersectionFaces": 45,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": null,
+      "propHitZRange": null,
+      "name": "WEB8_furniture.work_chair__baked__A1",
+      "owner": "furniture.work_chair",
+      "min": [
+        -2.2068557739257812,
+        -1.2679369449615479,
+        0.177128866314888
+      ],
+      "max": [
+        -0.7089130878448486,
+        0.1676948070526123,
+        2.608703374862671
+      ],
+      "intersectionFaces": 0,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.858079433441162,
+        1.8580797910690308
+      ],
+      "propHitZRange": [
+        1.8515585660934448,
+        1.863348364830017
+      ],
+      "name": "WEB8_folding_drawing_terminal__baked__A2",
+      "owner": "folding_drawing_terminal",
+      "min": [
+        -2.837002992630005,
+        0.8058841824531555,
+        1.8455396890640259
+      ],
+      "max": [
+        -2.262110948562622,
+        1.4850934743881226,
+        2.0780997276306152
+      ],
+      "intersectionFaces": 46,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": null,
+      "propHitZRange": null,
+      "name": "WEB8_drawing_stylus__baked__A2",
+      "owner": "drawing_stylus",
+      "min": [
+        -2.1252129077911377,
+        1.0455906391143799,
+        1.8570947647094727
+      ],
+      "max": [
+        -2.005140542984009,
+        1.5165514945983887,
+        1.888704776763916
+      ],
+      "intersectionFaces": 0,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8573790788650513,
+        1.858080506324768
+      ],
+      "propHitZRange": [
+        1.8559187650680542,
+        1.8611994981765747
+      ],
+      "name": "WEB8_headphones_on_stand__baked__A2",
+      "owner": "headphones_on_stand",
+      "min": [
+        -3.7779130935668945,
+        -1.8504469394683838,
+        1.8478975296020508
+      ],
+      "max": [
+        -3.3565149307250977,
+        -1.3825242519378662,
+        2.5645527839660645
+      ],
+      "intersectionFaces": 98,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8461096286773682,
+        1.8580803871154785
+      ],
+      "propHitZRange": [
+        1.8466800451278687,
+        1.8586499691009521
+      ],
+      "name": "WEB8_ceramic_ring_speaker__baked__A2",
+      "owner": "ceramic_ring_speaker",
+      "min": [
+        -3.246448040008545,
+        1.676531195640564,
+        1.8466800451278687
+      ],
+      "max": [
+        -2.79502534866333,
+        2.1279540061950684,
+        2.022239923477173
+      ],
+      "intersectionFaces": 143,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8461096286773682,
+        1.8580795526504517
+      ],
+      "propHitZRange": [
+        1.8468177318572998,
+        1.8636480569839478
+      ],
+      "name": "WEB8_keyboard_half_0__baked__A2",
+      "owner": "keyboard_half_0",
+      "min": [
+        -3.1021206378936768,
+        -0.8025622367858887,
+        1.8468177318572998
+      ],
+      "max": [
+        -2.7485058307647705,
+        -0.32467126846313477,
+        1.9484468698501587
+      ],
+      "intersectionFaces": 41,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8461096286773682,
+        1.8580795526504517
+      ],
+      "propHitZRange": [
+        1.8468177318572998,
+        1.8636480569839478
+      ],
+      "name": "WEB8_keyboard_half_1__baked__A2",
+      "owner": "keyboard_half_1",
+      "min": [
+        -2.9258687496185303,
+        -0.34049656987190247,
+        1.8468177318572998
+      ],
+      "max": [
+        -2.4717822074890137,
+        0.1431337594985962,
+        1.9484468698501587
+      ],
+      "intersectionFaces": 43,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8580795526504517,
+        1.8580795526504517
+      ],
+      "propHitZRange": [
+        1.8548717498779297,
+        1.8586500883102417
+      ],
+      "name": "WEB8_keyboard_dial__baked__A2",
+      "owner": "keyboard_dial",
+      "min": [
+        -2.906543731689453,
+        -0.3995724618434906,
+        1.8535182476043701
+      ],
+      "max": [
+        -2.75620698928833,
+        -0.24923577904701233,
+        1.938819169998169
+      ],
+      "intersectionFaces": 76,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.858079433441162,
+        1.8580795526504517
+      ],
+      "propHitZRange": [
+        1.8580777645111084,
+        1.8594732284545898
+      ],
+      "name": "WEB8_desktop_creative_controller__baked__A2",
+      "owner": "desktop_creative_controller",
+      "min": [
+        -2.891378402709961,
+        0.16205409169197083,
+        1.8580777645111084
+      ],
+      "max": [
+        -2.693207263946533,
+        0.3602251708507538,
+        1.9228594303131104
+      ],
+      "intersectionFaces": 57,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8518997430801392,
+        1.8580799102783203
+      ],
+      "propHitZRange": [
+        1.8535200357437134,
+        1.8622013330459595
+      ],
+      "name": "WEB8_compact_camera__baked__A2",
+      "owner": "compact_camera",
+      "min": [
+        -3.2212986946105957,
+        -1.3562047481536865,
+        1.8535200357437134
+      ],
+      "max": [
+        -2.9004273414611816,
+        -0.9873532652854919,
+        2.1024608612060547
+      ],
+      "intersectionFaces": 33,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8576751947402954,
+        1.8580803871154785
+      ],
+      "propHitZRange": [
+        1.8557003736495972,
+        1.8742060661315918
+      ],
+      "name": "WEB8_thermal_cup__baked__A2",
+      "owner": "thermal_cup",
+      "min": [
+        -2.5026443004608154,
+        1.9506593942642212,
+        1.8478199243545532
+      ],
+      "max": [
+        -2.331902503967285,
+        2.1215872764587402,
+        2.1259958744049072
+      ],
+      "intersectionFaces": 52,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": null,
+      "propHitZRange": null,
+      "name": "WEB8_environment.orbital_dock__baked__A5",
+      "owner": "environment.orbital_dock",
+      "min": [
+        -10.180628776550293,
+        -8.27500057220459,
+        -1.031000018119812
+      ],
+      "max": [
+        10.20983600616455,
+        10.569854736328125,
+        6.072499752044678
+      ],
+      "intersectionFaces": 0,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": null,
+      "propHitZRange": null,
+      "name": "WEB8_environment.warm_gallery__baked__A6",
+      "owner": "environment.warm_gallery",
+      "min": [
+        -18.887821197509766,
+        -4.679999828338623,
+        -1.0400002002716064
+      ],
+      "max": [
+        19.221725463867188,
+        20.09987449645996,
+        8.069999694824219
+      ],
+      "intersectionFaces": 0,
+      "boundsOverlapsDesk": true
+    },
+    {
+      "deskHitZRange": [
+        1.8580795526504517,
+        1.8580795526504517
+      ],
+      "propHitZRange": [
+        1.8580000400543213,
+        1.8820000886917114
+      ],
+      "name": "WEB8_v8_desk_glow_lamp__baked__A4",
+      "owner": "v8_desk_glow_lamp",
+      "min": [
+        -3.7749998569488525,
+        -0.32499998807907104,
+        1.8580000400543213
+      ],
+      "max": [
+        -3.369999885559082,
+        -0.07500000298023224,
+        2.2850000858306885
+      ],
+      "intersectionFaces": 22,
+      "boundsOverlapsDesk": true
+    }
+  ],
+  "method": "World-space BVH triangle surface intersections on actual prepared mesh, epsilon 1e-6. AABB prefilter. Geometric surface contact may appear as overlap."
+}

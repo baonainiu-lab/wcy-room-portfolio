@@ -1,0 +1,35 @@
+{
+  "slug": "chill-tanhei",
+  "file": "ChillInorganic_WideMedium.otf",
+  "family": "Atelier Reverse Display",
+  "name": "寒蝉无机体·宽体",
+  "weight": 500,
+  "style": "逆反差美术字；横笔厚、竖笔细，宽展字面，带雕刻与展览标题感。",
+  "source": "https://github.com/Warren2060/ChillTanHei",
+  "licenseSource": "https://github.com/Warren2060/ChillTanHei/blob/main/License",
+  "download": "https://github.com/Warren2060/ChillTanHei/releases/download/v1.00/ChillTanHei_v1.00.zip",
+  "fontUrl": "/fonts/review-v3/chill-tanhei/display.woff2",
+  "fontPath": "public/fonts/review-v3/chill-tanhei/display.woff2",
+  "sourcePath": "assets/font-candidates/v3/chill-tanhei/ChillInorganic_WideMedium.otf",
+  "license": "SIL Open Font License 1.1",
+  "licenseUrl": "/fonts/review-v3/chill-tanhei/OFL.txt",
+  "copyright": [
+    "© 2023 ChillType, with Reserved Font Name 'Tanhei'.\n© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+  ],
+  "reviewOnly": true,
+  "originalOs2Weight": 500,
+  "version": "Version 1.000;Glyphs 3.1.1 (3135)",
+  "subsetChars": 509,
+  "requiredTextMissing": [],
+  "extraTextMissing": [],
+  "sha256": {
+    "source": "b35219d4b0dc7d1c8165b8680f812aaa58cc7b499b487056d3816cec50d5cdff",
+    "woff2": "de5ef451a916e209df8f997c4ee691275e7576eae41abe9cc9bb6b22b95adb2a",
+    "license": "3e8c600206aca84fc2d9b8de13ba52a11afadfe4d705e39da608d3651872ecbb"
+  },
+  "bytes": {
+    "source": 9620052,
+    "woff2": 87184
+  },
+  "modifications": "Review-only character subset; converted to WOFF2; renamed primary family/PostScript/unique names. Outlines and native weight preserved. OFL retained in font and adjacent file."
+}

@@ -1,0 +1,23 @@
+{
+  "durationSeconds": 32.0,
+  "frames": 960,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "audioStreams": 0,
+  "decodeExit": 0,
+  "bytes": 7568352,
+  "scope": "only independent concept output; no live scene or main UI implementation",
+  "source": "Existing Blender renders + supplied gameplay footage + verified resume text; animated image composition for approval only",
+  "localVideoHTTP": 206,
+  "contentType": "video/mp4",
+  "range": "bytes 0-1023/7568352",
+  "browserPlayback": {
+    "duration": 32,
+    "currentTimeObserved": 23.242685,
+    "paused": false,
+    "readyState": 4,
+    "error": null
+  },
+  "reviewStatus": "awaiting user approval"
+}

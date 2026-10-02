@@ -1,0 +1,379 @@
+{
+  "scene": "ABOUT_NEXUS_V2_REVIEW",
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/about-nexus-v2.blend",
+  "websiteIntegrated": false,
+  "approval": "pending",
+  "objects": 639,
+  "interactiveAssets": [
+    {
+      "id": "about.nexus.worktable",
+      "parent": null,
+      "localPosition": [
+        0.0,
+        -0.6800000071525574,
+        0.5619999766349792
+      ]
+    },
+    {
+      "id": "about.award.01",
+      "parent": "about.award_capsules",
+      "localPosition": [
+        -0.6600000262260437,
+        -0.30000001192092896,
+        0.23499999940395355
+      ]
+    },
+    {
+      "id": "about.award.01.sculpture",
+      "parent": "about.award.01",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.2549999952316284
+      ]
+    },
+    {
+      "id": "about.award.02",
+      "parent": "about.award_capsules",
+      "localPosition": [
+        0.6600000262260437,
+        -0.30000001192092896,
+        0.23499999940395355
+      ]
+    },
+    {
+      "id": "about.award.02.sculpture",
+      "parent": "about.award.02",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.2549999952316284
+      ]
+    },
+    {
+      "id": "about.award.03",
+      "parent": "about.award_capsules",
+      "localPosition": [
+        0.0,
+        0.5299999713897705,
+        0.23499999940395355
+      ]
+    },
+    {
+      "id": "about.award.03.sculpture",
+      "parent": "about.award.03",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.6349999904632568
+      ]
+    },
+    {
+      "id": "about.nexus.skill.engine",
+      "parent": null,
+      "localPosition": [
+        2.4800000190734863,
+        1.2200000286102295,
+        0.5619999766349792
+      ]
+    },
+    {
+      "id": "about.nexus.skill.carriage",
+      "parent": "about.nexus.skill.engine",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "about.nexus.skill.geometry",
+      "parent": "about.nexus.skill.carriage",
+      "localPosition": [
+        -0.7200000286102295,
+        0.25999999046325684,
+        0.5550000071525574
+      ]
+    },
+    {
+      "id": "about.nexus.skill.geometry.head",
+      "parent": "about.nexus.skill.geometry",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.8579999804496765
+      ]
+    },
+    {
+      "id": "about.nexus.skill.geometry.lower",
+      "parent": "about.nexus.skill.geometry.head",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "about.nexus.skill.geometry.band",
+      "parent": "about.nexus.skill.geometry.head",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "about.nexus.skill.geometry.upper",
+      "parent": "about.nexus.skill.geometry.head",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "about.nexus.skill.swatches",
+      "parent": "about.nexus.skill.carriage",
+      "localPosition": [
+        -0.05999999865889549,
+        -0.46000000834465027,
+        0.5550000071525574
+      ]
+    },
+    {
+      "id": "about.nexus.skill.swatch.01",
+      "parent": "about.nexus.skill.swatches",
+      "localPosition": [
+        0.0,
+        -0.06199999898672104,
+        0.32100000977516174
+      ]
+    },
+    {
+      "id": "about.nexus.skill.swatch.02",
+      "parent": "about.nexus.skill.swatches",
+      "localPosition": [
+        0.0,
+        -0.03099999949336052,
+        0.32100000977516174
+      ]
+    },
+    {
+      "id": "about.nexus.skill.swatch.03",
+      "parent": "about.nexus.skill.swatches",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.32100000977516174
+      ]
+    },
+    {
+      "id": "about.nexus.skill.swatch.04",
+      "parent": "about.nexus.skill.swatches",
+      "localPosition": [
+        0.0,
+        0.03099999949336052,
+        0.32100000977516174
+      ]
+    },
+    {
+      "id": "about.nexus.skill.swatch.05",
+      "parent": "about.nexus.skill.swatches",
+      "localPosition": [
+        0.0,
+        0.06199999898672104,
+        0.32100000977516174
+      ]
+    },
+    {
+      "id": "about.nexus.skill.optics",
+      "parent": "about.nexus.skill.carriage",
+      "localPosition": [
+        0.6800000071525574,
+        0.23000000417232513,
+        0.5550000071525574
+      ]
+    },
+    {
+      "id": "about.nexus.skill.optics.head",
+      "parent": "about.nexus.skill.optics",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.7900000214576721
+      ]
+    },
+    {
+      "id": "about.nexus.skill.optics.shade.01",
+      "parent": "about.nexus.skill.optics.head",
+      "localPosition": [
+        -0.0,
+        0.3059999942779541,
+        0.17800000309944153
+      ]
+    },
+    {
+      "id": "about.nexus.skill.optics.shade.02",
+      "parent": "about.nexus.skill.optics.head",
+      "localPosition": [
+        -0.3059999942779541,
+        1.873709671220417e-17,
+        0.17800000309944153
+      ]
+    },
+    {
+      "id": "about.nexus.skill.optics.shade.03",
+      "parent": "about.nexus.skill.optics.head",
+      "localPosition": [
+        -3.747419342440834e-17,
+        -0.3059999942779541,
+        0.17800000309944153
+      ]
+    },
+    {
+      "id": "about.nexus.skill.optics.shade.04",
+      "parent": "about.nexus.skill.optics.head",
+      "localPosition": [
+        0.3059999942779541,
+        -5.621129013661251e-17,
+        0.17800000309944153
+      ]
+    },
+    {
+      "id": "about.nexus.skill.label",
+      "parent": "about.nexus.skill.carriage",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "about.profile.core",
+      "parent": null,
+      "localPosition": [
+        0.0,
+        1.7400000095367432,
+        0.5619999766349792
+      ]
+    },
+    {
+      "id": "about.profile.rotating_lens",
+      "parent": "about.profile.core",
+      "localPosition": [
+        0.0,
+        -0.054999999701976776,
+        2.559999942779541
+      ]
+    },
+    {
+      "id": "about.nexus.arc_lamp",
+      "parent": null,
+      "localPosition": [
+        -0.15000000596046448,
+        3.119999885559082,
+        0.5619999766349792
+      ]
+    },
+    {
+      "id": "about.contact.console",
+      "parent": "about.nexus.worktable",
+      "localPosition": [
+        1.4723000526428223,
+        -0.2596000134944916,
+        1.2549999952316284
+      ]
+    },
+    {
+      "id": "about.contact.folded_panel",
+      "parent": "about.contact.console",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.2800000011920929
+      ]
+    },
+    {
+      "id": "about.archive.card.00",
+      "parent": "about.nexus.worktable",
+      "localPosition": [
+        -1.2903778553009033,
+        0.7450000047683716,
+        1.2549999952316284
+      ]
+    },
+    {
+      "id": "about.archive.card.01",
+      "parent": "about.nexus.worktable",
+      "localPosition": [
+        -1.4754993915557861,
+        0.2073679268360138,
+        1.2549999952316284
+      ]
+    },
+    {
+      "id": "about.archive.card.02",
+      "parent": "about.nexus.worktable",
+      "localPosition": [
+        -1.4457405805587769,
+        -0.36046361923217773,
+        1.2549999952316284
+      ]
+    },
+    {
+      "id": "about.nexus.stool",
+      "parent": null,
+      "localPosition": [
+        -0.25,
+        -1.9199999570846558,
+        0.5619999766349792
+      ]
+    },
+    {
+      "id": "about.stool.seat",
+      "parent": "about.nexus.stool",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.5950000286102295
+      ]
+    },
+    {
+      "id": "about.archive.carry_case",
+      "parent": null,
+      "localPosition": [
+        -2.6700000762939453,
+        -1.6799999475479126,
+        0.5619999766349792
+      ]
+    },
+    {
+      "id": "about.return.dock",
+      "parent": null,
+      "localPosition": [
+        2.0,
+        -2.140000104904175,
+        0.5619999766349792
+      ]
+    },
+    {
+      "id": "about.return.button",
+      "parent": "about.return.dock",
+      "localPosition": [
+        0.0,
+        0.009999999776482582,
+        0.3100000023841858
+      ]
+    },
+    {
+      "id": "about.nexus.terrarium",
+      "parent": null,
+      "localPosition": [
+        3.3499999046325684,
+        -1.559999942779541,
+        0.5619999766349792
+      ]
+    }
+  ],
+  "design": "Freestanding circular workshop island, central profile lens, clustered award capsules, radial skills workbench."
+}

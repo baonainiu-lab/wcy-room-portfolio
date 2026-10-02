@@ -1,0 +1,26 @@
+{
+  "name": "月相领航员",
+  "english": "Moonphase Navigator",
+  "dimensions_xyz_units": [
+    1.2311,
+    0.7489,
+    2.6565
+  ],
+  "concept": "A quiet adult explorer: crescent pearl hood, disciplined asymmetrical teal cape, persimmon lining, circular mapping lens.",
+  "approval_only": true,
+  "actual_geometry": true,
+  "not_rigged": true,
+  "palette": [
+    "#EEE8D8",
+    "#244B4C",
+    "#D9753F",
+    "#263136"
+  ],
+  "files": [
+    "moonphase-navigator.blend",
+    "moonphase-navigator.glb",
+    "hero.png",
+    "front.png",
+    "back.png"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-09-26T03:49:26.214Z",
+  "desktop": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "model": "welcome-terminal-v2",
+    "showcase": {
+      "background": "daylight-atelier-v1",
+      "idle": true,
+      "idleSeconds": 32.27250000000091,
+      "pointer": [
+        0,
+        0
+      ],
+      "weight": 1,
+      "released": false
+    },
+    "drawCalls": 31
+  },
+  "wheelEntry": {
+    "phase": "complete",
+    "starts": 1,
+    "completions": 1,
+    "attached": true,
+    "controls": true,
+    "errors": []
+  },
+  "compact": {
+    "viewport": [
+      390,
+      844
+    ],
+    "source": "swipe",
+    "phase": "complete",
+    "controls": true,
+    "errors": [],
+    "physicalTouchDeviceTested": false
+  },
+  "reducedMotion": {
+    "welcomeIdle": false,
+    "enabled": true,
+    "clickedEntryObservedSceneUI": true
+  },
+  "transitionSample": {
+    "time": 2.4,
+    "backgroundReveal": 0,
+    "errors": []
+  },
+  "skipAndRepeat": {
+    "phase": "complete",
+    "starts": 1,
+    "completions": 1,
+    "released": true,
+    "controls": true,
+    "errors": []
+  },
+  "consoleErrors": []
+}

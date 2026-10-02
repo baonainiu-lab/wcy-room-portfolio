@@ -1,0 +1,177 @@
+{
+  "complete": true,
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "count": 13,
+  "samples": 96,
+  "gpuOidnOnlyExecutionOverrideVerified": true,
+  "rows": [
+    {
+      "slot": 0,
+      "seconds": 61.67,
+      "maximum": 39.39752197265625,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "c865d4b05124b3b8060e90f0456bb75658c0d227cc782bb0af56b2dd2bb3d09c",
+      "hdrOutliers": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v19/night-0-hdr-outliers.npz",
+        "sha256": "4b63091f6a859c64b9894c43207ca7e754248c9a01d2126ab2035fac4b836068",
+        "count": 306,
+        "indexConvention": "flattened bottom-up Blender RGB float buffer; restore before PNG row flip"
+      }
+    },
+    {
+      "slot": 1,
+      "seconds": 41.13,
+      "maximum": 33.52783203125,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "66579919199bd068cafcb4565299b9f015232d02cd9b11e5d75a846146f6dfca",
+      "hdrOutliers": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v19/night-1-hdr-outliers.npz",
+        "sha256": "89372b40e5e4ffdc142db26995595b68a378f0ada3886749aaf71005390b76e3",
+        "count": 1,
+        "indexConvention": "flattened bottom-up Blender RGB float buffer; restore before PNG row flip"
+      }
+    },
+    {
+      "slot": 2,
+      "seconds": 79.85,
+      "maximum": 53.252193450927734,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "c4be8b36110dc3b0620f5327ec464fecbd5d1cf2a46fde7073e8313e37deae6b",
+      "hdrOutliers": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v19/night-2-hdr-outliers.npz",
+        "sha256": "1e23f63fd9db26af02fec2b9c1285232a55d772b28421a727da012f7741d2c49",
+        "count": 266,
+        "indexConvention": "flattened bottom-up Blender RGB float buffer; restore before PNG row flip"
+      }
+    },
+    {
+      "slot": 3,
+      "seconds": 52.2,
+      "maximum": 15.61546516418457,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "cf060f24365f3fbf2ececcd907b486df881ec4fe0490b261c8ebd9546642f5e9",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 4,
+      "seconds": 59.41,
+      "maximum": 135.7487030029297,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "f41af627203cc304c4e11766667e215df60d9839b94746c79dfd1440d595ec84",
+      "hdrOutliers": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v19/night-4-hdr-outliers.npz",
+        "sha256": "7c4f93df7c4b2ceda7ecf10038ecfbfba1784bf56989fa083a54d36f390c6f44",
+        "count": 5028,
+        "indexConvention": "flattened bottom-up Blender RGB float buffer; restore before PNG row flip"
+      }
+    },
+    {
+      "slot": 5,
+      "seconds": 42.87,
+      "maximum": 16.765460968017578,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "4d7ddbafc8d260e6f790c9cc101875fa56b021d9f1f092b32b72854f9a83ae4f",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 6,
+      "seconds": 27.74,
+      "maximum": 25.46875762939453,
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "sha256": "947ec23b14d155d412b5916fcab80e7ddf35428bc5bdebe6af62d8f3756f0cb1",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 7,
+      "seconds": 11.55,
+      "maximum": 1.505589246749878,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "69ed92b3e5ff43d249be413d9f1f268330052cd3133d4cce5cfdb002587d5ccd",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 8,
+      "seconds": 25.7,
+      "maximum": 15.7698392868042,
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "sha256": "299108c0a7133a5a0d18ba4dbe2b636b24980bdca9f3b98dc93a7a7dfd3b1c25",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 9,
+      "seconds": 57.15,
+      "maximum": 16.247447967529297,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "772f93c70287aec03dc098a7aa326e58ab4233c77026d9b8ad61bb079fcf4cf9",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 10,
+      "seconds": 47.28,
+      "maximum": 29.3700008392334,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "229cfa85c521b1c76623776b9cb4c381f9570e51cf60cf103366f95ec04f3144",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 11,
+      "seconds": 61.44,
+      "maximum": 1.0597383975982666,
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "sha256": "99447993b34d633395c3227237750a143bda3a852cd210a35d37c356043e6e0a",
+      "hdrOutliers": null
+    },
+    {
+      "slot": 12,
+      "seconds": 6.15,
+      "maximum": 2950.88818359375,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "bb03530fb009895743442949105ee3b981f286c375801a7f065e5de275e320b6",
+      "hdrOutliers": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v19/night-12-hdr-outliers.npz",
+        "sha256": "c184e87beb4b8af121b2b03fb933b0d055f07aa717a7c44a42405ada913589fc",
+        "count": 6582,
+        "indexConvention": "flattened bottom-up Blender RGB float buffer; restore before PNG row flip"
+      }
+    }
+  ]
+}

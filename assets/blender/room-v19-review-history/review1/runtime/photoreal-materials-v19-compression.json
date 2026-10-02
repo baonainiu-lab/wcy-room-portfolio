@@ -1,0 +1,3516 @@
+{
+  "complete": false,
+  "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+  "textures": [
+    {
+      "key": "day-window",
+      "state": "day",
+      "slot": "window",
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/window-day.png",
+      "sourceSha256": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-window.ktx2",
+      "sha256": "fcff9b5690ecd856882dd2861e8fde8676375bd72ac1de3fa17c76ceb5c88b1e",
+      "bytes": 2928384,
+      "colorSpace": "sRGB, byte-identical to V16",
+      "inheritedFrom": "lighting-v16; unchanged display artwork"
+    },
+    {
+      "key": "night-window",
+      "state": "night",
+      "slot": "window",
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/window-night.png",
+      "sourceSha256": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/night-window.ktx2",
+      "sha256": "2ebc2758aedf310430c2e406d34b5c45ea623eefcbbfd0c68c942544185e02d1",
+      "bytes": 2716120,
+      "colorSpace": "sRGB, byte-identical to V16",
+      "inheritedFrom": "lighting-v16; unchanged display artwork"
+    },
+    {
+      "key": "static-screen",
+      "state": "static",
+      "slot": "screen",
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/screen-art-render.png",
+      "sourceSha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/static-screen.ktx2",
+      "sha256": "67c99d974e2454c3e3920c27505bb2e7170c4aada5e6346afe34f2d647b9edb8",
+      "bytes": 2365894,
+      "colorSpace": "sRGB, byte-identical to V16",
+      "inheritedFrom": "lighting-v16; unchanged display artwork"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-0.png",
+      "sourceSha256": "ca347d2cdc369fbbea83c6d6f4335f6f5ef70853fad8172d3d2e6fd8a4488e3e",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-0.ktx2",
+      "sha256": "7a7b9dfbc00682d2fdaf2b8a7ad410d7e7a377882b49172959665d3bfeae506f",
+      "bytes": 1119535,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-0.png",
+        "sha256": "ca347d2cdc369fbbea83c6d6f4335f6f5ef70853fad8172d3d2e6fd8a4488e3e",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.000617017038166523
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0008122919243760407
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0009619647753424942
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0010677572572603822
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0011229263618588448
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0011516971280798316
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001165863242931664
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.00117082754150033
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0011985671008005738
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0011989605845883489
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.001199230900965631
+        }
+      ],
+      "seconds": 4.0,
+      "key": "normal-0",
+      "state": "normal",
+      "slot": 0,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-0-manifest.json",
+      "bakeManifestSha256": "a94a1785d3cb953f50ef8bbd8e34f7a6741ff870db9abd80da59731bf8600c74"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-0.png",
+      "sourceSha256": "f573b8c6cfa7fae9bb1b3aa9d8f945a30c5f37ab0b49001cd0a04506335ed6cc",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-0.ktx2",
+      "sha256": "2bfc8d019adad83c715569e80e78d7935d94f544defd8442c18842951d40a6b3",
+      "bytes": 1263631,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-0.png",
+        "sha256": "f573b8c6cfa7fae9bb1b3aa9d8f945a30c5f37ab0b49001cd0a04506335ed6cc",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        72,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0001636493398109451
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00021040381398051977
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.00024068601487670094
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0002859904197975993
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0003917605790775269
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0005349828861653805
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0008550083730369806
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0009828503243625164
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0010077225742861629
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0010535325855016708
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0011333450675010681
+        }
+      ],
+      "seconds": 10.69,
+      "key": "specular-0",
+      "state": "specular",
+      "slot": 0,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-0-manifest.json",
+      "bakeManifestSha256": "a94a1785d3cb953f50ef8bbd8e34f7a6741ff870db9abd80da59731bf8600c74"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-1.png",
+      "sourceSha256": "3cfd1b077a88ce0492d44b1fcf21607be30682c6e879265c8e8a36ad3f08c147",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-1.ktx2",
+      "sha256": "5e960c8bf2ae5536e5d9f75534d130a880aebe9ea91c4c57f451390248395c00",
+      "bytes": 1737553,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-1.png",
+        "sha256": "3cfd1b077a88ce0492d44b1fcf21607be30682c6e879265c8e8a36ad3f08c147",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0005559636629186571
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0006557822343893349
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0007389144157059491
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0008392130839638412
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0010021658381447196
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0011209455551579595
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001164540066383779
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0012470578076317906
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.001155909732915461
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0011664575431495905
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0011666860664263368
+        }
+      ],
+      "seconds": 5.48,
+      "key": "normal-1",
+      "state": "normal",
+      "slot": 1,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-1-manifest.json",
+      "bakeManifestSha256": "7cd70d89daa72d6afb80215471a2018c7cce94810b80acae7361df31da202506"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-1.png",
+      "sourceSha256": "b5f56e4cda686889a96b0d4a9044d32b6800c899c1120154d1cf7bfcdd297440",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-1.ktx2",
+      "sha256": "903c3f47be32be29f27973d35d7391d2173fe0b0e015feb0e9d9a625c9f60df3",
+      "bytes": 1255287,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-1.png",
+        "sha256": "b5f56e4cda686889a96b0d4a9044d32b6800c899c1120154d1cf7bfcdd297440",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        73,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.00016648985911160707
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0002466690493747592
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0003501184983178973
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0004794810665771365
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0006461828015744686
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0008692960254848003
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001086037838831544
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0012142718769609928
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.001236551208421588
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.001435584737919271
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0011751065030694008
+        }
+      ],
+      "seconds": 4.19,
+      "key": "specular-1",
+      "state": "specular",
+      "slot": 1,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-1-manifest.json",
+      "bakeManifestSha256": "7cd70d89daa72d6afb80215471a2018c7cce94810b80acae7361df31da202506"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-2.png",
+      "sourceSha256": "74e4bc25ad13c5ef0e9848bf7c1908ca70e4a22c24343fb2698792809d223243",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-2.ktx2",
+      "sha256": "0ac4d65559d9189cbdbd1675ffbe9291edbdc9319d136c2612aa1a372744c623",
+      "bytes": 1955136,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-2.png",
+        "sha256": "74e4bc25ad13c5ef0e9848bf7c1908ca70e4a22c24343fb2698792809d223243",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.001127134426496923
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0014990310883149505
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0017561023123562336
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0019166464917361736
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0020171289797872305
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0020601123105734587
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0020811862777918577
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.002088933251798153
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0021041680593043566
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0021043180022388697
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0021045722533017397
+        }
+      ],
+      "seconds": 2.28,
+      "key": "normal-2",
+      "state": "normal",
+      "slot": 2,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-2-manifest.json",
+      "bakeManifestSha256": "a49be7970a0cf7b42033181ffbc9bd20a75bc3b17f3a6e2d4bf2bc5f5df09982"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-2.png",
+      "sourceSha256": "03ba9229dd6f80fbd2c2a05d0123cfe46531608f11e4cdbdd5b28161f8cf37e6",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-2.ktx2",
+      "sha256": "c0874e6529c8582cbaee193681c2a833da825e6082aaf4a0561dec6e1ca9efc6",
+      "bytes": 2451908,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-2.png",
+        "sha256": "03ba9229dd6f80fbd2c2a05d0123cfe46531608f11e4cdbdd5b28161f8cf37e6",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        59,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.00019561705994419754
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0002519573026802391
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.00033101270673796535
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0004256051033735275
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0005340423667803407
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0006025726324878633
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0007416526204906404
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0007986773271113634
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.000893807562533766
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0008386953268200159
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0006118733435869217
+        }
+      ],
+      "seconds": 5.59,
+      "key": "specular-2",
+      "state": "specular",
+      "slot": 2,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-2-manifest.json",
+      "bakeManifestSha256": "a49be7970a0cf7b42033181ffbc9bd20a75bc3b17f3a6e2d4bf2bc5f5df09982"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-3.png",
+      "sourceSha256": "9541899d521e1bb7ce4c9c8c4a6cad377a01f1132a39b5f7635e5a8bfca86eff",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-3.ktx2",
+      "sha256": "ffb8555eef46215dce066d231bb0716346e8eafd933fb1b13d8c4662f946069b",
+      "bytes": 2190783,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-3.png",
+        "sha256": "9541899d521e1bb7ce4c9c8c4a6cad377a01f1132a39b5f7635e5a8bfca86eff",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.000755935674533248
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0009830171475186944
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0011835615150630474
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0013645758153870702
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0014569052727892995
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0015131126856431365
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0013896239688619971
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0014869384467601776
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.001763060106895864
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0018307464197278023
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0018301137024536729
+        }
+      ],
+      "seconds": 2.63,
+      "key": "normal-3",
+      "state": "normal",
+      "slot": 3,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-3-manifest.json",
+      "bakeManifestSha256": "d49d310e95540f24f17640ba3f9542f2a8c9ed536e8158250e06ffa423a5fafb"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-3.png",
+      "sourceSha256": "40096d7b17d4fd3f9f6bba822c02b83bbae63e4dcdd12e065029b305afbe00c4",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-3.ktx2",
+      "sha256": "13d6e320017ba22d29d7f08d797b1952b64831d8981b01d81d177aa81f1d8b4e",
+      "bytes": 1893686,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-3.png",
+        "sha256": "40096d7b17d4fd3f9f6bba822c02b83bbae63e4dcdd12e065029b305afbe00c4",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        17,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.00018540918244980276
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0003234778414480388
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0004960204241797328
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0006984089268371463
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0008675355929881334
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0010123595129698515
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0010287311160936952
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.001167468843050301
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0010593868792057037
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0011587943881750107
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0007377322763204575
+        }
+      ],
+      "seconds": 5.03,
+      "key": "specular-3",
+      "state": "specular",
+      "slot": 3,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-3-manifest.json",
+      "bakeManifestSha256": "d49d310e95540f24f17640ba3f9542f2a8c9ed536e8158250e06ffa423a5fafb"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-4.png",
+      "sourceSha256": "fbd857358e9459493932c57669c2fad819a1ac67e145f42f0b6b6ddf45239275",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-4.ktx2",
+      "sha256": "28ae7b484bc19b952985f84dc3f4287d31b9d088a28d8342d59b888dc87ffe4d",
+      "bytes": 1677525,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-4.png",
+        "sha256": "fbd857358e9459493932c57669c2fad819a1ac67e145f42f0b6b6ddf45239275",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0008195062982849777
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0011403015814721584
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.001423205598257482
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.001640542410314083
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0017621162114664912
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0018200436607003212
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0018462551524862647
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0018893685191869736
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0018986306386068463
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0019010106334462762
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0019010305404663086
+        }
+      ],
+      "seconds": 1.95,
+      "key": "normal-4",
+      "state": "normal",
+      "slot": 4,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-4-manifest.json",
+      "bakeManifestSha256": "2770a062d42f8ec00cce119dc210e6fa93b9edb7e3483bcb8f85c72e0c0dd4e9"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-4.png",
+      "sourceSha256": "632c3c7c38d667ce39fdf37579b3aadff884d208fdb8f342a6fba524859c140e",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-4.ktx2",
+      "sha256": "5e699583d2e07e527c5972fbfb99355cf871935fed1374b8d6aeaf25bc9ad312",
+      "bytes": 2141893,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-4.png",
+        "sha256": "632c3c7c38d667ce39fdf37579b3aadff884d208fdb8f342a6fba524859c140e",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        60,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.00020964720170013607
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00034342490835115314
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0005015226197429001
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0006648215930908918
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0007808399968780577
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0008902739500626922
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0009833993390202522
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0010054714512079954
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0009830603376030922
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0012280126102268696
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0011571161448955536
+        }
+      ],
+      "seconds": 5.18,
+      "key": "specular-4",
+      "state": "specular",
+      "slot": 4,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-4-manifest.json",
+      "bakeManifestSha256": "2770a062d42f8ec00cce119dc210e6fa93b9edb7e3483bcb8f85c72e0c0dd4e9"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-5.png",
+      "sourceSha256": "705972c54b21395ab43eb7efc69a2332b998c988f7309cc7d68a88bc8d1df3bc",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-5.ktx2",
+      "sha256": "8ed081a80a05064a4f89a72a6ef5f063d2c3f29b6453827319293fbecbcd2484",
+      "bytes": 377171,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-5.png",
+        "sha256": "705972c54b21395ab43eb7efc69a2332b998c988f7309cc7d68a88bc8d1df3bc",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0007828844827599823
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.001127982628531754
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0014490202302113175
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.001695843762718141
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0018046312034130096
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0018244566163048148
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0018252349691465497
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0018238987540826201
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0018239704659208655
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0018239846685901284
+        }
+      ],
+      "seconds": 0.56,
+      "key": "normal-5",
+      "state": "normal",
+      "slot": 5,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-5-manifest.json",
+      "bakeManifestSha256": "edfdc37143e3834384315ff910917abc71bb4914988225511da7abe879acf76e"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-5.png",
+      "sourceSha256": "ef517ba600ecea557371dcc7d454528e968f5a5e663ed43148e4f953b8b7a29a",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-5.ktx2",
+      "sha256": "0f7358cdf2c12c2d4eb106af5892e7760d85cf7c8c047d67b112291d166d6b6f",
+      "bytes": 491182,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-5.png",
+        "sha256": "ef517ba600ecea557371dcc7d454528e968f5a5e663ed43148e4f953b8b7a29a",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        74,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00023732300905976444
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.00032871009898371994
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.00046497967559844255
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0006398380501195788
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0007933451561257243
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0009090504026971757
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0010810797102749348
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0009199858759529889
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0009494018740952015
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0008207336068153381
+        }
+      ],
+      "seconds": 1.71,
+      "key": "specular-5",
+      "state": "specular",
+      "slot": 5,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-5-manifest.json",
+      "bakeManifestSha256": "edfdc37143e3834384315ff910917abc71bb4914988225511da7abe879acf76e"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-6.png",
+      "sourceSha256": "4ad5b99894d35e90bdacdfd46b979d4ede6c317f5adb50762b764cbe732d3e72",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-6.ktx2",
+      "sha256": "33e433ecb5e3c5c03b156e5216c5e8e8956edfd73398abdee7c335f3dadaf23c",
+      "bytes": 408233,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-6.png",
+        "sha256": "4ad5b99894d35e90bdacdfd46b979d4ede6c317f5adb50762b764cbe732d3e72",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0006959392339922488
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0010122713865712285
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.001312381005845964
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.001514927134849131
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.00158571673091501
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0015956483548507094
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0015847288304939866
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0016020644688978791
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0018110638484358788
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.002000219887122512
+        }
+      ],
+      "seconds": 0.48,
+      "key": "normal-6",
+      "state": "normal",
+      "slot": 6,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-6-manifest.json",
+      "bakeManifestSha256": "55ed40e3d3860084c0d765ced866f1dd733e33317ee3688cc8d0383d3c8ef100"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-6.png",
+      "sourceSha256": "f66339f552aef8977425a3cb37ae1f163968408ac6d0bfc66024120cb88b687a",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-6.ktx2",
+      "sha256": "508ab274cd2b4becbf2a05fcd9a1d8d9bc4b0b82f5a6445ff00d4ca484485db0",
+      "bytes": 543972,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-6.png",
+        "sha256": "f66339f552aef8977425a3cb37ae1f163968408ac6d0bfc66024120cb88b687a",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        63,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00023067787697073072
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0003578827599994838
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.000501885311678052
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0006468436331488192
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0007478647166863084
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0008864239207468927
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0009761917171999812
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0010532266460359097
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0008403536630794406
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0008333101868629456
+        }
+      ],
+      "seconds": 1.5,
+      "key": "specular-6",
+      "state": "specular",
+      "slot": 6,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-6-manifest.json",
+      "bakeManifestSha256": "55ed40e3d3860084c0d765ced866f1dd733e33317ee3688cc8d0383d3c8ef100"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-7.png",
+      "sourceSha256": "0a38af09ad6320cd75da8c0df326152e4c12bf9ef30896f7ce5a1c4d556e90cf",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-7.ktx2",
+      "sha256": "79d2dbd05827fc7d7fdd7c8d9ab338a2d2095a326332c5c305dade873970a3fa",
+      "bytes": 1591620,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-7.png",
+        "sha256": "0a38af09ad6320cd75da8c0df326152e4c12bf9ef30896f7ce5a1c4d556e90cf",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0004911161959171295
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0005785486428067088
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0006878747954033315
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0008597305859439075
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0010207801824435592
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0011192560195922852
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0011403410462662578
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0011117858812212944
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.00107715860940516
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.001077225781045854
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.001077248714864254
+        }
+      ],
+      "seconds": 1.56,
+      "key": "normal-7",
+      "state": "normal",
+      "slot": 7,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-7-manifest.json",
+      "bakeManifestSha256": "c27bc9edc14d17233a042acbeef7b0712462f8278ef8564acb461156a40cee7b"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-7.png",
+      "sourceSha256": "f45a189a66f4c903d94f0c676860c5c2aa213b154793d7c10e8d5c6b92824c86",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-7.ktx2",
+      "sha256": "784dd103f8992e21b5078fc4b0b9e460fb62a573bbe2145cd584fb10380e09ff",
+      "bytes": 1262683,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-7.png",
+        "sha256": "f45a189a66f4c903d94f0c676860c5c2aa213b154793d7c10e8d5c6b92824c86",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        73,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0001431508280802518
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0002166351187042892
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.00032901359372772276
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.00048743688967078924
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0007005817024037242
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.000928478897549212
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0010885586962103844
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0011083806166425347
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.001131574739702046
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0011254573473706841
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0004989383742213249
+        }
+      ],
+      "seconds": 2.98,
+      "key": "specular-7",
+      "state": "specular",
+      "slot": 7,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-7-manifest.json",
+      "bakeManifestSha256": "c27bc9edc14d17233a042acbeef7b0712462f8278ef8564acb461156a40cee7b"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-8.png",
+      "sourceSha256": "9ed13ff07abcdc794e36f72dbc8c03516e98c515bd8665206d50506d75d2ba0d",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-8.ktx2",
+      "sha256": "9a0a5ac71055023a9e1513716431e93b167bb185a869472d83e3ad9888545d51",
+      "bytes": 1303266,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-8.png",
+        "sha256": "9ed13ff07abcdc794e36f72dbc8c03516e98c515bd8665206d50506d75d2ba0d",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0006205353420227766
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0008349567651748657
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0010002251947298646
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.00113251234870404
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0012373392237350345
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0012698901118710637
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001275478396564722
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0012822486460208893
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0012724199332296848
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0012724582338705659
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.001272462890483439
+        }
+      ],
+      "seconds": 1.89,
+      "key": "normal-8",
+      "state": "normal",
+      "slot": 8,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-8-manifest.json",
+      "bakeManifestSha256": "53403154377e486dfc0b0c69cf0736700c26119452ae33aa384fe36032746e26"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-8.png",
+      "sourceSha256": "38b8e7a1299af2f8542343b9defee2dfe030b7046507e6cfe5b2582fb0019411",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-8.ktx2",
+      "sha256": "8395f7d3a5d0c80951904a6da1316fe5d81467761a293ab8f32c55195d5fbb9b",
+      "bytes": 1326846,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-8.png",
+        "sha256": "38b8e7a1299af2f8542343b9defee2dfe030b7046507e6cfe5b2582fb0019411",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        72,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.00017851100710686296
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00028801875305362046
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0003928088117390871
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0005143279558978975
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0007783828768879175
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0008949885377660394
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0010709119960665703
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0011821519583463669
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0012070095399394631
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0011421199887990952
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0004932582378387451
+        }
+      ],
+      "seconds": 3.45,
+      "key": "specular-8",
+      "state": "specular",
+      "slot": 8,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-8-manifest.json",
+      "bakeManifestSha256": "53403154377e486dfc0b0c69cf0736700c26119452ae33aa384fe36032746e26"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-9.png",
+      "sourceSha256": "c43d75bfc0a53ef40ba80d9097d2b921bcc49d39009cc4237067692cac103b23",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-9.ktx2",
+      "sha256": "350e35289e7529f2424dbfbe3193f5ad4f4272860975b63c17a15fbcbf7d7cf1",
+      "bytes": 2435618,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-9.png",
+        "sha256": "c43d75bfc0a53ef40ba80d9097d2b921bcc49d39009cc4237067692cac103b23",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0009435595129616559
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0012285946868360043
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0014432362513616681
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0015967064537107944
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0016881804913282394
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.001721919164992869
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001749856281094253
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0018735934281721711
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.001980595523491502
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0020307893864810467
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.002030516741797328
+        }
+      ],
+      "seconds": 4.07,
+      "key": "normal-9",
+      "state": "normal",
+      "slot": 9,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-9-manifest.json",
+      "bakeManifestSha256": "52860087ac40aa02694f6cd8fd7259a0b9a7eefeae328c69aa286d2791ff0438"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-9.png",
+      "sourceSha256": "1d5a9526fd167509e8fa91e00486d8e9fc29309b330027ca6072034a1dd11bbe",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-9.ktx2",
+      "sha256": "69a036b9a375343b888da8138f8cf877620dd14bb197d8c6c9a7152c6a602a7a",
+      "bytes": 2382658,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-9.png",
+        "sha256": "1d5a9526fd167509e8fa91e00486d8e9fc29309b330027ca6072034a1dd11bbe",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        15,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0002304661611560732
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00033788292785175145
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.00047849747352302074
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0006491817184723914
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.000803010945674032
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0009019264834932983
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001015630317851901
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0010137927019968629
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.001098821870982647
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0008125817403197289
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0012834221124649048
+        }
+      ],
+      "seconds": 10.02,
+      "key": "specular-9",
+      "state": "specular",
+      "slot": 9,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-9-manifest.json",
+      "bakeManifestSha256": "52860087ac40aa02694f6cd8fd7259a0b9a7eefeae328c69aa286d2791ff0438"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-10.png",
+      "sourceSha256": "3e98b490c6daed412acf7c3f7983812627f9db9c4d62331fee10fd87556a3a2a",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-10.ktx2",
+      "sha256": "b15561ea52606604bcb9fad16ce4791d81ef679464bd161bb10383ead3839a33",
+      "bytes": 2605047,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-10.png",
+        "sha256": "3e98b490c6daed412acf7c3f7983812627f9db9c4d62331fee10fd87556a3a2a",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0007937822956591845
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0010386648355051875
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0012239239877089858
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.001343031064607203
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0013846387155354023
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0013667698949575424
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001413686666637659
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0014890168095007539
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0018505818443372846
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0020099766552448273
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.002016432350501418
+        }
+      ],
+      "seconds": 3.36,
+      "key": "normal-10",
+      "state": "normal",
+      "slot": 10,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-10-manifest.json",
+      "bakeManifestSha256": "22d9f3394eda795257f3d8c8cca425c0ae94a102f198ff40afa690ec77a5fca3"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-10.png",
+      "sourceSha256": "395e143ed10ba31cd913676c305ddc9e3fc143e45d909d869432dab33cd07403",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-10.ktx2",
+      "sha256": "5525842ea1fddf3428273fd6af815c9ea571241cea65eb6fc11bb830b64cc4a2",
+      "bytes": 2083343,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-10.png",
+        "sha256": "395e143ed10ba31cd913676c305ddc9e3fc143e45d909d869432dab33cd07403",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        16,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.00022861768957227468
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0003621721698436886
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0005474654026329517
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0007273360388353467
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0008356609614565969
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0009133579442277551
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0010490179993212223
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0010834948625415564
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.001062365248799324
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0013397135771811008
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0010929685086011887
+        }
+      ],
+      "seconds": 7.78,
+      "key": "specular-10",
+      "state": "specular",
+      "slot": 10,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-10-manifest.json",
+      "bakeManifestSha256": "22d9f3394eda795257f3d8c8cca425c0ae94a102f198ff40afa690ec77a5fca3"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-11.png",
+      "sourceSha256": "79f93f441adfdb8eba945aae293812cfc169cba2b1ae65525bd39ae9297724f8",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-11.ktx2",
+      "sha256": "53ad0db45f46544a61577df9f0208b99a64181fc0020984a744bf5c34b01f189",
+      "bytes": 1792476,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-11.png",
+        "sha256": "79f93f441adfdb8eba945aae293812cfc169cba2b1ae65525bd39ae9297724f8",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.00082403514534235
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.0010045150993391871
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0011315176961943507
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0012543130433186889
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0013369807275012136
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0013650903711095452
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.001353240106254816
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0013503179652616382
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0013955947943031788
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0013999802758917212
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0014000005321577191
+        }
+      ],
+      "seconds": 2.86,
+      "key": "normal-11",
+      "state": "normal",
+      "slot": 11,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-11-manifest.json",
+      "bakeManifestSha256": "557363bc6f365e5d84fd6d9fb619b51af47b80fd6ce6793be0f34dfcaa161563"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-11.png",
+      "sourceSha256": "3b85f3707c587d789ce9cb81ff5216227cf2b891953558ef467510d87da4f97f",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-11.ktx2",
+      "sha256": "3db2c52be7ab3189aa397c1b3441a3723958a656ea0660de3a432a8003f8e003",
+      "bytes": 2267245,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-11.png",
+        "sha256": "3b85f3707c587d789ce9cb81ff5216227cf2b891953558ef467510d87da4f97f",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        59,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 0.0001467659167246893
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00019851888646371663
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.00026544358115643263
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0003631686558946967
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0004345456836745143
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0005207202048040926
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0006334399804472923
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0008621875895187259
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0010934994788840413
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0009981263428926468
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.001176527701318264
+        }
+      ],
+      "seconds": 7.84,
+      "key": "specular-11",
+      "state": "specular",
+      "slot": 11,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-11-manifest.json",
+      "bakeManifestSha256": "557363bc6f365e5d84fd6d9fb619b51af47b80fd6ce6793be0f34dfcaa161563"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-12.png",
+      "sourceSha256": "0ccaaad241e72df1d968d0a6fa25ef0c1d40212249989c6e0ff1a02ca3578744",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-12.ktx2",
+      "sha256": "4ff1f2697d5d69b990b96b454226fa414b8fc5b808a1b119c25b2d5b6e7a6dd2",
+      "bytes": 222161,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-12.png",
+        "sha256": "0ccaaad241e72df1d968d0a6fa25ef0c1d40212249989c6e0ff1a02ca3578744",
+        "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+      },
+      "kind": "normal",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        255,
+        255
+      ],
+      "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 0.00035501757520250976
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 0.0004834587743971497
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0006239658687263727
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.0007178736268542707
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0007804802735336125
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0007975944317877293
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0007962779491208494
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0007245883462019265
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0006614948506467044
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0006615439779125154
+        }
+      ],
+      "seconds": 0.5,
+      "key": "normal-12",
+      "state": "normal",
+      "slot": 12,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-12-manifest.json",
+      "bakeManifestSha256": "92ac35909b01f4f781d695bb9bd1d8e41cf46905ccbb0e5f62f4e2a9eb64de8b"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-12.png",
+      "sourceSha256": "4dd4a1fdf29b1c8680b4b99f298ddc04710c170e2f786897fe35712badabb782",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-12.ktx2",
+      "sha256": "bf8db4ef1ff26bcaa295f41e219efd22c07a7c799a1eaadc2477ac45830b2280",
+      "bytes": 25981,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-12.png",
+        "sha256": "4dd4a1fdf29b1c8680b4b99f298ddc04710c170e2f786897fe35712badabb782",
+        "encoding": "Linear F0 RGB + perceptual roughness alpha"
+      },
+      "kind": "specular",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        74,
+        255
+      ],
+      "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+      "mipStatistics": [
+        {
+          "level": 1,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 3.993094287579879e-05
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 9.273032628698274e-05
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 0.0002112715446855873
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 0.00035086984280496836
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 0.0005751094431616366
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.0008248211815953255
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.0009251728770323098
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.0010689409682527184
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.0008620100561529398
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0006191208958625793
+        }
+      ],
+      "seconds": 0.26,
+      "key": "specular-12",
+      "state": "specular",
+      "slot": 12,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/surface-12-manifest.json",
+      "bakeManifestSha256": "92ac35909b01f4f781d695bb9bd1d8e41cf46905ccbb0e5f62f4e2a9eb64de8b"
+    },
+    {
+      "complete": true,
+      "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-0.png",
+      "sourceSha256": "700da8ce59a86888e3ae515ba9ac1b2b13355811637707f6ddfa509dc2d8245c",
+      "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-0.ktx2",
+      "sha256": "2d47924c4cd93ff4a07c56111d55adcaf486465c32cbdb49334cd6fce2a0df5f",
+      "bytes": 2411086,
+      "codecRevision": "linear-surface-v2-logrgb256",
+      "sourceEncoding": "RGBM32",
+      "encodedSource": {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-0.logrgb.png",
+        "sha256": "732f5789563980d56e8622376f849af26a344d436e0a7cd1547a3a5d07ff327a",
+        "encoding": "LogRGB32 k256 alpha1",
+        "radianceScale": 1.0
+      },
+      "kind": "logrgb32-k256",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "quality": 2,
+      "ktxValidate": "passed",
+      "transferFunction": "linear",
+      "targetType": "RGBA",
+      "premultipliedAlpha": false,
+      "sourceAlphaRange": [
+        1,
+        65
+      ],
+      "mipMethod": "Decode unchanged source RGBM32 to linear radiance; encode level0 and every floating-radiance BOX-filtered mip as LogRGB32 k256 with constant alpha1. Never filter encoded LogRGB values.",
+      "mipStatistics": [
+        {
+          "level": 0,
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "encodingQuantizationMAE": 8.927357703214511e-05,
+          "sceneRadianceQuantizationMAE": 8.927357703214511e-05
+        },
+        {
+          "level": 1,
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "encodingQuantizationMAE": 8.936490485211834e-05,
+          "sceneRadianceQuantizationMAE": 8.936490485211834e-05
+        },
+        {
+          "level": 2,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "encodingQuantizationMAE": 8.975577657110989e-05,
+          "sceneRadianceQuantizationMAE": 8.975577657110989e-05
+        },
+        {
+          "level": 3,
+          "dimensions": [
+            512,
+            512
+          ],
+          "encodingQuantizationMAE": 8.928882743930444e-05,
+          "sceneRadianceQuantizationMAE": 8.928882743930444e-05
+        },
+        {
+          "level": 4,
+          "dimensions": [
+            256,
+            256
+          ],
+          "encodingQuantizationMAE": 8.998363773571327e-05,
+          "sceneRadianceQuantizationMAE": 8.998363773571327e-05
+        },
+        {
+          "level": 5,
+          "dimensions": [
+            128,
+            128
+          ],
+          "encodingQuantizationMAE": 8.81193918758072e-05,
+          "sceneRadianceQuantizationMAE": 8.81193918758072e-05
+        },
+        {
+          "level": 6,
+          "dimensions": [
+            64,
+            64
+          ],
+          "encodingQuantizationMAE": 9.308386506745592e-05,
+          "sceneRadianceQuantizationMAE": 9.308386506745592e-05
+        },
+        {
+          "level": 7,
+          "dimensions": [
+            32,
+            32
+          ],
+          "encodingQuantizationMAE": 9.215188765665516e-05,
+          "sceneRadianceQuantizationMAE": 9.215188765665516e-05
+        },
+        {
+          "level": 8,
+          "dimensions": [
+            16,
+            16
+          ],
+          "encodingQuantizationMAE": 0.00010027302778325975,
+          "sceneRadianceQuantizationMAE": 0.00010027302778325975
+        },
+        {
+          "level": 9,
+          "dimensions": [
+            8,
+            8
+          ],
+          "encodingQuantizationMAE": 0.00010202367411693558,
+          "sceneRadianceQuantizationMAE": 0.00010202367411693558
+        },
+        {
+          "level": 10,
+          "dimensions": [
+            4,
+            4
+          ],
+          "encodingQuantizationMAE": 0.00010227621532976627,
+          "sceneRadianceQuantizationMAE": 0.00010227621532976627
+        },
+        {
+          "level": 11,
+          "dimensions": [
+            2,
+            2
+          ],
+          "encodingQuantizationMAE": 0.00010730484063969925,
+          "sceneRadianceQuantizationMAE": 0.00010730484063969925
+        },
+        {
+          "level": 12,
+          "dimensions": [
+            1,
+            1
+          ],
+          "encodingQuantizationMAE": 0.0001151151955127716,
+          "sceneRadianceQuantizationMAE": 0.0001151151955127716
+        }
+      ],
+      "seconds": 3.55,
+      "radianceScale": 1.0,
+      "radianceOverflow": null,
+      "scalingRevision": "linear-radiance-overflow-v1",
+      "sourceSceneRadiancePeak": 8.092887878417969,
+      "encodedRadiancePeak": 8.092887878417969,
+      "sceneRadianceRange": 32.0,
+      "sceneRadianceReconstruction": "((exp2(encodedRGB * log2(8193)) - 1) / 256) * radianceScale; restore each endpoint before mixing",
+      "key": "day-0",
+      "state": "day",
+      "slot": 0,
+      "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+      "bakeManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-0-manifest.json",
+      "bakeManifestSha256": "15997f93d3a2367df1cd6805e45c5988ad26bfe8ac88e999fcd69e427dbabf44"
+    }
+  ],
+  "surfaceReuse": {
+    "sourceSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79",
+    "preparedSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+    "slots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "proofs": [
+      {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v18-surface-reuse-proof.json",
+        "sha256": "1506cfb956249a2f9b1e9e57217b407be7d45fbab67e8bb98eef7d9aa4fe5c6b"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-surface-reuse-proof.json",
+        "sha256": "98300c8b03086556a180484b9001486b66d3d8b1a4d131544e681379c0c282ae"
+      }
+    ]
+  }
+}

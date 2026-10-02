@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f3eee4" />
+    <meta name="description" content="一间可以探索的创作空间。个人简介与作品资料待补充。" />
+    <title>创作空间 · 个人作品集</title>
+    <link rel="preload" href="/fonts/orbital-forge/atelier-forge-display-ui.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="/media/brand/atelier-orbit-v4.svg" />
+    <link rel="preload" as="image" href="/media/brand/atelier-orbit-v4.svg" />
+    <link rel="stylesheet" href="./src/style.scss" />
+  </head>
+  <body class="night-theme intro-active">
+    <main id="experience" aria-label="可交互的三维房间">
+      <canvas id="experience-canvas" aria-label="拖动旋转房间，滚轮缩放，点击物件探索作品、关于与联系。"></canvas>
+    </main>
+
+    <header class="room-identity preview-ui" inert>
+      <img class="identity-mark atelier-orbit-mark" src="/media/brand/atelier-orbit-v4.svg" width="52" height="52" alt="创作空间轨道星核标志" />
+      <div class="identity-copy" hidden><p class="identity-title"><span class="type-word">创作</span><span class="type-word">空间</span></p><p class="identity-subtitle">个人作品集</p></div>
+    </header>
+
+    <nav class="scene-accessibility preview-ui" aria-label="作品集导航" hidden inert>
+      <button type="button" data-modal="work" data-active="true" aria-haspopup="dialog" aria-current="true" aria-expanded="false"><span class="nav-label">作品</span></button>
+      <button type="button" data-modal="about" data-active="false" aria-haspopup="dialog" aria-expanded="false"><span class="nav-label">关于</span></button>
+      <button type="button" data-modal="contact" data-active="false" aria-haspopup="dialog" aria-expanded="false"><span class="nav-label">联系</span></button>
+    </nav>
+
+    <div class="room-caption preview-ui" hidden inert>
+      <p class="desktop-instructions">拖动旋转<span aria-hidden="true"> · </span>滚轮缩放<span aria-hidden="true"> · </span>点击探索</p>
+      <p class="mobile-instructions">单指旋转<span aria-hidden="true"> · </span>双指缩放<span aria-hidden="true"> · </span>轻触探索</p>
+    </div>
+
+    <div class="scene-controls preview-ui" hidden inert role="group" aria-label="房间控制">
+      <div class="scene-clock" hidden aria-hidden="true" role="timer" aria-live="off" aria-label="场景时间 10:00，日光，自动运行，1 分钟一昼夜" title="场景内时间 · 1 分钟一昼夜">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="12"/><path d="M16 8v8l5 3M16 2v3m0 22v3M2 16h3m22 0h3"/><circle cx="16" cy="16" r="1.2"/></svg>
+        <div class="scene-clock-readout"><div><time data-scene-time datetime="10:00">10:00</time><span data-scene-phase>日光</span></div><span data-scene-period>1 分钟一昼夜</span></div>
+      </div>
+      <button class="control-button control-icon-button mute-toggle-button" type="button" aria-label="开启交互声音" aria-pressed="false" title="交互声音"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m11 5-5 4H3v6h3l5 4V5Z"/><path class="sound-off" d="m16.5 9 4 6m0-6-4 6"/><path class="sound-on" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></svg></button>
+      <button class="control-button control-icon-button" type="button" data-action="reset" aria-label="重置镜头" title="重置镜头"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19.5 8.7a8 8 0 1 0 .5 6.5M20 3.8v5.4h-5.4"/></svg></button>
+    </div>
+
+    <section class="cube-intro" id="intro-screen" data-phase="loading" aria-labelledby="loading-title">
+      <div class="intro-brand"><img class="atelier-orbit-mark" src="/media/brand/atelier-orbit-v4.svg" width="52" height="52" alt="创作空间轨道星核标志" /></div>
+      <div class="intro-loader">
+        <div class="startup-curtain" aria-hidden="true">
+          <div class="startup-architecture"><i></i><i></i><i></i></div>
+          <div class="startup-light-field"><i></i><i></i></div>
+          <div class="startup-chroma"><i></i><i></i><i></i></div>
+          <div class="startup-horizon"></div><div class="startup-orbit-reflection"></div>
+          <div class="startup-grain"></div>
+          <span class="startup-coordinate">创作空间 <b>／</b> 游戏作品集</span>
+          <span class="startup-edge-note">想法，即将展开。</span>
+        </div>
+        <div class="startup-mark" aria-hidden="true">
+          <span class="startup-mark-halo"></span>
+          <span class="startup-lens"><i></i><i></i></span>
+          <svg class="startup-ribbons" viewBox="0 0 400 400" fill="none">
+            <defs>
+              <linearGradient id="startup-ribbon-silver" x1="42" y1="222" x2="320" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#8FAED6" stop-opacity="0"/><stop offset=".28" stop-color="#94C0ED" stop-opacity=".65"/><stop offset=".65" stop-color="#F3FAFF"/><stop offset="1" stop-color="#ABC4E3" stop-opacity="0"/></linearGradient>
+              <linearGradient id="startup-ribbon-warm" x1="348" y1="188" x2="81" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#D4B28F" stop-opacity="0"/><stop offset=".44" stop-color="#F4DFC1" stop-opacity=".88"/><stop offset=".74" stop-color="#A9C5E8" stop-opacity=".54"/><stop offset="1" stop-color="#8FAED6" stop-opacity="0"/></linearGradient>
+            </defs>
+            <g class="startup-ribbon-main"><path d="M42 228C19 136 94 38 203 31C300 24 365 95 374 151C341 85 288 59 222 64C131 70 65 126 60 192C58 206 51 220 42 228Z" fill="url(#startup-ribbon-silver)"/><path d="M44 219C34 126 109 48 201 40C272 34 338 67 365 123" stroke="#DCEFFF" stroke-opacity=".62" stroke-width="2" stroke-linecap="round"/></g>
+            <g class="startup-ribbon-secondary"><path d="M366 166C397 258 323 368 210 374C121 379 63 324 44 269C81 330 152 349 218 332C300 311 350 240 354 191C355 181 360 172 366 166Z" fill="url(#startup-ribbon-warm)"/></g>
+          </svg>
+          <span class="startup-motes"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <svg class="startup-energy" viewBox="0 0 340 340" fill="none">
+            <defs>
+              <linearGradient id="startup-energy-silver" x1="40" y1="45" x2="295" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#9CAFCB"/><stop offset=".48" stop-color="#EDF4FF"/><stop offset="1" stop-color="#D8C4A5"/></linearGradient>
+            </defs>
+            <circle class="startup-energy-track" cx="170" cy="170" r="144" />
+            <circle class="startup-energy-progress" cx="170" cy="170" r="144" pathLength="100" stroke="url(#startup-energy-silver)" />
+            <circle class="startup-energy-guide" cx="170" cy="170" r="155" stroke-dasharray="1 39.6" />
+          </svg>
+          <span class="startup-light-orbit startup-light-orbit-a"><i></i></span>
+          <span class="startup-light-orbit startup-light-orbit-b"><i></i></span>
+          <span class="startup-core-aura"></span>
+          <img class="startup-mark-solid" src="/media/brand/atelier-orbit-v4.svg" width="176" height="176" alt="" />
+          <svg class="startup-mark-trace" viewBox="0 0 96 96" fill="none">
+            <defs><linearGradient id="startup-trace-light" x1="12" y1="12" x2="77" y2="82" gradientUnits="userSpaceOnUse"><stop stop-color="#9FB3D1"/><stop offset=".5" stop-color="#F2F5FC"/><stop offset="1" stop-color="#D7C4A7"/></linearGradient></defs>
+            <g stroke="url(#startup-trace-light)" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+              <path data-loading-trace pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" d="M83 29 77 24V21H72V17H64V14C44 16 21 27 12 44C1 62 10 78 29 80C52 84 77 65 87 42C75 60 48 76 29 75C15 74 10 65 17 53C27 36 51 25 72 27L83 29Z" />
+              <path data-loading-trace pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" d="M49 31C51 42 53 45 63 48C53 51 51 55 49 67C47 55 44 51 35 48C44 45 47 42 49 31Z" />
+              <path data-loading-trace pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" d="M89.3 33A4.3 4.3 0 1 1 80.7 33A4.3 4.3 0 1 1 89.3 33Z" />
+            </g>
+          </svg>
+          <span class="startup-mark-sheen"></span>
+        </div>
+        <div class="intro-loading-panel">
+          <div class="loading-readout">
+            <p class="loading-label">创作空间</p>
+            <span id="loading-percent" aria-hidden="true">0%</span>
+          </div>
+          <div class="loading-meter" role="progressbar" aria-label="创作空间加载进度" aria-describedby="loading-status" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+          <p id="loading-status" class="loading-status" aria-live="polite" aria-atomic="true">正在准备整个空间…</p>
+          <ol class="loading-stages" aria-label="空间准备步骤">
+            <li data-startup-stage="room" data-state="pending">房间</li>
+            <li data-startup-stage="gallery" data-state="pending">长廊</li>
+            <li data-startup-stage="about" data-state="pending">档案</li>
+            <li data-startup-stage="warmup" data-state="pending">呈现</li>
+          </ol>
+          <button class="intro-retry" type="button" hidden>重新载入 <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+      <div class="intro-welcome intro-profile">
+        <h1 id="loading-title" data-intro-welcome aria-label="王丞业"><span class="intro-line">王丞业</span></h1>
+        <p class="intro-profile-direction" data-intro-detail>游戏策划 / AI 游戏运营</p>
+        <p class="intro-profile-education" data-intro-detail>数字媒体艺术 · 2027 届本科</p>
+        <p class="intro-profile-practice" data-intro-detail>玩法设计 · 三维制作 · AI 内容</p>
+      </div>
+      <button class="intro-enter" type="button" aria-label="进入房间，向下探索" disabled>
+        <span class="intro-enter-label"><span class="intro-desktop-hint">向下滚动，展开房间</span><span class="intro-mobile-hint">向上轻扫，展开房间</span></span>
+        <span class="intro-arrow" aria-hidden="true"><svg viewBox="0 0 24 36" fill="none"><path d="M12 3v28M4 23l8 8 8-8"/></svg></span>
+      </button>
+      <button class="intro-skip" type="button" disabled>跳过动画 <span aria-hidden="true">↗</span></button>
+      <div class="intro-identity" hidden>
+        <p class="intro-identity-label">个人作品集</p>
+        <p class="intro-name" data-intro-name>王丞业</p>
+        <p class="intro-role" data-intro-role>数字媒体艺术 · 游戏策划 / AI 游戏运营</p>
+      </div>
+    </section>
+
+    <div class="overlay" hidden></div>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden tabindex="-1">
+      <button class="modal-exit-button" type="button" aria-label="关闭面板"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      <div class="modal-wrapper"><p id="modal-category" class="eyebrow"></p><h2 id="modal-title"></h2><div id="modal-content" class="modal-content"></div></div>
+      <div class="modal-footer"><span>创作空间</span><span class="modal-close-hint-desktop"><kbd>Esc</kbd> 返回房间</span><span class="modal-close-hint-mobile">点击右上角关闭</span></div>
+    </section>
+
+    <noscript><div class="no-script">这个房间需要启用 JavaScript。个人简介、作品与联系方式均待补充。</div></noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

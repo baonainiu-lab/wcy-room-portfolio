@@ -1,0 +1,812 @@
+{
+  "revision": 15,
+  "input": "assets/blender/orbital-dual-bake-v14.blend",
+  "prepared": "assets/blender/orbital-dual-bake-v15.blend",
+  "repackedAtlases": [
+    2,
+    9,
+    10
+  ],
+  "rebakedAtlases": [
+    2,
+    3,
+    4,
+    9,
+    10
+  ],
+  "retainedAtlases": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8
+  ],
+  "atlasSizes": [
+    4096,
+    4096,
+    4096,
+    4096,
+    4096,
+    4096,
+    3072,
+    2048,
+    3072,
+    4096,
+    4096
+  ],
+  "geometryAndHierarchyUnchanged": true,
+  "retainedUVAndShadingUnchanged": true,
+  "assetIds": [
+    "architecture.platform",
+    "main_display",
+    "compute_core",
+    "furniture.desk",
+    "furniture.work_chair",
+    "furniture.lounge",
+    "furniture.coffee_table",
+    "furniture.rug",
+    "robot_companion",
+    "robot_service_hatch",
+    "robot_leg_00",
+    "robot_leg_01",
+    "robot_leg_02",
+    "folding_drawing_terminal",
+    "terminal_tilt",
+    "terminal_panel_L",
+    "terminal_panel_R",
+    "drawing_stylus",
+    "c_archive_dock",
+    "archive_cartridge_00",
+    "archive_cartridge_01",
+    "archive_cartridge_02",
+    "kinetic_three_petal_flower",
+    "flower_petal_0",
+    "flower_petal_1",
+    "flower_petal_2",
+    "headphones_on_stand",
+    "headphone_cup_0",
+    "headphone_cup_1",
+    "ceramic_ring_speaker",
+    "speaker_gimbal",
+    "split_keyboard",
+    "keyboard_half_0",
+    "keyboard_half_1",
+    "keyboard_dial",
+    "desktop_creative_controller",
+    "compact_camera",
+    "camera_focus_lens",
+    "thermal_cup",
+    "table_notebook_group",
+    "notebook",
+    "creative_folio",
+    "coffee_table_pen",
+    "coffee_table_dial",
+    "glass_bonsai_terrarium",
+    "trailing_wall_plant",
+    "studio_reference_books",
+    "creative_book_0",
+    "creative_book_1",
+    "creative_book_2",
+    "titanium_bookend_0",
+    "titanium_bookend_1",
+    "geometric_specimen_cloche",
+    "original_trefoil_geometry",
+    "portable_fold_communicator",
+    "folding_communicator_handset",
+    "communicator_panel_0",
+    "communicator_panel_1",
+    "ceramic_mobius_study",
+    "ceramic_mobius_form",
+    "glass_cutting_planter",
+    "small_planter_leaf_0",
+    "small_planter_leaf_1",
+    "small_planter_leaf_2",
+    "small_planter_leaf_3",
+    "small_planter_leaf_4",
+    "black_ceramic_floor_planter",
+    "floor_vase_leaf_0",
+    "floor_vase_leaf_1",
+    "floor_vase_leaf_2",
+    "floor_vase_leaf_3",
+    "floor_vase_leaf_4",
+    "floor_vase_leaf_5",
+    "floor_vase_leaf_6",
+    "v5_orbital_clock",
+    "v5_clock_dial",
+    "v5_portable_projector",
+    "v5_projector_lens",
+    "v5_magnetic_pen_dock",
+    "v5_magnetic_stylus",
+    "v5_modular_equipment_cases",
+    "v5_upper_equipment_case",
+    "v5_geometric_floor_lamp",
+    "v5_floor_lamp_head",
+    "v5_energy_capsule_rack",
+    "v5_energy_capsule",
+    "v5_mechanical_data_panel",
+    "v5_data_panel_selector",
+    "v5_scout_drone_display",
+    "v5_scout_drone",
+    "environment.orbital_dock",
+    "environment.warm_gallery",
+    "v8_desk_glow_lamp",
+    "v8_window_light_bar",
+    "v8_reading_puck"
+  ],
+  "preservedImageObjects": [
+    "WEB8_room_static__image__A0",
+    "WEB8_main_display__image__A2"
+  ],
+  "atlases": [
+    {
+      "atlas": 2,
+      "size": 4096,
+      "objects": [
+        {
+          "object": "WEB8_main_display__baked__A2",
+          "owner": "main_display",
+          "before": {
+            "worldArea": 11.666034359835237,
+            "uvArea": 0.01385158053880835,
+            "texelsPerMeter": 141.1393094131891,
+            "trianglesBelowOnePixel": 40
+          },
+          "after": {
+            "worldArea": 11.666034359835237,
+            "uvArea": 0.3601558745595843,
+            "texelsPerMeter": 719.6868607124494,
+            "trianglesBelowOnePixel": 40
+          },
+          "linearTexelGain": 5.0991241469486495
+        },
+        {
+          "object": "WEB8_compute_core__baked__A2",
+          "owner": "compute_core",
+          "before": {
+            "worldArea": 4.566297024852748,
+            "uvArea": 0.004946387528955649,
+            "texelsPerMeter": 134.8099471306394,
+            "trianglesBelowOnePixel": 224
+          },
+          "after": {
+            "worldArea": 4.566297024852748,
+            "uvArea": 0.14097152050560144,
+            "texelsPerMeter": 719.6868395959117,
+            "trianglesBelowOnePixel": 40
+          },
+          "linearTexelGain": 5.3385292028821105
+        },
+        {
+          "object": "WEB8_robot_companion__baked__A2",
+          "owner": "robot_companion",
+          "before": {
+            "worldArea": 3.5846098184649264,
+            "uvArea": 0.0027599195759339112,
+            "texelsPerMeter": 113.6546519675375,
+            "trianglesBelowOnePixel": 48
+          },
+          "after": {
+            "worldArea": 3.5846098184649264,
+            "uvArea": 0.08254124078354623,
+            "texelsPerMeter": 621.5477511816323,
+            "trianglesBelowOnePixel": 0
+          },
+          "linearTexelGain": 5.468740086056146
+        },
+        {
+          "object": "WEB8_robot_service_hatch__baked__A2",
+          "owner": "robot_service_hatch",
+          "before": {
+            "worldArea": 0.03176326910956727,
+            "uvArea": 2.6223939675048198e-05,
+            "texelsPerMeter": 117.691831009436,
+            "trianglesBelowOnePixel": 2432
+          },
+          "after": {
+            "worldArea": 0.03176326910956727,
+            "uvArea": 0.0007313974236931031,
+            "texelsPerMeter": 621.5471279840491,
+            "trianglesBelowOnePixel": 2190
+          },
+          "linearTexelGain": 5.281140778022361
+        },
+        {
+          "object": "WEB8_robot_leg_00__baked__A2",
+          "owner": "robot_leg_00",
+          "before": {
+            "worldArea": 0.7716962368323347,
+            "uvArea": 0.0005883563161367266,
+            "texelsPerMeter": 113.09853171233996,
+            "trianglesBelowOnePixel": 470
+          },
+          "after": {
+            "worldArea": 0.7716962368323347,
+            "uvArea": 0.017769514916865858,
+            "texelsPerMeter": 621.5478133601604,
+            "trianglesBelowOnePixel": 0
+          },
+          "linearTexelGain": 5.495631145248056
+        },
+        {
+          "object": "WEB8_robot_leg_01__baked__A2",
+          "owner": "robot_leg_01",
+          "before": {
+            "worldArea": 0.7716696234098765,
+            "uvArea": 0.000584404720930908,
+            "texelsPerMeter": 112.72003200655628,
+            "trianglesBelowOnePixel": 451
+          },
+          "after": {
+            "worldArea": 0.7716696234098765,
+            "uvArea": 0.017768895581899716,
+            "texelsPerMeter": 621.5476993405794,
+            "trianglesBelowOnePixel": 1
+          },
+          "linearTexelGain": 5.514083772655667
+        },
+        {
+          "object": "WEB8_robot_leg_02__baked__A2",
+          "owner": "robot_leg_02",
+          "before": {
+            "worldArea": 0.7634206007081661,
+            "uvArea": 0.0005538223298707801,
+            "texelsPerMeter": 110.3222832711759,
+            "trianglesBelowOnePixel": 464
+          },
+          "after": {
+            "worldArea": 0.7634206007081661,
+            "uvArea": 0.01757895744964349,
+            "texelsPerMeter": 621.5478490797681,
+            "trianglesBelowOnePixel": 0
+          },
+          "linearTexelGain": 5.633928438119636
+        }
+      ],
+      "uvOccupancy": 0.6375174012208341
+    },
+    {
+      "atlas": 9,
+      "size": 4096,
+      "objects": [
+        {
+          "object": "WEB8_drawing_stylus__baked__A2",
+          "owner": "drawing_stylus",
+          "before": {
+            "worldArea": 0.04960202625804703,
+            "uvArea": 5.409719192436824e-05,
+            "texelsPerMeter": 135.2687884330726,
+            "trianglesBelowOnePixel": 2413
+          },
+          "after": {
+            "worldArea": 0.04960202625804703,
+            "uvArea": 0.003215575148498351,
+            "texelsPerMeter": 1042.8925638025978,
+            "trianglesBelowOnePixel": 161
+          },
+          "linearTexelGain": 7.709779734728632
+        },
+        {
+          "object": "WEB8_headphones_on_stand__baked__A2",
+          "owner": "headphones_on_stand",
+          "before": {
+            "worldArea": 0.8982192491188984,
+            "uvArea": 0.0010200754609056338,
+            "texelsPerMeter": 138.03363316387959,
+            "trianglesBelowOnePixel": 697
+          },
+          "after": {
+            "worldArea": 0.8982192491188984,
+            "uvArea": 0.058229347764808675,
+            "texelsPerMeter": 1042.892950415455,
+            "trianglesBelowOnePixel": 96
+          },
+          "linearTexelGain": 7.555353912747386
+        },
+        {
+          "object": "WEB8_headphone_cup_0__baked__A2",
+          "owner": "headphone_cup_0",
+          "before": {
+            "worldArea": 0.4487137071839806,
+            "uvArea": 0.0005010462097649814,
+            "texelsPerMeter": 136.87186039934332,
+            "trianglesBelowOnePixel": 1356
+          },
+          "after": {
+            "worldArea": 0.4487137071839806,
+            "uvArea": 0.029089013902908516,
+            "texelsPerMeter": 1042.8930646307474,
+            "trianglesBelowOnePixel": 265
+          },
+          "linearTexelGain": 7.619484834851788
+        },
+        {
+          "object": "WEB8_headphone_cup_1__baked__A2",
+          "owner": "headphone_cup_1",
+          "before": {
+            "worldArea": 0.4486759760339597,
+            "uvArea": 0.0005006519270634303,
+            "texelsPerMeter": 136.82374897256165,
+            "trianglesBelowOnePixel": 1357
+          },
+          "after": {
+            "worldArea": 0.4486759760339597,
+            "uvArea": 0.029086563476939123,
+            "texelsPerMeter": 1042.8929856130246,
+            "trianglesBelowOnePixel": 264
+          },
+          "linearTexelGain": 7.6221635019090455
+        },
+        {
+          "object": "WEB8_ceramic_ring_speaker__baked__A2",
+          "owner": "ceramic_ring_speaker",
+          "before": {
+            "worldArea": 0.7128383917354284,
+            "uvArea": 0.0008360992430835935,
+            "texelsPerMeter": 140.27921349492885,
+            "trianglesBelowOnePixel": 1002
+          },
+          "after": {
+            "worldArea": 0.7128383917354284,
+            "uvArea": 0.04621155739093352,
+            "texelsPerMeter": 1042.892897248738,
+            "trianglesBelowOnePixel": 96
+          },
+          "linearTexelGain": 7.434407930198718
+        },
+        {
+          "object": "WEB8_speaker_gimbal__baked__A2",
+          "owner": "speaker_gimbal",
+          "before": {
+            "worldArea": 1.1582379648375392,
+            "uvArea": 0.0012656893493762603,
+            "texelsPerMeter": 135.4018545206476,
+            "trianglesBelowOnePixel": 771
+          },
+          "after": {
+            "worldArea": 1.1582379648375392,
+            "uvArea": 0.07508571763668884,
+            "texelsPerMeter": 1042.8929169085911,
+            "trianglesBelowOnePixel": 163
+          },
+          "linearTexelGain": 7.702205561368874
+        },
+        {
+          "object": "WEB8_keyboard_half_0__baked__A2",
+          "owner": "keyboard_half_0",
+          "before": {
+            "worldArea": 0.6773971213381235,
+            "uvArea": 0.0007694166075780732,
+            "texelsPerMeter": 138.04448239618517,
+            "trianglesBelowOnePixel": 1499
+          },
+          "after": {
+            "worldArea": 0.6773971213381235,
+            "uvArea": 0.04391397929279855,
+            "texelsPerMeter": 1042.8928043754308,
+            "trianglesBelowOnePixel": 838
+          },
+          "linearTexelGain": 7.5547590622444964
+        },
+        {
+          "object": "WEB8_keyboard_half_1__baked__A2",
+          "owner": "keyboard_half_1",
+          "before": {
+            "worldArea": 0.6774308514619043,
+            "uvArea": 0.000776087563820763,
+            "texelsPerMeter": 138.6381723314813,
+            "trianglesBelowOnePixel": 1512
+          },
+          "after": {
+            "worldArea": 0.6774308514619043,
+            "uvArea": 0.043916155664101564,
+            "texelsPerMeter": 1042.8926824426885,
+            "trianglesBelowOnePixel": 838
+          },
+          "linearTexelGain": 7.522406454905879
+        },
+        {
+          "object": "WEB8_keyboard_dial__baked__A2",
+          "owner": "keyboard_dial",
+          "before": {
+            "worldArea": 0.11699929731714245,
+            "uvArea": 0.00013330668226534773,
+            "texelsPerMeter": 138.2592768972304,
+            "trianglesBelowOnePixel": 2264
+          },
+          "after": {
+            "worldArea": 0.11699929731714245,
+            "uvArea": 0.007584782116892036,
+            "texelsPerMeter": 1042.8932968359293,
+            "trianglesBelowOnePixel": 352
+          },
+          "linearTexelGain": 7.543025829732374
+        },
+        {
+          "object": "WEB8_desktop_creative_controller__baked__A2",
+          "owner": "desktop_creative_controller",
+          "before": {
+            "worldArea": 0.17810541263951477,
+            "uvArea": 0.00020690318527230578,
+            "texelsPerMeter": 139.60628722384274,
+            "trianglesBelowOnePixel": 2165
+          },
+          "after": {
+            "worldArea": 0.17810541263951477,
+            "uvArea": 0.011546140210553037,
+            "texelsPerMeter": 1042.8931202978754,
+            "trianglesBelowOnePixel": 180
+          },
+          "linearTexelGain": 7.470244650412594
+        },
+        {
+          "object": "WEB8_compact_camera__baked__A2",
+          "owner": "compact_camera",
+          "before": {
+            "worldArea": 0.5742997681071911,
+            "uvArea": 0.0006736475665419184,
+            "texelsPerMeter": 140.28363159273792,
+            "trianglesBelowOnePixel": 2037
+          },
+          "after": {
+            "worldArea": 0.5742997681071911,
+            "uvArea": 0.03723043982715625,
+            "texelsPerMeter": 1042.8929003238109,
+            "trianglesBelowOnePixel": 439
+          },
+          "linearTexelGain": 7.434173812604652
+        },
+        {
+          "object": "WEB8_camera_focus_lens__baked__A2",
+          "owner": "camera_focus_lens",
+          "before": {
+            "worldArea": 0.21284836437420201,
+            "uvArea": 0.0002423679836056284,
+            "texelsPerMeter": 138.21730293449053,
+            "trianglesBelowOnePixel": 1912
+          },
+          "after": {
+            "worldArea": 0.21284836437420201,
+            "uvArea": 0.013798433511834275,
+            "texelsPerMeter": 1042.8928308330383,
+            "trianglesBelowOnePixel": 420
+          },
+          "linearTexelGain": 7.545313131506608
+        },
+        {
+          "object": "WEB8_thermal_cup__baked__A2",
+          "owner": "thermal_cup",
+          "before": {
+            "worldArea": 0.3302126932133404,
+            "uvArea": 0.0003509542963158813,
+            "texelsPerMeter": 133.53292062639778,
+            "trianglesBelowOnePixel": 2061
+          },
+          "after": {
+            "worldArea": 0.3302126932133404,
+            "uvArea": 0.021406875273780518,
+            "texelsPerMeter": 1042.8928876328357,
+            "trianglesBelowOnePixel": 96
+          },
+          "linearTexelGain": 7.810005822838783
+        },
+        {
+          "object": "WEB8_coffee_table_pen__baked__A2",
+          "owner": "coffee_table_pen",
+          "before": {
+            "worldArea": 0.030050073849517616,
+            "uvArea": 2.9626642182000482e-05,
+            "texelsPerMeter": 128.6110821027591,
+            "trianglesBelowOnePixel": 2282
+          },
+          "after": {
+            "worldArea": 0.030050073849517616,
+            "uvArea": 0.0017513544781689247,
+            "texelsPerMeter": 988.835853344325,
+            "trianglesBelowOnePixel": 1640
+          },
+          "linearTexelGain": 7.688574243969536
+        },
+        {
+          "object": "WEB8_coffee_table_dial__baked__A2",
+          "owner": "coffee_table_dial",
+          "before": {
+            "worldArea": 0.17160415267413773,
+            "uvArea": 0.00017156249254446365,
+            "texelsPerMeter": 129.51116946367503,
+            "trianglesBelowOnePixel": 2139
+          },
+          "after": {
+            "worldArea": 0.17160415267413773,
+            "uvArea": 0.009596670810818136,
+            "texelsPerMeter": 968.6265084239054,
+            "trianglesBelowOnePixel": 336
+          },
+          "linearTexelGain": 7.479096300613541
+        }
+      ],
+      "uvOccupancy": 0.4316626065068803
+    },
+    {
+      "atlas": 10,
+      "size": 4096,
+      "objects": [
+        {
+          "object": "WEB8_folding_drawing_terminal__baked__A2",
+          "owner": "folding_drawing_terminal",
+          "before": {
+            "worldArea": 0.84906260899187,
+            "uvArea": 0.0009713782996527143,
+            "texelsPerMeter": 138.54290463875049,
+            "trianglesBelowOnePixel": 475
+          },
+          "after": {
+            "worldArea": 0.84906260899187,
+            "uvArea": 0.011955715764564074,
+            "texelsPerMeter": 486.04656791585626,
+            "trianglesBelowOnePixel": 266
+          },
+          "linearTexelGain": 3.5082747051046663
+        },
+        {
+          "object": "WEB8_terminal_tilt__baked__A2",
+          "owner": "terminal_tilt",
+          "before": {
+            "worldArea": 0.19275330951140607,
+            "uvArea": 0.00021312677325803557,
+            "texelsPerMeter": 136.20028963211274,
+            "trianglesBelowOnePixel": 2133
+          },
+          "after": {
+            "worldArea": 0.19275330951140607,
+            "uvArea": 0.002714177974427079,
+            "texelsPerMeter": 486.04691075653056,
+            "trianglesBelowOnePixel": 1
+          },
+          "linearTexelGain": 3.568618775109656
+        },
+        {
+          "object": "WEB8_terminal_panel_L__baked__A2",
+          "owner": "terminal_panel_L",
+          "before": {
+            "worldArea": 1.7797097179451522,
+            "uvArea": 0.002125595387324231,
+            "texelsPerMeter": 141.5551458284564,
+            "trianglesBelowOnePixel": 9812
+          },
+          "after": {
+            "worldArea": 1.7797097179451522,
+            "uvArea": 0.025060244520205055,
+            "texelsPerMeter": 486.04671711619454,
+            "trianglesBelowOnePixel": 3851
+          },
+          "linearTexelGain": 3.4336209699166305
+        },
+        {
+          "object": "WEB8_terminal_panel_R__baked__A2",
+          "owner": "terminal_panel_R",
+          "before": {
+            "worldArea": 1.779620450711075,
+            "uvArea": 0.002123409645076595,
+            "texelsPerMeter": 141.48589517131984,
+            "trianglesBelowOnePixel": 9812
+          },
+          "after": {
+            "worldArea": 1.779620450711075,
+            "uvArea": 0.02505897494757843,
+            "texelsPerMeter": 486.0465949878332,
+            "trianglesBelowOnePixel": 3867
+          },
+          "linearTexelGain": 3.4353007018777246
+        },
+        {
+          "object": "WEB8_c_archive_dock__baked__A2",
+          "owner": "c_archive_dock",
+          "before": {
+            "worldArea": 2.704256337078555,
+            "uvArea": 0.0031156140613329856,
+            "texelsPerMeter": 139.0297838395487,
+            "trianglesBelowOnePixel": 928
+          },
+          "after": {
+            "worldArea": 2.704256337078555,
+            "uvArea": 0.038078866426032976,
+            "texelsPerMeter": 486.046729933567,
+            "trianglesBelowOnePixel": 529
+          },
+          "linearTexelGain": 3.4959899707137794
+        },
+        {
+          "object": "WEB8_archive_cartridge_00__baked__A2",
+          "owner": "archive_cartridge_00",
+          "before": {
+            "worldArea": 0.6425912844469531,
+            "uvArea": 0.0006573114001624489,
+            "texelsPerMeter": 131.0020569428814,
+            "trianglesBelowOnePixel": 1960
+          },
+          "after": {
+            "worldArea": 0.6425912844469531,
+            "uvArea": 0.009048387929557727,
+            "texelsPerMeter": 486.04685618558784,
+            "trianglesBelowOnePixel": 1149
+          },
+          "linearTexelGain": 3.7102230875467135
+        },
+        {
+          "object": "WEB8_archive_cartridge_01__baked__A2",
+          "owner": "archive_cartridge_01",
+          "before": {
+            "worldArea": 0.6425971397835194,
+            "uvArea": 0.0007395813613558942,
+            "texelsPerMeter": 138.9579929555593,
+            "trianglesBelowOnePixel": 1936
+          },
+          "after": {
+            "worldArea": 0.6425971397835194,
+            "uvArea": 0.009048468266470142,
+            "texelsPerMeter": 486.04679944468614,
+            "trianglesBelowOnePixel": 1151
+          },
+          "linearTexelGain": 3.497796629806899
+        },
+        {
+          "object": "WEB8_archive_cartridge_02__baked__A2",
+          "owner": "archive_cartridge_02",
+          "before": {
+            "worldArea": 0.642598440818122,
+            "uvArea": 0.000633885961899323,
+            "texelsPerMeter": 128.64582049467361,
+            "trianglesBelowOnePixel": 1967
+          },
+          "after": {
+            "worldArea": 0.642598440818122,
+            "uvArea": 0.00904848464991841,
+            "texelsPerMeter": 486.0467474333476,
+            "trianglesBelowOnePixel": 1149
+          },
+          "linearTexelGain": 3.778177523097003
+        },
+        {
+          "object": "WEB8_kinetic_three_petal_flower__baked__A2",
+          "owner": "kinetic_three_petal_flower",
+          "before": {
+            "worldArea": 1.214119944180726,
+            "uvArea": 0.0013309046712438447,
+            "texelsPerMeter": 135.61340674463796,
+            "trianglesBelowOnePixel": 753
+          },
+          "after": {
+            "worldArea": 1.214119944180726,
+            "uvArea": 0.01680009467472139,
+            "texelsPerMeter": 481.8202136983079,
+            "trianglesBelowOnePixel": 577
+          },
+          "linearTexelGain": 3.5528951396787964
+        },
+        {
+          "object": "WEB8_flower_petal_0__baked__A2",
+          "owner": "flower_petal_0",
+          "before": {
+            "worldArea": 0.2776629276873484,
+            "uvArea": 0.00029184810370186387,
+            "texelsPerMeter": 132.79430079747576,
+            "trianglesBelowOnePixel": 1450
+          },
+          "after": {
+            "worldArea": 0.2776629276873484,
+            "uvArea": 0.003842096660581336,
+            "texelsPerMeter": 481.82035366946707,
+            "trianglesBelowOnePixel": 280
+          },
+          "linearTexelGain": 3.6283210256461986
+        },
+        {
+          "object": "WEB8_flower_petal_1__baked__A2",
+          "owner": "flower_petal_1",
+          "before": {
+            "worldArea": 0.27839824581297606,
+            "uvArea": 0.000292399654331003,
+            "texelsPerMeter": 132.74406968734706,
+            "trianglesBelowOnePixel": 1369
+          },
+          "after": {
+            "worldArea": 0.27839824581297606,
+            "uvArea": 0.0038522685564400527,
+            "texelsPerMeter": 481.8201723773477,
+            "trianglesBelowOnePixel": 123
+          },
+          "linearTexelGain": 3.6296926372091933
+        },
+        {
+          "object": "WEB8_flower_petal_2__baked__A2",
+          "owner": "flower_petal_2",
+          "before": {
+            "worldArea": 0.27514894779816007,
+            "uvArea": 0.00028886887100864386,
+            "texelsPerMeter": 132.71694979144434,
+            "trianglesBelowOnePixel": 1374
+          },
+          "after": {
+            "worldArea": 0.27514894779816007,
+            "uvArea": 0.003807308508953111,
+            "texelsPerMeter": 481.8202565229686,
+            "trianglesBelowOnePixel": 121
+          },
+          "linearTexelGain": 3.630434976693756
+        },
+        {
+          "object": "WEB8_creative_folio__baked__A2",
+          "owner": "creative_folio",
+          "before": {
+            "worldArea": 1.7673015592595787,
+            "uvArea": 0.0017945388254399664,
+            "texelsPerMeter": 130.52119672244015,
+            "trianglesBelowOnePixel": 948
+          },
+          "after": {
+            "worldArea": 1.7673015592595787,
+            "uvArea": 0.021154286689445054,
+            "texelsPerMeter": 448.12978522966097,
+            "trianglesBelowOnePixel": 890
+          },
+          "linearTexelGain": 3.4333870396747233
+        },
+        {
+          "object": "WEB8_notebook__baked__A2",
+          "owner": "notebook",
+          "before": {
+            "worldArea": 1.6324510855240864,
+            "uvArea": 0.0016774483454794487,
+            "texelsPerMeter": 131.29991267725268,
+            "trianglesBelowOnePixel": 2156
+          },
+          "after": {
+            "worldArea": 1.6324510855240864,
+            "uvArea": 0.019646943482350132,
+            "texelsPerMeter": 449.35270188186195,
+            "trianglesBelowOnePixel": 1751
+          },
+          "linearTexelGain": 3.422338162451124
+        },
+        {
+          "object": "WEB8_glass_bonsai_terrarium__baked__A2",
+          "owner": "glass_bonsai_terrarium",
+          "before": {
+            "worldArea": 3.1281584272744505,
+            "uvArea": 0.003146747339465866,
+            "texelsPerMeter": 129.91117618694517,
+            "trianglesBelowOnePixel": 8039
+          },
+          "after": {
+            "worldArea": 3.1281584272744505,
+            "uvArea": 0.04254207462424053,
+            "texelsPerMeter": 477.6666389622874,
+            "trianglesBelowOnePixel": 3009
+          },
+          "linearTexelGain": 3.6768710205110766
+        },
+        {
+          "object": "WEB8_trailing_wall_plant__baked__A2",
+          "owner": "trailing_wall_plant",
+          "before": {
+            "worldArea": 2.1253356747189063,
+            "uvArea": 0.0030504754082941237,
+            "texelsPerMeter": 155.17792704914825,
+            "trianglesBelowOnePixel": 4598
+          },
+          "after": {
+            "worldArea": 2.1253356747189063,
+            "uvArea": 0.03889315798656099,
+            "texelsPerMeter": 554.0931558418846,
+            "trianglesBelowOnePixel": 2752
+          },
+          "linearTexelGain": 3.570695693507951
+        }
+      ],
+      "uvOccupancy": 0.2805515516620465
+    }
+  ],
+  "seconds": 18.12121605873108,
+  "sourceSha256": "c27fbb08d5b55a6d32ec681bd97a6ba4b33b8fb301a0aa8325ccfda593255b4d"
+}

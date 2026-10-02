@@ -1,0 +1,50 @@
+// Only theme colours change here. Layout, fonts, the logo and the intro's
+// display:none overlay rule retain their existing ownership.
+@function scene-color($night, $day) {
+  @return color-mix(in srgb, #{$night}, #{$day} var(--scene-day-percent, 100%));
+}
+
+body.scene-time-colors {
+  --ink: #{scene-color(#ece3d5, #33434b)};
+  --muted: #{scene-color(#aaa9a1, #5d6b6f)};
+  --quiet: #{scene-color(#858c8d, #697a7f)};
+  --accent: #{scene-color(#efb564, #a96929)};
+  --accent-ink: #{scene-color(#efb564, #945d25)};
+  --line: #{scene-color(#c4b99e33, #435b6533)};
+  --line-soft: #{scene-color(#c4b99e21, #435b6521)};
+  --panel: #{scene-color(#191f22, #eef0e9)};
+  --panel-top: #{scene-color(#24292b, #f6f5ed)};
+  --control-top: #{scene-color(#363837f2, #f0f0e9f5)};
+  --control-middle: #{scene-color(#202324f5, #e1e5e0f7)};
+  --control-bottom: #{scene-color(#15191af7, #ccd3d0f7)};
+  --control-edge: #{scene-color(#bdb19b61, #4f656a66)};
+  --edge-highlight: #{scene-color(#e1d8c526, #ffffffb3)};
+  --type-face: #{scene-color(#efe2c8, #33434b)};
+  --type-depth: .4px .6px #{scene-color(#b2976f, #aab6b2)},
+    .8px 1.2px #{scene-color(#92764f, #90a09e)},
+    1.2px 1.8px #{scene-color(#755e41, #7c8e8d)},
+    1.6px 2.4px #{scene-color(#5c4934, #657b7c)},
+    2px 3px #{scene-color(#403629, #536b6e)},
+    2.4px 3.6px #{scene-color(#28251f, #40595e)},
+    0 6px 7px #{scene-color(#0009, #263e4826)};
+  --type-depth-small: .35px .5px #{scene-color(#9d815b, #b8c2ba)},
+    .7px 1px #{scene-color(#615039, #8b9d99)},
+    0 3px 4px #{scene-color(#000a, #263e4820)};
+
+  &::before {
+    background: linear-gradient(180deg, scene-color(#0c141bc9, #eef2ecf2), scene-color(#0c141b00, #eef2ec00) 142px),
+      linear-gradient(0deg, scene-color(#0c141b80, #e2e8e4c9), scene-color(#0c141b00, #e2e8e400) 148px);
+  }
+
+  // Equal endpoint styling in the gallery retains the lighter daytime wash.
+  &.in-works-gallery::before {
+    background: linear-gradient(180deg, scene-color(#0c141bc9, #eef2ec52), scene-color(#0c141b00, #eef2ec00) 110px),
+      linear-gradient(0deg, scene-color(#0c141b80, #e2e8e470), scene-color(#0c141b00, #e2e8e400) 110px);
+  }
+}
+
+// The archive uses the same automatic clock and UI palette as both other
+// scenes. Its photographic windows retain a clear, unpainted screen edge.
+body.scene-time-colors.in-about-atelier {
+  &::before { background: none; }
+}

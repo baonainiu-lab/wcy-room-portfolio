@@ -1,0 +1,334 @@
+[
+  {
+    "index": 4,
+    "slug": "tornado",
+    "title": "龙卷风特效",
+    "subtitle": "流体模拟 · 体积烟雾 · 动态渲染",
+    "short": "龙卷风特效",
+    "eyebrow": "04 / VFX STUDY",
+    "description": "从烟尘聚拢到旋涡成形，用一段连续动态展示龙卷风的体积、层次与运动。",
+    "cover": "/media/works/tornado/poster.webp",
+    "coverAlt": "原始特效视频中的龙卷风烟雾旋涡",
+    "tags": [
+      "Maya",
+      "Arnold",
+      "流体模拟"
+    ],
+    "items": [
+      {
+        "id": "tornado-fluid-study",
+        "title": "龙卷风 · 流体与烟雾",
+        "kicker": "VOLUME IN MOTION",
+        "description": "通过旋涡轮廓、烟雾翻卷和底部扬尘表现龙卷风的体积感。动态视频展示从较低的烟尘形态逐渐发展为上宽下窄的涡柱，深浅变化帮助观察流体内部层次。下面的静帧均直接取自同一段原始演示，可对照运动中的不同阶段。",
+        "tools": [
+          "Maya",
+          "Arnold"
+        ],
+        "image": "/media/works/tornado/poster.webp",
+        "imageAlt": "形成后的龙卷风涡柱与底部扬尘",
+        "video": "/media/works/tornado/demo.mp4",
+        "gallery": [
+          {
+            "src": "/media/works/tornado/formation.webp",
+            "alt": "视频 1.8 秒处的烟尘聚拢形态",
+            "caption": "01 · 烟尘聚拢｜原片 1.8 秒"
+          },
+          {
+            "src": "/media/works/tornado/vortex.webp",
+            "alt": "视频 3.2 秒处向上发展的旋涡",
+            "caption": "02 · 涡柱发展｜原片 3.2 秒"
+          }
+        ],
+        "facts": [
+          {
+            "label": "表现方向",
+            "value": "流体 / 体积烟雾"
+          },
+          {
+            "label": "视频时长",
+            "value": "约 6.7 秒"
+          },
+          {
+            "label": "原始规格",
+            "value": "960 × 540 · 30 fps"
+          }
+        ],
+        "note": "视频保留原始画面质量，仅调整为适合网页起播的封装；不将低分辨率素材放大后标注为高清重制。"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "slug": "ai-products",
+    "title": "AI 产品与软件实践",
+    "subtitle": "六个独立项目 · 从需求到可交互原型",
+    "short": "AI 产品实践",
+    "eyebrow": "05 / AI PRODUCT LAB",
+    "description": "集中展示电商经营、内容运营、智能体观测、海报生成、旅行规划和漫剧工作流六个软件项目。以真实界面和已有项目资料说明需求拆解、操作流程与本地交付，体现在 Codex 辅助下的产品实践。",
+    "cover": "/media/works/ai-products/ecommerce-assistant/dashboard-20261002.webp",
+    "coverAlt": "电商经营助手 2026 年 9 月 26 日蓝色工作区改版，2026 年 10 月 2 日实际运行截图",
+    "tags": [
+      "AI 辅助开发",
+      "产品设计",
+      "交互原型",
+      "本地应用"
+    ],
+    "items": [
+      {
+        "id": "ecommerce-assistant",
+        "title": "电商经营助手",
+        "kicker": "LOCAL ASSISTANT × DECISION WORKSPACE",
+        "description": "新版工作区以蓝色与深蓝建立清晰的操作层级，导航把经营分析、经营洞察与决策执行组织成 13 个模块。驾驶舱连接异常和证据，智能客服可围绕商品、利润、库存、广告与项目流程进行有依据的问答，支持流式输出与中止。经营问题还可进入决策案件，整理方案版本、审批、执行任务和观察结果；活动模拟继续对照利润、预算与库存风险，形成从提问到人工判断的操作链。",
+        "tools": [
+          "Next.js",
+          "TypeScript",
+          "FastAPI",
+          "SQLAlchemy",
+          "Ollama / Qwen3:8b",
+          "Carbon / Motion"
+        ],
+        "image": "/media/works/ai-products/ecommerce-assistant/dashboard-20261002.webp",
+        "imageAlt": "最新电商经营助手蓝色驾驶舱实际截图，包含经营指标、趋势与优先异常",
+        "gallery": [
+          {
+            "src": "/media/works/ai-products/ecommerce-assistant/assistant-20261002.webp",
+            "alt": "最新电商经营助手智能客服真实界面，包含对话区、常用问题与知识范围",
+            "caption": "智能客服｜项目知识与经营数据问答，支持流式回答与中止"
+          },
+          {
+            "src": "/media/works/ai-products/ecommerce-assistant/campaigns-20261002.webp",
+            "alt": "最新电商经营助手活动模拟真实界面，展示活动假设与风险边界",
+            "caption": "活动模拟｜新版工作区中的经营决策流程与利润风险比较"
+          }
+        ],
+        "facts": [
+          {
+            "label": "版本迭代",
+            "value": "2026.09 · 驾驶舱、导航与智能客服改版"
+          },
+          {
+            "label": "功能组织",
+            "value": "13 个模块 / 3 组工作区导航"
+          },
+          {
+            "label": "新增重点",
+            "value": "本地智能客服、流式回答与决策案件"
+          },
+          {
+            "label": "操作闭环",
+            "value": "证据 → 模拟 → 审核 → 案件任务 → 观察结果"
+          }
+        ],
+        "note": "本地可交互演示项目，经营数据全部为合成数据。图中的收入和预测不是实际商家成果；系统不连接真实店铺、不自动发布或执行真实经营动作。智能客服提供有依据的建议，最终决策由人完成。"
+      },
+      {
+        "id": "lumiere",
+        "title": "Lumière · 美妆内容与商品运营",
+        "kicker": "PRODUCT FACTS → CONTENT",
+        "description": "围绕美妆品牌的日常内容运营，将商品与 SKU 事实、素材、渠道内容版本、审批和一致性检查组织在同一个工作台。商品查询与版本记录提供信息依据，内容看板跟踪制作及审核状态，检查页核对价格、规格、色号与授权信息，并记录问题处理过程。它与电商经营助手是两个独立项目。",
+        "tools": [
+          "JavaScript",
+          "HTML / CSS",
+          "Node.js",
+          "本地 JSON 持久化"
+        ],
+        "image": "/media/works/ai-products/lumiere/overview.webp",
+        "imageAlt": "Lumière 实际商品运营界面与商品事实入口",
+        "gallery": [
+          {
+            "src": "/media/works/ai-products/lumiere/content.webp",
+            "alt": "Lumière 内容工作台按制作审核阶段排列的内容卡片",
+            "caption": "内容工作台｜内容版本与审核状态"
+          },
+          {
+            "src": "/media/works/ai-products/lumiere/checks.webp",
+            "alt": "Lumière 一致性检查页面中的问题与处理入口",
+            "caption": "一致性检查｜让内容回到商品事实"
+          }
+        ],
+        "facts": [
+          {
+            "label": "内容链路",
+            "value": "商品 → 素材 → 内容 → 审核 → 检查 → 分析"
+          },
+          {
+            "label": "数据处理",
+            "value": "CSV 导入导出、版本记录、本地素材上传"
+          },
+          {
+            "label": "交付形态",
+            "value": "独立可交互的本地演示原型"
+          }
+        ],
+        "note": "运营指标使用演示数据；没有真实渠道发布或生产级账号权限。当前展示已实现的商品与内容管理流程，不将规划中的模型能力当作已完成。界面内美妆陈列图为生成式示意图，不代表真实商品摄影。"
+      },
+      {
+        "id": "lingji",
+        "title": "灵迹 · 智能体运行观测",
+        "kicker": "TRACE → DIAGNOSE",
+        "description": "记录已接入智能体的执行步骤、工具调用与截图证据，让失败过程可以回看、比较和解释。用户从运行列表进入问题记录，在诊断页查看具体步骤和判断依据，并与成功运行建立对照。重点是把根因和证据连接起来，而不是只生成一句无法验证的错误解释。",
+        "tools": [
+          "FastAPI",
+          "SQLite",
+          "Next.js",
+          "Electron",
+          "Python SDK",
+          "Playwright"
+        ],
+        "image": "/media/works/ai-products/lingji/cover.webp",
+        "imageAlt": "灵迹实际界面中的本地智能体运行记录列表",
+        "gallery": [
+          {
+            "src": "/media/works/ai-products/lingji/diagnosis.webp",
+            "alt": "灵迹根因诊断与步骤证据面板",
+            "caption": "失败诊断｜根因关联具体步骤与证据"
+          },
+          {
+            "src": "/media/works/ai-products/lingji/comparison.webp",
+            "alt": "灵迹对比两次运行记录的界面",
+            "caption": "基准对照｜比较失败与成功运行"
+          }
+        ],
+        "facts": [
+          {
+            "label": "记录对象",
+            "value": "执行事件、步骤与浏览器证据"
+          },
+          {
+            "label": "组织方式",
+            "value": "本地 SQLite + 内容寻址存储"
+          },
+          {
+            "label": "交付能力",
+            "value": "Windows 本地 App / ZIP 记录迁移"
+          }
+        ],
+        "note": "仅分析已接入记录器的可见执行过程，不声称读取模型的隐藏思考。截图中的成功率仅是该组本地演示运行统计，不是产品可靠性承诺。"
+      },
+      {
+        "id": "folioflow-studio",
+        "title": "FolioFlow Studio · 本地 AI 海报",
+        "kicker": "BRIEF → EDITABLE POSTER",
+        "description": "从一句自然中文传播需求出发，生成可比较的种草封面、清单攻略与氛围大片方向，再进入真实文字层编辑。标题、正文与行动信息可以继续修改，主视觉生成和文字排版分开处理，避免把所有内容固化为一张不可编辑图片。模型在 Windows 本机运行，并提供多种社交尺寸与导出格式。",
+        "tools": [
+          "Python",
+          "CUDA",
+          "本地 AI 推理",
+          "LCM DreamShaper",
+          "Helsinki-NLP"
+        ],
+        "image": "/media/works/ai-products/folioflow-v2/product-input.webp",
+        "imageAlt": "FolioFlow Studio 实际中文需求输入界面",
+        "gallery": [
+          {
+            "src": "/media/works/ai-products/folioflow-v2/editor.webp",
+            "alt": "FolioFlow Studio 海报与真实文字层编辑界面",
+            "caption": "真实文字层｜生成后继续控制文案与排版"
+          },
+          {
+            "src": "/media/works/ai-products/folioflow-v2/direction-list.webp",
+            "alt": "FolioFlow Studio 的清单攻略海报方向界面",
+            "caption": "多种方向｜用不同信息结构比较方案"
+          }
+        ],
+        "facts": [
+          {
+            "label": "首轮输出",
+            "value": "3 种传播方向"
+          },
+          {
+            "label": "排版控制",
+            "value": "12 套排版系统 / 4 种社交尺寸"
+          },
+          {
+            "label": "导出格式",
+            "value": "PNG / JPG / PDF"
+          }
+        ],
+        "note": "使用本地模型的桌面项目；生成效果和速度随设备、模型及输入变化。此处仅展示最新软件版本，旧版工作台不重复列为新项目。"
+      },
+      {
+        "id": "wander-journal",
+        "title": "漫游手帐 · AI 旅行规划",
+        "kicker": "PREFERENCES → ROUTE OPTIONS",
+        "description": "输入目的地、日期和旅行节奏后，先获得三套不同倾向的路线，再通过地点顺序和地图预览决定是否采用。加入行程时保留已有手动安排，并避免重复地点；每日计划、预算与行李清单继续留在同一旅程中，形成从推荐到实际整理的完整操作流程。",
+        "tools": [
+          "AI 路线规划",
+          "本地数据",
+          "JSON 导入导出",
+          "Windows 桌面端"
+        ],
+        "image": "/media/works/ai-products/wander-journal-v2/overview.webp",
+        "imageAlt": "漫游手帐实际旅程总览界面",
+        "gallery": [
+          {
+            "src": "/media/works/ai-products/wander-journal-v2/route-options.webp",
+            "alt": "漫游手帐根据偏好选择 AI 路线的实际界面",
+            "caption": "比较方案｜不同旅行节奏对应不同路线"
+          },
+          {
+            "src": "/media/works/ai-products/wander-journal-v2/route-preview.webp",
+            "alt": "漫游手帐路线详情及地图预览弹窗",
+            "caption": "先预览再采用｜保留已有安排"
+          }
+        ],
+        "facts": [
+          {
+            "label": "推荐方向",
+            "value": "经典到访 / 轻松漫步 / 本地生活"
+          },
+          {
+            "label": "工作空间",
+            "value": "行程、地图、预算与打包清单"
+          },
+          {
+            "label": "数据方式",
+            "value": "本地优先 / 无账号 / JSON 备份"
+          }
+        ],
+        "note": "展示已有本地应用的操作流程；路线示例不作为实时营业、价格或交通信息保证。旧版与 V2 合并为同一个项目。"
+      },
+      {
+        "id": "manga-director",
+        "title": "漫剧导演工作台",
+        "kicker": "NOVEL → REVIEWABLE WORKFLOW",
+        "description": "把小说导入、角色资料、改编设计、分集剧本、分镜和生成任务组织在可拖拽的自由画布中。十个连接节点对应从故事结构到交付的制作阶段，关键节点保留人工审核；小说、提示词、项目状态和媒体保存在本地目录，完成后通过 FFmpeg 进行视频合成与导出。",
+        "tools": [
+          "本地 App",
+          "节点工作流",
+          "FFmpeg",
+          "人工审核"
+        ],
+        "image": "/media/works/ai-products/manga-director/workflow.webp",
+        "imageAlt": "漫剧导演原项目资料页展示十节点制作画布",
+        "gallery": [
+          {
+            "src": "/media/works/ai-products/manga-director/cover.webp",
+            "alt": "漫剧导演原项目介绍页及小说到漫剧的流程说明",
+            "caption": "原项目介绍｜从小说进入制作流程"
+          },
+          {
+            "src": "/media/works/ai-products/manga-director/local-app.webp",
+            "alt": "漫剧导演原项目本地交付说明页",
+            "caption": "本地交付｜项目资料、工作流与导出"
+          }
+        ],
+        "facts": [
+          {
+            "label": "工作流",
+            "value": "10 个连接式制作节点"
+          },
+          {
+            "label": "审核阶段",
+            "value": "结构 → 导演控制 → 生成执行 → 交付"
+          },
+          {
+            "label": "资产组织",
+            "value": "本地小说、分镜、提示词与媒体"
+          }
+        ],
+        "note": "图像、视频与配音模型接口可按预算逐步接入；不把预留接口说成已生成完整商用成片。图片来自原项目介绍资料，概念插画不作为真实功能截图。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "modelUrl": "/models/orbital-atelier-v15-compressed.glb",
+  "controls": "src/utils/OrbitControls.js (real instance, null DOM)",
+  "fps": 120,
+  "checks": 6,
+  "parameters": {
+    "minDistance": 5,
+    "maxDistance": 45,
+    "dampingFactor": 0.05,
+    "polar": [
+      0,
+      1.5707963267948966
+    ],
+    "azimuth": [
+      0,
+      1.5707963267948966
+    ],
+    "minPan": [
+      -3,
+      -1,
+      -4
+    ],
+    "maxPan": [
+      2,
+      8,
+      8
+    ]
+  },
+  "results": [
+    {
+      "check": "rear wall: damped pan at minimum target X",
+      "status": "passed",
+      "frames": 980,
+      "sourceSamples": 980,
+      "correctedFrames": 313,
+      "contacts": [
+        "WEB8_room_static__baked__A8"
+      ],
+      "finalCamera": [
+        2.000000000000002,
+        4.50000000000002,
+        -2.979845217530201
+      ],
+      "finalTarget": [
+        -2.999999999999998,
+        4.50000000000002,
+        -2.9798452175302015
+      ],
+      "finalDistance": 5,
+      "minimumClearance": 0.1538695763452496,
+      "lateCorrections": 0,
+      "lateTriangleTests": 0,
+      "lateNodeTests": 0,
+      "maxStepAfterSettling": 0,
+      "maxReleaseAdvance": 0,
+      "maxTargetOutsideAfterSettling": 0,
+      "loopMedianMs": 0.013958000000002357,
+      "loopP95Ms": 0.1730839999999887
+    },
+    {
+      "check": "window frame: repeated pan into narrow frame",
+      "status": "passed",
+      "frames": 950,
+      "sourceSamples": 950,
+      "correctedFrames": 256,
+      "contacts": [
+        "WEB8_room_static__baked__A8"
+      ],
+      "finalCamera": [
+        3.0211028876185244,
+        3.0000000000000004,
+        -2.916607305801911
+      ],
+      "finalTarget": [
+        -1.9788971123814754,
+        3,
+        -2.9166073058019113
+      ],
+      "finalDistance": 5,
+      "minimumClearance": 0.15387711398383197,
+      "lateCorrections": 0,
+      "lateTriangleTests": 0,
+      "lateNodeTests": 0,
+      "maxStepAfterSettling": 0,
+      "maxReleaseAdvance": 0,
+      "maxTargetOutsideAfterSettling": 0,
+      "loopMedianMs": 0.013750000000015916,
+      "loopP95Ms": 0.10520800000000463
+    },
+    {
+      "check": "chair: dolly from the minimum pan corner",
+      "status": "passed",
+      "frames": 980,
+      "sourceSamples": 980,
+      "correctedFrames": 168,
+      "contacts": [
+        "WEB8_furniture.work_chair__baked__A1"
+      ],
+      "finalCamera": [
+        -1.3666338605392199,
+        1.552134592907469,
+        0.18550073236824893
+      ],
+      "finalTarget": [
+        -3,
+        -1,
+        -4
+      ],
+      "finalDistance": 5.167174499328151,
+      "minimumClearance": 0.15413234730539954,
+      "lateCorrections": 0,
+      "lateTriangleTests": 0,
+      "lateNodeTests": 0,
+      "maxStepAfterSettling": 0,
+      "maxReleaseAdvance": 0,
+      "maxTargetOutsideAfterSettling": 0,
+      "loopMedianMs": 0.01375000000007276,
+      "loopP95Ms": 1.4035420000000158
+    },
+    {
+      "check": "chair: oblique dolly and pan-clamp contact",
+      "status": "passed",
+      "frames": 980,
+      "sourceSamples": 980,
+      "correctedFrames": 6,
+      "contacts": [
+        "WEB8_furniture.work_chair__baked__A1"
+      ],
+      "finalCamera": [
+        -1.1676201831157607,
+        1.8286837738333879,
+        0.4223787712925273
+      ],
+      "finalTarget": [
+        -2.974193616940571,
+        -0.8811763769038278,
+        -3.3714254397395744
+      ],
+      "finalDistance": 5,
+      "minimumClearance": 0.15436160250800773,
+      "lateCorrections": 0,
+      "lateTriangleTests": 0,
+      "lateNodeTests": 0,
+      "maxStepAfterSettling": 0,
+      "maxReleaseAdvance": 0,
+      "maxTargetOutsideAfterSettling": 0,
+      "loopMedianMs": 0.013041999999927611,
+      "loopP95Ms": 0.02333299999997962
+    },
+    {
+      "check": "chair side: pan into chair while dolly reaches minimum distance",
+      "status": "passed",
+      "frames": 940,
+      "sourceSamples": 940,
+      "correctedFrames": 278,
+      "contacts": [
+        "WEB8_furniture.work_chair__baked__A1"
+      ],
+      "finalCamera": [
+        -1.0283659798557032,
+        1.3669318620492823,
+        -0.02355447175720471
+      ],
+      "finalTarget": [
+        -2.9219963018788624,
+        -0.9999999999999997,
+        -3.9999999999999987
+      ],
+      "finalDistance": 5.000032127411956,
+      "minimumClearance": 0.15387387516473783,
+      "lateCorrections": 0,
+      "lateTriangleTests": 0,
+      "lateNodeTests": 0,
+      "maxStepAfterSettling": 0,
+      "maxReleaseAdvance": 0,
+      "maxTargetOutsideAfterSettling": 0,
+      "loopMedianMs": 0.013374999999996362,
+      "loopP95Ms": 0.18716600000004746
+    },
+    {
+      "check": "normal close-up: full distance-5 view stays available",
+      "status": "passed",
+      "frames": 950,
+      "sourceSamples": 950,
+      "correctedFrames": 0,
+      "contacts": [],
+      "finalCamera": [
+        1.5000000000000016,
+        2.5000000000000004,
+        1.3322676295501878e-15
+      ],
+      "finalTarget": [
+        -1.5000000000000002,
+        0.5,
+        -3.464101615137755
+      ],
+      "finalDistance": 5.000000000000002,
+      "minimumClearance": null,
+      "lateCorrections": 0,
+      "lateTriangleTests": 0,
+      "lateNodeTests": 0,
+      "maxStepAfterSettling": 0,
+      "maxReleaseAdvance": 0,
+      "maxTargetOutsideAfterSettling": 0,
+      "loopMedianMs": 0.012875000000121872,
+      "loopP95Ms": 0.020541000000093845
+    }
+  ]
+}

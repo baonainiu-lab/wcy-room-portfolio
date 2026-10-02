@@ -1,0 +1,106 @@
+{
+  "complete": true,
+  "meshCount": 27,
+  "triangles": 26868,
+  "nodes": 31,
+  "exactExpandedPositionsNormalsUV0WindingMaterialAssignments": true,
+  "exactHierarchyTransformsAndComponentIDs": true,
+  "exactNativeAnimationSamples": true,
+  "addedSurfaceUVForPBR": true,
+  "bodyMaterialsWithThreeUV1Maps": [
+    "TERMINAL_DeepBlue_Enamel",
+    "TERMINAL_SatinTitanium",
+    "TERMINAL_DarkRubber",
+    "TERMINAL_WarmTrace",
+    "TERMINAL_IvoryCeramic",
+    "TERMINAL_Vermilion"
+  ],
+  "actualPNGPaletteSamples": {
+    "TERMINAL_DeepBlue_Enamel": {
+      "uvAreaWeightedBakedSRGB8": [
+        34.99978325703149,
+        77.28453276618183,
+        109.99119723809912
+      ],
+      "originalSRGB8": [
+        35.999999569453834,
+        78.99999958311209,
+        111.99999838817037
+      ]
+    },
+    "TERMINAL_SatinTitanium": {
+      "uvAreaWeightedBakedSRGB8": [
+        177.01282891722255,
+        192.89183198788956,
+        203.78405060252086
+      ],
+      "originalSRGB8": [
+        180.00000189322577,
+        196.00000455798084,
+        206.9999976548183
+      ]
+    },
+    "TERMINAL_DarkRubber": {
+      "uvAreaWeightedBakedSRGB8": [
+        14.991343026069133,
+        25.98499457851983,
+        36.978017599506586
+      ],
+      "originalSRGB8": [
+        15.999999561395859,
+        26.999999521047542,
+        38.00000040900238
+      ]
+    },
+    "TERMINAL_WarmTrace": {
+      "uvAreaWeightedBakedSRGB8": [
+        235.22593529496154,
+        170.0639502110787,
+        87.1436117351573
+      ],
+      "originalSRGB8": [
+        238.99999991207298,
+        172.99999892412362,
+        88.99999892614244
+      ]
+    },
+    "TERMINAL_IvoryCeramic": {
+      "uvAreaWeightedBakedSRGB8": [
+        223.65940233771468,
+        215.80487600366817,
+        195.27262228822366
+      ],
+      "originalSRGB8": [
+        229.0000017516781,
+        220.9999993716984,
+        200.0000017810825
+      ]
+    },
+    "TERMINAL_Vermilion": {
+      "uvAreaWeightedBakedSRGB8": [
+        241.26997080346777,
+        125.73247927661032,
+        52.746036735730726
+      ],
+      "originalSRGB8": [
+        244.99999781284134,
+        128.00000022420693,
+        53.99999874056291
+      ]
+    }
+  },
+  "dialCeramicUVAreaCoverage": 1.0,
+  "screenArtworkByteIdentical": true,
+  "v2SourceBlendUnchanged": true,
+  "raw": {
+    "path": "public/models/welcome-terminal-v3.glb",
+    "sha256": "e811f7dc9217255e9dc85877d35a3b30339284352888102c03c2db3d29a2255d",
+    "bytes": 44158812
+  },
+  "runtime": {
+    "path": "public/models/welcome-terminal-v3-compressed.glb",
+    "sha256": "d0d5398e18e4315fa31b1c6653bd915d84c9ddcb91076403a22f61c066f1ee5c",
+    "bytes": 9317240
+  },
+  "scope": "CPU data audit; real Blender bakes executed through file-targeted MCP. Website GPU appearance requires browser validation."
+}

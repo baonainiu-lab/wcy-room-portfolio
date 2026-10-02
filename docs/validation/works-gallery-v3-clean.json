@@ -1,0 +1,414 @@
+{
+  "revision": "clean-gallery-3",
+  "checkedAt": "2026-09-24T17:08:30.211Z",
+  "runtime": "v24.19.0",
+  "methodology": "Read production entry and actual GLB JSON/BIN geometry with real Three.js matrix transforms. Validate physical deletion against the prior V2 GLB, primitive/index counts, real bounding boxes, and embedded/external KTX2 headers. No browser, GPU render or performance claims.",
+  "model": {
+    "url": "/models/works-gallery-v3-compressed.glb",
+    "sha256": "186fff1b46292fc17628062124aa43e7f3d691921ccfef9e8cd2bc436ad3ee67",
+    "bytes": 28314580
+  },
+  "sourceSha256": {
+    "src/works-gallery.js": "5b54df89614f70aba827e505fbd512b9fdf8eafa4922cdf7c6fa89720df944d1",
+    "src/gallery-transition.js": "19a046f870ea1532688232dbde8bb97cd6bc4d2d1604b510f682cd42e7a51cde",
+    "src/gallery-transition-path.js": "054ba1e480e4bb1a72f942dc189abbafaf9fbe976f411259ce3d4ca445e3800c",
+    "src/main.js": "a1d5d8e71d5193886b26e69931af3de1969d97386640aaba3c2cc94aa0f104b5"
+  },
+  "assetIds": [
+    "gallery.album.01",
+    "gallery.album.02",
+    "gallery.album.03",
+    "gallery.architecture",
+    "gallery.architecture.glazing",
+    "gallery.architecture.portal",
+    "gallery.archive.cart",
+    "gallery.archive.drawer.01",
+    "gallery.archive.drawer.02",
+    "gallery.archive.wheel.00",
+    "gallery.archive.wheel.01",
+    "gallery.archive.wheel.10",
+    "gallery.archive.wheel.11",
+    "gallery.bench",
+    "gallery.cup",
+    "gallery.environment.terrace",
+    "gallery.lamp.base",
+    "gallery.lamp.head",
+    "gallery.lantern.01",
+    "gallery.lantern.02",
+    "gallery.library.01",
+    "gallery.library.02",
+    "gallery.library.03",
+    "gallery.library.04",
+    "gallery.library.05",
+    "gallery.planter.floor.01",
+    "gallery.planter.floor.02",
+    "gallery.planter.floor.03",
+    "gallery.planter.floor.04",
+    "gallery.planter.table",
+    "gallery.sculpture.ring",
+    "gallery.table.main",
+    "gallery.tool.caliper",
+    "gallery.tool.measure_disc",
+    "gallery.tool.pencil",
+    "gallery.work.01",
+    "gallery.work.01.art",
+    "gallery.work.01.console",
+    "gallery.work.01.label",
+    "gallery.work.01.maquette",
+    "gallery.work.02",
+    "gallery.work.02.geometry",
+    "gallery.work.02.geometry.folded_form",
+    "gallery.work.02.geometry.sphere",
+    "gallery.work.02.label",
+    "gallery.work.02.vitrine",
+    "gallery.work.02.vitrine.glass.face.-1",
+    "gallery.work.02.vitrine.glass.face.1",
+    "gallery.work.02.vitrine.glass.roof",
+    "gallery.work.02.vitrine.glass.side.-1",
+    "gallery.work.02.vitrine.glass.side.1",
+    "gallery.work.03",
+    "gallery.work.03.art",
+    "gallery.work.03.console",
+    "gallery.work.03.label",
+    "gallery.work.03.maquette",
+    "gallery.work.04",
+    "gallery.work.04.label",
+    "gallery.work.04.sculpture",
+    "gallery.work.04.sculpture.model",
+    "gallery.work.04.sculpture.model.champagne_ribbon",
+    "gallery.work.04.sculpture.model.silver_ribbon",
+    "gallery.work.05",
+    "gallery.work.05.geometry",
+    "gallery.work.05.geometry.faceted_core",
+    "gallery.work.05.label",
+    "gallery.work.05.vitrine",
+    "gallery.work.05.vitrine.glass.face.-1",
+    "gallery.work.05.vitrine.glass.face.1",
+    "gallery.work.05.vitrine.glass.roof",
+    "gallery.work.05.vitrine.glass.side.-1",
+    "gallery.work.05.vitrine.glass.side.1",
+    "gallery.work.06",
+    "gallery.work.06.art",
+    "gallery.work.06.console",
+    "gallery.work.06.label",
+    "gallery.work.06.maquette"
+  ],
+  "checks": 6,
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "check": "production entry selects clean V3 model, 77 IDs and four day/night atlas slots",
+      "status": "passed",
+      "modelUrl": "/models/works-gallery-v3-compressed.glb",
+      "lightingRevision": "gallery-3",
+      "atlasSlots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "check": "actual GLB contains 77 unique IDs, 80 primitives and 560890 triangles",
+      "status": "passed",
+      "uniqueAssetIds": 77,
+      "meshDefinitions": 80,
+      "primitives": 80,
+      "triangles": 560890,
+      "bytes": 28314580
+    },
+    {
+      "check": "city, foundation and all eight outer plants are physically deleted from the GLB",
+      "status": "passed",
+      "comparedTo": "/models/works-gallery-v2-compressed.glb",
+      "removedAssetIds": [
+        "gallery.environment.city",
+        "gallery.environment.foundation",
+        "gallery.environment.plant.00",
+        "gallery.environment.plant.01",
+        "gallery.environment.plant.02",
+        "gallery.environment.plant.03",
+        "gallery.environment.plant.04",
+        "gallery.environment.plant.05",
+        "gallery.environment.plant.06",
+        "gallery.environment.plant.07"
+      ],
+      "addedAssetIds": [],
+      "retainedEnvironmentIds": [
+        "gallery.environment.terrace"
+      ],
+      "physicalDeletion": true
+    },
+    {
+      "check": "six stations and the complete return portal retain real geometry",
+      "status": "passed",
+      "stations": {
+        "gallery.work.01": {
+          "min": [
+            -5.639999866485596,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            -3.9600000381469727,
+            3.450000047683716,
+            -1.5679999589920044
+          ],
+          "primitives": 5
+        },
+        "gallery.work.02": {
+          "min": [
+            -3.5399999618530273,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            -1.8600000143051147,
+            3.450000047683716,
+            -0.9334606074685841
+          ],
+          "primitives": 11
+        },
+        "gallery.work.03": {
+          "min": [
+            -1.440000057220459,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            0.23999999463558197,
+            3.450000047683716,
+            -1.5679999589920044
+          ],
+          "primitives": 5
+        },
+        "gallery.work.04": {
+          "min": [
+            0.6600000262260437,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            2.3399999141693115,
+            3.450000047683716,
+            -0.753000020980835
+          ],
+          "primitives": 5
+        },
+        "gallery.work.05": {
+          "min": [
+            2.759999990463257,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            4.440000057220459,
+            3.450000047683716,
+            -0.9334606074685841
+          ],
+          "primitives": 10
+        },
+        "gallery.work.06": {
+          "min": [
+            4.860000133514404,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            6.539999961853027,
+            3.450000047683716,
+            -1.5679999589920044
+          ],
+          "primitives": 5
+        }
+      },
+      "returnPortal": {
+        "assetId": "gallery.architecture.portal",
+        "min": [
+          -9.289999961853027,
+          -0.025676578283309937,
+          -2.319999933242798
+        ],
+        "max": [
+          -6.850000381469727,
+          4.985676288604736,
+          2.379999876022339
+        ],
+        "primitives": 1
+      }
+    },
+    {
+      "check": "four embedded atlas images and eight external lighting textures use current dimensions",
+      "status": "passed",
+      "embedded": [
+        {
+          "slot": 0,
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 4441384,
+          "sha256": "a652398855a547a1df330fec7e76beac105fea6f7750b3c2403a65bc27ee0d2b"
+        },
+        {
+          "slot": 1,
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 6585667,
+          "sha256": "8ac931ed1e2202ad2839a921cb9d4a3b8b8881ac6e19573dfac5768db9b03a09"
+        },
+        {
+          "slot": 2,
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 5677568,
+          "sha256": "bfb0c9536f449cdeb201cb5cb9c12fdf9b65f75eb3f73176b2f608349a563f8c"
+        },
+        {
+          "slot": 3,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "bytes": 147056,
+          "sha256": "39f69e2494418ba7cf89a614adcafe090a69bdd30e97580beb1d9eef70cae760"
+        }
+      ],
+      "external": [
+        {
+          "path": "public/textures/works-gallery-v3/day-0.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 4963550,
+          "sha256": "75dcf2f0e4a5321725795bd297e75b0fdcdbf88e93c75ed1e83a07c3494d3ef2"
+        },
+        {
+          "path": "public/textures/works-gallery-v3/day-1.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 6453006,
+          "sha256": "b4c1d1c8312079262a8dd7f089e0f98ffd31090cf9243b49e33dbb02445d88e7"
+        },
+        {
+          "path": "public/textures/works-gallery-v3/day-2.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 5800352,
+          "sha256": "9c02d00bb48782173f8dd5c4322a86633656dcb37500ce3e7208bc03e438c273"
+        },
+        {
+          "path": "public/textures/works-gallery-v3/day-3.ktx2",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "bytes": 177723,
+          "sha256": "91c13cdb1fcdbd8f7ad663b83b8134727bf17e8798a4a95c91d7393e13b7c490"
+        },
+        {
+          "path": "public/textures/works-gallery-v3/night-0.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 4441384,
+          "sha256": "a652398855a547a1df330fec7e76beac105fea6f7750b3c2403a65bc27ee0d2b"
+        },
+        {
+          "path": "public/textures/works-gallery-v3/night-1.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 6585667,
+          "sha256": "8ac931ed1e2202ad2839a921cb9d4a3b8b8881ac6e19573dfac5768db9b03a09"
+        },
+        {
+          "path": "public/textures/works-gallery-v3/night-2.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "bytes": 5677568,
+          "sha256": "bfb0c9536f449cdeb201cb5cb9c12fdf9b65f75eb3f73176b2f608349a563f8c"
+        },
+        {
+          "path": "public/textures/works-gallery-v3/night-3.ktx2",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "bytes": 147056,
+          "sha256": "39f69e2494418ba7cf89a614adcafe090a69bdd30e97580beb1d9eef70cae760"
+        }
+      ],
+      "materialSlots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "check": "thin terrace clears native and shared ground and stays apart from the room exterior",
+      "status": "passed",
+      "nativeFloorY": -0.88,
+      "terrace": {
+        "min": [
+          -11.104989051818848,
+          -0.8550000190734863,
+          -8.100000381469727
+        ],
+        "max": [
+          11.104989051818848,
+          1.0123358964920044,
+          6.099999904632568
+        ]
+      },
+      "stageOffset": [
+        34,
+        -0.185,
+        1.5
+      ],
+      "stageTerrace": {
+        "min": [
+          22.895010948181152,
+          -1.0400000190734864,
+          -6.600000381469727
+        ],
+        "max": [
+          45.10498905181885,
+          0.8273358964920043,
+          7.599999904632568
+        ]
+      },
+      "roomModelUrl": "/models/orbital-atelier-v15-compressed.glb",
+      "roomExterior": {
+        "min": [
+          -18.887821197509766,
+          -1.0400002002716064,
+          -20.09987449645996
+        ],
+        "max": [
+          19.221725463867188,
+          8.069999694824219,
+          8.27500057220459
+        ]
+      },
+      "roomGroundY": -1.0650002002716064,
+      "groundClearance": 0.025000181198119975,
+      "horizontalClearance": 3.673285484313965
+    }
+  ]
+}

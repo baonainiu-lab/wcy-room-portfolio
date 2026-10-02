@@ -1,0 +1,286 @@
+{
+  "ok": true,
+  "testedAt": "2026-09-30T04:30:08.350Z",
+  "scope": "Node EventTarget gestures and actual V16 GLB positions/indices/hierarchy with GSAP. Native click wiring inspected statically. Browser rendering, resizing, touch synthesis, focus and visual quality are separate checks.",
+  "sourceSha256": {
+    "src/intro-input.js": "cc8148b1e99cb508a19b936c2d8630052affd8e8457dead3b004ce896ed930cc",
+    "src/room-entry.js": "6cc32b6cf33e4182c94179b4db511eb554f05ebf5134a53bc83b3161eae39c66",
+    "src/cube-intro.js": "aa1d942edab50a238f8531e1852b1e2ab47e00bcb8c2861b5090f6891b583420",
+    "public/models/orbital-atelier-v16-compressed.glb": "9d2144ddd879128b666db9a6294c5419e5c183b2cc006b59b262c70abee9a25e"
+  },
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "check": "first downward wheel enters once; repeated momentum and reverse wheel stay locked",
+      "status": "passed"
+    },
+    {
+      "check": "single-finger up swipe enters once; downward swipe and cancelled touches do not",
+      "status": "passed"
+    },
+    {
+      "check": "multi-touch gestures never trigger entry, including browser touch + pointer event streams",
+      "status": "passed"
+    },
+    {
+      "check": "compact mouse/pen swipe respects vertical intent and pointer cancellation",
+      "status": "passed"
+    },
+    {
+      "check": "keyboard entry is one-shot; Escape remains available during playback",
+      "status": "passed"
+    },
+    {
+      "check": "native button Space stays available; click/keyboard share a guarded controller entry",
+      "status": "passed",
+      "note": "Native-button key default and input handler executed; controller click wiring/phase gate inspected statically. Actual browser click checked separately."
+    },
+    {
+      "check": "cleanup is idempotent and releases all wheel, keyboard, touch and pointer locks",
+      "status": "passed"
+    },
+    {
+      "check": "actual V16 room remains visible while every prop assembles and 95 independent components restore",
+      "status": "passed",
+      "modelUrl": "/models/orbital-atelier-v16-compressed.glb",
+      "roots": 37,
+      "independentlyIdentifiedComponents": 95,
+      "animatedPropRoots": 36,
+      "frameOnlyRoots": [
+        "architecture.platform"
+      ],
+      "groups": [
+        {
+          "name": "wall",
+          "count": 7,
+          "revealed": 7
+        },
+        {
+          "name": "furniture",
+          "count": 6,
+          "revealed": 6
+        },
+        {
+          "name": "desktop",
+          "count": 9,
+          "revealed": 9
+        },
+        {
+          "name": "equipment",
+          "count": 13,
+          "revealed": 13
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "revealed": 1
+        }
+      ],
+      "meshes": 102,
+      "triangles": 413855,
+      "duration": 4.282,
+      "transformedParent": false,
+      "interrupted": false,
+      "oldDeskPosition": [
+        -0.2872920036315918,
+        -0.025199994444847107,
+        -1.9106240272521973
+      ]
+    },
+    {
+      "check": "nonuniform transformed parent/room/desk preserve floor anchor, nested children and final original pose",
+      "status": "passed",
+      "modelUrl": "/models/orbital-atelier-v16-compressed.glb",
+      "roots": 37,
+      "independentlyIdentifiedComponents": 95,
+      "animatedPropRoots": 36,
+      "frameOnlyRoots": [
+        "architecture.platform"
+      ],
+      "groups": [
+        {
+          "name": "wall",
+          "count": 7,
+          "revealed": 7
+        },
+        {
+          "name": "furniture",
+          "count": 6,
+          "revealed": 6
+        },
+        {
+          "name": "desktop",
+          "count": 9,
+          "revealed": 9
+        },
+        {
+          "name": "equipment",
+          "count": 13,
+          "revealed": 13
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "revealed": 1
+        }
+      ],
+      "meshes": 102,
+      "triangles": 413855,
+      "duration": 4.218,
+      "transformedParent": true,
+      "interrupted": false,
+      "oldDeskPosition": [
+        -0.2872920036315918,
+        -0.025199994444847107,
+        -1.9106240272521973
+      ]
+    },
+    {
+      "check": "mid-assembly skip recovery restores actual room and desk offset; later updates cannot re-hide it",
+      "status": "passed",
+      "modelUrl": "/models/orbital-atelier-v16-compressed.glb",
+      "roots": 37,
+      "independentlyIdentifiedComponents": 95,
+      "animatedPropRoots": 36,
+      "frameOnlyRoots": [
+        "architecture.platform"
+      ],
+      "groups": [
+        {
+          "name": "wall",
+          "count": 7,
+          "revealed": 7
+        },
+        {
+          "name": "furniture",
+          "count": 6,
+          "revealed": 6
+        },
+        {
+          "name": "desktop",
+          "count": 9,
+          "revealed": 9
+        },
+        {
+          "name": "equipment",
+          "count": 13,
+          "revealed": 13
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "revealed": 1
+        }
+      ],
+      "meshes": 102,
+      "triangles": 413855,
+      "duration": 4.218,
+      "transformedParent": true,
+      "interrupted": true,
+      "oldDeskPosition": [
+        -0.2872920036315918,
+        -0.025199994444847107,
+        -1.9106240272521973
+      ]
+    },
+    {
+      "check": "all 36 prop roots have explicit individual motion, actual separate timelines and authored offsets",
+      "status": "passed",
+      "independentPropTimelines": 36,
+      "uniqueStartTimes": 35,
+      "gestures": [
+        "slide-left",
+        "bloom",
+        "drift",
+        "unfurl",
+        "turn",
+        "panel",
+        "spread",
+        "settle",
+        "rise",
+        "hop",
+        "dock",
+        "spin",
+        "spring",
+        "flip",
+        "chair"
+      ]
+    },
+    {
+      "check": "large desk animates slower than the cup; rotations and suspended arrivals remain readable",
+      "status": "passed",
+      "deskSeconds": 1.1229645,
+      "cupSeconds": 0.84,
+      "expressiveAssets": [
+        "ceramic_mobius_study",
+        "geometric_specimen_cloche"
+      ],
+      "actualDurations": [
+        1.08,
+        1.05
+      ]
+    },
+    {
+      "check": "distinct unfolding, settling, sliding and rotation trajectories survive safe spatial constraints",
+      "status": "passed",
+      "comparedAssets": [
+        "furniture.desk",
+        "furniture.rug",
+        "split_keyboard",
+        "thermal_cup",
+        "trailing_wall_plant",
+        "main_display",
+        "ceramic_mobius_study",
+        "studio_reference_books"
+      ],
+      "deskScaleRatios": [
+        0.06066938904526989,
+        0.007583475930041929,
+        0.025956606749470226
+      ],
+      "cupScaleRatios": [
+        0.033485402556792394,
+        0.033485402556792394,
+        0.033485402556792394
+      ],
+      "plantScaleRatios": [
+        0.0009162574588909133,
+        0.12486124420937743,
+        0.004963207460567444
+      ],
+      "anchorTolerance": 1e-8,
+      "finalRestoreChecked": true
+    },
+    {
+      "check": "preparation only epsilon-hides props; root layout, architecture, positions and rotations stay intact",
+      "status": "passed",
+      "architectureRemainsVisible": true,
+      "initialPropScaleMultiplier": 0.00001
+    },
+    {
+      "check": "fold parent and global layout remain externally owned during prop animation and restore",
+      "status": "passed",
+      "externalOwnersPreserved": [
+        "room layout",
+        "fold.left_wall"
+      ],
+      "prop": "c_archive_dock",
+      "parentPreserved": true
+    },
+    {
+      "check": "new reveal schedule overlaps groups, remains monotonic and eases in/out without scale overshoot",
+      "status": "passed",
+      "groupOffsets": [
+        1.3,
+        1.6,
+        2,
+        2.1,
+        2.65
+      ],
+      "durationAfterStructureStart": 4.281662222410411,
+      "maximumScale": 1,
+      "chairTurns": 0.45
+    }
+  ]
+}

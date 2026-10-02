@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-01T03:18:37.109989+00:00",
+  "complete": true,
+  "logo": "public/media/brand/atelier-orbit-v4.svg",
+  "concept": "assets/brand/concepts-v4/C.png",
+  "userApprovedDirection": true,
+  "method": "Actual localhost main page in Codex in-app browser; inline screenshots, DOM accessibility and read-only production diagnostics. Intentional failRoom/failStartup flags distinguished from actual loading errors.",
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "checks": [
+    {
+      "check": "desktop, portrait and short landscape logo/background/error layout",
+      "passed": true,
+      "details": "Logo, status and retry fit with no clipping; tested on explicit failRoom path, not a real resource failure."
+    },
+    {
+      "check": "reduced motion decorative effects",
+      "passed": true,
+      "details": "Explicit motion=reduce: browser computed halo, sheen, orbit carrier animationName=none and trace transitionDuration=0s."
+    },
+    {
+      "check": "production controller / real weighted progress CPU regression",
+      "passed": true,
+      "count": 9,
+      "details": "Actual source callbacks, real GSAP and Three hierarchy; layout/image decode are explicit test substitutes."
+    },
+    {
+      "check": "mobile and desktop successful real loading and welcome",
+      "passed": true,
+      "details": "Observed real 45% room stage with luminous orbit tracing, then all four stages ready at 100%, loader hidden and terminal welcome visible; logo fits at 52px desktop / 44px mobile."
+    },
+    {
+      "check": "desktop repeated wheel entry",
+      "passed": true,
+      "details": "Two initial downward scrolls produced startCount=1 and completeCount=1; controls restored, errors=[]."
+    },
+    {
+      "check": "mobile keyboard entry and resize during room opening",
+      "passed": true,
+      "details": "Return from 390x844 welcome, changed to1280x720 during opening, completed exactly once with controls restored and errors=[]."
+    },
+    {
+      "check": "failure / retry",
+      "passed": true,
+      "details": "Intentional failStartup=gallery stayed60%, ready=false, entered=false; retry removed the failure flag and returned to100% ready terminal welcome with errors=[]."
+    },
+    {
+      "check": "night logo legibility and continuous clock blend",
+      "passed": true,
+      "details": "Actual night screenshot shows light-on-dark silhouette; mid-transition computed overlay opacity .249031 at dayMix .61590037. No discrete day/night icon toggle."
+    }
+  ],
+  "pending": [],
+  "sourceSha256": {
+    "public/media/brand/atelier-orbit-v4.svg": "0989bda2aceedf8b40dbdc71799de7a60130e2199236fc9c5478bb60c3655e72",
+    "index.html": "4d83ef03f48ead23365f4ce34d4f3e7b5b4a0a7761476cd81bdecbbea494b42c",
+    "src/cube-intro.scss": "e4746955ffb28c3218ad28aaa1f0a06f6000d8b89f3b930bb076f16083461d86",
+    "src/cube-intro.js": "d5fb8f118d1eb50773714e04874b38d5570b66bdef6fb8e2135d70316555877b",
+    "src/minimal-scene-ui.scss": "5a0092b494b775aeac2ab02c693b4356809d90dc7e2654d06157a9b934422d82",
+    "scripts/check-startup-loader-c.mjs": "c939c11f1682e8531a1ef98a59da86bef78a4a14c52034e19730ca92b577614f"
+  },
+  "materialRelease": "room19-gallery5-terminal3",
+  "limitations": [
+    "CPU tests use explicit layout and texture-decode substitutes; browser checks are separately recorded.",
+    "Mobile viewport and keyboard were tested; physical touch hardware was not exercised.",
+    "No frame-rate guarantee or new user visual approval is implied."
+  ],
+  "build": {
+    "passed": true,
+    "modules": 62,
+    "existingWarning": "Main JS chunk exceeds500kB"
+  }
+}

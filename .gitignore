@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local generated output, dependencies and workstation tools.
+/output/
+/renders/
+/tmp/
+/tools/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.blend[0-9]
+
+# Keep authored scripts, manifests, provenance and current editable scenes.
+# Historical binary experiments remain local; every public web asset is kept.
+/assets/**/*
+!/assets/**/
+!/assets/**/*.py
+!/assets/**/*.js
+!/assets/**/*.mjs
+!/assets/**/*.json
+!/assets/**/*.md
+!/assets/**/*.txt
+!/assets/**/LICENSE*
+!/assets/**/OFL*
+!/assets/blender/orbital-atelier-v20.blend
+!/assets/blender/orbital-dual-bake-v20.blend
+!/assets/blender/works-gallery-v5.blend
+!/assets/blender/works-gallery-bake-v5.blend
+!/assets/blender/welcome-terminal-v3-material-source.blend
+!/assets/blender/welcome-terminal-v3.blend
+!/assets/blender/about-atelier-v3.blend
+!/assets/blender/about-atelier-v3-web.blend
+!/assets/blender/about-atelier-v3-night-bake.blend
+!/assets/blender/about-atelier-v3-architecture-v2.blend
+!/assets/blender/about-atelier-v3-architecture-night-bake.blend
+!/assets/blender/gallery-atmosphere-v2.blend
+!/assets/blender/gallery-atmosphere-sky-v1.blend
+/assets/font-candidates/v4/*-upstream/

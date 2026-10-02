@@ -1,0 +1,41 @@
+{
+  "revision": 15,
+  "nativeRender": true,
+  "resampling": false,
+  "visualReview": "All three actual renders viewed; original city and sculpture framing retained, no missing or corrupted regions observed.",
+  "textures": [
+    {
+      "path": "public/textures/lighting-v15/window-day.png",
+      "resolution": [
+        3072,
+        1344
+      ],
+      "bytes": 3740026,
+      "sha256": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968",
+      "pngCrcChunksValidated": 472,
+      "manifest": "window-v15-manifest.json"
+    },
+    {
+      "path": "public/textures/lighting-v15/window-night.png",
+      "resolution": [
+        3072,
+        1344
+      ],
+      "bytes": 3678209,
+      "sha256": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf",
+      "pngCrcChunksValidated": 465,
+      "manifest": "window-v15-manifest.json"
+    },
+    {
+      "path": "public/textures/lighting-v15/screen-art-render.png",
+      "resolution": [
+        2880,
+        1200
+      ],
+      "bytes": 4040686,
+      "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+      "pngCrcChunksValidated": 513,
+      "manifest": "screen-v15-manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-30",
+  "page": "http://127.0.0.1:5173/material-review/?physicalPreview",
+  "viewport": [
+    1280,
+    720
+  ],
+  "physicalSurface": {
+    "encoding": "logrgb",
+    "radianceRange": 32,
+    "logGain": 256,
+    "dataTextures": 8,
+    "reflectionProbes": 2,
+    "glassMeshes": 15,
+    "additionalScenePassesPerFrame": 0
+  },
+  "assets": 77,
+  "drawCalls": 82,
+  "renderedTriangles": 544818,
+  "shaderErrors": [],
+  "visualChecks": [
+    "daylight full model",
+    "night full model",
+    "50 percent day/night blend",
+    "closer table leather and metal view",
+    "previous black compression blocks absent"
+  ],
+  "performanceClaim": "No stable 120 FPS guarantee; concurrent offline bake workload and user tabs present.",
+  "gpuTextureFormat": 37808,
+  "gpuTextureFormatName": "COMPRESSED_RGBA_ASTC_4x4_KHR"
+}

@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "passed": 5,
+  "total": 5,
+  "checks": [
+    {
+      "name": "runtime requests the three released V16 receiver maps from the same prepared source",
+      "passed": true
+    },
+    {
+      "name": "UV-based clean color composes after the existing dual-lighting hook",
+      "passed": true
+    },
+    {
+      "name": "skip restores exact day/night hooks without disposing persistent maps",
+      "passed": true
+    },
+    {
+      "name": "partial loading failure disposes clean maps and leaves all materials unchanged",
+      "passed": true
+    },
+    {
+      "name": "partial shader installation failure rolls back earlier hooks and textures",
+      "passed": true
+    }
+  ],
+  "limitations": "Lifecycle and shader-composition checks; actual baked pixels and GPU render are checked separately."
+}

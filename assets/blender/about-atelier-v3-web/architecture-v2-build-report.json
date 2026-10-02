@@ -1,0 +1,467 @@
+{
+  "complete": true,
+  "original": "assets/blender/about-atelier-v3.blend",
+  "originalSha256": "d7a9ec353e8214201c586e823283259c64f63a99f8284913d8aff94c691a2b40",
+  "originalUnchanged": true,
+  "derivative": "assets/blender/about-atelier-v3-architecture-v2.blend",
+  "derivativeSha256": "6b77e0c118cc248616bee6e80779ab13000a59eadfbea0714b344dc66f936e33",
+  "mainGeometryHierarchyTransformsSignatureBefore": "79c1bf7a01f6e41e0e36342865db66d7932dcb261e775b7573a488802e9b8046",
+  "mainGeometryHierarchyTransformsSignatureAfter": "79c1bf7a01f6e41e0e36342865db66d7932dcb261e775b7573a488802e9b8046",
+  "mainObjects": 1748,
+  "mainAssetCount": 128,
+  "mainAssetIdsUnchanged": true,
+  "architectureSourceNodes": 98,
+  "architectureRoles": {
+    "glazing": 8,
+    "floor": 20,
+    "vertical": 23,
+    "rail": 4,
+    "deck_slab": 1,
+    "deck_coping": 4,
+    "deck_underside": 1,
+    "deck_inlay": 4,
+    "base": 3,
+    "joint": 6,
+    "cap": 3,
+    "header": 2,
+    "sill": 2,
+    "soffit": 2,
+    "inlay": 4,
+    "linear_light": 7,
+    "floor_inlay": 4
+  },
+  "glassPanes": 8,
+  "maxStructureHeight": 5.62999963760376,
+  "originalMainMaxHeight": 4.146907329559326,
+  "removedDecorCount": 144,
+  "removedDecorNodes": [
+    "context.bench.fabric",
+    "context.bench.leg",
+    "context.bench.leg.001",
+    "context.bench.wood",
+    "context.plant.left",
+    "context.plant.left.leaves",
+    "context.plant.left.pot",
+    "context.plant.left.soil",
+    "context.plant.left.stem.00",
+    "context.plant.left.stem.01",
+    "context.plant.left.stem.02",
+    "context.plant.left.stem.03",
+    "context.plant.left.stem.04",
+    "context.plant.left.stem.05",
+    "context.plant.left.stem.06",
+    "context.plant.left.stem.07",
+    "context.plant.left.stem.08",
+    "context.plant.left.stem.09",
+    "context.plant.left.stem.10",
+    "context.plant.left.stem.11",
+    "context.plant.left.stem.12",
+    "context.plant.right",
+    "context.plant.right.leaves",
+    "context.plant.right.pot",
+    "context.plant.right.soil",
+    "context.plant.right.stem.00",
+    "context.plant.right.stem.01",
+    "context.plant.right.stem.02",
+    "context.plant.right.stem.03",
+    "context.plant.right.stem.04",
+    "context.plant.right.stem.05",
+    "context.plant.right.stem.06",
+    "context.plant.right.stem.07",
+    "context.plant.right.stem.08",
+    "context.plant.right.stem.09",
+    "context.plant.right.stem.10",
+    "context.plant.right.stem.11",
+    "context.plant.right.stem.12",
+    "context.rug.front.left",
+    "context.rug.right",
+    "rug.fringe",
+    "rug.fringe.001",
+    "rug.fringe.002",
+    "rug.fringe.003",
+    "rug.fringe.004",
+    "rug.fringe.005",
+    "rug.fringe.006",
+    "rug.fringe.007",
+    "rug.fringe.008",
+    "rug.fringe.009",
+    "rug.fringe.010",
+    "rug.fringe.011",
+    "rug.fringe.012",
+    "rug.fringe.013",
+    "rug.fringe.014",
+    "rug.fringe.015",
+    "rug.fringe.016",
+    "rug.fringe.017",
+    "rug.fringe.018",
+    "rug.fringe.019",
+    "rug.fringe.020",
+    "rug.fringe.021",
+    "rug.fringe.022",
+    "rug.fringe.023",
+    "rug.fringe.024",
+    "rug.fringe.025",
+    "rug.fringe.026",
+    "rug.fringe.027",
+    "rug.fringe.028",
+    "rug.fringe.029",
+    "rug.fringe.030",
+    "rug.fringe.031",
+    "rug.fringe.032",
+    "rug.fringe.033",
+    "rug.fringe.034",
+    "rug.fringe.035",
+    "rug.fringe.036",
+    "rug.fringe.037",
+    "rug.fringe.038",
+    "rug.fringe.039",
+    "rug.fringe.040",
+    "rug.fringe.041",
+    "rug.fringe.042",
+    "rug.fringe.043",
+    "rug.fringe.044",
+    "rug.fringe.045",
+    "rug.fringe.046",
+    "rug.fringe.047",
+    "rug.fringe.048",
+    "rug.fringe.049",
+    "rug.fringe.050",
+    "rug.fringe.051",
+    "rug.fringe.052",
+    "rug.fringe.053",
+    "rug.fringe.054",
+    "rug.fringe.055",
+    "rug.fringe.056",
+    "rug.fringe.057",
+    "rug.fringe.058",
+    "rug.fringe.059",
+    "rug.fringe.060",
+    "rug.fringe.061",
+    "rug.fringe.062",
+    "rug.fringe.063",
+    "rug.fringe.064",
+    "rug.fringe.065",
+    "rug.fringe.066",
+    "rug.fringe.067",
+    "rug.fringe.068",
+    "rug.fringe.069",
+    "rug.fringe.070",
+    "rug.fringe.071",
+    "rug.fringe.072",
+    "rug.fringe.073",
+    "rug.fringe.074",
+    "rug.fringe.075",
+    "rug.fringe.076",
+    "rug.fringe.077",
+    "rug.fringe.078",
+    "rug.fringe.079",
+    "rug.fringe.080",
+    "rug.fringe.081",
+    "rug.fringe.082",
+    "rug.fringe.083",
+    "rug.fringe.084",
+    "rug.fringe.085",
+    "rug.fringe.086",
+    "rug.fringe.087",
+    "rug.fringe.088",
+    "rug.fringe.089",
+    "rug.fringe.090",
+    "rug.fringe.091",
+    "rug.fringe.092",
+    "rug.fringe.093",
+    "rug.fringe.094",
+    "rug.fringe.095",
+    "rug.fringe.096",
+    "rug.fringe.097",
+    "rug.fringe.098",
+    "rug.fringe.099",
+    "rug.fringe.100",
+    "rug.fringe.101",
+    "rug.fringe.102",
+    "rug.fringe.103"
+  ],
+  "floorTilesRetainedAndCropped": [
+    "context.limestone.tile.023",
+    "context.limestone.tile.013",
+    "context.limestone.tile.009",
+    "context.limestone.tile.016",
+    "context.limestone.tile.006",
+    "context.limestone.tile.008",
+    "context.limestone.tile.014",
+    "context.limestone.tile.022",
+    "context.limestone.tile.021",
+    "context.limestone.tile.004",
+    "context.limestone.tile.007",
+    "context.limestone.tile.020",
+    "context.limestone.tile.017",
+    "context.limestone.tile.019",
+    "context.limestone.tile.005",
+    "context.limestone.tile.012",
+    "context.limestone.tile.018",
+    "context.limestone.tile.015",
+    "context.limestone.tile.010",
+    "context.limestone.tile.011"
+  ],
+  "oversizedFloorTilesRemoved": [
+    "context.limestone.tile.003",
+    "context.limestone.tile.001",
+    "context.limestone.tile.027",
+    "context.limestone.tile.002",
+    "context.limestone.tile.026",
+    "context.limestone.tile.025",
+    "context.limestone.tile",
+    "context.limestone.tile.024"
+  ],
+  "deckEnvelopeBlender": {
+    "min": [
+      -5.89,
+      -5.98,
+      -0.47
+    ],
+    "max": [
+      7.42,
+      5.38,
+      0.003
+    ]
+  },
+  "deckSurfaceToUndersideThicknessMetres": 0.466,
+  "deckHasClosedStructuralBoxAndRecessedUnderside": true,
+  "verticalConnections": [
+    {
+      "vertical": "context.side.mullion.001",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.mullion.002",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.mullion",
+      "bottomConnections": [
+        "context.window.horizontal",
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.001",
+        "context.arch.back.header.stone",
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.pier",
+      "bottomConnections": [
+        "context.arch.column.base.context.window.pier",
+        "context.arch.side.sill.stone"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier",
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.mullion.004",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.002",
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.side.mullion.002",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.pier.001",
+      "bottomConnections": [
+        "context.arch.column.base.context.window.pier.001",
+        "context.arch.back.sill.stone",
+        "context.arch.side.sill.stone"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.001",
+        "context.arch.back.header.stone",
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.mullion.003",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.mullion.001",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.side.mullion",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier",
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.side.mullion.004",
+      "bottomConnections": [
+        "context.window.horizontal",
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.001",
+        "context.arch.back.header.stone",
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.side.mullion.003",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.window.pier.002",
+      "bottomConnections": [
+        "context.arch.column.base.context.window.pier.002",
+        "context.arch.back.sill.stone"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.002",
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.back.mullion.pressure.cap.context.window.mullion",
+      "bottomConnections": [
+        "context.window.horizontal",
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.001",
+        "context.arch.back.header.stone",
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.back.mullion.pressure.cap.context.window.mullion.001",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.back.mullion.pressure.cap.context.window.mullion.002",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.back.mullion.pressure.cap.context.window.mullion.003",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.back.mullion.pressure.cap.context.window.mullion.004",
+      "bottomConnections": [
+        "context.window.horizontal"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.002",
+        "context.arch.back.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.side.mullion.pressure.cap.context.side.mullion",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier",
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.side.mullion.pressure.cap.context.side.mullion.001",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.side.mullion.pressure.cap.context.side.mullion.002",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.side.mullion.pressure.cap.context.side.mullion.003",
+      "bottomConnections": [
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.side.header.stone"
+      ]
+    },
+    {
+      "vertical": "context.arch.side.mullion.pressure.cap.context.side.mullion.004",
+      "bottomConnections": [
+        "context.window.horizontal",
+        "context.arch.side.continuous.rail.bottom"
+      ],
+      "topConnections": [
+        "context.arch.column.cap.context.window.pier.001",
+        "context.arch.back.header.stone",
+        "context.arch.side.header.stone"
+      ]
+    }
+  ],
+  "headerCornerConnected": true,
+  "sillCornerConnected": true,
+  "frontAndRightCameraAccessOpen": true,
+  "newThirdPartyTextures": [],
+  "design": "5.63m continuous L header, capped supports, full bottom rails, eight refitted panes, inset warm linear soffit lamps; 13.31 x 11.36m cropped stone deck with thick fascia, coping and recessed closed underside; front/right open"
+}

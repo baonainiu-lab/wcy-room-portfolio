@@ -1,0 +1,564 @@
+{
+  "passed": true,
+  "retainedAtlasIDs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "geometryAndUVs": {
+    "2::main_display": {
+      "atlas": 2,
+      "vertices": 152,
+      "loops": 600,
+      "sha256": "50c23d42c01e5eff7dbc5e7f13a98e9218b159e04452b08fdb39f1aaf0f99502"
+    },
+    "2::compute_core": {
+      "atlas": 2,
+      "vertices": 1384,
+      "loops": 7500,
+      "sha256": "a9c4805a3426e3a3f58474f50beeeef4be43e4ea7d0996ee14726506f2664746"
+    },
+    "1::furniture.desk": {
+      "atlas": 1,
+      "vertices": 2287,
+      "loops": 13500,
+      "sha256": "54ef5cad9a69a22de7c34a6b5c42da640b995f1508d8c474264f799718ad5dba"
+    },
+    "1::furniture.work_chair": {
+      "atlas": 1,
+      "vertices": 4134,
+      "loops": 24000,
+      "sha256": "b74d2124eb94c909c451948ae5b2667443f7fa1304e0a6a762171e5431ac352b"
+    },
+    "7::furniture.lounge": {
+      "atlas": 7,
+      "vertices": 33265,
+      "loops": 131346,
+      "sha256": "e2cab956d26b2c273160677e5d5db049f6dfcc11d29051e8103bbcb062f5b75e"
+    },
+    "1::furniture.coffee_table": {
+      "atlas": 1,
+      "vertices": 2262,
+      "loops": 13500,
+      "sha256": "c80fee3a4499f15fbc95f4f6773087e1194f81c48f969b98c3cd2470c8c7adee"
+    },
+    "1::furniture.rug": {
+      "atlas": 1,
+      "vertices": 1751,
+      "loops": 10494,
+      "sha256": "f30f47818328d79b76f3ba6ac884c68a77af36357c199a417443b4d2eef72cab"
+    },
+    "2::robot_companion": {
+      "atlas": 2,
+      "vertices": 1320,
+      "loops": 7500,
+      "sha256": "0f02848d857d965284d19bce288c115083ac7ae39c1757c4ff84574c1191df97"
+    },
+    "2::robot_service_hatch": {
+      "atlas": 2,
+      "vertices": 1264,
+      "loops": 7500,
+      "sha256": "b98bd7c77f65a46e2c01cc0ef728020cf5e105bb5820079978e0f93253fceadf"
+    },
+    "2::robot_leg_00": {
+      "atlas": 2,
+      "vertices": 1282,
+      "loops": 7500,
+      "sha256": "a8bc63ff916db72093eb0d18878ec9f90221dc7faed9dfea3471e804e8c5d1c4"
+    },
+    "2::robot_leg_01": {
+      "atlas": 2,
+      "vertices": 1282,
+      "loops": 7500,
+      "sha256": "3d8e8df165a537575df95e4bef52efe8c38765c4473f0bc58ac5f5fa59dcc3bf"
+    },
+    "2::robot_leg_02": {
+      "atlas": 2,
+      "vertices": 1282,
+      "loops": 7500,
+      "sha256": "1d1aaf5bd87b8ae53e2bdb3aff281a606b1a9e1f276333b21a35657a302d2d54"
+    },
+    "2::folding_drawing_terminal": {
+      "atlas": 2,
+      "vertices": 688,
+      "loops": 2480,
+      "sha256": "66a8566e9820a512a5cf1bcc8fd43bd62b8e7047d9374b0f097b48ee35edd867"
+    },
+    "2::terminal_tilt": {
+      "atlas": 2,
+      "vertices": 1262,
+      "loops": 7500,
+      "sha256": "46df3b16008b930a37a9a14333f3ce8882ff6b4fa978e11c9faeb5a3d1f96aa9"
+    },
+    "2::terminal_panel_L": {
+      "atlas": 2,
+      "vertices": 960,
+      "loops": 5391,
+      "sha256": "efe54421ff630356380cb7bd080eba6b42117a9ecd35a456295e3c0a6905708f"
+    },
+    "2::terminal_panel_R": {
+      "atlas": 2,
+      "vertices": 960,
+      "loops": 5400,
+      "sha256": "b780ddd50138e61440cdce142d136059b0d613eebfdc4b4c72c5a3f493e5d349"
+    },
+    "2::drawing_stylus": {
+      "atlas": 2,
+      "vertices": 1262,
+      "loops": 7500,
+      "sha256": "13f5cff94f203c84af310c7947cc0a511d0838ca367b9874bd21038b8a4b1f9a"
+    },
+    "2::c_archive_dock": {
+      "atlas": 2,
+      "vertices": 1262,
+      "loops": 7500,
+      "sha256": "9e65c599d5cd09cd6773a55d2b869b96e044f1bd4500fb672f5622d3df960404"
+    },
+    "2::archive_cartridge_00": {
+      "atlas": 2,
+      "vertices": 1288,
+      "loops": 7500,
+      "sha256": "c63efbe1f5c198bde0429ea0ca7576b2979aa2b3a45f1a41974a7575e4f4e2de"
+    },
+    "2::archive_cartridge_01": {
+      "atlas": 2,
+      "vertices": 1288,
+      "loops": 7500,
+      "sha256": "3e32efc8bec0cd5fbacdc922aea9f3609fb0c4f7c997e23aaa9e066992c24cc6"
+    },
+    "2::archive_cartridge_02": {
+      "atlas": 2,
+      "vertices": 1288,
+      "loops": 7500,
+      "sha256": "f0e3995a54e626fb71a761cd69b0cc75748d6e672c1f941c57d6e5e769b19041"
+    },
+    "2::kinetic_three_petal_flower": {
+      "atlas": 2,
+      "vertices": 1278,
+      "loops": 7500,
+      "sha256": "fd61f3df84c25efc72f149cb80713be4fd4a7616ba53f23def38a69a5963b629"
+    },
+    "2::flower_petal_0": {
+      "atlas": 2,
+      "vertices": 1272,
+      "loops": 7500,
+      "sha256": "bff3cb682fb6585a3606b87e8331d4f1ec99e1c3189fc27166fe08a50c5f6cd3"
+    },
+    "2::flower_petal_1": {
+      "atlas": 2,
+      "vertices": 1278,
+      "loops": 7500,
+      "sha256": "b0b53f7a6d76183f2ddd126d6fcd521b62291c498ff601c058e614c0f0417a84"
+    },
+    "2::flower_petal_2": {
+      "atlas": 2,
+      "vertices": 1278,
+      "loops": 7500,
+      "sha256": "db94b73b18b51c2c9058b3bf8dfd205a364257cc90b2be91b6a0587eab0da7e1"
+    },
+    "2::headphones_on_stand": {
+      "atlas": 2,
+      "vertices": 1299,
+      "loops": 7497,
+      "sha256": "60eae340b01912e10ba3a794d037509f25dbb1ddb2d2906ecc01319bd7fb15a1"
+    },
+    "2::headphone_cup_0": {
+      "atlas": 2,
+      "vertices": 1284,
+      "loops": 7500,
+      "sha256": "2d18052c0f48ad9e2e98063752342d6622ef56e3d1ff9a31d53a1d8cbb4f1be4"
+    },
+    "2::headphone_cup_1": {
+      "atlas": 2,
+      "vertices": 1284,
+      "loops": 7500,
+      "sha256": "256d94c9c9c9b82d942f903f319c5b794dd96fae2f98d87e62d19dcffec74722"
+    },
+    "2::ceramic_ring_speaker": {
+      "atlas": 2,
+      "vertices": 1256,
+      "loops": 7500,
+      "sha256": "7d51e1c5dc3b432eb62be954662d1a7b762afd12e54a188a8b1786626a9d7a02"
+    },
+    "2::speaker_gimbal": {
+      "atlas": 2,
+      "vertices": 1260,
+      "loops": 7500,
+      "sha256": "384d59b08b1f3504e312adc7e954b22f5b855630a92b7fc78e77515aa732a1d9"
+    },
+    "2::keyboard_half_0": {
+      "atlas": 2,
+      "vertices": 1308,
+      "loops": 7500,
+      "sha256": "d5a839bcf7aed4f1245a35aa2d8e375a7bc86f5516e53c2fdec4698486185fe2"
+    },
+    "2::keyboard_half_1": {
+      "atlas": 2,
+      "vertices": 1308,
+      "loops": 7500,
+      "sha256": "65ebf95fef2a680b8706cd8c908a08f58fd051ba342a687564b3576fa6efb547"
+    },
+    "2::keyboard_dial": {
+      "atlas": 2,
+      "vertices": 1322,
+      "loops": 7500,
+      "sha256": "675c3e69978d54e5a73a5dbe5311cdc014447a6df726d349a197691e7a1c1bfa"
+    },
+    "2::desktop_creative_controller": {
+      "atlas": 2,
+      "vertices": 1282,
+      "loops": 7500,
+      "sha256": "89c8e21b7f403371f1721a8769c8fadf34470dcd9a139c4c6e4d172ae3a639b1"
+    },
+    "2::compact_camera": {
+      "atlas": 2,
+      "vertices": 1292,
+      "loops": 7500,
+      "sha256": "fa3eea785adc9b6f89913ae83be65451d59eba213fa9159e702484452f755eac"
+    },
+    "2::camera_focus_lens": {
+      "atlas": 2,
+      "vertices": 1392,
+      "loops": 7500,
+      "sha256": "3be1282feca4165ee222ae2caa2f776e09ebaff24a4a91ed08688a8051f054f7"
+    },
+    "2::thermal_cup": {
+      "atlas": 2,
+      "vertices": 1314,
+      "loops": 7500,
+      "sha256": "232e1676e2fc8558e62cf45e8c6c24c81b224f1a2baad2b6a7d49a0e61bbce44"
+    },
+    "2::creative_folio": {
+      "atlas": 2,
+      "vertices": 608,
+      "loops": 2400,
+      "sha256": "a8f2bcfb88652c111a93e7ffa70eda33082bb23c37575ed33376f9b0639322a3"
+    },
+    "2::notebook": {
+      "atlas": 2,
+      "vertices": 1280,
+      "loops": 7500,
+      "sha256": "bd4f68ed989e4172b3e7a88e18f439b429b410c1c401e8338f6aa33300bb8663"
+    },
+    "2::coffee_table_pen": {
+      "atlas": 2,
+      "vertices": 1202,
+      "loops": 4568,
+      "sha256": "8d1badaa15a2a6b87d0bcfa6d4840ee96ee68742afca4520160bb05e094680e4"
+    },
+    "2::coffee_table_dial": {
+      "atlas": 2,
+      "vertices": 1308,
+      "loops": 7500,
+      "sha256": "ffa13ef13ef71473ecd4b663b1ad7be3133fa9ecd607dc6e3df8b7a9e2be7cfa"
+    },
+    "2::glass_bonsai_terrarium": {
+      "atlas": 2,
+      "vertices": 4023,
+      "loops": 20988,
+      "sha256": "6a4d38191f1a31e3276adc5f6b2c573b045adf26c348f80b07af6b61bfcda4b9"
+    },
+    "2::trailing_wall_plant": {
+      "atlas": 2,
+      "vertices": 5603,
+      "loops": 28500,
+      "sha256": "d90db5842e549177b353d3beed26877a2422292ce747f0568740b586fa67b6d5"
+    },
+    "3::creative_book_0": {
+      "atlas": 3,
+      "vertices": 1276,
+      "loops": 7500,
+      "sha256": "eaf5894fbe55d7e90d1f4fbff63c4e563c641555b4cad03b291f567d16e5b58e"
+    },
+    "3::creative_book_1": {
+      "atlas": 3,
+      "vertices": 1276,
+      "loops": 7500,
+      "sha256": "6d09da6cb7b1ab71296f101907eeea531a8f025d1fc137725aba9f9c30137804"
+    },
+    "3::creative_book_2": {
+      "atlas": 3,
+      "vertices": 1276,
+      "loops": 7500,
+      "sha256": "dbf38f1c916a7d18bb18f04a564456c3940e8d0f78f49cb7a1a09755623984b1"
+    },
+    "3::titanium_bookend_0": {
+      "atlas": 3,
+      "vertices": 900,
+      "loops": 3528,
+      "sha256": "b14a956e3174ae8cfe9cebcabc7b2fe5d268a118aeefee209c03e310b5b68972"
+    },
+    "3::titanium_bookend_1": {
+      "atlas": 3,
+      "vertices": 900,
+      "loops": 3528,
+      "sha256": "9ca730bf2c0bc063dbdc5f4e92752e6b19279f9d5bbcda151ac38b0321e8a888"
+    },
+    "3::geometric_specimen_cloche": {
+      "atlas": 3,
+      "vertices": 1314,
+      "loops": 7500,
+      "sha256": "12bd51a1ba4ceb56737e5980cdbaf73b5c37b6cf36dbb3a42bcbb5615cad5be4"
+    },
+    "3::original_trefoil_geometry": {
+      "atlas": 3,
+      "vertices": 1252,
+      "loops": 7500,
+      "sha256": "daf8b6913e46b96481a77c8ac3a535f2541eaf73ba6fb369ba0a2bc8b9027504"
+    },
+    "3::portable_fold_communicator": {
+      "atlas": 3,
+      "vertices": 604,
+      "loops": 2352,
+      "sha256": "c1b360c9129ead33eef98f28666b97d950fe3b4406283cd133937d9eb890b8f4"
+    },
+    "3::communicator_panel_0": {
+      "atlas": 3,
+      "vertices": 910,
+      "loops": 5400,
+      "sha256": "8fbee25cea963803a59a24341959a468636e9c479278f5d71e620195eb21a8d8"
+    },
+    "3::communicator_panel_1": {
+      "atlas": 3,
+      "vertices": 909,
+      "loops": 5400,
+      "sha256": "5db9c3e9447033c54d76a0d6b2123d1ed9ae8b43518c2be69291ade5822dace9"
+    },
+    "3::folding_communicator_handset": {
+      "atlas": 3,
+      "vertices": 1256,
+      "loops": 7500,
+      "sha256": "32d4fb71156fdc449be2919c191833429b765527c592cc446d8f05e4c49326c6"
+    },
+    "3::ceramic_mobius_study": {
+      "atlas": 3,
+      "vertices": 1254,
+      "loops": 7500,
+      "sha256": "5b1868c899caa0c1b79fa34610dbe3b6a14f8dee60efce6f676f001ecbcabfbf"
+    },
+    "3::ceramic_mobius_form": {
+      "atlas": 3,
+      "vertices": 2260,
+      "loops": 13500,
+      "sha256": "a363560c61e825ec6f6cbabc4fb0db2d48d4cd34eb7e795744105546e0381d1d"
+    },
+    "3::glass_cutting_planter": {
+      "atlas": 3,
+      "vertices": 1254,
+      "loops": 7500,
+      "sha256": "79742c416a3e364e407f0b82a3fb00796e2c02039d94fcf4c7013b1d47c8467a"
+    },
+    "3::small_planter_leaf_0": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 540,
+      "sha256": "bbe3efffaa8718bc106aadfd487ddd49b24780a22c7b69b89f7e72bdb613bf81"
+    },
+    "3::small_planter_leaf_1": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 537,
+      "sha256": "916e5cba1b0662d049aaf42523ae5e459ba7c0ae6ef4dbbe9bae54e6259bafd2"
+    },
+    "3::small_planter_leaf_2": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 537,
+      "sha256": "91d21472c718c606c8cd00981dfc7c4dceb3f9866701f3e5dd9aaa33ad3f7b43"
+    },
+    "3::small_planter_leaf_3": {
+      "atlas": 3,
+      "vertices": 96,
+      "loops": 537,
+      "sha256": "d291afc7f2cb91f374c05736d79a1f7a2cae46c96d6f4ca514195f6951922756"
+    },
+    "3::small_planter_leaf_4": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 537,
+      "sha256": "f8212dd4c2848babb26ff6b195468d607be0b9809f360caaada70bdd6a8a778e"
+    },
+    "3::black_ceramic_floor_planter": {
+      "atlas": 3,
+      "vertices": 1316,
+      "loops": 7500,
+      "sha256": "603ec94570053dc02fcfd0be35d251d010c0a01add88688c615c04c6547b69be"
+    },
+    "3::floor_vase_leaf_0": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 537,
+      "sha256": "613260cda59026e7d9ea5e59118b796ca1fd244847b2219b3124b2d960ca63ce"
+    },
+    "3::floor_vase_leaf_1": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 537,
+      "sha256": "a4235472001f4218072b5c7e1af68c1dfd5d121eb85de3d8a10f89792f25468a"
+    },
+    "3::floor_vase_leaf_2": {
+      "atlas": 3,
+      "vertices": 96,
+      "loops": 540,
+      "sha256": "4c2ac0a3a3d76fcfb61b98eeddc5896045287399a9994a8999a7d458dc352227"
+    },
+    "3::floor_vase_leaf_3": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 540,
+      "sha256": "3338708a3e13eeb5a5a69f414bcbc6d1468da461bbaed357702c0900cf60f0db"
+    },
+    "3::floor_vase_leaf_4": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 540,
+      "sha256": "064fec5cc139ff4b1f2bb31ddcbb2feb3bfe0f52ca11302f55b721467b973235"
+    },
+    "3::floor_vase_leaf_5": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 537,
+      "sha256": "aae6edbae5dcb4ffd130ed19c4ad3b0bbfb47525c32fd8db52acdaef385c4561"
+    },
+    "3::floor_vase_leaf_6": {
+      "atlas": 3,
+      "vertices": 95,
+      "loops": 540,
+      "sha256": "1cd069b4834a6349367bd71052e81d1a89fcd71a374d8145171f802375983502"
+    },
+    "4::v5_orbital_clock": {
+      "atlas": 4,
+      "vertices": 1960,
+      "loops": 7536,
+      "sha256": "781b00fe51dd01a1449495295e163817fd9036213b54171769f8b48bf7ab0166"
+    },
+    "4::v5_clock_dial": {
+      "atlas": 4,
+      "vertices": 256,
+      "loops": 960,
+      "sha256": "8e3462319496b43b91e1ae66d946b1111b5526dd762fd97d11805a97ff2565f1"
+    },
+    "4::v5_portable_projector": {
+      "atlas": 4,
+      "vertices": 680,
+      "loops": 2600,
+      "sha256": "9f8d40883eebc4ee7228bc7b0a4b237d195781c3ec82ec1ed46d10ef8e605efb"
+    },
+    "4::v5_projector_lens": {
+      "atlas": 4,
+      "vertices": 688,
+      "loops": 2576,
+      "sha256": "2c35499064314ed0aad68962bafa23cb380a64fedb22f3d1f925127f134b2d5f"
+    },
+    "4::v5_magnetic_pen_dock": {
+      "atlas": 4,
+      "vertices": 1560,
+      "loops": 5944,
+      "sha256": "e96edacfb4c8138154ef60f307620d046835c15a138d53f3c8a95eff399fc609"
+    },
+    "4::v5_magnetic_stylus": {
+      "atlas": 4,
+      "vertices": 192,
+      "loops": 704,
+      "sha256": "acc7d620cc1efb0fdea49ae81c06b746bb6ab737811b080b7f7dd1e0dc15802f"
+    },
+    "4::v5_modular_equipment_cases": {
+      "atlas": 4,
+      "vertices": 760,
+      "loops": 2920,
+      "sha256": "d7e40e86fca567a9d9c9f1e9dfc76af98847e997cc780b8b1ace99b20356b000"
+    },
+    "4::v5_upper_equipment_case": {
+      "atlas": 4,
+      "vertices": 536,
+      "loops": 2056,
+      "sha256": "bd21a257589119fe0d2b2071821128b772e6025425420c276fdba7b9c049acb1"
+    },
+    "4::v5_geometric_floor_lamp": {
+      "atlas": 4,
+      "vertices": 728,
+      "loops": 2808,
+      "sha256": "39130dbb5e8548a7c8d6581c7fb523bebef609ce79ee5bbfd2c7e5b0d5779236"
+    },
+    "4::v5_floor_lamp_head": {
+      "atlas": 4,
+      "vertices": 1440,
+      "loops": 5664,
+      "sha256": "1366e84cda3c987695204489c38fc21f3e9b09757e3a23e01caeedfb7ac91cae"
+    },
+    "4::v5_energy_capsule_rack": {
+      "atlas": 4,
+      "vertices": 1240,
+      "loops": 4728,
+      "sha256": "eb42da383e5c4bf33b1a58b0b99a65c91420e8e7cf9943fb3d0e5b6fb669f074"
+    },
+    "4::v5_energy_capsule": {
+      "atlas": 4,
+      "vertices": 536,
+      "loops": 2040,
+      "sha256": "2e740a3c218c71e5083139d46673cea13662ed7bd1edc95b95c56817836e4346"
+    },
+    "4::v5_mechanical_data_panel": {
+      "atlas": 4,
+      "vertices": 824,
+      "loops": 3096,
+      "sha256": "a87c7a6cf81105a6e6b6b394f3e886a8eea07caf69283e10e7de1d009716075a"
+    },
+    "4::v5_data_panel_selector": {
+      "atlas": 4,
+      "vertices": 200,
+      "loops": 744,
+      "sha256": "0980a4d688aace011f0b45ce2b322596c0884c801fae67e2761e849fb693d158"
+    },
+    "4::v5_scout_drone_display": {
+      "atlas": 4,
+      "vertices": 232,
+      "loops": 872,
+      "sha256": "259aa0583fc7c8e735a05a9016e4fb0819cef9455d6a0caa7f124ad5a438ce2c"
+    },
+    "4::v5_scout_drone": {
+      "atlas": 4,
+      "vertices": 1016,
+      "loops": 3864,
+      "sha256": "ae22418a3f991e23aca98d0921d1b7e7bbe552ce1a405c8e1330cb62a9eaf0de"
+    },
+    "5::environment.orbital_dock": {
+      "atlas": 5,
+      "vertices": 13112,
+      "loops": 49512,
+      "sha256": "9c9b1e2e5680c3c801abf3d4776f12ba885327b76f6c042b4bc1b1ae502a473e"
+    },
+    "6::environment.warm_gallery": {
+      "atlas": 6,
+      "vertices": 8706,
+      "loops": 32360,
+      "sha256": "7886fa6c5fdfc4300c7adccba27c1711109c9142c806d414fa6e2d3b005d35d8"
+    },
+    "4::v8_desk_glow_lamp": {
+      "atlas": 4,
+      "vertices": 328,
+      "loops": 984,
+      "sha256": "23a6fbd8a0cc4b1af67b99120adaf2c9677047f669cfe099dd72f85548984861"
+    },
+    "4::v8_window_light_bar": {
+      "atlas": 4,
+      "vertices": 232,
+      "loops": 696,
+      "sha256": "57fd13a2f0fe439ae4ecb42d916c81554b5e981eff30427e51fb0bfbb77217ed"
+    },
+    "4::v8_reading_puck": {
+      "atlas": 4,
+      "vertices": 264,
+      "loops": 792,
+      "sha256": "6be335a1a8b15d568dc72bc73c3dfb0476c4f869b9de1688e82f043ed10775b5"
+    }
+  },
+  "rebakedAtlasIDs": [
+    0
+  ],
+  "scope": "Window junction architecture repair; cabinet front, window aperture, furnishings and lighting remain in place."
+}

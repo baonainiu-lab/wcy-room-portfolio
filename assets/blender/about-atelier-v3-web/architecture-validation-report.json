@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "model": "public/models/about-atelier-v3-architecture.glb",
+  "bytes": 5960632,
+  "sha256": "cab48868aa2f3b679264cfa274de06c62d014fdd8d01afd04e9f1dfb80f84a87",
+  "sourceFileUnchanged": true,
+  "sourceSha256": "6b77e0c118cc248616bee6e80779ab13000a59eadfbea0714b344dc66f936e33",
+  "geometryBoundsVerifiedFromVertexBuffers": {
+    "min": [
+      -5.892000198364258,
+      -0.4700000286102295,
+      -5.381999969482422
+    ],
+    "max": [
+      7.421999931335449,
+      5.62999963760376,
+      5.98199987411499
+    ]
+  },
+  "triangles": 29400,
+  "opaqueMeshes": 1,
+  "glassMeshes": 8,
+  "nodes": 10,
+  "architectureAssetIds": 0,
+  "mainModelAssetIds": 128,
+  "sourceArchitectureNodes": 98,
+  "architectureRevision": "V2 connected pavilion",
+  "originalSourceUnchanged": true,
+  "mainGeometryHierarchyTransformsUnchanged": true,
+  "allVerticalMembersHaveTopAndBottomConnections": true,
+  "headerAndSillCornersConnected": true,
+  "croppedDeckHasStoneFasciaAndClosedUnderside": true,
+  "all98SourceArchitectureMeshesClosedAndManifold": true,
+  "floorAndCopingConnectedToStructuralSlab": true,
+  "omittedDecorObjectsExcludedFromBakeAndExport": 144,
+  "sourceFurnitureRetainedAsOccluders": true,
+  "embeddedKtxMatchesValidatedTexture": true,
+  "bakePngMatchesCompressionSource": true,
+  "sourceTransformsPreserved": true,
+  "noninteractiveAndExcludedFromFraming": true,
+  "newThirdPartyTextures": [],
+  "validation": "GLB structure, finite geometry, index bounds, UV range, source coordinate bounds, source and texture hashes, 128 main IDs, KTX2 image equality",
+  "visualQa": {
+    "sourceWide": "renders/about-atelier-v3-architecture-v2/wide.png",
+    "sourceHero": "renders/about-atelier-v3-architecture-v2/hero.png",
+    "sourceRendersInspected": true,
+    "sourceRenderFindings": "Connected capped L frame; no raw rod tips; continuous stone deck fascia and recessed underside; original hero furniture unobstructed",
+    "compressedTexture": "Official ktx extract decoded 4096x4096 RGBA8; visual inspection retained source daylight and trim detail"
+  }
+}

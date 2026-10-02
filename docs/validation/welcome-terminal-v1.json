@@ -1,0 +1,614 @@
+{
+  "revision": 1,
+  "checkedAt": "2026-09-25T03:03:26.977Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Actual GLB/BIN attributes and material/image JSON; actual GLTFLoader and AnimationMixer for hierarchy and sampled pose. Only primitive material references are removed in memory for that CPU loader fixture, avoiding image or GPU initialization. Original material/bitmap bindings are verified separately from untouched bytes. No browser or visual-quality claim.",
+  "model": {
+    "path": "public/models/welcome-terminal-v1.glb",
+    "bytes": 4306676,
+    "sha256": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24"
+  },
+  "sourceBlend": {
+    "path": "assets/blender/welcome-terminal-v1.blend",
+    "bytes": 4263821,
+    "sha256": "10263463500d711ca38b2c5cf03805131a2526365a211921736d82dbf64dfdc1"
+  },
+  "checks": 8,
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "check": "self-contained GLB exports eighteen mesh nodes and four independent seed roots",
+      "status": "passed",
+      "bytes": 4306676,
+      "meshes": 18,
+      "roots": [
+        {
+          "name": "seed.base",
+          "loaderName": "seedbase",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "destination": "floor",
+          "meshCount": 7
+        },
+        {
+          "name": "seed.lid",
+          "loaderName": "seedlid",
+          "position": [
+            0,
+            0.2849999964237213,
+            0.44999998807907104
+          ],
+          "quaternion": [
+            0.10452848672866821,
+            0,
+            0,
+            0.994521975517273
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "destination": "window-wall",
+          "meshCount": 5
+        },
+        {
+          "name": "seed.dial",
+          "loaderName": "seeddial",
+          "position": [
+            1.059999942779541,
+            0.28999999165534973,
+            0.7049999833106995
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "destination": "desktop-detail",
+          "meshCount": 4
+        },
+        {
+          "name": "seed.rail",
+          "loaderName": "seedrail",
+          "position": [
+            -1.3350000381469727,
+            0.23999999463558197,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "destination": "side-wall",
+          "meshCount": 2
+        }
+      ]
+    },
+    {
+      "check": "all positions and unit normals are finite, with no collapsed or collinear triangle",
+      "status": "passed",
+      "triangles": 11294,
+      "minimumArea": 4.860746425476564e-13,
+      "normalLengthRange": [
+        0.9999999381141531,
+        1.000000124606028
+      ],
+      "degenerateTriangles": 0,
+      "microscopicTriangles": 126,
+      "records": [
+        {
+          "name": "terminal.base.navy",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.00011972545715082431,
+          "minimumRelativeArea": 0.0038313607358646615,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.base.titanium_seam",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.000004788916075213319,
+          "minimumRelativeArea": 0.0007215005068715834,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.base.underside",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.0000053062264485881495,
+          "minimumRelativeArea": 0.0019684973946085815,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.base.upper",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.000007017576559372241,
+          "minimumRelativeArea": 0.0014684258678996434,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.status.0",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 4.860746425476564e-13,
+          "minimumRelativeArea": 2.9103832462507835e-8,
+          "microscopicTrianglesBelow1eMinus12": 42
+        },
+        {
+          "name": "terminal.status.1",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 4.860746425476564e-13,
+          "minimumRelativeArea": 2.9103832462507835e-8,
+          "microscopicTrianglesBelow1eMinus12": 42
+        },
+        {
+          "name": "terminal.status.2",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 4.860746425476564e-13,
+          "minimumRelativeArea": 2.9103832462507835e-8,
+          "microscopicTrianglesBelow1eMinus12": 42
+        },
+        {
+          "name": "terminal.lid.artwork",
+          "vertices": 4,
+          "triangles": 2,
+          "minimumArea": 0.930599999153614,
+          "minimumRelativeArea": 0.35467473132627575,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.lid.navy",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.000007567730760420915,
+          "minimumRelativeArea": 0.0008576324365502548,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.lid.rim",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.00004853833258697314,
+          "minimumRelativeArea": 0.0025466716811285138,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.lid.screen_recess",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.0000013265536110736797,
+          "minimumRelativeArea": 0.0011970478861656757,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.lid.warm_indicator",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 2.1225319290642867e-7,
+          "minimumRelativeArea": 0.0024271705620456285,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.dial.indicator",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 5.306388638668021e-8,
+          "minimumRelativeArea": 0.009319167779770989,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.dial.orange",
+          "vertices": 644,
+          "triangles": 1020,
+          "minimumArea": 0.000005709321485719565,
+          "minimumRelativeArea": 0.02456314138448885,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.dial.socket",
+          "vertices": 644,
+          "triangles": 1020,
+          "minimumArea": 0.000010196792251768172,
+          "minimumRelativeArea": 0.024562908917547265,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.dial.titanium",
+          "vertices": 644,
+          "triangles": 1020,
+          "minimumArea": 0.000007730985414511338,
+          "minimumRelativeArea": 0.02456285938426546,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.rail.orange",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 8.490174044670851e-7,
+          "minimumRelativeArea": 0.007298875884874731,
+          "microscopicTrianglesBelow1eMinus12": 0
+        },
+        {
+          "name": "terminal.rail.silver",
+          "vertices": 332,
+          "triangles": 588,
+          "minimumArea": 0.000009670919596244033,
+          "minimumRelativeArea": 0.00532844672338814,
+          "microscopicTrianglesBelow1eMinus12": 0
+        }
+      ]
+    },
+    {
+      "check": "UV coordinates are finite and the actual screen plane covers the bitmap without collapsed UV triangles",
+      "status": "passed",
+      "uvSets": [
+        "TEXCOORD_0"
+      ],
+      "screenCorners": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coveredUVArea": 1
+    },
+    {
+      "check": "five distinct PBR colors include blue, vermilion and warm accents, plus a separate emissive screen bitmap",
+      "status": "passed",
+      "palette": [
+        {
+          "name": "TERMINAL_DeepBlue_Enamel",
+          "linearRGB": [
+            0.017641954123973846,
+            0.07818742096424103,
+            0.16202937066555023
+          ],
+          "srgbHex": "#244f70",
+          "metallic": 0.41999998688697815,
+          "roughness": 0.27000001072883606
+        },
+        {
+          "name": "TERMINAL_SatinTitanium",
+          "linearRGB": [
+            0.4564110338687897,
+            0.5520114302635193,
+            0.6239603757858276
+          ],
+          "srgbHex": "#b4c4cf",
+          "metallic": 0.8500000238418579,
+          "roughness": 0.23999999463558197
+        },
+        {
+          "name": "TERMINAL_DarkRubber",
+          "linearRGB": [
+            0.005181516520678997,
+            0.010960093699395657,
+            0.019382361322641373
+          ],
+          "srgbHex": "#101b26",
+          "metallic": 0.05000000074505806,
+          "roughness": 0.4300000071525574
+        },
+        {
+          "name": "TERMINAL_WarmTrace",
+          "linearRGB": [
+            0.8631572127342224,
+            0.41788506507873535,
+            0.09989872574806213
+          ],
+          "srgbHex": "#efad59",
+          "metallic": 0.550000011920929,
+          "roughness": 0.25999999046325684
+        },
+        {
+          "name": "TERMINAL_Vermilion",
+          "linearRGB": [
+            0.9130986332893372,
+            0.2158605009317398,
+            0.03688944876194
+          ],
+          "srgbHex": "#f58036",
+          "metallic": 0.18000000715255737,
+          "roughness": 0.30000001192092896
+        }
+      ],
+      "screenMaterial": "TERMINAL_OriginalScreenArtwork",
+      "emissiveFactor": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579
+      ]
+    },
+    {
+      "check": "embedded screen PNG is byte-identical to the existing original artwork source",
+      "status": "passed",
+      "source": "public/textures/lighting-v15/screen-art-render.png",
+      "embeddedImageIndex": 0,
+      "embeddedBufferView": 29,
+      "dimensions": [
+        2880,
+        1200
+      ],
+      "bytes": 4040686,
+      "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+      "sourceSha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+      "byteIdentical": true,
+      "pixelsIdentical": true
+    },
+    {
+      "check": "TerminalUnfold has the expected root rotation and lid translation tracks with finite ordered samples",
+      "status": "passed",
+      "name": "TerminalUnfold",
+      "duration": 1.6166666746139526,
+      "tracks": [
+        {
+          "root": "seed.lid",
+          "property": "position",
+          "loaderTrack": "seedlid.position",
+          "keys": 97,
+          "firstTime": 0.01666666753590107,
+          "lastTime": 1.6166666746139526,
+          "first": [
+            0,
+            0.2849999964237213,
+            0.44999998807907104
+          ],
+          "last": [
+            0,
+            0.2849999964237213,
+            -0.6499999761581421
+          ]
+        },
+        {
+          "root": "seed.lid",
+          "property": "quaternion",
+          "loaderTrack": "seedlid.quaternion",
+          "keys": 97,
+          "firstTime": 0.01666666753590107,
+          "lastTime": 1.6166666746139526,
+          "first": [
+            0.1045285016298294,
+            0,
+            0,
+            0.9945218563079834
+          ],
+          "last": [
+            0.7372773885726929,
+            0,
+            0,
+            0.6755901575088501
+          ]
+        },
+        {
+          "root": "seed.dial",
+          "property": "quaternion",
+          "loaderTrack": "seeddial.quaternion",
+          "keys": 97,
+          "firstTime": 0.01666666753590107,
+          "lastTime": 1.6166666746139526,
+          "first": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "last": [
+            0,
+            -0.38941827416419983,
+            0,
+            0.9210610389709473
+          ]
+        },
+        {
+          "root": "seed.rail",
+          "property": "quaternion",
+          "loaderTrack": "seedrail.quaternion",
+          "keys": 97,
+          "firstTime": 0.01666666753590107,
+          "lastTime": 1.6166666746139526,
+          "first": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "last": [
+            0,
+            0,
+            0.1593182384967804,
+            0.9872272610664368
+          ]
+        }
+      ]
+    },
+    {
+      "check": "real AnimationMixer first sample matches the default pose; opening and reverse seeks stay finite and restore exactly",
+      "status": "passed",
+      "initialMatrixError": 6.230383764460612e-9,
+      "restorationError": 0,
+      "sampledBounds": [
+        {
+          "progress": 0,
+          "min": [
+            -1.4049999713897705,
+            -0.057500001043081284,
+            -0.9049999713897705
+          ],
+          "max": [
+            1.4049999713897705,
+            0.6559767177554936,
+            0.9049999713897705
+          ],
+          "size": [
+            2.809999942779541,
+            0.7134767187985749,
+            1.809999942779541
+          ]
+        },
+        {
+          "progress": 0.25,
+          "min": [
+            -1.4049999713897705,
+            -0.057500001043081284,
+            -0.9049999713897705
+          ],
+          "max": [
+            1.4049999713897705,
+            0.8161760331321284,
+            0.9049999713897705
+          ],
+          "size": [
+            2.809999942779541,
+            0.8736760341752097,
+            1.809999942779541
+          ]
+        },
+        {
+          "progress": 0.5,
+          "min": [
+            -1.4049999713897705,
+            -0.057500001043081284,
+            -0.9049999713897705
+          ],
+          "max": [
+            1.4049999713897705,
+            1.3490758794549393,
+            0.9049999713897705
+          ],
+          "size": [
+            2.809999942779541,
+            1.4065758804980206,
+            1.809999942779541
+          ]
+        },
+        {
+          "progress": 0.75,
+          "min": [
+            -1.4049999713897705,
+            -0.057500001043081284,
+            -0.9049999713897705
+          ],
+          "max": [
+            1.4049999713897705,
+            1.5886261870113074,
+            0.9049999713897705
+          ],
+          "size": [
+            2.809999942779541,
+            1.6461261880543887,
+            1.809999942779541
+          ]
+        },
+        {
+          "progress": 1,
+          "min": [
+            -1.4049999713897705,
+            -0.057500001043081284,
+            -0.9049999713897705
+          ],
+          "max": [
+            1.4049999713897705,
+            1.5835523703801895,
+            0.9049999713897705
+          ],
+          "size": [
+            2.809999942779541,
+            1.6410523714232708,
+            1.809999942779541
+          ]
+        },
+        {
+          "progress": 0.4,
+          "min": [
+            -1.4049999713897705,
+            -0.057500001043081284,
+            -0.9252249727235414
+          ],
+          "max": [
+            1.4049999713897705,
+            1.1322802892722645,
+            0.9049999713897705
+          ],
+          "size": [
+            2.809999942779541,
+            1.1897802903153458,
+            1.8302249441133118
+          ]
+        }
+      ]
+    },
+    {
+      "check": "default and unfolded dimensions are practical and the exported file stayed unchanged throughout this audit",
+      "status": "passed",
+      "defaultBounds": {
+        "min": [
+          -1.4049999713897705,
+          -0.057500001043081284,
+          -0.9049999713897705
+        ],
+        "max": [
+          1.4049999713897705,
+          0.6559767126356233,
+          0.9049999713897705
+        ],
+        "size": [
+          2.809999942779541,
+          0.7134767136787046,
+          1.809999942779541
+        ]
+      },
+      "sourceGlbUnchanged": true,
+      "sourceBlendUnchanged": true
+    }
+  ],
+  "limitations": [
+    "Geometry checks do not verify browser shading, camera framing or visual appeal.",
+    "Very small nonzero indicator bevel triangles are reported separately; degeneracy uses scale-relative collinearity, not an arbitrary world-area threshold."
+  ]
+}

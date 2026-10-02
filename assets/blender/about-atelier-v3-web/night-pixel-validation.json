@@ -1,0 +1,77 @@
+{
+  "complete": true,
+  "mainPreparationMatchesShippedModel": true,
+  "allProtectedDaySourcesAndModelsUnchanged": true,
+  "textures": [
+    {
+      "slot": 0,
+      "sampleCount": 54342,
+      "meanDayLuminance": 0.5128490837660568,
+      "meanNightLuminance": 0.1820372396419584,
+      "nonUniformNightToDayRatioStd": 0.30934790838109844,
+      "nightMeanRgb": [
+        0.22165124118328094,
+        0.17547515034675598,
+        0.13020366430282593
+      ],
+      "daySha256": "86a2dcf84adfa4b5dd3f4e3c722f28392de1b8f73e9871165713b4c6441e43c2",
+      "nightSha256": "26559cc92290a587743ab91d4193697c713ef6adcb5324d3ce2d39b3081f5663"
+    },
+    {
+      "slot": 1,
+      "sampleCount": 62086,
+      "meanDayLuminance": 0.25141268322743443,
+      "meanNightLuminance": 0.10791335129281272,
+      "nonUniformNightToDayRatioStd": 0.5275286753055801,
+      "nightMeanRgb": [
+        0.15636718273162842,
+        0.09879352897405624,
+        0.05549703538417816
+      ],
+      "daySha256": "617520295978a241f32a54b6430ab14745e645475a4d948f09696c64f9b50d20",
+      "nightSha256": "a2760e933af92ec066ccb567e49dcdb3dc3f276d84cb2715f84bdef47380d439"
+    },
+    {
+      "slot": 2,
+      "sampleCount": 69628,
+      "meanDayLuminance": 0.18133623698736054,
+      "meanNightLuminance": 0.0830974709127889,
+      "nonUniformNightToDayRatioStd": 0.39224909827405524,
+      "nightMeanRgb": [
+        0.11367949098348618,
+        0.07762289047241211,
+        0.04721025004982948
+      ],
+      "daySha256": "65eab721c5a4b2acec6f791cb8fab69b3bda370a98d6a6844d98c6c1691a1378",
+      "nightSha256": "72e0f79fbfcfe003fcedc146d02944c5013b77e9d8070682a2c61c204cfcc786"
+    },
+    {
+      "slot": 3,
+      "sampleCount": 78077,
+      "meanDayLuminance": 0.23929976830224203,
+      "meanNightLuminance": 0.0498523259874831,
+      "nonUniformNightToDayRatioStd": 0.390789859474814,
+      "nightMeanRgb": [
+        0.07632587850093842,
+        0.04516918957233429,
+        0.018199937418103218
+      ],
+      "daySha256": "7bb69bea2f7e2842b63153b077d98ebaef7c18e5609c485b297f44c26b36cf1f",
+      "nightSha256": "9b13360d5bd4ca76973151f109613e8346d9b651a034db6a16a139dc8ddb2711"
+    },
+    {
+      "slot": "architecture",
+      "sampleCount": 83721,
+      "meanDayLuminance": 0.3698194627264029,
+      "meanNightLuminance": 0.08557885154359705,
+      "nonUniformNightToDayRatioStd": 0.2994191928984956,
+      "nightMeanRgb": [
+        0.10161112993955612,
+        0.083025723695755,
+        0.06355615705251694
+      ],
+      "daySha256": "352f561f5c3a9dc5b14598a6150db72b82e137194657097da53f67dea269f022",
+      "nightSha256": "64dca3ec98d8ba3c0cdaf34014155e3e2212dd7865d65d2f9bec121eb7bde0e8"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+// The same gold marker and leader used by the scene's return-room interaction.
+// A small dark optical backing keeps the persistent cue readable over marble,
+// wood, or the evening backdrop without adding a floating UI card.
+.resume-entry-label {
+  .scene-callout__label {
+    padding-left: 7px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #15252b9c, #15252b36 76%, transparent);
+    text-shadow: 0 1px 4px #000;
+    touch-action: manipulation;
+
+    &:focus-visible {
+      outline: 1px solid var(--accent-ink, #d9ad70);
+      outline-offset: 4px;
+    }
+  }
+
+  .scene-callout__title {
+    color: #f3e8d4;
+    font-size: 13px;
+    letter-spacing: .02em;
+    text-shadow: 0 1px 3px #000c;
+  }
+
+  .scene-callout__action {
+    color: #dfd2bb;
+    font-size: 10px;
+    letter-spacing: .015em;
+  }
+
+  .scene-callout__action::after {
+    content: ' ↗';
+    color: var(--accent-ink, #d9ad70);
+  }
+
+  .scene-callout__marker { touch-action: manipulation; }
+}
+
+@media (max-width: 600px) {
+  .resume-entry-label .scene-callout__title { font-size: 12px; }
+}

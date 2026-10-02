@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "source_sha256": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+  "method": "bidirectional nearest-neighbour comparison of all evaluated source and joined prepared world-space vertices; tolerance 0.00003m",
+  "owners": {
+    "gallery.architecture": {
+      "source_vertices": 16933,
+      "prepared_vertices": 16933,
+      "max_source_to_prepared_m": 0.0,
+      "max_prepared_to_source_m": 0.0,
+      "bounds_blender": {
+        "min": [
+          -8.199999809265137,
+          -6.480000019073486,
+          -0.49000000953674316
+        ],
+        "max": [
+          8.199999809265137,
+          4.0,
+          5.409999847412109
+        ]
+      }
+    },
+    "gallery.architecture.glazing": {
+      "source_vertices": 2032,
+      "prepared_vertices": 2032,
+      "max_source_to_prepared_m": 0.0,
+      "max_prepared_to_source_m": 0.0,
+      "bounds_blender": {
+        "min": [
+          -7.284999847412109,
+          1.2851918935775757,
+          0.4749999940395355
+        ],
+        "max": [
+          7.284999847412109,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      }
+    },
+    "gallery.architecture.portal": {
+      "source_vertices": 10752,
+      "prepared_vertices": 10752,
+      "max_source_to_prepared_m": 2.6656007889869215e-07,
+      "max_prepared_to_source_m": 2.6656007889869215e-07,
+      "bounds_blender": {
+        "min": [
+          -9.289999961853027,
+          -2.0450000762939453,
+          -0.4099999964237213
+        ],
+        "max": [
+          -7.064999580383301,
+          1.9450000524520874,
+          5.005000114440918
+        ]
+      }
+    }
+  }
+}

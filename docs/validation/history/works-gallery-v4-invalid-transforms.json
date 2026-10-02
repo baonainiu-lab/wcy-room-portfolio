@@ -1,0 +1,1392 @@
+{
+  "revision": "gallery-4",
+  "checkedAt": "2026-09-25T01:53:47.208Z",
+  "runtime": "v24.19.0",
+  "methodology": "Actual V3 and V4 GLB JSON/BIN geometry, Three.js transforms and CPU rays. Per-owner world triangle signatures ignore UV/normal/material changes but preserve winding. Glass topology welds coincident export seams for closed-shell, signed-volume and thickness checks. No GPU or browser, and no fixed total triangle count assertion.",
+  "model": {
+    "url": "/models/works-gallery-v4-compressed.glb",
+    "sha256": "568f164ba4f709a8782d47fe70853009dcbeda8a2dd7cc91a3485a724157ffef",
+    "bytes": 40192932,
+    "primitives": 80
+  },
+  "baseline": {
+    "url": "/models/works-gallery-v3-compressed.glb",
+    "sha256": "186fff1b46292fc17628062124aa43e7f3d691921ccfef9e8cd2bc436ad3ee67"
+  },
+  "activeModelUrl": "/models/works-gallery-v3-compressed.glb",
+  "activeEntryUsesV4": false,
+  "sourceSha256": {
+    "src/works-gallery.js": "f24130c612f8faffa7cf501fc509d43038d6c1b3319111ca093d5b78c6004aee",
+    "src/gallery-glass.js": "3037af8923cda95f1c627e95f3270109f804ed72620c57deac1165202e1f387c",
+    "src/gallery-transition.js": "fce7d4a5943e06bd4d428f89dcd389e2413ba7f5667e32f8301387350719cf2d",
+    "src/gallery-transition-path.js": "054ba1e480e4bb1a72f942dc189abbafaf9fbe976f411259ce3d4ca445e3800c",
+    "src/gallery-floor-finish.js": "8499f5ce7c68ac8e24461924bccc6640151a704099bab9214aeda2a8366d12bd"
+  },
+  "checks": 8,
+  "passed": 7,
+  "failed": 1,
+  "results": [
+    {
+      "check": "77 IDs, six work stations and their hierarchy remain identical to V3",
+      "status": "passed",
+      "assetCount": 77,
+      "stations": [
+        "gallery.work.01",
+        "gallery.work.02",
+        "gallery.work.03",
+        "gallery.work.04",
+        "gallery.work.05",
+        "gallery.work.06"
+      ],
+      "parentHierarchyPreserved": true
+    },
+    {
+      "check": "only the three architectural owners change world-space triangle geometry",
+      "status": "passed",
+      "comparisonQuantizationMetres": 0.00001,
+      "changedOwners": [
+        "gallery.architecture",
+        "gallery.architecture.glazing",
+        "gallery.architecture.portal"
+      ],
+      "preservedOwners": 74,
+      "beforeTriangles": 560890,
+      "afterTriangles": 542976,
+      "ownerSignatures": {
+        "gallery.album.01": {
+          "before": {
+            "triangles": 9700,
+            "sha256": "4af0b4490647f1a6667305b59970382f362be90eb5c94ec908b88f94d306d49f"
+          },
+          "after": {
+            "triangles": 9700,
+            "sha256": "4af0b4490647f1a6667305b59970382f362be90eb5c94ec908b88f94d306d49f"
+          }
+        },
+        "gallery.album.02": {
+          "before": {
+            "triangles": 11736,
+            "sha256": "cfe23e641feaec903730e869929fd29db50f2a54a71b43def16b884243a14816"
+          },
+          "after": {
+            "triangles": 11736,
+            "sha256": "cfe23e641feaec903730e869929fd29db50f2a54a71b43def16b884243a14816"
+          }
+        },
+        "gallery.album.03": {
+          "before": {
+            "triangles": 13316,
+            "sha256": "521f8c163115eee1ec18d950d13fc2de93fb17450ab269bb0cfcf3320ac1a4f3"
+          },
+          "after": {
+            "triangles": 13316,
+            "sha256": "521f8c163115eee1ec18d950d13fc2de93fb17450ab269bb0cfcf3320ac1a4f3"
+          }
+        },
+        "gallery.architecture": {
+          "before": {
+            "triangles": 47408,
+            "sha256": "50cad06626e54fe5afef5b71e58d78c074d5019f353d2b5b0435a19aa0419d6c"
+          },
+          "after": {
+            "triangles": 33634,
+            "sha256": "5c95510c5778eaad9f38642bc0dad94fe95f69a5f138a4068e7f3721ee1f2630"
+          }
+        },
+        "gallery.architecture.glazing": {
+          "before": {
+            "triangles": 1812,
+            "sha256": "c0b296bb331301db7faf0deee499c9202de48bed144ae185bb81023da46bce12"
+          },
+          "after": {
+            "triangles": 4016,
+            "sha256": "d7028590b85034741445c12aaa6aece2356e7e323abe05f3f704d33191c8577d"
+          }
+        },
+        "gallery.architecture.portal": {
+          "before": {
+            "triangles": 26380,
+            "sha256": "4c351598e0c1edc50a48af6e66770e3bc9d668c5ec89bea04f0b6fb470ac3c47"
+          },
+          "after": {
+            "triangles": 20036,
+            "sha256": "db9b28ee9b137a2ddf4f6a166976f4c3fbf6c729f85db92568d418e7e8c3f3de"
+          }
+        },
+        "gallery.archive.cart": {
+          "before": {
+            "triangles": 10908,
+            "sha256": "3c445e02f47861f133009795cb035edd320e9c0837fb010799994944ce93ddaf"
+          },
+          "after": {
+            "triangles": 10908,
+            "sha256": "3c445e02f47861f133009795cb035edd320e9c0837fb010799994944ce93ddaf"
+          }
+        },
+        "gallery.archive.drawer.01": {
+          "before": {
+            "triangles": 960,
+            "sha256": "a9294bf50c9a3d045d7425732eb57caf8c888d6844c9901f9079282b008799f2"
+          },
+          "after": {
+            "triangles": 960,
+            "sha256": "a9294bf50c9a3d045d7425732eb57caf8c888d6844c9901f9079282b008799f2"
+          }
+        },
+        "gallery.archive.drawer.02": {
+          "before": {
+            "triangles": 960,
+            "sha256": "5e347be92b19cefb8aea251edfc5d7e0cf4c0f6f65b1f7629f05d6efa9d359e5"
+          },
+          "after": {
+            "triangles": 960,
+            "sha256": "5e347be92b19cefb8aea251edfc5d7e0cf4c0f6f65b1f7629f05d6efa9d359e5"
+          }
+        },
+        "gallery.archive.wheel.00": {
+          "before": {
+            "triangles": 1112,
+            "sha256": "7107ad6baa672317aafe8d62fd97f76465e9caee04c00a6f8aa8781dc2d03bb2"
+          },
+          "after": {
+            "triangles": 1112,
+            "sha256": "7107ad6baa672317aafe8d62fd97f76465e9caee04c00a6f8aa8781dc2d03bb2"
+          }
+        },
+        "gallery.archive.wheel.01": {
+          "before": {
+            "triangles": 1112,
+            "sha256": "5747fa80ee4dad1a974489e648ceae175c4484141ce716dc39804652b13b0806"
+          },
+          "after": {
+            "triangles": 1112,
+            "sha256": "5747fa80ee4dad1a974489e648ceae175c4484141ce716dc39804652b13b0806"
+          }
+        },
+        "gallery.archive.wheel.10": {
+          "before": {
+            "triangles": 1112,
+            "sha256": "be23ee6b6c48152c4dcb1b626f2ee0565614392df8d55f0fb14dd4ad7777ca22"
+          },
+          "after": {
+            "triangles": 1112,
+            "sha256": "be23ee6b6c48152c4dcb1b626f2ee0565614392df8d55f0fb14dd4ad7777ca22"
+          }
+        },
+        "gallery.archive.wheel.11": {
+          "before": {
+            "triangles": 1112,
+            "sha256": "80ef358e2c1c22c8d08a5c181a58d6b4d9006033502942796defa51def68f1f8"
+          },
+          "after": {
+            "triangles": 1112,
+            "sha256": "80ef358e2c1c22c8d08a5c181a58d6b4d9006033502942796defa51def68f1f8"
+          }
+        },
+        "gallery.bench": {
+          "before": {
+            "triangles": 6428,
+            "sha256": "d2e9d2a708d70f27ce89474ede3df227af3f536c2590fad441aaa4582170aff7"
+          },
+          "after": {
+            "triangles": 6428,
+            "sha256": "d2e9d2a708d70f27ce89474ede3df227af3f536c2590fad441aaa4582170aff7"
+          }
+        },
+        "gallery.cup": {
+          "before": {
+            "triangles": 3092,
+            "sha256": "352b68475702c1169fc5d3d91ed17accbf0f5262805d3e42f218f60a46276248"
+          },
+          "after": {
+            "triangles": 3092,
+            "sha256": "352b68475702c1169fc5d3d91ed17accbf0f5262805d3e42f218f60a46276248"
+          }
+        },
+        "gallery.environment.terrace": {
+          "before": {
+            "triangles": 9196,
+            "sha256": "8b82b726b82ff6786e799efbe0ef622cd8f5500efd6ecfaa098bb15b96a699b6"
+          },
+          "after": {
+            "triangles": 9196,
+            "sha256": "8b82b726b82ff6786e799efbe0ef622cd8f5500efd6ecfaa098bb15b96a699b6"
+          }
+        },
+        "gallery.lamp.base": {
+          "before": {
+            "triangles": 1932,
+            "sha256": "684fcbe5d670026bdcb850736ee9d2adc291cd7ecab8c9bd03cf3a61d1815370"
+          },
+          "after": {
+            "triangles": 1932,
+            "sha256": "684fcbe5d670026bdcb850736ee9d2adc291cd7ecab8c9bd03cf3a61d1815370"
+          }
+        },
+        "gallery.lamp.head": {
+          "before": {
+            "triangles": 2392,
+            "sha256": "2c89b0fcedcdf925dd4461371f4d5e19acb88aad92b18ed5a7fe8bc7b3b13884"
+          },
+          "after": {
+            "triangles": 2392,
+            "sha256": "2c89b0fcedcdf925dd4461371f4d5e19acb88aad92b18ed5a7fe8bc7b3b13884"
+          }
+        },
+        "gallery.lantern.01": {
+          "before": {
+            "triangles": 5180,
+            "sha256": "b24dceb9d23c14f02c83778cbc3cf4857d05f339cb6047fe1253c2829d5cb4c3"
+          },
+          "after": {
+            "triangles": 5180,
+            "sha256": "b24dceb9d23c14f02c83778cbc3cf4857d05f339cb6047fe1253c2829d5cb4c3"
+          }
+        },
+        "gallery.lantern.02": {
+          "before": {
+            "triangles": 5180,
+            "sha256": "64c8fea81edc0760a21ae3220cc6d5ed6eeec5dd9ef1dc3733664517970ab5ef"
+          },
+          "after": {
+            "triangles": 5180,
+            "sha256": "64c8fea81edc0760a21ae3220cc6d5ed6eeec5dd9ef1dc3733664517970ab5ef"
+          }
+        },
+        "gallery.library.01": {
+          "before": {
+            "triangles": 4500,
+            "sha256": "769f7c38446dc2850fcd000ac2671219a81a3604947cc76abd831fe5a326ffcd"
+          },
+          "after": {
+            "triangles": 4500,
+            "sha256": "769f7c38446dc2850fcd000ac2671219a81a3604947cc76abd831fe5a326ffcd"
+          }
+        },
+        "gallery.library.02": {
+          "before": {
+            "triangles": 10500,
+            "sha256": "23f7cb3dea494f491947f3a49e19625d7bbce52f198a0a55098466ebf9c0b20c"
+          },
+          "after": {
+            "triangles": 10500,
+            "sha256": "23f7cb3dea494f491947f3a49e19625d7bbce52f198a0a55098466ebf9c0b20c"
+          }
+        },
+        "gallery.library.03": {
+          "before": {
+            "triangles": 4500,
+            "sha256": "c726b114e56deead647f75e11bcba05cad1d0f1732923a2563b6216e102b47e3"
+          },
+          "after": {
+            "triangles": 4500,
+            "sha256": "c726b114e56deead647f75e11bcba05cad1d0f1732923a2563b6216e102b47e3"
+          }
+        },
+        "gallery.library.04": {
+          "before": {
+            "triangles": 10500,
+            "sha256": "26f6fecf0656cabaa3f5f7efc96a741d9d485f5976c79bff036155684b3f999b"
+          },
+          "after": {
+            "triangles": 10500,
+            "sha256": "26f6fecf0656cabaa3f5f7efc96a741d9d485f5976c79bff036155684b3f999b"
+          }
+        },
+        "gallery.library.05": {
+          "before": {
+            "triangles": 4500,
+            "sha256": "32de082fa6505a50a598e7f6aa8ac3f9f3cc553fa7890e53e78c9ad1c3f71f58"
+          },
+          "after": {
+            "triangles": 4500,
+            "sha256": "32de082fa6505a50a598e7f6aa8ac3f9f3cc553fa7890e53e78c9ad1c3f71f58"
+          }
+        },
+        "gallery.planter.floor.01": {
+          "before": {
+            "triangles": 3832,
+            "sha256": "b7ce25e1d27d2a6d4477d7c7bfb5f7e6ae47aa0224a36d804bf670d7221474ca"
+          },
+          "after": {
+            "triangles": 3832,
+            "sha256": "b7ce25e1d27d2a6d4477d7c7bfb5f7e6ae47aa0224a36d804bf670d7221474ca"
+          }
+        },
+        "gallery.planter.floor.02": {
+          "before": {
+            "triangles": 3832,
+            "sha256": "950f999da45f79145cbeaf0c3d549349e1b0682dd1aa21c91d9006117955b729"
+          },
+          "after": {
+            "triangles": 3832,
+            "sha256": "950f999da45f79145cbeaf0c3d549349e1b0682dd1aa21c91d9006117955b729"
+          }
+        },
+        "gallery.planter.floor.03": {
+          "before": {
+            "triangles": 3832,
+            "sha256": "9cf674b3e1988df4ab1b822a28311ca1e4f3313192d7aa9215c45cf0e0c9d795"
+          },
+          "after": {
+            "triangles": 3832,
+            "sha256": "9cf674b3e1988df4ab1b822a28311ca1e4f3313192d7aa9215c45cf0e0c9d795"
+          }
+        },
+        "gallery.planter.floor.04": {
+          "before": {
+            "triangles": 3832,
+            "sha256": "cde65beb8964069657e3808a676d7b71e5957c905c0ed6de6c6bf3459ac32347"
+          },
+          "after": {
+            "triangles": 3832,
+            "sha256": "cde65beb8964069657e3808a676d7b71e5957c905c0ed6de6c6bf3459ac32347"
+          }
+        },
+        "gallery.planter.table": {
+          "before": {
+            "triangles": 3292,
+            "sha256": "a52ed7a5483f29a7b875996af5843de1114fccd8f9486565ac8eaee09c466b8f"
+          },
+          "after": {
+            "triangles": 3292,
+            "sha256": "a52ed7a5483f29a7b875996af5843de1114fccd8f9486565ac8eaee09c466b8f"
+          }
+        },
+        "gallery.sculpture.ring": {
+          "before": {
+            "triangles": 7188,
+            "sha256": "5379bac814649d70e5953fc9a2ed5329595952ae43a3093b1f60272f7cec685b"
+          },
+          "after": {
+            "triangles": 7188,
+            "sha256": "5379bac814649d70e5953fc9a2ed5329595952ae43a3093b1f60272f7cec685b"
+          }
+        },
+        "gallery.table.main": {
+          "before": {
+            "triangles": 11216,
+            "sha256": "b0a88cde46a2d5d2dab343bd55ab94ae4d3325687a5455e175fbfc921af64529"
+          },
+          "after": {
+            "triangles": 11216,
+            "sha256": "b0a88cde46a2d5d2dab343bd55ab94ae4d3325687a5455e175fbfc921af64529"
+          }
+        },
+        "gallery.tool.caliper": {
+          "before": {
+            "triangles": 1200,
+            "sha256": "ab532e37c061dbd758b9069dac7450a6af7de1c1985fd0553967446c1fe3f198"
+          },
+          "after": {
+            "triangles": 1200,
+            "sha256": "ab532e37c061dbd758b9069dac7450a6af7de1c1985fd0553967446c1fe3f198"
+          }
+        },
+        "gallery.tool.measure_disc": {
+          "before": {
+            "triangles": 2236,
+            "sha256": "d73a9c87f338d6dd6b4588a1c7cbecd4d1b198ab11237645212b3c82d450ae5a"
+          },
+          "after": {
+            "triangles": 2236,
+            "sha256": "d73a9c87f338d6dd6b4588a1c7cbecd4d1b198ab11237645212b3c82d450ae5a"
+          }
+        },
+        "gallery.tool.pencil": {
+          "before": {
+            "triangles": 40,
+            "sha256": "03e7e8ae04e5c0955331dafa2d15677ffd585bc0e2ef8fe322b65075762115e9"
+          },
+          "after": {
+            "triangles": 40,
+            "sha256": "03e7e8ae04e5c0955331dafa2d15677ffd585bc0e2ef8fe322b65075762115e9"
+          }
+        },
+        "gallery.work.01": {
+          "before": {
+            "triangles": 7524,
+            "sha256": "b016506b35b78653c71fe8406d89f08fd7b4694604d967edfd3dc9a53ce52511"
+          },
+          "after": {
+            "triangles": 7524,
+            "sha256": "b016506b35b78653c71fe8406d89f08fd7b4694604d967edfd3dc9a53ce52511"
+          }
+        },
+        "gallery.work.01.art": {
+          "before": {
+            "triangles": 2472,
+            "sha256": "00b5757c3aea59445d1885c770222c63b7cdfb605ac4baf12a79b5a9defc39ef"
+          },
+          "after": {
+            "triangles": 2472,
+            "sha256": "00b5757c3aea59445d1885c770222c63b7cdfb605ac4baf12a79b5a9defc39ef"
+          }
+        },
+        "gallery.work.01.console": {
+          "before": {
+            "triangles": 2120,
+            "sha256": "3dd0ab0e08247695473f3149af447dfc61ffc98293a6527c40ec863248f419ae"
+          },
+          "after": {
+            "triangles": 2120,
+            "sha256": "3dd0ab0e08247695473f3149af447dfc61ffc98293a6527c40ec863248f419ae"
+          }
+        },
+        "gallery.work.01.label": {
+          "before": {
+            "triangles": 32480,
+            "sha256": "63f92e7cdec825d0480d9402ec01df41cd9d385b8f4c29f7620f5a438a8adba2"
+          },
+          "after": {
+            "triangles": 32480,
+            "sha256": "63f92e7cdec825d0480d9402ec01df41cd9d385b8f4c29f7620f5a438a8adba2"
+          }
+        },
+        "gallery.work.01.maquette": {
+          "before": {
+            "triangles": 5268,
+            "sha256": "552ddd3dca129870f3c53e5f0c7f523f1622b2161e6c58883a7b704a1494ada5"
+          },
+          "after": {
+            "triangles": 5268,
+            "sha256": "552ddd3dca129870f3c53e5f0c7f523f1622b2161e6c58883a7b704a1494ada5"
+          }
+        },
+        "gallery.work.02": {
+          "before": {
+            "triangles": 9564,
+            "sha256": "ad92600dac66007895bb45ea66118e936ad1caa6564e12ea1396c9c709115b07"
+          },
+          "after": {
+            "triangles": 9564,
+            "sha256": "ad92600dac66007895bb45ea66118e936ad1caa6564e12ea1396c9c709115b07"
+          }
+        },
+        "gallery.work.02.geometry": {
+          "before": {
+            "triangles": 1196,
+            "sha256": "a5a4ec398dd1af744e4393cad934ee28014662de7d198343135f5c016fe67c42"
+          },
+          "after": {
+            "triangles": 1196,
+            "sha256": "a5a4ec398dd1af744e4393cad934ee28014662de7d198343135f5c016fe67c42"
+          }
+        },
+        "gallery.work.02.geometry.folded_form": {
+          "before": {
+            "triangles": 6,
+            "sha256": "e179a4bba818b01ef94083ebe03bcd978ca8548018aa815152a51d0c301f194b"
+          },
+          "after": {
+            "triangles": 6,
+            "sha256": "e179a4bba818b01ef94083ebe03bcd978ca8548018aa815152a51d0c301f194b"
+          }
+        },
+        "gallery.work.02.geometry.sphere": {
+          "before": {
+            "triangles": 960,
+            "sha256": "a58ccfa995bbdb63383ef9c67fb8526d360d9c377b5b1a4d5b21a59c7855a1d2"
+          },
+          "after": {
+            "triangles": 960,
+            "sha256": "a58ccfa995bbdb63383ef9c67fb8526d360d9c377b5b1a4d5b21a59c7855a1d2"
+          }
+        },
+        "gallery.work.02.label": {
+          "before": {
+            "triangles": 34520,
+            "sha256": "f5ae09f115142a1ac48e6e4e826622d9b4c4fd9dbec293087b698ac23614491c"
+          },
+          "after": {
+            "triangles": 34520,
+            "sha256": "f5ae09f115142a1ac48e6e4e826622d9b4c4fd9dbec293087b698ac23614491c"
+          }
+        },
+        "gallery.work.02.vitrine": {
+          "before": {
+            "triangles": 5124,
+            "sha256": "c43eaa6a0cd84c02217a925080f7a293976fad26ee99bc331aacaa46b2537a16"
+          },
+          "after": {
+            "triangles": 5124,
+            "sha256": "c43eaa6a0cd84c02217a925080f7a293976fad26ee99bc331aacaa46b2537a16"
+          }
+        },
+        "gallery.work.02.vitrine.glass.face.-1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "0ae42df2a81b04720dfde148c412b823547c635b15d4256399db43e14cb0207d"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "0ae42df2a81b04720dfde148c412b823547c635b15d4256399db43e14cb0207d"
+          }
+        },
+        "gallery.work.02.vitrine.glass.face.1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "4b546f1e927023954107f77bba6db5dd01be0711fe1b434bd03a8d6de77fd5bd"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "4b546f1e927023954107f77bba6db5dd01be0711fe1b434bd03a8d6de77fd5bd"
+          }
+        },
+        "gallery.work.02.vitrine.glass.roof": {
+          "before": {
+            "triangles": 300,
+            "sha256": "c7be781eb5df8f6ccf55f77ac835f8fb34079d40e104dbc76ac810705beb7f7e"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "c7be781eb5df8f6ccf55f77ac835f8fb34079d40e104dbc76ac810705beb7f7e"
+          }
+        },
+        "gallery.work.02.vitrine.glass.side.-1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "6c3d628d4d1ad0b333c1b8aa64c9dbd28abdaaca27d626eaf6413859fc369ae3"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "6c3d628d4d1ad0b333c1b8aa64c9dbd28abdaaca27d626eaf6413859fc369ae3"
+          }
+        },
+        "gallery.work.02.vitrine.glass.side.1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "d59ad9d11bca5829815b71c8bdf735048fe49b25130bc911af484cb53356722a"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "d59ad9d11bca5829815b71c8bdf735048fe49b25130bc911af484cb53356722a"
+          }
+        },
+        "gallery.work.03": {
+          "before": {
+            "triangles": 10956,
+            "sha256": "c54b05e307138432a72d477df49fbf79e562547f67adb929dc14987889fbf502"
+          },
+          "after": {
+            "triangles": 10956,
+            "sha256": "c54b05e307138432a72d477df49fbf79e562547f67adb929dc14987889fbf502"
+          }
+        },
+        "gallery.work.03.art": {
+          "before": {
+            "triangles": 2828,
+            "sha256": "f37ad0bde58252a78850d0c36822584d3bb0f093eb8f6122e3021714950d3717"
+          },
+          "after": {
+            "triangles": 2828,
+            "sha256": "f37ad0bde58252a78850d0c36822584d3bb0f093eb8f6122e3021714950d3717"
+          }
+        },
+        "gallery.work.03.console": {
+          "before": {
+            "triangles": 2120,
+            "sha256": "71b726e1595235e694b7abe312e2c4ab792f4d39d333651ee6fbd2712df75451"
+          },
+          "after": {
+            "triangles": 2120,
+            "sha256": "71b726e1595235e694b7abe312e2c4ab792f4d39d333651ee6fbd2712df75451"
+          }
+        },
+        "gallery.work.03.label": {
+          "before": {
+            "triangles": 35912,
+            "sha256": "ef3fd217dd1ce88c5ea463aba6f9216da9cfa0e91a4df94cde8266d93fb8fac5"
+          },
+          "after": {
+            "triangles": 35912,
+            "sha256": "ef3fd217dd1ce88c5ea463aba6f9216da9cfa0e91a4df94cde8266d93fb8fac5"
+          }
+        },
+        "gallery.work.03.maquette": {
+          "before": {
+            "triangles": 2584,
+            "sha256": "d6d642894965501c65b9ddaed163842d9877261a4c3d8b31846332789d90c6fa"
+          },
+          "after": {
+            "triangles": 2584,
+            "sha256": "d6d642894965501c65b9ddaed163842d9877261a4c3d8b31846332789d90c6fa"
+          }
+        },
+        "gallery.work.04": {
+          "before": {
+            "triangles": 7792,
+            "sha256": "04b6e4a4738b5222573eda7aed89f0073e698a1df70bf4182c1fe9b996a8b20c"
+          },
+          "after": {
+            "triangles": 7792,
+            "sha256": "04b6e4a4738b5222573eda7aed89f0073e698a1df70bf4182c1fe9b996a8b20c"
+          }
+        },
+        "gallery.work.04.label": {
+          "before": {
+            "triangles": 32748,
+            "sha256": "dd0a77a1d9e481da7f5b226f9375b36c42636bb846e8d1aec9d7a08203f8e75c"
+          },
+          "after": {
+            "triangles": 32748,
+            "sha256": "dd0a77a1d9e481da7f5b226f9375b36c42636bb846e8d1aec9d7a08203f8e75c"
+          }
+        },
+        "gallery.work.04.sculpture": {
+          "before": {
+            "triangles": 13384,
+            "sha256": "dbba41137d6204abec63dee6fd4a77b09f9544be0dc9f7156e62992ddd23baf1"
+          },
+          "after": {
+            "triangles": 13384,
+            "sha256": "dbba41137d6204abec63dee6fd4a77b09f9544be0dc9f7156e62992ddd23baf1"
+          }
+        },
+        "gallery.work.04.sculpture.model": {
+          "before": {
+            "triangles": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "after": {
+            "triangles": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        "gallery.work.04.sculpture.model.champagne_ribbon": {
+          "before": {
+            "triangles": 2416,
+            "sha256": "c8e56cce6f0468d72a1db89b0cab74bc4411af4797cb02fec88f58754f0ee7eb"
+          },
+          "after": {
+            "triangles": 2416,
+            "sha256": "c8e56cce6f0468d72a1db89b0cab74bc4411af4797cb02fec88f58754f0ee7eb"
+          }
+        },
+        "gallery.work.04.sculpture.model.silver_ribbon": {
+          "before": {
+            "triangles": 2416,
+            "sha256": "7a6142ae47cd53ec3ec4077079b9d385f7b5dab82da25d5884c011996233133f"
+          },
+          "after": {
+            "triangles": 2416,
+            "sha256": "7a6142ae47cd53ec3ec4077079b9d385f7b5dab82da25d5884c011996233133f"
+          }
+        },
+        "gallery.work.05": {
+          "before": {
+            "triangles": 9300,
+            "sha256": "fde360dc4f49c3cae56e1a827726ceaa2576b506127012a4449b121fdab1254d"
+          },
+          "after": {
+            "triangles": 9300,
+            "sha256": "fde360dc4f49c3cae56e1a827726ceaa2576b506127012a4449b121fdab1254d"
+          }
+        },
+        "gallery.work.05.geometry": {
+          "before": {
+            "triangles": 3348,
+            "sha256": "a84aeacf0053fcc6661b69b35990f29bf159f2230b46d8b6d5e742d5715094d3"
+          },
+          "after": {
+            "triangles": 3348,
+            "sha256": "a84aeacf0053fcc6661b69b35990f29bf159f2230b46d8b6d5e742d5715094d3"
+          }
+        },
+        "gallery.work.05.geometry.faceted_core": {
+          "before": {
+            "triangles": 8,
+            "sha256": "0d08e6c8de581c1778d6fd66ae16e37489c159472042a8051638c9791137faa3"
+          },
+          "after": {
+            "triangles": 8,
+            "sha256": "0d08e6c8de581c1778d6fd66ae16e37489c159472042a8051638c9791137faa3"
+          }
+        },
+        "gallery.work.05.label": {
+          "before": {
+            "triangles": 34256,
+            "sha256": "235d9a9ac4ba59d2ca0d51938e401a8ea42fece3e4b1ccbcd2edd614f5acbcbf"
+          },
+          "after": {
+            "triangles": 34256,
+            "sha256": "235d9a9ac4ba59d2ca0d51938e401a8ea42fece3e4b1ccbcd2edd614f5acbcbf"
+          }
+        },
+        "gallery.work.05.vitrine": {
+          "before": {
+            "triangles": 5124,
+            "sha256": "c1936a315b75e5effc95282633c54b2628d661fc5c9ef4efb0efd9ece9f09237"
+          },
+          "after": {
+            "triangles": 5124,
+            "sha256": "c1936a315b75e5effc95282633c54b2628d661fc5c9ef4efb0efd9ece9f09237"
+          }
+        },
+        "gallery.work.05.vitrine.glass.face.-1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "814ad9e938d09948c44eb859f57f43dc2900a8ea2e78606d190583ca3d54eb6c"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "814ad9e938d09948c44eb859f57f43dc2900a8ea2e78606d190583ca3d54eb6c"
+          }
+        },
+        "gallery.work.05.vitrine.glass.face.1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "72834de50106ae91a8d5dacafd01ecfd9f1b3da713c17da8679ee40644b1be22"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "72834de50106ae91a8d5dacafd01ecfd9f1b3da713c17da8679ee40644b1be22"
+          }
+        },
+        "gallery.work.05.vitrine.glass.roof": {
+          "before": {
+            "triangles": 300,
+            "sha256": "0e475379e9d3fbd1ce5b83f235eadefaa826321d2eb604686db83d593a528f80"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "0e475379e9d3fbd1ce5b83f235eadefaa826321d2eb604686db83d593a528f80"
+          }
+        },
+        "gallery.work.05.vitrine.glass.side.-1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "bb2393a9d7ee3eceb6d6491b2eea44b6567d5e695e97ff4e062a6c0cefd9ed3e"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "bb2393a9d7ee3eceb6d6491b2eea44b6567d5e695e97ff4e062a6c0cefd9ed3e"
+          }
+        },
+        "gallery.work.05.vitrine.glass.side.1": {
+          "before": {
+            "triangles": 300,
+            "sha256": "231ac621c715928c3e050347c889e82c764c8c11b961406859e919893b6877bf"
+          },
+          "after": {
+            "triangles": 300,
+            "sha256": "231ac621c715928c3e050347c889e82c764c8c11b961406859e919893b6877bf"
+          }
+        },
+        "gallery.work.06": {
+          "before": {
+            "triangles": 10336,
+            "sha256": "16d0ec05f6b632dc8230f4dea4654b5450d7e6bfae639460677eb078270107aa"
+          },
+          "after": {
+            "triangles": 10336,
+            "sha256": "16d0ec05f6b632dc8230f4dea4654b5450d7e6bfae639460677eb078270107aa"
+          }
+        },
+        "gallery.work.06.art": {
+          "before": {
+            "triangles": 2896,
+            "sha256": "988e62b37d5ac483eb17f592b8bccd4ce107c76fe9802f2c9262209b9bc6417f"
+          },
+          "after": {
+            "triangles": 2896,
+            "sha256": "988e62b37d5ac483eb17f592b8bccd4ce107c76fe9802f2c9262209b9bc6417f"
+          }
+        },
+        "gallery.work.06.console": {
+          "before": {
+            "triangles": 2120,
+            "sha256": "d5edf369b6c344664d2fd9f4fc2a64a7402ed44737255bbcf79533b22485aac0"
+          },
+          "after": {
+            "triangles": 2120,
+            "sha256": "d5edf369b6c344664d2fd9f4fc2a64a7402ed44737255bbcf79533b22485aac0"
+          }
+        },
+        "gallery.work.06.label": {
+          "before": {
+            "triangles": 35292,
+            "sha256": "9e7f506c18129299a38af62f2d787383e7410cf5543f0f6363e915aeef995ea1"
+          },
+          "after": {
+            "triangles": 35292,
+            "sha256": "9e7f506c18129299a38af62f2d787383e7410cf5543f0f6363e915aeef995ea1"
+          }
+        },
+        "gallery.work.06.maquette": {
+          "before": {
+            "triangles": 4792,
+            "sha256": "7353282a8fc3685a15f940605bacf4dcdb868ef2c23e8143d29f585faed18a74"
+          },
+          "after": {
+            "triangles": 4792,
+            "sha256": "7353282a8fc3685a15f940605bacf4dcdb868ef2c23e8143d29f585faed18a74"
+          }
+        }
+      }
+    },
+    {
+      "check": "architectural glazing has its own transparent material and exported finite unit normals",
+      "status": "passed",
+      "material": {
+        "doubleSided": true,
+        "name": "GALLERY_ARCH_GLASS",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.77,
+            0.87,
+            0.9,
+            0.14
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 1
+        },
+        "alphaMode": "BLEND",
+        "extras": {
+          "web_kind": "glass",
+          "bake_atlas": -1,
+          "architecture_glass": true,
+          "solid_geometry_normals_preserved": true
+        },
+        "extensions": {
+          "KHR_materials_unlit": {}
+        }
+      },
+      "primitiveCount": 2,
+      "owners": [
+        "gallery.architecture.glazing",
+        "gallery.environment.terrace"
+      ],
+      "normalCount": 10296,
+      "minimumLength": 0.9999999349347842,
+      "maximumLength": 1.0000001285227775
+    },
+    {
+      "check": "architectural glass consists of closed thick outward shells with no degenerate faces",
+      "status": "passed",
+      "weldToleranceMetres": 0.000001,
+      "meshes": [
+        {
+          "owner": "gallery.architecture.glazing",
+          "mesh": "GALLERY_WEB_gallery.architecture.glazing__glass__A0.001",
+          "triangles": 4016,
+          "weldedVertices": 2032,
+          "degenerates": 0,
+          "minimumArea": 3.6135898473586694e-7,
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "inconsistentlyOrientedEdges": 0,
+          "shells": [
+            {
+              "triangles": 1020,
+              "min": [
+                -7.239999771118164,
+                0.4749999940395355,
+                -3.4660000801086426
+              ],
+              "max": [
+                -4.829999923706055,
+                5.065000057220459,
+                -3.434000015258789
+              ],
+              "signedVolume": 0.34618076839949014,
+              "surfaceArea": 22.031476798254175,
+              "effectiveThickness": 0.031426015747334946
+            },
+            {
+              "triangles": 188,
+              "min": [
+                -4.809999942779541,
+                0.4749999940395355,
+                -3.4660000801086426
+              ],
+              "max": [
+                -2.4100000858306885,
+                5.065000057220459,
+                -3.434000015258789
+              ],
+              "signedVolume": 0.352449541695531,
+              "surfaceArea": 22.44167201153402,
+              "effectiveThickness": 0.03141027473482258
+            },
+            {
+              "triangles": 188,
+              "min": [
+                -2.390000104904175,
+                0.4749999940395355,
+                -3.4660000801086426
+              ],
+              "max": [
+                -0.009999999776482582,
+                5.065000057220459,
+                -3.434000015258789
+              ],
+              "signedVolume": 0.34951214931932356,
+              "surfaceArea": 22.256900691735577,
+              "effectiveThickness": 0.03140708171008772
+            },
+            {
+              "triangles": 188,
+              "min": [
+                0.009999999776482582,
+                0.4749999940395355,
+                -3.4660000801086426
+              ],
+              "max": [
+                2.390000104904175,
+                5.065000057220459,
+                -3.434000015258789
+              ],
+              "signedVolume": 0.3495121493193224,
+              "surfaceArea": 22.256900691734653,
+              "effectiveThickness": 0.031407081710088915
+            },
+            {
+              "triangles": 188,
+              "min": [
+                2.4100000858306885,
+                0.4749999940395355,
+                -3.4660000801086426
+              ],
+              "max": [
+                4.809999942779541,
+                5.065000057220459,
+                -3.434000015258789
+              ],
+              "signedVolume": 0.352449541695531,
+              "surfaceArea": 22.44167201153402,
+              "effectiveThickness": 0.03141027473482258
+            },
+            {
+              "triangles": 1020,
+              "min": [
+                4.829999923706055,
+                0.4749999940395355,
+                -3.4660000801086426
+              ],
+              "max": [
+                7.239999771118164,
+                5.065000057220459,
+                -3.434000015258789
+              ],
+              "signedVolume": 0.34618077330998254,
+              "surfaceArea": 22.031478357453704,
+              "effectiveThickness": 0.031426013969041024
+            },
+            {
+              "triangles": 236,
+              "min": [
+                -7.284999847412109,
+                4.992280006408691,
+                -3.4821109771728516
+              ],
+              "max": [
+                -4.965000152587891,
+                5.190808296203613,
+                -1.2851918935775757
+              ],
+              "signedVolume": 0.1499101381306766,
+              "surfaceArea": 10.238924322457715,
+              "effectiveThickness": 0.029282399871218643
+            },
+            {
+              "triangles": 188,
+              "min": [
+                -4.835000038146973,
+                4.992280006408691,
+                -3.4821109771728516
+              ],
+              "max": [
+                -2.515000104904175,
+                5.190808296203613,
+                -1.2851918935775757
+              ],
+              "signedVolume": 0.1531959299744915,
+              "surfaceArea": 10.465874954597899,
+              "effectiveThickness": 0.029275322061284328
+            },
+            {
+              "triangles": 188,
+              "min": [
+                -2.384999990463257,
+                4.992280006408691,
+                -3.4821109771728516
+              ],
+              "max": [
+                -0.06499999761581421,
+                5.190808296203613,
+                -1.2851918935775757
+              ],
+              "signedVolume": 0.15319592952576333,
+              "surfaceArea": 10.465873391601987,
+              "effectiveThickness": 0.02927532634757279
+            },
+            {
+              "triangles": 188,
+              "min": [
+                0.06499999761581421,
+                4.992280006408691,
+                -3.4821109771728516
+              ],
+              "max": [
+                2.384999990463257,
+                5.190808296203613,
+                -1.2851918935775757
+              ],
+              "signedVolume": 0.15319592952571132,
+              "surfaceArea": 10.465873391497993,
+              "effectiveThickness": 0.029275326347853743
+            },
+            {
+              "triangles": 188,
+              "min": [
+                2.515000104904175,
+                4.992280006408691,
+                -3.4821109771728516
+              ],
+              "max": [
+                4.835000038146973,
+                5.190808296203613,
+                -1.2851918935775757
+              ],
+              "signedVolume": 0.1531959299745725,
+              "surfaceArea": 10.465874954549825,
+              "effectiveThickness": 0.029275322061434277
+            },
+            {
+              "triangles": 236,
+              "min": [
+                4.965000152587891,
+                4.992280006408691,
+                -3.4821109771728516
+              ],
+              "max": [
+                7.284999847412109,
+                5.190808296203613,
+                -1.2851918935775757
+              ],
+              "signedVolume": 0.1499102668607391,
+              "surfaceArea": 10.238923679736011,
+              "effectiveThickness": 0.02928242685457818
+            }
+          ]
+        },
+        {
+          "owner": "gallery.environment.terrace",
+          "mesh": "GALLERY_WEB_gallery.environment.terrace__glass__A1.001",
+          "triangles": 1200,
+          "weldedVertices": 608,
+          "degenerates": 0,
+          "minimumArea": 9.165562367502308e-7,
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "inconsistentlyOrientedEdges": 0,
+          "shells": [
+            {
+              "triangles": 300,
+              "min": [
+                -6.7499998807907104,
+                -0.06999999284744263,
+                -5.358999904245138
+              ],
+              "max": [
+                -3.4499999284744263,
+                0.9300000071525574,
+                -5.3409999050199986
+              ],
+              "signedVolume": 0.05929887352305654,
+              "surfaceArea": 6.716830876263215,
+              "effectiveThickness": 0.017656801135968566
+            },
+            {
+              "triangles": 300,
+              "min": [
+                -3.350000023841858,
+                -0.06999999284744263,
+                -5.358999904245138
+              ],
+              "max": [
+                -0.05000019073486328,
+                0.9300000071525574,
+                -5.3409999050199986
+              ],
+              "signedVolume": 0.059298872272670215,
+              "surfaceArea": 6.716830805391603,
+              "effectiveThickness": 0.017656800949957228
+            },
+            {
+              "triangles": 300,
+              "min": [
+                0.05000019073486328,
+                -0.06999999284744263,
+                -5.358999904245138
+              ],
+              "max": [
+                3.3499999046325684,
+                0.9300000071525574,
+                -5.3409999050199986
+              ],
+              "signedVolume": 0.059298870946992654,
+              "surfaceArea": 6.716830754729142,
+              "effectiveThickness": 0.017656800688402606
+            },
+            {
+              "triangles": 300,
+              "min": [
+                3.450000286102295,
+                -0.06999999284744263,
+                -5.358999904245138
+              ],
+              "max": [
+                6.749999523162842,
+                0.9300000071525574,
+                -5.3409999050199986
+              ],
+              "signedVolume": 0.05929886608042253,
+              "surfaceArea": 6.716830551940459,
+              "effectiveThickness": 0.017656799772413904
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check": "rebuilt architecture stays above the native ground and the portal remains in its left-side berth",
+      "status": "failed",
+      "error": "architecture extends beneath ground: minY -2.3450000286102295, ground -0.88"
+    },
+    {
+      "check": "return portal retains visible hittable surfaces and all six stations remain nonempty",
+      "status": "passed",
+      "portalBounds": {
+        "min": [
+          -9.085000038146973,
+          -2.190000057220459,
+          -1.9450000524520874
+        ],
+        "max": [
+          0.9750000238418579,
+          5.005000114440918,
+          2.0450000762939453
+        ]
+      },
+      "testedSurfaceCandidates": 128,
+      "visibleHit": {
+        "point": [
+          0.10000000149011967,
+          0.8766334622272218,
+          0.8819323057771342
+        ],
+        "distance": 52.1119503726932,
+        "candidate": [
+          -0.10000000149011612,
+          0.7149999936421711,
+          0.5516666968663533
+        ]
+      },
+      "stations": {
+        "gallery.work.01": {
+          "min": [
+            -5.639999866485596,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            -3.9600000381469727,
+            3.450000047683716,
+            -1.5679999589920044
+          ]
+        },
+        "gallery.work.02": {
+          "min": [
+            -3.5399999618530273,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            -1.8600000143051147,
+            3.450000047683716,
+            -0.9334606074685841
+          ]
+        },
+        "gallery.work.03": {
+          "min": [
+            -1.440000057220459,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            0.23999999463558197,
+            3.450000047683716,
+            -1.5679999589920044
+          ]
+        },
+        "gallery.work.04": {
+          "min": [
+            0.6600000262260437,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            2.3399999141693115,
+            3.450000047683716,
+            -0.753000020980835
+          ]
+        },
+        "gallery.work.05": {
+          "min": [
+            2.759999990463257,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            4.440000057220459,
+            3.450000047683716,
+            -0.9334606074685841
+          ]
+        },
+        "gallery.work.06": {
+          "min": [
+            4.860000133514404,
+            0.14999999105930328,
+            -2.7150001525878906
+          ],
+          "max": [
+            6.539999961853027,
+            3.450000047683716,
+            -1.5679999589920044
+          ]
+        }
+      }
+    },
+    {
+      "check": "atlas precision remains 4096/4096/4096/1024 in embedded and external day/night KTX2 images",
+      "status": "passed",
+      "embedded": [
+        {
+          "slot": 0,
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "aaff28f3566dedb318c1a923e195b0ce34da58b0963b494c3868cd09c38a55e8"
+        },
+        {
+          "slot": 1,
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "16c4d3860908cf84912261a8076b1e233a363dd456daf9c3f4b9c2f5172c79a9"
+        },
+        {
+          "slot": 2,
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "d489b1dad8a81492f09602aba74bfb6ba38b0ab59a6a429ce6bb86f7cfba7ce9"
+        },
+        {
+          "slot": 3,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "00aed5dbd4d8870b2e43bf117a8d9d757245709e8835114a8d53f29d8b05b14d"
+        }
+      ],
+      "external": [
+        {
+          "path": "public/textures/works-gallery-v4/day-0.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "91b88f02468249499ec01a639007cb6cbe21d2afac114d500b19561acd07b46b"
+        },
+        {
+          "path": "public/textures/works-gallery-v4/day-1.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "48cc530d238765a827f0bdfec051cd7d9a15c662cbab440945f6591737391770"
+        },
+        {
+          "path": "public/textures/works-gallery-v4/day-2.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "e6a3f799b66228140e07568f579e8a4bb14aeb8b7b45968e306462578cc40e8c"
+        },
+        {
+          "path": "public/textures/works-gallery-v4/day-3.ktx2",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "71a8069138e3a6a6c85b75ed5461b9d7182639fc41abd0eb3d6e5b698955e852"
+        },
+        {
+          "path": "public/textures/works-gallery-v4/night-0.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "aaff28f3566dedb318c1a923e195b0ce34da58b0963b494c3868cd09c38a55e8"
+        },
+        {
+          "path": "public/textures/works-gallery-v4/night-1.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "16c4d3860908cf84912261a8076b1e233a363dd456daf9c3f4b9c2f5172c79a9"
+        },
+        {
+          "path": "public/textures/works-gallery-v4/night-2.ktx2",
+          "dimensions": [
+            4096,
+            4096
+          ],
+          "sha256": "d489b1dad8a81492f09602aba74bfb6ba38b0ab59a6a429ce6bb86f7cfba7ce9"
+        },
+        {
+          "path": "public/textures/works-gallery-v4/night-3.ktx2",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "00aed5dbd4d8870b2e43bf117a8d9d757245709e8835114a8d53f29d8b05b14d"
+        }
+      ]
+    },
+    {
+      "check": "thin terrace dimensions and shared-stage clearance remain unchanged",
+      "status": "passed",
+      "terrace": {
+        "min": [
+          -11.104989051818848,
+          -0.8550000190734863,
+          -8.100000381469727
+        ],
+        "max": [
+          11.104989051818848,
+          1.0123358964920044,
+          6.099999904632568
+        ]
+      },
+      "stageOffset": [
+        34,
+        -0.185,
+        1.5
+      ],
+      "nativeFloorY": -0.88,
+      "roomGroundY": -1.0650002002716064,
+      "verticalClearance": 0.025000181198119975,
+      "horizontalClearance": 3.673285484313965
+    }
+  ]
+}

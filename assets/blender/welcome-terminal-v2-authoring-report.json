@@ -1,0 +1,170 @@
+{
+  "sourceFile": "assets/blender/welcome-terminal-v1.blend",
+  "blend": "assets/blender/welcome-terminal-v2.blend",
+  "glb": "public/models/welcome-terminal-v2.glb",
+  "meshCount": 27,
+  "materials": [
+    "TERMINAL_DarkRubber",
+    "TERMINAL_DeepBlue_Enamel",
+    "TERMINAL_IvoryCeramic",
+    "TERMINAL_OriginalScreenArtwork",
+    "TERMINAL_SatinTitanium",
+    "TERMINAL_Vermilion",
+    "TERMINAL_WarmTrace"
+  ],
+  "verification": [
+    {
+      "frame": 1,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.6559766530990601
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.6559766530990601
+        ]
+      }
+    },
+    {
+      "frame": 25,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.8291914463043213
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.8291914463043213
+        ]
+      }
+    },
+    {
+      "frame": 49,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.359477162361145
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.359477162361145
+        ]
+      }
+    },
+    {
+      "frame": 73,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.588877558708191
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.588877558708191
+        ]
+      }
+    },
+    {
+      "frame": 97,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.5835524797439575
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.5835524797439575
+        ]
+      }
+    }
+  ],
+  "originalScreenImage": "screen-art-render.png",
+  "originalScreenImageSize": [
+    2880,
+    1200
+  ],
+  "screenArtworkUnchanged": true,
+  "renderPath": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/renders/welcome-terminal-v2-blender.png",
+  "removedDegenerateFaces": 0
+}

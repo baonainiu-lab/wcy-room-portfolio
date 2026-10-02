@@ -1,0 +1,53 @@
+{
+  "revision": 1,
+  "created": "2026-09-24",
+  "status": "approved_B_model_and_local_web_integrated",
+  "method": "built-in image_gen",
+  "selected": "B",
+  "approved": true,
+  "modelingStarted": true,
+  "websiteIntegrated": true,
+  "variants": [
+    {
+      "key": "a-orbital-gallery",
+      "title": "A · 环形作品展厅",
+      "path": "docs/concepts/works-scene-v1/a-orbital-gallery.png",
+      "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-5ab946b4-1d94-4e15-aad2-a9277f0d3c66.png",
+      "width": 1464,
+      "height": 1074,
+      "bytes": 2477951,
+      "sha256": "61edffca302ce963b5c4e3c821a1f4fce6bd8c7a4198e7907f9a5eef6e1cdfbb"
+    },
+    {
+      "key": "b-sunlit-gallery",
+      "title": "B · 日光玻璃长廊",
+      "path": "docs/concepts/works-scene-v1/b-sunlit-gallery.png",
+      "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-230b7cb7-563a-4f04-9312-ae884afa7c20.png",
+      "width": 1464,
+      "height": 1074,
+      "bytes": 2693960,
+      "sha256": "0087d6b949e0f571f2f073c337de23878542bdd14be289ebb381815c8b089acd"
+    },
+    {
+      "key": "c-atelier-archive",
+      "title": "C · 层叠创作档案室",
+      "path": "docs/concepts/works-scene-v1/c-atelier-archive.png",
+      "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-893c6348-f0d7-414a-83b0-d690ce2a52af.png",
+      "width": 1464,
+      "height": 1074,
+      "bytes": 2350346,
+      "sha256": "c6611a36ce135802f22641fac84395f6eae62b81b00df890f71ebe5190ef4aca"
+    }
+  ],
+  "approvalEvidence": {
+    "quote": "这个吧",
+    "reference": "docs/concepts/works-scene-v1/b-sunlit-gallery.png",
+    "sha256": "0087d6b949e0f571f2f073c337de23878542bdd14be289ebb381815c8b089acd",
+    "date": "2026-09-24"
+  },
+  "renderApproved": true,
+  "renderApprovalEvidence": {
+    "quote": "继续吧",
+    "date": "2026-09-24"
+  }
+}

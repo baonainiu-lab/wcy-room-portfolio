@@ -1,0 +1,14 @@
+{
+  "source": "https://github.com/andrewwoan/abigail-bloom-portolio-bokoko33",
+  "demo": "https://abigail-bloom-portolio-bokoko33.vercel.app/",
+  "commit": "3402ac0a989a38b7f9a221ee968836e223062e0d",
+  "inspectedFile": "Experience/Preloader.js",
+  "functions": [
+    "firstIntro",
+    "secondIntro"
+  ],
+  "license": "MIT",
+  "copyright": "Copyright (c) 2023 Andrew Woan",
+  "adaptation": "The MIT firstIntro/secondIntro two-stage, first-entry choreography is adapted to this project's independent colored Blender creative terminal (welcome-terminal-v1), its native four-track TerminalUnfold sliding-hinge animation, and 36 independently animated V15 room props. The web runtime loads the authored GLB instead of constructing the terminal geometry. Five original PBR colors and the project's existing original SCREEN_ART bitmap are preserved; the embedded PNG is byte-identical to public/textures/lighting-v15/screen-art-render.png, with provenance in public/textures/lighting-v15/screen-v15-manifest.json. The former cube and orbital sculpture are superseded; the folded-room experiment remains experimental/non-active and failed strict normal-preservation validation. No upstream models, textures or personal content are used. Original MIT license text and copyright are retained; this code attribution does not relicense the project's artwork.",
+  "referenceSha256": "8a2953087d69825500ffc378f2b16b358a98831f402e420314853096e5a5b199"
+}

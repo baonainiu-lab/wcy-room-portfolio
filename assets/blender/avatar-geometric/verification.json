@@ -1,0 +1,30 @@
+{
+  "source_bounds_blender": [
+    [
+      -0.3869999945163727,
+      -0.3530000150203705,
+      7.450580596923828e-09
+    ],
+    [
+      0.3889999985694885,
+      0.2459999918937683,
+      1.7890000343322754
+    ]
+  ],
+  "reimported_bounds_blender": [
+    [
+      -0.38700005412101746,
+      -0.3530000150203705,
+      0.0
+    ],
+    [
+      0.38899993896484375,
+      0.2459999918937683,
+      1.7890000343322754
+    ]
+  ],
+  "max_bound_delta_m": 5.960464477539063e-08,
+  "same_geometry_bounds": true,
+  "reimported_mesh_count": 25,
+  "verification": "Actual exported web GLB reimported into same studio; original model hidden."
+}

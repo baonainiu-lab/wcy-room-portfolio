@@ -1,0 +1,101 @@
+{
+  "complete": false,
+  "textures": [
+    {
+      "state": "day",
+      "slot": "window",
+      "source": "public/textures/lighting-v16/window-day.png",
+      "sourceSha256": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968",
+      "path": "public/textures/lighting-v16/day-window.ktx2",
+      "sha256": "fcff9b5690ecd856882dd2861e8fde8676375bd72ac1de3fa17c76ceb5c88b1e",
+      "bytes": 2928384,
+      "resolution": [
+        3072,
+        1344
+      ],
+      "mipLevels": 12,
+      "uastcAstcBc7MipBytes": 5505472,
+      "rgba8MipBytes": 22020016
+    },
+    {
+      "state": "night",
+      "slot": "window",
+      "source": "public/textures/lighting-v16/window-night.png",
+      "sourceSha256": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf",
+      "path": "public/textures/lighting-v16/night-window.ktx2",
+      "sha256": "2ebc2758aedf310430c2e406d34b5c45ea623eefcbbfd0c68c942544185e02d1",
+      "bytes": 2716120,
+      "resolution": [
+        3072,
+        1344
+      ],
+      "mipLevels": 12,
+      "uastcAstcBc7MipBytes": 5505472,
+      "rgba8MipBytes": 22020016
+    },
+    {
+      "state": "static",
+      "slot": "screen",
+      "source": "public/textures/lighting-v16/screen-art-render.png",
+      "sourceSha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+      "path": "public/textures/lighting-v16/static-screen.ktx2",
+      "sha256": "67c99d974e2454c3e3920c27505bb2e7170c4aada5e6346afe34f2d647b9edb8",
+      "bytes": 2365894,
+      "resolution": [
+        2880,
+        1200
+      ],
+      "mipLevels": 12,
+      "uastcAstcBc7MipBytes": 4609440,
+      "rgba8MipBytes": 18431580
+    },
+    {
+      "state": "day",
+      "slot": 0,
+      "source": "public/textures/lighting-v16/day-0.png",
+      "sourceSha256": "dcc32144925073a9d9bd1db6a59373b7b6dcdf84563555a1438959a84b70825c",
+      "path": "public/textures/lighting-v16/day-0.ktx2",
+      "sha256": "681f60811180b84362f33c55276bdb32b5e0bb6154ce84777c25285258feaf11",
+      "bytes": 2704865,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    },
+    {
+      "state": "day",
+      "slot": 1,
+      "source": "public/textures/lighting-v16/day-1.png",
+      "sourceSha256": "08c7d208a3568788cb800f767553123fe7fe95ce1120245cd5b99c4e1a9a3ed3",
+      "path": "public/textures/lighting-v16/day-1.ktx2",
+      "sha256": "373339c3f072e189eb9424b3f6fe551db838d08610e82a52207ea998e8ca30a7",
+      "bytes": 2933557,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    },
+    {
+      "state": "day",
+      "slot": 2,
+      "source": "public/textures/lighting-v16/day-2.png",
+      "sourceSha256": "167be055d860da50e2066516816184e57859433d6677c2b57d2afdcb5d1b2aea",
+      "path": "public/textures/lighting-v16/day-2.ktx2",
+      "sha256": "383a106dfa6a35340fd61394ea139393c52ec88c1f118ea873491895b32bcc08",
+      "bytes": 6431597,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    }
+  ]
+}

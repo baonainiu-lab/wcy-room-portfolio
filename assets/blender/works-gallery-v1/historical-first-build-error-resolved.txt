@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<string>", line 8, in gallery_build_job
+  File "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/scripts/works_gallery_v1/gallery_build.py", line 162, in run
+    configure_camera(scene);lighting(scene)
+                            ~~~~~~~~^^^^^^^
+  File "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/scripts/works_gallery_v1/gallery_build.py", line 153, in lighting
+    set_lighting(scene,'day')
+    ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/scripts/works_gallery_v1/gallery_build.py", line 131, in set_lighting
+    sky=tree.nodes.new('ShaderNodeTexSky');sky.sky_type='NISHITA';sky.sun_elevation=.52;sky.sun_rotation=2.40;sky.sun_disc=False;sky.air_density=1.15;sky.dust_density=.35
+                                           ^^^^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "NISHITA" not found in ('SINGLE_SCATTERING', 'MULTIPLE_SCATTERING', 'PREETHAM', 'HOSEK_WILKIE')

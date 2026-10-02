@@ -1,0 +1,287 @@
+@use "./cube-intro";
+@use "./startup-light-show";
+@use "./styles/typography";
+
+:root {
+  font-family: var(--font-ui);
+  color: #ece3d5;
+  background: #11171b;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  --type-face: #efe2c8;
+  --type-depth: .4px .6px #b2976f, .8px 1.2px #92764f, 1.2px 1.8px #755e41, 1.6px 2.4px #5c4934, 2px 3px #403629, 2.4px 3.6px #28251f, 0 7px 8px #0009;
+  --type-depth-small: .35px .5px #9d815b, .7px 1px #615039, 0 3px 4px #000a;
+  --motion-ease: cubic-bezier(.22, 1, .36, 1);
+  --ink: #ece3d5;
+  --muted: #aaa9a1;
+  --quiet: #858c8d;
+  --accent: #efb564;
+  --accent-ink: #efb564;
+  --line: #c4b99e33;
+  --line-soft: #c4b99e21;
+  --panel: #191f22;
+  --panel-top: #24292b;
+  --control-top: #363837f2;
+  --control-middle: #202324f5;
+  --control-bottom: #15191af7;
+  --control-edge: #bdb19b61;
+  --edge-highlight: #e1d8c526;
+  --ui-inset: 40px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; overflow: hidden; }
+button { font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: 5px; }
+button:disabled { cursor: wait; }
+[hidden] { display: none !important; }
+#experience, #experience-canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+#experience-canvas { outline: none; touch-action: none; }
+.preview-ui { opacity: 0; }
+/* A soft edge wash keeps text legible as bright and dark architecture moves behind it. */
+body::before { content: ""; position: fixed; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(180deg, #0c141bc9, #0c141b00 142px), linear-gradient(0deg, #0c141b80, #0c141b00 140px); }
+.eyebrow { font-size: 10px; font-weight: 400; letter-spacing: .035em; line-height: 1.6; }
+
+/* The approved concept keeps the frame light: identity, text navigation, one dock. */
+.room-identity { position: fixed; z-index: 2; top: max(30px, env(safe-area-inset-top)); left: max(var(--ui-inset), env(safe-area-inset-left)); display: flex; align-items: center; gap: 20px; pointer-events: none; color: var(--ink); }
+.identity-mark { width: 55px; height: 49px; stroke: currentColor; stroke-width: .85; flex: 0 0 auto; overflow: visible; }
+.identity-mark circle { fill: currentColor; stroke: none; }
+.identity-title { margin: 0 0 9px; font-family: var(--font-display); font-size: 26px; font-weight: var(--font-display-weight); line-height: 1.2; letter-spacing: .08em; white-space: nowrap; color: var(--type-face); text-shadow: var(--type-depth); }
+.identity-subtitle { margin: 0; color: var(--muted); font-size: 10px; font-weight: 500; letter-spacing: .04em; }
+.scene-accessibility { position: fixed; z-index: 3; top: max(26px, env(safe-area-inset-top)); right: max(var(--ui-inset), env(safe-area-inset-right)); display: flex; align-items: center; gap: 27px; }
+.scene-accessibility button { position: relative; min-width: 52px; min-height: 48px; padding: 9px 8px 14px; color: var(--muted); background: none; border: 0; border-radius: 3px; font-family: var(--font-ui); font-size: 15px; font-weight: 600; letter-spacing: .015em; transition: color .24s; }
+.scene-accessibility button::after { content: ""; position: absolute; bottom: 1px; left: 50%; width: 17px; height: 3px; border-radius: 2px; background: var(--accent); opacity: 0; translate: -50% 0; scale: .3 1; transform-origin: center; transition: opacity .24s, scale .32s var(--motion-ease); }
+.scene-accessibility button:hover, .scene-accessibility button[data-active="true"] { color: var(--ink); }
+.scene-accessibility button[data-active="true"]::after { opacity: 1; scale: 1; }
+.scene-accessibility button:hover::after, .scene-accessibility button:focus-visible::after { opacity: .75; scale: 1.3 1; }
+
+.scene-controls { position: fixed; z-index: 3; left: 50%; bottom: max(36px, env(safe-area-inset-bottom)); translate: -50% 0; display: flex; align-items: center; padding: 6px 14px; min-height: 62px; color: var(--ink); border: 1px solid var(--control-edge); border-radius: 999px; background: linear-gradient(180deg, var(--control-top), var(--control-middle) 40%, var(--control-bottom)); box-shadow: inset 0 1px 0 var(--edge-highlight), inset 0 -1px 0 #00000033, 0 7px 18px #00000026; }
+.control-button { position: relative; display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 18px; color: var(--muted); background: transparent; border: 0; border-radius: 3px; font-size: 13px; font-weight: 600; line-height: 1; letter-spacing: .05em; transition: color .18s; }
+.control-button + .control-button::before, .scene-clock + .control-button::before { content: ""; position: absolute; top: 50%; left: 0; width: 1px; height: 24px; background: var(--line); translate: 0 -50%; }
+.control-button:hover { color: var(--ink); }
+.control-button:active { color: var(--accent-ink); }
+.control-button svg { width: 23px; height: 23px; flex: 0 0 auto; stroke: currentColor; stroke-width: 1.35; stroke-linecap: round; stroke-linejoin: round; }
+.nav-label { text-shadow: none; }
+.scene-clock { display: flex; align-items: center; gap: 11px; padding: 0 24px 0 13px; min-width: 189px; height: 48px; color: var(--ink); }
+.scene-clock[hidden], .scene-clock[hidden] + .control-button::before { display: none; }
+.scene-clock > svg { width: 29px; height: 29px; stroke: var(--accent-ink); stroke-width: 1.1; stroke-linecap: round; flex: 0 0 auto; }
+.scene-clock-readout > div { display: flex; align-items: baseline; gap: 10px; }
+.scene-clock time { font: 600 21px/1.05 var(--font-ui); font-variant-numeric: tabular-nums; letter-spacing: -.035em; }
+.scene-clock [data-scene-phase] { font-size: 10px; color: var(--accent-ink); white-space: nowrap; }
+.scene-clock [data-scene-period] { display: block; margin-top: 5px; font-size: 8px; letter-spacing: .035em; color: var(--muted); white-space: nowrap; }
+.scene-clock, .scene-clock svg, .scene-clock span { transition: color 1.5s ease; }
+.scene-controls { transition: color 1.5s ease, border-color 1.5s ease; }
+.control-icon-button { width: 64px; padding: 0 18px; }
+.mute-toggle-button[aria-pressed="true"] { color: var(--ink); }
+.sound-on { display: none; }
+.sound-enabled .sound-on { display: block; }
+.sound-enabled .sound-off { display: none; }
+.room-caption { position: fixed; z-index: 2; left: max(var(--ui-inset), env(safe-area-inset-left)); bottom: max(39px, env(safe-area-inset-bottom)); pointer-events: none; }
+.room-caption p { margin: 0; color: var(--muted); font-size: 11px; font-weight: 400; letter-spacing: .025em; line-height: 1.7; white-space: nowrap; }
+.room-caption p span { padding: 0 3px; opacity: .7; }
+.mobile-instructions { display: none; }
+
+/* Simple reading panels; empty personal fields remain explicitly unfilled. */
+.overlay { position: fixed; inset: 0; z-index: 5; background: #080d1299; }
+.modal { position: fixed; z-index: 6; top: 50%; left: 50%; translate: -50% -50%; width: min(660px, calc(100vw - 48px)); max-height: calc(100dvh - 64px); color: var(--ink); background: linear-gradient(155deg, var(--panel-top), var(--panel) 34%); border: 1px solid var(--control-edge); border-radius: 15px; box-shadow: inset 0 1px 0 var(--edge-highlight), 0 22px 60px #00000040; outline: none; overflow: hidden; }
+.modal[data-kind="work"] { width: min(740px, calc(100vw - 48px)); }
+.modal[data-kind="contact"] { width: min(540px, calc(100vw - 48px)); }
+.modal-exit-button { position: absolute; top: 17px; right: 17px; z-index: 1; display: grid; place-items: center; width: 44px; min-height: 44px; color: var(--muted); background: transparent; border: 0; border-radius: 50%; transition: color .18s, background .18s; }
+.modal-exit-button svg { width: 19px; height: 19px; stroke: currentColor; stroke-width: 1.25; stroke-linecap: round; }
+.modal-exit-button:hover { color: var(--ink); background: var(--line-soft); }
+.modal-wrapper { max-height: calc(100dvh - 121px); padding: 43px 43px 35px; overflow-y: auto; overscroll-behavior: contain; touch-action: pan-y; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.modal .eyebrow { margin: 0 0 17px; padding-right: 45px; color: var(--accent-ink); font-size: 10px; letter-spacing: .035em; }
+.modal h2 { margin: 0 0 25px; font-family: var(--font-display); font-size: 32px; font-weight: var(--font-display-weight); line-height: 1.35; letter-spacing: .08em; color: var(--type-face); text-shadow: var(--type-depth); }
+.modal-content p { margin: 0 0 25px; color: var(--muted); font-size: 13px; line-height: 1.95; max-width: 45em; }
+.placeholder-grid { display: grid; margin-top: 29px; border-top: 1px solid var(--line); }
+.placeholder-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 67px; padding: 18px 0; border-bottom: 1px solid var(--line-soft); font-size: 12px; line-height: 1.6; }
+.placeholder-row span:last-child { color: var(--muted); font-size: 10px; white-space: nowrap; }
+.asset-badge { display: inline-block; margin: 0 0 22px; padding: 0 0 0 10px; border-left: 2px solid var(--accent-ink); color: var(--accent-ink); font-size: 10px; line-height: 1.6; letter-spacing: .04em; }
+.modal-note { margin-bottom: 0 !important; padding: 19px 0 0; border-top: 1px solid var(--line-soft); color: var(--muted) !important; font-size: 11px !important; }
+.modal-link-button { min-height: 44px; margin-top: 14px; padding: 8px 0; color: var(--accent-ink); background: transparent; border: 0; font-size: 12px; text-underline-offset: 4px; }
+.modal-link-button:hover { text-decoration: underline; }
+.modal-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 43px; border-top: 1px solid var(--line-soft); color: var(--quiet); font-size: 9px; letter-spacing: .07em; }
+.modal-footer kbd { margin-right: 5px; font: 9px var(--font-ui); }
+.modal-close-hint-mobile { display: none; }
+.no-script { position: fixed; z-index: 20; inset: 0; display: grid; place-items: center; padding: 30px; color: #ece3d5; background: #11171b; }
+
+.day-theme { --ink: #33434b; --muted: #5d6b6f; --quiet: #697a7f; --accent: #a96929; --accent-ink: #945d25; --line: #435b6533; --line-soft: #435b6521; --panel: #eef0e9; --panel-top: #f6f5ed; --control-top: #f0f0e9f5; --control-middle: #e1e5e0f7; --control-bottom: #ccd3d0f7; --control-edge: #4f656a66; --edge-highlight: #ffffffb3; }
+.day-theme { --type-face: #33434b; --type-depth: .4px .6px #aab6b2, .8px 1.2px #90a09e, 1.2px 1.8px #7c8e8d, 1.6px 2.4px #657b7c, 2px 3px #536b6e, 2.4px 3.6px #40595e, 0 5px 6px #263e4826; --type-depth-small: .35px .5px #b8c2ba, .7px 1px #8b9d99, 0 2px 3px #263e4820; }
+.day-theme::before { background: linear-gradient(180deg, #eef2ecf2, #eef2ec00 142px), linear-gradient(0deg, #e2e8e4c9, #e2e8e400 148px); }
+
+/* Animate inner letter groups only. GSAP owns the outer .preview-ui reveal. */
+.type-word, .nav-label { display: inline-block; }
+.preview-ui[inert] .type-word,
+.preview-ui[inert] .identity-subtitle,
+.preview-ui[inert] .nav-label { opacity: 0; }
+.room-identity:not([inert]) .type-word,
+.room-identity:not([inert]) .identity-subtitle,
+.scene-accessibility:not([inert]) .nav-label {
+  /* Release transform after entry so the hover/press feedback can take over. */
+  animation: type-arrive .65s var(--motion-ease) backwards;
+}
+.room-identity .type-word:nth-child(2) { animation-delay: .075s; }
+.room-identity:not([inert]) .identity-subtitle { animation-delay: .13s; }
+.scene-accessibility button:nth-child(2) .nav-label { animation-delay: .065s; }
+.scene-accessibility button:nth-child(3) .nav-label { animation-delay: .13s; }
+.nav-label { transition: transform .3s var(--motion-ease); }
+.scene-accessibility button:hover .nav-label,
+.scene-accessibility button:focus-visible .nav-label { transform: translateY(-2px); }
+.scene-accessibility button:active .nav-label { transform: translateY(0) scale(.97); }
+.control-button > svg, .control-button > span {
+  transition: transform .32s var(--motion-ease), opacity .24s;
+}
+.control-button:hover > span, .control-button:focus-visible > span { transform: translateY(-1px); }
+.control-button:active > span, .control-button:active > svg { transform: scale(.93); }
+.control-button[data-action="reset"]:hover > svg { transform: rotate(-35deg); }
+.control-button[data-action="reset"]:active > svg { transform: rotate(-65deg) scale(.93); }
+.modal:not([hidden]) h2 { animation: type-arrive .55s .13s var(--motion-ease) backwards; }
+@keyframes type-arrive {
+  from { opacity: 0; translate: 0 7px; }
+  to { opacity: 1; translate: 0 0; }
+}
+
+/* V5: short responses to input; nothing runs continuously above the 3D room. */
+.scene-accessibility button::before {
+  content: "";
+  position: absolute;
+  inset: 4px -2px 6px;
+  border-radius: 7px;
+  background: linear-gradient(180deg, transparent, var(--line-soft));
+  opacity: 0;
+  transform: scale(.9);
+  transition: opacity .24s, transform .32s var(--motion-ease);
+  pointer-events: none;
+}
+.scene-accessibility button:is(:hover, :focus-visible)::before { opacity: .7; transform: scale(1); }
+.scene-accessibility button:active::before { opacity: 1; transform: scale(.94); }
+.scene-accessibility button:active::after { scale: .7 1; }
+.scene-accessibility button .nav-label { position: relative; }
+
+/* A single soft reflection crosses the actual metal, never the whole viewport. */
+.scene-controls::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: linear-gradient(112deg, transparent 38%, #ffffff1c 48%, #ffffff29 50%, transparent 62%);
+  background-size: 250% 100%;
+  background-position: 100% 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.scene-controls:not([inert]):is(:hover, :focus-within)::before {
+  animation: metal-reflection .72s ease-out;
+}
+.control-icon-button:focus-visible > svg { transform: translateY(-1px); }
+.mute-toggle-button:is(:hover, :focus-visible) > svg { transform: rotate(-7deg); }
+.mute-toggle-button:active > svg { transform: scale(.91); }
+.control-button:active { background: var(--line-soft); border-radius: 7px; }
+
+/* Stagger the reading order; GSAP continues to own the modal shell. */
+.modal:not([hidden]) .eyebrow,
+.modal:not([hidden]) .modal-content > p,
+.modal:not([hidden]) .asset-badge,
+.modal:not([hidden]) .placeholder-row,
+.modal:not([hidden]) .modal-link-button,
+.modal:not([hidden]) .modal-footer {
+  animation: panel-content-arrive .46s var(--motion-ease) backwards;
+}
+.modal:not([hidden]) .eyebrow { animation-delay: .07s; }
+.modal:not([hidden]) .modal-content > p,
+.modal:not([hidden]) .asset-badge { animation-delay: .2s; }
+.modal:not([hidden]) .placeholder-row { animation-delay: .26s; }
+.modal:not([hidden]) .placeholder-row:nth-child(2) { animation-delay: .315s; }
+.modal:not([hidden]) .placeholder-row:nth-child(n + 3) { animation-delay: .37s; }
+.modal:not([hidden]) .modal-content > .modal-note,
+.modal:not([hidden]) .modal-link-button,
+.modal:not([hidden]) .modal-footer { animation-delay: .4s; }
+.modal-exit-button svg { transition: transform .32s var(--motion-ease); }
+.modal-exit-button:is(:hover, :focus-visible) svg { transform: rotate(90deg); }
+.modal-exit-button:active svg { transform: rotate(90deg) scale(.82); }
+.modal-link-button { transition: color .18s, transform .24s var(--motion-ease); }
+.modal-link-button:is(:hover, :focus-visible) { transform: translateX(3px); }
+.modal-link-button:active { transform: translateX(1px); }
+@keyframes metal-reflection {
+  0% { opacity: 0; background-position: 100% 0; }
+  20% { opacity: 1; }
+  80% { opacity: .7; }
+  100% { opacity: 0; background-position: 0 0; }
+}
+@keyframes panel-content-arrive {
+  from { opacity: 0; translate: 0 9px; }
+  to { opacity: 1; translate: 0 0; }
+}
+
+@media (max-width: 1100px) {
+  :root { --ui-inset: 28px; }
+  .room-identity { gap: 15px; }
+  .identity-mark { width: 46px; height: 43px; }
+  .identity-title { font-size: 23px; margin-bottom: 8px; }
+  .scene-accessibility { gap: 21px; }
+  .scene-accessibility button { font-size: 14px; }
+  .scene-controls { bottom: max(28px, env(safe-area-inset-bottom)); min-height: 58px; padding: 5px 12px; }
+  .control-button { min-height: 46px; gap: 9px; font-size: 12px; }
+  .control-icon-button { width: 56px; padding: 0 16px; }
+  .control-button svg { width: 21px; height: 21px; }
+  .room-caption { bottom: max(101px, env(safe-area-inset-bottom)); }
+  .room-caption p { font-size: 10px; }
+}
+@media (max-width: 700px) {
+  :root { --ui-inset: 20px; }
+  .room-identity { top: max(23px, env(safe-area-inset-top)); gap: 11px; }
+  .identity-mark { width: 38px; height: 35px; }
+  .identity-title { font-size: 19px; letter-spacing: .1em; margin-bottom: 7px; }
+  .identity-subtitle { font-size: 8px; letter-spacing: .035em; }
+  .scene-accessibility { top: max(18px, env(safe-area-inset-top)); gap: 9px; }
+  .scene-accessibility button { min-width: 44px; min-height: 46px; padding: 8px 6px 13px; font-size: 12px; letter-spacing: .015em; }
+  .scene-accessibility button::after { width: 14px; height: 2px; }
+  .room-caption { left: 50%; translate: -50% 0; bottom: calc(max(23px, env(safe-area-inset-bottom)) + 72px); }
+  .desktop-instructions { display: none; }
+  .mobile-instructions { display: block; }
+  .room-caption p { font-size: 9px; }
+  .scene-controls { bottom: max(23px, env(safe-area-inset-bottom)); padding: 5px 10px; min-height: 58px; }
+  .scene-clock { min-width: 158px; padding: 0 16px 0 8px; gap: 9px; }
+  .scene-clock > svg { width: 25px; height: 25px; }
+  .scene-clock time { font-size: 19px; }
+  .control-icon-button { width: 49px; padding: 0 13px; }
+  .control-button { min-height: 46px; gap: 8px; font-size: 11px; }
+  .control-button svg { width: 20px; height: 20px; }
+  .control-button + .control-button::before, .scene-clock + .control-button::before { height: 20px; }
+  .modal, .modal[data-kind="work"], .modal[data-kind="contact"] { width: calc(100vw - 36px); max-height: calc(100dvh - 40px); border-radius: 12px; }
+  .modal-exit-button { top: 11px; right: 11px; }
+  .modal-wrapper { max-height: calc(100dvh - 95px); padding: 35px 26px 28px; }
+  .modal .eyebrow { margin-bottom: 17px; font-size: 9px; }
+  .modal h2 { font-size: 27px; margin-bottom: 21px; }
+  .modal-content p { font-size: 12px; }
+  .placeholder-grid { margin-top: 24px; }
+  .placeholder-row { min-height: 63px; gap: 15px; font-size: 11px; }
+  .placeholder-row span:last-child { font-size: 9px; }
+  .modal-footer { padding: 17px 26px; font-size: 8px; }
+  .modal-close-hint-desktop { display: none; }
+  .modal-close-hint-mobile { display: inline; }
+}
+@media (max-width: 400px) {
+  :root { --ui-inset: 16px; }
+  .room-identity { gap: 8px; }
+  .identity-mark { width: 31px; height: 30px; }
+  .identity-title { font-size: 16px; letter-spacing: .065em; }
+  .identity-subtitle { font-size: 8px; letter-spacing: .025em; }
+  .scene-accessibility { gap: 3px; }
+  .scene-accessibility button { padding-right: 4px; padding-left: 4px; font-size: 11px; }
+  .scene-controls { padding-right: 9px; padding-left: 9px; }
+  .scene-clock { min-width: 147px; padding-right: 12px; }
+  .control-icon-button { width: 46px; padding: 0 12px; }
+  .control-button { gap: 7px; }
+  .control-button svg { width: 19px; height: 19px; }
+}
+@media (max-height: 500px) {
+  .room-caption { display: none; }
+  .scene-controls { bottom: max(14px, env(safe-area-inset-bottom)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-delay: 0ms !important; animation-iteration-count: 1 !important; }
+  .nav-label, .control-button > svg, .control-button > span, .modal-exit-button svg,
+  .modal-link-button, .scene-accessibility button::before { transform: none !important; }
+  .scene-controls::before { display: none; }
+}

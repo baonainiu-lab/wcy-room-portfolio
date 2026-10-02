@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "preparedSha256": "5af36cddbb755746bcc02031418feafb5006105bfb536aa7b289b8966ee9944e",
+  "runtimeActivated": false,
+  "checks": "Area-weighted samples on actual upward floor triangles via existing BakeUV; original RGBM32 decoded into scene radiance.",
+  "roomGeometrySource": "public/models/orbital-atelier-v16.glb",
+  "geometrySha256": "d137bfe14e940f7dfe26b0dd2e23b68768adc4e8f5bf58fc5c6d3965d0baf00c",
+  "rows": [
+    {
+      "slot": 0,
+      "node": "WEB8_architecture.platform__baked__A0",
+      "upwardInteriorFloorAreaM2": 68.49302673339844,
+      "samples": 4285,
+      "litSamples": 2568,
+      "fractionChangedMoreThanTwoPercent": 1.0,
+      "linearDifferenceP50P95": [
+        7.972319602966309,
+        152.26144409179688
+      ],
+      "states": {
+        "v17": {
+          "medianLinearRGB": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "medianRedToBlueRatio": 0.0,
+          "medianF0": [
+            0.07450980693101883,
+            0.09019608050584793,
+            0.11372549086809158
+          ],
+          "medianRoughness": 0.42352941632270813
+        },
+        "v18": {
+          "medianLinearRGB": [
+            0.03986159712076187,
+            0.022145330905914307,
+            0.013779317028820515
+          ],
+          "medianRedToBlueRatio": 3.2709789276123047,
+          "medianF0": [
+            0.03921568766236305,
+            0.03921568766236305,
+            0.03921568766236305
+          ],
+          "medianRoughness": 0.4274509847164154
+        }
+      },
+      "sourceHashes": {
+        "v17-day": "1abc4b04588f461e79b1f8806899a2e739dc05e5db133b2c159b9fa8b53ea0fc",
+        "v17-specular": "061a8b299cc2cc61c1866a5c179877f86f46c92ce239435fbc8cec053dc113f5",
+        "v17-normal": "43cc38376bdf01949cde49f59cdd0d9304c6176d35be2dcf16279f5f1654f5d6",
+        "v18-day": "71009515dc3dc4054f5ea20c69060dbf19c8911492c842d5e7a649ff5a6afd6c",
+        "v18-specular": "7d2d0cc0cad46f07044dd4e5204dd9915bb4a9a7e4e54e21698f801d982d0d16",
+        "v18-normal": "6893d012a6f161f1d5ef007e66bf55f861ddd427a5faacb0931f80040122bcfe"
+      }
+    }
+  ],
+  "limitations": "Numerical source-bake validation; photoreal appearance, grazing reflections and warm palette still require source-render / browser review."
+}

@@ -1,0 +1,55 @@
+{
+  "complete": true,
+  "status": "synthetic_scope_controls_passed_not_a_release_gate",
+  "purpose": "Small in-memory contract controls; historical graph snapshots are test fixtures only. Official package validation is stubbed and is not claimed complete. No Blender, GPU, PNG decode, source mutation, or release acceptance.",
+  "checks": [
+    {
+      "name": "wrong_wall_asset",
+      "rejected": true,
+      "reason": "White wall/black cap material identity or geometry displacement changed."
+    },
+    {
+      "name": "wrong_map_colorspace",
+      "rejected": true,
+      "reason": "Authored packed material map differs from the official input or projection/color-space contract: Marble002/normal"
+    },
+    {
+      "name": "packed_bytes_changed",
+      "rejected": true,
+      "reason": "Authored packed material map differs from the official input or projection/color-space contract: Marble002/color"
+    },
+    {
+      "name": "preview_instead_of_4k",
+      "rejected": true,
+      "reason": "Authored packed material map differs from the official input or projection/color-space contract: Marble002/color"
+    },
+    {
+      "name": "lost_projection",
+      "rejected": true,
+      "reason": "Authored packed material map differs from the official input or projection/color-space contract: Marble002/color"
+    },
+    {
+      "name": "undeclared_floor_material_rebinding",
+      "rejected": true,
+      "reason": "Actual whole-file material slot changes differ from the exact declared wall/cap replacements."
+    },
+    {
+      "name": "repeated_editable_binding",
+      "rejected": true,
+      "reason": "Actual whole-file material slot changes differ from the exact declared wall/cap replacements."
+    },
+    {
+      "name": "old_floor_graph_changed",
+      "rejected": true,
+      "reason": "An original V19 material graph changed in prepared."
+    },
+    {
+      "name": "rejected_review_revision",
+      "rejected": true,
+      "reason": "Rejected procedural review revisions cannot establish the current marble release."
+    }
+  ],
+  "positiveScopeFixturePassed": true,
+  "verifierSha256": "92ac06974e35f2367fce016fed0fef254d8ab2032d9603712f399b2744ce6946",
+  "runtimeOrSourceReleaseVerified": false
+}

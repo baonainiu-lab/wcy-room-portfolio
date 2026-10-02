@@ -1,0 +1,148 @@
+{
+  "collection": "INTERIOR_WARM_V8",
+  "scene": "ORBITAL_ATELIER_V2",
+  "roots": [
+    {
+      "asset_id": "v8_desk_glow_lamp",
+      "root": "IW8_DeskPetal_Root",
+      "position": [
+        -3.5999999046325684,
+        -0.20000000298023224,
+        1.8580000400543213
+      ],
+      "bounds_min": [
+        -3.7749998569488525,
+        -0.32499998807907104,
+        1.8580000400543213
+      ],
+      "bounds_max": [
+        -3.369999885559082,
+        -0.07500000298023224,
+        2.2850000858306885
+      ]
+    },
+    {
+      "asset_id": "v8_window_light_bar",
+      "root": "IW8_WindowUndershelf_Root",
+      "position": [
+        1.4500000476837158,
+        2.4000000953674316,
+        1.2940000295639038
+      ],
+      "bounds_min": [
+        1.0150001049041748,
+        2.326000213623047,
+        1.246500015258789
+      ],
+      "bounds_max": [
+        1.8849999904632568,
+        2.5350000858306885,
+        1.3450000286102295
+      ]
+    },
+    {
+      "asset_id": "v8_reading_puck",
+      "root": "IW8_ReadingPuck_Root",
+      "position": [
+        0.5400000214576721,
+        -0.8999999761581421,
+        0.9549999833106995
+      ],
+      "bounds_min": [
+        0.35750001668930054,
+        -1.0149999856948853,
+        0.9549999833106995
+      ],
+      "bounds_max": [
+        0.6650000214576721,
+        -0.7680000066757202,
+        1.187000036239624
+      ]
+    }
+  ],
+  "root_count": 3,
+  "interactive_group_count": 3,
+  "mesh_count": 23,
+  "triangles": 1556,
+  "within_budget": true,
+  "warm_light_sources": [
+    {
+      "id": "v8_desk_glow_lamp",
+      "position": [
+        -3.55,
+        -0.2,
+        2.187
+      ],
+      "target": [
+        -2.91,
+        -0.28,
+        1.87
+      ],
+      "type": "area",
+      "energy": 24,
+      "color_linear": [
+        1.0,
+        0.62,
+        0.32
+      ],
+      "width": 0.26,
+      "height": 0.14
+    },
+    {
+      "id": "v8_window_light_bar",
+      "position": [
+        1.45,
+        2.318,
+        1.234
+      ],
+      "target": [
+        1.45,
+        1.94,
+        0.63
+      ],
+      "type": "area",
+      "energy": 26,
+      "color_linear": [
+        1.0,
+        0.58,
+        0.27
+      ],
+      "width": 0.7,
+      "height": 0.06
+    },
+    {
+      "id": "v8_reading_puck",
+      "position": [
+        0.49,
+        -0.948,
+        1.101
+      ],
+      "target": [
+        -0.19,
+        -1.2,
+        0.96
+      ],
+      "type": "area",
+      "energy": 18,
+      "color_linear": [
+        1.0,
+        0.66,
+        0.37
+      ],
+      "width": 0.18,
+      "height": 0.1
+    }
+  ],
+  "materials": [
+    "IW8_MAT_SatinTitanium",
+    "IW8_MAT_IvoryCeramic",
+    "IW8_MAT_Graphite",
+    "IW8_MAT_WarmDiffuser"
+  ],
+  "notes": "Three shielded tiny practical fixtures; 24W desk / 26W undershelf / 18W reading pools. No global fill or bright bare bulbs.",
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v7.blend",
+  "output": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v8-interior.blend",
+  "bytes": 67713413,
+  "source_unchanged": true,
+  "source_sha256": "27283de9e60a7f3303fe6aeae3c1e8c0bcc538baf98e45126e87ff97e0fbc5c2"
+}

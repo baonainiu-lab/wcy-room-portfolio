@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "source": "assets/textures/about-atelier-v3/landscape/lake_pier_2k.hdr",
+  "sourceSha256": "e5daa3e7d1de3807c6e0c07131943b24a6518e2f0f4adfcaa3272d8c7a50b6c2",
+  "modelSource": "assets/blender/about-atelier-v3.blend",
+  "modelSourceSha256": "d7a9ec353e8214201c586e823283259c64f63a99f8284913d8aff94c691a2b40",
+  "modelSourceUnchanged": true,
+  "output": "public/textures/about-atelier-v3/landscape/lake-pier-day.png",
+  "sha256": "87efbf1575fbde84b2c70eee72875541b983d4ab3af8c8239ca55c151b4ba3e9",
+  "bytes": 2736193,
+  "resolution": [
+    2048,
+    1024
+  ],
+  "viewTransform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "originalSceneExposure": 0.25,
+  "displayExposure": -0.75,
+  "gamma": 1.0,
+  "rotation": "None; original equirectangular panorama pixel orientation",
+  "runtime": "sRGB map under NoToneMapping; apply original scene environment rotation at runtime; source HDR remains PMREM lighting",
+  "license": "Existing CC0-1.0 Poly Haven environment; no new imagery",
+  "licenseManifest": "assets/textures/about-atelier-v3/landscape/manifest.json"
+}

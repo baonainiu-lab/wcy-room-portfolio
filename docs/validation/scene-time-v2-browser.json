@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-09-28T04:54:49.347Z",
+  "scope": "Actual local WebGL page: day/night endpoints, mid-dawn screenshot, completed automatic cycle. Samples are sparse DOM diagnostics; CPU continuity report separately verifies per-frame increments. No browser FPS claim.",
+  "samples": [
+    {
+      "at": 1790571204438,
+      "clock": {
+        "revision": 2,
+        "hour": 23.802959999999977,
+        "dayMix": 0,
+        "brightnessMix": 0,
+        "elapsed": 34.50739999999994,
+        "cycleSeconds": 60,
+        "paused": false,
+        "reducedMotion": false,
+        "startHour": 10,
+        "sunriseHours": [
+          4,
+          10
+        ],
+        "sunsetHours": [
+          16,
+          22
+        ],
+        "transitionSeconds": 15,
+        "blendCurve": "perceptual-quintic",
+        "lightGamma": 2.2,
+        "manualControls": false
+      },
+      "theme": {
+        "revision": 1,
+        "dayMix": 0,
+        "backgroundMix": 0,
+        "discreteThemeSwitch": false
+      },
+      "errors": []
+    },
+    {
+      "at": 1790571222390,
+      "clock": {
+        "revision": 2,
+        "hour": 7.00284000000083,
+        "dayMix": 0.21848842052678596,
+        "brightnessMix": 0.5008874994700211,
+        "elapsed": 52.507100000002076,
+        "cycleSeconds": 60,
+        "paused": false,
+        "reducedMotion": false,
+        "startHour": 10,
+        "sunriseHours": [
+          4,
+          10
+        ],
+        "sunsetHours": [
+          16,
+          22
+        ],
+        "transitionSeconds": 15,
+        "blendCurve": "perceptual-quintic",
+        "lightGamma": 2.2,
+        "manualControls": false
+      },
+      "theme": {
+        "revision": 1,
+        "dayMix": 0.21848842052678596,
+        "backgroundMix": 0.5008874994700211,
+        "discreteThemeSwitch": false
+      },
+      "errors": []
+    },
+    {
+      "at": 1790571237128,
+      "clock": {
+        "revision": 2,
+        "hour": 13.002720000001453,
+        "dayMix": 1,
+        "brightnessMix": 1,
+        "elapsed": 67.50680000000364,
+        "cycleSeconds": 60,
+        "paused": false,
+        "reducedMotion": false,
+        "startHour": 10,
+        "sunriseHours": [
+          4,
+          10
+        ],
+        "sunsetHours": [
+          16,
+          22
+        ],
+        "transitionSeconds": 15,
+        "blendCurve": "perceptual-quintic",
+        "lightGamma": 2.2,
+        "manualControls": false
+      },
+      "theme": {
+        "revision": 1,
+        "dayMix": 1,
+        "backgroundMix": 1,
+        "discreteThemeSwitch": false
+      },
+      "errors": []
+    }
+  ],
+  "consoleErrors": [],
+  "logoVisibleInDayAndNight": true
+}

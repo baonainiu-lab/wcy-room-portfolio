@@ -1,0 +1,968 @@
+{
+  "stage": "validated_asset_handoff",
+  "source": "assets/blender/welcome-terminal-v2.blend",
+  "sourceSha256": "0461e14ab58d2fb6d11cd31f068fb6f51d4b2e2e07b3c931580c275ebc0eaa53",
+  "prepared": "assets/blender/welcome-terminal-v3-material-source.blend",
+  "preparedSha256": "3aab8383f872cddba9168ee60787c7a0c16466927c2bd3f5d40d1ada0f85bd2e",
+  "originalGeometry": [
+    {
+      "name": "terminal.base.navy",
+      "hash": "2a732c236ea9e7d33a036bcdece0e8aeb2faa7c953b8d7c9fd6d13df28138dbc",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 1016,
+      "triangles": 2028
+    },
+    {
+      "name": "terminal.base.titanium_seam",
+      "hash": "48c4e57bb9960c3611ec6b26a012cf7dab7af05c25c195cbfcc37b9a9f0d23cd",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.18700000643730164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.base.underside",
+      "hash": "f5ccf18eaae6b8a87dadb0452657ba73e874a8d70c631cd113a8b1872bd5d91c",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.03500000014901161
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.base.upper",
+      "hash": "3f635a001df7799a1357ae09157e6b3e2fef6de2e7a52696f17091734bfa94a3",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.22699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.dial.indicator",
+      "hash": "d9100eedf84dac66eeb380b2c802c91fd6899dc27ff7ad9ca535d28914c6b418",
+      "parent": "seed.dial",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.07199996709823608
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.08199998736381531
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.dial.orange",
+      "hash": "2be775c5201aa4f58ef549cb9bc365fdc2bdff03d0a78c63b0a9ba699cedb27b",
+      "parent": "seed.dial",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.06099998950958252
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 512,
+      "triangles": 1020
+    },
+    {
+      "name": "terminal.dial.socket",
+      "hash": "36988087b936b267ebb8214c2f3ff70fae34de295bce3bb4ecd7091dbd4fe7e5",
+      "parent": "seed.dial",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 512,
+      "triangles": 1020
+    },
+    {
+      "name": "terminal.dial.titanium",
+      "hash": "cb9a5a4a2bea4dd091684c34c7ff4a0096ed8ca6f24d85e11f1da1493f7aef20",
+      "parent": "seed.dial",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.025000005960464478
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 512,
+      "triangles": 1020
+    },
+    {
+      "name": "terminal.lid.artwork",
+      "hash": "aa44c18d6b72a1cfa65b2c797a92f3cfff6c5220cbf27db387713eb9b51db31e",
+      "parent": "seed.lid",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.5999999642372131
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999403953552,
+          0.13299992680549622
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 4,
+      "triangles": 2
+    },
+    {
+      "name": "terminal.lid.navy",
+      "hash": "9ae75119b0db0baee071d4ab123dc64ada2a4ab1aa1dfeba10f4a0cdb550b58d",
+      "parent": "seed.lid",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.6299999356269836
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999403953552,
+          0.08699996769428253
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.lid.rim",
+      "hash": "cca6410afa7910ee22326bcfb02804b2922559e45d6f2bf47853a2caf736d470",
+      "parent": "seed.lid",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.6299999356269836
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999403953552,
+          0.019999992102384567
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.lid.screen_recess",
+      "hash": "4079671a8714163eb7a782b63467021bd220cb5cecbd5abb38a3e2be7187daf8",
+      "parent": "seed.lid",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.5999999642372131
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999403953552,
+          0.1199999749660492
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.lid.warm_indicator",
+      "hash": "7a2f9bc0e64c22979dc11b1daa00c95766b97804c758fdce8d349c04d8d0a256",
+      "parent": "seed.lid",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.054999977350234985
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999403953552,
+          0.12399998307228088
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.rail.orange",
+      "hash": "a8652559d67133fa8201bd6a57adbd7a8eac04c38606c8245a3ae1e60883bc84",
+      "parent": "seed.rail",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.23000000417232513
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04200001060962677
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.rail.silver",
+      "hash": "7e2b27bbe3193736e0e3f69d58cc69c8a956ca215d2ddabb6e15fbefa313277b",
+      "parent": "seed.rail",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 296,
+      "triangles": 588
+    },
+    {
+      "name": "terminal.status.0",
+      "hash": "09c184a2ceec38bd8a90766e7c0728dfda5b4bc20ae70b5f3c16438ab838268c",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0800000429153442
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7799999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.26100000739097595
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 268,
+      "triangles": 532
+    },
+    {
+      "name": "terminal.status.1",
+      "hash": "09c184a2ceec38bd8a90766e7c0728dfda5b4bc20ae70b5f3c16438ab838268c",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.003000020980835
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7799999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.26100000739097595
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 268,
+      "triangles": 532
+    },
+    {
+      "name": "terminal.status.2",
+      "hash": "09c184a2ceec38bd8a90766e7c0728dfda5b4bc20ae70b5f3c16438ab838268c",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.9259999990463257
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7799999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.26100000739097595
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 268,
+      "triangles": 532
+    },
+    {
+      "name": "terminal.v2.base.darkrubber",
+      "hash": "07af8e8baf2583166d93bb0ae0938f1c69be199ac7c970ec003f3040c56c8748",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7699999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8579999804496765
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 972,
+      "triangles": 1860
+    },
+    {
+      "name": "terminal.v2.base.ivoryceramic",
+      "hash": "e6ee22c707db2801b0c669e02f1c972ae0c2ab4782895b3ed22f02b7ca458f42",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.8399999737739563
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.9046000242233276
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.08500000089406967
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 88,
+      "triangles": 168
+    },
+    {
+      "name": "terminal.v2.base.satintitanium",
+      "hash": "59dd268f097868642846ad137da006874f12566e459f064eb38541d99161a1e1",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.8399999737739563
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.9010000228881836
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.08500000089406967
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 623,
+      "triangles": 1226
+    },
+    {
+      "name": "terminal.v2.base.vermilion",
+      "hash": "976cfc6491926f26e0aca3307749625a5f4808151ba31817beeb6937d2be2667",
+      "parent": "seed.base",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.4819999933242798
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7789999842643738
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.2540000081062317
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 44,
+      "triangles": 84
+    },
+    {
+      "name": "terminal.v2.dial.ivoryceramic",
+      "hash": "1b38e874478e4787beaeeed35fd5005df0249724ae66c569845c6da22bd1ea65",
+      "parent": "seed.dial",
+      "matrix": [
+        [
+          0.9135454297065735,
+          -0.4067366421222687,
+          0.0,
+          0.08587324619293213
+        ],
+        [
+          0.4067366421222687,
+          0.9135454297065735,
+          0.0,
+          0.03823322057723999
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.08000001311302185
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 504,
+      "triangles": 972
+    },
+    {
+      "name": "terminal.v2.dial.satintitanium",
+      "hash": "6d55be30d4d2eee1c3b4accb6a58858b58c330b8618acb06b0bb209154cd628a",
+      "parent": "seed.dial",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.1419999599456787
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.030000001192092896
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 1568,
+      "triangles": 3024
+    },
+    {
+      "name": "terminal.v2.lid.darkrubber",
+      "hash": "bc2f6930ea93b873d97f6598f030c00b836d014218bd2922dc8524f06703f008",
+      "parent": "seed.lid",
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          -0.6620000004768372
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.0029999911785125732
+        ],
+        [
+          -0.9999999403953552,
+          0.0,
+          -4.371138828673793e-08,
+          -0.006000027060508728
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 1376,
+      "triangles": 2696
+    },
+    {
+      "name": "terminal.v2.lid.satintitanium",
+      "hash": "36ccd27d4d769293824f57958178487893155bda2b24cbfbb0e404db64949af6",
+      "parent": "seed.lid",
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          -0.5400000214576721
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.0029999911785125732
+        ],
+        [
+          -0.9999999403953552,
+          0.0,
+          -4.371138828673793e-08,
+          -0.006000027060508728
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 1880,
+      "triangles": 3704
+    },
+    {
+      "name": "terminal.v2.rail.darkrubber",
+      "hash": "4e7be96da415c2ee1a55bd27b46777cd7f83cbaeea8987aa1c86da039c0e7938",
+      "parent": "seed.rail",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.5099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.03350000083446503
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 288,
+      "triangles": 568
+    }
+  ],
+  "geometryNormalsOriginalUVsUnchanged": true,
+  "addedUV": "SurfaceUV",
+  "meshCount": 27,
+  "materialCount": 7,
+  "surfaceAtlasSize": 2048,
+  "productionMethod": "Blender MCP execute_blender_code_for_cli file-targeted tool; interactive courtyard never opened or modified; material-only script assistance accurately recorded",
+  "license": "Project-authored procedural finish nodes; existing original screen artwork unchanged; no downloaded third-party material used",
+  "bakes": {
+    "basecolor": {
+      "path": "public/textures/welcome-terminal-v3/basecolor.png",
+      "sha256": "6c63af0452bce1cfb6b3b3d1ea90cd3c5de03fbcb5509af1dcc37c2211b04e1c",
+      "size": [
+        2048,
+        2048
+      ],
+      "samples": 16,
+      "kind": "EMIT_data",
+      "seconds": 34.45,
+      "sourceSha256": "3aab8383f872cddba9168ee60787c7a0c16466927c2bd3f5d40d1ada0f85bd2e"
+    },
+    "orm": {
+      "path": "public/textures/welcome-terminal-v3/orm.png",
+      "sha256": "9db635aa3a75f8ae4661f3a28059016e4e73ad3df24a9c2a844df55529c0e4a9",
+      "size": [
+        2048,
+        2048
+      ],
+      "samples": 16,
+      "kind": "EMIT_data",
+      "seconds": 54.23,
+      "sourceSha256": "3aab8383f872cddba9168ee60787c7a0c16466927c2bd3f5d40d1ada0f85bd2e"
+    },
+    "normal": {
+      "path": "public/textures/welcome-terminal-v3/normal.png",
+      "sha256": "9f5977531a71c3e098be7415e5967f11a9041f2db027c8ef9a3fe21bd7f44432",
+      "size": [
+        2048,
+        2048
+      ],
+      "samples": 16,
+      "kind": "TANGENT_NORMAL",
+      "seconds": 34.79,
+      "sourceSha256": "3aab8383f872cddba9168ee60787c7a0c16466927c2bd3f5d40d1ada0f85bd2e"
+    }
+  },
+  "finalSource": "assets/blender/welcome-terminal-v3.blend",
+  "finalSourceSha256": "e0b4ca26db68e670eb05d831042ab25d8899ec65da72de4d6ebb0e75ee1b6fca",
+  "model": "public/models/welcome-terminal-v3.glb",
+  "modelSha256": "e811f7dc9217255e9dc85877d35a3b30339284352888102c03c2db3d29a2255d",
+  "modelBytes": 44158812,
+  "sourceV2Unchanged": true,
+  "surfaceUVRevision": 2,
+  "detailUVNote": "Ceramic dial micro-engraving islands receive 12x UV edge scale before atlas repack, preventing subpixel empty bake coverage; original UV0 unchanged",
+  "compressionReport": "assets/blender/welcome-terminal-v3-compression.json",
+  "runtimeModel": "public/models/welcome-terminal-v3-compressed.glb",
+  "runtimeSha256": "d0d5398e18e4315fa31b1c6653bd915d84c9ddcb91076403a22f61c066f1ee5c",
+  "preview": {
+    "path": "renders/welcome-terminal-v3-materials.png",
+    "sha256": "bf103f6967cb49b2285211c1dd5aa7e1c5a60e55b146985a519895e70d5b9771",
+    "samples": 64,
+    "method": "Blender MCP file-targeted Cycles render; visually inspected; not browser WebGL"
+  },
+  "validationReports": [
+    "docs/validation/terminal-v3-material-data.json",
+    "docs/validation/terminal-v3-controller.json",
+    "docs/validation/terminal-dock-v3-room-v16.json"
+  ],
+  "browserVerificationPending": true
+}

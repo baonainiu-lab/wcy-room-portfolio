@@ -1,0 +1,58 @@
+// The retained controls keep their existing event bindings, but the room has
+// only one persistent visual mark. Import after style.scss.
+.room-identity {
+  top: max(25px, env(safe-area-inset-top));
+  left: max(30px, env(safe-area-inset-left));
+  gap: 0;
+}
+
+.atelier-orbit-mark,
+.room-identity .identity-mark {
+  display: block;
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+// Keep the approved orbit/star silhouette crisp at the persistent icon size.
+.atelier-orbit-mark { filter: drop-shadow(0 2px 2px #142f3e12); }
+.room-identity::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #e6d9c1;
+  -webkit-mask: url('/media/brand/atelier-orbit-v4.svg') center / contain no-repeat;
+  mask: url('/media/brand/atelier-orbit-v4.svg') center / contain no-repeat;
+  // The approved light-on-dark silhouette follows the same continuous clock.
+  opacity: calc(100% - var(--scene-day-percent, 100%));
+  pointer-events: none;
+}
+.cube-intro .intro-brand {
+  padding: 8px;
+  border-radius: 18px 6px 18px 6px;
+  background: #f4f0e6ed;
+  border: 1px solid #ffffff9c;
+}
+.room-identity .identity-copy[hidden],
+.intro-identity[hidden],
+.scene-accessibility[hidden],
+.scene-controls[hidden],
+.room-caption[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  .room-identity {
+    top: max(19px, env(safe-area-inset-top));
+    left: max(19px, env(safe-area-inset-left));
+  }
+
+  .atelier-orbit-mark,
+  .room-identity .identity-mark {
+    width: 44px;
+    height: 44px;
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "revision": 3,
+  "checkedAt": "2026-09-24T17:18:49.271Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Real Three.js objects, production shared-stage/path modules, actual custom OrbitControls, production atmosphere/floor-finish modules, and production main lifecycle functions isolated in VM. DOM, renderer and texture loading are simulated; controlled provider fixtures supplement a real provider check. Tests validate physical model offsets, perspective projection equivalence, resource ownership, optional material replacement, lifecycle, renderer state, and sampler separation. No GPU performance or rendered image-quality claim is made.",
+  "sourceSha256": {
+    "src/gallery-transition.js": "756610136268dd87746c128095e0893e6f85a6a064a760881d57bc70a8100e2e",
+    "src/gallery-transition-path.js": "054ba1e480e4bb1a72f942dc189abbafaf9fbe976f411259ce3d4ca445e3800c",
+    "src/gallery-floor-finish.js": "939fe55b080dad886dc74cf1285bfcf7e761658dd1c6479e116a27358a365b4d",
+    "src/exterior-atmosphere.js": "85f67d76c26c41bb5297303c1d01df6f8eb2cbb82ca58f617d8be6e137fee25b",
+    "src/main.js": "46fcc71f0ad07c7a921e5eca3402f18afe7d65fd399be10785ce3fff7127f509",
+    "src/works-gallery.js": "3605f6c03093d8bfc33ec702feed1a5864277dfcab5fe55f9bbb6f15fa669e4f",
+    "src/utils/OrbitControls.js": "ab46812656956ff81a121973a82acb179e7d3b0b782483693e2440313fa94160"
+  },
+  "checks": 26,
+  "passed": 26,
+  "failed": 0,
+  "results": [
+    {
+      "check": "shared camera path: exact endpoints, consistent native frames and smooth terminal velocity",
+      "status": "passed",
+      "directions": 2,
+      "maximumProjectionError": 1.3202568498337084e-13,
+      "nativeEndpointTolerance": 0
+    },
+    {
+      "check": "stage contains independent model transforms and shares only geometry/material resources",
+      "status": "passed",
+      "berthOffset": [
+        34,
+        -0.185,
+        1.5
+      ],
+      "maxEndpointError": 4.344434768182728e-16,
+      "sharedGeometry": true,
+      "sharedMaterials": true
+    },
+    {
+      "check": "clean gallery berth preserves the shared continuous floor and native floor visibility",
+      "status": "passed",
+      "stageOffset": [
+        34,
+        -0.185,
+        1.5
+      ],
+      "stageFloorVisible": true,
+      "nativeFloorVisible": true,
+      "floorY": -1.065
+    },
+    {
+      "check": "optional gallery finish replaces only one existing stage floor, preserving source uniforms and sky",
+      "status": "passed",
+      "stageFloorCount": 1,
+      "sourceUniformEntries": [
+        "uTheme",
+        "uBreathing",
+        "uSharedTexture"
+      ],
+      "stageDrawsPerMiddleFrame": 2,
+      "ownedMaterialDisposals": 1,
+      "sharedDisposals": 0
+    },
+    {
+      "check": "cancel and resize reuse the prepared finish; repeated dispose releases it exactly once",
+      "status": "passed",
+      "providerCalls": 1,
+      "disposalsAfterCancel": 0,
+      "finalOwnedMaterialDisposals": 1
+    },
+    {
+      "check": "failed prepare releases the owned finish, then retry constructs and releases a fresh one",
+      "status": "passed",
+      "attemptOwnedMaterialDisposals": [
+        1,
+        1
+      ],
+      "sourceDisposals": 0,
+      "textureDisposals": 0
+    },
+    {
+      "check": "provider failure or invalid shared return cannot dispose the source material and can be retried",
+      "status": "passed"
+    },
+    {
+      "check": "disposing during asynchronous preparation releases the finish once without drawing disposed resources",
+      "status": "passed",
+      "providerCalls": 1,
+      "ownedMaterialDisposals": 1,
+      "lateDraws": 0
+    },
+    {
+      "check": "production floor provider preserves real atmosphere uniforms, local texture coordinates and ownership",
+      "status": "passed",
+      "actualProvider": "src/gallery-floor-finish.js",
+      "actualAtmosphere": "src/exterior-atmosphere.js",
+      "stageFloorCount": 1,
+      "mappedFixturePoints": 3,
+      "travelMaterialDisposals": 1,
+      "bakedTextureDisposals": [
+        1,
+        1
+      ]
+    },
+    {
+      "check": "production provider failure paths release loaded textures and unpublished travel materials",
+      "status": "passed",
+      "partialLoadTextureDisposals": [
+        1,
+        0
+      ],
+      "nativeFailureTextureDisposals": [
+        1,
+        1
+      ],
+      "travelFailureCloneDisposals": 1,
+      "invalidBaseDisposals": 0
+    },
+    {
+      "check": "same-frame live transform synchronization follows room and gallery asset IDs without mutating originals",
+      "status": "passed"
+    },
+    {
+      "check": "full lifecycle never disposes shared model geometry, materials or textures",
+      "status": "passed",
+      "sharedResourcesObserved": 9,
+      "sharedDisposals": 0
+    },
+    {
+      "check": "prepare: four compile passes, offscreen real stage warmup, restored renderer and no feedback",
+      "status": "passed",
+      "compiledPasses": 4,
+      "offscreenDraws": 3,
+      "feedbackChecks": 1
+    },
+    {
+      "check": "failed composite warmup restores samplers and allows same-model retry",
+      "status": "passed"
+    },
+    {
+      "check": "gallery load retry rebuilds stage around replacement model instead of disposed old assets",
+      "status": "passed"
+    },
+    {
+      "check": "concurrent preparation is deduplicated and disposal before compilation finishes prevents draws",
+      "status": "passed"
+    },
+    {
+      "check": "30, 60 and 120 Hz use genuine shared-stage frames and commit one exact final view",
+      "status": "passed",
+      "frameCounts": [
+        {
+          "fps": 30,
+          "frames": 85,
+          "sharedStageOnlyFrames": 46
+        },
+        {
+          "fps": 60,
+          "frames": 170,
+          "sharedStageOnlyFrames": 91
+        },
+        {
+          "fps": 120,
+          "frames": 338,
+          "sharedStageOnlyFrames": 181
+        }
+      ],
+      "postCommitControlFrames": 120
+    },
+    {
+      "check": "production return keeps saved near-room pose and hands off controls with no movement",
+      "status": "passed",
+      "finalDistance": 5,
+      "guardResets": 1,
+      "commitCount": 1
+    },
+    {
+      "check": "production mid-travel resize updates destination once and final native pose remains stable",
+      "status": "passed"
+    },
+    {
+      "check": "return adapts to viewport changed before travel starts, with exact offset projection",
+      "status": "passed"
+    },
+    {
+      "check": "cancel early, mid-flight and late prevents commits and allows a fresh run",
+      "status": "passed"
+    },
+    {
+      "check": "reduced motion renders stationary native views and one short dissolve commit",
+      "status": "passed"
+    },
+    {
+      "check": "long and invalid deltas cannot skip passage or reverse elapsed time",
+      "status": "passed"
+    },
+    {
+      "check": "renderer state restores after shared-stage, native or composite render exceptions",
+      "status": "passed"
+    },
+    {
+      "check": "target formats match capabilities and disposal releases only owned render targets",
+      "status": "passed",
+      "choices": [
+        {
+          "float": true,
+          "ratio": 2,
+          "samples": 0
+        },
+        {
+          "float": false,
+          "ratio": 1,
+          "samples": 2
+        }
+      ]
+    },
+    {
+      "check": "actual production inertia flush clears residual orbit, pan and dolly without moving visible pose",
+      "status": "passed",
+      "cameraJump": 0
+    }
+  ]
+}

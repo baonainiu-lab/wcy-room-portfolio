@@ -1,0 +1,79 @@
+{
+  "complete": true,
+  "checkedAt": "2026-09-30T04:38:01.149567+00:00",
+  "roomRevision": 16,
+  "passedChecks": 79,
+  "failedChecks": 0,
+  "suites": [
+    {
+      "name": "cleanIntro",
+      "report": "docs/validation/intro-clean-lighting.json",
+      "passed": 5,
+      "reportSha256": "dd1a597efd205ccfade6010493f320f69c28d5eae0014c117e0b0cddc38028ea"
+    },
+    {
+      "name": "cubeIntro",
+      "report": "docs/validation/cube-intro.json",
+      "passed": 16,
+      "reportSha256": "193ddb8043ad1e40e403b238fb34658e0782b5c26ef83e7866082413b1ba9d60"
+    },
+    {
+      "name": "terminalV2",
+      "report": "docs/validation/terminal-v2-room-v16.json",
+      "passed": 5,
+      "reportSha256": "fc0c64ad53ce2e632a57ca7bbfb92f3d95da3d2bc22f795a76386976f14c862f"
+    },
+    {
+      "name": "terminalDockV2",
+      "report": "docs/validation/terminal-dock-v2-room-v16.json",
+      "passed": 10,
+      "reportSha256": "5bf0c1e89e02cf0f6a27a2dd294fa0613db8592864c5cf75397827cc49cd3122"
+    },
+    {
+      "name": "sceneClock",
+      "report": "docs/validation/scene-clock-v1.json",
+      "passed": 9,
+      "reportSha256": "b32cacd5acbb717b1741520004721d8ee431da37971acb05d7053fa11c83e449"
+    },
+    {
+      "name": "propProfiles",
+      "report": "docs/validation/prop-entry-profiles-v7.json",
+      "passed": 5,
+      "reportSha256": "98b266c91b4d8a3ebbb937f47c2f0fa4ac02a36ffd7967f8afb85c0f90c21379"
+    },
+    {
+      "name": "propMotions",
+      "report": "docs/validation/prop-entry-motions.json",
+      "passed": 9,
+      "reportSha256": "86fde52f286b890f0410f525284fa8799f9538007c82ae11b45b628cc62e7c14"
+    },
+    {
+      "name": "legacyTerminalIntroRegression",
+      "report": "docs/validation/terminal-intro-v1.json",
+      "passed": 17,
+      "reportSha256": "bc4072f6d06fa8390196d6c5d6bbc44e4e63d3ddb2b403e1d73dcab2459f5cbd"
+    },
+    {
+      "name": "roomEntry",
+      "report": "docs/validation/room-entry-v16.json",
+      "passed": 3,
+      "reportSha256": "6d05430481cb3265b90ab8007359bdc6240a8b119103810faa8265d7b38866ca"
+    }
+  ],
+  "interactionClassification": "docs/validation/room-v16-interaction-classification.json",
+  "interactionCounts": {
+    "exportedIds": 95,
+    "detachedExteriorIds": 2,
+    "terminalIdsReplaced": 4,
+    "terminalIdsAdded": 3,
+    "activeInteractiveComponents": 92,
+    "logicalRoots": 37
+  },
+  "noInteractionRegression": true,
+  "method": "CPU actual GLB geometry, GSAP/input fixtures, shader/resource lifecycle and texture hashes; actual browser results are separate; no FPS claim.",
+  "browserReport": "docs/validation/room-materials-v16-web.json",
+  "testContractUpdates": [
+    "Prop controller leaves shell growth and reduced-motion/skip completion to cube controller; tests now exercise actual V16 geometry, transformed parent and interruption recovery.",
+    "Existing approved receiver-shadow fade is .95 timeline seconds; CPU step bound derives from quintic smoothstep maximum slope 1.875. No runtime timing changes."
+  ]
+}

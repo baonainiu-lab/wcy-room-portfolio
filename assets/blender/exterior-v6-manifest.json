@@ -1,0 +1,38 @@
+{
+  "collection": "EXTERIOR_DOCK_V6",
+  "source_scene": "ORBITAL_ATELIER_V2",
+  "root": "EXT6_ORBITAL_DOCK_Root",
+  "asset_id": "environment.orbital_dock",
+  "triangles": 25312,
+  "triangle_budget": 35000,
+  "within_budget": true,
+  "mesh_count_before_bake_merge": 228,
+  "material_count": 6,
+  "materials": [
+    "EXT6_MAT_SatinTitanium",
+    "EXT6_MAT_BlueGreyEnamel",
+    "EXT6_MAT_Graphite",
+    "EXT6_MAT_BurntOrange",
+    "EXT6_MAT_IceSignal",
+    "EXT6_MAT_WarmSignal"
+  ],
+  "bounds_min": [
+    -10.180628776550293,
+    -8.27500057220459,
+    -1.031000018119812
+  ],
+  "bounds_max": [
+    10.20983600616455,
+    10.569854736328125,
+    6.072499752044678
+  ],
+  "components": [
+    "thick layered circular berth with machined radial deck segments",
+    "two low front approach stairways with recessed warm riser lights",
+    "raised curved rear service gallery, bridges, and solid illuminated parapets",
+    "anchored twin titanium parabolic portal with warm inner seam and cross-ties",
+    "two connected equipment islands: power magazine and optical calibration station",
+    "continuous grounded footings beneath arches, stairs and gallery"
+  ],
+  "notes": "Closed solid geometry; six finishes; no room mutation; static exterior only."
+}

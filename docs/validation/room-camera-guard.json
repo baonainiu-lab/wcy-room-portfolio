@@ -1,0 +1,218 @@
+{
+  "modelUrl": "/models/orbital-atelier-v15-compressed.glb",
+  "buildMs": 85.172,
+  "colliderCount": 100,
+  "triangleCount": 372159,
+  "checks": 12,
+  "results": [
+    {
+      "check": "rear wall: high-speed movement cannot tunnel through a finite thickness wall",
+      "status": "passed",
+      "intended": [
+        0,
+        4.5,
+        -6
+      ],
+      "resolved": [
+        0,
+        4.5,
+        -2.999736016173403
+      ],
+      "corrected": true,
+      "contact": "WEB8_room_static__baked__A8",
+      "panLimited": true,
+      "clearance": 0.154186,
+      "triangleTests": 821,
+      "actualSurfaceZ": -3.309999942779541
+    },
+    {
+      "check": "window right frame: real frame geometry blocks the camera",
+      "status": "passed",
+      "intended": [
+        3.15,
+        3,
+        -4
+      ],
+      "resolved": [
+        3.15,
+        3,
+        -2.4031769739138005
+      ],
+      "corrected": true,
+      "contact": "WEB8_room_static__baked__A8",
+      "panLimited": true,
+      "clearance": 0.154366,
+      "triangleTests": 130,
+      "actualSurfaceZ": -3.1049992371469823
+    },
+    {
+      "check": "chair close-up: preserves fine chair shape and near-plane clearance",
+      "status": "passed",
+      "intended": [
+        -1.35,
+        1.5,
+        -0.35
+      ],
+      "resolved": [
+        -1.35,
+        1.5,
+        0.21322990178601975
+      ],
+      "corrected": true,
+      "contact": "WEB8_furniture.work_chair__baked__A1",
+      "panLimited": true,
+      "clearance": 0.154246,
+      "triangleTests": 10141
+    },
+    {
+      "check": "chair gap: empty space inside the furniture AABB stays accessible",
+      "status": "passed",
+      "intended": [
+        -1.35,
+        2.3,
+        0.7
+      ],
+      "resolved": [
+        -1.35,
+        2.3,
+        0.7
+      ],
+      "corrected": false,
+      "contact": null,
+      "panLimited": false,
+      "clearance": 0.513374,
+      "triangleTests": 0
+    },
+    {
+      "check": "normal near view: camera-target distance 5 remains available",
+      "status": "passed",
+      "intended": [
+        1.5,
+        2.5,
+        0
+      ],
+      "resolved": [
+        1.5,
+        2.5,
+        0
+      ],
+      "corrected": false,
+      "contact": null,
+      "panLimited": false,
+      "clearance": 2.346334,
+      "triangleTests": 0
+    },
+    {
+      "check": "merged architecture bounds do not fill the open room",
+      "status": "passed",
+      "intended": [
+        -0.8,
+        3,
+        -1.5
+      ],
+      "resolved": [
+        -0.8,
+        3,
+        -1.5
+      ],
+      "corrected": false,
+      "contact": null,
+      "panLimited": false,
+      "clearance": 1.81,
+      "triangleTests": 0
+    },
+    {
+      "check": "tangential wall pan slides smoothly and moving away releases immediately",
+      "status": "passed",
+      "slide": {
+        "intended": [
+          0.8,
+          3,
+          -3.1656046769244424
+        ],
+        "resolved": [
+          0.7999999999999996,
+          3,
+          -2.9659834454741154
+        ],
+        "corrected": true,
+        "contact": "WEB8_room_static__image__A0",
+        "panLimited": false,
+        "clearance": 0.154016,
+        "triangleTests": 7
+      },
+      "release": {
+        "intended": [
+          0.8,
+          3,
+          -2.5
+        ],
+        "resolved": [
+          0.8,
+          3,
+          -2.5
+        ],
+        "corrected": false,
+        "contact": null,
+        "panLimited": false,
+        "clearance": 0.81,
+        "triangleTests": 0
+      }
+    },
+    {
+      "check": "current furniture transforms update collision geometry without rebuilding BVH",
+      "status": "passed",
+      "intended": [
+        -1.35,
+        1.5,
+        -0.3
+      ],
+      "resolved": [
+        -1.0681058394305198,
+        1.9230023838668064,
+        0.43649372677857873
+      ],
+      "corrected": true,
+      "contact": "WEB8_furniture.work_chair__baked__A1",
+      "panLimited": false,
+      "clearance": 0.153899,
+      "triangleTests": 23891
+    },
+    {
+      "check": "wide viewport: sphere covers every near-plane corner after aspect change",
+      "status": "passed",
+      "intended": [
+        0,
+        4.5,
+        -3.4
+      ],
+      "resolved": [
+        0,
+        4.5,
+        -2.9335640018466274
+      ],
+      "corrected": true,
+      "contact": "WEB8_room_static__baked__A8",
+      "panLimited": true,
+      "clearance": 0.199398,
+      "triangleTests": 398
+    },
+    {
+      "check": "homepage, gallery, and scripted camera poses are untouched while disabled",
+      "status": "passed"
+    },
+    {
+      "check": "idle camera: no triangle queries; nearby animation still invalidates the cached result",
+      "status": "passed",
+      "correctedAfterPropMotion": true
+    },
+    {
+      "check": "render mesh raycast is never called by guard; 120 Hz idle budget",
+      "status": "passed",
+      "idleMedianMs": 0.0133,
+      "idleP95Ms": 0.0313,
+      "navigationMedianMs": 0.0283,
+      "navigationP95Ms": 0.0415
+    }
+  ]
+}

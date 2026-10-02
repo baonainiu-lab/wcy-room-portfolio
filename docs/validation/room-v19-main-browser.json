@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-01T03:18:37.109989+00:00",
+  "complete": true,
+  "release": "room19-gallery5-terminal3",
+  "method": "Actual local main page via Codex in-app browser, screenshot inspection and read-only QA diagnostics; no hidden browser APIs.",
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": {
+    "startupAllReadyBeforeWelcome": true,
+    "roomAtlasCount": 13,
+    "physicalDataTextures": 26,
+    "nightRadianceScale": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "4": 8,
+      "12": 128
+    },
+    "nineFloorStripsAbsentInObservedView": true,
+    "daylightRetainsDeepWoodGrain": true,
+    "nightWoodWallReadableWithWarmWash": true,
+    "nightFixtureBrightOnlyAtLightSlot": true,
+    "nightObserved": {
+      "hour": 22.2868000000083,
+      "dayMix": 0,
+      "lightingMix": 0
+    },
+    "entry": {
+      "startCount": 1,
+      "completeCount": 1,
+      "props": 37,
+      "controlsRestored": true,
+      "mouseCameraDragWorked": true
+    },
+    "galleryOriginalLighting": {
+      "revision": "gallery-5",
+      "encoding": "srgb",
+      "materials": 4,
+      "independentIds": 77
+    },
+    "about": {
+      "bookEntryWorked": true,
+      "physicalReturnWorked": true,
+      "assets": 128,
+      "sourceHashesUnchanged": 38
+    },
+    "automaticClockSeconds": 60,
+    "firstSatelliteEntries": {
+      "assetsBefore": 78,
+      "assetsAfterGallery": 78,
+      "assetsAfterAbout": 78,
+      "programsBefore": 111,
+      "programsAfterGallery": 111,
+      "programsAfterAbout": 111
+    },
+    "consoleWarnings": [],
+    "consoleErrors": []
+  },
+  "reports": {
+    "assetIntegrity": "assets/blender/photoreal-materials-v19-validation.json",
+    "floorPixels": "assets/blender/room-v19-floor-surface-validation.json",
+    "geometryAndEntry": "docs/validation/entry-clearance-v19.json",
+    "loader": "docs/validation/logo-v4-browser.json",
+    "galleryContract": "docs/validation/material-preview-integration.json"
+  },
+  "limitations": [
+    "Representative day/night and interactive views, not exhaustive animation-frame or pairwise-collision proof.",
+    "No stable120 FPS claim; initial preload avoids observed first-scene resource fetch and shader creation, not a universal no-stutter guarantee.",
+    "Local technical QA does not substitute for user artistic acceptance; not deployed."
+  ],
+  "sourceSha256": {
+    "src/material-release.js": "0c11469e970a5b0cadca811f2f7957fd2497aca628f96eea0f32b07fa52a071f",
+    "src/main.js": "6d68563a8dc7b390736712cbca39864515a6a7cfaf25c50ae24182c4386fe6c4",
+    "src/cube-intro.js": "d5fb8f118d1eb50773714e04874b38d5570b66bdef6fb8e2135d70316555877b",
+    "src/room-entry-attachments.js": "200c8128335adc99f200e4d3aaa555d9c373d7319f0e2c76e55ea03d58e65cc1",
+    "public/models/orbital-atelier-v19-compressed.glb": "9f1ead74d33e4b58ec295c2bfb28ce32debf91368053b199213ce9aaa75c31ef"
+  },
+  "build": {
+    "passed": true,
+    "modules": 62,
+    "existingWarning": "Main JS chunk exceeds500kB"
+  }
+}

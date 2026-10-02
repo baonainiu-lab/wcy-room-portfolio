@@ -1,0 +1,264 @@
+{
+  "revision": 13,
+  "geometryInheritedFrom": 12,
+  "scene": "WEB_DUAL_V8",
+  "intent": "Low local amber pools below existing desk and window shelf, warmer desk/reading/ring lamps; preserve cool night ambient and dark walls.",
+  "colorTemperature": "Approximate 2700\u20133000 K, scene-linear RGB; no whole-image tint",
+  "worldAndExposureUnchanged": true,
+  "newLightObjects": 3,
+  "newSources": [
+    {
+      "id": "Desk_Underside",
+      "location": [
+        -3.48,
+        -0.25,
+        1.7
+      ],
+      "target": [
+        -3.1,
+        -0.5,
+        0.25
+      ],
+      "power": 32.0,
+      "color": [
+        1.0,
+        0.39,
+        0.105
+      ],
+      "width": 0.78,
+      "height": 0.075,
+      "spread": 85.0,
+      "fixture": "concealed channel below cantilever desk; soft floor pool beside compute core"
+    },
+    {
+      "id": "Window_Shelf_Left",
+      "location": [
+        -0.65,
+        2.4,
+        1.275
+      ],
+      "target": [
+        -0.65,
+        1.85,
+        0.22
+      ],
+      "power": 22.0,
+      "color": [
+        1.0,
+        0.39,
+        0.105
+      ],
+      "width": 1.35,
+      "height": 0.055,
+      "spread": 78.0,
+      "fixture": "concealed underside of existing window shelf, left segment"
+    },
+    {
+      "id": "Window_Shelf_Right",
+      "location": [
+        2.65,
+        2.4,
+        1.275
+      ],
+      "target": [
+        2.65,
+        1.78,
+        0.22
+      ],
+      "power": 17.0,
+      "color": [
+        1.0,
+        0.445,
+        0.145
+      ],
+      "width": 0.78,
+      "height": 0.055,
+      "spread": 76.0,
+      "fixture": "concealed underside of existing window shelf, right segment"
+    }
+  ],
+  "nightEmitterChanges": [
+    {
+      "original": "WEB8_BAKE_A0_MAT_Warm_White",
+      "nightMaterial": "V13_NIGHT_WEB8_BAKE_A0_MAT_Warm_White",
+      "linearColor": [
+        1.0,
+        0.445,
+        0.145
+      ],
+      "strength": 1.8
+    },
+    {
+      "original": "WEB8_BAKE_A2_MAT_Warm_White",
+      "nightMaterial": "V13_NIGHT_WEB8_BAKE_A2_MAT_Warm_White",
+      "linearColor": [
+        1.0,
+        0.445,
+        0.145
+      ],
+      "strength": 1.8
+    },
+    {
+      "original": "WEB8_BAKE_A4_V5_MAT_WarmDiffuser",
+      "nightMaterial": "V13_NIGHT_WEB8_BAKE_A4_V5_MAT_WarmDiffuser",
+      "linearColor": [
+        1.0,
+        0.445,
+        0.145
+      ],
+      "strength": 1.8
+    },
+    {
+      "original": "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser",
+      "nightMaterial": "V13_NIGHT_WEB8_BAKE_A4_IW8_MAT_WarmDiffuser",
+      "linearColor": [
+        1.0,
+        0.445,
+        0.145
+      ],
+      "strength": 1.05
+    }
+  ],
+  "lights": [
+    {
+      "name": "V8_LIGHTING_night_L_Niche_0.001",
+      "watts": 34.0,
+      "color": [
+        1.0,
+        0.4749999940395355,
+        0.17000000178813934
+      ],
+      "position": [
+        4.0,
+        2.700000047683716,
+        1.649999976158142
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_night_L_Niche_1.001",
+      "watts": 34.0,
+      "color": [
+        1.0,
+        0.4749999940395355,
+        0.17000000178813934
+      ],
+      "position": [
+        4.0,
+        2.700000047683716,
+        2.9000000953674316
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_night_L_Niche_2.001",
+      "watts": 34.0,
+      "color": [
+        1.0,
+        0.4749999940395355,
+        0.17000000178813934
+      ],
+      "position": [
+        4.0,
+        2.700000047683716,
+        4.150000095367432
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Floor_Lamp_Practical.002",
+      "watts": 56.0,
+      "color": [
+        1.0,
+        0.4449999928474426,
+        0.14499999582767487
+      ],
+      "position": [
+        2.2799999713897705,
+        0.6800000071525574,
+        1.690000057220459
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Interior_Warm_0.002",
+      "watts": 34.0,
+      "color": [
+        1.0,
+        0.4749999940395355,
+        0.17000000178813934
+      ],
+      "position": [
+        -3.549999952316284,
+        -0.20000000298023224,
+        2.187000036239624
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Interior_Warm_1.002",
+      "watts": 32.0,
+      "color": [
+        1.0,
+        0.38999998569488525,
+        0.10499999672174454
+      ],
+      "position": [
+        1.4500000476837158,
+        2.318000078201294,
+        1.2339999675750732
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Interior_Warm_2.002",
+      "watts": 22.0,
+      "color": [
+        1.0,
+        0.4449999928474426,
+        0.14499999582767487
+      ],
+      "position": [
+        0.49000000953674316,
+        -0.9480000138282776,
+        1.1009999513626099
+      ]
+    },
+    {
+      "name": "V13_WARM_Desk_Underside",
+      "watts": 32.0,
+      "color": [
+        1.0,
+        0.38999998569488525,
+        0.10499999672174454
+      ],
+      "position": [
+        -3.4800000190734863,
+        -0.25,
+        1.7000000476837158
+      ]
+    },
+    {
+      "name": "V13_WARM_Window_Shelf_Left",
+      "watts": 22.0,
+      "color": [
+        1.0,
+        0.38999998569488525,
+        0.10499999672174454
+      ],
+      "position": [
+        -0.6499999761581421,
+        2.4000000953674316,
+        1.274999976158142
+      ]
+    },
+    {
+      "name": "V13_WARM_Window_Shelf_Right",
+      "watts": 17.0,
+      "color": [
+        1.0,
+        0.4449999928474426,
+        0.14499999582767487
+      ],
+      "position": [
+        2.6500000953674316,
+        2.4000000953674316,
+        1.274999976158142
+      ]
+    }
+  ]
+}

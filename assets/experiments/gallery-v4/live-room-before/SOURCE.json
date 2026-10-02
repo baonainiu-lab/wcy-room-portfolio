@@ -1,0 +1,86 @@
+{
+  "version": 15,
+  "role": "original scene-study slideshow",
+  "screenMaterial": "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+  "windowMaterial": "WEB8_WINDOW_CITY",
+  "existingScreenSource": "public/textures/lighting-v15/screen-art-render.png",
+  "sourceScreenSha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+  "slides": [
+    "Existing embedded original orange-blue sculpture",
+    {
+      "path": "public/textures/live-room/gallery-day.ktx2",
+      "source": "renders/works-gallery-v3/day.png",
+      "sourceSha256": "9b41fd0a43222079a235be8425ec5bb834417d1f1f8f63d3b84e8e1e87f6096e",
+      "sha256": "51646475d3eb034c33b76aecdad03ce20aa0d6d6bebfe0df3a6ea510bfdd18da",
+      "bytes": 2243358,
+      "dimensions": [
+        2000,
+        1200
+      ],
+      "encoding": "UASTC quality 2, Zstd 9, full mip chain, sRGB",
+      "content": "Original Blender gallery-only scene study; city, viaduct, surrounding terrain and exterior planting removed. Not personal portfolio work.",
+      "previousSource": {
+        "path": "renders/works-gallery-v1/day.png",
+        "sha256": "3a3b2cb68979ab511653243670eebbfaab7bffa4d56ded964e5017f0c1c9fb73"
+      },
+      "mipLevels": 11,
+      "renderState": "day",
+      "sourceRenderManifest": "renders/works-gallery-v3/render-final-both.json",
+      "renderEngine": "Cycles",
+      "renderSamples": 72,
+      "cameraUnchangedFromV1": true,
+      "validation": {
+        "tool": "KTX-Software 4.4.2 ktx validate",
+        "result": "passed",
+        "orientation": "rd",
+        "transfer": "sRGB",
+        "headerMatchesPreviousSlide": true
+      }
+    },
+    {
+      "path": "public/textures/live-room/gallery-night.ktx2",
+      "source": "renders/works-gallery-v3/night.png",
+      "sourceSha256": "74b16fff12af7e32f925bf59c3de9bcf00456142678901545910fcc228feaf01",
+      "sha256": "e9927d01130511eccafb1b1cb7e7a499464301e1a12a4ac11a63c7a88aadc5e1",
+      "bytes": 2306430,
+      "dimensions": [
+        2000,
+        1200
+      ],
+      "encoding": "UASTC quality 2, Zstd 9, full mip chain, sRGB",
+      "content": "Original Blender gallery-only scene study; city, viaduct, surrounding terrain and exterior planting removed. Not personal portfolio work.",
+      "previousSource": {
+        "path": "renders/works-gallery-v1/night.png",
+        "sha256": "3d4bbc4cfc4da03ea3a2110d7d10e2667147cf78ffbd426de02be493bd80e8c6"
+      },
+      "mipLevels": 11,
+      "renderState": "night",
+      "sourceRenderManifest": "renders/works-gallery-v3/render-final-both.json",
+      "renderEngine": "Cycles",
+      "renderSamples": 72,
+      "cameraUnchangedFromV1": true,
+      "validation": {
+        "tool": "KTX-Software 4.4.2 ktx validate",
+        "result": "passed",
+        "orientation": "rd",
+        "transfer": "sRGB",
+        "headerMatchesPreviousSlide": true
+      }
+    }
+  ],
+  "externalImagesDownloaded": false,
+  "newRenderer": false,
+  "addedMeshes": 0,
+  "ownership": "Original assets already authored for this project. Personal work/content remains pending.",
+  "previousScreenSource": {
+    "path": "assets/textures/screen-art-render.png",
+    "sha256": "62d931999242d5e62552d7af43c483b8cba0a6f67fdef4e6cd17689ed5b8f08d"
+  },
+  "screenDimensions": [
+    2880,
+    1200
+  ],
+  "screenRenderManifest": "public/textures/lighting-v15/screen-v15-manifest.json",
+  "gallerySlideshowRevision": 3,
+  "gallerySlideshowNotes": "Only the two gallery slideshow textures have been refreshed from native 2000×1200 V3 renders. Original sculpture screen image and room city-window images are unchanged. V3 preserves the original camera and contains the exhibition gallery without its former surrounding city, viaduct, terrain or external planting."
+}

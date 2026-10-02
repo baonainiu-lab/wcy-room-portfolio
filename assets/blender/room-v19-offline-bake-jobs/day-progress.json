@@ -1,0 +1,104 @@
+{
+  "stage": "day",
+  "status": "complete",
+  "completed": [
+    {
+      "job": "day-0",
+      "status": "preserved_verified_existing"
+    },
+    {
+      "job": "day-1",
+      "status": "preserved_verified_existing"
+    },
+    {
+      "job": "day-2",
+      "status": "complete",
+      "wallSeconds": 199.74,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-2-manifest.json",
+      "manifestSha256": "80328ef2b66e882a005fe1b66913b47394e70a5b5dd649b51a81581f1c40fd26",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-2.log"
+    },
+    {
+      "job": "day-3",
+      "status": "complete",
+      "wallSeconds": 126.7,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-3-manifest.json",
+      "manifestSha256": "109f359bb4a38a70875e3553cad480f55821687e9834cd98dedd1009a06f0471",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-3.log"
+    },
+    {
+      "job": "day-4",
+      "status": "complete",
+      "wallSeconds": 128.38,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-4-manifest.json",
+      "manifestSha256": "b8321f1893382ac1f06adc98932f75cb3e787d4bd51c8e4654da33218b5beb1a",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-4.log"
+    },
+    {
+      "job": "day-5",
+      "status": "complete",
+      "wallSeconds": 124.26,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-5-manifest.json",
+      "manifestSha256": "0a52bb2dcc3d014b877c95a1c36446bc39e0d0e909aade3d91376843a040bde8",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-5.log"
+    },
+    {
+      "job": "day-6",
+      "status": "complete",
+      "wallSeconds": 72.5,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-6-manifest.json",
+      "manifestSha256": "2f3356f5635d0e158bac9db11b48f080c7d0eac3b9fd0fbc5978a810eafdac6b",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-6.log"
+    },
+    {
+      "job": "day-7",
+      "status": "complete",
+      "wallSeconds": 31.83,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-7-manifest.json",
+      "manifestSha256": "706ceaef94cfb2b364ea8ba6155d4b24e3aad0b90081f30b105029e738374ebd",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-7.log"
+    },
+    {
+      "job": "day-8",
+      "status": "complete",
+      "wallSeconds": 43.8,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-8-manifest.json",
+      "manifestSha256": "7b8aab06402a69417352e8ede9c04c4af5bb9679b261e968858d350b5d5ec01c",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-8.log"
+    },
+    {
+      "job": "day-9",
+      "status": "complete",
+      "wallSeconds": 87.53,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-9-manifest.json",
+      "manifestSha256": "e331f2e8c08d3a037bc519733624e1b81304d28fc6f93d3f50bb9db9c246a103",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-9.log"
+    },
+    {
+      "job": "day-10",
+      "status": "complete",
+      "wallSeconds": 79.66,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-10-manifest.json",
+      "manifestSha256": "be02b5540fda34b11fc49b27c51a4a3faf435ec1699adfaf0d6d2455ec3460dd",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-10.log"
+    },
+    {
+      "job": "day-11",
+      "status": "complete",
+      "wallSeconds": 100.4,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-11-manifest.json",
+      "manifestSha256": "b0751bb10ec11951060818a46f828ae5666d8e9443c43c943537e062f19585a1",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-11.log"
+    },
+    {
+      "job": "day-12",
+      "status": "complete",
+      "wallSeconds": 11.63,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/day-12-manifest.json",
+      "manifestSha256": "3adbdef1b0df91c067ab71a8e1c77d4201f1db64de7ce719d46883f83a08dc29",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/day-12.log"
+    }
+  ],
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "launcherSha256": "d5ffc12ea9e5d22ee5a8eb7579cd6edd171dc2d73827ec51be1be83e8526537a"
+}

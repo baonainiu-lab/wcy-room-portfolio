@@ -1,0 +1,266 @@
+{
+  "complete": true,
+  "revision": 19,
+  "invocation": "Blender MCP file-targeted scene operations with Python assistance",
+  "source": "assets/blender/orbital-atelier-v18.blend",
+  "sourceSha256": "be32f059cce1727251da6c43d55cb022174e0dc6d39451e1ae8cac060905e632",
+  "derivative": "assets/blender/orbital-atelier-v19.blend",
+  "sha256": "ef9de3149984226cb4d753dfd456f94bc106e0ba6e2d37a4b5d89937fabb3644",
+  "userDirection": "Remove black floor lines, make dark natural timber grain clearer, add one top warm night practical",
+  "removedFloorGrid": [],
+  "removedSourceCurves": [
+    "A_FloorJointX",
+    "A_FloorJointX.001",
+    "A_FloorJointX.002",
+    "A_FloorJointX.003",
+    "A_FloorJointX.004",
+    "A_FloorJointY",
+    "A_FloorJointY.001",
+    "A_FloorJointY.002",
+    "A_FloorJointY.003",
+    "DAY_V8__A_FloorJointX",
+    "DAY_V8__A_FloorJointX.001",
+    "DAY_V8__A_FloorJointX.002",
+    "DAY_V8__A_FloorJointX.003",
+    "DAY_V8__A_FloorJointX.004",
+    "DAY_V8__A_FloorJointY",
+    "DAY_V8__A_FloorJointY.001",
+    "DAY_V8__A_FloorJointY.002",
+    "DAY_V8__A_FloorJointY.003",
+    "NIGHT_V8__A_FloorJointX",
+    "NIGHT_V8__A_FloorJointX.001",
+    "NIGHT_V8__A_FloorJointX.002",
+    "NIGHT_V8__A_FloorJointX.003",
+    "NIGHT_V8__A_FloorJointX.004",
+    "NIGHT_V8__A_FloorJointY",
+    "NIGHT_V8__A_FloorJointY.001",
+    "NIGHT_V8__A_FloorJointY.002",
+    "NIGHT_V8__A_FloorJointY.003"
+  ],
+  "floorMaterials": [
+    {
+      "name": "MAT_Titanium_Floor",
+      "oilTint": [
+        0.18000000715255737,
+        0.11999999731779099,
+        0.07500000298023224,
+        1.0
+      ],
+      "scanFootprintM": 2.65,
+      "contrastInput": [
+        0.125,
+        0.195
+      ],
+      "contrastGain": [
+        0.54,
+        1.44
+      ],
+      "roughness": [
+        0.41,
+        0.66
+      ],
+      "bumpDistance": 0.0007,
+      "geometryDisplacement": false,
+      "scanNodes": [
+        "V18_walnut_veneer_diff_2k metres",
+        "V18_walnut_veneer_rough_2k metres",
+        "V18_walnut_veneer_disp_2k metres"
+      ]
+    },
+    {
+      "name": "DAY_V8__MAT_Titanium_Floor",
+      "oilTint": [
+        0.18000000715255737,
+        0.11999999731779099,
+        0.07500000298023224,
+        1.0
+      ],
+      "scanFootprintM": 2.65,
+      "contrastInput": [
+        0.125,
+        0.195
+      ],
+      "contrastGain": [
+        0.54,
+        1.44
+      ],
+      "roughness": [
+        0.41,
+        0.66
+      ],
+      "bumpDistance": 0.0007,
+      "geometryDisplacement": false,
+      "scanNodes": [
+        "V18_walnut_veneer_diff_2k metres",
+        "V18_walnut_veneer_rough_2k metres",
+        "V18_walnut_veneer_disp_2k metres"
+      ]
+    },
+    {
+      "name": "NIGHT_V8__MAT_Titanium_Floor",
+      "oilTint": [
+        0.18000000715255737,
+        0.11999999731779099,
+        0.07500000298023224,
+        1.0
+      ],
+      "scanFootprintM": 2.65,
+      "contrastInput": [
+        0.125,
+        0.195
+      ],
+      "contrastGain": [
+        0.54,
+        1.44
+      ],
+      "roughness": [
+        0.41,
+        0.66
+      ],
+      "bumpDistance": 0.0007,
+      "geometryDisplacement": false,
+      "scanNodes": [
+        "V18_walnut_veneer_diff_2k metres",
+        "V18_walnut_veneer_rough_2k metres",
+        "V18_walnut_veneer_disp_2k metres"
+      ]
+    }
+  ],
+  "lamps": [
+    {
+      "assetId": "lighting.ceiling_warm",
+      "root": "V19_CEILING_WARM_Root",
+      "parts": [
+        "V19_Ceiling_Housing",
+        "V19_Ceiling_Top_Inlay",
+        "V19_Ceiling_Recessed_Diffuser",
+        "V19_Ceiling_Endcap_-1",
+        "V19_Ceiling_Wall_Bracket_-1",
+        "V19_Ceiling_Mount_Plate_-1",
+        "V19_Ceiling_Endcap_1",
+        "V19_Ceiling_Wall_Bracket_1",
+        "V19_Ceiling_Mount_Plate_1"
+      ],
+      "location": [
+        0.0,
+        3.0799999237060547,
+        4.429999828338623
+      ],
+      "atlas": null,
+      "fixture": "Compact softly bevelled graphite bar with champagne endcaps, recessed opal diffuser, two wall-attached brackets",
+      "size": [
+        1.72,
+        0.28,
+        0.145
+      ],
+      "colorTemperatureK": 3000,
+      "nightWatts": 95.0,
+      "dayWatts": 0
+    },
+    {
+      "assetId": "lighting.ceiling_warm",
+      "root": "V19_CEILING_WARM_Root.001",
+      "parts": [
+        "V19_Ceiling_Housing.001",
+        "V19_Ceiling_Top_Inlay.001",
+        "V19_Ceiling_Recessed_Diffuser.001",
+        "V19_Ceiling_Endcap_-1.001",
+        "V19_Ceiling_Wall_Bracket_-1.001",
+        "V19_Ceiling_Mount_Plate_-1.001",
+        "V19_Ceiling_Endcap_1.001",
+        "V19_Ceiling_Wall_Bracket_1.001",
+        "V19_Ceiling_Mount_Plate_1.001"
+      ],
+      "location": [
+        0.0,
+        3.0799999237060547,
+        4.429999828338623
+      ],
+      "atlas": null,
+      "fixture": "Compact softly bevelled graphite bar with champagne endcaps, recessed opal diffuser, two wall-attached brackets",
+      "size": [
+        1.72,
+        0.28,
+        0.145
+      ],
+      "colorTemperatureK": 3000,
+      "nightWatts": 95.0,
+      "dayWatts": 0
+    },
+    {
+      "assetId": "lighting.ceiling_warm",
+      "root": "V19_CEILING_WARM_Root.002",
+      "parts": [
+        "V19_Ceiling_Housing.002",
+        "V19_Ceiling_Top_Inlay.002",
+        "V19_Ceiling_Recessed_Diffuser.002",
+        "V19_Ceiling_Endcap_-1.002",
+        "V19_Ceiling_Wall_Bracket_-1.002",
+        "V19_Ceiling_Mount_Plate_-1.002",
+        "V19_Ceiling_Endcap_1.002",
+        "V19_Ceiling_Wall_Bracket_1.002",
+        "V19_Ceiling_Mount_Plate_1.002"
+      ],
+      "location": [
+        0.0,
+        3.0799999237060547,
+        4.429999828338623
+      ],
+      "atlas": null,
+      "fixture": "Compact softly bevelled graphite bar with champagne endcaps, recessed opal diffuser, two wall-attached brackets",
+      "size": [
+        1.72,
+        0.28,
+        0.145
+      ],
+      "colorTemperatureK": 3000,
+      "nightWatts": 95.0,
+      "dayWatts": 0
+    }
+  ],
+  "changedExistingExportObjects": [],
+  "allOtherExistingExportGeometryUnchanged": null,
+  "existingGeometryBefore": null,
+  "existingGeometryAfter": null,
+  "expectedExportTriangles": null,
+  "atlasCount": 13,
+  "affectedSurfaceSlots": [
+    0,
+    8,
+    12
+  ],
+  "unchangedSurfaceSlots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+  ],
+  "rebakeDayNightSlots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "introSlots": [
+    0,
+    1,
+    8
+  ],
+  "runtimeExported": false,
+  "aboutAssetsUnchanged": true
+}

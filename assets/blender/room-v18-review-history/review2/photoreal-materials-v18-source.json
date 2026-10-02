@@ -1,0 +1,339 @@
+{
+  "complete": true,
+  "invocation": "Blender MCP file-targeted isolated process",
+  "source": "assets/blender/orbital-atelier-v17.blend",
+  "sourceSha256": "699739ce0a8f6ef8759d1bfc7ddadb742fe53c9a9e7bd9c07bd48f0e2d51e794",
+  "derivative": "assets/blender/orbital-atelier-v18.blend",
+  "sha256": "987a1eeda855e848a466cf3f3967854ff22704662b3b5f9e72d356a38caca5b7",
+  "geometryBefore": {
+    "sha256": "25f8a0b33f8d671f57b619b666827f92385c9f797ff409925dd65548cc23ef30",
+    "objects": 8197,
+    "uniqueMeshes": 6467,
+    "triangles": 1564763
+  },
+  "geometryAfter": {
+    "sha256": "25f8a0b33f8d671f57b619b666827f92385c9f797ff409925dd65548cc23ef30",
+    "objects": 8197,
+    "uniqueMeshes": 6467,
+    "triangles": 1564763
+  },
+  "bakeUvsNormalsUnchanged": true,
+  "materials": [
+    {
+      "name": "DAY_SUN_V9_DAY_V8__MAT_Graphite_Enamel",
+      "mode": "wall",
+      "physicalWoodFootprintM": 1.65,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "DAY_SUN_V9_DAY_V8__MAT_Satin_Titanium",
+      "mode": "cap",
+      "physicalWoodFootprintM": null,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "DAY_V8__MAT_Graphite_Enamel",
+      "mode": "wall",
+      "physicalWoodFootprintM": 1.65,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "DAY_V8__MAT_Satin_Titanium",
+      "mode": "cap",
+      "physicalWoodFootprintM": null,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "DAY_V8__MAT_Titanium_Floor",
+      "mode": "floor",
+      "physicalWoodFootprintM": 1.65,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "MAT_Graphite_Enamel",
+      "mode": "wall",
+      "physicalWoodFootprintM": 1.65,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "MAT_Satin_Titanium",
+      "mode": "cap",
+      "physicalWoodFootprintM": null,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "MAT_Titanium_Floor",
+      "mode": "floor",
+      "physicalWoodFootprintM": 1.65,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "NIGHT_V8__MAT_Graphite_Enamel",
+      "mode": "wall",
+      "physicalWoodFootprintM": 1.65,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "NIGHT_V8__MAT_Satin_Titanium",
+      "mode": "cap",
+      "physicalWoodFootprintM": null,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    },
+    {
+      "name": "NIGHT_V8__MAT_Titanium_Floor",
+      "mode": "floor",
+      "physicalWoodFootprintM": 1.65,
+      "geometryDisplacement": false,
+      "mapping": "world-space; texture V follows floor X / wall Z; original BakeUV untouched"
+    }
+  ],
+  "scanSources": [
+    {
+      "asset": "walnut_veneer",
+      "map": "Diffuse",
+      "file": "walnut_veneer/walnut_veneer_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_diff_2k.jpg",
+      "sha256": "66c73defcc62ac090cb838e8455b8c1febbfea29a15c8f40a5e2d398b2ba4733",
+      "md5": "48000eac719ccbae27319f942ab5bf2c",
+      "bytes": 2060618,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "sRGB",
+      "normal_usage": null
+    },
+    {
+      "asset": "walnut_veneer",
+      "map": "Rough",
+      "file": "walnut_veneer/walnut_veneer_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_rough_2k.jpg",
+      "sha256": "e3a8a7e035a378ce6ce2252fcd4352f62b16a2a6b2f453baacd4e081c2fedb34",
+      "md5": "cff9cdcca482f6c71d7ecf49b3789f9e",
+      "bytes": 2426374,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "walnut_veneer",
+      "map": "Displacement",
+      "file": "walnut_veneer/walnut_veneer_disp_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_disp_2k.jpg",
+      "sha256": "f43ff69bc7fcfe111ab72af3f3ce6d07b0286c39b502a8403ce6b0f8a1a2e7af",
+      "md5": "1bccc6894c29a7c713ec9a194ea3c868",
+      "bytes": 851317,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "walnut_veneer",
+      "map": "nor_gl",
+      "file": "walnut_veneer/walnut_veneer_nor_gl_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_nor_gl_2k.jpg",
+      "sha256": "544d3feffd325a0f6f7db5dc94ae99820349bb3d53ce3651e4647d5e66336cba",
+      "md5": "987a6cf092f9ab65705416dda264b0ff",
+      "bytes": 1891517,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": "retained for later UV export; explicit three-plane FLAT projections use scanned height bump"
+    },
+    {
+      "asset": "brown_leather",
+      "map": "Diffuse",
+      "file": "brown_leather/brown_leather_albedo_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_albedo_2k.jpg",
+      "sha256": "b0de2403a31efa31e501b0028c0bd8e504d5bd6318f4a5ce90c550c3067f96d8",
+      "md5": "1bd381c43817743a2affdd1ce2d193c7",
+      "bytes": 2137518,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "sRGB",
+      "normal_usage": null
+    },
+    {
+      "asset": "brown_leather",
+      "map": "Rough",
+      "file": "brown_leather/brown_leather_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_rough_2k.jpg",
+      "sha256": "8a47afca2630310849034fe40ca9497db0956c67c0d933e6efd49d3cd2befe83",
+      "md5": "95b48a5c95b02d87dadee46c26f1cfb5",
+      "bytes": 2801956,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "brown_leather",
+      "map": "Displacement",
+      "file": "brown_leather/brown_leather_disp_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_disp_2k.jpg",
+      "sha256": "37ff21737b1ca5ea8cfe88d9a8fe1e2ace0ef190d9ee2d23369307f63c7c3eab",
+      "md5": "b385c7ec27f2cc9e9b1df077e41dbb01",
+      "bytes": 1027529,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "brown_leather",
+      "map": "nor_gl",
+      "file": "brown_leather/brown_leather_nor_gl_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_nor_gl_2k.jpg",
+      "sha256": "3386277290af50b4d464dc9a9f195bbf8dd6f137b9ae0274552397d2f0135c98",
+      "md5": "6e86bbaf5e995c4154b76a1e4b0f4f1c",
+      "bytes": 3030702,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": "retained for later UV export; current BOX projection uses scanned height bump"
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Diffuse",
+      "file": "hessian_230/hessian_230_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_diff_2k.jpg",
+      "sha256": "1c1d66e3764dded1cfafa5147ea56a28ef7648e3c5cae6892b8dada92d408685",
+      "md5": "e73dcb7ae06f7267f74fc5869c63233c",
+      "bytes": 3828573,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "sRGB",
+      "normal_usage": null
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Rough",
+      "file": "hessian_230/hessian_230_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_rough_2k.jpg",
+      "sha256": "6c5be8aff1a36df639bf690e5acdc9116d12389614fb0db26a75ea31b65dd597",
+      "md5": "ecb347b5a4299c3c39fed62b8393e008",
+      "bytes": 3755640,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Displacement",
+      "file": "hessian_230/hessian_230_disp_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_disp_2k.jpg",
+      "sha256": "dab9d86c779d02ac995dec4fab11efb42988d037ca1864fe401947ef68bceb76",
+      "md5": "0c3d9ee1abda84887b8c0f0c980a44e0",
+      "bytes": 2039184,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "hessian_230",
+      "map": "nor_gl",
+      "file": "hessian_230/hessian_230_nor_gl_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_nor_gl_2k.jpg",
+      "sha256": "a285b3716eed4e7c8eddbe9412d35049c2e05e85d9dc78d6052ab74db5041204",
+      "md5": "3926d1f27d318a410b41ac5952aae574",
+      "bytes": 3759284,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": "retained for later UV export; current BOX projection uses scanned height bump"
+    }
+  ],
+  "revision": 18,
+  "reason": "User requested warm real wood interior floor and light warm wall veneer/beige caps. Exterior and props retain V17.",
+  "affectedSurfaceSlots": [
+    0,
+    8
+  ],
+  "rebakeLightSlots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "runtimeExported": false
+}

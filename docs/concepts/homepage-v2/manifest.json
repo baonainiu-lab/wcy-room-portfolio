@@ -1,0 +1,33 @@
+{
+  "status": "B_approved_implemented_local_preview",
+  "generator": "built-in image_gen",
+  "homepageImplementationStarted": true,
+  "concepts": [
+    {
+      "id": "a-night-gallery",
+      "title": "夜航展厅",
+      "path": "docs/concepts/homepage-v2/a-night-gallery.png",
+      "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-844ab0ab-5fc5-4a63-98d0-fadf77860b49.png",
+      "sha256": "a803ba9aa4e9e742ce18113d8be48b4bd112b8c14e425be44f3990dd7be1d0ae",
+      "approved": false
+    },
+    {
+      "id": "b-day-editorial",
+      "title": "日光画册",
+      "path": "docs/concepts/homepage-v2/b-day-editorial.png",
+      "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-3b35de82-1551-4869-973f-e0ab79c0bf50.png",
+      "sha256": "673031b817ca7b022d3e7a7f2b505af8a10443c81cce57c7576a9e5a3eaa79ee",
+      "approved": true
+    },
+    {
+      "id": "c-bronze-portal",
+      "title": "舷窗入口",
+      "path": "docs/concepts/homepage-v2/c-bronze-portal.png",
+      "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-9128bfa3-e57f-43f5-bf70-3a99cc8bcf88.png",
+      "sha256": "90acf0df540152f27b7539f48f65b8edec59745e8b84ab0af335a66bb9916f9a",
+      "approved": false
+    }
+  ],
+  "selectedConcept": "b-day-editorial",
+  "approvalEvidence": "B 日光画册：明亮米白＋大标题"
+}

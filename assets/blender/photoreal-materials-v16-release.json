@@ -1,0 +1,171 @@
+{
+  "complete": true,
+  "scope": "Room V16 material-only derivative and matching clean intro; runtime integration owned by parent task",
+  "preparedSha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+  "editableSource": "assets/blender/orbital-atelier-v16.blend",
+  "editableSourceSha256": "ecced0fd95522479728eda4e1808c5df07e1d705cd678f13eb7cd7870dbb1232",
+  "model": {
+    "path": "public/models/orbital-atelier-v16-compressed.glb",
+    "bytes": 71018672,
+    "sha256": "9d2144ddd879128b666db9a6294c5419e5c183b2cc006b59b262c70abee9a25e",
+    "sourceSha256": "d137bfe14e940f7dfe26b0dd2e23b68768adc4e8f5bf58fc5c6d3965d0baf00c",
+    "sourceBytes": 72367956,
+    "preservedNonAtlasBufferViews": 406,
+    "geometryAndHierarchyUnchanged": true,
+    "replacedImages": 14
+  },
+  "compressedModelDeltaBytesFromV15": 174164,
+  "runtime": {
+    "model": "/models/orbital-atelier-v16-compressed.glb",
+    "textureDirectory": "/textures/lighting-v16/",
+    "dayNightAtlasSlots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "lightmapMaterials": [
+      "WEB8_LIGHTMAP_0",
+      "WEB8_LIGHTMAP_1",
+      "WEB8_LIGHTMAP_2",
+      "WEB8_LIGHTMAP_3",
+      "WEB8_LIGHTMAP_4",
+      "WEB8_LIGHTMAP_5",
+      "WEB8_LIGHTMAP_6",
+      "WEB8_LIGHTMAP_7",
+      "WEB8_LIGHTMAP_8",
+      "WEB8_LIGHTMAP_9",
+      "WEB8_LIGHTMAP_10",
+      "WEB8_LIGHTMAP_11"
+    ],
+    "windowStates": [
+      "day-window.ktx2",
+      "night-window.ktx2"
+    ],
+    "screen": "static-screen.ktx2",
+    "cleanIntroDirectory": "/textures/intro-clean-v16/",
+    "cleanIntroSlots": [
+      0,
+      1,
+      8
+    ],
+    "windowAndScreenInputsByteIdenticalToV15": true,
+    "cycleContract": "Paired original UVs for the existing 60-second shared day/night clock. No runtime code edited."
+  },
+  "counts": {
+    "triangles": 413855,
+    "drawPrimitives": 102,
+    "nodes": 197,
+    "materials": 19,
+    "componentIds": 95,
+    "mainAtlasPairs": 12,
+    "mainAndStaticKtx2Count": 27,
+    "cleanIntroKtx2Count": 3
+  },
+  "materials": {
+    "usedMaterialsRefined": 33,
+    "preserved": "All authored base colors, geometry, UV layers, normals, transforms, hierarchy and IDs",
+    "surfaces": [
+      "Satin titanium and brushed metal",
+      "Graphite enamel and titanium floor",
+      "Fine ceramic finish",
+      "Orange and charcoal textile"
+    ],
+    "inputs": "Verified existing CC0 hessian height/roughness scans plus deterministic project-authored 2K microfinish maps",
+    "coordinateSpace": "World-position and world-normal explicit triplanar sampling, stable through temporary joined bake proxies"
+  },
+  "baking": {
+    "engine": "Cycles",
+    "samples": 96,
+    "mainDayNightAtlases": 24,
+    "cleanIntroAtlases": 3,
+    "mainBakeSecondsIncludingQueueAndOutput": 2367.09,
+    "samePreparedSource": true,
+    "introReceiverLightingPreserved": true
+  },
+  "checks": {
+    "sourceGeometryUvsNormalsPreserved": true,
+    "v15AndV16GlbGeometryBytesIdentical": true,
+    "compressedGeometryBytesPreserved": true,
+    "idsHierarchyTransformsPreserved": true,
+    "legacySourcesModelsTexturesAndIntroV1Unchanged": true,
+    "allFinalHashesVerified": true,
+    "pixelReadbackNonemptyAndDistinctDayNight": true
+  },
+  "reports": [
+    {
+      "path": "assets/blender/photoreal-materials-v16.json",
+      "sha256": "7326ab63d94f3cfd2656e461b54b53cc92caecc30b2bdb33b04ffb4f708ee1b5"
+    },
+    {
+      "path": "assets/blender/photoreal-materials-v16-comparison.json",
+      "sha256": "ff7aaa1265660dbed932095e69f383d1621a72634a25082923e3001775173e2c"
+    },
+    {
+      "path": "assets/blender/photoreal-materials-v16-validation.json",
+      "sha256": "4f56ba6c9befe2724767ebf1a3d04a5863d3f7d72b72ab31584453e24b23977f"
+    },
+    {
+      "path": "assets/blender/photoreal-materials-v16-pixels.json",
+      "sha256": "bd991447cf033e880e8246c8c1993c01d3a9e2432d6e55c0e92b000a12715b18"
+    },
+    {
+      "path": "assets/blender/photoreal-materials-v16-compression.json",
+      "sha256": "4a18c6f24d16b1d37e58ec78caa1e8e56f481f016c306dfa725566d5a578283d"
+    },
+    {
+      "path": "assets/blender/dual-lighting-v16-export-report.json",
+      "sha256": "4e7d591216aaa89fea9479143ee784a2ecd7a98e1a620d8f603ef66f91f5d2bd"
+    },
+    {
+      "path": "public/textures/intro-clean-v16/validation.json",
+      "sha256": "ed60f602c0f0c8cf2eec42829573a621335b6aab68377c4792b0f5a2dd024011"
+    },
+    {
+      "path": "public/textures/intro-clean-v16/SOURCE.json",
+      "sha256": "ec6bfc773676575aaf1835f96b6047769e71ccd69a6c7336736368445ce1bcb8"
+    },
+    {
+      "path": "public/textures/intro-clean-v16/atlas-1-SOURCE.json",
+      "sha256": "8ee91d8443a89ddb679805078ff64a8c5646d2be777a10bc509468566ad77b63"
+    },
+    {
+      "path": "public/textures/intro-clean-v16/compression.json",
+      "sha256": "805ff9b43593a38a6807fc083c6e6fead8231fb029b5ad97531c946812b37245"
+    }
+  ],
+  "reviewRenders": [
+    {
+      "path": "renders/room-materials-v16/ceramic-day.png",
+      "sha256": "f4c1cdf4bf0d018f0f21e1412642d313822357becaa22f7234c53a1e93b177f3"
+    },
+    {
+      "path": "renders/room-materials-v16/textile-day.png",
+      "sha256": "30c4ed36bdd25d64976745a227035d7a5f738d0c3861244f13af09bba68b1530"
+    },
+    {
+      "path": "renders/room-materials-v16/metal-day.png",
+      "sha256": "6de6e448048978c6ac0e9d61953fa1d13418bca1845997d6380914f76dac69e4"
+    },
+    {
+      "path": "renders/room-materials-v16/metal-night.png",
+      "sha256": "9201163bad41444288c7d2b627abf6f04105e722b7f123f1293d6f4f593e3111"
+    },
+    {
+      "path": "renders/intro-clean-v16/receiver-preview.png",
+      "sha256": "43d7d4076425b7ab16b171719d492d6bc57e1dff9ab987314d363d7e6a788c8f"
+    },
+    {
+      "path": "renders/intro-clean-v16/receiver-atlas1-preview.png",
+      "sha256": "f26e3409a93fbbe2c7cb4f6b6321b57d88bcd0d5853b1a0563de5dd96b6fb489"
+    }
+  ]
+}

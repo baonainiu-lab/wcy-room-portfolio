@@ -1,0 +1,16 @@
+/* UI uses the visitor's licensed system fonts. No Microsoft font is bundled. */
+@font-face {
+  font-family: "Atelier Forge Display";
+  src: url("/fonts/orbital-forge/atelier-forge-display-ui.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --font-ui: "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB", "Segoe UI", Arial, sans-serif;
+  --font-display: "Atelier Forge Display", var(--font-ui);
+  --font-display-weight: 700;
+  font-family: var(--font-ui);
+  font-synthesis: none;
+}

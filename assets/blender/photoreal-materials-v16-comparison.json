@@ -1,0 +1,4329 @@
+{
+  "complete": true,
+  "materialSlotsAndNamesUnchanged": true,
+  "authoredColorsUnchanged": true,
+  "states": [
+    {
+      "revision": 15,
+      "source": "assets/blender/orbital-dual-bake-v15.blend",
+      "sha256": "74d66417d8a764f71380d1e154839aa6fa66b2752aa1e06acac8120aeb9dcd98",
+      "materials": [
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Warm_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.699999988079071,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_BonsaiBark",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.09300000220537186,
+            0.05000000074505806,
+            0.02199999988079071,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_CreativeFolioCover",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.10499999672174454,
+            0.12999999523162842,
+            0.14499999582767487,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DeepLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.052000001072883606,
+            0.10000000149011612,
+            0.027000000700354576,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplayInk",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.00800000037997961,
+            0.01600000075995922,
+            0.020999999716877937,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplaySilverBlue",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.20000000298023224,
+            0.33000001311302185,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_GreenStem",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07000000029802322,
+            0.09700000286102295,
+            0.02800000086426735,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_LensCoating",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.012000000104308128,
+            0.06499999761581421,
+            0.08799999952316284,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_NewLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.14000000059604645,
+            0.20000000298023224,
+            0.050999999046325684,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PageEdge",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.2199999988079071,
+            0.20999999344348907,
+            0.18000000715255737,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PetalBrushedSilver",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5799999833106995,
+            0.6399999856948853,
+            0.699999988079071,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_RiverStone",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.25,
+            0.25,
+            0.20999999344348907,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_Soil",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.04399999976158142,
+            0.035999998450279236,
+            0.017000000923871994,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_TerrariumMoss",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.14000000059604645,
+            0.024000000208616257,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmAnodizedMetal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5600000023841858,
+            0.3199999928474426,
+            0.10000000149011612,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmPaper",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6399999856948853,
+            0.6100000143051147,
+            0.5400000214576721,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Charcoal_Woven",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02500000037252903,
+            0.032999999821186066,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_DisplaySilverBlue",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.20000000298023224,
+            0.33000001311302185,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_LensCoating",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.012000000104308128,
+            0.06499999761581421,
+            0.08799999952316284,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_TeaSurface",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.052000001072883606,
+            0.017999999225139618,
+            0.007000000216066837,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_WarmAnodizedMetal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5600000023841858,
+            0.3199999928474426,
+            0.10000000149011612,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Titanium_Floor",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.09000000357627869,
+            0.11500000208616257,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Warm_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.699999988079071,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A11_F_Chair_Seam",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.035999998450279236,
+            0.03999999910593033,
+            0.04699999839067459,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Charcoal_Woven",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02500000037252903,
+            0.032999999821186066,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Ivory_Ceramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_F_Rug_Embossed_Grooves",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.10499999672174454,
+            0.11900000274181366,
+            0.13199999928474426,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Graphite_Rug",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.012000000104308128,
+            0.01899999938905239,
+            0.02500000037252903,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_BlackCeramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.014000000432133675,
+            0.019999999552965164,
+            0.027000000700354576,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_BlueGreyBookCloth",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07999999821186066,
+            0.12399999797344208,
+            0.1550000011920929,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_BookPaper",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6000000238418579,
+            0.5899999737739563,
+            0.5099999904632568,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_DeepLanceLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.029999999329447746,
+            0.09099999815225601,
+            0.03700000047683716,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_OpticCoating",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.01600000075995922,
+            0.0689999982714653,
+            0.08100000023841858,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_PaleMidrib",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.13099999725818634,
+            0.1809999942779541,
+            0.06700000166893005,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_PaperEdges",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.2199999988079071,
+            0.23000000417232513,
+            0.20000000298023224,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_PlanterSoil",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.032999999821186066,
+            0.024000000208616257,
+            0.012000000104308128,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_SageLanceLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.08399999886751175,
+            0.1459999978542328,
+            0.054999999701976776,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_SoftAnodizedGold",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.49000000953674316,
+            0.3199999928474426,
+            0.13500000536441803,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_SoftDisplayLine",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.15000000596046448,
+            0.33000001311302185,
+            0.4000000059604645,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_WarmGreyBookCloth",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.3799999952316284,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Ivory_Ceramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02800000086426735,
+            0.03700000047683716,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6899999976158142,
+            0.699999988079071,
+            0.6399999856948853,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_SatinTitanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.36000001430511475,
+            0.4399999976158142,
+            0.5,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8600000143051147,
+            0.6100000143051147,
+            0.3199999928474426,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.2800000011920929,
+            0.04699999839067459,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.20499999821186066,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_BurntOrange",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4300000071525574,
+            0.08299999684095383,
+            0.024000000208616257,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.020999999716877937,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_IceSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.3100000023841858,
+            0.6800000071525574,
+            0.8600000143051147,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6499999761581421,
+            0.7200000286102295,
+            0.75,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.49000000953674316,
+            0.550000011920929,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_WarmDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8600000143051147,
+            0.6100000143051147,
+            0.3199999928474426,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_BlueGreyEnamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.0949999988079071,
+            0.17599999904632568,
+            0.23499999940395355,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_BurntOrange",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.46000000834465027,
+            0.10199999809265137,
+            0.03099999949336052,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.019999999552965164,
+            0.032999999821186066,
+            0.04699999839067459,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_IceSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.2800000011920929,
+            0.6700000166893005,
+            0.8199999928474426,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_SatinTitanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4000000059604645,
+            0.4699999988079071,
+            0.550000011920929,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_WarmSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8999999761581421,
+            0.44999998807907104,
+            0.11999999731779099,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_AmberDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.9399999976158142,
+            0.25999999046325684,
+            0.02500000037252903,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_BlueGrey",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.04899999871850014,
+            0.09600000083446503,
+            0.12399999797344208,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_ChampagneMetal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4300000071525574,
+            0.23499999940395355,
+            0.08500000089406967,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_DesaturatedBotanical",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.057999998331069946,
+            0.11500000208616257,
+            0.09099999815225601,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.026000000536441803,
+            0.03099999949336052,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.3499999940395355,
+            0.4300000071525574,
+            0.49000000953674316,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_WalnutOrangeEnamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.23499999940395355,
+            0.07500000298023224,
+            0.027000000700354576,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_WarmCeramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6499999761581421,
+            0.5899999737739563,
+            0.46000000834465027,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_WarmWhiteDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.9100000262260437,
+            0.5299999713897705,
+            0.20000000298023224,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A7_F_Orange_Upholstery_Stitch",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.25,
+            0.057999998331069946,
+            0.014000000432133675,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Charcoal_Woven",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02500000037252903,
+            0.032999999821186066,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Vermilion_Woven",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.27000001072883606,
+            0.03999999910593033,
+            0.00800000037997961,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Graphite_Enamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Satin_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "titanium_brush",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/titanium_brush.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Titanium_Floor",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.09000000357627869,
+            0.11500000208616257,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "micro_grain",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/micro_grain.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Warm_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.699999988079071,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_D_PlanterGlass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.7799999713897705,
+            0.8999999761581421,
+            0.9200000166893005,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_D_SpecimenSmokeGlass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5299999713897705,
+            0.6499999761581421,
+            0.6899999976158142,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.25,
+            0.3499999940395355,
+            0.4000000059604645,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_MAT_Smoke_Glass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.10999999940395355,
+            0.17000000178813934,
+            0.20999999344348907,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_P_ClearTerrariumGlass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8899999856948853,
+            0.949999988079071,
+            0.9700000286102295,
+            1.0
+          ],
+          "textures": []
+        }
+      ],
+      "normalLinked": 0,
+      "roughnessLinked": 31,
+      "changedMaterialCount": 0
+    },
+    {
+      "revision": 16,
+      "source": "assets/blender/orbital-dual-bake-v16.blend",
+      "sha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+      "materials": [
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+          "materialRevision": 16,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Warm_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.699999988079071,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_BonsaiBark",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.09300000220537186,
+            0.05000000074505806,
+            0.02199999988079071,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_CreativeFolioCover",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.10499999672174454,
+            0.12999999523162842,
+            0.14499999582767487,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DeepLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.052000001072883606,
+            0.10000000149011612,
+            0.027000000700354576,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplayInk",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.00800000037997961,
+            0.01600000075995922,
+            0.020999999716877937,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplaySilverBlue",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.20000000298023224,
+            0.33000001311302185,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_GreenStem",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07000000029802322,
+            0.09700000286102295,
+            0.02800000086426735,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_LensCoating",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.012000000104308128,
+            0.06499999761581421,
+            0.08799999952316284,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_NewLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.14000000059604645,
+            0.20000000298023224,
+            0.050999999046325684,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PageEdge",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.2199999988079071,
+            0.20999999344348907,
+            0.18000000715255737,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PetalBrushedSilver",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5799999833106995,
+            0.6399999856948853,
+            0.699999988079071,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_RiverStone",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.25,
+            0.25,
+            0.20999999344348907,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_Soil",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.04399999976158142,
+            0.035999998450279236,
+            0.017000000923871994,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_TerrariumMoss",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.14000000059604645,
+            0.024000000208616257,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmAnodizedMetal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5600000023841858,
+            0.3199999928474426,
+            0.10000000149011612,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmPaper",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6399999856948853,
+            0.6100000143051147,
+            0.5400000214576721,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+          "materialRevision": 16,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Charcoal_Woven",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02500000037252903,
+            0.032999999821186066,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+          "materialRevision": 16,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_DisplaySilverBlue",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.20000000298023224,
+            0.33000001311302185,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_LensCoating",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.012000000104308128,
+            0.06499999761581421,
+            0.08799999952316284,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_TeaSurface",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.052000001072883606,
+            0.017999999225139618,
+            0.007000000216066837,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_WarmAnodizedMetal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5600000023841858,
+            0.3199999928474426,
+            0.10000000149011612,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Titanium_Floor",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.09000000357627869,
+            0.11500000208616257,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A0_MAT_Warm_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.699999988079071,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A11_F_Chair_Seam",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.035999998450279236,
+            0.03999999910593033,
+            0.04699999839067459,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Charcoal_Woven",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02500000037252903,
+            0.032999999821186066,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Ivory_Ceramic",
+          "materialRevision": 16,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A11_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_F_Rug_Embossed_Grooves",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.10499999672174454,
+            0.11900000274181366,
+            0.13199999928474426,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Graphite_Rug",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.012000000104308128,
+            0.01899999938905239,
+            0.02500000037252903,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A1_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_BlackCeramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.014000000432133675,
+            0.019999999552965164,
+            0.027000000700354576,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_BlueGreyBookCloth",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07999999821186066,
+            0.12399999797344208,
+            0.1550000011920929,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_BookPaper",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6000000238418579,
+            0.5899999737739563,
+            0.5099999904632568,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_DeepLanceLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.029999999329447746,
+            0.09099999815225601,
+            0.03700000047683716,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_OpticCoating",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.01600000075995922,
+            0.0689999982714653,
+            0.08100000023841858,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_PaleMidrib",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.13099999725818634,
+            0.1809999942779541,
+            0.06700000166893005,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_PaperEdges",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.2199999988079071,
+            0.23000000417232513,
+            0.20000000298023224,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_PlanterSoil",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.032999999821186066,
+            0.024000000208616257,
+            0.012000000104308128,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_SageLanceLeaf",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.08399999886751175,
+            0.1459999978542328,
+            0.054999999701976776,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_SoftAnodizedGold",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.49000000953674316,
+            0.3199999928474426,
+            0.13500000536441803,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_SoftDisplayLine",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.15000000596046448,
+            0.33000001311302185,
+            0.4000000059604645,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_D_WarmGreyBookCloth",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.3799999952316284,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Amber_Status",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.23000000417232513,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Ivory_Ceramic",
+          "materialRevision": 16,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6800000071525574,
+            0.7300000190734863,
+            0.7400000095367432,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A3_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02800000086426735,
+            0.03700000047683716,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic",
+          "materialRevision": 16,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6899999976158142,
+            0.699999988079071,
+            0.6399999856948853,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_SatinTitanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.36000001430511475,
+            0.4399999976158142,
+            0.5,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8600000143051147,
+            0.6100000143051147,
+            0.3199999928474426,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.2800000011920929,
+            0.04699999839067459,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.15000000596046448,
+            0.20499999821186066,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_BurntOrange",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4300000071525574,
+            0.08299999684095383,
+            0.024000000208616257,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.020999999716877937,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_IceSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.3100000023841858,
+            0.6800000071525574,
+            0.8600000143051147,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+          "materialRevision": 16,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.6499999761581421,
+            0.7200000286102295,
+            0.75,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            },
+            {
+              "name": "ceramic-microfinish-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/ceramic-microfinish-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.49000000953674316,
+            0.550000011920929,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A4_V5_MAT_WarmDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8600000143051147,
+            0.6100000143051147,
+            0.3199999928474426,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_BlueGreyEnamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.0949999988079071,
+            0.17599999904632568,
+            0.23499999940395355,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_BurntOrange",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.46000000834465027,
+            0.10199999809265137,
+            0.03099999949336052,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.019999999552965164,
+            0.032999999821186066,
+            0.04699999839067459,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_IceSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.2800000011920929,
+            0.6700000166893005,
+            0.8199999928474426,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_SatinTitanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4000000059604645,
+            0.4699999988079071,
+            0.550000011920929,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A5_EXT6_MAT_WarmSignal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8999999761581421,
+            0.44999998807907104,
+            0.11999999731779099,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_AmberDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.9399999976158142,
+            0.25999999046325684,
+            0.02500000037252903,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_BlueGrey",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.04899999871850014,
+            0.09600000083446503,
+            0.12399999797344208,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_ChampagneMetal",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.4300000071525574,
+            0.23499999940395355,
+            0.08500000089406967,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_DesaturatedBotanical",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.057999998331069946,
+            0.11500000208616257,
+            0.09099999815225601,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_Graphite",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.026000000536441803,
+            0.03099999949336052,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_Titanium",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.3499999940395355,
+            0.4300000071525574,
+            0.49000000953674316,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_WalnutOrangeEnamel",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.23499999940395355,
+            0.07500000298023224,
+            0.027000000700354576,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_WarmCeramic",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.6499999761581421,
+            0.5899999737739563,
+            0.46000000834465027,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A6_WG7_MAT_WarmWhiteDiffuser",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.9100000262260437,
+            0.5299999713897705,
+            0.20000000298023224,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A7_F_Orange_Upholstery_Stitch",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.25,
+            0.057999998331069946,
+            0.014000000432133675,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "fabric_weave",
+              "size": [
+                512,
+                512
+              ],
+              "path": "//../textures/fabric_weave.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Charcoal_Woven",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.017999999225139618,
+            0.02500000037252903,
+            0.032999999821186066,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A7_MAT_Vermilion_Woven",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.27000001072883606,
+            0.03999999910593033,
+            0.00800000037997961,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_disp_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            },
+            {
+              "name": "hessian_230_rough_2k.jpg",
+              "size": [
+                2048,
+                2036
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Graphite_Enamel",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.023000000044703484,
+            0.032999999821186066,
+            0.04800000041723251,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Optical_Black",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.006000000052154064,
+            0.008999999612569809,
+            0.014999999664723873,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Optical_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.550000011920929,
+            0.8500000238418579,
+            1.0,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Satin_Titanium",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.41999998688697815,
+            0.4699999988079071,
+            0.5299999713897705,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Titanium_Floor",
+          "materialRevision": 16,
+          "normalLinked": true,
+          "roughnessLinked": true,
+          "authoredBaseColor": [
+            0.07500000298023224,
+            0.09000000357627869,
+            0.11500000208616257,
+            1.0
+          ],
+          "textures": [
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            },
+            {
+              "name": "directional-brush-2k.png",
+              "size": [
+                2048,
+                2048
+              ],
+              "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/textures/room-v16/directional-brush-2k.png"
+            }
+          ]
+        },
+        {
+          "material": "WEB8_BAKE_A8_MAT_Warm_White",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.949999988079071,
+            0.699999988079071,
+            0.38999998569488525,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_D_PlanterGlass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.7799999713897705,
+            0.8999999761581421,
+            0.9200000166893005,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_D_SpecimenSmokeGlass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.5299999713897705,
+            0.6499999761581421,
+            0.6899999976158142,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.25,
+            0.3499999940395355,
+            0.4000000059604645,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_MAT_Smoke_Glass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.10999999940395355,
+            0.17000000178813934,
+            0.20999999344348907,
+            1.0
+          ],
+          "textures": []
+        },
+        {
+          "material": "WEB8_GLASS_P_ClearTerrariumGlass",
+          "materialRevision": null,
+          "normalLinked": false,
+          "roughnessLinked": false,
+          "authoredBaseColor": [
+            0.8899999856948853,
+            0.949999988079071,
+            0.9700000286102295,
+            1.0
+          ],
+          "textures": []
+        }
+      ],
+      "normalLinked": 26,
+      "roughnessLinked": 36,
+      "changedMaterialCount": 33
+    }
+  ]
+}

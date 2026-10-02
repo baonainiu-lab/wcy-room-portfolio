@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "preparedSha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+  "sourceGeometryUvsNormalsUnchanged": true,
+  "glbGeometryBuffersUnchanged": true,
+  "compressedGeometryBuffersUnchanged": true,
+  "idsHierarchyTransformsUnchanged": true,
+  "legacySourcesUnchanged": true,
+  "legacyModelsAndTexturesUnchanged": true,
+  "allTextureAndModelHashesVerified": true,
+  "roomAtlasSlots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "dayNightAtlasCount": 24,
+  "samples": 96,
+  "model": {
+    "path": "public/models/orbital-atelier-v16-compressed.glb",
+    "bytes": 71018672,
+    "sha256": "9d2144ddd879128b666db9a6294c5419e5c183b2cc006b59b262c70abee9a25e",
+    "sourceSha256": "d137bfe14e940f7dfe26b0dd2e23b68768adc4e8f5bf58fc5c6d3965d0baf00c",
+    "sourceBytes": 72367956,
+    "preservedNonAtlasBufferViews": 406,
+    "geometryAndHierarchyUnchanged": true,
+    "replacedImages": 14
+  },
+  "materials": 19,
+  "nodes": 197,
+  "geometryMeshes": 102
+}

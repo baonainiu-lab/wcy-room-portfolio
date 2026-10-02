@@ -1,0 +1,7458 @@
+{
+  "source": "assets/blender/works-gallery-v3.blend",
+  "source_sha256": "c423ec1d7348830cf2d6783e15df50ed0025e6379c65eefa4a8b94033849f54e",
+  "read_only_source_unchanged": true,
+  "rendered": false,
+  "owners": {
+    "gallery.architecture": {
+      "objects": 59,
+      "triangles": 47408,
+      "boundary_edges": 1148,
+      "non_manifold_edges": 1148,
+      "open_object_names": [
+        "Corner load-bearing column",
+        "Corner load-bearing column.001",
+        "Cross stone seam",
+        "Cross stone seam.001",
+        "Cross stone seam.002",
+        "Front canopy continuous rail",
+        "Long stone seam",
+        "Long stone seam.001",
+        "Long stone seam.002",
+        "Long stone seam.003",
+        "Long stone seam.004",
+        "Long stone seam.005",
+        "Long stone seam.006",
+        "Rib blue inset 0",
+        "Rib blue inset 1",
+        "Rib blue inset 2",
+        "Rib blue inset 3",
+        "Rib blue inset 4",
+        "Rib blue inset 5",
+        "Rib blue inset 6",
+        "Silver roof rib 0",
+        "Silver roof rib 1",
+        "Silver roof rib 2",
+        "Silver roof rib 3",
+        "Silver roof rib 4",
+        "Silver roof rib 5",
+        "Silver roof rib 6"
+      ],
+      "bounds": {
+        "min": [
+          -8.2,
+          -6.48,
+          -0.49
+        ],
+        "max": [
+          8.2,
+          4.0,
+          5.411658
+        ]
+      }
+    },
+    "gallery.architecture.glazing": {
+      "objects": 12,
+      "triangles": 1812,
+      "boundary_edges": 24,
+      "non_manifold_edges": 24,
+      "open_object_names": [
+        "Glass canopy segment 0",
+        "Glass canopy segment 1",
+        "Glass canopy segment 2",
+        "Glass canopy segment 3",
+        "Glass canopy segment 4",
+        "Glass canopy segment 5"
+      ],
+      "bounds": {
+        "min": [
+          -7.15,
+          1.2,
+          0.53
+        ],
+        "max": [
+          7.15,
+          3.4715,
+          5.192
+        ]
+      }
+    },
+    "gallery.architecture.portal": {
+      "objects": 17,
+      "triangles": 26380,
+      "boundary_edges": 1440,
+      "non_manifold_edges": 1440,
+      "open_object_names": [
+        "Works doorway sign"
+      ],
+      "bounds": {
+        "min": [
+          -9.29,
+          -2.38,
+          -0.025677
+        ],
+        "max": [
+          -6.85,
+          2.32,
+          4.985676
+        ]
+      }
+    }
+  },
+  "exact_duplicate_position_sets": [],
+  "objects": [
+    {
+      "name": "Back structural blue core",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.986658,
+          3.28,
+          -0.011658
+        ],
+        "max": [
+          7.986658,
+          3.62,
+          5.411658
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.986658,
+              3.28,
+              -0.011658
+            ],
+            "max": [
+              7.986658,
+              3.62,
+              5.411658
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.17000000178813934,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              7.824999809265137,
+              3.450000047683716,
+              4.050000190734863
+            ],
+            "end": [
+              7.824999809265137,
+              3.450000047683716,
+              1.350000023841858
+            ],
+            "bounds": {
+              "min": [
+                -7.825,
+                3.45,
+                0.15
+              ],
+              "max": [
+                7.825,
+                3.45,
+                5.25
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "9b4853a92abd505d2b1b7e0b76d61c9012e8a4f24244ac6a598d533e7a6ea901"
+    },
+    {
+      "name": "Back structural silver sleeve",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.989848,
+          3.255,
+          0.010152
+        ],
+        "max": [
+          7.989848,
+          3.465,
+          5.389848
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.989848,
+              3.255,
+              0.010152
+            ],
+            "max": [
+              7.989848,
+              3.465,
+              5.389848
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.10499999672174454,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              7.889999866485596,
+              3.359999895095825,
+              4.070000171661377
+            ],
+            "end": [
+              7.889999866485596,
+              3.359999895095825,
+              1.3300000429153442
+            ],
+            "bounds": {
+              "min": [
+                -7.89,
+                3.36,
+                0.11
+              ],
+              "max": [
+                7.89,
+                3.36,
+                5.29
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "c729d1592101e667a63e81ca986739e6764663cfa7b5eee039aa45bb30052be0"
+    },
+    {
+      "name": "Blue platform fascia",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -8.02,
+          -5.14,
+          -0.06
+        ],
+        "max": [
+          8.02,
+          3.84,
+          0.15
+        ]
+      },
+      "vertices": 600,
+      "faces": 542,
+      "triangles": 1196,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 600,
+          "faces": 542,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.02,
+              -5.14,
+              -0.06
+            ],
+            "max": [
+              8.02,
+              3.84,
+              0.15
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "413d1d26dc58f178081d5e50725712e322cf288a630aded3aa0c9fe69396e287"
+    },
+    {
+      "name": "Connection return wall",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -9.29,
+          -1.625,
+          0.25
+        ],
+        "max": [
+          -9.169999,
+          1.625,
+          4.35
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -9.29,
+              -1.625,
+              0.25
+            ],
+            "max": [
+              -9.169999,
+              1.625,
+              4.35
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "0526d2fd3d2e3610857bf606af3789115c12fa0c659a1b6598c31ac6c2a92eed"
+    },
+    {
+      "name": "Connection vertical bronze inlay",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -9.160999,
+          0.78,
+          0.7
+        ],
+        "max": [
+          -9.139,
+          0.82,
+          3.9
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -9.160999,
+              0.78,
+              0.7
+            ],
+            "max": [
+              -9.139,
+              0.82,
+              3.9
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_bronze"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "2d9135b30a5cf85668467f2b70e4dd23c8d6ffca587562d18ca86bc523b17cba"
+    },
+    {
+      "name": "Corner load-bearing column",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.45,
+          1.03832,
+          0.22
+        ],
+        "max": [
+          -7.11,
+          1.756858,
+          5.160534
+        ]
+      },
+      "vertices": 320,
+      "faces": 310,
+      "triangles": 620,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -7.45,
+          1.03832,
+          0.22
+        ],
+        "max": [
+          -7.11,
+          1.756858,
+          5.160534
+        ]
+      },
+      "components": [
+        {
+          "vertices": 320,
+          "faces": 310,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -7.45,
+              1.03832,
+              0.22
+            ],
+            "max": [
+              -7.11,
+              1.756858,
+              5.160534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.17000000178813934,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 33,
+            "start": [
+              -7.28000020980835,
+              1.2000000476837158,
+              0.2199999988079071
+            ],
+            "end": [
+              -7.28000020980835,
+              1.75,
+              4.99899959564209
+            ],
+            "bounds": {
+              "min": [
+                -7.28,
+                1.2,
+                0.22
+              ],
+              "max": [
+                -7.28,
+                1.75,
+                4.999
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "667db2316a9716e682d8be0497751dd92d1458593e09b298459a8a7f0653246b"
+    },
+    {
+      "name": "Corner load-bearing column.001",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          7.11,
+          1.03832,
+          0.22
+        ],
+        "max": [
+          7.45,
+          1.756858,
+          5.160534
+        ]
+      },
+      "vertices": 320,
+      "faces": 310,
+      "triangles": 620,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          7.11,
+          1.03832,
+          0.22
+        ],
+        "max": [
+          7.45,
+          1.756858,
+          5.160534
+        ]
+      },
+      "components": [
+        {
+          "vertices": 320,
+          "faces": 310,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              7.11,
+              1.03832,
+              0.22
+            ],
+            "max": [
+              7.45,
+              1.756858,
+              5.160534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.17000000178813934,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 33,
+            "start": [
+              7.28000020980835,
+              1.2000000476837158,
+              0.2199999988079071
+            ],
+            "end": [
+              7.28000020980835,
+              1.75,
+              4.99899959564209
+            ],
+            "bounds": {
+              "min": [
+                7.28,
+                1.2,
+                0.22
+              ],
+              "max": [
+                7.28,
+                1.75,
+                4.999
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "356e207650c0a8714afea221a40b8221ade8d92cf614b6983fa4a2ce7fa720e8"
+    },
+    {
+      "name": "Cross stone seam",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -6.65,
+          -2.5535,
+          0.175671
+        ],
+        "max": [
+          6.65,
+          -2.5465,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -6.65,
+          -2.5535,
+          0.175671
+        ],
+        "max": [
+          6.65,
+          -2.5465,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -6.65,
+              -2.5535,
+              0.175671
+            ],
+            "max": [
+              6.65,
+              -2.5465,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              -6.650000095367432,
+              -2.549999952316284,
+              0.17900000512599945
+            ],
+            "end": [
+              6.650000095367432,
+              -2.549999952316284,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                -6.65,
+                -2.55,
+                0.179
+              ],
+              "max": [
+                6.65,
+                -2.55,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "2685423cfc778f00c7928b019d5578bd4611c837dcee3aebb0a4b31b56262ce3"
+    },
+    {
+      "name": "Cross stone seam.001",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -6.65,
+          -0.7535,
+          0.175671
+        ],
+        "max": [
+          6.65,
+          -0.7465,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -6.65,
+          -0.7535,
+          0.175671
+        ],
+        "max": [
+          6.65,
+          -0.7465,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -6.65,
+              -0.7535,
+              0.175671
+            ],
+            "max": [
+              6.65,
+              -0.7465,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              -6.650000095367432,
+              -0.75,
+              0.17900000512599945
+            ],
+            "end": [
+              6.650000095367432,
+              -0.75,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                -6.65,
+                -0.75,
+                0.179
+              ],
+              "max": [
+                6.65,
+                -0.75,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "21af337d429dc3334b179ff6af07bcd4bbdeaedf7f12638fa3f2ef0e72305f01"
+    },
+    {
+      "name": "Cross stone seam.002",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -6.65,
+          1.0465,
+          0.175671
+        ],
+        "max": [
+          6.65,
+          1.0535,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -6.65,
+          1.0465,
+          0.175671
+        ],
+        "max": [
+          6.65,
+          1.0535,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -6.65,
+              1.0465,
+              0.175671
+            ],
+            "max": [
+              6.65,
+              1.0535,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              -6.650000095367432,
+              1.0499999523162842,
+              0.17900000512599945
+            ],
+            "end": [
+              6.650000095367432,
+              1.0499999523162842,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                -6.65,
+                1.05,
+                0.179
+              ],
+              "max": [
+                6.65,
+                1.05,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "4ef5dcd4f12be1f6cece5e269639e89da365ec88058574fb35cfb0cfb02e027b"
+    },
+    {
+      "name": "Entry step 0",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -2.7,
+          -5.8,
+          -0.125
+        ],
+        "max": [
+          2.7,
+          -5.0,
+          0.045
+        ]
+      },
+      "vertices": 600,
+      "faces": 542,
+      "triangles": 1196,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 600,
+          "faces": 542,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -2.7,
+              -5.8,
+              -0.125
+            ],
+            "max": [
+              2.7,
+              -5.0,
+              0.045
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "911f33f1dc3644b57ef813fee88cd63c3148e6a75ed0c80b5323eed36263a32b"
+    },
+    {
+      "name": "Entry step 1",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -2.875,
+          -6.14,
+          -0.285
+        ],
+        "max": [
+          2.875,
+          -5.34,
+          -0.115
+        ]
+      },
+      "vertices": 600,
+      "faces": 542,
+      "triangles": 1196,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 600,
+          "faces": 542,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -2.875,
+              -6.14,
+              -0.285
+            ],
+            "max": [
+              2.875,
+              -5.34,
+              -0.115
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "e71b529bf8da502c39aa77a1e4c8af0087653561f730e221b6e6a61486824edd"
+    },
+    {
+      "name": "Entry step 2",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -3.05,
+          -6.48,
+          -0.445
+        ],
+        "max": [
+          3.05,
+          -5.68,
+          -0.275
+        ]
+      },
+      "vertices": 600,
+      "faces": 542,
+      "triangles": 1196,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 600,
+          "faces": 542,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -3.05,
+              -6.48,
+              -0.445
+            ],
+            "max": [
+              3.05,
+              -5.68,
+              -0.275
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "506994b2ad76e38c5356b74a551bc6002889c5f8160c1a9a673032bab283b60e"
+    },
+    {
+      "name": "Floor inlay border",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.511998,
+          -4.631998,
+          0.169587
+        ],
+        "max": [
+          7.511998,
+          3.331998,
+          0.192413
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.511998,
+              -4.631998,
+              0.169587
+            ],
+            "max": [
+              7.511998,
+              3.331998,
+              0.192413
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_bronze"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.012000000104308128,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              7.5,
+              2.1600000858306885,
+              0.1809999942779541
+            ],
+            "end": [
+              7.5,
+              -3.4600000381469727,
+              0.1809999942779541
+            ],
+            "bounds": {
+              "min": [
+                -7.5,
+                -4.62,
+                0.181
+              ],
+              "max": [
+                7.5,
+                3.32,
+                0.181
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "51e01f06f8ceae1fd5218513113d3d7b586f02ec7392a57f9d2c02fc9803acbd"
+    },
+    {
+      "name": "Floor metal perimeter",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -8.025996,
+          -5.125997,
+          0.146273
+        ],
+        "max": [
+          8.025996,
+          3.825996,
+          0.195727
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.025996,
+              -5.125997,
+              0.146273
+            ],
+            "max": [
+              8.025996,
+              3.825996,
+              0.195727
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.026000000536441803,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              8.0,
+              2.5799999237060547,
+              0.17100000381469727
+            ],
+            "end": [
+              8.0,
+              -3.880000114440918,
+              0.17100000381469727
+            ],
+            "bounds": {
+              "min": [
+                -8.0,
+                -5.1,
+                0.171
+              ],
+              "max": [
+                8.0,
+                3.8,
+                0.171
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "e607b0450b424d8024af22766bedf5e8f5e3bbd9a36860dec356fa22bc6be723"
+    },
+    {
+      "name": "Front canopy continuous rail",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.250731,
+          1.03,
+          4.925004
+        ],
+        "max": [
+          7.250731,
+          1.37,
+          5.12
+        ]
+      },
+      "vertices": 2472,
+      "faces": 2444,
+      "triangles": 4844,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -7.250731,
+          1.03,
+          4.925004
+        ],
+        "max": [
+          7.250731,
+          1.37,
+          5.074996
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              7.249269,
+              1.03,
+              4.925004
+            ],
+            "max": [
+              7.250731,
+              1.37,
+              5.074996
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              -7.250731,
+              1.03,
+              4.925004
+            ],
+            "max": [
+              -7.249269,
+              1.37,
+              5.074996
+            ]
+          }
+        },
+        {
+          "vertices": 2424,
+          "faces": 2400,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              -7.250731,
+              1.03,
+              4.925004
+            ],
+            "max": [
+              7.250731,
+              1.37,
+              5.12
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.15000000596046448,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 101,
+            "start": [
+              -7.25,
+              1.2000000476837158,
+              5.0
+            ],
+            "end": [
+              7.25,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                -7.25,
+                1.2,
+                5.0
+              ],
+              "max": [
+                7.25,
+                1.2,
+                5.045
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "f9af25fc6efb31c5dc1c7862161160a4f3f2dc163bc6ed5688d77fa6456d0d7b"
+    },
+    {
+      "name": "Gateway front pier",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.575,
+          -2.38,
+          0.125
+        ],
+        "max": [
+          -7.145,
+          -1.76,
+          4.875
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.575,
+              -2.38,
+              0.125
+            ],
+            "max": [
+              -7.145,
+              -1.76,
+              4.875
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "77300f3415c3a7babcf1a00a7e25a1be636c484e1a18a26b653ef9f23b49c13f"
+    },
+    {
+      "name": "Gateway lintel",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.575,
+          -1.775,
+          4.34
+        ],
+        "max": [
+          -7.145,
+          1.775,
+          4.94
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.575,
+              -1.775,
+              4.34
+            ],
+            "max": [
+              -7.145,
+              1.775,
+              4.94
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "65c2a195b334b45c4da466d7631764294ad20161369fbe0a6664749fa45b320e"
+    },
+    {
+      "name": "Gateway rear pier",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.575,
+          1.7,
+          0.125
+        ],
+        "max": [
+          -7.145,
+          2.32,
+          4.875
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.575,
+              1.7,
+              0.125
+            ],
+            "max": [
+              -7.145,
+              2.32,
+              4.875
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "0a0b9c539d4cb9475bd9070e490c454c17b6aee1a78afdb002de98a548019e75"
+    },
+    {
+      "name": "Gateway rounded frame",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.49,
+          -2.080677,
+          -0.025677
+        ],
+        "max": [
+          -7.11,
+          1.980677,
+          4.985676
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.49,
+              -2.080677,
+              -0.025677
+            ],
+            "max": [
+              -7.11,
+              1.980677,
+              4.985676
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.1899999976158142,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              -7.300000190734863,
+              1.7999999523162842,
+              3.9049999713897705
+            ],
+            "end": [
+              -7.300000190734863,
+              1.7999999523162842,
+              1.0549999475479126
+            ],
+            "bounds": {
+              "min": [
+                -7.3,
+                -1.9,
+                0.155
+              ],
+              "max": [
+                -7.3,
+                1.8,
+                4.805
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "17af11a6444c3ec092a4544d7b67d2d229d76b2e613206abde4c76ed0def04e6"
+    },
+    {
+      "name": "Gateway rounded frame.001",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.375,
+          -1.87132,
+          0.18868
+        ],
+        "max": [
+          -7.225,
+          1.77132,
+          4.771319
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.375,
+              -1.87132,
+              0.18868
+            ],
+            "max": [
+              -7.225,
+              1.77132,
+              4.771319
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.07500000298023224,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              -7.300000190734863,
+              1.7000000476837158,
+              3.869999885559082
+            ],
+            "end": [
+              -7.300000190734863,
+              1.7000000476837158,
+              1.090000033378601
+            ],
+            "bounds": {
+              "min": [
+                -7.3,
+                -1.8,
+                0.26
+              ],
+              "max": [
+                -7.3,
+                1.7,
+                4.7
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "9aca6fe4364e44887c972a66033cd25ee08a4fbf4b98f81819adc0d4ba3fab1b"
+    },
+    {
+      "name": "Gateway rounded frame.002",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.315,
+          -1.674264,
+          0.395736
+        ],
+        "max": [
+          -7.285,
+          1.574264,
+          4.564264
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.315,
+              -1.674264,
+              0.395736
+            ],
+            "max": [
+              -7.285,
+              1.574264,
+              4.564264
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_warm"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.014999999664723873,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              -7.300000190734863,
+              1.559999942779541,
+              3.809999942779541
+            ],
+            "end": [
+              -7.300000190734863,
+              1.559999942779541,
+              1.149999976158142
+            ],
+            "bounds": {
+              "min": [
+                -7.3,
+                -1.66,
+                0.41
+              ],
+              "max": [
+                -7.3,
+                1.56,
+                4.55
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "1ea9eff725d167148c7748ca066225baf2ba0bdda0e658b885df3b7be8338b66"
+    },
+    {
+      "name": "Gateway rounded frame.003",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -8.889999,
+          -2.080677,
+          -0.025677
+        ],
+        "max": [
+          -8.51,
+          1.980677,
+          4.985676
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.889999,
+              -2.080677,
+              -0.025677
+            ],
+            "max": [
+              -8.51,
+              1.980677,
+              4.985676
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.1899999976158142,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              -8.699999809265137,
+              1.7999999523162842,
+              3.9049999713897705
+            ],
+            "end": [
+              -8.699999809265137,
+              1.7999999523162842,
+              1.0549999475479126
+            ],
+            "bounds": {
+              "min": [
+                -8.7,
+                -1.9,
+                0.155
+              ],
+              "max": [
+                -8.7,
+                1.8,
+                4.805
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "5e594afb527cae00a2513fe3a8df6db40eb62fd33551dedbf2bcb5eeaac4fa1e"
+    },
+    {
+      "name": "Gateway rounded frame.004",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -8.775,
+          -1.87132,
+          0.18868
+        ],
+        "max": [
+          -8.625,
+          1.77132,
+          4.771319
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.775,
+              -1.87132,
+              0.18868
+            ],
+            "max": [
+              -8.625,
+              1.77132,
+              4.771319
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.07500000298023224,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              -8.699999809265137,
+              1.7000000476837158,
+              3.869999885559082
+            ],
+            "end": [
+              -8.699999809265137,
+              1.7000000476837158,
+              1.090000033378601
+            ],
+            "bounds": {
+              "min": [
+                -8.7,
+                -1.8,
+                0.26
+              ],
+              "max": [
+                -8.7,
+                1.7,
+                4.7
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "d69a1d5c94d258c5e38f4f900cf22b88c6a26bdf9780cc0dc5dd833b47eb6729"
+    },
+    {
+      "name": "Gateway rounded frame.005",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -8.715,
+          -1.674264,
+          0.395736
+        ],
+        "max": [
+          -8.684999,
+          1.574264,
+          4.564264
+        ]
+      },
+      "vertices": 1000,
+      "faces": 1000,
+      "triangles": 2000,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 1000,
+          "faces": 1000,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.715,
+              -1.674264,
+              0.395736
+            ],
+            "max": [
+              -8.684999,
+              1.574264,
+              4.564264
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_warm"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.014999999664723873,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 100,
+            "start": [
+              -8.699999809265137,
+              1.559999942779541,
+              3.809999942779541
+            ],
+            "end": [
+              -8.699999809265137,
+              1.559999942779541,
+              1.149999976158142
+            ],
+            "bounds": {
+              "min": [
+                -8.7,
+                -1.66,
+                0.41
+              ],
+              "max": [
+                -8.7,
+                1.56,
+                4.55
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "29637112fa50ed23fee06f64fb8d6006871c51ec484eb7e0672be8ac7c810daf"
+    },
+    {
+      "name": "Glass canopy segment 0",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.15,
+          1.2,
+          5.012
+        ],
+        "max": [
+          -4.85,
+          3.45,
+          5.192
+        ]
+      },
+      "vertices": 4,
+      "faces": 1,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "non_manifold_edges": 4,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -7.15,
+          1.2,
+          5.012
+        ],
+        "max": [
+          -4.85,
+          3.45,
+          5.192
+        ]
+      },
+      "components": [
+        {
+          "vertices": 4,
+          "faces": 1,
+          "boundary_edges": 4,
+          "non_manifold_edges": 4,
+          "bounds": {
+            "min": [
+              -7.15,
+              1.2,
+              5.012
+            ],
+            "max": [
+              -4.85,
+              3.45,
+              5.192
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [],
+      "position_signature": "4156a7d03874e612dfc4a0dc291deac3123ecb7cad422c8f4741fb02d73d5fed"
+    },
+    {
+      "name": "Glass canopy segment 1",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -4.65,
+          1.2,
+          5.012
+        ],
+        "max": [
+          -2.35,
+          3.45,
+          5.192
+        ]
+      },
+      "vertices": 4,
+      "faces": 1,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "non_manifold_edges": 4,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -4.65,
+          1.2,
+          5.012
+        ],
+        "max": [
+          -2.35,
+          3.45,
+          5.192
+        ]
+      },
+      "components": [
+        {
+          "vertices": 4,
+          "faces": 1,
+          "boundary_edges": 4,
+          "non_manifold_edges": 4,
+          "bounds": {
+            "min": [
+              -4.65,
+              1.2,
+              5.012
+            ],
+            "max": [
+              -2.35,
+              3.45,
+              5.192
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [],
+      "position_signature": "17550611c0a0eb864f0ed9dfacdd009e2991e2f5348eba5e6b3cfb0cc42293f7"
+    },
+    {
+      "name": "Glass canopy segment 2",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -2.15,
+          1.2,
+          5.012
+        ],
+        "max": [
+          0.15,
+          3.45,
+          5.192
+        ]
+      },
+      "vertices": 4,
+      "faces": 1,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "non_manifold_edges": 4,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -2.15,
+          1.2,
+          5.012
+        ],
+        "max": [
+          0.15,
+          3.45,
+          5.192
+        ]
+      },
+      "components": [
+        {
+          "vertices": 4,
+          "faces": 1,
+          "boundary_edges": 4,
+          "non_manifold_edges": 4,
+          "bounds": {
+            "min": [
+              -2.15,
+              1.2,
+              5.012
+            ],
+            "max": [
+              0.15,
+              3.45,
+              5.192
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [],
+      "position_signature": "dc283373483d3b170e997dd124101104dd24f64e35a4fedd9bc5d75cca6dd567"
+    },
+    {
+      "name": "Glass canopy segment 3",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          0.35,
+          1.2,
+          5.012
+        ],
+        "max": [
+          2.65,
+          3.45,
+          5.192
+        ]
+      },
+      "vertices": 4,
+      "faces": 1,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "non_manifold_edges": 4,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          0.35,
+          1.2,
+          5.012
+        ],
+        "max": [
+          2.65,
+          3.45,
+          5.192
+        ]
+      },
+      "components": [
+        {
+          "vertices": 4,
+          "faces": 1,
+          "boundary_edges": 4,
+          "non_manifold_edges": 4,
+          "bounds": {
+            "min": [
+              0.35,
+              1.2,
+              5.012
+            ],
+            "max": [
+              2.65,
+              3.45,
+              5.192
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [],
+      "position_signature": "b2d2694968f7609cf1aab2ad9a5635309d2702a3f8babeacb8b7e6cfac755423"
+    },
+    {
+      "name": "Glass canopy segment 4",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          2.85,
+          1.2,
+          5.012
+        ],
+        "max": [
+          5.15,
+          3.45,
+          5.192
+        ]
+      },
+      "vertices": 4,
+      "faces": 1,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "non_manifold_edges": 4,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          2.85,
+          1.2,
+          5.012
+        ],
+        "max": [
+          5.15,
+          3.45,
+          5.192
+        ]
+      },
+      "components": [
+        {
+          "vertices": 4,
+          "faces": 1,
+          "boundary_edges": 4,
+          "non_manifold_edges": 4,
+          "bounds": {
+            "min": [
+              2.85,
+              1.2,
+              5.012
+            ],
+            "max": [
+              5.15,
+              3.45,
+              5.192
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [],
+      "position_signature": "d8242b145f30f29aaae0efc8914c7cf33c39149dcce55f47e279fc32deeb2e92"
+    },
+    {
+      "name": "Glass canopy segment 5",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          5.35,
+          1.2,
+          5.012
+        ],
+        "max": [
+          7.15,
+          3.45,
+          5.192
+        ]
+      },
+      "vertices": 4,
+      "faces": 1,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "non_manifold_edges": 4,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          5.35,
+          1.2,
+          5.012
+        ],
+        "max": [
+          7.15,
+          3.45,
+          5.192
+        ]
+      },
+      "components": [
+        {
+          "vertices": 4,
+          "faces": 1,
+          "boundary_edges": 4,
+          "non_manifold_edges": 4,
+          "bounds": {
+            "min": [
+              5.35,
+              1.2,
+              5.012
+            ],
+            "max": [
+              7.15,
+              3.45,
+              5.192
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [],
+      "position_signature": "db07f2ce170d93f5b5b78debd7829c84f9701c136a11c544388eaf54a84ccba6"
+    },
+    {
+      "name": "Long stone seam",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -5.4035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          -5.3965,
+          2.9,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -5.4035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          -5.3965,
+          2.9,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -5.4035,
+              -3.7,
+              0.175671
+            ],
+            "max": [
+              -5.3965,
+              2.9,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              -5.400000095367432,
+              -3.700000047683716,
+              0.17900000512599945
+            ],
+            "end": [
+              -5.400000095367432,
+              2.9000000953674316,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                -5.4,
+                -3.7,
+                0.179
+              ],
+              "max": [
+                -5.4,
+                2.9,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "3478e57dfa54127a485c258a848769e4cd1577cff1b1f0635e9ba4ba385dfada"
+    },
+    {
+      "name": "Long stone seam.001",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -3.6035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          -3.5965,
+          2.9,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -3.6035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          -3.5965,
+          2.9,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -3.6035,
+              -3.7,
+              0.175671
+            ],
+            "max": [
+              -3.5965,
+              2.9,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              -3.5999999046325684,
+              -3.700000047683716,
+              0.17900000512599945
+            ],
+            "end": [
+              -3.5999999046325684,
+              2.9000000953674316,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                -3.6,
+                -3.7,
+                0.179
+              ],
+              "max": [
+                -3.6,
+                2.9,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "7ccf94cbd4454e8a14a45bc77cec1ea297bd81693612a042d5f8fae43dc5cb59"
+    },
+    {
+      "name": "Long stone seam.002",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -1.8035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          -1.7965,
+          2.9,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -1.8035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          -1.7965,
+          2.9,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -1.8035,
+              -3.7,
+              0.175671
+            ],
+            "max": [
+              -1.7965,
+              2.9,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              -1.7999999523162842,
+              -3.700000047683716,
+              0.17900000512599945
+            ],
+            "end": [
+              -1.7999999523162842,
+              2.9000000953674316,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                -1.8,
+                -3.7,
+                0.179
+              ],
+              "max": [
+                -1.8,
+                2.9,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "6d6145eac516baa03e02cf830ffa7338a7233d7d0f1148ad86902046b4317465"
+    },
+    {
+      "name": "Long stone seam.003",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -0.0035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          0.0035,
+          2.9,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -0.0035,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          0.0035,
+          2.9,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -0.0035,
+              -3.7,
+              0.175671
+            ],
+            "max": [
+              0.0035,
+              2.9,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              0.0,
+              -3.700000047683716,
+              0.17900000512599945
+            ],
+            "end": [
+              0.0,
+              2.9000000953674316,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                0.0,
+                -3.7,
+                0.179
+              ],
+              "max": [
+                0.0,
+                2.9,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "8bb81eeff1d2c49c6d850d04141b6ff6261c861f281dc967533455e77fd8ba3d"
+    },
+    {
+      "name": "Long stone seam.004",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          1.7965,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          1.8035,
+          2.9,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          1.7965,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          1.8035,
+          2.9,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              1.7965,
+              -3.7,
+              0.175671
+            ],
+            "max": [
+              1.8035,
+              2.9,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              1.7999999523162842,
+              -3.700000047683716,
+              0.17900000512599945
+            ],
+            "end": [
+              1.7999999523162842,
+              2.9000000953674316,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                1.8,
+                -3.7,
+                0.179
+              ],
+              "max": [
+                1.8,
+                2.9,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "801bbb303537391bc9e387e6f0a857f3f55e401a3f324eddc9c213cf8afc850f"
+    },
+    {
+      "name": "Long stone seam.005",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          3.5965,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          3.6035,
+          2.9,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          3.5965,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          3.6035,
+          2.9,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              3.5965,
+              -3.7,
+              0.175671
+            ],
+            "max": [
+              3.6035,
+              2.9,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              3.5999999046325684,
+              -3.700000047683716,
+              0.17900000512599945
+            ],
+            "end": [
+              3.5999999046325684,
+              2.9000000953674316,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                3.6,
+                -3.7,
+                0.179
+              ],
+              "max": [
+                3.6,
+                2.9,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "05a5ead2ed21394ab8cbee3f781bcd5633cec42d4e72022660c08c04abf46bb8"
+    },
+    {
+      "name": "Long stone seam.006",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          5.3965,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          5.4035,
+          2.9,
+          0.182329
+        ]
+      },
+      "vertices": 20,
+      "faces": 10,
+      "triangles": 20,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          5.3965,
+          -3.7,
+          0.175671
+        ],
+        "max": [
+          5.4035,
+          2.9,
+          0.182329
+        ]
+      },
+      "components": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              5.3965,
+              -3.7,
+              0.175671
+            ],
+            "max": [
+              5.4035,
+              2.9,
+              0.182329
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ink"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.0035000001080334187,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 2,
+            "start": [
+              5.400000095367432,
+              -3.700000047683716,
+              0.17900000512599945
+            ],
+            "end": [
+              5.400000095367432,
+              2.9000000953674316,
+              0.17900000512599945
+            ],
+            "bounds": {
+              "min": [
+                5.4,
+                -3.7,
+                0.179
+              ],
+              "max": [
+                5.4,
+                2.9,
+                0.179
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "d926f1640d3c1e737b13a02ca295f8b019c787259d9e9f66e3d51c059c1142fd"
+    },
+    {
+      "name": "Pale terrazzo inset",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.435,
+          -4.54,
+          0.1485
+        ],
+        "max": [
+          7.435,
+          3.24,
+          0.1735
+        ]
+      },
+      "vertices": 600,
+      "faces": 542,
+      "triangles": 1196,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 600,
+          "faces": 542,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.435,
+              -4.54,
+              0.1485
+            ],
+            "max": [
+              7.435,
+              3.24,
+              0.1735
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_terrazzo"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "81572dffcc1671a8f8f745edfcdb8ce47965469506e6bec3b727479dfd6efe93"
+    },
+    {
+      "name": "Panoramic clear panel 0",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -6.34,
+          3.4485,
+          0.53
+        ],
+        "max": [
+          -4.26,
+          3.4715,
+          4.85
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -6.34,
+              3.4485,
+              0.53
+            ],
+            "max": [
+              -4.26,
+              3.4715,
+              4.85
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "13589adb7e8536953e33aa4ed81a9897fd149cb93d106c22511830ba6c9481c5"
+    },
+    {
+      "name": "Panoramic clear panel 1",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -4.22,
+          3.4485,
+          0.53
+        ],
+        "max": [
+          -2.14,
+          3.4715,
+          4.85
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -4.22,
+              3.4485,
+              0.53
+            ],
+            "max": [
+              -2.14,
+              3.4715,
+              4.85
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "64c59dbbd3f080125d830ed04899ebe02f11e308987ec9f470bb8ac1ae731cc1"
+    },
+    {
+      "name": "Panoramic clear panel 2",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -2.1,
+          3.4485,
+          0.53
+        ],
+        "max": [
+          -0.02,
+          3.4715,
+          4.85
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -2.1,
+              3.4485,
+              0.53
+            ],
+            "max": [
+              -0.02,
+              3.4715,
+              4.85
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "50c96b4cceec6c4101f866e77d8054cacfa0659114cef180cde44cc156f85e61"
+    },
+    {
+      "name": "Panoramic clear panel 3",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          0.02,
+          3.4485,
+          0.53
+        ],
+        "max": [
+          2.1,
+          3.4715,
+          4.85
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              0.02,
+              3.4485,
+              0.53
+            ],
+            "max": [
+              2.1,
+              3.4715,
+              4.85
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "1ae66af4344a0b960f60aff599867ca11575b139442fe45e1c1b97aefc3d11d9"
+    },
+    {
+      "name": "Panoramic clear panel 4",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          2.14,
+          3.4485,
+          0.53
+        ],
+        "max": [
+          4.22,
+          3.4715,
+          4.85
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              2.14,
+              3.4485,
+              0.53
+            ],
+            "max": [
+              4.22,
+              3.4715,
+              4.85
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "8cfa337bb28c478734c17d707991abbb8e191c07f7572f16ede501db2841879b"
+    },
+    {
+      "name": "Panoramic clear panel 5",
+      "owner": "gallery.architecture.glazing",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          4.26,
+          3.4485,
+          0.53
+        ],
+        "max": [
+          6.34,
+          3.4715,
+          4.85
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              4.26,
+              3.4485,
+              0.53
+            ],
+            "max": [
+              6.34,
+              3.4715,
+              4.85
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_glass"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "85854cc2d6328b90f1cd7e7f65b67866804553300f5ac55c570b53629614872a"
+    },
+    {
+      "name": "Passage ceiling arch",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.955,
+          -1.842298,
+          0.227702
+        ],
+        "max": [
+          -7.845,
+          1.742298,
+          4.732298
+        ]
+      },
+      "vertices": 840,
+      "faces": 840,
+      "triangles": 1680,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 840,
+          "faces": 840,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.955,
+              -1.842298,
+              0.227702
+            ],
+            "max": [
+              -7.845,
+              1.742298,
+              4.732298
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.054999999701976776,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 84,
+            "start": [
+              -7.900000095367432,
+              1.690000057220459,
+              3.8299999237060547
+            ],
+            "end": [
+              -7.900000095367432,
+              1.690000057220459,
+              1.1299999952316284
+            ],
+            "bounds": {
+              "min": [
+                -7.9,
+                -1.79,
+                0.28
+              ],
+              "max": [
+                -7.9,
+                1.69,
+                4.68
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "4f5b4d506517d9c307333be7b03e0769f03c037125cfaa3c807910a0514471fa"
+    },
+    {
+      "name": "Passage ceiling arch.001",
+      "owner": "gallery.architecture.portal",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -8.405001,
+          -1.842298,
+          0.227702
+        ],
+        "max": [
+          -8.295,
+          1.742298,
+          4.732298
+        ]
+      },
+      "vertices": 840,
+      "faces": 840,
+      "triangles": 1680,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 840,
+          "faces": 840,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.405001,
+              -1.842298,
+              0.227702
+            ],
+            "max": [
+              -8.295,
+              1.742298,
+              4.732298
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.054999999701976776,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": true,
+            "control_count": 84,
+            "start": [
+              -8.350000381469727,
+              1.690000057220459,
+              3.8299999237060547
+            ],
+            "end": [
+              -8.350000381469727,
+              1.690000057220459,
+              1.1299999952316284
+            ],
+            "bounds": {
+              "min": [
+                -8.35,
+                -1.79,
+                0.28
+              ],
+              "max": [
+                -8.35,
+                1.69,
+                4.68
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "d8d38e0f3047899037305534735c9e3149ac008d14acb8789196359aabf362d0"
+    },
+    {
+      "name": "Passage side lining",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -8.75,
+          -1.605,
+          0.435
+        ],
+        "max": [
+          -7.35,
+          -1.455,
+          4.285
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.75,
+              -1.605,
+              0.435
+            ],
+            "max": [
+              -7.35,
+              -1.455,
+              4.285
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "16b5974bde2a2e781c86af55a26c18b082d6de7b6bd43189bebbf7d2596331ef"
+    },
+    {
+      "name": "Passage side lining.001",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -8.75,
+          1.355,
+          0.435
+        ],
+        "max": [
+          -7.35,
+          1.505,
+          4.285
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.75,
+              1.355,
+              0.435
+            ],
+            "max": [
+              -7.35,
+              1.505,
+              4.285
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "3063b1607df17d15970a22196c676b5b698b92dfc33b991f518d2fd79b4620a0"
+    },
+    {
+      "name": "Passage threshold",
+      "owner": "gallery.architecture.portal",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -9.25,
+          -1.7,
+          0.135
+        ],
+        "max": [
+          -6.85,
+          1.7,
+          0.265
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -9.25,
+              -1.7,
+              0.135
+            ],
+            "max": [
+              -6.85,
+              1.7,
+              0.265
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "66164b3968b6798e3f8b3a237a88056366fc311df08fc50643ad508d56871268"
+    },
+    {
+      "name": "Rib blue inset 0",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.312,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          -7.188,
+          3.451862,
+          5.180534
+        ]
+      },
+      "vertices": 410,
+      "faces": 400,
+      "triangles": 800,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -7.312,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          -7.188,
+          3.451862,
+          5.168936
+        ]
+      },
+      "components": [
+        {
+          "vertices": 410,
+          "faces": 400,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -7.312,
+              1.188905,
+              4.872087
+            ],
+            "max": [
+              -7.188,
+              3.451862,
+              5.180534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.06199999898672104,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              -7.25,
+              3.450000047683716,
+              5.110000133514404
+            ],
+            "end": [
+              -7.25,
+              1.2000000476837158,
+              4.929999828338623
+            ],
+            "bounds": {
+              "min": [
+                -7.25,
+                1.2,
+                4.93
+              ],
+              "max": [
+                -7.25,
+                3.45,
+                5.121569
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "17ac2349c7bbeb770669e92cd17281680a9c976eb948915bd6d42e26b16157fd"
+    },
+    {
+      "name": "Rib blue inset 1",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -4.812,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          -4.688,
+          3.451862,
+          5.180534
+        ]
+      },
+      "vertices": 410,
+      "faces": 400,
+      "triangles": 800,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -4.812,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          -4.688,
+          3.451862,
+          5.168936
+        ]
+      },
+      "components": [
+        {
+          "vertices": 410,
+          "faces": 400,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -4.812,
+              1.188905,
+              4.872087
+            ],
+            "max": [
+              -4.688,
+              3.451862,
+              5.180534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.06199999898672104,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              -4.75,
+              3.450000047683716,
+              5.110000133514404
+            ],
+            "end": [
+              -4.75,
+              1.2000000476837158,
+              4.929999828338623
+            ],
+            "bounds": {
+              "min": [
+                -4.75,
+                1.2,
+                4.93
+              ],
+              "max": [
+                -4.75,
+                3.45,
+                5.121569
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "0c2bd708cbbd939c7574840d904e4a55ab538737ca333f59098f9d7c8347c7fa"
+    },
+    {
+      "name": "Rib blue inset 2",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -2.312,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          -2.188,
+          3.451862,
+          5.180534
+        ]
+      },
+      "vertices": 410,
+      "faces": 400,
+      "triangles": 800,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -2.312,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          -2.188,
+          3.451862,
+          5.168936
+        ]
+      },
+      "components": [
+        {
+          "vertices": 410,
+          "faces": 400,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              -2.312,
+              1.188905,
+              4.872087
+            ],
+            "max": [
+              -2.188,
+              3.451862,
+              5.180534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.06199999898672104,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              -2.25,
+              3.450000047683716,
+              5.110000133514404
+            ],
+            "end": [
+              -2.25,
+              1.2000000476837158,
+              4.929999828338623
+            ],
+            "bounds": {
+              "min": [
+                -2.25,
+                1.2,
+                4.93
+              ],
+              "max": [
+                -2.25,
+                3.45,
+                5.121569
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "6ead8dc11c52a3d101238a162b1467b25dc99b992877178d807da781d1b71312"
+    },
+    {
+      "name": "Rib blue inset 3",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          0.188,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          0.312,
+          3.451862,
+          5.180534
+        ]
+      },
+      "vertices": 410,
+      "faces": 400,
+      "triangles": 800,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          0.188,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          0.312,
+          3.451862,
+          5.168936
+        ]
+      },
+      "components": [
+        {
+          "vertices": 410,
+          "faces": 400,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              0.188,
+              1.188905,
+              4.872087
+            ],
+            "max": [
+              0.312,
+              3.451862,
+              5.180534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.06199999898672104,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              0.25,
+              3.450000047683716,
+              5.110000133514404
+            ],
+            "end": [
+              0.25,
+              1.2000000476837158,
+              4.929999828338623
+            ],
+            "bounds": {
+              "min": [
+                0.25,
+                1.2,
+                4.93
+              ],
+              "max": [
+                0.25,
+                3.45,
+                5.121569
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "af4cbe29b7246b2ecfdacffdb18b9f747c35bc45b9fd819c97820c6f9077bae6"
+    },
+    {
+      "name": "Rib blue inset 4",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          2.688,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          2.812,
+          3.451862,
+          5.180534
+        ]
+      },
+      "vertices": 410,
+      "faces": 400,
+      "triangles": 800,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          2.688,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          2.812,
+          3.451862,
+          5.168936
+        ]
+      },
+      "components": [
+        {
+          "vertices": 410,
+          "faces": 400,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              2.688,
+              1.188905,
+              4.872087
+            ],
+            "max": [
+              2.812,
+              3.451862,
+              5.180534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.06199999898672104,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              2.75,
+              3.450000047683716,
+              5.110000133514404
+            ],
+            "end": [
+              2.75,
+              1.2000000476837158,
+              4.929999828338623
+            ],
+            "bounds": {
+              "min": [
+                2.75,
+                1.2,
+                4.93
+              ],
+              "max": [
+                2.75,
+                3.45,
+                5.121569
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "1d170037111bacbd95a944162210ebf8cbfb70c3be21d7a3d83dc3246ae08efe"
+    },
+    {
+      "name": "Rib blue inset 5",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          5.188,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          5.312,
+          3.451862,
+          5.180534
+        ]
+      },
+      "vertices": 410,
+      "faces": 400,
+      "triangles": 800,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          5.188,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          5.312,
+          3.451862,
+          5.168936
+        ]
+      },
+      "components": [
+        {
+          "vertices": 410,
+          "faces": 400,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              5.188,
+              1.188905,
+              4.872087
+            ],
+            "max": [
+              5.312,
+              3.451862,
+              5.180534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.06199999898672104,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              5.25,
+              3.450000047683716,
+              5.110000133514404
+            ],
+            "end": [
+              5.25,
+              1.2000000476837158,
+              4.929999828338623
+            ],
+            "bounds": {
+              "min": [
+                5.25,
+                1.2,
+                4.93
+              ],
+              "max": [
+                5.25,
+                3.45,
+                5.121569
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "de388cd3a506088f4f6370e033be029ead07af1a76db22289353a28bba49a935"
+    },
+    {
+      "name": "Rib blue inset 6",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          7.188,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          7.312,
+          3.451862,
+          5.180534
+        ]
+      },
+      "vertices": 410,
+      "faces": 400,
+      "triangles": 800,
+      "boundary_edges": 20,
+      "non_manifold_edges": 20,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          7.188,
+          1.188905,
+          4.872087
+        ],
+        "max": [
+          7.312,
+          3.451862,
+          5.168936
+        ]
+      },
+      "components": [
+        {
+          "vertices": 410,
+          "faces": 400,
+          "boundary_edges": 20,
+          "non_manifold_edges": 20,
+          "bounds": {
+            "min": [
+              7.188,
+              1.188905,
+              4.872087
+            ],
+            "max": [
+              7.312,
+              3.451862,
+              5.180534
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.06199999898672104,
+        "bevel_resolution": 3,
+        "use_fill_caps": false,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              7.25,
+              3.450000047683716,
+              5.110000133514404
+            ],
+            "end": [
+              7.25,
+              1.2000000476837158,
+              4.929999828338623
+            ],
+            "bounds": {
+              "min": [
+                7.25,
+                1.2,
+                4.93
+              ],
+              "max": [
+                7.25,
+                3.45,
+                5.121569
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "190cb236811c3ba773f319a97bdaf7bc39e9f149508c59c33df27a30d191ca9c"
+    },
+    {
+      "name": "Rib machined connector",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.415,
+          2.960481,
+          5.08906
+        ],
+        "max": [
+          -7.085,
+          3.290481,
+          5.32906
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.415,
+              2.960481,
+              5.08906
+            ],
+            "max": [
+              -7.085,
+              3.290481,
+              5.32906
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "ff9d85f6481423098deabc28f57a8464144cdf8d73a930b0decf6347f9d3b010"
+    },
+    {
+      "name": "Rib machined connector.001",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.415,
+          1.446058,
+          4.976321
+        ],
+        "max": [
+          -7.085,
+          1.776058,
+          5.216321
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.415,
+              1.446058,
+              4.976321
+            ],
+            "max": [
+              -7.085,
+              1.776058,
+              5.216321
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "19366d5dd6234df673d0b0d457482161cb07adcb15eb69540493e3427e4082d3"
+    },
+    {
+      "name": "Rib machined connector.002",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -4.915,
+          2.960481,
+          5.08906
+        ],
+        "max": [
+          -4.585,
+          3.290481,
+          5.32906
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -4.915,
+              2.960481,
+              5.08906
+            ],
+            "max": [
+              -4.585,
+              3.290481,
+              5.32906
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "44e6abfa80aa1e96bdb868a6f4aac6485a30ad42b16d91cda79a44669c672041"
+    },
+    {
+      "name": "Rib machined connector.003",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -4.915,
+          1.446058,
+          4.976321
+        ],
+        "max": [
+          -4.585,
+          1.776058,
+          5.216321
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -4.915,
+              1.446058,
+              4.976321
+            ],
+            "max": [
+              -4.585,
+              1.776058,
+              5.216321
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "755ec552ee8096f9bc352a5b5b1c7555fca9740dca82a8b35317e660717f1177"
+    },
+    {
+      "name": "Rib machined connector.004",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -2.415,
+          2.960481,
+          5.08906
+        ],
+        "max": [
+          -2.085,
+          3.290481,
+          5.32906
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -2.415,
+              2.960481,
+              5.08906
+            ],
+            "max": [
+              -2.085,
+              3.290481,
+              5.32906
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "72b478fb7b4162077312c1b817b4b803d5c14cbfb2d43f00dab1287c9a07e38a"
+    },
+    {
+      "name": "Rib machined connector.005",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -2.415,
+          1.446058,
+          4.976321
+        ],
+        "max": [
+          -2.085,
+          1.776058,
+          5.216321
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -2.415,
+              1.446058,
+              4.976321
+            ],
+            "max": [
+              -2.085,
+              1.776058,
+              5.216321
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "ce19d905c94d90a87ce0f0dbb85fbdb1f7a072b8affa9ed5024dd971cae34d99"
+    },
+    {
+      "name": "Rib machined connector.006",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          0.085,
+          2.960481,
+          5.08906
+        ],
+        "max": [
+          0.415,
+          3.290481,
+          5.32906
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              0.085,
+              2.960481,
+              5.08906
+            ],
+            "max": [
+              0.415,
+              3.290481,
+              5.32906
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "25a3b365c9ee6b88e928829860ab7d55d6d5217530420859c57592eb2ffefa76"
+    },
+    {
+      "name": "Rib machined connector.007",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          0.085,
+          1.446058,
+          4.976321
+        ],
+        "max": [
+          0.415,
+          1.776058,
+          5.216321
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              0.085,
+              1.446058,
+              4.976321
+            ],
+            "max": [
+              0.415,
+              1.776058,
+              5.216321
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "dbf6e223e7bef8cb2cff633ca355081be07dd864900bcdd08be92f57acdb36a6"
+    },
+    {
+      "name": "Rib machined connector.008",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          2.585,
+          2.960481,
+          5.08906
+        ],
+        "max": [
+          2.915,
+          3.290481,
+          5.32906
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              2.585,
+              2.960481,
+              5.08906
+            ],
+            "max": [
+              2.915,
+              3.290481,
+              5.32906
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "dc6086f915c960e57e0629fd0a720d41f200a3e06253237c27ccf299a1288518"
+    },
+    {
+      "name": "Rib machined connector.009",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          2.585,
+          1.446058,
+          4.976321
+        ],
+        "max": [
+          2.915,
+          1.776058,
+          5.216321
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              2.585,
+              1.446058,
+              4.976321
+            ],
+            "max": [
+              2.915,
+              1.776058,
+              5.216321
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "1cc1ed23e3c61bbe89e20df18ce74bbf134a0674a54eafacf0329cd5a387b7f0"
+    },
+    {
+      "name": "Rib machined connector.010",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          5.085,
+          2.960481,
+          5.08906
+        ],
+        "max": [
+          5.415,
+          3.290481,
+          5.32906
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              5.085,
+              2.960481,
+              5.08906
+            ],
+            "max": [
+              5.415,
+              3.290481,
+              5.32906
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "b2fb0183dbe954ecfb07ced1d3e1efc57e81f00c10e56bc03b03075646b092c1"
+    },
+    {
+      "name": "Rib machined connector.011",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          5.085,
+          1.446058,
+          4.976321
+        ],
+        "max": [
+          5.415,
+          1.776058,
+          5.216321
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              5.085,
+              1.446058,
+              4.976321
+            ],
+            "max": [
+              5.415,
+              1.776058,
+              5.216321
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "c6e87ee05686f53f445fb1180b3294ac3bf19f17da4e5a3441681363955bf37a"
+    },
+    {
+      "name": "Rib machined connector.012",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          7.085,
+          2.960481,
+          5.08906
+        ],
+        "max": [
+          7.415,
+          3.290481,
+          5.32906
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              7.085,
+              2.960481,
+              5.08906
+            ],
+            "max": [
+              7.415,
+              3.290481,
+              5.32906
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "65b9c986f3601d70161be76b1253b27ff8bc449eb4dde34c5905ff6256ccc6c8"
+    },
+    {
+      "name": "Rib machined connector.013",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          7.085,
+          1.446058,
+          4.976321
+        ],
+        "max": [
+          7.415,
+          1.776058,
+          5.216321
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              7.085,
+              1.446058,
+              4.976321
+            ],
+            "max": [
+              7.415,
+              1.776058,
+              5.216321
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "509ef388887f8c91ec361c2c55edb4dc6cd89bc11517f85f37e3fc6af7e6312e"
+    },
+    {
+      "name": "Silver roof rib 0",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -7.42,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          -7.08,
+          3.452368,
+          5.266568
+        ]
+      },
+      "vertices": 1032,
+      "faces": 1004,
+      "triangles": 1964,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -7.42,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          -7.08,
+          3.452368,
+          5.254962
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              -7.42,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              -7.08,
+              1.214112,
+              5.07366
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              -7.42,
+              3.447632,
+              5.105037
+            ],
+            "max": [
+              -7.08,
+              3.452368,
+              5.254962
+            ]
+          }
+        },
+        {
+          "vertices": 984,
+          "faces": 960,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              -7.42,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              -7.08,
+              3.452368,
+              5.266568
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.11500000208616257,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              -7.25,
+              3.450000047683716,
+              5.179999828338623
+            ],
+            "end": [
+              -7.25,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                -7.25,
+                1.2,
+                5.0
+              ],
+              "max": [
+                -7.25,
+                3.45,
+                5.191568
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "f7e1a0d0d0fa7b958ea40394ef152d062bc3baa314822152961ea42ccd68dd42"
+    },
+    {
+      "name": "Silver roof rib 1",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -4.92,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          -4.58,
+          3.452368,
+          5.266568
+        ]
+      },
+      "vertices": 1032,
+      "faces": 1004,
+      "triangles": 1964,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -4.92,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          -4.58,
+          3.452368,
+          5.254962
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              -4.92,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              -4.58,
+              1.214112,
+              5.07366
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              -4.92,
+              3.447632,
+              5.105037
+            ],
+            "max": [
+              -4.58,
+              3.452368,
+              5.254962
+            ]
+          }
+        },
+        {
+          "vertices": 984,
+          "faces": 960,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              -4.92,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              -4.58,
+              3.452368,
+              5.266568
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.11500000208616257,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              -4.75,
+              3.450000047683716,
+              5.179999828338623
+            ],
+            "end": [
+              -4.75,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                -4.75,
+                1.2,
+                5.0
+              ],
+              "max": [
+                -4.75,
+                3.45,
+                5.191568
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "97db3bb8a70fb51f8e40951c67fa7cc22e14809f99c9453ab7d2051b85161d79"
+    },
+    {
+      "name": "Silver roof rib 2",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          -2.42,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          -2.08,
+          3.452368,
+          5.266568
+        ]
+      },
+      "vertices": 1032,
+      "faces": 1004,
+      "triangles": 1964,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -2.42,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          -2.08,
+          3.452368,
+          5.254962
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              -2.42,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              -2.08,
+              1.214112,
+              5.07366
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              -2.42,
+              3.447632,
+              5.105037
+            ],
+            "max": [
+              -2.08,
+              3.452368,
+              5.254962
+            ]
+          }
+        },
+        {
+          "vertices": 984,
+          "faces": 960,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              -2.42,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              -2.08,
+              3.452368,
+              5.266568
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.11500000208616257,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              -2.25,
+              3.450000047683716,
+              5.179999828338623
+            ],
+            "end": [
+              -2.25,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                -2.25,
+                1.2,
+                5.0
+              ],
+              "max": [
+                -2.25,
+                3.45,
+                5.191568
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "82833822f48af7ee40caf772f8d10627556be2005fdfa5186c84cf580906fb65"
+    },
+    {
+      "name": "Silver roof rib 3",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          0.08,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          0.42,
+          3.452368,
+          5.266568
+        ]
+      },
+      "vertices": 1032,
+      "faces": 1004,
+      "triangles": 1964,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          0.08,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          0.42,
+          3.452368,
+          5.254962
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              0.08,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              0.42,
+              1.214112,
+              5.07366
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              0.08,
+              3.447632,
+              5.105037
+            ],
+            "max": [
+              0.42,
+              3.452368,
+              5.254962
+            ]
+          }
+        },
+        {
+          "vertices": 984,
+          "faces": 960,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              0.08,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              0.42,
+              3.452368,
+              5.266568
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.11500000208616257,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              0.25,
+              3.450000047683716,
+              5.179999828338623
+            ],
+            "end": [
+              0.25,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                0.25,
+                1.2,
+                5.0
+              ],
+              "max": [
+                0.25,
+                3.45,
+                5.191568
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "70c7ce017a748f441b6a5ea18a4ab9a8f36fdef63f11eba15c5b148faeee3adf"
+    },
+    {
+      "name": "Silver roof rib 4",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          2.58,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          2.92,
+          3.452368,
+          5.266568
+        ]
+      },
+      "vertices": 1032,
+      "faces": 1004,
+      "triangles": 1964,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          2.58,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          2.92,
+          3.452368,
+          5.254962
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              2.58,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              2.92,
+              1.214112,
+              5.07366
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              2.58,
+              3.447632,
+              5.105037
+            ],
+            "max": [
+              2.92,
+              3.452368,
+              5.254962
+            ]
+          }
+        },
+        {
+          "vertices": 984,
+          "faces": 960,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              2.58,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              2.92,
+              3.452368,
+              5.266568
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.11500000208616257,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              2.75,
+              3.450000047683716,
+              5.179999828338623
+            ],
+            "end": [
+              2.75,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                2.75,
+                1.2,
+                5.0
+              ],
+              "max": [
+                2.75,
+                3.45,
+                5.191568
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "0572991a761c089af735b85946e9938f377875c5b461476228452790516ebdcb"
+    },
+    {
+      "name": "Silver roof rib 5",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          5.08,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          5.42,
+          3.452368,
+          5.266568
+        ]
+      },
+      "vertices": 1032,
+      "faces": 1004,
+      "triangles": 1964,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          5.08,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          5.42,
+          3.452368,
+          5.254962
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              5.08,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              5.42,
+              1.214112,
+              5.07366
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              5.08,
+              3.447632,
+              5.105037
+            ],
+            "max": [
+              5.42,
+              3.452368,
+              5.254962
+            ]
+          }
+        },
+        {
+          "vertices": 984,
+          "faces": 960,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              5.08,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              5.42,
+              3.452368,
+              5.266568
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.11500000208616257,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              5.25,
+              3.450000047683716,
+              5.179999828338623
+            ],
+            "end": [
+              5.25,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                5.25,
+                1.2,
+                5.0
+              ],
+              "max": [
+                5.25,
+                3.45,
+                5.191568
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "80f83b12cd86feccce7fee121a4116fea523009dc5d9114c72fa1c47a12324d2"
+    },
+    {
+      "name": "Silver roof rib 6",
+      "owner": "gallery.architecture",
+      "type": "CURVE",
+      "bounds": {
+        "min": [
+          7.08,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          7.42,
+          3.452368,
+          5.266568
+        ]
+      },
+      "vertices": 1032,
+      "faces": 1004,
+      "triangles": 1964,
+      "boundary_edges": 96,
+      "non_manifold_edges": 96,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          7.08,
+          1.185888,
+          4.92634
+        ],
+        "max": [
+          7.42,
+          3.452368,
+          5.254962
+        ]
+      },
+      "components": [
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              7.08,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              7.42,
+              1.214112,
+              5.07366
+            ]
+          }
+        },
+        {
+          "vertices": 24,
+          "faces": 22,
+          "boundary_edges": 24,
+          "non_manifold_edges": 24,
+          "bounds": {
+            "min": [
+              7.08,
+              3.447632,
+              5.105037
+            ],
+            "max": [
+              7.42,
+              3.452368,
+              5.254962
+            ]
+          }
+        },
+        {
+          "vertices": 984,
+          "faces": 960,
+          "boundary_edges": 48,
+          "non_manifold_edges": 48,
+          "bounds": {
+            "min": [
+              7.08,
+              1.185888,
+              4.92634
+            ],
+            "max": [
+              7.42,
+              3.452368,
+              5.266568
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [],
+      "curve": {
+        "bevel_depth": 0.11500000208616257,
+        "bevel_resolution": 3,
+        "use_fill_caps": true,
+        "resolution_u": 12,
+        "splines": [
+          {
+            "cyclic": false,
+            "control_count": 41,
+            "start": [
+              7.25,
+              3.450000047683716,
+              5.179999828338623
+            ],
+            "end": [
+              7.25,
+              1.2000000476837158,
+              5.0
+            ],
+            "bounds": {
+              "min": [
+                7.25,
+                1.2,
+                5.0
+              ],
+              "max": [
+                7.25,
+                3.45,
+                5.191568
+              ]
+            }
+          }
+        ]
+      },
+      "position_signature": "53d31d7d213fb026c313cdbd6ecb4e0260a9136d94f81de2d88986f2ffceef2b"
+    },
+    {
+      "name": "Slender window mullion",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -6.4125,
+          3.33,
+          0.405
+        ],
+        "max": [
+          -6.3475,
+          3.45,
+          5.035
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -6.4125,
+              3.33,
+              0.405
+            ],
+            "max": [
+              -6.3475,
+              3.45,
+              5.035
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "ea9545f12bfa582493e710602b7d423233c2cdfb18a40d5a0abfa2a0f9416dbc"
+    },
+    {
+      "name": "Slender window mullion.001",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -4.2725,
+          3.33,
+          0.405
+        ],
+        "max": [
+          -4.2075,
+          3.45,
+          5.035
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -4.2725,
+              3.33,
+              0.405
+            ],
+            "max": [
+              -4.2075,
+              3.45,
+              5.035
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "2fc9d853a00ba8d5de7bc761842ea8ab5df2b7be56b5b18b8bc3e36836a97d98"
+    },
+    {
+      "name": "Slender window mullion.002",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -2.1525,
+          3.33,
+          0.405
+        ],
+        "max": [
+          -2.0875,
+          3.45,
+          5.035
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -2.1525,
+              3.33,
+              0.405
+            ],
+            "max": [
+              -2.0875,
+              3.45,
+              5.035
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "df9fc13113fa301f2a5ff2b005b183802dfb9b86fe7c66185d17583bf8df44fc"
+    },
+    {
+      "name": "Slender window mullion.003",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -0.0325,
+          3.33,
+          0.405
+        ],
+        "max": [
+          0.0325,
+          3.45,
+          5.035
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -0.0325,
+              3.33,
+              0.405
+            ],
+            "max": [
+              0.0325,
+              3.45,
+              5.035
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "bb77b782f90c2f9d88568ddb76d14e36ae690aaf1c42197f8c043c68a41d318c"
+    },
+    {
+      "name": "Slender window mullion.004",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          2.0875,
+          3.33,
+          0.405
+        ],
+        "max": [
+          2.1525,
+          3.45,
+          5.035
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              2.0875,
+              3.33,
+              0.405
+            ],
+            "max": [
+              2.1525,
+              3.45,
+              5.035
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "feff13013ba1bfb7cea8a8d2a17feec92244c1bfbb833d926b0a4a880e1348a1"
+    },
+    {
+      "name": "Slender window mullion.005",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          4.2075,
+          3.33,
+          0.405
+        ],
+        "max": [
+          4.2725,
+          3.45,
+          5.035
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              4.2075,
+              3.33,
+              0.405
+            ],
+            "max": [
+              4.2725,
+              3.45,
+              5.035
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "4151e61bec6380879518cdd1031f24436f32481036e80b856096cf5b66a10351"
+    },
+    {
+      "name": "Slender window mullion.006",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          6.3475,
+          3.33,
+          0.405
+        ],
+        "max": [
+          6.4125,
+          3.45,
+          5.035
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              6.3475,
+              3.33,
+              0.405
+            ],
+            "max": [
+              6.4125,
+              3.45,
+              5.035
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "af6b1e8ffcffb9d5d926f69ba9ac0f0ac6ac000b8d434cab6eb7d875d3f1ba9a"
+    },
+    {
+      "name": "Substantial silver foundation",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -8.2,
+          -5.3,
+          -0.49
+        ],
+        "max": [
+          8.2,
+          4.0,
+          0.09
+        ]
+      },
+      "vertices": 600,
+      "faces": 542,
+      "triangles": 1196,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 600,
+          "faces": 542,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -8.2,
+              -5.3,
+              -0.49
+            ],
+            "max": [
+              8.2,
+              4.0,
+              0.09
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_silver"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "3c8f183815edbf009c4b4964ff77d480b5881834d3ed9b169fac9c63476a7f6b"
+    },
+    {
+      "name": "Window base continuous rail",
+      "owner": "gallery.architecture",
+      "type": "MESH",
+      "bounds": {
+        "min": [
+          -7.1,
+          3.295,
+          0.19
+        ],
+        "max": [
+          7.1,
+          3.545,
+          0.53
+        ]
+      },
+      "vertices": 152,
+      "faces": 150,
+      "triangles": 300,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": null,
+      "components": [
+        {
+          "vertices": 152,
+          "faces": 150,
+          "boundary_edges": 0,
+          "non_manifold_edges": 0,
+          "bounds": {
+            "min": [
+              -7.1,
+              3.295,
+              0.19
+            ],
+            "max": [
+              7.1,
+              3.545,
+              0.53
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_navy"
+      ],
+      "modifiers": [
+        {
+          "name": "Manufactured edge radius",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Face-weighted normals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "position_signature": "7cc22c4c2de60079a9c4c7caecc90cc3be24e130413711fe377d31117a05af06"
+    },
+    {
+      "name": "Works doorway sign",
+      "owner": "gallery.architecture.portal",
+      "type": "FONT",
+      "bounds": {
+        "min": [
+          -7.0911,
+          -1.980591,
+          2.357889
+        ],
+        "max": [
+          -7.0889,
+          -1.304909,
+          2.67998
+        ]
+      },
+      "vertices": 5040,
+      "faces": 4660,
+      "triangles": 8620,
+      "boundary_edges": 1440,
+      "non_manifold_edges": 1440,
+      "wire_edges": 0,
+      "zero_length_edges": 0,
+      "degenerate_faces": 0,
+      "boundary_bounds": {
+        "min": [
+          -7.0911,
+          -1.98,
+          2.35829
+        ],
+        "max": [
+          -7.0889,
+          -1.30531,
+          2.67958
+        ]
+      },
+      "components": [
+        {
+          "vertices": 122,
+          "faces": 120,
+          "boundary_edges": 122,
+          "non_manifold_edges": 122,
+          "bounds": {
+            "min": [
+              -7.0889,
+              -1.37865,
+              2.35829
+            ],
+            "max": [
+              -7.0889,
+              -1.30531,
+              2.49129
+            ]
+          }
+        },
+        {
+          "vertices": 11,
+          "faces": 9,
+          "boundary_edges": 11,
+          "non_manifold_edges": 11,
+          "bounds": {
+            "min": [
+              -7.0889,
+              -1.49664,
+              2.36
+            ],
+            "max": [
+              -7.0889,
+              -1.38644,
+              2.48958
+            ]
+          }
+        },
+        {
+          "vertices": 94,
+          "faces": 94,
+          "boundary_edges": 94,
+          "non_manifold_edges": 94,
+          "bounds": {
+            "min": [
+              -7.0889,
+              -1.61102,
+              2.36
+            ],
+            "max": [
+              -7.0889,
+              -1.51089,
+              2.48958
+            ]
+          }
+        },
+        {
+          "vertices": 96,
+          "faces": 96,
+          "boundary_edges": 96,
+          "non_manifold_edges": 96,
+          "bounds": {
+            "min": [
+              -7.0889,
+              -1.77347,
+              2.35829
+            ],
+            "max": [
+              -7.0889,
+              -1.6342,
+              2.49129
+            ]
+          }
+        },
+        {
+          "vertices": 13,
+          "faces": 11,
+          "boundary_edges": 13,
+          "non_manifold_edges": 13,
+          "bounds": {
+            "min": [
+              -7.0889,
+              -1.98,
+              2.35886
+            ],
+            "max": [
+              -7.0889,
+              -1.78221,
+              2.48958
+            ]
+          }
+        },
+        {
+          "vertices": 9,
+          "faces": 7,
+          "boundary_edges": 9,
+          "non_manifold_edges": 9,
+          "bounds": {
+            "min": [
+              -7.0889,
+              -1.83161,
+              2.55
+            ],
+            "max": [
+              -7.0889,
+              -1.71685,
+              2.67958
+            ]
+          }
+        },
+        {
+          "vertices": 15,
+          "faces": 13,
+          "boundary_edges": 15,
+          "non_manifold_edges": 15,
+          "bounds": {
+            "min": [
+              -7.0889,
+              -1.96613,
+              2.55
+            ],
+            "max": [
+              -7.0889,
+              -1.84529,
+              2.67958
+            ]
+          }
+        },
+        {
+          "vertices": 122,
+          "faces": 120,
+          "boundary_edges": 122,
+          "non_manifold_edges": 122,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.37865,
+              2.35829
+            ],
+            "max": [
+              -7.0911,
+              -1.30531,
+              2.49129
+            ]
+          }
+        },
+        {
+          "vertices": 11,
+          "faces": 9,
+          "boundary_edges": 11,
+          "non_manifold_edges": 11,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.49664,
+              2.36
+            ],
+            "max": [
+              -7.0911,
+              -1.38644,
+              2.48958
+            ]
+          }
+        },
+        {
+          "vertices": 94,
+          "faces": 94,
+          "boundary_edges": 94,
+          "non_manifold_edges": 94,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.61102,
+              2.36
+            ],
+            "max": [
+              -7.0911,
+              -1.51089,
+              2.48958
+            ]
+          }
+        },
+        {
+          "vertices": 96,
+          "faces": 96,
+          "boundary_edges": 96,
+          "non_manifold_edges": 96,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.77347,
+              2.35829
+            ],
+            "max": [
+              -7.0911,
+              -1.6342,
+              2.49129
+            ]
+          }
+        },
+        {
+          "vertices": 13,
+          "faces": 11,
+          "boundary_edges": 13,
+          "non_manifold_edges": 13,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.98,
+              2.35886
+            ],
+            "max": [
+              -7.0911,
+              -1.78221,
+              2.48958
+            ]
+          }
+        },
+        {
+          "vertices": 9,
+          "faces": 7,
+          "boundary_edges": 9,
+          "non_manifold_edges": 9,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.83161,
+              2.55
+            ],
+            "max": [
+              -7.0911,
+              -1.71685,
+              2.67958
+            ]
+          }
+        },
+        {
+          "vertices": 15,
+          "faces": 13,
+          "boundary_edges": 15,
+          "non_manifold_edges": 15,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.96613,
+              2.55
+            ],
+            "max": [
+              -7.0911,
+              -1.84529,
+              2.67958
+            ]
+          }
+        },
+        {
+          "vertices": 180,
+          "faces": 165,
+          "boundary_edges": 30,
+          "non_manifold_edges": 30,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.96653,
+              2.5496
+            ],
+            "max": [
+              -7.0889,
+              -1.84489,
+              2.67998
+            ]
+          }
+        },
+        {
+          "vertices": 108,
+          "faces": 99,
+          "boundary_edges": 18,
+          "non_manifold_edges": 18,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.832435,
+              2.5496
+            ],
+            "max": [
+              -7.0889,
+              -1.716027,
+              2.67998
+            ]
+          }
+        },
+        {
+          "vertices": 156,
+          "faces": 143,
+          "boundary_edges": 26,
+          "non_manifold_edges": 26,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.980591,
+              2.35846
+            ],
+            "max": [
+              -7.0889,
+              -1.781618,
+              2.48998
+            ]
+          }
+        },
+        {
+          "vertices": 576,
+          "faces": 528,
+          "boundary_edges": 96,
+          "non_manifold_edges": 96,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.773871,
+              2.357889
+            ],
+            "max": [
+              -7.0889,
+              -1.633799,
+              2.491691
+            ]
+          }
+        },
+        {
+          "vertices": 576,
+          "faces": 528,
+          "boundary_edges": 96,
+          "non_manifold_edges": 96,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.75428,
+              2.37539
+            ],
+            "max": [
+              -7.0889,
+              -1.65339,
+              2.47419
+            ]
+          }
+        },
+        {
+          "vertices": 804,
+          "faces": 737,
+          "boundary_edges": 134,
+          "non_manifold_edges": 134,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.61142,
+              2.3596
+            ],
+            "max": [
+              -7.0889,
+              -1.510107,
+              2.48998
+            ]
+          }
+        },
+        {
+          "vertices": 324,
+          "faces": 297,
+          "boundary_edges": 54,
+          "non_manifold_edges": 54,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.5924,
+              2.43296
+            ],
+            "max": [
+              -7.0889,
+              -1.55497,
+              2.47362
+            ]
+          }
+        },
+        {
+          "vertices": 132,
+          "faces": 121,
+          "boundary_edges": 22,
+          "non_manifold_edges": 22,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.49704,
+              2.3596
+            ],
+            "max": [
+              -7.0889,
+              -1.385453,
+              2.48998
+            ]
+          }
+        },
+        {
+          "vertices": 1464,
+          "faces": 1342,
+          "boundary_edges": 244,
+          "non_manifold_edges": 244,
+          "bounds": {
+            "min": [
+              -7.0911,
+              -1.379052,
+              2.35789
+            ],
+            "max": [
+              -7.0889,
+              -1.304909,
+              2.49169
+            ]
+          }
+        }
+      ],
+      "materials": [
+        "GALLERY_ivory"
+      ],
+      "modifiers": [],
+      "position_signature": "734ca18916375add0635b6e5b3269614238548142d4eae0ebf60cfed97c6128f"
+    }
+  ],
+  "seconds": 0.31015896797180176,
+  "surface_gap_probes": [
+    {
+      "label": "right_glass_to_outer_arch_midheight",
+      "object": "Back structural blue core",
+      "probe": [
+        6.34,
+        3.46,
+        2.69
+      ],
+      "nearest_surface": [
+        7.663341999053955,
+        3.4600000381469727,
+        2.690000057220459
+      ],
+      "distance": 1.3233418464660645
+    },
+    {
+      "label": "left_glass_to_outer_arch_midheight",
+      "object": "Back structural blue core",
+      "probe": [
+        -6.34,
+        3.46,
+        2.69
+      ],
+      "nearest_surface": [
+        -7.663341999053955,
+        3.4600000381469727,
+        2.690000057220459
+      ],
+      "distance": 1.3233418464660645
+    },
+    {
+      "label": "glass_head_to_outer_arch",
+      "object": "Back structural blue core",
+      "probe": [
+        0,
+        3.46,
+        4.85
+      ],
+      "nearest_surface": [
+        -4.76837158203125e-07,
+        3.4600000381469727,
+        5.088342189788818
+      ],
+      "distance": 0.23834228515625
+    },
+    {
+      "label": "central_mullion_head_to_outer_arch",
+      "object": "Back structural blue core",
+      "probe": [
+        0,
+        3.39,
+        5.035
+      ],
+      "nearest_surface": [
+        -4.76837158203125e-07,
+        3.3974671363830566,
+        5.088342189788818
+      ],
+      "distance": 0.05386243760585785
+    },
+    {
+      "label": "right_column_top_to_edge_roof_rib",
+      "object": "Silver roof rib 6",
+      "probe": [
+        7.28,
+        1.75,
+        4.999
+      ],
+      "nearest_surface": [
+        7.28000020980835,
+        1.7461220026016235,
+        5.022937774658203
+      ],
+      "distance": 0.024249792098999023
+    },
+    {
+      "label": "right_column_top_to_front_rail",
+      "object": "Front canopy continuous rail",
+      "probe": [
+        7.28,
+        1.75,
+        4.999
+      ],
+      "nearest_surface": [
+        7.249993324279785,
+        1.3700001239776611,
+        4.999292850494385
+      ],
+      "distance": 0.3811829090118408
+    }
+  ],
+  "interpretation": {
+    "units": "Blender meters, Z up. Boundaries are topological boundaries, not automatically visually open holes.",
+    "caps": "Seven silver ribs and front rail have caps but each evaluated curve cap is a disconnected component with coincident boundary edges. They are visually capped; do not describe 96 edges as missing end faces. Welded rebuild should give zero boundaries.",
+    "unsealed_tubes": "Two corner columns and seven blue rib insets are genuinely uncapped open tubes; ten stone seams are also uncapped but tiny decorative inlays.",
+    "rear_glass": "Six rear panes end at X +/-6.34, Z0.53..4.85. They fill the center only and leave broad outer apertures. No perimeter infill closes them to the outer rounded arch. Seven mullions end at Z5.035 without a continuous head bar.",
+    "corner_column_feet": "Feet at Z0.22 exceed terrazzo top Z0.1735 by 0.0465m, or silver/base top Z0.15 by 0.07m where outside the terrazzo rounded border.",
+    "glass_roof": "Six single-face canopy panes have zero thickness by design and 24 total boundary edges; source thin_glass=True. A precision shell rebuild can use shallow solids or a deliberately documented two-sided glass contract.",
+    "portal": "There are 6 independent rounded tube rings on two gate faces and 2 extra full-passage tube rings. None are exact duplicates, but they read as overlapping nested piping; a closed extruded ring section would communicate a single structural doorway.",
+    "inside_preservation": "Audit reads only the 3 assigned architectural owners, no exhibits or furnishings."
+  }
+}

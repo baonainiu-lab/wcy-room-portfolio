@@ -1,0 +1,83 @@
+{
+  "revision": 16,
+  "textures": [
+    {
+      "path": "assets/textures/room-v16/directional-brush-2k.png",
+      "sha256": "c739bce31773dcb1930136b7727aa160ee586d5879f181bcfd1a1da533050f92",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "license": "Project-authored deterministic procedural texture",
+      "seed": 16092026
+    },
+    {
+      "path": "assets/textures/room-v16/ceramic-microfinish-2k.png",
+      "sha256": "85dcb67ba4065bef0571c1c4c02bebc0e92fc2d863b848f45b2cebb54c86a117",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "license": "Project-authored deterministic procedural texture",
+      "seed": 16092026
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Diffuse",
+      "file": "hessian_230/hessian_230_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_diff_2k.jpg",
+      "sha256": "1c1d66e3764dded1cfafa5147ea56a28ef7648e3c5cae6892b8dada92d408685",
+      "md5": "e73dcb7ae06f7267f74fc5869c63233c",
+      "bytes": 3828573,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "sRGB",
+      "normal_usage": null,
+      "path": "assets/textures/about-atelier-v3/hessian_230/hessian_230_diff_2k.jpg"
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Rough",
+      "file": "hessian_230/hessian_230_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_rough_2k.jpg",
+      "sha256": "6c5be8aff1a36df639bf690e5acdc9116d12389614fb0db26a75ea31b65dd597",
+      "md5": "ecb347b5a4299c3c39fed62b8393e008",
+      "bytes": 3755640,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null,
+      "path": "assets/textures/about-atelier-v3/hessian_230/hessian_230_rough_2k.jpg"
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Displacement",
+      "file": "hessian_230/hessian_230_disp_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_disp_2k.jpg",
+      "sha256": "dab9d86c779d02ac995dec4fab11efb42988d037ca1864fe401947ef68bceb76",
+      "md5": "0c3d9ee1abda84887b8c0f0c980a44e0",
+      "bytes": 2039184,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null,
+      "path": "assets/textures/about-atelier-v3/hessian_230/hessian_230_disp_2k.jpg"
+    }
+  ],
+  "policy": "Existing verified CC0 scans and original deterministic engineering maps; no generated bitmap decoration."
+}

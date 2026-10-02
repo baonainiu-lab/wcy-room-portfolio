@@ -1,0 +1,69 @@
+{
+  "assetId": "Marble005",
+  "url": "https://ambientcg.com/a/Marble005",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://docs.ambientcg.com/license/",
+  "creationMethod": "PBRProcedural",
+  "download": {
+    "fullDownloadPath": "https://ambientcg.com/get?file=Marble005_4K-PNG.zip",
+    "downloadLink": "https://ambientcg.com/get?file=Marble005_4K-PNG.zip",
+    "fileName": "Marble005_4K-PNG.zip",
+    "size": 192443533,
+    "filetype": "zip",
+    "attribute": "4K-PNG",
+    "zipContent": []
+  },
+  "zipSha256": "142239c6b7cbe338a32379b9dbfa28fd02ea1ac2bb7a40f7c6e2e651c96387b1",
+  "files": [
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005.png",
+      "sha256": "3411df9de781dbf737e84b839e17da19502fe0fd65af52a7430b9a7b4f98f818",
+      "bytes": 212047
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG.blend",
+      "sha256": "c4ff725a49336586b6e042f5f2035cfc5bcf946c7e5dc12b60dfb5f0397401fb",
+      "bytes": 1098788
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG.mtlx",
+      "sha256": "24d8b88bd337015ccb0b54cc7b1fabe8184bb2b94bfd4ac3d6bb053f963159be",
+      "bytes": 2272
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG.tres",
+      "sha256": "9cf081ddebfe43694e29fd94eb2a37d75995a77e4bcb4645612673d6a801240b",
+      "bytes": 808
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG.usdc",
+      "sha256": "6292a6e9340ca1a8489be4155fa304ee37adfae9ce911ca82fac60cdef6bb8a9",
+      "bytes": 2877
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG_Color.png",
+      "sha256": "681d3783de5db6be9a02655eada621c9ec43868de1b83333b71a0f8fe31ce8ff",
+      "bytes": 16791379
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG_Displacement.png",
+      "sha256": "2b93a0491294618cadce3059193eb4145817a42e7e4d8f09d6514f5a65b4ec17",
+      "bytes": 22854509
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG_NormalDX.png",
+      "sha256": "918263a86193123820e65bfde6d8e1d876e5e81f22f1513f9f3d8efb15c41de6",
+      "bytes": 71788441
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG_NormalGL.png",
+      "sha256": "0cdb2a938c9a73e99232263ad3fc57b9fbd7a1950af5b4bbc696fb139da5be5c",
+      "bytes": 71803348
+    },
+    {
+      "path": "assets/textures/room-marble-v20/Marble005_4K-PNG/Marble005_4K-PNG_Roughness.png",
+      "sha256": "e0c11c4be015e8b32c72d21b19a965eae6934c74547143d7f8e68f9b03d79378",
+      "bytes": 7887074
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "revision": 1,
+  "checkedAt": "2026-09-25T02:19:31.485Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Real Three.js model hierarchy, geometry, shader materials and renderer render-list classification with production gallery-glass. Texture loader and renderer capabilities are simulated; no GPU, browser, shader compilation or performance measurement. Analytic Fresnel anchors are compared with expressions extracted from the actual shader. Actual V4 GLB geometry and resource checks are recorded separately in works-gallery-v4.json.",
+  "sourceSha256": {
+    "src/gallery-glass.js": "3037af8923cda95f1c627e95f3270109f804ed72620c57deac1165202e1f387c",
+    "src/gallery-floor-finish.js": "dd010c5b075feb494bf1df79202708bd5b3be85eed31edbbfa05d4896bacb949",
+    "src/gallery-transition.js": "fce7d4a5943e06bd4d428f89dcd389e2413ba7f5667e32f8301387350719cf2d",
+    "src/gallery-transition-path.js": "054ba1e480e4bb1a72f942dc189abbafaf9fbe976f411259ce3d4ca445e3800c"
+  },
+  "checks": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "check": "parent transforms, missing normals and multi-material selection bind correct native coordinates",
+      "status": "passed",
+      "architecturalMeshes": 2,
+      "retainedOtherMaterials": 2,
+      "vertexCounts": [
+        24,
+        24
+      ]
+    },
+    {
+      "check": "different native meshes sharing geometry keep independent probe coordinate bindings",
+      "status": "passed",
+      "originalGeometryDisposals": 0,
+      "helperOwnedCloneDisposals": 1
+    },
+    {
+      "check": "stage clones borrow resources and translation preserves native probe attributes and reflection directions",
+      "status": "passed",
+      "sharedGeometry": true,
+      "sharedMaterial": true,
+      "stageOffset": [
+        34,
+        -0.185,
+        1.5
+      ]
+    },
+    {
+      "check": "live theme and reflection textures remain shared; the helper owns images and the gallery owns materials",
+      "status": "passed",
+      "helperTextureDisposals": [
+        1,
+        1
+      ],
+      "ownerShaderDisposals": 1,
+      "ownerReplacedMaterialDisposals": 1,
+      "helperGeometryDisposals": 0
+    },
+    {
+      "check": "either reflection loading failure releases every successful image without replacing materials",
+      "status": "passed",
+      "cases": [
+        {
+          "failing": "day",
+          "disposals": [
+            0,
+            1
+          ]
+        },
+        {
+          "failing": "night",
+          "disposals": [
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "check": "setup failure restores assigned materials and releases images; invalid inputs never start loading",
+      "status": "passed",
+      "failedOwnedCloneDisposals": 1,
+      "failedShaderDisposals": 1,
+      "originalGeometryDisposals": 0
+    },
+    {
+      "check": "normal transform remains perpendicular under rotated and nonuniform parent transforms",
+      "status": "passed"
+    },
+    {
+      "check": "Fresnel and alpha obey analytic endpoint, monotonicity and energy-weighted blending expectations",
+      "status": "passed",
+      "reflectanceAtNormal": 0.07840000000000003,
+      "reflectanceAt60Degrees": 0.1351000000000001,
+      "reflectanceAtGrazing": 1,
+      "opacityAtNormal": 0.156736
+    },
+    {
+      "check": "box projection agrees with independent ray-box intersections, including parallel rays on a box face",
+      "status": "passed",
+      "rayCases": 49,
+      "maximumDirectionError": 6.341365241542434e-14,
+      "parallelBoundaryCasesIncluded": true
+    },
+    {
+      "check": "actual Three render-list classification stays transparent without transmission or renderer passes",
+      "status": "passed",
+      "opaqueItems": 0,
+      "transparentItems": 1,
+      "transmissiveItems": 0,
+      "rendererCalls": [
+        "capabilities.getMaxAnisotropy",
+        "capabilities.getMaxAnisotropy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-26",
+  "preview": "http://127.0.0.1:5173/",
+  "browser": "Codex in-app browser",
+  "desktop": {
+    "welcome": "Character sequence, full studio background, concise title, new logo and enter/skip controls visibly loaded.",
+    "wheelEntry": "Completed once; original live terminal and room reveal retained.",
+    "handoff": "Inspected paused intro at 0.24 seconds after adjusting the terminal release hold.",
+    "skip": {"phase": "complete", "startCount": 1, "completeCount": 1, "inputSource": "skip", "avatarFinished": true},
+    "repeatWheelAfterSkip": "Did not restart the opening.",
+    "consoleErrors": []
+  },
+  "mobileViewport": {
+    "width": 390,
+    "height": 844,
+    "welcome": "Full character, terminal, feet, heading and swipe cue visibly within the viewport.",
+    "upwardPointerDragThenRepeatedWheel": {"phase": "complete", "startCount": 1, "completeCount": 1, "inputSource": "swipe", "controlsEnabled": true, "errors": []},
+    "roomCameraDrag": {"before": [3.0361737840129583, 25.122038189133317, 43.6615065706211], "after": [-0.04043252641576823, 25.7761186973906, 43.4189310130777]},
+    "worksEntry": "Clicking the in-scene Works button visibly opened the gallery and its return portal.",
+    "touchHardware": "Native touch hardware was not available; compact pointer gesture was browser-tested and touch event handling separately covered by the existing script."
+  },
+  "reducedMotion": {
+    "mechanism": "Development QA motion=reduce exercises the same reduced-motion configuration.",
+    "welcomeFrame": 0,
+    "staticMotion": true,
+    "keyboardEnter": {"phase": "complete", "startCount": 1, "completeCount": 1, "errors": []}
+  },
+  "resize": "Desktop and mobile welcome layouts checked; restoring the viewport after entry retained the scene. Override reset at completion.",
+  "automatedChecks": {"viteBuild": "passed", "checkCubeIntro": "16/16 passed", "checkResidentTerminal": "5/5 passed"},
+  "scopeLimit": "No 120 FPS claim; the character artwork is a 14-frame sequence at approximately 9–10 fps.",
+  "handoff": "Temporary QA tab closed; normal homepage reloaded, visibly ready and retained for the user."
+}

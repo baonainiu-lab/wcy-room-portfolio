@@ -1,0 +1,254 @@
+{
+  "phase": "complete",
+  "started": 1790077784.17811,
+  "geometryInheritedFrom": 12,
+  "nightAtlasIDs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "night": {
+    "state": "night",
+    "atlases": [
+      {
+        "atlas": 0,
+        "path": "public/textures/lighting-v13/night-0.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 3092826
+      },
+      {
+        "atlas": 1,
+        "path": "public/textures/lighting-v13/night-1.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 2720892
+      },
+      {
+        "atlas": 2,
+        "path": "public/textures/lighting-v13/night-2.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 3753475
+      },
+      {
+        "atlas": 3,
+        "path": "public/textures/lighting-v13/night-3.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 4241036
+      },
+      {
+        "atlas": 4,
+        "path": "public/textures/lighting-v13/night-4.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 6058586
+      },
+      {
+        "atlas": 5,
+        "path": "public/textures/lighting-v13/night-5.png",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "margin": 16,
+        "bytes": 4577973
+      },
+      {
+        "atlas": 6,
+        "path": "public/textures/lighting-v13/night-6.png",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "margin": 16,
+        "bytes": 3804151
+      },
+      {
+        "atlas": 7,
+        "path": "public/textures/lighting-v13/night-7.png",
+        "resolution": [
+          2048,
+          2048
+        ],
+        "margin": 32,
+        "bytes": 965927
+      }
+    ],
+    "seconds": 415.06
+  },
+  "export": {
+    "model": "public/models/orbital-atelier-v13.glb",
+    "source": "assets/blender/orbital-atelier-v13.blend",
+    "prepared": "assets/blender/orbital-dual-bake-v13.blend",
+    "lightingRevision": 13,
+    "triangles": 373203,
+    "drawPrimitives": 100,
+    "materials": [
+      "WEB8_LIGHTMAP_0",
+      "WEB8_WINDOW_CITY",
+      "WEB8_LIGHTMAP_2",
+      "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+      "WEB8_CLEAR_WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+      "WEB8_LIGHTMAP_1",
+      "WEB8_LIGHTMAP_7",
+      "WEB8_CLEAR_WEB8_GLASS_MAT_Smoke_Glass",
+      "WEB8_CLEAR_WEB8_GLASS_P_ClearTerrariumGlass",
+      "WEB8_LIGHTMAP_3",
+      "WEB8_CLEAR_WEB8_GLASS_D_SpecimenSmokeGlass",
+      "WEB8_CLEAR_WEB8_GLASS_D_PlanterGlass",
+      "WEB8_LIGHTMAP_4",
+      "WEB8_LIGHTMAP_5",
+      "WEB8_LIGHTMAP_6"
+    ],
+    "bytes": 46178184,
+    "sha256": "44178b2372dfb4978da24fb6910c0d279bc353a9ed4936656fb52d45e18824f9",
+    "componentIds": [
+      "architecture.platform",
+      "main_display",
+      "compute_core",
+      "furniture.desk",
+      "furniture.work_chair",
+      "furniture.lounge",
+      "furniture.coffee_table",
+      "furniture.rug",
+      "robot_companion",
+      "robot_service_hatch",
+      "robot_leg_00",
+      "robot_leg_01",
+      "robot_leg_02",
+      "folding_drawing_terminal",
+      "terminal_tilt",
+      "terminal_panel_L",
+      "terminal_panel_R",
+      "drawing_stylus",
+      "c_archive_dock",
+      "archive_cartridge_00",
+      "archive_cartridge_01",
+      "archive_cartridge_02",
+      "kinetic_three_petal_flower",
+      "flower_petal_0",
+      "flower_petal_1",
+      "flower_petal_2",
+      "headphones_on_stand",
+      "headphone_cup_0",
+      "headphone_cup_1",
+      "ceramic_ring_speaker",
+      "speaker_gimbal",
+      "split_keyboard",
+      "keyboard_half_0",
+      "keyboard_half_1",
+      "keyboard_dial",
+      "desktop_creative_controller",
+      "compact_camera",
+      "camera_focus_lens",
+      "thermal_cup",
+      "table_notebook_group",
+      "notebook",
+      "creative_folio",
+      "coffee_table_pen",
+      "coffee_table_dial",
+      "glass_bonsai_terrarium",
+      "trailing_wall_plant",
+      "studio_reference_books",
+      "creative_book_0",
+      "creative_book_1",
+      "creative_book_2",
+      "titanium_bookend_0",
+      "titanium_bookend_1",
+      "geometric_specimen_cloche",
+      "original_trefoil_geometry",
+      "portable_fold_communicator",
+      "folding_communicator_handset",
+      "communicator_panel_0",
+      "communicator_panel_1",
+      "ceramic_mobius_study",
+      "ceramic_mobius_form",
+      "glass_cutting_planter",
+      "small_planter_leaf_0",
+      "small_planter_leaf_1",
+      "small_planter_leaf_2",
+      "small_planter_leaf_3",
+      "small_planter_leaf_4",
+      "black_ceramic_floor_planter",
+      "floor_vase_leaf_0",
+      "floor_vase_leaf_1",
+      "floor_vase_leaf_2",
+      "floor_vase_leaf_3",
+      "floor_vase_leaf_4",
+      "floor_vase_leaf_5",
+      "floor_vase_leaf_6",
+      "v5_orbital_clock",
+      "v5_clock_dial",
+      "v5_portable_projector",
+      "v5_projector_lens",
+      "v5_magnetic_pen_dock",
+      "v5_magnetic_stylus",
+      "v5_modular_equipment_cases",
+      "v5_upper_equipment_case",
+      "v5_geometric_floor_lamp",
+      "v5_floor_lamp_head",
+      "v5_energy_capsule_rack",
+      "v5_energy_capsule",
+      "v5_mechanical_data_panel",
+      "v5_data_panel_selector",
+      "v5_scout_drone_display",
+      "v5_scout_drone",
+      "environment.orbital_dock",
+      "environment.warm_gallery",
+      "v8_desk_glow_lamp",
+      "v8_window_light_bar",
+      "v8_reading_puck"
+    ],
+    "bakedStates": [
+      "day",
+      "night"
+    ],
+    "atlasSizes": [
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      3072,
+      2048
+    ],
+    "samples": 40,
+    "color": "Cycles combined direct, indirect, diffuse, glossy and emission; AgX baked to sRGB, browser NoToneMapping"
+  },
+  "daySha256": {
+    "day-6.png": "dd2fe72093ca2a863bd523c38c92323600e6bd912a1949f786a70b2e2041b903",
+    "day-7.png": "967f0097db7dd9da895c8b57508d84634a7e3fcc773194b81e580bbdd2b4f79e",
+    "day-5.png": "8c74d66a846d0022d9544787e0a35c5fd6b7cc365d5cfe027853d09203fafabb",
+    "day-4.png": "fd01aa545d784a5e2e2ef2f8ba5ca8d69e5f1d78ddfd8afdab769d4ff4faf86f",
+    "day-0.png": "bafa136f082c4b2c1e11d106ec942c866d0fa06e0ecdac6f867f5f3b19edb36b",
+    "day-1.png": "2e8a994bc1007fecbd94f15a9136cc56f405985fe4deda81097fddab12670504",
+    "day-3.png": "eeb1866a804128781a205e1aec35f14769f8aae10eed822fc9cd430a44875994",
+    "day-2.png": "798a5a71eef99a985581759c049ec5abf5bdf38f24e72804ebf978aaf8a12ac4",
+    "window-day.png": "7cfb5ee5f5a596ca6b590bd9e29ef332e9f1c4906ede15dcb327f80345d5b7ce"
+  },
+  "finished": 1790078202.874538,
+  "dayByteIdentical": true
+}

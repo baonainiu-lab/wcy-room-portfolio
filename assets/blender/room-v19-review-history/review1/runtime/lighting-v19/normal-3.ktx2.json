@@ -1,0 +1,122 @@
+{
+  "complete": true,
+  "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-3.png",
+  "sourceSha256": "9541899d521e1bb7ce4c9c8c4a6cad377a01f1132a39b5f7635e5a8bfca86eff",
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-3.ktx2",
+  "sha256": "ffb8555eef46215dce066d231bb0716346e8eafd933fb1b13d8c4662f946069b",
+  "bytes": 2190783,
+  "codecRevision": "linear-surface-v2-logrgb256",
+  "sourceEncoding": "Tangent GL XYZ encoded in RGB, alpha1",
+  "encodedSource": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-3.png",
+    "sha256": "9541899d521e1bb7ce4c9c8c4a6cad377a01f1132a39b5f7635e5a8bfca86eff",
+    "encoding": "Tangent GL XYZ encoded in RGB, alpha1"
+  },
+  "kind": "normal",
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "mipLevels": 12,
+  "quality": 2,
+  "ktxValidate": "passed",
+  "transferFunction": "linear",
+  "targetType": "RGBA",
+  "premultipliedAlpha": false,
+  "sourceAlphaRange": [
+    255,
+    255
+  ],
+  "mipMethod": "Box-filter decoded XYZ vectors, renormalize each encoded normal mip; alpha remains one.",
+  "mipStatistics": [
+    {
+      "level": 1,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "encodingQuantizationMAE": 0.000755935674533248
+    },
+    {
+      "level": 2,
+      "dimensions": [
+        512,
+        512
+      ],
+      "encodingQuantizationMAE": 0.0009830171475186944
+    },
+    {
+      "level": 3,
+      "dimensions": [
+        256,
+        256
+      ],
+      "encodingQuantizationMAE": 0.0011835615150630474
+    },
+    {
+      "level": 4,
+      "dimensions": [
+        128,
+        128
+      ],
+      "encodingQuantizationMAE": 0.0013645758153870702
+    },
+    {
+      "level": 5,
+      "dimensions": [
+        64,
+        64
+      ],
+      "encodingQuantizationMAE": 0.0014569052727892995
+    },
+    {
+      "level": 6,
+      "dimensions": [
+        32,
+        32
+      ],
+      "encodingQuantizationMAE": 0.0015131126856431365
+    },
+    {
+      "level": 7,
+      "dimensions": [
+        16,
+        16
+      ],
+      "encodingQuantizationMAE": 0.0013896239688619971
+    },
+    {
+      "level": 8,
+      "dimensions": [
+        8,
+        8
+      ],
+      "encodingQuantizationMAE": 0.0014869384467601776
+    },
+    {
+      "level": 9,
+      "dimensions": [
+        4,
+        4
+      ],
+      "encodingQuantizationMAE": 0.001763060106895864
+    },
+    {
+      "level": 10,
+      "dimensions": [
+        2,
+        2
+      ],
+      "encodingQuantizationMAE": 0.0018307464197278023
+    },
+    {
+      "level": 11,
+      "dimensions": [
+        1,
+        1
+      ],
+      "encodingQuantizationMAE": 0.0018301137024536729
+    }
+  ],
+  "seconds": 2.63
+}

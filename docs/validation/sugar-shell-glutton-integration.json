@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-01",
+  "work": "糖壳暴食兽",
+  "station": 1,
+  "status": "locally_integrated_browser_checked",
+  "deployed": false,
+  "sourceVideo": "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/王丞业_糖壳暴食兽_VibeCoding作品演示_1080p.mp4",
+  "video": {
+    "path": "public/media/works/sugar-shell-glutton/demo-1080p.mp4",
+    "sha256": "f2c959c4283c46b64d920433e1425ffb0ea525cc3e13b1d7f6f251a4d66e32e6",
+    "bytes": 56274229,
+    "width": 1920,
+    "height": 1080,
+    "duration": 60,
+    "unchangedCopy": true,
+    "fastStart": true,
+    "httpRange": {
+      "status": 206,
+      "bytes": 1024
+    }
+  },
+  "design": "Independent full-page editorial work presentation, isolated work-detail module and styles; not the legacy modal layout.",
+  "contentEvidence": "docs/sugar-shell-glutton-content-evidence.json",
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "coverReady": true,
+    "coverVisuallyInspected": true,
+    "actualArtClickOpensDetail": true,
+    "navigation01OpensDetail": true,
+    "videoPlayed": true,
+    "nativeResolution": [
+      1920,
+      1080
+    ],
+    "chapter23ObservedAt": 23.060814,
+    "chapterPausedWithKeyboard": true,
+    "escapeReturnedToGallery": true,
+    "controlsRestored": true,
+    "consoleWarnings": [],
+    "consoleErrors": [],
+    "diagnosticErrors": []
+  },
+  "loadingSilence": {
+    "policy": "No scene audio during loading, terminal welcome or opening; ready scenes require explicit unmute. Work video plays only after user action.",
+    "observedAt": [
+      "startup warmup 95%",
+      "startup ready 100% / terminal welcome",
+      "room intro complete",
+      "gallery return"
+    ],
+    "audioContextCreated": false,
+    "ambientSources": 0,
+    "allowed": false
+  },
+  "checks": {
+    "productionBuild": {
+      "passed": true,
+      "modules": 67,
+      "entries": [
+        "index.html",
+        "works/sugar-shell-glutton/index.html"
+      ],
+      "warning": "Existing main bundle >500kB"
+    },
+    "materialPreviewChecks": 10,
+    "materialReport": "docs/validation/material-preview-integration.json"
+  },
+  "limits": [
+    "Browser viewport override did not affect actual 1280px viewport; mobile breakpoint styling exists but no successful mobile screenshot/physical touch test is claimed.",
+    "No new game-code test runs or game-asset license audit; explanatory claims use the supplied video and adjacent contribution/timeline evidence.",
+    "Error/retry UI implemented; media network failure was not injected in browser.",
+    "No deployment or sustained frame-rate guarantee."
+  ]
+}

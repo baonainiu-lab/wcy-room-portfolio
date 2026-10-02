@@ -1,0 +1,141 @@
+{
+  "date": "2026-09-30",
+  "release": "room18-gallery6-terminal3",
+  "defaultEnabled": true,
+  "scope": "Actual main-page WebGL on local Codex in-app browser, plus independent CPU/source integrity checks. This is implementation QA, not a new user visual approval.",
+  "urls": [
+    "http://127.0.0.1:5173/?qa&physicalPreview",
+    "http://127.0.0.1:5173/?qa",
+    "http://127.0.0.1:5173/"
+  ],
+  "startup": {
+    "allStagesReadyBeforeWelcome": true,
+    "stages": [
+      "room",
+      "gallery",
+      "about",
+      "warmup"
+    ],
+    "percent": 100,
+    "galleryPrepared": true,
+    "aboutPrepared": true,
+    "assetRequestsAtWelcome": 82,
+    "programsAtWelcome": 115,
+    "programsAfterCleanIntroDisposal": 113,
+    "failureAndRetry": {
+      "testedRelease": "legacy complete release with same startup code",
+      "injection": "?qa&failStartup=about",
+      "heldPercent": 78,
+      "enterDisabled": true,
+      "stageErrorShown": true,
+      "retryRecovered": true
+    }
+  },
+  "firstSceneSwitches": {
+    "gallery": {
+      "assetRequestsBefore": 82,
+      "assetRequestsAfter": 82,
+      "programsBefore": 113,
+      "programsAfter": 113,
+      "durationSeconds": 2.15,
+      "frameMs": {
+        "p50": 8.4,
+        "p95": 17.6,
+        "max": 43.4,
+        "samples": 200
+      },
+      "nativeSceneAndReturnVerified": true
+    },
+    "about": {
+      "assetRequestsBefore": 82,
+      "assetRequestsAfter": 82,
+      "programsBefore": 113,
+      "programsAfter": 113,
+      "durationSeconds": 2.15,
+      "frameMs": {
+        "p50": 8.4,
+        "p95": 16.8,
+        "max": 25,
+        "samples": 190
+      },
+      "stageOffsetX": -34,
+      "nightMapsReady": 5,
+      "nativeSceneVerified": true
+    }
+  },
+  "opening": {
+    "repeatedWheelStartCount": 1,
+    "completeCount": 1,
+    "roomControlsRestored": true,
+    "cleanLightingRestoredAndDisposed": true,
+    "dayFirst": true,
+    "cycleSeconds": 60,
+    "dayNightTransitionSeconds": 15,
+    "reducedMotionAndSkip": {
+      "query": "?qa&motion=reduce",
+      "readyBeforeWelcome": true,
+      "phaseAfterSkip": "complete",
+      "starts": 1,
+      "completes": 1,
+      "controlsEnabled": true,
+      "clockPausedAtDay10": true,
+      "errors": []
+    }
+  },
+  "responsive": {
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopViewport": [
+      1280,
+      720
+    ],
+    "welcomeVisible": true,
+    "keyboardEnterCompleted": true,
+    "resizeAfterEntryPassed": true,
+    "physicalTouchSwipe": "not exercised; desktop viewport emulation is not physical touch hardware"
+  },
+  "visualChecks": {
+    "room": "Dark walnut interior floor, walls and caps; direct sunlight, intermediate day/night mix and near-zero night mix viewed; zoomed-out night showed no broad black compression blocks.",
+    "gallery": "Actual V6 daytime and nighttime materials and glass viewed.",
+    "terminal": "Brushed blue native PBR terminal seen on desktop and mobile, deployed original screen content.",
+    "about": "Original approved scene seen with night maps; all 38 baseline files unchanged."
+  },
+  "renderer": {
+    "errors": [],
+    "warnings": [],
+    "observedTextureCompressionFormat": 37808,
+    "renderPixelRatio": 2,
+    "roomIdle240Frames": {
+      "medianFps": 119.05,
+      "p50Ms": 8.4,
+      "p95Ms": 17.2
+    }
+  },
+  "cpuChecks": {
+    "startup": 20,
+    "materialRelease": 7,
+    "logRGB": 10,
+    "aboutBaselineHashes": 38
+  },
+  "build": {
+    "command": "node node_modules/vite/bin/vite.js build",
+    "exitCode": 0,
+    "modules": 62,
+    "seconds": 8.21,
+    "warning": "Existing bundle exceeds 500 kB advisory threshold."
+  },
+  "limitations": [
+    "No guarantee of constant 120 FPS or zero device-dependent dropped frames.",
+    "Preloading increases initial waiting time and resident resource use.",
+    "Viewport changes can reallocate render targets; no additional model/material fetching observed in the tested first scene switches."
+  ],
+  "normalUrlPreview": {
+    "loaderSeen": true,
+    "terminalWelcomeVisible": true,
+    "consoleWarnings": [],
+    "consoleErrors": [],
+    "leftAtWelcomeForUser": true
+  }
+}

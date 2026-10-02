@@ -1,0 +1,91 @@
+{
+  "complete": true,
+  "source": "assets/blender/room-v17-channel-qa/day-11.png",
+  "sourceSha256": "893f4c450bc47c9420eb95a7fb19cf89a92fbf85032f016680ed33c03f20a195",
+  "path": "assets/blender/room-v17-channel-qa/day-11.ktx2",
+  "sha256": "9b2e0c1620e446c3cf0b510689c545d36e4c8962f65c472c8fc90da951e47bc7",
+  "bytes": 54092,
+  "kind": "rgbm32",
+  "dimensions": [
+    256,
+    256
+  ],
+  "mipLevels": 9,
+  "quality": 2,
+  "ktxValidate": "passed",
+  "transferFunction": "linear",
+  "targetType": "RGBA",
+  "premultipliedAlpha": false,
+  "sourceAlphaRange": [
+    1,
+    18
+  ],
+  "mipMethod": "Decode RGBM32 to linear radiance, box-filter floating radiance, then re-encode each level; never average encoded RGBM channels.",
+  "mipStatistics": [
+    {
+      "level": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "encodingQuantizationMAE": 0.00017144851153716445
+    },
+    {
+      "level": 2,
+      "dimensions": [
+        64,
+        64
+      ],
+      "encodingQuantizationMAE": 0.00017681501049082726
+    },
+    {
+      "level": 3,
+      "dimensions": [
+        32,
+        32
+      ],
+      "encodingQuantizationMAE": 0.00018320289382245392
+    },
+    {
+      "level": 4,
+      "dimensions": [
+        16,
+        16
+      ],
+      "encodingQuantizationMAE": 0.00019501200586091727
+    },
+    {
+      "level": 5,
+      "dimensions": [
+        8,
+        8
+      ],
+      "encodingQuantizationMAE": 0.0002103107253788039
+    },
+    {
+      "level": 6,
+      "dimensions": [
+        4,
+        4
+      ],
+      "encodingQuantizationMAE": 0.0001910670689539984
+    },
+    {
+      "level": 7,
+      "dimensions": [
+        2,
+        2
+      ],
+      "encodingQuantizationMAE": 0.0002662778424564749
+    },
+    {
+      "level": 8,
+      "dimensions": [
+        1,
+        1
+      ],
+      "encodingQuantizationMAE": 0.00010011097037931904
+    }
+  ],
+  "seconds": 0.13
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "model": "/models/orbital-atelier-v16-compressed.glb",
+  "scope": "CPU real geometry and GSAP; cube suite separately checks shell growth/reduced motion/skip",
+  "passed": 3,
+  "results": [
+    {
+      "check": "V16 shell ownership, independent prop hierarchy and exact recovery",
+      "status": "passed",
+      "propCount": 36,
+      "duration": 4.281662222410411
+    },
+    {
+      "check": "nonuniform transformed parent and exact recovery",
+      "status": "passed",
+      "propCount": 36,
+      "duration": 4.220662109283522
+    },
+    {
+      "check": "interrupted timeline returns every node to exact authored transform",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "revision": 13,
+  "geometryInheritedFrom": 12,
+  "scope": "Night-only localized warm practicals; no geometry, UV, independent-part or daytime change.",
+  "sourceVersion12Preserved": true,
+  "artifacts": [
+    {
+      "path": "assets/blender/orbital-atelier-v13.blend",
+      "bytes": 73860523,
+      "sha256": "2469222a77fc326d34223785a15675cf1abf65ecdf6c9297ca2619d9d9f16d17"
+    },
+    {
+      "path": "assets/blender/orbital-dual-bake-v13.blend",
+      "bytes": 82918553,
+      "sha256": "70eafb513a0ea7b2f369e568892f9ef9b6f4486936871f5803e980771aff62d0"
+    },
+    {
+      "path": "public/models/orbital-atelier-v13.glb",
+      "bytes": 46178184,
+      "sha256": "44178b2372dfb4978da24fb6910c0d279bc353a9ed4936656fb52d45e18824f9"
+    }
+  ],
+  "preview": "renders/night-warm-v13-preview.png",
+  "finalNightRender": "renders/lighting-v13-night-blender.png",
+  "previewReview": "Agent visual QA passed; no user final render approval inferred.",
+  "reports": [
+    "assets/blender/night-warm-v13-design.json",
+    "assets/blender/night-warm-v13-status.json",
+    "assets/blender/lighting-night-v13.json",
+    "assets/blender/source-day-v13-verification.json",
+    "renders/night-warm-v13-image-check.json",
+    "renders/asset-validation-v13.json"
+  ],
+  "validation": {
+    "interiorRoots": 37,
+    "interiorIDs": 93,
+    "exteriorIDs": 2,
+    "triangles": 373203,
+    "drawPrimitives": 100,
+    "dayTextureByteIdentical": true,
+    "sourceDaySignatureIdentical": true
+  },
+  "runtimeCost": "Lights are baked into the existing 8 atlases; no new exported lights, geometry, draw primitives or atlas allocation.",
+  "bakeSeconds": 415.05
+}

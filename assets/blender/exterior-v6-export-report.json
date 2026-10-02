@@ -1,0 +1,27 @@
+{
+  "source": "assets/blender/orbital-atelier-v6.blend",
+  "model": "public/models/orbital-exterior-v6.glb",
+  "texture": "assets/textures/baked/room-exterior-v6.png",
+  "atlas": 4096,
+  "samples": 32,
+  "triangles": 25312,
+  "drawCalls": 1,
+  "bytes": 6833972,
+  "sha256": "337e00c45559c579408e9da68633dd7792326fab8916d3c48b04cf99d13db294",
+  "roots": [
+    {
+      "id": "environment.orbital_dock",
+      "name": "EXT6_ORBITAL_DOCK_Root__web",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "componentIds": [
+    "environment.orbital_dock"
+  ],
+  "seconds": 68.6,
+  "blenderDevice": "GPU"
+}

@@ -1,0 +1,213 @@
+{
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-dual-bake-v19.blend",
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "surfaces": [
+    {
+      "slot": 0,
+      "shaderGraphsSha256": "d99223c671a9050222e86c8910c8ea382f039cd0023d068559c83b7b359f0abf",
+      "materials": [
+        "WEB8_BAKE_A0_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A0_MAT_Optical_Black",
+        "WEB8_BAKE_A0_MAT_Optical_White",
+        "WEB8_BAKE_A0_MAT_Satin_Titanium",
+        "WEB8_BAKE_A0_MAT_Titanium_Floor",
+        "WEB8_BAKE_A0_MAT_Warm_White"
+      ],
+      "geometryUvNormalsSignature": "80e77244a29bda18b1c4855f46e6d86b0482643612b1477276014e722493fb64"
+    },
+    {
+      "slot": 1,
+      "shaderGraphsSha256": "fdb79dea9320e6ed686b801d6d109f0e3477f5e10a0f6b7fc8033fab5f3fdce8",
+      "materials": [
+        "WEB8_BAKE_A1_F_Rug_Embossed_Grooves",
+        "WEB8_BAKE_A1_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A1_MAT_Graphite_Rug",
+        "WEB8_BAKE_A1_MAT_Optical_Black",
+        "WEB8_BAKE_A1_MAT_Optical_White",
+        "WEB8_BAKE_A1_MAT_Satin_Titanium"
+      ],
+      "geometryUvNormalsSignature": "db3f1c52606f079c74e9aa48678d912bd72bffa180fa2d665c7d26e78779ca1d"
+    },
+    {
+      "slot": 2,
+      "shaderGraphsSha256": "f815fe400cccde7dc431c23a03786ae19ddf6ba2f74d2ac1480c862f03379875",
+      "materials": [
+        "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Satin_Titanium"
+      ],
+      "geometryUvNormalsSignature": "6784c68b5a8bbe5fe5bca84cddd9ed68ed6ae815453cbd539703477ba1de0b0d"
+    },
+    {
+      "slot": 3,
+      "shaderGraphsSha256": "93d1850562cd4ea9d63f2a62913da982a8a7979f96024a77b768cc6dd181c710",
+      "materials": [
+        "WEB8_BAKE_A3_D_BlackCeramic",
+        "WEB8_BAKE_A3_D_BlueGreyBookCloth",
+        "WEB8_BAKE_A3_D_BookPaper",
+        "WEB8_BAKE_A3_D_DeepLanceLeaf",
+        "WEB8_BAKE_A3_D_OpticCoating",
+        "WEB8_BAKE_A3_D_PaleMidrib",
+        "WEB8_BAKE_A3_D_PaperEdges",
+        "WEB8_BAKE_A3_D_PlanterSoil",
+        "WEB8_BAKE_A3_D_SageLanceLeaf",
+        "WEB8_BAKE_A3_D_SoftAnodizedGold",
+        "WEB8_BAKE_A3_D_SoftDisplayLine",
+        "WEB8_BAKE_A3_D_WarmGreyBookCloth",
+        "WEB8_BAKE_A3_MAT_Amber_Status",
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A3_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A3_MAT_Optical_Black",
+        "WEB8_BAKE_A3_MAT_Optical_White",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium"
+      ],
+      "geometryUvNormalsSignature": "3b098bae2ce7fc8e14cd06bd6bc31c886c8a1f0c53ac9238e56e0ee9c8bfcce1"
+    },
+    {
+      "slot": 4,
+      "shaderGraphsSha256": "419c762a4ed3a4b18c351cb54dc4d70254aba763ae383f32a6f299c15151ed2e",
+      "materials": [
+        "WEB8_BAKE_A4_IW8_MAT_Graphite",
+        "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic",
+        "WEB8_BAKE_A4_IW8_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A4_V5_MAT_BurntOrange",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal",
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+        "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_WarmDiffuser"
+      ],
+      "geometryUvNormalsSignature": "710394638c47f746f17d4e1bb5bafabad19a88ab8122849e9cb69533a7a1776a"
+    },
+    {
+      "slot": 5,
+      "shaderGraphsSha256": "62877b56dab81aa281061ad38f533a6fb0accf23866794d7c5ba599fab2d9a4a",
+      "materials": [
+        "WEB8_BAKE_A5_EXT6_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A5_EXT6_MAT_BurntOrange",
+        "WEB8_BAKE_A5_EXT6_MAT_Graphite",
+        "WEB8_BAKE_A5_EXT6_MAT_IceSignal",
+        "WEB8_BAKE_A5_EXT6_MAT_SatinTitanium",
+        "WEB8_BAKE_A5_EXT6_MAT_WarmSignal"
+      ],
+      "geometryUvNormalsSignature": "80be14259d630266e604b290347f24104d564e7174724daa588c6c5ad73b054a"
+    },
+    {
+      "slot": 6,
+      "shaderGraphsSha256": "5d43495617194995b587c4b85be7ba66bfae39c3746cee975c310e5746a621f9",
+      "materials": [
+        "WEB8_BAKE_A6_WG7_MAT_AmberDiffuser",
+        "WEB8_BAKE_A6_WG7_MAT_BlueGrey",
+        "WEB8_BAKE_A6_WG7_MAT_ChampagneMetal",
+        "WEB8_BAKE_A6_WG7_MAT_DesaturatedBotanical",
+        "WEB8_BAKE_A6_WG7_MAT_Graphite",
+        "WEB8_BAKE_A6_WG7_MAT_Titanium",
+        "WEB8_BAKE_A6_WG7_MAT_WalnutOrangeEnamel",
+        "WEB8_BAKE_A6_WG7_MAT_WarmCeramic",
+        "WEB8_BAKE_A6_WG7_MAT_WarmWhiteDiffuser"
+      ],
+      "geometryUvNormalsSignature": "7cabf93269f5b5866de3b33c20a996a44575738134d53d6347a5c1c5c6eca6b8"
+    },
+    {
+      "slot": 7,
+      "shaderGraphsSha256": "4d4dfad9dcce622389334e07113b58bf72a87cf7fc00c8dbeec960b7dec7d423",
+      "materials": [
+        "WEB8_BAKE_A7_F_Orange_Upholstery_Stitch",
+        "WEB8_BAKE_A7_MAT_Charcoal_Woven",
+        "WEB8_BAKE_A7_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A7_MAT_Optical_Black",
+        "WEB8_BAKE_A7_MAT_Satin_Titanium",
+        "WEB8_BAKE_A7_MAT_Vermilion_Woven"
+      ],
+      "geometryUvNormalsSignature": "e463f73b1731ab9a2f30a3bbb71dda86c9386fc730d65e071364a15dc20ce173"
+    },
+    {
+      "slot": 8,
+      "shaderGraphsSha256": "116635e3dd11cf23bad3584bb8720481fb50cf1f0730065e3acdb970f8fb1dc1",
+      "materials": [
+        "WEB8_BAKE_A8_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A8_MAT_Optical_Black",
+        "WEB8_BAKE_A8_MAT_Optical_White",
+        "WEB8_BAKE_A8_MAT_Satin_Titanium",
+        "WEB8_BAKE_A8_MAT_Titanium_Floor",
+        "WEB8_BAKE_A8_MAT_Warm_White"
+      ],
+      "geometryUvNormalsSignature": "56ed5bc67ad00d82fb0ce4973c75f51d932399e64f2c1bd2b3fe0abc7b04ef88"
+    },
+    {
+      "slot": 9,
+      "shaderGraphsSha256": "0972d19302df0130c89b209a4dd953e3e2ef74a596b647f9332c0ebd081a847d",
+      "materials": [
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Charcoal_Woven",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_White",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_P_DisplaySilverBlue",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_P_LensCoating",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_P_TeaSurface",
+        "WEB15_BAKE_A9_WEB8_BAKE_A2_P_WarmAnodizedMetal"
+      ],
+      "geometryUvNormalsSignature": "e75eb1874ed96e8f9262e5ca34fdc7f817253ac15568deebb17c4cbaa5a4f446"
+    },
+    {
+      "slot": 10,
+      "shaderGraphsSha256": "9a7a71a450ab7cde6fd5a7bf39ec7525c5ee3d55e78cd532f536cfd0bbe0e5ab",
+      "materials": [
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Warm_White",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_BonsaiBark",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_CreativeFolioCover",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DeepLeaf",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplayInk",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplaySilverBlue",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_GreenStem",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_LensCoating",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_NewLeaf",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PageEdge",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PetalBrushedSilver",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_RiverStone",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_Soil",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_TerrariumMoss",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmAnodizedMetal",
+        "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmPaper"
+      ],
+      "geometryUvNormalsSignature": "f17e8d8d787e7e965699d4ca2951286957fc6fa11cb1509a970d5bf7f1ac466a"
+    },
+    {
+      "slot": 11,
+      "shaderGraphsSha256": "e34c317c1562e6bf40f1ab8edd639b074e5a75e2d167f12bd589138b8d38c813",
+      "materials": [
+        "WEB8_BAKE_A11_F_Chair_Seam",
+        "WEB8_BAKE_A11_MAT_Charcoal_Woven",
+        "WEB8_BAKE_A11_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A11_MAT_Optical_Black",
+        "WEB8_BAKE_A11_MAT_Satin_Titanium"
+      ],
+      "geometryUvNormalsSignature": "43f577001e33d0d7d20fa371800c9f23956f9fa68e40fb71d967fd5c5f6e5983"
+    },
+    {
+      "slot": 12,
+      "shaderGraphsSha256": "f7ced8df29db5de7f8ecf8c326430c21a6bf6ab83366f7bcd9a7566cab4a967f",
+      "materials": [
+        "V19_Ceiling_Anodized_Graphite",
+        "V19_Ceiling_Brushed_Champagne",
+        "V19_Ceiling_Opal_Diffuser"
+      ],
+      "geometryUvNormalsSignature": "5c1b2ef8b4404ff318fe08ef615b3610f969f66435e9697f53b3b0cd6f4b82cc"
+    }
+  ],
+  "method": "All 13 atlases: original mesh positions, polygon material indices, original BakeUV/corner normals/world transforms plus complete shader graph properties, input values, links, color ramps and packed image hashes."
+}

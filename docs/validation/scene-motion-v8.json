@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "revision": 8,
+  "scope": "Deterministic Three.js + GSAP motion and actual GLB hierarchy; no render/FPS claim",
+  "hashes": {
+    "sceneMotion": "744b7d9283f32eec875c9fd3a1bf0110716cd6b57e21b875d808df46e7f51e25",
+    "test": "4b76b9cc156d85c9b20cef88bbc42a49ffd9b230381592b91854c356e28555e4"
+  },
+  "results": [
+    {
+      "check": "Sixteen independent components move over their schedules; hierarchy, other assets and all scales stay intact",
+      "status": "passed"
+    },
+    {
+      "check": "Drone remains world-vertical and within 6 cm under rotated, 1.14-scaled parent",
+      "status": "passed",
+      "maxVerticalMetres": 0.051806317792437384,
+      "maxHorizontalMetres": 4.577566798522237e-16
+    },
+    {
+      "check": "Reduced motion performs zero transform writes",
+      "status": "passed"
+    },
+    {
+      "check": "Modal/drag disable pauses transforms and motion time; resume matches uninterrupted active time",
+      "status": "passed"
+    },
+    {
+      "check": "Hover ownership excludes both ancestors and descendants, while unrelated pieces keep moving",
+      "status": "passed"
+    },
+    {
+      "check": "Click hold covers the whole related assembly, survives disabled time, and resumes only after active hold time",
+      "status": "passed"
+    },
+    {
+      "check": "Real GSAP rotation/position/quaternion tweens own their transforms even after click hold expires",
+      "status": "passed"
+    },
+    {
+      "check": "Long tab delta is clamped; negative delta cannot rewind the motion clock",
+      "status": "passed"
+    },
+    {
+      "check": "Chair completes repeated full revolutions around a fixed parent-vertical swivel with no reverse jump",
+      "status": "passed",
+      "totalTurns": 2.493284465211111,
+      "maxRadiansPerSecond": 0.349065850399004
+    },
+    {
+      "check": "Actual mechanical face normals, fixed pivots, lens travel and enclosed sculpture use the intended axes",
+      "status": "passed",
+      "faceDimensionsMetres": {
+        "v5_clock_dial": [
+          0.23346023393441767,
+          0.17977924313474414,
+          0.03049993840977549
+        ],
+        "v5_projector_lens": [
+          0.12999999523162842,
+          0.1300000182069924,
+          0.059000214743044586
+        ],
+        "v5_data_panel_selector": [
+          0.10599999874830243,
+          0.10600000329962297,
+          0.03900027957323647
+        ]
+      },
+      "maxLensTravelMetres": 0.009999906263813363,
+      "sculptureRadialClearanceMetres": 0.03188092668049067
+    },
+    {
+      "check": "Actual chair sweep keeps a separating floor-plane gap to the workstation across the full 360 degrees at 1-degree samples",
+      "status": "passed",
+      "sampledPoses": 360,
+      "minimumSeparatingGapMetres": 0.44051224289916835,
+      "sweptBoundsMin": [
+        -2.2080915164132433,
+        0.17687503263354273,
+        -0.32809155098393705
+      ],
+      "sweptBoundsMax": [
+        -0.591908435903041,
+        2.60868800701715,
+        1.2880915295262656
+      ],
+      "limitation": "Desk footprint check across the full 360 degrees at 1-degree samples; not continuous full-room collision detection"
+    },
+    {
+      "check": "Actual active GLB keeps every asset independently addressable, with bounded drone movement",
+      "status": "passed",
+      "modelPath": "/models/orbital-atelier-v15-compressed.glb",
+      "independentlyAddressableAssets": 95,
+      "maxVerticalMetres": 0.05180631779243727,
+      "maxHorizontalMetres": 0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "method": "Read-only actual GLTF triangle-centroid UV samples from original sRGB PNG night bake; no images edited; unweighted mesh sample diagnostics, not GPU image or area-weighted coverage",
+  "materialSpaces": {
+    "WEB8_LIGHTMAP_11": "srgb",
+    "WEB8_LIGHTMAP_7": "srgb",
+    "WEB8_LIGHTMAP_9": "srgb",
+    "WEB8_LIGHTMAP_3": "srgb",
+    "WEB8_LIGHTMAP_4": "srgb"
+  },
+  "assets": [
+    {
+      "asset": "furniture.work_chair",
+      "triangleCentroidSamples": 1475,
+      "nightMedianSRGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nearBlackSamplesPeakBelowLinearPoint005": 1040,
+      "oldMeanChromaticityError": 0.10275856745953103,
+      "newMeanChromaticityError": 2.7888636791343046e-17,
+      "oldMedianLinearLuminance": 0.0165616,
+      "newMedianLinearLuminance": 0.0
+    },
+    {
+      "asset": "furniture.lounge",
+      "triangleCentroidSamples": 1497,
+      "nightMedianSRGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nearBlackSamplesPeakBelowLinearPoint005": 1016,
+      "oldMeanChromaticityError": 0.21128822126508096,
+      "newMeanChromaticityError": 1.860201807405796e-17,
+      "oldMedianLinearLuminance": 0.016604991003460207,
+      "newMedianLinearLuminance": 7.443887652134179e-05
+    },
+    {
+      "asset": "compact_camera",
+      "triangleCentroidSamples": 2500,
+      "nightMedianSRGB": [
+        0.0,
+        0.00392156862745098,
+        0.00392156862745098
+      ],
+      "nearBlackSamplesPeakBelowLinearPoint005": 1698,
+      "oldMeanChromaticityError": 0.14876394130704074,
+      "newMeanChromaticityError": 2.4640433503611884e-17,
+      "oldMedianLinearLuminance": 0.017162583427426697,
+      "newMedianLinearLuminance": 0.0010310093701016868
+    },
+    {
+      "asset": "studio_reference_books",
+      "triangleCentroidSamples": 5514,
+      "nightMedianSRGB": [
+        0.0,
+        0.00392156862745098,
+        0.00784313725490196
+      ],
+      "nearBlackSamplesPeakBelowLinearPoint005": 3875,
+      "oldMeanChromaticityError": 0.17198269161470922,
+      "newMeanChromaticityError": 2.4879263912784542e-17,
+      "oldMedianLinearLuminance": 0.0171215963576762,
+      "newMedianLinearLuminance": 0.0009588656318412255
+    },
+    {
+      "asset": "v5_modular_equipment_cases",
+      "triangleCentroidSamples": 2496,
+      "nightMedianSRGB": [
+        0.043137254901960784,
+        0.0196078431372549,
+        0.00784313725490196
+      ],
+      "nearBlackSamplesPeakBelowLinearPoint005": 1239,
+      "oldMeanChromaticityError": 0.0731365420343974,
+      "newMeanChromaticityError": 1.315638442805621e-17,
+      "oldMedianLinearLuminance": 0.02156000873706692,
+      "newMedianLinearLuminance": 0.00845878766673605
+    }
+  ],
+  "confirmedCause": "Previous constant RGB offset raised pure black to linear (.020,.016,.012) and tinted low-value albedo independently of original baked incident light.",
+  "fix": "Zero offset, common scalar peak-channel shoulder exposure; preserve hue ratios and black, any peak channel >=.45 leaves the entire pixel unchanged."
+}

@@ -1,0 +1,3889 @@
+{
+  "works-gallery-v4.blend": {
+    "scene": {
+      "lighting_state": "day",
+      "concept": "B 日光玻璃长廊",
+      "concept_sha256": "0087d6b949e0f571f2f073c337de23878542bdd14be289ebb381815c8b089acd",
+      "content_status": "Concept placeholders; personal project details pending",
+      "model_revision": 4,
+      "canopy_refined": true,
+      "city_and_profiles_refined": true,
+      "reused_city_source": "Original ENV_CITY.001 from orbital-atelier-v14.blend; copied geometry and materials, no source changes",
+      "environment_removed": true,
+      "source_revision": "V1 gallery retained; city and external garden removed by user request",
+      "architecture_rebuilt": true,
+      "glass_architecture_material": "GALLERY_ARCH_GLASS_PBR",
+      "new_city_geometry": false
+    },
+    "materials": [
+      {
+        "name": "GALLERY_ARCH_GLASS_PBR",
+        "properties": {
+          "architecture_glass": true
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Volume Absorption",
+            "VOLUME_ABSORPTION"
+          ]
+        ],
+        "users": [
+          "Clear terrace balustrade",
+          "Clear terrace balustrade.001",
+          "Clear terrace balustrade.002",
+          "Clear terrace balustrade.003",
+          "V4 inset rear glazing pane 00",
+          "V4 inset rear glazing pane 01",
+          "V4 inset rear glazing pane 02",
+          "V4 inset rear glazing pane 03"
+        ]
+      },
+      {
+        "name": "GALLERY_black",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ],
+        "users": [
+          "gallery.work.02.vitrine.toe",
+          "gallery.work.04.sculpture.black_cap",
+          "gallery.work.05.vitrine.toe",
+          "gallery.table.recess",
+          "gallery.bench.pad.0.0",
+          "gallery.bench.pad.0.1",
+          "gallery.bench.pad.1.0",
+          "gallery.bench.pad.1.1"
+        ]
+      },
+      {
+        "name": "GALLERY_bronze",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ],
+        "users": [
+          "Floor inlay border",
+          "gallery.work.01.champagne_reveal",
+          "gallery.work.01.header_rule",
+          "gallery.work.01.art.inner_moulding",
+          "gallery.work.01.art.lower_sweep",
+          "gallery.work.01.label.rim",
+          "gallery.work.01.label.rule",
+          "gallery.work.01.maquette.base"
+        ]
+      },
+      {
+        "name": "GALLERY_glass",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Transparent BSDF",
+            "BSDF_TRANSPARENT"
+          ],
+          [
+            "Mix Shader",
+            "MIX_SHADER"
+          ]
+        ],
+        "users": [
+          "gallery.work.02.vitrine.glass.side.-1",
+          "gallery.work.02.vitrine.glass.face.-1",
+          "gallery.work.02.vitrine.glass.side.1",
+          "gallery.work.02.vitrine.glass.face.1",
+          "gallery.work.02.vitrine.glass.roof",
+          "gallery.work.05.vitrine.glass.side.-1",
+          "gallery.work.05.vitrine.glass.face.-1",
+          "gallery.work.05.vitrine.glass.side.1"
+        ]
+      },
+      {
+        "name": "GALLERY_ink",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ],
+        "users": [
+          "Long stone seam",
+          "Long stone seam.001",
+          "Long stone seam.002",
+          "Long stone seam.003",
+          "Long stone seam.004",
+          "Long stone seam.005",
+          "Long stone seam.006",
+          "Cross stone seam"
+        ]
+      },
+      {
+        "name": "GALLERY_ivory",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ],
+        "users": [
+          "gallery.work.01.number",
+          "gallery.work.01.art.mat",
+          "gallery.work.01.art.counterform",
+          "gallery.work.02.number",
+          "gallery.work.02.vitrine.display_pad",
+          "gallery.work.02.geometry.folded_form",
+          "gallery.work.03.number",
+          "gallery.work.03.art.mat"
+        ]
+      },
+      {
+        "name": "GALLERY_leaf",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ],
+        "users": [
+          "gallery.planter.table.stem.00",
+          "gallery.planter.table.leaf.00",
+          "gallery.planter.table.stem.01",
+          "gallery.planter.table.leaf.01",
+          "gallery.planter.table.stem.02",
+          "gallery.planter.table.leaf.02",
+          "gallery.planter.table.stem.03",
+          "gallery.planter.table.leaf.03"
+        ]
+      },
+      {
+        "name": "GALLERY_leather",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ]
+        ],
+        "users": [
+          "gallery.bench.welt",
+          "gallery.bench.cushion"
+        ]
+      },
+      {
+        "name": "GALLERY_navy",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ]
+        ],
+        "users": [
+          "Blue platform fascia",
+          "Secondary landscaped terrace",
+          "gallery.work.01.navy_inset",
+          "gallery.work.01.foot.-1",
+          "gallery.work.01.foot.1",
+          "gallery.work.01.art.upper_sweep",
+          "gallery.work.01.console.leg.-1",
+          "gallery.work.01.console.leg.1"
+        ]
+      },
+      {
+        "name": "GALLERY_paper",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ]
+        ],
+        "users": [
+          "gallery.work.01.art.paper",
+          "gallery.work.01.label.paper",
+          "gallery.work.02.label.paper",
+          "gallery.work.03.art.paper",
+          "gallery.work.03.label.paper",
+          "gallery.work.04.label.paper",
+          "gallery.work.05.label.paper",
+          "gallery.work.06.art.paper"
+        ]
+      },
+      {
+        "name": "GALLERY_silver",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ]
+        ],
+        "users": [
+          "Substantial silver foundation",
+          "Floor metal perimeter",
+          "Terrace silver band",
+          "Terrace back rail post",
+          "Terrace back rail post.001",
+          "Terrace back rail post.002",
+          "Terrace back rail post.003",
+          "Terrace back rail post.004"
+        ]
+      },
+      {
+        "name": "GALLERY_soil",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ],
+        "users": [
+          "gallery.cup.coffee",
+          "gallery.planter.table.soil",
+          "gallery.bench.cushion_seam.0",
+          "gallery.bench.cushion_seam.1",
+          "gallery.planter.floor.01.soil",
+          "gallery.planter.floor.02.soil",
+          "gallery.planter.floor.03.soil",
+          "gallery.planter.floor.04.soil"
+        ]
+      },
+      {
+        "name": "GALLERY_terrazzo",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "Color Ramp",
+            "VALTORGB"
+          ]
+        ],
+        "users": [
+          "Pale terrazzo inset",
+          "gallery.table.stone_inlay"
+        ]
+      },
+      {
+        "name": "GALLERY_v4_glass_edge_trim",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ]
+        ],
+        "users": [
+          "V4 inset glazing edge strip 00",
+          "V4 inset glazing edge strip 01",
+          "V4 inset glazing edge strip 02",
+          "V4 inset glazing edge strip 03",
+          "V4 inset glazing edge strip 04"
+        ]
+      },
+      {
+        "name": "GALLERY_warm",
+        "properties": {},
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ]
+        ],
+        "users": [
+          "gallery.work.01.warm_edge.-1",
+          "gallery.work.01.warm_edge.1",
+          "gallery.work.01.console.front_light",
+          "gallery.work.02.warm_edge.-1",
+          "gallery.work.02.warm_edge.1",
+          "gallery.work.02.vitrine.light_strip",
+          "gallery.work.03.warm_edge.-1",
+          "gallery.work.03.warm_edge.1"
+        ]
+      }
+    ],
+    "assets": [
+      {
+        "id": "gallery.architecture",
+        "name": "gallery.architecture",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.architecture.glazing",
+        "name": "gallery.architecture.glazing",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.environment.terrace",
+        "name": "gallery.environment.terrace",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.architecture.portal",
+        "name": "gallery.architecture.portal",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01",
+        "name": "gallery.work.01",
+        "location": [
+          -4.800000190734863,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.art",
+        "name": "gallery.work.01.art",
+        "location": [
+          -4.800000190734863,
+          2.180000066757202,
+          2.119999885559082
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.console",
+        "name": "gallery.work.01.console",
+        "location": [
+          -4.800000190734863,
+          1.9049999713897705,
+          0.8349999189376831
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.label",
+        "name": "gallery.work.01.label",
+        "location": [
+          -4.635000228881836,
+          1.8370000123977661,
+          0.9850000143051147
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.maquette",
+        "name": "gallery.work.01.maquette",
+        "location": [
+          -5.28000020980835,
+          1.8459999561309814,
+          0.9199999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02",
+        "name": "gallery.work.02",
+        "location": [
+          -2.700000047683716,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine",
+        "name": "gallery.work.02.vitrine",
+        "location": [
+          -2.700000047683716,
+          1.690000057220459,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.side.-1",
+        "name": "gallery.work.02.vitrine.glass.side.-1",
+        "location": [
+          -3.2679998874664307,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.face.-1",
+        "name": "gallery.work.02.vitrine.glass.face.-1",
+        "location": [
+          -2.700000047683716,
+          1.2710000276565552,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.side.1",
+        "name": "gallery.work.02.vitrine.glass.side.1",
+        "location": [
+          -2.131999969482422,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.face.1",
+        "name": "gallery.work.02.vitrine.glass.face.1",
+        "location": [
+          -2.700000047683716,
+          2.1089999675750732,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.roof",
+        "name": "gallery.work.02.vitrine.glass.roof",
+        "location": [
+          -2.700000047683716,
+          1.690000057220459,
+          2.5999999046325684
+        ],
+        "dimensions": [
+          1.1039999723434448,
+          0.8059999942779541,
+          0.012000000104308128
+        ]
+      },
+      {
+        "id": "gallery.work.02.label",
+        "name": "gallery.work.02.label",
+        "location": [
+          -2.700000047683716,
+          1.090000033378601,
+          1.0360000133514404
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.geometry",
+        "name": "gallery.work.02.geometry",
+        "location": [
+          -2.700000047683716,
+          1.690000057220459,
+          1.0449999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.geometry.sphere",
+        "name": "gallery.work.02.geometry.sphere",
+        "location": [
+          -2.930000066757202,
+          1.690000057220459,
+          1.690000057220459
+        ],
+        "dimensions": [
+          0.3579998016357422,
+          0.35799989104270935,
+          0.3580000102519989
+        ]
+      },
+      {
+        "id": "gallery.work.02.geometry.folded_form",
+        "name": "gallery.work.02.geometry.folded_form",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.4099998474121094,
+          0.42200005054473877,
+          0.5979999303817749
+        ]
+      },
+      {
+        "id": "gallery.work.03",
+        "name": "gallery.work.03",
+        "location": [
+          -0.6000000238418579,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.art",
+        "name": "gallery.work.03.art",
+        "location": [
+          -0.6000000238418579,
+          2.180000066757202,
+          2.119999885559082
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.console",
+        "name": "gallery.work.03.console",
+        "location": [
+          -0.6000000238418579,
+          1.9049999713897705,
+          0.8349999189376831
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.label",
+        "name": "gallery.work.03.label",
+        "location": [
+          -0.4350000023841858,
+          1.8370000123977661,
+          0.9850000143051147
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.maquette",
+        "name": "gallery.work.03.maquette",
+        "location": [
+          -1.0800000429153442,
+          1.8459999561309814,
+          0.9199999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04",
+        "name": "gallery.work.04",
+        "location": [
+          1.5,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture",
+        "name": "gallery.work.04.sculpture",
+        "location": [
+          1.5,
+          1.690000057220459,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture.model",
+        "name": "gallery.work.04.sculpture.model",
+        "location": [
+          1.5,
+          1.690000057220459,
+          1.3220000267028809
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture.model.silver_ribbon",
+        "name": "gallery.work.04.sculpture.model.silver_ribbon",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.6334660053253174,
+          0.4438939094543457,
+          1.565000057220459
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture.model.champagne_ribbon",
+        "name": "gallery.work.04.sculpture.model.champagne_ribbon",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.6334660053253174,
+          0.4438939094543457,
+          1.565000057220459
+        ]
+      },
+      {
+        "id": "gallery.work.04.label",
+        "name": "gallery.work.04.label",
+        "location": [
+          1.5,
+          0.9249999523162842,
+          0.9769999980926514
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05",
+        "name": "gallery.work.05",
+        "location": [
+          3.5999999046325684,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine",
+        "name": "gallery.work.05.vitrine",
+        "location": [
+          3.5999999046325684,
+          1.690000057220459,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.side.-1",
+        "name": "gallery.work.05.vitrine.glass.side.-1",
+        "location": [
+          3.0320000648498535,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.face.-1",
+        "name": "gallery.work.05.vitrine.glass.face.-1",
+        "location": [
+          3.5999999046325684,
+          1.2710000276565552,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.side.1",
+        "name": "gallery.work.05.vitrine.glass.side.1",
+        "location": [
+          4.168000221252441,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.face.1",
+        "name": "gallery.work.05.vitrine.glass.face.1",
+        "location": [
+          3.5999999046325684,
+          2.1089999675750732,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.roof",
+        "name": "gallery.work.05.vitrine.glass.roof",
+        "location": [
+          3.5999999046325684,
+          1.690000057220459,
+          2.5999999046325684
+        ],
+        "dimensions": [
+          1.1039999723434448,
+          0.8059999942779541,
+          0.012000000104308128
+        ]
+      },
+      {
+        "id": "gallery.work.05.label",
+        "name": "gallery.work.05.label",
+        "location": [
+          3.5999999046325684,
+          1.090000033378601,
+          1.0360000133514404
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.geometry",
+        "name": "gallery.work.05.geometry",
+        "location": [
+          3.5999999046325684,
+          1.690000057220459,
+          1.034000039100647
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.geometry.faceted_core",
+        "name": "gallery.work.05.geometry.faceted_core",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.6600000858306885,
+          0.5219999551773071,
+          0.8519999980926514
+        ]
+      },
+      {
+        "id": "gallery.work.06",
+        "name": "gallery.work.06",
+        "location": [
+          5.699999809265137,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.art",
+        "name": "gallery.work.06.art",
+        "location": [
+          5.699999809265137,
+          2.180000066757202,
+          2.119999885559082
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.console",
+        "name": "gallery.work.06.console",
+        "location": [
+          5.699999809265137,
+          1.9049999713897705,
+          0.8349999189376831
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.label",
+        "name": "gallery.work.06.label",
+        "location": [
+          5.864999771118164,
+          1.8370000123977661,
+          0.9850000143051147
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.maquette",
+        "name": "gallery.work.06.maquette",
+        "location": [
+          5.21999979019165,
+          1.8459999561309814,
+          0.9199999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.table.main",
+        "name": "gallery.table.main",
+        "location": [
+          0.3499999940395355,
+          -0.550000011920929,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.01",
+        "name": "gallery.library.01",
+        "location": [
+          -1.7799999713897705,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.02",
+        "name": "gallery.library.02",
+        "location": [
+          -0.7200000286102295,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.03",
+        "name": "gallery.library.03",
+        "location": [
+          0.3499999940395355,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.04",
+        "name": "gallery.library.04",
+        "location": [
+          1.409999966621399,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.05",
+        "name": "gallery.library.05",
+        "location": [
+          2.4800000190734863,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.album.01",
+        "name": "gallery.album.01",
+        "location": [
+          -1.149999976158142,
+          -0.6800000071525574,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.album.02",
+        "name": "gallery.album.02",
+        "location": [
+          0.3499999940395355,
+          -0.6800000071525574,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.album.03",
+        "name": "gallery.album.03",
+        "location": [
+          1.850000023841858,
+          -0.6800000071525574,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.sculpture.ring",
+        "name": "gallery.sculpture.ring",
+        "location": [
+          -2.700000047683716,
+          -0.5299999713897705,
+          1.4500000476837158
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lamp.base",
+        "name": "gallery.lamp.base",
+        "location": [
+          2.8299999237060547,
+          -0.25999999046325684,
+          1.100000023841858
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lamp.head",
+        "name": "gallery.lamp.head",
+        "location": [
+          2.7300000190734863,
+          -0.25999999046325684,
+          1.6799999475479126
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.cup",
+        "name": "gallery.cup",
+        "location": [
+          -2.0999999046325684,
+          -0.7900000214576721,
+          1.100000023841858
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.table",
+        "name": "gallery.planter.table",
+        "location": [
+          3.430000066757202,
+          -0.4699999988079071,
+          1.100000023841858
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.tool.pencil",
+        "name": "gallery.tool.pencil",
+        "location": [
+          2.869999885559082,
+          -0.8999999761581421,
+          1.1169999837875366
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.tool.caliper",
+        "name": "gallery.tool.caliper",
+        "location": [
+          3.0799999237060547,
+          -0.6700000166893005,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.tool.measure_disc",
+        "name": "gallery.tool.measure_disc",
+        "location": [
+          -3.130000114440918,
+          -0.550000011920929,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.bench",
+        "name": "gallery.bench",
+        "location": [
+          0.30000001192092896,
+          -2.3499999046325684,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.cart",
+        "name": "gallery.archive.cart",
+        "location": [
+          6.099999904632568,
+          -1.2999999523162842,
+          0.2409999966621399
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.drawer.01",
+        "name": "gallery.archive.drawer.01",
+        "location": [
+          6.099999904632568,
+          -1.5750000476837158,
+          0.5009999871253967
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.drawer.02",
+        "name": "gallery.archive.drawer.02",
+        "location": [
+          6.099999904632568,
+          -1.5750000476837158,
+          0.8109999895095825
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.00",
+        "name": "gallery.archive.wheel.00",
+        "location": [
+          5.800000190734863,
+          -1.5399999618530273,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.01",
+        "name": "gallery.archive.wheel.01",
+        "location": [
+          5.800000190734863,
+          -1.059999942779541,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.10",
+        "name": "gallery.archive.wheel.10",
+        "location": [
+          6.400000095367432,
+          -1.5399999618530273,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.11",
+        "name": "gallery.archive.wheel.11",
+        "location": [
+          6.400000095367432,
+          -1.059999942779541,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.01",
+        "name": "gallery.planter.floor.01",
+        "location": [
+          -6.0,
+          -2.799999952316284,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.02",
+        "name": "gallery.planter.floor.02",
+        "location": [
+          -5.800000190734863,
+          1.399999976158142,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.03",
+        "name": "gallery.planter.floor.03",
+        "location": [
+          6.599999904632568,
+          1.399999976158142,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.04",
+        "name": "gallery.planter.floor.04",
+        "location": [
+          6.5,
+          -3.200000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lantern.01",
+        "name": "gallery.lantern.01",
+        "location": [
+          -6.400000095367432,
+          -2.5,
+          0.14249999821186066
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lantern.02",
+        "name": "gallery.lantern.02",
+        "location": [
+          6.800000190734863,
+          -2.5999999046325684,
+          0.14249999821186066
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "works-gallery-bake-v4.blend": {
+    "scene": {
+      "lighting_state": "day",
+      "concept": "B 日光玻璃长廊",
+      "concept_sha256": "0087d6b949e0f571f2f073c337de23878542bdd14be289ebb381815c8b089acd",
+      "content_status": "Concept placeholders; personal project details pending",
+      "model_revision": 1,
+      "canopy_refined": true,
+      "city_and_profiles_refined": true,
+      "reused_city_source": "Original ENV_CITY.001 from orbital-atelier-v14.blend; copied geometry and materials, no source changes",
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "geometry_uv_sha256": "216dfe9b61f30aa54e0ab383029e2e82e5bedd7e1f890e5b8f82db619fd9ec9a",
+      "web_baked": false,
+      "dual_lighting_prepared": true,
+      "source_blend": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/works-gallery-v4.blend",
+      "bake_mode": "cycles_combined_dual_day_night_agx",
+      "preparation_manifest": "{\"source\": \"assets/blender/works-gallery-v4.blend\", \"prepared\": \"assets/blender/works-gallery-bake-v4.blend\", \"scene\": \"WEB_WORKS_GALLERY_V4\", \"preparation_id\": \"61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3\", \"geometry_uv_sha256\": \"216dfe9b61f30aa54e0ab383029e2e82e5bedd7e1f890e5b8f82db619fd9ec9a\", \"atlases\": [{\"atlas\": 0, \"label\": \"architecture\", \"resolution\": 4096, \"image\": \"GALLERY_BAKE_ATLAS_0\", \"uv_layer\": \"BakeUV\", \"margin\": 16, \"mesh_count\": 2, \"triangles\": 53670, \"owner_ids\": [\"gallery.architecture\", \"gallery.architecture.portal\"]}, {\"atlas\": 1, \"label\": \"exhibits\", \"resolution\": 4096, \"image\": \"GALLERY_BAKE_ATLAS_1\", \"uv_layer\": \"BakeUV\", \"margin\": 16, \"mesh_count\": 31, \"triangles\": 321862, \"owner_ids\": [\"gallery.work.01\", \"gallery.work.01.art\", \"gallery.work.01.console\", \"gallery.work.01.label\", \"gallery.work.01.maquette\", \"gallery.work.02\", \"gallery.work.02.geometry\", \"gallery.work.02.geometry.folded_form\", \"gallery.work.02.geometry.sphere\", \"gallery.work.02.label\", \"gallery.work.02.vitrine\", \"gallery.work.03\", \"gallery.work.03.art\", \"gallery.work.03.console\", \"gallery.work.03.label\", \"gallery.work.03.maquette\", \"gallery.work.04\", \"gallery.work.04.label\", \"gallery.work.04.sculpture\", \"gallery.work.04.sculpture.model.champagne_ribbon\", \"gallery.work.04.sculpture.model.silver_ribbon\", \"gallery.work.05\", \"gallery.work.05.geometry\", \"gallery.work.05.geometry.faceted_core\", \"gallery.work.05.label\", \"gallery.work.05.vitrine\", \"gallery.work.06\", \"gallery.work.06.art\", \"gallery.work.06.console\", \"gallery.work.06.label\", \"gallery.work.06.maquette\"]}, {\"atlas\": 2, \"label\": \"furnishings\", \"resolution\": 4096, \"image\": \"GALLERY_BAKE_ATLAS_2\", \"uv_layer\": \"BakeUV\", \"margin\": 16, \"mesh_count\": 31, \"triangles\": 147248, \"owner_ids\": [\"gallery.album.01\", \"gallery.album.02\", \"gallery.album.03\", \"gallery.archive.cart\", \"gallery.archive.drawer.01\", \"gallery.archive.drawer.02\", \"gallery.archive.wheel.00\", \"gallery.archive.wheel.01\", \"gallery.archive.wheel.10\", \"gallery.archive.wheel.11\", \"gallery.bench\", \"gallery.cup\", \"gallery.lamp.base\", \"gallery.lamp.head\", \"gallery.lantern.01\", \"gallery.lantern.02\", \"gallery.library.01\", \"gallery.library.02\", \"gallery.library.03\", \"gallery.library.04\", \"gallery.library.05\", \"gallery.planter.floor.01\", \"gallery.planter.floor.02\", \"gallery.planter.floor.03\", \"gallery.planter.floor.04\", \"gallery.planter.table\", \"gallery.sculpture.ring\", \"gallery.table.main\", \"gallery.tool.caliper\", \"gallery.tool.measure_disc\", \"gallery.tool.pencil\"]}, {\"atlas\": 3, \"label\": \"thin_terrace\", \"resolution\": 1024, \"image\": \"GALLERY_BAKE_ATLAS_3\", \"uv_layer\": \"BakeUV\", \"margin\": 16, \"mesh_count\": 1, \"triangles\": 7996, \"owner_ids\": [\"gallery.environment.terrace\"]}], \"mesh_count\": 80, \"triangles\": 542976, \"triangles_before\": 542976, \"decimated\": false, \"asset_count\": 77, \"asset_ids\": [\"gallery.album.01\", \"gallery.album.02\", \"gallery.album.03\", \"gallery.architecture\", \"gallery.architecture.glazing\", \"gallery.architecture.portal\", \"gallery.archive.cart\", \"gallery.archive.drawer.01\", \"gallery.archive.drawer.02\", \"gallery.archive.wheel.00\", \"gallery.archive.wheel.01\", \"gallery.archive.wheel.10\", \"gallery.archive.wheel.11\", \"gallery.bench\", \"gallery.cup\", \"gallery.environment.terrace\", \"gallery.lamp.base\", \"gallery.lamp.head\", \"gallery.lantern.01\", \"gallery.lantern.02\", \"gallery.library.01\", \"gallery.library.02\", \"gallery.library.03\", \"gallery.library.04\", \"gallery.library.05\", \"gallery.planter.floor.01\", \"gallery.planter.floor.02\", \"gallery.planter.floor.03\", \"gallery.planter.floor.04\", \"gallery.planter.table\", \"gallery.sculpture.ring\", \"gallery.table.main\", \"gallery.tool.caliper\", \"gallery.tool.measure_disc\", \"gallery.tool.pencil\", \"gallery.work.01\", \"gallery.work.01.art\", \"gallery.work.01.console\", \"gallery.work.01.label\", \"gallery.work.01.maquette\", \"gallery.work.02\", \"gallery.work.02.geometry\", \"gallery.work.02.geometry.folded_form\", \"gallery.work.02.geometry.sphere\", \"gallery.work.02.label\", \"gallery.work.02.vitrine\", \"gallery.work.02.vitrine.glass.face.-1\", \"gallery.work.02.vitrine.glass.face.1\", \"gallery.work.02.vitrine.glass.roof\", \"gallery.work.02.vitrine.glass.side.-1\", \"gallery.work.02.vitrine.glass.side.1\", \"gallery.work.03\", \"gallery.work.03.art\", \"gallery.work.03.console\", \"gallery.work.03.label\", \"gallery.work.03.maquette\", \"gallery.work.04\", \"gallery.work.04.label\", \"gallery.work.04.sculpture\", \"gallery.work.04.sculpture.model\", \"gallery.work.04.sculpture.model.champagne_ribbon\", \"gallery.work.04.sculpture.model.silver_ribbon\", \"gallery.work.05\", \"gallery.work.05.geometry\", \"gallery.work.05.geometry.faceted_core\", \"gallery.work.05.label\", \"gallery.work.05.vitrine\", \"gallery.work.05.vitrine.glass.face.-1\", \"gallery.work.05.vitrine.glass.face.1\", \"gallery.work.05.vitrine.glass.roof\", \"gallery.work.05.vitrine.glass.side.-1\", \"gallery.work.05.vitrine.glass.side.1\", \"gallery.work.06\", \"gallery.work.06.art\", \"gallery.work.06.console\", \"gallery.work.06.label\", \"gallery.work.06.maquette\"], \"asset_hierarchy\": {\"gallery.architecture\": null, \"gallery.architecture.glazing\": null, \"gallery.environment.terrace\": null, \"gallery.architecture.portal\": null, \"gallery.work.01\": null, \"gallery.work.01.art\": \"gallery.work.01\", \"gallery.work.01.console\": \"gallery.work.01\", \"gallery.work.01.label\": \"gallery.work.01\", \"gallery.work.01.maquette\": \"gallery.work.01\", \"gallery.work.02\": null, \"gallery.work.02.vitrine\": \"gallery.work.02\", \"gallery.work.02.vitrine.glass.side.-1\": \"gallery.work.02.vitrine\", \"gallery.work.02.vitrine.glass.face.-1\": \"gallery.work.02.vitrine\", \"gallery.work.02.vitrine.glass.side.1\": \"gallery.work.02.vitrine\", \"gallery.work.02.vitrine.glass.face.1\": \"gallery.work.02.vitrine\", \"gallery.work.02.vitrine.glass.roof\": \"gallery.work.02.vitrine\", \"gallery.work.02.label\": \"gallery.work.02\", \"gallery.work.02.geometry\": \"gallery.work.02\", \"gallery.work.02.geometry.sphere\": \"gallery.work.02.geometry\", \"gallery.work.02.geometry.folded_form\": \"gallery.work.02.geometry\", \"gallery.work.03\": null, \"gallery.work.03.art\": \"gallery.work.03\", \"gallery.work.03.console\": \"gallery.work.03\", \"gallery.work.03.label\": \"gallery.work.03\", \"gallery.work.03.maquette\": \"gallery.work.03\", \"gallery.work.04\": null, \"gallery.work.04.sculpture\": \"gallery.work.04\", \"gallery.work.04.sculpture.model\": \"gallery.work.04.sculpture\", \"gallery.work.04.sculpture.model.silver_ribbon\": \"gallery.work.04.sculpture.model\", \"gallery.work.04.sculpture.model.champagne_ribbon\": \"gallery.work.04.sculpture.model\", \"gallery.work.04.label\": \"gallery.work.04\", \"gallery.work.05\": null, \"gallery.work.05.vitrine\": \"gallery.work.05\", \"gallery.work.05.vitrine.glass.side.-1\": \"gallery.work.05.vitrine\", \"gallery.work.05.vitrine.glass.face.-1\": \"gallery.work.05.vitrine\", \"gallery.work.05.vitrine.glass.side.1\": \"gallery.work.05.vitrine\", \"gallery.work.05.vitrine.glass.face.1\": \"gallery.work.05.vitrine\", \"gallery.work.05.vitrine.glass.roof\": \"gallery.work.05.vitrine\", \"gallery.work.05.label\": \"gallery.work.05\", \"gallery.work.05.geometry\": \"gallery.work.05\", \"gallery.work.05.geometry.faceted_core\": \"gallery.work.05.geometry\", \"gallery.work.06\": null, \"gallery.work.06.art\": \"gallery.work.06\", \"gallery.work.06.console\": \"gallery.work.06\", \"gallery.work.06.label\": \"gallery.work.06\", \"gallery.work.06.maquette\": \"gallery.work.06\", \"gallery.table.main\": null, \"gallery.library.01\": null, \"gallery.library.02\": null, \"gallery.library.03\": null, \"gallery.library.04\": null, \"gallery.library.05\": null, \"gallery.album.01\": null, \"gallery.album.02\": null, \"gallery.album.03\": null, \"gallery.sculpture.ring\": null, \"gallery.lamp.base\": null, \"gallery.lamp.head\": \"gallery.lamp.base\", \"gallery.cup\": null, \"gallery.planter.table\": null, \"gallery.tool.pencil\": null, \"gallery.tool.caliper\": null, \"gallery.tool.measure_disc\": null, \"gallery.bench\": null, \"gallery.archive.cart\": null, \"gallery.archive.drawer.01\": \"gallery.archive.cart\", \"gallery.archive.drawer.02\": \"gallery.archive.cart\", \"gallery.archive.wheel.00\": \"gallery.archive.cart\", \"gallery.archive.wheel.01\": \"gallery.archive.cart\", \"gallery.archive.wheel.10\": \"gallery.archive.cart\", \"gallery.archive.wheel.11\": \"gallery.archive.cart\", \"gallery.planter.floor.01\": null, \"gallery.planter.floor.02\": null, \"gallery.planter.floor.03\": null, \"gallery.planter.floor.04\": null, \"gallery.lantern.01\": null, \"gallery.lantern.02\": null}, \"context_objects\": [\"GALLERY_WEB_Passage amber\", \"GALLERY_WEB_Gallery overview camera\", \"GALLERY_WEB_Gallery directional sunlight\", \"GALLERY_WEB_Warm exhibit spotlight 0\", \"GALLERY_WEB_Warm exhibit spotlight 1\", \"GALLERY_WEB_Warm exhibit spotlight 2\", \"GALLERY_WEB_Warm exhibit spotlight 3\", \"GALLERY_WEB_Warm exhibit spotlight 4\", \"GALLERY_WEB_Warm exhibit spotlight 5\", \"GALLERY_WEB_Warm table wash\", \"GALLERY_WEB_Low lantern light\", \"GALLERY_WEB_Low lantern light.001\", \"GALLERY_WEB_Dusk skylight bounce\"], \"glass_meshes\": [\"GALLERY_WEB_gallery.environment.terrace__glass__A1\", \"GALLERY_WEB_gallery.work.02.vitrine.glass.side.-1__glass__A2\", \"GALLERY_WEB_gallery.work.02.vitrine.glass.face.-1__glass__A2\", \"GALLERY_WEB_gallery.work.02.vitrine.glass.side.1__glass__A2\", \"GALLERY_WEB_gallery.work.02.vitrine.glass.face.1__glass__A2\", \"GALLERY_WEB_gallery.work.02.vitrine.glass.roof__glass__A2\", \"GALLERY_WEB_gallery.work.05.vitrine.glass.side.-1__glass__A2\", \"GALLERY_WEB_gallery.work.05.vitrine.glass.face.-1__glass__A2\", \"GALLERY_WEB_gallery.work.05.vitrine.glass.side.1__glass__A2\", \"GALLERY_WEB_gallery.work.05.vitrine.glass.face.1__glass__A2\", \"GALLERY_WEB_gallery.work.05.vitrine.glass.roof__glass__A2\", \"GALLERY_WEB_gallery.archive.cart__glass__A3\", \"GALLERY_WEB_gallery.lantern.01__glass__A3\", \"GALLERY_WEB_gallery.lantern.02__glass__A3\", \"GALLERY_WEB_gallery.architecture.glazing__glass__A0\"], \"seconds\": 24.73, \"removed_ids\": [\"gallery.environment.city\", \"gallery.environment.plant.00\", \"gallery.environment.plant.01\", \"gallery.environment.plant.02\", \"gallery.environment.plant.03\", \"gallery.environment.plant.04\", \"gallery.environment.plant.05\", \"gallery.environment.plant.06\", \"gallery.environment.plant.07\"], \"rebaked_atlases\": [0, 1, 2, 3], \"retained_interiors_geometry_uv_sha256\": \"802e2dbd447a2d2c044d72003b36a9a4ba4c6a82c9276ec8ce537f76a9e8c84a\", \"retained_interiors_owner_ids\": [\"gallery.album.01\", \"gallery.album.02\", \"gallery.album.03\", \"gallery.archive.cart\", \"gallery.archive.drawer.01\", \"gallery.archive.drawer.02\", \"gallery.archive.wheel.00\", \"gallery.archive.wheel.01\", \"gallery.archive.wheel.10\", \"gallery.archive.wheel.11\", \"gallery.bench\", \"gallery.cup\", \"gallery.environment.terrace\", \"gallery.lamp.base\", \"gallery.lamp.head\", \"gallery.lantern.01\", \"gallery.lantern.02\", \"gallery.library.01\", \"gallery.library.02\", \"gallery.library.03\", \"gallery.library.04\", \"gallery.library.05\", \"gallery.planter.floor.01\", \"gallery.planter.floor.02\", \"gallery.planter.floor.03\", \"gallery.planter.floor.04\", \"gallery.planter.table\", \"gallery.sculpture.ring\", \"gallery.table.main\", \"gallery.tool.caliper\", \"gallery.tool.measure_disc\", \"gallery.tool.pencil\", \"gallery.work.01\", \"gallery.work.01.art\", \"gallery.work.01.console\", \"gallery.work.01.label\", \"gallery.work.01.maquette\", \"gallery.work.02\", \"gallery.work.02.geometry\", \"gallery.work.02.geometry.folded_form\", \"gallery.work.02.geometry.sphere\", \"gallery.work.02.label\", \"gallery.work.02.vitrine\", \"gallery.work.02.vitrine.glass.face.-1\", \"gallery.work.02.vitrine.glass.face.1\", \"gallery.work.02.vitrine.glass.roof\", \"gallery.work.02.vitrine.glass.side.-1\", \"gallery.work.02.vitrine.glass.side.1\", \"gallery.work.03\", \"gallery.work.03.art\", \"gallery.work.03.console\", \"gallery.work.03.label\", \"gallery.work.03.maquette\", \"gallery.work.04\", \"gallery.work.04.label\", \"gallery.work.04.sculpture\", \"gallery.work.04.sculpture.model.champagne_ribbon\", \"gallery.work.04.sculpture.model.silver_ribbon\", \"gallery.work.05\", \"gallery.work.05.geometry\", \"gallery.work.05.geometry.faceted_core\", \"gallery.work.05.label\", \"gallery.work.05.vitrine\", \"gallery.work.05.vitrine.glass.face.-1\", \"gallery.work.05.vitrine.glass.face.1\", \"gallery.work.05.vitrine.glass.roof\", \"gallery.work.05.vitrine.glass.side.-1\", \"gallery.work.05.vitrine.glass.side.1\", \"gallery.work.06\", \"gallery.work.06.art\", \"gallery.work.06.console\", \"gallery.work.06.label\", \"gallery.work.06.maquette\"], \"architecture_glass_meshes\": [\"GALLERY_WEB_gallery.environment.terrace__glass__A1\", \"GALLERY_WEB_gallery.architecture.glazing__glass__A0\"], \"original_v3_source_sha256\": \"c423ec1d7348830cf2d6783e15df50ed0025e6379c65eefa4a8b94033849f54e\"}",
+      "revision": "v4_closed_architecture_solid_glazing"
+    },
+    "materials": [
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_bronze.001",
+        "properties": {
+          "source_material": "GALLERY_bronze",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_ink.001",
+        "properties": {
+          "source_material": "GALLERY_ink",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_ivory.001",
+        "properties": {
+          "source_material": "GALLERY_ivory",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture.portal__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_navy.001",
+        "properties": {
+          "source_material": "GALLERY_navy",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture__baked__A0",
+          "GALLERY_WEB_gallery.architecture.portal__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_silver.001",
+        "properties": {
+          "source_material": "GALLERY_silver",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture__baked__A0",
+          "GALLERY_WEB_gallery.architecture.portal__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_terrazzo.001",
+        "properties": {
+          "source_material": "GALLERY_terrazzo",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "Color Ramp",
+            "VALTORGB"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_v4_glass_edge_trim",
+        "properties": {
+          "source_material": "GALLERY_v4_glass_edge_trim",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_baked_GALLERY_warm.001",
+        "properties": {
+          "source_material": "GALLERY_warm",
+          "bake_atlas": 0
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture.portal__baked__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A0_glass_GALLERY_ARCH_GLASS_PBR",
+        "properties": {
+          "architecture_glass": true,
+          "source_material": "GALLERY_ARCH_GLASS_PBR"
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Volume Absorption",
+            "VOLUME_ABSORPTION"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.architecture.glazing__glass__A0"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A1_baked_GALLERY_navy",
+        "properties": {
+          "source_material": "GALLERY_navy",
+          "bake_atlas": 3
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.environment.terrace__baked__A1"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A1_baked_GALLERY_silver",
+        "properties": {
+          "source_material": "GALLERY_silver",
+          "bake_atlas": 3
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.environment.terrace__baked__A1"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_black",
+        "properties": {
+          "source_material": "GALLERY_black",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.02.vitrine__baked__A2",
+          "GALLERY_WEB_gallery.work.04.sculpture__baked__A2",
+          "GALLERY_WEB_gallery.work.05.vitrine__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_bronze",
+        "properties": {
+          "source_material": "GALLERY_bronze",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.01__baked__A2",
+          "GALLERY_WEB_gallery.work.01.art__baked__A2",
+          "GALLERY_WEB_gallery.work.01.label__baked__A2",
+          "GALLERY_WEB_gallery.work.01.maquette__baked__A2",
+          "GALLERY_WEB_gallery.work.02__baked__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine__baked__A2",
+          "GALLERY_WEB_gallery.work.02.label__baked__A2",
+          "GALLERY_WEB_gallery.work.02.geometry__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_ink",
+        "properties": {
+          "source_material": "GALLERY_ink",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.01.art__baked__A2",
+          "GALLERY_WEB_gallery.work.01.label__baked__A2",
+          "GALLERY_WEB_gallery.work.02.label__baked__A2",
+          "GALLERY_WEB_gallery.work.03.art__baked__A2",
+          "GALLERY_WEB_gallery.work.03.label__baked__A2",
+          "GALLERY_WEB_gallery.work.04.label__baked__A2",
+          "GALLERY_WEB_gallery.work.05.label__baked__A2",
+          "GALLERY_WEB_gallery.work.06.art__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_ivory",
+        "properties": {
+          "source_material": "GALLERY_ivory",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.01__baked__A2",
+          "GALLERY_WEB_gallery.work.01.art__baked__A2",
+          "GALLERY_WEB_gallery.work.02__baked__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine__baked__A2",
+          "GALLERY_WEB_gallery.work.02.geometry.folded_form__baked__A2",
+          "GALLERY_WEB_gallery.work.03__baked__A2",
+          "GALLERY_WEB_gallery.work.03.art__baked__A2",
+          "GALLERY_WEB_gallery.work.04__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_navy",
+        "properties": {
+          "source_material": "GALLERY_navy",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.01__baked__A2",
+          "GALLERY_WEB_gallery.work.01.art__baked__A2",
+          "GALLERY_WEB_gallery.work.01.console__baked__A2",
+          "GALLERY_WEB_gallery.work.01.maquette__baked__A2",
+          "GALLERY_WEB_gallery.work.02__baked__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine__baked__A2",
+          "GALLERY_WEB_gallery.work.02.geometry__baked__A2",
+          "GALLERY_WEB_gallery.work.03__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_paper",
+        "properties": {
+          "source_material": "GALLERY_paper",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.01.art__baked__A2",
+          "GALLERY_WEB_gallery.work.01.label__baked__A2",
+          "GALLERY_WEB_gallery.work.02.label__baked__A2",
+          "GALLERY_WEB_gallery.work.03.art__baked__A2",
+          "GALLERY_WEB_gallery.work.03.label__baked__A2",
+          "GALLERY_WEB_gallery.work.04.label__baked__A2",
+          "GALLERY_WEB_gallery.work.05.label__baked__A2",
+          "GALLERY_WEB_gallery.work.06.art__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_silver",
+        "properties": {
+          "source_material": "GALLERY_silver",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.01__baked__A2",
+          "GALLERY_WEB_gallery.work.01.art__baked__A2",
+          "GALLERY_WEB_gallery.work.01.console__baked__A2",
+          "GALLERY_WEB_gallery.work.01.maquette__baked__A2",
+          "GALLERY_WEB_gallery.work.02__baked__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine__baked__A2",
+          "GALLERY_WEB_gallery.work.02.geometry__baked__A2",
+          "GALLERY_WEB_gallery.work.02.geometry.sphere__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_baked_GALLERY_warm",
+        "properties": {
+          "source_material": "GALLERY_warm",
+          "bake_atlas": 1
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.01__baked__A2",
+          "GALLERY_WEB_gallery.work.01.console__baked__A2",
+          "GALLERY_WEB_gallery.work.02__baked__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine__baked__A2",
+          "GALLERY_WEB_gallery.work.03__baked__A2",
+          "GALLERY_WEB_gallery.work.03.console__baked__A2",
+          "GALLERY_WEB_gallery.work.04__baked__A2",
+          "GALLERY_WEB_gallery.work.05__baked__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A2_glass_GALLERY_glass",
+        "properties": {
+          "source_material": "GALLERY_glass"
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Transparent BSDF",
+            "BSDF_TRANSPARENT"
+          ],
+          [
+            "Mix Shader",
+            "MIX_SHADER"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.work.02.vitrine.glass.side.-1__glass__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine.glass.face.-1__glass__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine.glass.side.1__glass__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine.glass.face.1__glass__A2",
+          "GALLERY_WEB_gallery.work.02.vitrine.glass.roof__glass__A2",
+          "GALLERY_WEB_gallery.work.05.vitrine.glass.side.-1__glass__A2",
+          "GALLERY_WEB_gallery.work.05.vitrine.glass.face.-1__glass__A2",
+          "GALLERY_WEB_gallery.work.05.vitrine.glass.side.1__glass__A2"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_black",
+        "properties": {
+          "source_material": "GALLERY_black",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.table.main__baked__A3",
+          "GALLERY_WEB_gallery.bench__baked__A3",
+          "GALLERY_WEB_gallery.archive.wheel.00__baked__A3",
+          "GALLERY_WEB_gallery.archive.wheel.01__baked__A3",
+          "GALLERY_WEB_gallery.archive.wheel.10__baked__A3",
+          "GALLERY_WEB_gallery.archive.wheel.11__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_bronze",
+        "properties": {
+          "source_material": "GALLERY_bronze",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.table.main__baked__A3",
+          "GALLERY_WEB_gallery.library.01__baked__A3",
+          "GALLERY_WEB_gallery.library.02__baked__A3",
+          "GALLERY_WEB_gallery.library.03__baked__A3",
+          "GALLERY_WEB_gallery.library.04__baked__A3",
+          "GALLERY_WEB_gallery.library.05__baked__A3",
+          "GALLERY_WEB_gallery.album.01__baked__A3",
+          "GALLERY_WEB_gallery.album.02__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_ink",
+        "properties": {
+          "source_material": "GALLERY_ink",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.album.01__baked__A3",
+          "GALLERY_WEB_gallery.album.02__baked__A3",
+          "GALLERY_WEB_gallery.album.03__baked__A3",
+          "GALLERY_WEB_gallery.tool.pencil__baked__A3",
+          "GALLERY_WEB_gallery.tool.measure_disc__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_ivory",
+        "properties": {
+          "source_material": "GALLERY_ivory",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.library.02__baked__A3",
+          "GALLERY_WEB_gallery.library.04__baked__A3",
+          "GALLERY_WEB_gallery.album.01__baked__A3",
+          "GALLERY_WEB_gallery.album.02__baked__A3",
+          "GALLERY_WEB_gallery.album.03__baked__A3",
+          "GALLERY_WEB_gallery.cup__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_leaf",
+        "properties": {
+          "source_material": "GALLERY_leaf",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.planter.table__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.01__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.02__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.03__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.04__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_leather",
+        "properties": {
+          "source_material": "GALLERY_leather",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.bench__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_navy",
+        "properties": {
+          "source_material": "GALLERY_navy",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.table.main__baked__A3",
+          "GALLERY_WEB_gallery.library.01__baked__A3",
+          "GALLERY_WEB_gallery.library.02__baked__A3",
+          "GALLERY_WEB_gallery.library.03__baked__A3",
+          "GALLERY_WEB_gallery.library.04__baked__A3",
+          "GALLERY_WEB_gallery.library.05__baked__A3",
+          "GALLERY_WEB_gallery.album.01__baked__A3",
+          "GALLERY_WEB_gallery.album.02__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_paper",
+        "properties": {
+          "source_material": "GALLERY_paper",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.library.01__baked__A3",
+          "GALLERY_WEB_gallery.library.02__baked__A3",
+          "GALLERY_WEB_gallery.library.03__baked__A3",
+          "GALLERY_WEB_gallery.library.04__baked__A3",
+          "GALLERY_WEB_gallery.library.05__baked__A3",
+          "GALLERY_WEB_gallery.album.01__baked__A3",
+          "GALLERY_WEB_gallery.album.02__baked__A3",
+          "GALLERY_WEB_gallery.album.03__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_silver",
+        "properties": {
+          "source_material": "GALLERY_silver",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.table.main__baked__A3",
+          "GALLERY_WEB_gallery.library.01__baked__A3",
+          "GALLERY_WEB_gallery.library.02__baked__A3",
+          "GALLERY_WEB_gallery.library.03__baked__A3",
+          "GALLERY_WEB_gallery.library.04__baked__A3",
+          "GALLERY_WEB_gallery.library.05__baked__A3",
+          "GALLERY_WEB_gallery.album.01__baked__A3",
+          "GALLERY_WEB_gallery.album.02__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_soil",
+        "properties": {
+          "source_material": "GALLERY_soil",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.cup__baked__A3",
+          "GALLERY_WEB_gallery.planter.table__baked__A3",
+          "GALLERY_WEB_gallery.bench__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.01__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.02__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.03__baked__A3",
+          "GALLERY_WEB_gallery.planter.floor.04__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_terrazzo",
+        "properties": {
+          "source_material": "GALLERY_terrazzo",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Noise Texture",
+            "TEX_NOISE"
+          ],
+          [
+            "Texture Coordinate",
+            "TEX_COORD"
+          ],
+          [
+            "Bump",
+            "BUMP"
+          ],
+          [
+            "Color Ramp",
+            "VALTORGB"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.table.main__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_baked_GALLERY_warm",
+        "properties": {
+          "source_material": "GALLERY_warm",
+          "bake_atlas": 2
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ],
+          [
+            "GALLERY_BAKE_TARGET",
+            "TEX_IMAGE"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.table.main__baked__A3",
+          "GALLERY_WEB_gallery.lamp.head__baked__A3",
+          "GALLERY_WEB_gallery.lantern.01__baked__A3",
+          "GALLERY_WEB_gallery.lantern.02__baked__A3"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_glass_GALLERY_ARCH_GLASS_PBR",
+        "properties": {
+          "architecture_glass": true,
+          "source_material": "GALLERY_ARCH_GLASS_PBR"
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Volume Absorption",
+            "VOLUME_ABSORPTION"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.environment.terrace__glass__A1"
+        ]
+      },
+      {
+        "name": "GALLERY_PREP_A3_glass_GALLERY_glass",
+        "properties": {
+          "source_material": "GALLERY_glass"
+        },
+        "nodes": [
+          [
+            "Principled BSDF",
+            "BSDF_PRINCIPLED"
+          ],
+          [
+            "Material Output",
+            "OUTPUT_MATERIAL"
+          ],
+          [
+            "Transparent BSDF",
+            "BSDF_TRANSPARENT"
+          ],
+          [
+            "Mix Shader",
+            "MIX_SHADER"
+          ],
+          [
+            "GALLERY_ORIGINAL_UV",
+            "UVMAP"
+          ]
+        ],
+        "users": [
+          "GALLERY_WEB_gallery.archive.cart__glass__A3",
+          "GALLERY_WEB_gallery.lantern.01__glass__A3",
+          "GALLERY_WEB_gallery.lantern.02__glass__A3"
+        ]
+      }
+    ],
+    "assets": [
+      {
+        "id": "gallery.architecture",
+        "name": "GALLERY_WEB_gallery.architecture",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.architecture.glazing",
+        "name": "GALLERY_WEB_gallery.architecture.glazing",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.environment.terrace",
+        "name": "GALLERY_WEB_gallery.environment.terrace",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.architecture.portal",
+        "name": "GALLERY_WEB_gallery.architecture.portal",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01",
+        "name": "GALLERY_WEB_gallery.work.01",
+        "location": [
+          -4.800000190734863,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.art",
+        "name": "GALLERY_WEB_gallery.work.01.art",
+        "location": [
+          -4.800000190734863,
+          2.180000066757202,
+          2.119999885559082
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.console",
+        "name": "GALLERY_WEB_gallery.work.01.console",
+        "location": [
+          -4.800000190734863,
+          1.9049999713897705,
+          0.8349999189376831
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.label",
+        "name": "GALLERY_WEB_gallery.work.01.label",
+        "location": [
+          -4.635000228881836,
+          1.8370000123977661,
+          0.9850000143051147
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.01.maquette",
+        "name": "GALLERY_WEB_gallery.work.01.maquette",
+        "location": [
+          -5.28000020980835,
+          1.8459999561309814,
+          0.9199999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02",
+        "name": "GALLERY_WEB_gallery.work.02",
+        "location": [
+          -2.700000047683716,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine",
+        "name": "GALLERY_WEB_gallery.work.02.vitrine",
+        "location": [
+          -2.700000047683716,
+          1.690000057220459,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.side.-1",
+        "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.side.-1__glass__A2",
+        "location": [
+          -3.2679998874664307,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.face.-1",
+        "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.face.-1__glass__A2",
+        "location": [
+          -2.700000047683716,
+          1.2710000276565552,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.side.1",
+        "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.side.1__glass__A2",
+        "location": [
+          -2.131999969482422,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.face.1",
+        "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.face.1__glass__A2",
+        "location": [
+          -2.700000047683716,
+          2.1089999675750732,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.02.vitrine.glass.roof",
+        "name": "GALLERY_WEB_gallery.work.02.vitrine.glass.roof__glass__A2",
+        "location": [
+          -2.700000047683716,
+          1.690000057220459,
+          2.5999999046325684
+        ],
+        "dimensions": [
+          1.1039999723434448,
+          0.8059999942779541,
+          0.012000000104308128
+        ]
+      },
+      {
+        "id": "gallery.work.02.label",
+        "name": "GALLERY_WEB_gallery.work.02.label",
+        "location": [
+          -2.700000047683716,
+          1.090000033378601,
+          1.0360000133514404
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.geometry",
+        "name": "GALLERY_WEB_gallery.work.02.geometry",
+        "location": [
+          -2.700000047683716,
+          1.690000057220459,
+          1.0449999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.02.geometry.sphere",
+        "name": "GALLERY_WEB_gallery.work.02.geometry.sphere__baked__A2",
+        "location": [
+          -2.930000066757202,
+          1.690000057220459,
+          1.690000057220459
+        ],
+        "dimensions": [
+          0.3579998016357422,
+          0.35799989104270935,
+          0.3580000102519989
+        ]
+      },
+      {
+        "id": "gallery.work.02.geometry.folded_form",
+        "name": "GALLERY_WEB_gallery.work.02.geometry.folded_form__baked__A2",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.4099998474121094,
+          0.42200005054473877,
+          0.5979999303817749
+        ]
+      },
+      {
+        "id": "gallery.work.03",
+        "name": "GALLERY_WEB_gallery.work.03",
+        "location": [
+          -0.6000000238418579,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.art",
+        "name": "GALLERY_WEB_gallery.work.03.art",
+        "location": [
+          -0.6000000238418579,
+          2.180000066757202,
+          2.119999885559082
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.console",
+        "name": "GALLERY_WEB_gallery.work.03.console",
+        "location": [
+          -0.6000000238418579,
+          1.9049999713897705,
+          0.8349999189376831
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.label",
+        "name": "GALLERY_WEB_gallery.work.03.label",
+        "location": [
+          -0.4350000023841858,
+          1.8370000123977661,
+          0.9850000143051147
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.03.maquette",
+        "name": "GALLERY_WEB_gallery.work.03.maquette",
+        "location": [
+          -1.0800000429153442,
+          1.8459999561309814,
+          0.9199999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04",
+        "name": "GALLERY_WEB_gallery.work.04",
+        "location": [
+          1.5,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture",
+        "name": "GALLERY_WEB_gallery.work.04.sculpture",
+        "location": [
+          1.5,
+          1.690000057220459,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture.model",
+        "name": "GALLERY_WEB_gallery.work.04.sculpture.model",
+        "location": [
+          1.5,
+          1.690000057220459,
+          1.3220000267028809
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture.model.silver_ribbon",
+        "name": "GALLERY_WEB_gallery.work.04.sculpture.model.silver_ribbon__baked__A2",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.6334660053253174,
+          0.4438939094543457,
+          1.565000057220459
+        ]
+      },
+      {
+        "id": "gallery.work.04.sculpture.model.champagne_ribbon",
+        "name": "GALLERY_WEB_gallery.work.04.sculpture.model.champagne_ribbon__baked__A2",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.6334660053253174,
+          0.4438939094543457,
+          1.565000057220459
+        ]
+      },
+      {
+        "id": "gallery.work.04.label",
+        "name": "GALLERY_WEB_gallery.work.04.label",
+        "location": [
+          1.5,
+          0.9249999523162842,
+          0.9769999980926514
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05",
+        "name": "GALLERY_WEB_gallery.work.05",
+        "location": [
+          3.5999999046325684,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine",
+        "name": "GALLERY_WEB_gallery.work.05.vitrine",
+        "location": [
+          3.5999999046325684,
+          1.690000057220459,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.side.-1",
+        "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.side.-1__glass__A2",
+        "location": [
+          3.0320000648498535,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.face.-1",
+        "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.face.-1__glass__A2",
+        "location": [
+          3.5999999046325684,
+          1.2710000276565552,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.side.1",
+        "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.side.1__glass__A2",
+        "location": [
+          4.168000221252441,
+          1.690000057220459,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          0.012000000104308128,
+          0.8130000233650208,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.face.1",
+        "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.face.1__glass__A2",
+        "location": [
+          3.5999999046325684,
+          2.1089999675750732,
+          1.8309999704360962
+        ],
+        "dimensions": [
+          1.1109999418258667,
+          0.012000000104308128,
+          1.5180000066757202
+        ]
+      },
+      {
+        "id": "gallery.work.05.vitrine.glass.roof",
+        "name": "GALLERY_WEB_gallery.work.05.vitrine.glass.roof__glass__A2",
+        "location": [
+          3.5999999046325684,
+          1.690000057220459,
+          2.5999999046325684
+        ],
+        "dimensions": [
+          1.1039999723434448,
+          0.8059999942779541,
+          0.012000000104308128
+        ]
+      },
+      {
+        "id": "gallery.work.05.label",
+        "name": "GALLERY_WEB_gallery.work.05.label",
+        "location": [
+          3.5999999046325684,
+          1.090000033378601,
+          1.0360000133514404
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.geometry",
+        "name": "GALLERY_WEB_gallery.work.05.geometry",
+        "location": [
+          3.5999999046325684,
+          1.690000057220459,
+          1.034000039100647
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.05.geometry.faceted_core",
+        "name": "GALLERY_WEB_gallery.work.05.geometry.faceted_core__baked__A2",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.6600000858306885,
+          0.5219999551773071,
+          0.8519999980926514
+        ]
+      },
+      {
+        "id": "gallery.work.06",
+        "name": "GALLERY_WEB_gallery.work.06",
+        "location": [
+          5.699999809265137,
+          2.450000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.art",
+        "name": "GALLERY_WEB_gallery.work.06.art",
+        "location": [
+          5.699999809265137,
+          2.180000066757202,
+          2.119999885559082
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.console",
+        "name": "GALLERY_WEB_gallery.work.06.console",
+        "location": [
+          5.699999809265137,
+          1.9049999713897705,
+          0.8349999189376831
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.label",
+        "name": "GALLERY_WEB_gallery.work.06.label",
+        "location": [
+          5.864999771118164,
+          1.8370000123977661,
+          0.9850000143051147
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.work.06.maquette",
+        "name": "GALLERY_WEB_gallery.work.06.maquette",
+        "location": [
+          5.21999979019165,
+          1.8459999561309814,
+          0.9199999570846558
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.table.main",
+        "name": "GALLERY_WEB_gallery.table.main",
+        "location": [
+          0.3499999940395355,
+          -0.550000011920929,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.01",
+        "name": "GALLERY_WEB_gallery.library.01",
+        "location": [
+          -1.7799999713897705,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.02",
+        "name": "GALLERY_WEB_gallery.library.02",
+        "location": [
+          -0.7200000286102295,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.03",
+        "name": "GALLERY_WEB_gallery.library.03",
+        "location": [
+          0.3499999940395355,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.04",
+        "name": "GALLERY_WEB_gallery.library.04",
+        "location": [
+          1.409999966621399,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.library.05",
+        "name": "GALLERY_WEB_gallery.library.05",
+        "location": [
+          2.4800000190734863,
+          -0.7599999904632568,
+          0.41499999165534973
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.album.01",
+        "name": "GALLERY_WEB_gallery.album.01",
+        "location": [
+          -1.149999976158142,
+          -0.6800000071525574,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.album.02",
+        "name": "GALLERY_WEB_gallery.album.02",
+        "location": [
+          0.3499999940395355,
+          -0.6800000071525574,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.album.03",
+        "name": "GALLERY_WEB_gallery.album.03",
+        "location": [
+          1.850000023841858,
+          -0.6800000071525574,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.sculpture.ring",
+        "name": "GALLERY_WEB_gallery.sculpture.ring",
+        "location": [
+          -2.700000047683716,
+          -0.5299999713897705,
+          1.4500000476837158
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lamp.base",
+        "name": "GALLERY_WEB_gallery.lamp.base",
+        "location": [
+          2.8299999237060547,
+          -0.25999999046325684,
+          1.100000023841858
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lamp.head",
+        "name": "GALLERY_WEB_gallery.lamp.head",
+        "location": [
+          2.7300000190734863,
+          -0.25999999046325684,
+          1.6799999475479126
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.cup",
+        "name": "GALLERY_WEB_gallery.cup",
+        "location": [
+          -2.0999999046325684,
+          -0.7900000214576721,
+          1.100000023841858
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.table",
+        "name": "GALLERY_WEB_gallery.planter.table",
+        "location": [
+          3.430000066757202,
+          -0.4699999988079071,
+          1.100000023841858
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.tool.pencil",
+        "name": "GALLERY_WEB_gallery.tool.pencil",
+        "location": [
+          2.869999885559082,
+          -0.8999999761581421,
+          1.1169999837875366
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.tool.caliper",
+        "name": "GALLERY_WEB_gallery.tool.caliper",
+        "location": [
+          3.0799999237060547,
+          -0.6700000166893005,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.tool.measure_disc",
+        "name": "GALLERY_WEB_gallery.tool.measure_disc",
+        "location": [
+          -3.130000114440918,
+          -0.550000011920929,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.bench",
+        "name": "GALLERY_WEB_gallery.bench",
+        "location": [
+          0.30000001192092896,
+          -2.3499999046325684,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.cart",
+        "name": "GALLERY_WEB_gallery.archive.cart",
+        "location": [
+          6.099999904632568,
+          -1.2999999523162842,
+          0.2409999966621399
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.drawer.01",
+        "name": "GALLERY_WEB_gallery.archive.drawer.01",
+        "location": [
+          6.099999904632568,
+          -1.5750000476837158,
+          0.5009999871253967
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.drawer.02",
+        "name": "GALLERY_WEB_gallery.archive.drawer.02",
+        "location": [
+          6.099999904632568,
+          -1.5750000476837158,
+          0.8109999895095825
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.00",
+        "name": "GALLERY_WEB_gallery.archive.wheel.00",
+        "location": [
+          5.800000190734863,
+          -1.5399999618530273,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.01",
+        "name": "GALLERY_WEB_gallery.archive.wheel.01",
+        "location": [
+          5.800000190734863,
+          -1.059999942779541,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.10",
+        "name": "GALLERY_WEB_gallery.archive.wheel.10",
+        "location": [
+          6.400000095367432,
+          -1.5399999618530273,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.archive.wheel.11",
+        "name": "GALLERY_WEB_gallery.archive.wheel.11",
+        "location": [
+          6.400000095367432,
+          -1.059999942779541,
+          0.22100000083446503
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.01",
+        "name": "GALLERY_WEB_gallery.planter.floor.01",
+        "location": [
+          -6.0,
+          -2.799999952316284,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.02",
+        "name": "GALLERY_WEB_gallery.planter.floor.02",
+        "location": [
+          -5.800000190734863,
+          1.399999976158142,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.03",
+        "name": "GALLERY_WEB_gallery.planter.floor.03",
+        "location": [
+          6.599999904632568,
+          1.399999976158142,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.planter.floor.04",
+        "name": "GALLERY_WEB_gallery.planter.floor.04",
+        "location": [
+          6.5,
+          -3.200000047683716,
+          0.15000000596046448
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lantern.01",
+        "name": "GALLERY_WEB_gallery.lantern.01",
+        "location": [
+          -6.400000095367432,
+          -2.5,
+          0.14249999821186066
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "gallery.lantern.02",
+        "name": "GALLERY_WEB_gallery.lantern.02",
+        "location": [
+          6.800000190734863,
+          -2.5999999046325684,
+          0.14249999821186066
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

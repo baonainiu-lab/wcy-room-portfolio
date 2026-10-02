@@ -1,0 +1,117 @@
+{
+  "source": "assets/blender/orbital-atelier-v2.blend",
+  "output": "public/models/orbital-atelier-v4.glb",
+  "source_scene": "ORBITAL_ATELIER_V2",
+  "logical_roots": [
+    {
+      "id": "architecture.platform",
+      "source_node": "A_Platform"
+    },
+    {
+      "id": "main_display",
+      "source_node": "T_MainDisplay"
+    },
+    {
+      "id": "compute_core",
+      "source_node": "T_ComputeCore"
+    },
+    {
+      "id": "furniture.desk",
+      "source_node": "F_Cantilever_Desk"
+    },
+    {
+      "id": "furniture.work_chair",
+      "source_node": "F_Sculptural_Work_Chair"
+    },
+    {
+      "id": "furniture.lounge",
+      "source_node": "F_Crescent_Orange_Lounge"
+    },
+    {
+      "id": "furniture.coffee_table",
+      "source_node": "F_Smoked_Glass_Coffee_Table"
+    },
+    {
+      "id": "furniture.rug",
+      "source_node": "F_Charcoal_Inlaid_Rug"
+    },
+    {
+      "id": "robot_companion",
+      "source_node": "P_ROBOT_Root"
+    },
+    {
+      "id": "folding_drawing_terminal",
+      "source_node": "P_TERMINAL_Root"
+    },
+    {
+      "id": "c_archive_dock",
+      "source_node": "P_ARCHIVE_Root"
+    },
+    {
+      "id": "kinetic_three_petal_flower",
+      "source_node": "P_FLOWER_Root"
+    },
+    {
+      "id": "headphones_on_stand",
+      "source_node": "P_HEADPHONES_Root"
+    },
+    {
+      "id": "ceramic_ring_speaker",
+      "source_node": "P_SPEAKER_Root"
+    },
+    {
+      "id": "split_keyboard",
+      "source_node": "P_KEYBOARD_Root"
+    },
+    {
+      "id": "compact_camera",
+      "source_node": "P_CAMERA_Root"
+    },
+    {
+      "id": "thermal_cup",
+      "source_node": "P_CUP_Root"
+    },
+    {
+      "id": "table_notebook_group",
+      "source_node": "P_TABLE_OBJECTS_Root"
+    },
+    {
+      "id": "glass_bonsai_terrarium",
+      "source_node": "P_TERRARIUM_Root"
+    },
+    {
+      "id": "trailing_wall_plant",
+      "source_node": "P_VINES_Root"
+    },
+    {
+      "id": "studio_reference_books",
+      "source_node": "D_BOOKS_Root"
+    },
+    {
+      "id": "geometric_specimen_cloche",
+      "source_node": "D_SPECIMEN_Root"
+    },
+    {
+      "id": "portable_fold_communicator",
+      "source_node": "D_COMMUNICATOR_Root"
+    },
+    {
+      "id": "ceramic_mobius_study",
+      "source_node": "D_SCULPTURE_Root"
+    },
+    {
+      "id": "glass_cutting_planter",
+      "source_node": "D_SMALL_PLANTER_Root"
+    },
+    {
+      "id": "black_ceramic_floor_planter",
+      "source_node": "D_FLOOR_VASE_Root"
+    }
+  ],
+  "component_groups": 74,
+  "mesh_groups": 72,
+  "vertices": 536515,
+  "material_count": 49,
+  "bytes": 27785156,
+  "method": "Evaluated Blender geometry; mesh joins limited to nearest asset/component parent; PBR parameters, original screen/city textures, derived micro normal maps; no third-party artwork."
+}

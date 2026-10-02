@@ -1,0 +1,154 @@
+{
+  "protected": {
+    "assets/blender/about-atelier-v3.blend": "d7a9ec353e8214201c586e823283259c64f63a99f8284913d8aff94c691a2b40",
+    "assets/blender/about-atelier-v3-web.blend": "400442ae14eb9316a27147751b4746dd0f947f4caff3c8d0cd2250db03a6b8cd",
+    "assets/blender/about-atelier-v3-architecture-v2.blend": "6b77e0c118cc248616bee6e80779ab13000a59eadfbea0714b344dc66f936e33",
+    "public/models/about-atelier-v3.glb": "8d713bfb253b275e87c6f8875309baf506a9d09ab8f74b717b2d23cdb7126ec0",
+    "public/models/about-atelier-v3-compressed.glb": "863d75f984e3c4973f8a7b0c0340e5e20a1c3fcbc511086c351a08a03eb778e1",
+    "public/models/about-atelier-v3-architecture.glb": "cab48868aa2f3b679264cfa274de06c62d014fdd8d01afd04e9f1dfb80f84a87",
+    "public/textures/about-atelier-v3/day-0.png": "86a2dcf84adfa4b5dd3f4e3c722f28392de1b8f73e9871165713b4c6441e43c2",
+    "public/textures/about-atelier-v3/day-1.png": "617520295978a241f32a54b6430ab14745e645475a4d948f09696c64f9b50d20",
+    "public/textures/about-atelier-v3/day-2.png": "65eab721c5a4b2acec6f791cb8fab69b3bda370a98d6a6844d98c6c1691a1378",
+    "public/textures/about-atelier-v3/day-3.png": "7bb69bea2f7e2842b63153b077d98ebaef7c18e5609c485b297f44c26b36cf1f",
+    "public/textures/about-atelier-v3/architecture/day.png": "352f561f5c3a9dc5b14598a6150db72b82e137194657097da53f67dea269f022"
+  },
+  "samples": 64,
+  "main": {
+    "path": "assets/blender/about-atelier-v3-night-bake.blend",
+    "sha256": "762cff96ff06d33eb9dc734ca6b4eb3004f5711843bbf7c0fda3c1c89cb544e6",
+    "before": {
+      "meshCount": 121,
+      "geometryUvTransformSha256": "f6db6829005c167a65a04464511671455f18b839bbefed37818837bbe9f716e4"
+    },
+    "after": {
+      "meshCount": 121,
+      "geometryUvTransformSha256": "f6db6829005c167a65a04464511671455f18b839bbefed37818837bbe9f716e4"
+    },
+    "lighting": {
+      "worldStrength": 0.028,
+      "moonSunStrength": 0.085,
+      "lights": [
+        {
+          "name": "day.sun",
+          "type": "SUN",
+          "energy": 0.08500000089406967,
+          "color": [
+            0.47999998927116394,
+            0.6499999761581421,
+            1.0
+          ]
+        },
+        {
+          "name": "warm.awards",
+          "type": "AREA",
+          "energy": 68.0,
+          "color": [
+            1.0,
+            0.6600000262260437,
+            0.3199999928474426
+          ]
+        },
+        {
+          "name": "warm.desk",
+          "type": "AREA",
+          "energy": 92.0,
+          "color": [
+            1.0,
+            0.7300000190734863,
+            0.41999998688697815
+          ]
+        }
+      ],
+      "emissives": [
+        {
+          "material": "ATELIER_PREP_A0_ATELIER_V3_WarmDiffuser",
+          "before": 2.799999952316284,
+          "after": 5.039999961853027
+        },
+        {
+          "material": "ATELIER_PREP_A2_ATELIER_V3_WarmDiffuser",
+          "before": 2.799999952316284,
+          "after": 5.039999961853027
+        },
+        {
+          "material": "ATELIER_PREP_A1_ATELIER_V3_WarmDiffuser",
+          "before": 2.799999952316284,
+          "after": 5.039999961853027
+        }
+      ],
+      "samples": 64
+    },
+    "preparation_id": "fa9caba96a184b4cb6d35fc02e413644fbf86703aad6edd13765897560ca8ede"
+  },
+  "architecture": {
+    "path": "assets/blender/about-atelier-v3-architecture-night-bake.blend",
+    "sha256": "10b1bbb87762893b9c2e1941f231b1512a8eeb2423078d6d1eefb06884d13703",
+    "before": {
+      "meshCount": 1,
+      "geometryUvTransformSha256": "be4a779c49f9036ac0fbf965c173fbe894383891ef1e81dd0b0b955c3ac53d1a"
+    },
+    "after": {
+      "meshCount": 1,
+      "geometryUvTransformSha256": "be4a779c49f9036ac0fbf965c173fbe894383891ef1e81dd0b0b955c3ac53d1a"
+    },
+    "uvValidation": {
+      "sourceGlb": "public/models/about-atelier-v3-architecture.glb",
+      "sourceGlbSha256": "cab48868aa2f3b679264cfa274de06c62d014fdd8d01afd04e9f1dfb80f84a87",
+      "triangles": 27000,
+      "loopCorners": 54000,
+      "maximumReconstructionUvDelta": 2.9802322387695312e-08,
+      "shippedUvsRecovered": true,
+      "geometryMatchesShippedGlb": true
+    },
+    "lighting": {
+      "worldStrength": 0.028,
+      "moonSunStrength": 0.085,
+      "lights": [
+        {
+          "name": "day.sun",
+          "type": "SUN",
+          "energy": 0.08500000089406967,
+          "color": [
+            0.47999998927116394,
+            0.6499999761581421,
+            1.0
+          ]
+        },
+        {
+          "name": "warm.awards",
+          "type": "AREA",
+          "energy": 68.0,
+          "color": [
+            1.0,
+            0.6600000262260437,
+            0.3199999928474426
+          ]
+        },
+        {
+          "name": "warm.desk",
+          "type": "AREA",
+          "energy": 92.0,
+          "color": [
+            1.0,
+            0.7300000190734863,
+            0.41999998688697815
+          ]
+        }
+      ],
+      "emissives": [
+        {
+          "material": "ATELIER_PREP_A9_ATELIER_ARCH_V2_WarmLinearDiffuser",
+          "before": 2.5,
+          "after": 4.5
+        },
+        {
+          "material": "ATELIER_V3_WarmDiffuser",
+          "before": 2.799999952316284,
+          "after": 5.039999961853027
+        }
+      ],
+      "samples": 64
+    }
+  },
+  "complete": true
+}

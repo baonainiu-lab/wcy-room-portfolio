@@ -1,0 +1,522 @@
+{
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v9.blend",
+  "output": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v10.blend",
+  "height_added_m": 0.35,
+  "outward_wall_thickness_added_m": 0.16,
+  "source_sha256_before": "4baa50f14c06ed7a696c960953675e9e27d2d667c701861fd27c693ed1ce7cd2",
+  "scenes": {
+    "ORBITAL_ATELIER_V2": {
+      "scene": "ORBITAL_ATELIER_V2",
+      "changes": {
+        "A_BackWall_Graphite": {
+          "before": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.5799999237060547,
+              4.78000020980835
+            ]
+          },
+          "after": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          },
+          "object": "V10__A_BackWall_Graphite"
+        },
+        "A_LeftWallInner": {
+          "before": {
+            "min": [
+              -5.149999618530273,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.4000000953674316,
+              4.2458672523498535
+            ]
+          },
+          "after": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          },
+          "object": "V10__A_LeftWallInner"
+        },
+        "A_SweepingTopBand": {
+          "before": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              3.994384288787842
+            ],
+            "max": [
+              4.915319442749023,
+              3.380000114440918,
+              4.862487316131592
+            ]
+          },
+          "after": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              4.34438419342041
+            ],
+            "max": [
+              4.915319442749023,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          },
+          "object": "V10__A_SweepingTopBand"
+        },
+        "A_LeftTopRail": {
+          "before": {
+            "min": [
+              -5.010735034942627,
+              -2.46258282661438,
+              3.400986909866333
+            ],
+            "max": [
+              -4.760281562805176,
+              3.2641940116882324,
+              4.36331844329834
+            ]
+          },
+          "after": {
+            "min": [
+              -5.349999904632568,
+              -2.46258282661438,
+              3.7509868144989014
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          },
+          "object": "V10__A_LeftTopRail"
+        },
+        "A_LeftFrontRail": {
+          "before": {
+            "min": [
+              -5.0,
+              -2.548675060272217,
+              0.21989810466766357
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091647624969482,
+              3.7448089122772217
+            ]
+          },
+          "after": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              4.094791889190674
+            ]
+          },
+          "object": "V10__A_LeftFrontRail"
+        }
+      },
+      "asset_count_before": 129,
+      "asset_count_after": 129,
+      "all_asset_ids_and_world_transforms_unchanged": true,
+      "all_unedited_object_transforms_unchanged": true,
+      "window_shelf_and_interior_trim_bounds_unchanged": true,
+      "left_inner_x": -4.93,
+      "back_inner_y": 3.31,
+      "left_wall_thickness": 0.38,
+      "back_wall_thickness": 0.43,
+      "new_footing": {
+        "name": "W10_Wall_L_Footing_ORBITAL_ATELIER_V2",
+        "parent_asset_id": "architecture.platform",
+        "bounds": {
+          "min": [
+            -5.369999885559082,
+            -2.569999933242798,
+            -0.10000000149011612
+          ],
+          "max": [
+            5.0,
+            3.799999952316284,
+            0.17499999701976776
+          ]
+        },
+        "new_interaction_ids": 0
+      },
+      "day_roof": null,
+      "atlas_collection_names_preserved": true
+    },
+    "ORIGINAL_DAY_V10": {
+      "scene": "ORIGINAL_DAY_V10",
+      "changes": {
+        "A_BackWall_Graphite": {
+          "before": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.5799999237060547,
+              4.78000020980835
+            ]
+          },
+          "after": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          },
+          "object": "DAY_V8__A_BackWall_Graphite"
+        },
+        "A_LeftWallInner": {
+          "before": {
+            "min": [
+              -5.149999618530273,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.4000000953674316,
+              4.2458672523498535
+            ]
+          },
+          "after": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          },
+          "object": "DAY_V8__A_LeftWallInner"
+        },
+        "A_SweepingTopBand": {
+          "before": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              3.994384288787842
+            ],
+            "max": [
+              4.915319442749023,
+              3.380000114440918,
+              4.862487316131592
+            ]
+          },
+          "after": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              4.34438419342041
+            ],
+            "max": [
+              4.915319442749023,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          },
+          "object": "DAY_V8__A_SweepingTopBand"
+        },
+        "A_LeftTopRail": {
+          "before": {
+            "min": [
+              -5.010735034942627,
+              -2.46258282661438,
+              3.400986909866333
+            ],
+            "max": [
+              -4.760281562805176,
+              3.2641940116882324,
+              4.36331844329834
+            ]
+          },
+          "after": {
+            "min": [
+              -5.349999904632568,
+              -2.46258282661438,
+              3.7509868144989014
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          },
+          "object": "DAY_V8__A_LeftTopRail"
+        },
+        "A_LeftFrontRail": {
+          "before": {
+            "min": [
+              -5.0,
+              -2.548675060272217,
+              0.21989810466766357
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091647624969482,
+              3.7448089122772217
+            ]
+          },
+          "after": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              4.094791889190674
+            ]
+          },
+          "object": "DAY_V8__A_LeftFrontRail"
+        }
+      },
+      "asset_count_before": 129,
+      "asset_count_after": 129,
+      "all_asset_ids_and_world_transforms_unchanged": true,
+      "all_unedited_object_transforms_unchanged": true,
+      "window_shelf_and_interior_trim_bounds_unchanged": true,
+      "left_inner_x": -4.93,
+      "back_inner_y": 3.31,
+      "left_wall_thickness": 0.38,
+      "back_wall_thickness": 0.43,
+      "new_footing": {
+        "name": "W10_Wall_L_Footing_ORIGINAL_DAY_V9",
+        "parent_asset_id": "architecture.platform",
+        "bounds": {
+          "min": [
+            -5.369999885559082,
+            -2.569999933242798,
+            -0.10000000149011612
+          ],
+          "max": [
+            5.0,
+            3.799999952316284,
+            0.17499999701976776
+          ]
+        },
+        "new_interaction_ids": 0
+      },
+      "day_roof": {
+        "name": "DAY_SUN_V9_Cutaway_Roof_Flag",
+        "center_z": 5.21
+      },
+      "atlas_collection_names_preserved": true
+    },
+    "ORIGINAL_NIGHT_V10": {
+      "scene": "ORIGINAL_NIGHT_V10",
+      "changes": {
+        "A_BackWall_Graphite": {
+          "before": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.5799999237060547,
+              4.78000020980835
+            ]
+          },
+          "after": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          },
+          "object": "NIGHT_V8__A_BackWall_Graphite"
+        },
+        "A_LeftWallInner": {
+          "before": {
+            "min": [
+              -5.149999618530273,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.4000000953674316,
+              4.2458672523498535
+            ]
+          },
+          "after": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          },
+          "object": "NIGHT_V8__A_LeftWallInner"
+        },
+        "A_SweepingTopBand": {
+          "before": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              3.994384288787842
+            ],
+            "max": [
+              4.915319442749023,
+              3.380000114440918,
+              4.862487316131592
+            ]
+          },
+          "after": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              4.34438419342041
+            ],
+            "max": [
+              4.915319442749023,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          },
+          "object": "NIGHT_V8__A_SweepingTopBand"
+        },
+        "A_LeftTopRail": {
+          "before": {
+            "min": [
+              -5.010735034942627,
+              -2.46258282661438,
+              3.400986909866333
+            ],
+            "max": [
+              -4.760281562805176,
+              3.2641940116882324,
+              4.36331844329834
+            ]
+          },
+          "after": {
+            "min": [
+              -5.349999904632568,
+              -2.46258282661438,
+              3.7509868144989014
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          },
+          "object": "NIGHT_V8__A_LeftTopRail"
+        },
+        "A_LeftFrontRail": {
+          "before": {
+            "min": [
+              -5.0,
+              -2.548675060272217,
+              0.21989810466766357
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091647624969482,
+              3.7448089122772217
+            ]
+          },
+          "after": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              4.094791889190674
+            ]
+          },
+          "object": "NIGHT_V8__A_LeftFrontRail"
+        }
+      },
+      "asset_count_before": 129,
+      "asset_count_after": 129,
+      "all_asset_ids_and_world_transforms_unchanged": true,
+      "all_unedited_object_transforms_unchanged": true,
+      "window_shelf_and_interior_trim_bounds_unchanged": true,
+      "left_inner_x": -4.93,
+      "back_inner_y": 3.31,
+      "left_wall_thickness": 0.38,
+      "back_wall_thickness": 0.43,
+      "new_footing": {
+        "name": "W10_Wall_L_Footing_ORIGINAL_NIGHT_V8",
+        "parent_asset_id": "architecture.platform",
+        "bounds": {
+          "min": [
+            -5.369999885559082,
+            -2.569999933242798,
+            -0.10000000149011612
+          ],
+          "max": [
+            5.0,
+            3.799999952316284,
+            0.17499999701976776
+          ]
+        },
+        "new_interaction_ids": 0
+      },
+      "day_roof": null,
+      "atlas_collection_names_preserved": true
+    }
+  },
+  "source_sha256_after": "4baa50f14c06ed7a696c960953675e9e27d2d667c701861fd27c693ed1ce7cd2",
+  "source_file_unchanged": true,
+  "bytes": 73847380,
+  "sha256": "efd7fb7408708148eff69ab9085047f10a655755445cefe0eb56c84532f9f0ca",
+  "active_scene": "ORIGINAL_DAY_V10",
+  "renders_executed": 0
+}

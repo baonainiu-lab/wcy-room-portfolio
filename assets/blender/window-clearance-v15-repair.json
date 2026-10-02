@@ -1,0 +1,196 @@
+{
+  "revision": 15,
+  "windowWidthReduction": 0.25,
+  "reason": "Actual window/display tower geometry intersections confirmed by world-space BVH.",
+  "preparedEdits": [
+    {
+      "object": "WEB8_room_static__image__A0",
+      "beforeMin": [
+        -2.7100000381469727,
+        3.119999885559082,
+        1.7450000047683716
+      ],
+      "beforeMax": [
+        3.2100000381469727,
+        3.125,
+        4.195000171661377
+      ],
+      "afterMin": [
+        -2.7100000381469727,
+        3.119999885559082,
+        1.7450000047683716
+      ],
+      "afterMax": [
+        2.9600000381469727,
+        3.125,
+        4.195000171661377
+      ],
+      "xScale": 0.9577702708145055
+    },
+    {
+      "object": "WEB8_room_static__baked__A8",
+      "beforeMin": [
+        -2.7376043796539307,
+        3.065000057220459,
+        1.7173956632614136
+      ],
+      "beforeMax": [
+        3.2376043796539307,
+        3.0809998512268066,
+        4.222604751586914
+      ],
+      "afterMin": [
+        -2.7376043796539307,
+        3.065000057220459,
+        1.7173956632614136
+      ],
+      "afterMax": [
+        2.9876043796539307,
+        3.0809998512268066,
+        4.222604751586914
+      ],
+      "xScale": 0.9581604576391471
+    },
+    {
+      "object": "WEB8_room_static__baked__A8",
+      "beforeMin": [
+        -2.9000000953674316,
+        3.0799999237060547,
+        1.559999942779541
+      ],
+      "beforeMax": [
+        3.4000000953674316,
+        3.3499999046325684,
+        4.380000114440918
+      ],
+      "afterMin": [
+        -2.9000000953674316,
+        3.0799999237060547,
+        1.559999942779541
+      ],
+      "afterMax": [
+        3.1500000953674316,
+        3.3499999046325684,
+        4.380000114440918
+      ],
+      "xScale": 0.9603174615188641
+    }
+  ],
+  "bvhChecks": [
+    {
+      "window": "WEB8_room_static__image__A0",
+      "tower": "WEB8_room_static__baked__A0",
+      "triangleIntersections": 0
+    },
+    {
+      "window": "WEB8_room_static__image__A0",
+      "tower": "WEB8_room_static__baked__A8",
+      "triangleIntersections": 0
+    },
+    {
+      "window": "WEB8_room_static__baked__A8",
+      "tower": "WEB8_room_static__baked__A0",
+      "triangleIntersections": 0
+    },
+    {
+      "window": "WEB8_room_static__baked__A8",
+      "tower": "WEB8_room_static__baked__A8",
+      "triangleIntersections": 0
+    },
+    {
+      "window": "WEB8_room_static__baked__A8",
+      "tower": "WEB8_room_static__baked__A0",
+      "triangleIntersections": 0
+    },
+    {
+      "window": "WEB8_room_static__baked__A8",
+      "tower": "WEB8_room_static__baked__A8",
+      "triangleIntersections": 0
+    }
+  ],
+  "allWindowTowerIntersectionsRemoved": true,
+  "editableSourceEdits": [
+    {
+      "name": "A_PanoramaTitaniumBezel",
+      "leftPreserved": -2.9000000953674316,
+      "rightBefore": 3.4000000953674316,
+      "rightAfter": 3.1500000953674316
+    },
+    {
+      "name": "A_Window_CityPanel",
+      "leftPreserved": -2.7100000381469727,
+      "rightBefore": 3.2100000381469727,
+      "rightAfter": 2.9600000381469727
+    },
+    {
+      "name": "A_WindowRecessLight",
+      "leftPreserved": -2.7376043796539307,
+      "rightBefore": 3.2376043796539307,
+      "rightAfter": 2.9876043796539307
+    },
+    {
+      "name": "DAY_V8__A_PanoramaTitaniumBezel",
+      "leftPreserved": -2.9000000953674316,
+      "rightBefore": 3.4000000953674316,
+      "rightAfter": 3.1500000953674316
+    },
+    {
+      "name": "DAY_V8__A_Window_CityPanel",
+      "leftPreserved": -2.7100000381469727,
+      "rightBefore": 3.2100000381469727,
+      "rightAfter": 2.9600000381469727
+    },
+    {
+      "name": "DAY_V8__A_WindowRecessLight",
+      "leftPreserved": -2.7376043796539307,
+      "rightBefore": 3.2376043796539307,
+      "rightAfter": 2.9876043796539307
+    },
+    {
+      "name": "NIGHT_V8__A_PanoramaTitaniumBezel",
+      "leftPreserved": -2.9000000953674316,
+      "rightBefore": 3.4000000953674316,
+      "rightAfter": 3.1500000953674316
+    },
+    {
+      "name": "NIGHT_V8__A_Window_CityPanel",
+      "leftPreserved": -2.7100000381469727,
+      "rightBefore": 3.2100000381469727,
+      "rightAfter": 2.9600000381469727
+    },
+    {
+      "name": "NIGHT_V8__A_WindowRecessLight",
+      "leftPreserved": -2.7376043796539307,
+      "rightBefore": 3.2376043796539307,
+      "rightAfter": 2.9876043796539307
+    },
+    {
+      "name": "V11__A_PanoramaTitaniumBezel",
+      "leftPreserved": -2.9000000953674316,
+      "rightBefore": 3.4000000953674316,
+      "rightAfter": 3.1500000953674316
+    }
+  ],
+  "dayApertureMaterialsUpdated": 4,
+  "preparedBeforeWindowRepairSha256": "d53d3f4ed77ae411ab019dd47eaa555000af4b93f7fafba1814baf156fcaa87e",
+  "preparedAfterWindowRepairSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+  "smallPropBakeSnapshot": "assets/blender/orbital-dual-bake-v15-props-snapshot.blend",
+  "editableSource": "assets/blender/orbital-atelier-v15.blend",
+  "geometryChangedAtlases": [
+    8
+  ],
+  "independentWindowImageChanged": true,
+  "requiredSupplementalBakes": [
+    0,
+    8
+  ],
+  "lightingNote": "Sun/world/practical powers unchanged. A2/A9 left desk props were completed before window repair. A10/A3/A4 restarted from repaired prepared geometry and corrected daylight aperture; architecture A0/A8 separately rebaked after repair.",
+  "editableSourceSha256": "0ba9f8611dcd91bbcdf6224b0be51e187d82078d3554783df20a456d857b7713",
+  "affectedAtlasesRebakedAfterWindowRepair": [
+    0,
+    3,
+    4,
+    8,
+    10
+  ]
+}

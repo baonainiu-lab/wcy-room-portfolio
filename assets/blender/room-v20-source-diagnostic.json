@@ -1,0 +1,26 @@
+{
+  "complete": false,
+  "status": "source_diagnostic_only",
+  "sourceVerified": true,
+  "preparedSha256": "88fc6d9c51dc70909c6c7e5154d8d755a60f30dd8f75174108a360ccf487f33a",
+  "editableSha256": "20c1e8f7582fb4532264b6f93e48aad6ca26d69e89157b5c098aa3d3005e60e0",
+  "freshSurfaceSlots": [
+    0,
+    8
+  ],
+  "unchangedSurfaceSlots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+  ],
+  "protectedMaterialsVerified": true,
+  "browserVerified": false
+}

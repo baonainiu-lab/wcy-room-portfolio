@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "passed": 10,
+  "checks": [
+    {
+      "name": "The selected release restores Gallery V5 independently while retaining physical Room V20 and Terminal V3",
+      "passed": true
+    },
+    {
+      "name": "Actual V5 and V6 GLBs preserve every geometry accessor byte, node transform/hierarchy and 77 interaction IDs",
+      "passed": true,
+      "nodes": 142,
+      "meshes": 80,
+      "matchedAccessors": 303,
+      "independentIDs": 77,
+      "v5Sha256": "ca1c285f7198705f972e94bce1d6ffd2d71aaea32a66577f471edc993a712e24",
+      "v6Sha256": "67d1bd18bef30fbd989c3fa77de0dab1d182dfd835c29e180a3065cd6d6d59dc"
+    },
+    {
+      "name": "Archived V6 Gallery factory still loads one physical family and shares fractional day/night without changing 77 IDs",
+      "passed": true,
+      "materialCount": 4,
+      "glassMaterialCount": 2,
+      "independentIDs": 77
+    },
+    {
+      "name": "Current and fallback releases use the same actual V5 sRGB lighting, original glass, 77 IDs and fractional theme path",
+      "passed": true,
+      "independentIDs": 77,
+      "galleryRevision": "gallery-5",
+      "encoding": "srgb",
+      "glass": "original local day/night reflections",
+      "currentAndFallbackGalleryPathsIdentical": true
+    },
+    {
+      "name": "Gallery failure at normal-1 releases both imported and new resources without falling back to mixed encodings",
+      "passed": true
+    },
+    {
+      "name": "Gallery failure at day-2 releases both imported and new resources without falling back to mixed encodings",
+      "passed": true
+    },
+    {
+      "name": "Restored V5 failure at day-2 releases partial resources without enabling the physical Gallery path",
+      "passed": true
+    },
+    {
+      "name": "Restored V5 failure at reflection-night.ktx2 releases partial resources without enabling the physical Gallery path",
+      "passed": true
+    },
+    {
+      "name": "Model failure model-uninitialized releases exactly the decoder ownership that was acquired",
+      "passed": true
+    },
+    {
+      "name": "Model failure model-initialized releases exactly the decoder ownership that was acquired",
+      "passed": true
+    }
+  ],
+  "scope": "CPU production Gallery factory with actual current V5 and archived V6 GLBs, actual V5 glass helper, V6 embedded LogRGB KTX hashes, real 77-ID geometry and composed shader uniforms. Current and fallback V5 requests/IDs/shaders match; physical Room20/Terminal3 selection remains independent. First-exhibit cover installation, readiness, station-1 callout/activation and disposal are checked with an explicit Canvas substitute. Explicit texture-decode/GPU substitutes; cover rendering, WebGL compilation and restored appearance require separate main-page browser verification. About is excluded."
+}

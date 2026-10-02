@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-01",
+  "release": "room20-gallery5-terminal3",
+  "status": "passed_reported_scope",
+  "url": "http://127.0.0.1:5173/?qa",
+  "browser": "Codex in-app browser",
+  "viewport": [
+    1280,
+    720
+  ],
+  "method": "Actual CUA actions, visible WebGL screenshots and read-only preview-diagnostics DOM; no hidden scene-control calls.",
+  "startup": {
+    "percent": 100,
+    "ready": true,
+    "stages": [
+      "room",
+      "gallery",
+      "about",
+      "warmup"
+    ],
+    "galleryPrepared": true,
+    "aboutPrepared": true,
+    "assetRequests": 78,
+    "welcomeHour": 10,
+    "welcomeDayMix": 1,
+    "clockPausedAtWelcome": true
+  },
+  "opening": {
+    "trigger": "visible entry arrow click",
+    "phaseAfter": "complete",
+    "entered": true,
+    "controlsRestored": true
+  },
+  "visualChecks": [
+    {
+      "scene": "room",
+      "dayMix": 0,
+      "view": "default and zoomed/rotated",
+      "result": "White marble wall readable under warm night light; black upper cap; no broad black texture blocks in observed views."
+    },
+    {
+      "scene": "room",
+      "dayMix": 0.06358389317929425,
+      "view": "rotated near-front",
+      "result": "Dawn blend rendered correctly; textured walls retained."
+    },
+    {
+      "scene": "room",
+      "dayMix": 0.4135372653711381,
+      "view": "rotated near-front after gallery return",
+      "result": "Intermediate blend rendered; material and interaction state retained."
+    },
+    {
+      "scene": "room",
+      "dayMix": 1,
+      "hour": 15.95683999998326,
+      "view": "near-front",
+      "result": "White marble visible; upper stone reflects bright sky and appears lighter at this angle."
+    },
+    {
+      "scene": "room",
+      "dayMix": 0.9999900204857796,
+      "hour": 9.953719999989517,
+      "view": "normal elevated composition",
+      "result": "Dark stone cap with lighter natural veins; white marble walls; dark timber floor retained."
+    }
+  ],
+  "interactions": {
+    "zoomInOut": true,
+    "orbitDrag": true,
+    "roomMonitorToGallery": true,
+    "galleryPortalToRoom": true,
+    "roomNotebookToAbout": true,
+    "aboutReturnInterfaceToRoom": true,
+    "finalScene": "room",
+    "finalControlsEnabled": true,
+    "finalTransitioning": false
+  },
+  "sceneEntryReadiness": {
+    "assetRequestsBefore": 78,
+    "assetRequestsAfterGallery": 78,
+    "assetRequestsAfterAbout": 78,
+    "programsAtWelcome": 113,
+    "programsAtGallery": 111,
+    "programsAtAbout": 111,
+    "observedNewAssetRequests": 0
+  },
+  "physicalSurface": {
+    "directory": "/textures/lighting-v20",
+    "ready": true,
+    "materialCount": 13,
+    "dataTextureCount": 26,
+    "reflectionProbeCount": 2,
+    "additionalScenePassesPerFrame": 0
+  },
+  "consoleWarnings": [],
+  "consoleErrors": [],
+  "diagnosticErrors": [],
+  "temporaryViewportOverrideReset": true,
+  "limits": [
+    "Local desktop visual/interaction checks only; not user final visual approval.",
+    "No sustained 120 FPS claim, no physical touch-device verification or exhaustive collision proof.",
+    "Observed night/day/intermediate frames; no new continuous-video smoothness measurement.",
+    "Failure/retry, reduced-motion and mobile opening have historical release checks but were not repeated for this material-only V20 change."
+  ],
+  "deployed": false
+}

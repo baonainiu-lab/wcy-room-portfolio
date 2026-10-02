@@ -1,0 +1,17 @@
+{
+  "tool": "OpenAI built-in imagegen",
+  "referenced_image_paths": [
+    "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/textures/about-atelier-v3/landscape/lake-pier-day.png"
+  ],
+  "prompt": "Use case: lighting-weather. Produce a precisely registered true NIGHT counterpart of this exact 2048x1024 full-sphere Lake Pier panorama, same 2:1 dimensions, every pixel feature layout, camera, horizon, shore, mountain, rail, dock pole, clouds and water geometry must be fixed for continuous day/night blending. Change illumination only to natural deep indigo midnight, dim cool sky fill, soft reflected distant warm shoreline windows and subdued pathlights, water softly readable. Remove the daytime sun glow, no additional moon or objects. Warm shore illumination must be subtle, background darker than the foreground interior. No text, no frame, no people, no new landmarks. Full sphere equirectangular projection and image edges must stay identical. Preserve fine photographic texture and gently detailed night clouds.",
+  "output": "public/textures/about-atelier-v3/landscape/lake-pier-night.png",
+  "actualSize": [
+    1774,
+    887
+  ],
+  "requestedSize": [
+    2048,
+    1024
+  ],
+  "note": "Same 2:1 aspect and shared spherical orientation; generation is a decorative lighting edit, not a physically captured HDR."
+}

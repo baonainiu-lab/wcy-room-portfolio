@@ -1,0 +1,342 @@
+{
+  "complete": true,
+  "codecRevision": "linear-surface-v2-logrgb256",
+  "kind": "logrgb32-k256",
+  "source": "/var/folders/b9/mnwg77ts6fn6h2_spklc84880000gn/T/v18-night4-q4-jyurw9h_/night-4.png",
+  "sourceSha256": "d9ef215813184519a59e0ffca55294eeecff24dd1afe3ec2832e8c0876ac0b55",
+  "path": "/var/folders/b9/mnwg77ts6fn6h2_spklc84880000gn/T/v18-night4-q4-jyurw9h_/night-4.ktx2",
+  "sha256": "5bccb1c5acbcd9d8f1f383a02cc74808bf6f87712c5e43683cefea2053fdfd84",
+  "radianceThreshold": 0.005,
+  "relativeErrorDefinition": "max(abs(decoded-reference) RGB) / max(reference RGB)",
+  "radianceScale": 8.0,
+  "radianceOverflow": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v18/night-4-hdr-outliers.npz",
+    "sha256": "8bf59eb784ec1aa9f542c99a22602457f216fa63c0649b80f3475faf973003fa",
+    "count": 5027,
+    "indexConvention": "flattened bottom-up Blender RGB float buffer; convert yTop=height-1-yBottom before PNG restoration",
+    "sourceManifest": "/private/var/folders/b9/mnwg77ts6fn6h2_spklc84880000gn/T/v18-night4-q4-jyurw9h_/night-4-manifest.json",
+    "sourceManifestSha256": "424b023ee4e4e6c20f4acd65ce97f490ee2779a2fef3cb3e77d5665fbe731edc",
+    "restoredMaximum": 143.50137329101562
+  },
+  "errorUnits": "actual scene-linear radiance after restoring endpoint scale",
+  "decoder": "ktx extract --transcode rgba8",
+  "levels": [
+    {
+      "level": 0,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "encodingOnly": {
+        "pixelsAboveThreshold": 3699754,
+        "linearAbsoluteMeanRGB": [
+          0.005791558418422937,
+          0.0031684190034866333,
+          0.0023129067849367857
+        ],
+        "linearAbsoluteMean": 0.0037851580418646336,
+        "linearAbsoluteP99": 0.03850221633911133,
+        "linearAbsoluteMax": 2.3353271484375,
+        "relativeMaxChannelError": {
+          "p50": 0.017045000568032265,
+          "p90": 0.05541843920946121,
+          "p95": 0.07125227898359299,
+          "p99": 0.11563993990421295,
+          "p999": 0.11563993990421295,
+          "max": 0.11563993990421295
+        },
+        "blackoutBelow10Percent": 0,
+        "blackoutPercent": 0.0,
+        "signedLuminanceMeanBiasPercent": 0.18263699114322662,
+        "signedRGBMeanBias": [
+          -6.603457586606964e-05,
+          8.517935930285603e-05,
+          -4.70019513159059e-05
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.006478558760136366,
+          0.006502371747046709,
+          0.006354672834277153
+        ]
+      },
+      "compressedEndToEnd": {
+        "pixelsAboveThreshold": 3699754,
+        "linearAbsoluteMeanRGB": [
+          0.009405075572431087,
+          0.004892745520919561,
+          0.003572874702513218
+        ],
+        "linearAbsoluteMean": 0.006016830448061228,
+        "linearAbsoluteP99": 0.07136225700378418,
+        "linearAbsoluteMax": 17.792999267578125,
+        "relativeMaxChannelError": {
+          "p50": 0.023375868797302246,
+          "p90": 0.06972058862447739,
+          "p95": 0.09799358248710632,
+          "p99": 0.1668037623167038,
+          "p999": 0.2583709955215454,
+          "max": 0.7270482778549194
+        },
+        "blackoutBelow10Percent": 0,
+        "blackoutPercent": 0.0,
+        "signedLuminanceMeanBiasPercent": -0.2719891667366028,
+        "signedRGBMeanBias": [
+          -0.00035069978912360966,
+          -0.00026312912814319134,
+          -0.00041114698979072273
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.008265425451099873,
+          0.008097663521766663,
+          0.008131355047225952
+        ]
+      },
+      "referenceScenePeak": 143.50137329101562,
+      "decodedScenePeak": 145.4287109375,
+      "alphaCompressedRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "level": 2,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "encodingOnly": {
+        "pixelsAboveThreshold": 243846,
+        "linearAbsoluteMeanRGB": [
+          0.005495367106050253,
+          0.003030721563845873,
+          0.002221164060756564
+        ],
+        "linearAbsoluteMean": 0.003582775592803955,
+        "linearAbsoluteP99": 0.03709888458251953,
+        "linearAbsoluteMax": 1.521728515625,
+        "relativeMaxChannelError": {
+          "p50": 0.017031705006957054,
+          "p90": 0.05628515034914017,
+          "p95": 0.07423078268766403,
+          "p99": 0.10833051055669785,
+          "p999": 0.11563993990421295,
+          "max": 0.12278083711862564
+        },
+        "blackoutBelow10Percent": 0,
+        "blackoutPercent": 0.0,
+        "signedLuminanceMeanBiasPercent": 0.06949522346258163,
+        "signedRGBMeanBias": [
+          2.2828073269920424e-05,
+          -1.799130768631585e-05,
+          1.3835526715411106e-06
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.006615515798330307,
+          0.006636591162532568,
+          0.006521780975162983
+        ]
+      },
+      "compressedEndToEnd": {
+        "pixelsAboveThreshold": 243846,
+        "linearAbsoluteMeanRGB": [
+          0.017659632489085197,
+          0.008991074748337269,
+          0.0070496187545359135
+        ],
+        "linearAbsoluteMean": 0.011234943754971027,
+        "linearAbsoluteP99": 0.142647385597229,
+        "linearAbsoluteMax": 14.098541259765625,
+        "relativeMaxChannelError": {
+          "p50": 0.035513319075107574,
+          "p90": 0.11115171015262604,
+          "p95": 0.14890927076339722,
+          "p99": 0.25,
+          "p999": 0.3974264860153198,
+          "max": 1.7270469665527344
+        },
+        "blackoutBelow10Percent": 10,
+        "blackoutPercent": 0.004100948959589248,
+        "signedLuminanceMeanBiasPercent": -0.8759806752204895,
+        "signedRGBMeanBias": [
+          0.0003252046008128673,
+          -0.0008724252693355083,
+          -0.00045442793634720147
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.012367955408990383,
+          0.010982508771121502,
+          0.011991962790489197
+        ]
+      },
+      "referenceScenePeak": 101.43498229980469,
+      "decodedScenePeak": 105.802001953125,
+      "alphaCompressedRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "level": 4,
+      "dimensions": [
+        256,
+        256
+      ],
+      "encodingOnly": {
+        "pixelsAboveThreshold": 17774,
+        "linearAbsoluteMeanRGB": [
+          0.00478909257799387,
+          0.002621683292090893,
+          0.0019544607494026423
+        ],
+        "linearAbsoluteMean": 0.0031217418145388365,
+        "linearAbsoluteP99": 0.03324170410633087,
+        "linearAbsoluteMax": 0.9802169799804688,
+        "relativeMaxChannelError": {
+          "p50": 0.016950299963355064,
+          "p90": 0.0570947639644146,
+          "p95": 0.07599759250879284,
+          "p99": 0.10314638912677765,
+          "p999": 0.11842009388655424,
+          "max": 0.12121409922838211
+        },
+        "blackoutBelow10Percent": 0,
+        "blackoutPercent": 0.0,
+        "signedLuminanceMeanBiasPercent": 0.01437993161380291,
+        "signedRGBMeanBias": [
+          0.0003986252413596958,
+          2.1522899260162376e-05,
+          6.234965439944062e-06
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.006699078716337681,
+          0.0066423360258340836,
+          0.006577566731721163
+        ]
+      },
+      "compressedEndToEnd": {
+        "pixelsAboveThreshold": 17774,
+        "linearAbsoluteMeanRGB": [
+          0.03356603905558586,
+          0.016266347840428352,
+          0.014537058770656586
+        ],
+        "linearAbsoluteMean": 0.021456429734826088,
+        "linearAbsoluteP99": 0.2827320396900177,
+        "linearAbsoluteMax": 8.928607940673828,
+        "relativeMaxChannelError": {
+          "p50": 0.06941849738359451,
+          "p90": 0.21966027617454528,
+          "p95": 0.29976370185613627,
+          "p99": 0.5792854630947114,
+          "p999": 1.0,
+          "max": 3.013333320617676
+        },
+        "blackoutBelow10Percent": 62,
+        "blackoutPercent": 0.3488241251265894,
+        "signedLuminanceMeanBiasPercent": -1.0118740797042847,
+        "signedRGBMeanBias": [
+          0.0015134339919313788,
+          -0.001092703896574676,
+          0.0001468839036533609
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.026364827528595924,
+          0.019459722563624382,
+          0.02505464479327202
+        ]
+      },
+      "referenceScenePeak": 77.95068359375,
+      "decodedScenePeak": 82.6094741821289,
+      "alphaCompressedRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "level": 8,
+      "dimensions": [
+        16,
+        16
+      ],
+      "encodingOnly": {
+        "pixelsAboveThreshold": 162,
+        "linearAbsoluteMeanRGB": [
+          0.0022316928952932358,
+          0.0012182674836367369,
+          0.0010926186805590987
+        ],
+        "linearAbsoluteMean": 0.001514193369075656,
+        "linearAbsoluteP99": 0.011411079205572605,
+        "linearAbsoluteMax": 0.022604942321777344,
+        "relativeMaxChannelError": {
+          "p50": 0.015320498496294022,
+          "p90": 0.050051777437329296,
+          "p95": 0.06649788655340666,
+          "p99": 0.09965180873870845,
+          "p999": 0.10173925838619471,
+          "max": 0.10179915279150009
+        },
+        "blackoutBelow10Percent": 0,
+        "blackoutPercent": 0.0,
+        "signedLuminanceMeanBiasPercent": -0.36898207664489746,
+        "signedRGBMeanBias": [
+          -0.00011443802213761955,
+          -9.990860235120635e-06,
+          -2.9655455364263617e-05
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.005379083100706339,
+          0.005640729796141386,
+          0.005515534896403551
+        ]
+      },
+      "compressedEndToEnd": {
+        "pixelsAboveThreshold": 162,
+        "linearAbsoluteMeanRGB": [
+          0.033741313964128494,
+          0.01796375773847103,
+          0.020295819267630577
+        ],
+        "linearAbsoluteMean": 0.024000298231840134,
+        "linearAbsoluteP99": 0.18130560219287872,
+        "linearAbsoluteMax": 0.3979097604751587,
+        "relativeMaxChannelError": {
+          "p50": 0.22569375485181808,
+          "p90": 0.6859729528427128,
+          "p95": 1.0,
+          "p99": 1.1922883617877917,
+          "p999": 1.91999990391733,
+          "max": 2.0237879753112793
+        },
+        "blackoutBelow10Percent": 8,
+        "blackoutPercent": 4.938271604938271,
+        "signedLuminanceMeanBiasPercent": -3.305945873260498,
+        "signedRGBMeanBias": [
+          -0.009620575234293938,
+          0.0023367840331047773,
+          -0.0023346252273768187
+        ],
+        "chromaticityAbsoluteMeanRGB": [
+          0.09112968295812607,
+          0.04556921496987343,
+          0.07927978038787842
+        ]
+      },
+      "referenceScenePeak": 3.53605318069458,
+      "decodedScenePeak": 3.169748067855835,
+      "alphaCompressedRange": [
+        255,
+        255
+      ]
+    }
+  ],
+  "limitations": [
+    "ASTC/BC7 GPU decoding and browser appearance require separate WebGL validation.",
+    "LogRGB hardware bilinear interpolation is an approximation in encoded space; every authored mip is generated in linear radiance.",
+    "Low-resolution sparse UV islands and strong contrast retain lossy block-compression error; alpha1 removes RGBM multiplier collapse, not all quantization."
+  ],
+  "comparisonOnly": true,
+  "temporaryArtifactsRemoved": true,
+  "compressionSeconds": 261.49,
+  "quality": 4
+}

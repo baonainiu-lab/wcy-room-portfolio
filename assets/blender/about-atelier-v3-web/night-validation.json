@@ -1,0 +1,95 @@
+{
+  "complete": true,
+  "state": "night",
+  "samples": 64,
+  "trueCyclesCombinedNightBake": true,
+  "dayMapsAndModelsUnchanged": true,
+  "mainGeometryAndUvsUnchanged": true,
+  "architectureGeometryAndPublishedUvsMatch": true,
+  "mainPreparationId": "fa9caba96a184b4cb6d35fc02e413644fbf86703aad6edd13765897560ca8ede",
+  "textureCount": 5,
+  "textures": [
+    {
+      "atlas": 0,
+      "source": "public/textures/about-atelier-v3/night-0.png",
+      "sourceSha256": "26559cc92290a587743ab91d4193697c713ef6adcb5324d3ce2d39b3081f5663",
+      "path": "public/textures/about-atelier-v3/night-0.ktx2",
+      "sha256": "b6aa24430b4dd55edbfa26db5bfd38e1a1ed299045ff03126aa8bb4c0158506a",
+      "bytes": 2327051,
+      "seconds": 13.24,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    },
+    {
+      "atlas": 1,
+      "source": "public/textures/about-atelier-v3/night-1.png",
+      "sourceSha256": "a2760e933af92ec066ccb567e49dcdb3dc3f276d84cb2715f84bdef47380d439",
+      "path": "public/textures/about-atelier-v3/night-1.ktx2",
+      "sha256": "0d974fa027303e4a3d0236701f97bbdab0adde486ada3e9d52ec3eee9dda8624",
+      "bytes": 2535853,
+      "seconds": 16.1,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    },
+    {
+      "atlas": 2,
+      "source": "public/textures/about-atelier-v3/night-2.png",
+      "sourceSha256": "72e0f79fbfcfe003fcedc146d02944c5013b77e9d8070682a2c61c204cfcc786",
+      "path": "public/textures/about-atelier-v3/night-2.ktx2",
+      "sha256": "d29ace8d6eece19a21421f7077de6d61955bec846c1a57a6245d9fd9204e1e7a",
+      "bytes": 2457625,
+      "seconds": 15.01,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    },
+    {
+      "atlas": 3,
+      "source": "public/textures/about-atelier-v3/night-3.png",
+      "sourceSha256": "9b13360d5bd4ca76973151f109613e8346d9b651a034db6a16a139dc8ddb2711",
+      "path": "public/textures/about-atelier-v3/night-3.ktx2",
+      "sha256": "d505f97729b48cba1430ae67d870ac3070d4856eac1ac801e9ad897aa473c10a",
+      "bytes": 2687171,
+      "seconds": 19.73,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    },
+    {
+      "atlas": "architecture",
+      "source": "public/textures/about-atelier-v3/architecture/night.png",
+      "sourceSha256": "64dca3ec98d8ba3c0cdaf34014155e3e2212dd7865d65d2f9bec121eb7bde0e8",
+      "path": "public/textures/about-atelier-v3/architecture/night.ktx2",
+      "sha256": "453c45246e2049657d01d5107cc8cf821ca166537bfb73e1bb84ee903317000c",
+      "bytes": 2183806,
+      "seconds": 16.61,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484
+    }
+  ],
+  "encoding": "UASTC quality 2, RDO lambda 3, Zstd 9, sRGB, full mip chain",
+  "panorama": "Owned separately; this report gates only the five mesh textures."
+}

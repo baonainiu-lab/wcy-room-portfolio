@@ -1,0 +1,320 @@
+{
+  "phase": "complete",
+  "started": 1790058658.693255,
+  "states": {
+    "day": {
+      "state": "day",
+      "atlases": [
+        {
+          "atlas": 0,
+          "path": "public/textures/lighting-v10/day-0.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 4286157
+        },
+        {
+          "atlas": 1,
+          "path": "public/textures/lighting-v10/day-1.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 3480507
+        },
+        {
+          "atlas": 2,
+          "path": "public/textures/lighting-v10/day-2.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 4525640
+        },
+        {
+          "atlas": 3,
+          "path": "public/textures/lighting-v10/day-3.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 6318200
+        },
+        {
+          "atlas": 4,
+          "path": "public/textures/lighting-v10/day-4.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 6652207
+        },
+        {
+          "atlas": 5,
+          "path": "public/textures/lighting-v10/day-5.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 5953842
+        },
+        {
+          "atlas": 6,
+          "path": "public/textures/lighting-v10/day-6.png",
+          "resolution": [
+            3072,
+            3072
+          ],
+          "margin": 16,
+          "bytes": 4180848
+        },
+        {
+          "atlas": 7,
+          "path": "public/textures/lighting-v10/day-7.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "margin": 32,
+          "bytes": 1403384
+        }
+      ],
+      "seconds": 462.18
+    },
+    "night": {
+      "state": "night",
+      "atlases": [
+        {
+          "atlas": 0,
+          "path": "public/textures/lighting-v10/night-0.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 3066856
+        },
+        {
+          "atlas": 1,
+          "path": "public/textures/lighting-v10/night-1.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 2518749
+        },
+        {
+          "atlas": 2,
+          "path": "public/textures/lighting-v10/night-2.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 3739083
+        },
+        {
+          "atlas": 3,
+          "path": "public/textures/lighting-v10/night-3.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 4441718
+        },
+        {
+          "atlas": 4,
+          "path": "public/textures/lighting-v10/night-4.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 6119444
+        },
+        {
+          "atlas": 5,
+          "path": "public/textures/lighting-v10/night-5.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "margin": 16,
+          "bytes": 4580259
+        },
+        {
+          "atlas": 6,
+          "path": "public/textures/lighting-v10/night-6.png",
+          "resolution": [
+            3072,
+            3072
+          ],
+          "margin": 16,
+          "bytes": 3804852
+        },
+        {
+          "atlas": 7,
+          "path": "public/textures/lighting-v10/night-7.png",
+          "resolution": [
+            2048,
+            2048
+          ],
+          "margin": 32,
+          "bytes": 963689
+        }
+      ],
+      "seconds": 458.68
+    }
+  },
+  "currentState": "night",
+  "export": {
+    "model": "public/models/orbital-atelier-v10.glb",
+    "source": "assets/blender/orbital-atelier-v10.blend",
+    "prepared": "assets/blender/orbital-dual-bake-v10.blend",
+    "lightingRevision": 10,
+    "triangles": 320757,
+    "drawPrimitives": 100,
+    "materials": [
+      "WEB8_LIGHTMAP_0",
+      "WEB8_WINDOW_CITY",
+      "WEB8_LIGHTMAP_2",
+      "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+      "WEB8_CLEAR_WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+      "WEB8_LIGHTMAP_1",
+      "WEB8_LIGHTMAP_7",
+      "WEB8_CLEAR_WEB8_GLASS_MAT_Smoke_Glass",
+      "WEB8_CLEAR_WEB8_GLASS_P_ClearTerrariumGlass",
+      "WEB8_LIGHTMAP_3",
+      "WEB8_CLEAR_WEB8_GLASS_D_SpecimenSmokeGlass",
+      "WEB8_CLEAR_WEB8_GLASS_D_PlanterGlass",
+      "WEB8_LIGHTMAP_4",
+      "WEB8_LIGHTMAP_5",
+      "WEB8_LIGHTMAP_6"
+    ],
+    "bytes": 45170284,
+    "sha256": "e76bdec49b31e1a443f29580ea4091c8e088071f16b3a61afbe6226bbb508122",
+    "componentIds": [
+      "architecture.platform",
+      "main_display",
+      "compute_core",
+      "furniture.desk",
+      "furniture.work_chair",
+      "furniture.lounge",
+      "furniture.coffee_table",
+      "furniture.rug",
+      "robot_companion",
+      "robot_service_hatch",
+      "robot_leg_00",
+      "robot_leg_01",
+      "robot_leg_02",
+      "folding_drawing_terminal",
+      "terminal_tilt",
+      "terminal_panel_L",
+      "terminal_panel_R",
+      "drawing_stylus",
+      "c_archive_dock",
+      "archive_cartridge_00",
+      "archive_cartridge_01",
+      "archive_cartridge_02",
+      "kinetic_three_petal_flower",
+      "flower_petal_0",
+      "flower_petal_1",
+      "flower_petal_2",
+      "headphones_on_stand",
+      "headphone_cup_0",
+      "headphone_cup_1",
+      "ceramic_ring_speaker",
+      "speaker_gimbal",
+      "split_keyboard",
+      "keyboard_half_0",
+      "keyboard_half_1",
+      "keyboard_dial",
+      "desktop_creative_controller",
+      "compact_camera",
+      "camera_focus_lens",
+      "thermal_cup",
+      "table_notebook_group",
+      "notebook",
+      "creative_folio",
+      "coffee_table_pen",
+      "coffee_table_dial",
+      "glass_bonsai_terrarium",
+      "trailing_wall_plant",
+      "studio_reference_books",
+      "creative_book_0",
+      "creative_book_1",
+      "creative_book_2",
+      "titanium_bookend_0",
+      "titanium_bookend_1",
+      "geometric_specimen_cloche",
+      "original_trefoil_geometry",
+      "portable_fold_communicator",
+      "folding_communicator_handset",
+      "communicator_panel_0",
+      "communicator_panel_1",
+      "ceramic_mobius_study",
+      "ceramic_mobius_form",
+      "glass_cutting_planter",
+      "small_planter_leaf_0",
+      "small_planter_leaf_1",
+      "small_planter_leaf_2",
+      "small_planter_leaf_3",
+      "small_planter_leaf_4",
+      "black_ceramic_floor_planter",
+      "floor_vase_leaf_0",
+      "floor_vase_leaf_1",
+      "floor_vase_leaf_2",
+      "floor_vase_leaf_3",
+      "floor_vase_leaf_4",
+      "floor_vase_leaf_5",
+      "floor_vase_leaf_6",
+      "v5_orbital_clock",
+      "v5_clock_dial",
+      "v5_portable_projector",
+      "v5_projector_lens",
+      "v5_magnetic_pen_dock",
+      "v5_magnetic_stylus",
+      "v5_modular_equipment_cases",
+      "v5_upper_equipment_case",
+      "v5_geometric_floor_lamp",
+      "v5_floor_lamp_head",
+      "v5_energy_capsule_rack",
+      "v5_energy_capsule",
+      "v5_mechanical_data_panel",
+      "v5_data_panel_selector",
+      "v5_scout_drone_display",
+      "v5_scout_drone",
+      "environment.orbital_dock",
+      "environment.warm_gallery",
+      "v8_desk_glow_lamp",
+      "v8_window_light_bar",
+      "v8_reading_puck"
+    ],
+    "bakedStates": [
+      "day",
+      "night"
+    ],
+    "atlasSizes": [
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      4096,
+      3072,
+      2048
+    ],
+    "samples": 40,
+    "color": "Cycles combined direct, indirect, diffuse, glossy and emission; AgX baked to sRGB, browser NoToneMapping"
+  },
+  "finished": 1790059582.953193
+}

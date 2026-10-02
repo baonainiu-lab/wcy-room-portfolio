@@ -1,0 +1,85 @@
+{
+  "state": "day",
+  "preparation_id": "f23870ca317d920ef7283e9b6564f397d7f6918cd0526673b7beb71306f46656",
+  "prepared": "assets/blender/works-gallery-bake-v5.blend",
+  "scene": "WEB_WORKS_GALLERY_V4",
+  "lighting": {
+    "state": "day",
+    "sunEnergy": 3.5,
+    "worldStrength": 0.054999999701976776,
+    "device": "GPU",
+    "backend": "METAL",
+    "names": [
+      "Apple M5 (GPU - 10 cores)"
+    ],
+    "samples": 64,
+    "preparation_id": "f23870ca317d920ef7283e9b6564f397d7f6918cd0526673b7beb71306f46656",
+    "color_management": "AgX save_render to sRGB PNG",
+    "passes": [
+      "COLOR",
+      "DIFFUSE",
+      "DIRECT",
+      "EMIT",
+      "GLOSSY",
+      "INDIRECT"
+    ]
+  },
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/works-gallery-v5/day-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 3873766,
+      "sha256": "15ebe13ec9885a9e6bc3e1daa72d7b4ab0dba27403b0255f333358b870322e50",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 94.11
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/works-gallery-v5/day-1.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5146833,
+      "sha256": "e5bb31d8b34c4c2c764de12f77e69856136ba537ae55a156176eb940f0dea052",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 104.39
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/works-gallery-v5/day-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 4965101,
+      "sha256": "643986ff6c1dc9dfd0f466f42a0d258493ea240ea1ec689d16994cc9a5947e82",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 70.7
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/works-gallery-v5/day-3.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "bytes": 168213,
+      "sha256": "9f4d3ceb2d0787bd9cd86d53fb4a53e65b7ef3b918ec121aa77c47af99f734a6",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 10.59
+    }
+  ],
+  "complete": true,
+  "seconds": 10.7,
+  "phase": "complete",
+  "current_atlas": null
+}

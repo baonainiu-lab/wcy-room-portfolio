@@ -1,0 +1,13 @@
+{
+  "kind": "generated-background-plate",
+  "method": "built-in image_gen",
+  "generatedOn": "2026-09-26",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "1d561749979afb37f2b9c994ee15f37d5c71df6998325f42beae8c9029b7ce45",
+  "prompt": "assets/terminal-showcase-v1/background-prompt.txt",
+  "thirdPartyImageImported": false,
+  "runtime": "same WebGL environment, temporary during intro"
+}

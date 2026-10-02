@@ -1,0 +1,321 @@
+{
+  "revision": 15,
+  "complete": true,
+  "stableAssetIds": 95,
+  "stableHierarchyAndTransforms": true,
+  "before": {
+    "nodes": 197,
+    "meshes": 102,
+    "materials": 16,
+    "triangles": 373203,
+    "drawPrimitives": 102
+  },
+  "after": {
+    "nodes": 197,
+    "meshes": 102,
+    "materials": 19,
+    "triangles": 413855,
+    "drawPrimitives": 102
+  },
+  "materials": [
+    "WEB8_WINDOW_CITY",
+    "WEB8_LIGHTMAP_0",
+    "WEB8_LIGHTMAP_8",
+    "WEB8_LIGHTMAP_2",
+    "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+    "WEB8_CLEAR_WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+    "WEB8_LIGHTMAP_1",
+    "WEB8_LIGHTMAP_11",
+    "WEB8_LIGHTMAP_7",
+    "WEB8_CLEAR_WEB8_GLASS_MAT_Smoke_Glass",
+    "WEB8_LIGHTMAP_10",
+    "WEB8_LIGHTMAP_9",
+    "WEB8_CLEAR_WEB8_GLASS_P_ClearTerrariumGlass",
+    "WEB8_LIGHTMAP_3",
+    "WEB8_CLEAR_WEB8_GLASS_D_SpecimenSmokeGlass",
+    "WEB8_CLEAR_WEB8_GLASS_D_PlanterGlass",
+    "WEB8_LIGHTMAP_4",
+    "WEB8_LIGHTMAP_5",
+    "WEB8_LIGHTMAP_6"
+  ],
+  "images": [
+    {
+      "path": "public/textures/lighting-v15/day-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 2690321,
+      "sha256": "41011f1e5c30ae690ee3dcd3958b8ac4e6cfa210067a3f6c1d3568d6b2384012",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-1.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 3480507,
+      "sha256": "2e8a994bc1007fecbd94f15a9136cc56f405985fe4deda81097fddab12670504",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5949860,
+      "sha256": "1c0e5bf8394f55857c432c8b800117990b4590791b22e30feb04e61e7669ad77",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-3.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 6210163,
+      "sha256": "f8f7736612448ed00c618a626b167d8bd56e91d17f3bbfb7976348657834fc92",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-4.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 6439825,
+      "sha256": "f185b1ad89bcadb1b59807c4a40288dc26dfc3933a98aadf38f477a39c9b5c5d",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-5.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5953842,
+      "sha256": "8c74d66a846d0022d9544787e0a35c5fd6b7cc365d5cfe027853d09203fafabb",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-6.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 4180848,
+      "sha256": "dd2fe72093ca2a863bd523c38c92323600e6bd912a1949f786a70b2e2041b903",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-7.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "bytes": 1403384,
+      "sha256": "967f0097db7dd9da895c8b57508d84634a7e3fcc773194b81e580bbdd2b4f79e",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-8.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 4240380,
+      "sha256": "09f9f5c9e6b5cf73c8b753de2025fede1e41ce69df8ca4c3c3675266db40349b",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-9.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 7428557,
+      "sha256": "fe0c1871b1e5d038bc2399d9258b3a92fa72174a40ebfaa844c6f87e02cddf02",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-10.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 6015651,
+      "sha256": "a4949729f75be1905d0edfcaa62665a27d1dd430a23a93689e9165236015b8be",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/day-11.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 3795087,
+      "sha256": "e089640e9dc8d0cfc0e079210ab4b1c3a4dca18da9cb49a0e384e325291ba1cd",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/window-day.png",
+      "resolution": [
+        3072,
+        1344
+      ],
+      "bytes": 3740026,
+      "sha256": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 1835089,
+      "sha256": "869acc1fb01e250553ed4925f83b871dd4e157187984465fd70e22d99882d16a",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-1.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 2720892,
+      "sha256": "ade804d2d5417b8360602d2273c4b8e3e35cdc32d8b57c06609778db3e92e885",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 4908621,
+      "sha256": "67aaa6b71d829a669d92e14bda62e015e953202054a89ecf791e924918b061de",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-3.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 4168377,
+      "sha256": "42e006aa6dddb8f00c4064e4955440ad13f733d255719259623ed116df5cde67",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-4.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5849216,
+      "sha256": "8f579815017cf8f414d15207c5da2fce7fd822914bf5eb90b64df4e727cacdf5",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-5.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 4577973,
+      "sha256": "2a67d7469e724bf761ce9996ba62d81b83d665aed49a04848382d2e0830bf94a",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-6.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 3804151,
+      "sha256": "144b95907137c45846c7aa78a0a7702c2152aa2f5c825e5896be7f2c63f8f60a",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-7.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "bytes": 965927,
+      "sha256": "0b39b9e71d666861caa9a5d48ad8194b23b413ae183d412d5a7193794f447603",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-8.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 3219373,
+      "sha256": "dc73575db5ecb47a7d5820867f415f7d94cfd9373a34197620f2f283a7874d27",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-9.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 6278511,
+      "sha256": "b9a9840370f8a0f7b5292d526606b23ba460d475f36a4ca5cb9fbc53ee45f983",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-10.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5175803,
+      "sha256": "3651abc63d84e0bd042743483d488f5a85375f2c46bab56364d89dcf6834471f",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/night-11.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 3225816,
+      "sha256": "aa28e308fa9402cfc48734d35d491706ae1b0b661021fc9cc356579ea02a6861",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/window-night.png",
+      "resolution": [
+        3072,
+        1344
+      ],
+      "bytes": 3678209,
+      "sha256": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf",
+      "allChunksCrcValid": true
+    },
+    {
+      "path": "public/textures/lighting-v15/screen-art-render.png",
+      "resolution": [
+        2880,
+        1200
+      ],
+      "bytes": 4040686,
+      "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+      "allChunksCrcValid": true
+    }
+  ],
+  "protectedV14Hashes": {
+    "assets/blender/orbital-dual-bake-v14.blend": "c27fbb08d5b55a6d32ec681bd97a6ba4b33b8fb301a0aa8325ccfda593255b4d",
+    "public/models/orbital-atelier-v14.glb": "a933ce1ba865c5ad5293e11bfac51ad082f8c1522ff828ad89d45aa17bd5e232"
+  },
+  "modelSha256": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15",
+  "workChairGeometryRestored": true,
+  "workChairValidation": "assets/blender/work-chair-v15-validation.json",
+  "atlasCount": 12
+}

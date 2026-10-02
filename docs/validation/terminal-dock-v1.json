@@ -1,0 +1,366 @@
+{
+  "revision": 2,
+  "activeBranch": "resident-terminal-dock",
+  "checkedAt": "2026-09-25T14:26:17.737Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Actual welcome and room GLBs, production resident-terminal owner, cube-intro controller and room-entry with real GSAP. Continuous motion/lighting tests sample 120 virtual wall-clock frames/second and advance timeline time by wallSeconds * real timeline.timeScale(), including the 1.25x speed-up. Browser DOM, image decoding and GPU PMREM use controlled substitutes. These are active resident-branch tests, not legacy disappearing-terminal results. No visual quality, rendered FPS or exhaustive collision claim.",
+  "sourceSha256": {
+    "src/resident-terminal.js": "b27c39fed75fba661c3ba7fd2ebf5f4519f0e9b120a4e559ac4c1cf7533acc3e",
+    "src/cube-intro.js": "47d54915129c59b74b47d261db167495bde369ac54804cf6cc7d40312eebdc32",
+    "src/room-entry.js": "6cc32b6cf33e4182c94179b4db511eb554f05ebf5134a53bc83b3161eae39c66",
+    "src/main.js": "8672170f0eec0a67d12190cb3ee5fd09abff04aff4a9d7a1a53b1f4cf3b429b7",
+    "src/intro-input.js": "cc8148b1e99cb508a19b936c2d8630052affd8e8457dead3b004ce896ed930cc",
+    "src/exterior-atmosphere.js": "20ae585838d6c16a4f37ac8227d421c0f27b4273ef656e1db0d711939705464e",
+    "scripts/lib/intro-controller-fixture.mjs": "e3ae67d996deb23bf50e09c24bb6cbfa918608b56cf2d13573b7f10ae083ad18",
+    "scripts/check-terminal-dock.mjs": "adf754fd3cc6bcd1bcd8a969420e48b2f378329f6f99d51d73e0553e8b867e8b",
+    "public/models/welcome-terminal-v1.glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24",
+    "public/models/orbital-atelier-v15.glb": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15"
+  },
+  "checks": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "check": "active resident branch uses the same actual Blender GLB in welcome and permanently on the desk",
+      "status": "passed",
+      "controllerRevision": 7,
+      "resident": {
+        "revision": 1,
+        "assetId": "folding_drawing_terminal",
+        "resident": true,
+        "disposed": false,
+        "attachedHome": true,
+        "introLight": 0,
+        "day": true,
+        "homePosition": [
+          -2.425128088858263,
+          1.8610803159106388,
+          -1.1384219276739405
+        ],
+        "homeScale": [
+          0.26077961987047826,
+          0.2607795999971901,
+          0.26077961987047826
+        ],
+        "finalBounds": {
+          "min": [
+            -2.810899019573696,
+            1.8610803159106388,
+            -1.5719188317341164
+          ],
+          "max": [
+            -2.03935715814283,
+            2.2890332969048397,
+            -0.7049250391574435
+          ]
+        },
+        "originalBounds": {
+          "min": [
+            -2.8451153186141305,
+            1.8455394854253586,
+            -1.5853259522378798
+          ],
+          "max": [
+            -2.005140859102397,
+            2.731956740199453,
+            -0.6915179186536808
+          ]
+        },
+        "support": {
+          "assetId": "furniture.desk",
+          "surfaceHeight": 1.8580803159106392,
+          "clearance": 0.003,
+          "lift": 0.015540830485280654,
+          "samples": [
+            {
+              "x": -2.8108990195736965,
+              "z": -1.5719188317341166,
+              "y": 1.8580800113973246
+            },
+            {
+              "x": -2.8108990195736965,
+              "z": -1.13842193544578,
+              "y": 1.858079855896898
+            },
+            {
+              "x": -2.8108990195736965,
+              "z": -0.7049250391574438,
+              "y": 1.8580798324171064
+            },
+            {
+              "x": -2.4251280888582634,
+              "z": -1.5719188317341166,
+              "y": 1.8580803159106392
+            },
+            {
+              "x": -2.4251280888582634,
+              "z": -1.13842193544578,
+              "y": 1.8580799601410318
+            },
+            {
+              "x": -2.4251280888582634,
+              "z": -0.7049250391574438,
+              "y": 1.8580798031667571
+            },
+            {
+              "x": -2.0393571581428303,
+              "z": -1.5719188317341166,
+              "y": 1.8333908267892527
+            }
+          ]
+        },
+        "meshCount": 18,
+        "oldMeshCount": 5,
+        "drawCallDelta": 13,
+        "triangles": 11294,
+        "oldTriangles": 26240,
+        "parts": [
+          "terminal_lid",
+          "terminal_dial",
+          "terminal_rail"
+        ],
+        "environmentIntensity": 1.1,
+        "screenIntensity": 0.84
+      },
+      "timelineDurationSeconds": 5.7016622,
+      "playbackRate": 1.25,
+      "playbackDurationSeconds": 4.5613297600000005,
+      "welcomePlaybackRate": 1.25,
+      "welcomePlaybackDurationSeconds": 1.6800000000000002,
+      "originalSceneNodesVerified": 219
+    },
+    {
+      "check": "120 Hz playback-clock desktop and compact arrival samples stay visible, retain nonzero size and have continuous world motion",
+      "status": "passed",
+      "records": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "sampleHz": 120,
+          "samplingClock": "playback wall time",
+          "playbackRate": 1.25,
+          "timelineDurationSeconds": 5.7016622,
+          "playbackDurationSeconds": 4.5613297600000005,
+          "frames": 549,
+          "maximumWorldStep": 0.042105801247118504,
+          "allowedWorldStep": 0.06945087899114474,
+          "maximumRelativeScaleStep": 0.008726712262668412,
+          "allowedRelativeScaleStep": 0.0325,
+          "maximumRotationStepRadians": 0.004420676377699253,
+          "allowedRotationStepRadians": 0.035,
+          "minimumScaleRatioToFinal": 1,
+          "attachedAtWallSeconds": 3.05,
+          "minimumDeskClearance": 0.0029961776651084016,
+          "overlapFramesBeforeDeskSettled": 102,
+          "deskPenetrationFrames": 0,
+          "firstDeskPenetrations": []
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "sampleHz": 120,
+          "samplingClock": "playback wall time",
+          "playbackRate": 1.25,
+          "timelineDurationSeconds": 5.7016622,
+          "playbackDurationSeconds": 4.5613297600000005,
+          "frames": 549,
+          "maximumWorldStep": 0.03974706091481752,
+          "allowedWorldStep": 0.06945087899114474,
+          "maximumRelativeScaleStep": 0.006625702816865253,
+          "allowedRelativeScaleStep": 0.0325,
+          "maximumRotationStepRadians": 0.004420676377699253,
+          "allowedRotationStepRadians": 0.035,
+          "minimumScaleRatioToFinal": 1,
+          "attachedAtWallSeconds": 3.05,
+          "minimumDeskClearance": 0.0029961776651084016,
+          "overlapFramesBeforeDeskSettled": 96,
+          "deskPenetrationFrames": 0,
+          "firstDeskPenetrations": []
+        }
+      ],
+      "scope": "Actual transformed Blender vertices and controller samples at 120 virtual playback-clock steps/second using timeline.time(wallSeconds * timeScale). AABB desktop surface clearance, not rendered FPS or an exhaustive mesh intersection test."
+    },
+    {
+      "check": "the final resident underside sits above the actual desk triangles across its footprint",
+      "status": "passed",
+      "actualTriangleSamples": [
+        {
+          "x": -2.810899019573696,
+          "z": -1.5719188317341164,
+          "deskHeight": 1.8580800113973248,
+          "terminalBottom": 1.8610803159106388,
+          "clearance": 0.0030003045133140116
+        },
+        {
+          "x": -2.810899019573696,
+          "z": -1.13842193544578,
+          "deskHeight": 1.8580798558968978,
+          "terminalBottom": 1.8610803159106388,
+          "clearance": 0.003000460013740991
+        },
+        {
+          "x": -2.810899019573696,
+          "z": -0.7049250391574435,
+          "deskHeight": 1.8580798324171062,
+          "terminalBottom": 1.8610803159106388,
+          "clearance": 0.0030004834935326574
+        },
+        {
+          "x": -2.425128088858263,
+          "z": -1.5719188317341164,
+          "deskHeight": 1.858080315910639,
+          "terminalBottom": 1.8610803159106388,
+          "clearance": 0.0029999999999998916
+        },
+        {
+          "x": -2.425128088858263,
+          "z": -1.13842193544578,
+          "deskHeight": 1.8580799601410318,
+          "terminalBottom": 1.8610803159106388,
+          "clearance": 0.0030003557696069993
+        },
+        {
+          "x": -2.425128088858263,
+          "z": -0.7049250391574435,
+          "deskHeight": 1.858079803166757,
+          "terminalBottom": 1.8610803159106388,
+          "clearance": 0.0030005127438819112
+        },
+        {
+          "x": -2.03935715814283,
+          "z": -1.5719188317341164,
+          "deskHeight": 1.833390826789252,
+          "terminalBottom": 1.8610803159106388,
+          "clearance": 0.0276894891213868
+        }
+      ]
+    },
+    {
+      "check": "docking endpoint transfers ownership without a hidden frame or position, scale and orientation jump",
+      "status": "passed",
+      "dockEnd": 3.822964515633315,
+      "positionDifference": 0.000022324846530377882,
+      "scaleDifference": 0.0000022761721397536575,
+      "rotationDifferenceRadians": 0.0000025414235121404263,
+      "residentResourceDisposals": 0
+    },
+    {
+      "check": "resident skip from welcome, unfolding, travel, landing and light settling restores the complete replacement scene exactly",
+      "status": "passed",
+      "records": [
+        {
+          "at": "welcome",
+          "attached": true,
+          "originalSceneNodesVerified": 219
+        },
+        {
+          "at": 0.15,
+          "attached": true,
+          "originalSceneNodesVerified": 219
+        },
+        {
+          "at": 1.3,
+          "attached": true,
+          "originalSceneNodesVerified": 219
+        },
+        {
+          "at": 2.4,
+          "attached": true,
+          "originalSceneNodesVerified": 219
+        },
+        {
+          "at": 3.3,
+          "attached": true,
+          "originalSceneNodesVerified": 219
+        },
+        {
+          "at": 4.4,
+          "attached": true,
+          "originalSceneNodesVerified": 219
+        },
+        {
+          "at": 5.2,
+          "attached": true,
+          "originalSceneNodesVerified": 219
+        }
+      ]
+    },
+    {
+      "check": "resident wheel, keyboard and compact up-swipe trigger once, lock interaction during arrival and preserve resize progress",
+      "status": "passed",
+      "records": [
+        {
+          "input": "wheel",
+          "start": 1,
+          "complete": 1,
+          "resizedViewports": 3
+        },
+        {
+          "input": "keyboard",
+          "start": 1,
+          "complete": 1,
+          "resizedViewports": 3
+        },
+        {
+          "input": "touch",
+          "start": 1,
+          "complete": 1,
+          "resizedViewports": 3
+        }
+      ],
+      "scope": "Input/controller behavior with actual model transforms; real phone layout and rendered frame rate require browser/hardware checks."
+    },
+    {
+      "check": "initial and live reduced-motion changes retain the permanent terminal and its exact final pose",
+      "status": "passed"
+    },
+    {
+      "check": "after docking the same PBR material resources support day and night without changing geometry or pose",
+      "status": "passed",
+      "materialCount": 6,
+      "meshCount": 18,
+      "day": 1.1,
+      "night": 0.3,
+      "animatedMidpoint": 0.7
+    },
+    {
+      "check": "resident lighting remains gradual and absent-prop bake shadows stay off until every asset including the arriving terminal is complete",
+      "status": "passed",
+      "samples": 549,
+      "samplingHz": 120,
+      "samplingClock": "playback wall time",
+      "playbackRate": 1.25,
+      "maxAdjacentMixDelta": {
+        "environment": 0.008310999999999957,
+        "exterior": 0.008877000000000024,
+        "contact": 0.013020000000000032,
+        "shadow": 0.02055600000000002,
+        "terminalLight": 0.013966415301103097
+      },
+      "allowedAdjacentMixDelta": {
+        "environment": 0.01,
+        "exterior": 0.01,
+        "contact": 0.014,
+        "shadow": 0.022,
+        "terminalLight": 0.025
+      },
+      "firstShadowWallSeconds": 3.808333333333333,
+      "fullShadowWallSeconds": 4.5613297600000005,
+      "measuredShadowFadeWallSeconds": 0.7529964266666673,
+      "timelineDurationSeconds": 5.7016622,
+      "playbackDurationSeconds": 4.5613297600000005,
+      "thresholdRationale": "Per-120-Hz-playback bounds: sky/exterior at most 1%, contact 1.4%, shorter receiver shadow 2.2%, welcome light 2.5%. These evaluate the requested faster continuous fades rather than silently sampling the previous 1x clock."
+    },
+    {
+      "check": "disposing a playing controller retains resident resources until its separate owner is disposed, without touching original room atlases",
+      "status": "passed",
+      "borrowedResourceCount": 25,
+      "untouchedOriginalRoomResourceCount": 137
+    }
+  ]
+}

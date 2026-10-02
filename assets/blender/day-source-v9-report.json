@@ -1,0 +1,110 @@
+{
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v8.blend",
+  "output": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v9.blend",
+  "bytes": 73844457,
+  "sha256": "4baa50f14c06ed7a696c960953675e9e27d2d667c701861fd27c693ed1ce7cd2",
+  "source_sha256_before": "9f1061292edd45ffaec80b2a624160c8791312eed3cdbff582ee677d3e08da96",
+  "source_sha256_after": "9f1061292edd45ffaec80b2a624160c8791312eed3cdbff582ee677d3e08da96",
+  "source_file_unchanged": true,
+  "active_scene": "ORIGINAL_DAY_V9",
+  "night_scene": "ORIGINAL_NIGHT_V8",
+  "daylight": {
+    "scene": "ORIGINAL_DAY_V9",
+    "state": "day",
+    "sun_energy": 18.0,
+    "sun_position_direction": [
+      7.0,
+      16.0,
+      12.0
+    ],
+    "sun_elevation_degrees": 34.4936568430141,
+    "solar_angular_diameter_degrees": 0.526,
+    "sky_strength": 0.16,
+    "sun_color_linear": [
+      1.0,
+      0.9399999976158142,
+      0.8199999928474426
+    ],
+    "projected_window_center_on_floor": [
+      -1.3775000000000002,
+      -0.4900000000000002,
+      0.18
+    ],
+    "aperture": {
+      "center_x": 0.25,
+      "center_z": 2.97,
+      "width": 5.82,
+      "height": 2.35,
+      "radius": 0.29,
+      "min_y": 3.075,
+      "max_y": 3.79
+    },
+    "shadow_aperture_material_count": 4,
+    "patched_objects": [
+      "DAY_V8__A_BackWall_Graphite",
+      "DAY_V8__A_PanoramaTitaniumBezel",
+      "DAY_V8__A_WindowRecessLight",
+      "DAY_V8__A_Window_CityPanel",
+      "DAY_V8__A_SweepingTopBand"
+    ],
+    "shadow_proxies": [
+      "DAY_SUN_V9_Cutaway_Roof_Flag",
+      "DAY_SUN_V9_Window_Mullion_Shadow_0",
+      "DAY_SUN_V9_Window_Mullion_Shadow_1",
+      "DAY_SUN_V9_Window_Mullion_Shadow_2"
+    ],
+    "proxy_exported": false,
+    "night_changed": false,
+    "method": "One real Sun through a rounded shadow-ray aperture, with a cutaway ceiling flag; coherent geometrical furniture shadows and localized oblique sunlight.",
+    "tradeoff": "The modeled backdrop wall is solid behind the city image. Day-only shadow transparency acts as its light aperture. Roof and three optional mullions are camera-invisible lighting proxies and are not exported visible geometry."
+  },
+  "day_asset_count": 129,
+  "night_asset_count": 129,
+  "source_asset_count": 129,
+  "all_asset_ids_and_world_transforms_unchanged": true,
+  "existing_day_geometry_and_camera_transforms_unchanged": true,
+  "night_before": {
+    "sha256": "c078f9ff1aebad908646c8bba26b3adc1106fad9a9e8a5ab5fcd11476cc04ba2",
+    "object_count": 2092,
+    "material_count": 78,
+    "light_count": 26
+  },
+  "night_after": {
+    "sha256": "c078f9ff1aebad908646c8bba26b3adc1106fad9a9e8a5ab5fcd11476cc04ba2",
+    "object_count": 2092,
+    "material_count": 78,
+    "light_count": 26
+  },
+  "source_scene_before": {
+    "sha256": "0e87545a136b29ee645d882ffd4002dc46af55cc621becffd76965f96dee761c",
+    "object_count": 2090,
+    "material_count": 78,
+    "light_count": 24
+  },
+  "source_scene_after": {
+    "sha256": "0e87545a136b29ee645d882ffd4002dc46af55cc621becffd76965f96dee761c",
+    "object_count": 2090,
+    "material_count": 78,
+    "light_count": 24
+  },
+  "accepted_night_scene_unchanged": true,
+  "original_source_scene_unchanged": true,
+  "all_other_scenes_preserved": [
+    "ENV_CITY",
+    "ENV_CITY.001",
+    "ORBITAL_ATELIER_V2",
+    "ORIGINAL_NIGHT_V8",
+    "SCREEN_ART",
+    "Scene",
+    "WEB_BAKE_V4",
+    "WEB_CHAIR_REBAKE"
+  ],
+  "renders_executed": 0,
+  "reopen_verification": {
+    "reopened_successfully": true,
+    "saved_active_scene": "ORIGINAL_DAY_V9",
+    "night_signature_preserved": true,
+    "original_source_signature_preserved": true,
+    "day_proxy_count": 4
+  }
+}

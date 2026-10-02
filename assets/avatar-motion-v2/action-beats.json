@@ -1,0 +1,32 @@
+{
+  "greeting": {
+    "title": "抬眼微笑",
+    "duration": 110,
+    "beats": {
+      "11": "Recover the head toward its exact original angle and smile in the baseline, 80 percent back; free hand still down. Leave a small difference for the final in-between.",
+      "02": "A small anticipatory nod: chin lowers 6 degrees, eyelids close in a relaxed blink, free screen-right hand stays down at thigh. Both feet and the terminal hand stay fixed.",
+      "05": "Eyes open toward the viewer; chin rises back then 5 degrees above baseline; mouth opens into a warm slightly broader smile, eyebrow lifts. Free hand remains down, shoulders lift only a little.",
+      "08": "Hold the friendly greeting with head tilted 6 degrees toward screen-right, soft smiling eyes and a lively small smile. Terminal stays steady, free arm relaxed."
+    }
+  },
+  "tap": {
+    "title": "点触终端",
+    "duration": 100,
+    "beats": {
+      "11": "Recovery: screen-right hand nearly down at its original thigh position, elbow slightly bent; gaze lifts back toward baseline; return is almost complete.",
+      "02": "Anticipation: eyes look down at terminal. Free screen-right elbow starts bending, hand lifts from thigh toward lower ribs, index finger beginning to extend. Screen-left hand always supports terminal.",
+      "05": "Contact: free screen-right forearm reaches across the chest from its same screen-right shoulder; its index fingertip gently touches the lower viewer-right region of the terminal screen. Eyes follow finger. Supporting screen-left hand remains under device; no other hand supports it.",
+      "08": "Recoil: index retracts 6 centimetres from screen, forearm starting to withdraw along the same arc; head still watches terminal, wrist relaxed. No second supporting hand."
+    }
+  },
+  "present": {
+    "title": "向前展示",
+    "duration": 110,
+    "beats": {
+      "11": "Recovery: terminal and right supporting forearm 85 percent back to baseline, free screen-right hand lowers almost to thigh, expression settles to original smile.",
+      "02": "Anticipation: free screen-right elbow bends slightly, hand turns palm-up at waist, head tilts toward the terminal; supported terminal draws inward just 2 centimetres.",
+      "05": "Presentation apex: screen-left forearm extends the terminal forward a restrained 6 centimetres and tips the display 8 degrees toward viewer; screen-right free hand opens palm-up beside waist as an invitation; face smiles toward viewer. No enlargement of device or character, only this small physical movement.",
+      "08": "Hold presentation with a tiny welcoming head nod, palm-up free hand relaxing its fingers; device still stably supported. Same camera and feet."
+    }
+  }
+}

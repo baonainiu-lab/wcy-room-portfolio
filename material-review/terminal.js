@@ -1,0 +1,28 @@
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {KTX2Loader} from 'three/addons/loaders/KTX2Loader.js';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+import {createTerminalToneMapping} from '../src/terminal-tone.js';
+const renderer=new THREE.WebGLRenderer({canvas:document.querySelector('canvas'),antialias:true});
+renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+const scene=new THREE.Scene();scene.background=new THREE.Color('#eae7de');
+const camera=new THREE.PerspectiveCamera(35,innerWidth/innerHeight,.01,1000),controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;
+const env=new RoomEnvironment(),generator=new THREE.PMREMGenerator(renderer),probe=generator.fromScene(env,.04);env.dispose();generator.dispose();
+const fill=new THREE.HemisphereLight('#fffaed','#6e818e',2.1),sun=new THREE.DirectionalLight('#fff1d9',3.1);sun.position.set(-6,14,10);scene.add(fill,sun);
+const loader=new KTX2Loader().setTranscoderPath('/basis/').setWorkerLimit(2).detectSupport(renderer);
+const gltf=await new GLTFLoader().setKTX2Loader(loader).loadAsync('/models/welcome-terminal-v3-compressed.glb');scene.add(gltf.scene);
+const tone=createTerminalToneMapping({THREE,model:gltf.scene});
+const materials=new Set();gltf.scene.traverse(n=>{if(n.isMesh)for(const m of [].concat(n.material)){materials.add(m);m.envMap=probe.texture;m.envMapIntensity=.9;m.needsUpdate=true;}});
+const emissions=new Map([...materials].map(m=>[m,m.emissiveIntensity]));
+const mixer=new THREE.AnimationMixer(gltf.scene),clip=gltf.animations.find(c=>c.name==='TerminalUnfold'),action=mixer.clipAction(clip);action.setLoop(THREE.LoopOnce,1);action.clampWhenFinished=true;action.play();action.paused=true;
+let errors=[];renderer.debug.onShaderError=(gl,p,v,f)=>{errors.push({program:gl.getProgramInfoLog(p),vertex:gl.getShaderInfoLog(v),fragment:gl.getShaderInfoLog(f)});console.error(errors.at(-1));};
+function sample(t){action.time=t*clip.duration;mixer.update(0);gltf.scene.updateMatrixWorld(true);}
+sample(1);const b=new THREE.Box3().setFromObject(gltf.scene),center=b.getCenter(new THREE.Vector3()),span=b.getSize(new THREE.Vector3()).length();camera.position.copy(center).addScaledVector(new THREE.Vector3(.65,1.15,1.4).normalize(),span*1.45);controls.target.copy(center);sample(0);
+document.querySelector('#closed').onclick=()=>sample(0);document.querySelector('#open').onclick=()=>sample(1);
+document.querySelector('#welcome').onclick=()=>{fill.intensity=2.1;sun.intensity=3.1;materials.forEach(m=>{m.envMapIntensity=.9;m.emissiveIntensity=emissions.get(m);});};
+document.querySelector('#night').onclick=()=>{fill.intensity=0;sun.intensity=0;materials.forEach(m=>{m.envMapIntensity=.3;m.emissiveIntensity=emissions.get(m)*.47;});};
+function resize(){renderer.setSize(innerWidth,innerHeight);camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();}addEventListener('resize',resize);resize();
+renderer.compile(scene,camera);document.querySelector('#status').textContent='终端 V3 / 实时原生 PBR';
+renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera);document.querySelector('#diagnostics').textContent=JSON.stringify({tone:tone.getState(),materials:[...materials].map(m=>({name:m.name,mapChannel:m.map?.channel,normalChannel:m.normalMap?.channel,compressed:!!m.map?.isCompressedTexture,format:m.map?.format})),shaderErrors:errors,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,pose:action.time});});
+addEventListener('pagehide',()=>{renderer.setAnimationLoop(null);tone.dispose();controls.dispose();loader.dispose();probe.dispose();const textures=new Set();gltf.scene.traverse(n=>{if(n.isMesh)n.geometry.dispose();});materials.forEach(m=>{for(const t of Object.values(m))if(t?.isTexture)textures.add(t);m.dispose();});textures.forEach(t=>t.dispose());renderer.dispose();},{once:true});

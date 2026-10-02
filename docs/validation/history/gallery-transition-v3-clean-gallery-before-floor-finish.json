@@ -1,0 +1,153 @@
+{
+  "revision": 3,
+  "checkedAt": "2026-09-24T17:08:20.120Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Real Three.js objects, production shared-stage/path modules, actual custom OrbitControls, and production main lifecycle functions isolated in VM. DOM and renderer only are simulated. Tests validate physical model offsets, perspective projection equivalence, shared resource ownership, lifecycle, renderer state, and sampler separation. No GPU performance or rendered image-quality claim is made.",
+  "sourceSha256": {
+    "src/gallery-transition.js": "19a046f870ea1532688232dbde8bb97cd6bc4d2d1604b510f682cd42e7a51cde",
+    "src/gallery-transition-path.js": "054ba1e480e4bb1a72f942dc189abbafaf9fbe976f411259ce3d4ca445e3800c",
+    "src/main.js": "a1d5d8e71d5193886b26e69931af3de1969d97386640aaba3c2cc94aa0f104b5",
+    "src/works-gallery.js": "5b54df89614f70aba827e505fbd512b9fdf8eafa4922cdf7c6fa89720df944d1",
+    "src/utils/OrbitControls.js": "ab46812656956ff81a121973a82acb179e7d3b0b782483693e2440313fa94160"
+  },
+  "checks": 19,
+  "passed": 19,
+  "failed": 0,
+  "results": [
+    {
+      "check": "shared camera path: exact endpoints, consistent native frames and smooth terminal velocity",
+      "status": "passed",
+      "directions": 2,
+      "maximumProjectionError": 1.3202568498337084e-13,
+      "nativeEndpointTolerance": 0
+    },
+    {
+      "check": "stage contains independent model transforms and shares only geometry/material resources",
+      "status": "passed",
+      "berthOffset": [
+        34,
+        -0.185,
+        1.5
+      ],
+      "maxEndpointError": 4.344434768182728e-16,
+      "sharedGeometry": true,
+      "sharedMaterials": true
+    },
+    {
+      "check": "clean gallery berth preserves the shared continuous floor and native floor visibility",
+      "status": "passed",
+      "stageOffset": [
+        34,
+        -0.185,
+        1.5
+      ],
+      "stageFloorVisible": true,
+      "nativeFloorVisible": true,
+      "floorY": -1.065
+    },
+    {
+      "check": "same-frame live transform synchronization follows room and gallery asset IDs without mutating originals",
+      "status": "passed"
+    },
+    {
+      "check": "full lifecycle never disposes shared model geometry, materials or textures",
+      "status": "passed",
+      "sharedResourcesObserved": 9,
+      "sharedDisposals": 0
+    },
+    {
+      "check": "prepare: four compile passes, offscreen real stage warmup, restored renderer and no feedback",
+      "status": "passed",
+      "compiledPasses": 4,
+      "offscreenDraws": 3,
+      "feedbackChecks": 1
+    },
+    {
+      "check": "failed composite warmup restores samplers and allows same-model retry",
+      "status": "passed"
+    },
+    {
+      "check": "gallery load retry rebuilds stage around replacement model instead of disposed old assets",
+      "status": "passed"
+    },
+    {
+      "check": "concurrent preparation is deduplicated and disposal before compilation finishes prevents draws",
+      "status": "passed"
+    },
+    {
+      "check": "30, 60 and 120 Hz use genuine shared-stage frames and commit one exact final view",
+      "status": "passed",
+      "frameCounts": [
+        {
+          "fps": 30,
+          "frames": 85,
+          "sharedStageOnlyFrames": 46
+        },
+        {
+          "fps": 60,
+          "frames": 170,
+          "sharedStageOnlyFrames": 91
+        },
+        {
+          "fps": 120,
+          "frames": 338,
+          "sharedStageOnlyFrames": 181
+        }
+      ],
+      "postCommitControlFrames": 120
+    },
+    {
+      "check": "production return keeps saved near-room pose and hands off controls with no movement",
+      "status": "passed",
+      "finalDistance": 5,
+      "guardResets": 1,
+      "commitCount": 1
+    },
+    {
+      "check": "production mid-travel resize updates destination once and final native pose remains stable",
+      "status": "passed"
+    },
+    {
+      "check": "return adapts to viewport changed before travel starts, with exact offset projection",
+      "status": "passed"
+    },
+    {
+      "check": "cancel early, mid-flight and late prevents commits and allows a fresh run",
+      "status": "passed"
+    },
+    {
+      "check": "reduced motion renders stationary native views and one short dissolve commit",
+      "status": "passed"
+    },
+    {
+      "check": "long and invalid deltas cannot skip passage or reverse elapsed time",
+      "status": "passed"
+    },
+    {
+      "check": "renderer state restores after shared-stage, native or composite render exceptions",
+      "status": "passed"
+    },
+    {
+      "check": "target formats match capabilities and disposal releases only owned render targets",
+      "status": "passed",
+      "choices": [
+        {
+          "float": true,
+          "ratio": 2,
+          "samples": 0
+        },
+        {
+          "float": false,
+          "ratio": 1,
+          "samples": 2
+        }
+      ]
+    },
+    {
+      "check": "actual production inertia flush clears residual orbit, pan and dolly without moving visible pose",
+      "status": "passed",
+      "cameraJump": 0
+    }
+  ]
+}

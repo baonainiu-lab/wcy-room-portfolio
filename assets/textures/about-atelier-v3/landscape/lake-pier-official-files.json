@@ -1,0 +1,86 @@
+{
+  "tonemapped": {
+    "size": 38261856,
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/lake_pier.jpg",
+    "md5": "044387259f76a1df3aa68882a6687b5a"
+  },
+  "hdri": {
+    "8k": {
+      "hdr": {
+        "size": 99046418,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/8k/lake_pier_8k.hdr",
+        "md5": "de2a8eec2327c16ea49d8c900c313efd"
+      },
+      "exr": {
+        "size": 325215984,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/8k/lake_pier_8k.exr",
+        "md5": "d585984decd25016e16f28d254468c5b"
+      }
+    },
+    "16k": {
+      "hdr": {
+        "size": 379347731,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/16k%2B/lake_pier_16k.hdr",
+        "md5": "9a052aa6d4d328dfd5a4e5ec60b057bc"
+      },
+      "exr": {
+        "size": 1260928202,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/16k%2B/lake_pier_16k.exr",
+        "md5": "b07c5f42fbda8b4aa7373a86b27839cd"
+      }
+    },
+    "4k": {
+      "hdr": {
+        "size": 25272796,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/lake_pier_4k.hdr",
+        "md5": "a594fb60a0428cd333251d92c10f5dc9"
+      },
+      "exr": {
+        "size": 84290369,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/lake_pier_4k.exr",
+        "md5": "ad22ddbda25afdf5913521612006a349"
+      }
+    },
+    "2k": {
+      "hdr": {
+        "size": 6412039,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/lake_pier_2k.hdr",
+        "md5": "e5699e7826366e3a97eb7896943123a0"
+      },
+      "exr": {
+        "size": 22182079,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/2k/lake_pier_2k.exr",
+        "md5": "d2518a37a3e35814ca6cbdf73308c0d7"
+      }
+    },
+    "1k": {
+      "hdr": {
+        "size": 1630562,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/lake_pier_1k.hdr",
+        "md5": "0309ecbd192c55689b6b1d8f11f3a95c"
+      },
+      "exr": {
+        "size": 5960586,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/1k/lake_pier_1k.exr",
+        "md5": "8dc2dd709e6b1bbcd263d4fe72a3b294"
+      }
+    },
+    "21k": {
+      "hdr": {
+        "size": 649145787,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/16k%2B/lake_pier_21k.hdr",
+        "md5": "e2fa621f4574924dd403d09b75bb2a68"
+      },
+      "exr": {
+        "size": 2190325817,
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/16k%2B/lake_pier_21k.exr",
+        "md5": "d09b454bed7dcec38cf54d88e4e60afb"
+      }
+    }
+  },
+  "colorchart": {
+    "size": 393570349,
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Color%20Charts/lake_pier.zip",
+    "md5": "6f5af122446211e205124c39081449da"
+  }
+}

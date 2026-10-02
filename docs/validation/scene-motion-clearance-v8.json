@@ -1,0 +1,258 @@
+{
+  "ok": true,
+  "revision": 8,
+  "generatedAt": "2026-09-25T15:03:16.932Z",
+  "scope": "Actual active GLB surface and floor samples plus deterministic production motion; no rendered-image or FPS claim",
+  "hashes": {
+    "src/scene-motion.js": "744b7d9283f32eec875c9fd3a1bf0110716cd6b57e21b875d808df46e7f51e25",
+    "scripts/check-scene-motion-clearance.mjs": "c300751b32052197b230f9b6562380ab8b48dfd29202ca09252693e06a2ff7c8",
+    "public/models/orbital-atelier-v15-compressed.glb": "3787d233559af32f2e3ababb21b71c56c5805e7c7f2e286f87634efe8cd6bffd"
+  },
+  "results": [
+    {
+      "check": "Actual moving robot and chair stay clear of nearby furniture; all three feet remain above supported platform surfaces",
+      "status": "passed",
+      "sampledPoses": 521,
+      "sampleIntervalSeconds": 0.1,
+      "minimumFootFloorGapMetres": 0.011876811408047083,
+      "maximumLowestSupportGapMetres": 0.014807380364940004,
+      "minimumPlatformBoundingEdgeMarginMetres": 0.08389861090047734,
+      "maximumRobotTravelMetres": 1.0332473048231081,
+      "samples": [
+        {
+          "time": 0,
+          "robot": [
+            -3.2300000190734863,
+            0.18000000715255737,
+            2.5799999237060547
+          ]
+        },
+        {
+          "time": 2,
+          "robot": [
+            -3.2300000190734863,
+            0.18000000715255737,
+            2.8127566753167397
+          ]
+        },
+        {
+          "time": 4,
+          "robot": [
+            -3.2111466509170525,
+            0.18073689998363288,
+            2.845328835458591
+          ]
+        },
+        {
+          "time": 6,
+          "robot": [
+            -2.5478276900066072,
+            0.1814927294073541,
+            2.8584721950066494
+          ]
+        },
+        {
+          "time": 8,
+          "robot": [
+            -2.2303987221219543,
+            0.18024019058118962,
+            2.8406333410640356
+          ]
+        },
+        {
+          "time": 10,
+          "robot": [
+            -2.230028759035297,
+            0.18007502934933958,
+            2.8398117427945393
+          ]
+        },
+        {
+          "time": 12,
+          "robot": [
+            -2.456625446297845,
+            0.1813856537814236,
+            2.8233919972387103
+          ]
+        },
+        {
+          "time": 14,
+          "robot": [
+            -3.1901583352327116,
+            0.18098398490252837,
+            2.832352461209628
+          ]
+        },
+        {
+          "time": 16,
+          "robot": [
+            -3.2299998655457185,
+            0.18000038686831416,
+            2.8399994265263295
+          ]
+        },
+        {
+          "time": 18,
+          "robot": [
+            -3.2111466509169406,
+            0.18073689998397247,
+            2.8453288433735784
+          ]
+        },
+        {
+          "time": 20,
+          "robot": [
+            -2.547827690006856,
+            0.1814927294073608,
+            2.8584721950066543
+          ]
+        },
+        {
+          "time": 22,
+          "robot": [
+            -2.2303987221219557,
+            0.18024019058119112,
+            2.840633341064037
+          ]
+        },
+        {
+          "time": 24,
+          "robot": [
+            -2.2300287590352967,
+            0.18007502934934003,
+            2.83981174279454
+          ]
+        },
+        {
+          "time": 26,
+          "robot": [
+            -2.456625446297549,
+            0.18138565378143212,
+            2.8233919972387174
+          ]
+        },
+        {
+          "time": 28,
+          "robot": [
+            -3.190158335232618,
+            0.18098398490253448,
+            2.832352461209619
+          ]
+        },
+        {
+          "time": 30,
+          "robot": [
+            -3.2299998655457185,
+            0.18000038686831416,
+            2.8399994265263295
+          ]
+        },
+        {
+          "time": 32,
+          "robot": [
+            -3.2111466509169957,
+            0.18073689998397702,
+            2.845328843373571
+          ]
+        },
+        {
+          "time": 34,
+          "robot": [
+            -2.547827690007202,
+            0.18149272940736996,
+            2.858472195006659
+          ]
+        },
+        {
+          "time": 36,
+          "robot": [
+            -2.230398722121957,
+            0.18024019058119262,
+            2.8406333410640383
+          ]
+        },
+        {
+          "time": 38,
+          "robot": [
+            -2.2300287590352967,
+            0.1800750293493405,
+            2.839811742794541
+          ]
+        },
+        {
+          "time": 40,
+          "robot": [
+            -2.4566254462972523,
+            0.1813856537814406,
+            2.8233919972387254
+          ]
+        },
+        {
+          "time": 42,
+          "robot": [
+            -3.1901583352325247,
+            0.1809839849025405,
+            2.8323524612096103
+          ]
+        },
+        {
+          "time": 44,
+          "robot": [
+            -3.2299998655457185,
+            0.18000038686831416,
+            2.8399994265263295
+          ]
+        },
+        {
+          "time": 46,
+          "robot": [
+            -3.2111466509170485,
+            0.18073689998398149,
+            2.8453288433735633
+          ]
+        },
+        {
+          "time": 48,
+          "robot": [
+            -2.5478276900075496,
+            0.18149272940737912,
+            2.858472195006665
+          ]
+        },
+        {
+          "time": 50,
+          "robot": [
+            -2.2303987221219597,
+            0.1802401905811941,
+            2.8406333410640405
+          ]
+        },
+        {
+          "time": 52,
+          "robot": [
+            -2.2300287590352967,
+            0.18007502934934091,
+            2.839811742794542
+          ]
+        }
+      ],
+      "limitation": "All moving source triangle edges checked against furniture triangles at 0.1 s intervals. Floor rays use the lowest vertex of each foot; every foot vertex stays within platform bounds. This is sampled surface collision testing, not a continuous collision proof or inverse-kinematics foot planting. Existing chair-to-platform baked contact is unchanged."
+    },
+    {
+      "check": "Real GSAP ancestor transforms freeze the entire robot assembly; hover resumes its local clock without teleporting",
+      "status": "passed",
+      "hoveredLegFreezesWholeRobot": true,
+      "ancestorTweenFreezesWholeRobot": true,
+      "interactionUsesCurrentPose": true
+    },
+    {
+      "check": "One hour of active playback has bounded normalized poses, preserves independent IDs and creates no meshes or geometry",
+      "status": "passed",
+      "activeSeconds": 3600,
+      "maximumLocalTravelMetres": 1.033247293916146,
+      "maximumQuaternionLengthError": 8.060468337234283e-8,
+      "addedMeshes": 0,
+      "changedGeometries": 0
+    }
+  ]
+}

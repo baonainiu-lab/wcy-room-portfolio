@@ -1,0 +1,185 @@
+{
+  "work_id": "sugar-shell-glutton",
+  "reviewed_at": "2026-10-01",
+  "title": "糖壳暴食兽",
+  "source_video": {
+    "path": "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/王丞业_糖壳暴食兽_VibeCoding作品演示_1080p.mp4",
+    "sha256": "f2c959c4283c46b64d920433e1425ffb0ea525cc3e13b1d7f6f251a4d66e32e6",
+    "duration_seconds": 60,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "video_codec": "H.264",
+    "audio_codec": "AAC",
+    "verified_now": "FFmpeg metadata inspection and SHA-256 match against existing final-verification.json; extracted and visually reviewed source frames."
+  },
+  "sources": {
+    "contribution": "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/个人贡献说明.txt",
+    "timeline": "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/timeline.json",
+    "graphics_manifest": "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/graphics/manifest.json",
+    "existing_verification": "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/qa/final-verification.json",
+    "reviewed_contact_sheets": [
+      "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/graphics/qa-contact-sheet.jpg",
+      "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/qa/delivery-contact-sheet.jpg"
+    ]
+  },
+  "suggested_copy": {
+    "category": "3D 玩法原型 · Vibe Coding 个人作品",
+    "summary": "以战斗技能组合、随机道具构筑和三片区域探索为核心，串联永久成长与工坊扩建的 3D 玩法原型。",
+    "technology": [
+      "Godot 4",
+      "GDScript",
+      "Blender",
+      "AI Coding"
+    ],
+    "personal_contribution": "负责玩法与数值设计、Godot / GDScript 原型搭建、三维资产接入、测试与迭代。AI Coding 辅助需求拆分、代码实现、问题定位和回归验证。",
+    "production_note": "美术与开发结合 AI、Blender 脚本及 CC0 特效素材；视频使用独立演示存档编排实机流程。"
+  },
+  "feature_evidence": [
+    {
+      "label": "技能组合与位移规避",
+      "video_range_seconds": [
+        3,
+        14
+      ],
+      "detail": "读懂敌人预警并位移规避；聚怪、破甲、范围攻击组合。",
+      "source": [
+        "timeline.json",
+        "graphics/manifest.json",
+        "source video"
+      ]
+    },
+    {
+      "label": "攻击节奏与命中反馈",
+      "video_range_seconds": [
+        14,
+        23
+      ],
+      "detail": "蓄压、前冲、落地、收势；按动画接触点结算伤害与精准释放窗口。",
+      "source": [
+        "timeline.json",
+        "graphics/manifest.json"
+      ]
+    },
+    {
+      "label": "随机道具与局内构筑",
+      "video_range_seconds": [
+        23,
+        31
+      ],
+      "detail": "随机道具选择与组合打法。",
+      "source": [
+        "timeline.json",
+        "source video @24.5s"
+      ]
+    },
+    {
+      "label": "三片区域探索",
+      "video_range_seconds": [
+        31,
+        39
+      ],
+      "detail": "三段区域实机画面；字幕说明宝箱与真实导航路线。",
+      "source": [
+        "timeline.json",
+        "graphics/manifest.json"
+      ]
+    },
+    {
+      "label": "永久成长与工坊扩建",
+      "video_range_seconds": [
+        39,
+        47
+      ],
+      "detail": "工坊菜单与成长演示。",
+      "source": [
+        "个人贡献说明.txt",
+        "source video @40.5s"
+      ]
+    },
+    {
+      "label": "原型实现与个人贡献",
+      "video_range_seconds": [
+        47,
+        60
+      ],
+      "detail": "代码节选、既有回归记录和个人贡献尾卡。",
+      "source": [
+        "graphics/manifest.json",
+        "个人贡献说明.txt"
+      ]
+    }
+  ],
+  "claim_boundaries": [
+    "Agent NPC 与多路线任务属于后续设计，不列为已实现功能。",
+    "不能把 AI / 脚本辅助制作宣称为纯手工作业或全部原创素材。",
+    "50.5–54秒展示的是2026-09-30既有回归记录；本次未执行游戏回归测试，不把历史数字表述为本次结果。",
+    "个人贡献说明出现 wcy90.cn，但本次不据此添加发布地址、源码仓库或可玩链接。",
+    "未推断职业、工作履历、用户量、商业成果或团队规模。",
+    "CC0素材接入为已有材料中的制作声明；本次未进行逐项许可审计。"
+  ],
+  "frame_assets": [
+    {
+      "path": "/media/works/sugar-shell-glutton/poster.webp",
+      "source_time_seconds": 0.8,
+      "source_frame": 24,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 282878,
+      "alt": "《糖壳暴食兽》视频开场",
+      "method": "Direct frame extraction from supplied 1080p MP4 with FFmpeg; WebP quality 92, no crop, no AI redraw."
+    },
+    {
+      "path": "/media/works/sugar-shell-glutton/combat.webp",
+      "source_time_seconds": 12.3,
+      "source_frame": 369,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 356932,
+      "alt": "技能组合：聚怪、破甲与范围攻击",
+      "method": "Direct frame extraction from supplied 1080p MP4 with FFmpeg; WebP quality 92, no crop, no AI redraw."
+    },
+    {
+      "path": "/media/works/sugar-shell-glutton/build.webp",
+      "source_time_seconds": 24.5,
+      "source_frame": 735,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 187472,
+      "alt": "随机道具选择与局内构筑",
+      "method": "Direct frame extraction from supplied 1080p MP4 with FFmpeg; WebP quality 92, no crop, no AI redraw."
+    },
+    {
+      "path": "/media/works/sugar-shell-glutton/exploration.webp",
+      "source_time_seconds": 36.8,
+      "source_frame": 1104,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 308338,
+      "alt": "三片探索区域之一：琥珀猎场",
+      "method": "Direct frame extraction from supplied 1080p MP4 with FFmpeg; WebP quality 92, no crop, no AI redraw."
+    },
+    {
+      "path": "/media/works/sugar-shell-glutton/workshop.webp",
+      "source_time_seconds": 40.5,
+      "source_frame": 1215,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 387420,
+      "alt": "永久成长与工坊扩建界面",
+      "method": "Direct frame extraction from supplied 1080p MP4 with FFmpeg; WebP quality 92, no crop, no AI redraw."
+    }
+  ]
+}

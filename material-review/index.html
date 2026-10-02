@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>材质实景校验</title>
+<style>html,body{margin:0;overflow:hidden;background:#e4e5de;color:#183241;font:14px system-ui}canvas{display:block}nav{position:fixed;left:18px;top:18px;z-index:2;display:flex;gap:8px}button{padding:8px 14px;border:1px solid #88928d;border-radius:5px;background:#f2efe9;color:inherit}output{position:fixed;bottom:18px;left:18px;white-space:pre-wrap;background:#f2efe9dd;padding:10px;max-width:85vw}#status{position:fixed;right:18px;top:18px;background:#f2efe9dd;padding:8px}</style>
+<nav><button id="day">白天</button><button id="dusk">过渡中段</button><button id="night">夜晚</button><button id="cycle">连续昼夜</button><button id="close">近看桌面</button><button id="reset">完整场景</button><button id="spec">反光开关</button><button id="raw">无压缩原图对照</button></nav>
+<style>output{max-height:65px;overflow:auto;font-size:10px;pointer-events:none;opacity:.8;max-width:280px}nav{flex-wrap:wrap;max-width:80vw}</style>
+<span id="status">载入新材质…</span><canvas></canvas><output id="diagnostics"></output>
+<script type="module" src="./review.js"></script></html>

@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "source": "assets/blender/about-atelier-v3-architecture-v2.blend",
+  "sourceSha256": "6b77e0c118cc248616bee6e80779ab13000a59eadfbea0714b344dc66f936e33",
+  "originalSourceUnchanged": true,
+  "mainGeometryHierarchyTransformsUnchanged": true,
+  "mainObjects": 1748,
+  "mainAssetCount": 128,
+  "closedManifoldArchitectureObjects": 98,
+  "allEvaluatedMeshesManifoldWithPositiveVolume": true,
+  "deckEnvelopeBlender": {
+    "min": [
+      -5.892000198364258,
+      -5.98199987411499,
+      -0.4700000286102295
+    ],
+    "max": [
+      7.421999931335449,
+      5.381999969482422,
+      0.0030000023543834686
+    ]
+  },
+  "allTwentyFloorTilesOverlapStructuralSlab": true,
+  "allFourCopingPiecesOverlapStructuralSlab": true,
+  "RecessedUndersideOverlapsStructuralSlab": true,
+  "sourceNoLongerHasPaperEdge": true,
+  "verticalsHaveTopAndBottomConnections": 23,
+  "frontAndRightRemainOpen": true
+}

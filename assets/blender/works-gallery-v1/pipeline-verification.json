@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-09-24T21:35:06.143011+08:00",
+  "model": "public/models/works-gallery-v1.glb",
+  "modelSha256": "744025f98bb4f774c28cfe7b73a52ce7cbc4648b4c112df508c14a07197468fb",
+  "bytes": 33914696,
+  "triangles": 785522,
+  "drawPrimitives": 89,
+  "meshCount": 89,
+  "nodeCount": 160,
+  "assetCount": 86,
+  "rootAssetCount": 43,
+  "preparationId": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+  "checks": {
+    "asset_ids_match_source": true,
+    "asset_ids_unique": true,
+    "asset_hierarchy_matches_source": true,
+    "object_hierarchy_matches_source": true,
+    "owner_metadata_preserved": true,
+    "source_nodes_reachable": true,
+    "four_night_pngs_embedded_and_byte_identical": true,
+    "materials_unlit_double_sided": true,
+    "png_chunk_crc_checks": true
+  },
+  "sourceBlenderUnchanged": true,
+  "originalRoomGLBUnchanged": true,
+  "coordinateMapping": "Blender (x,y,z) -> glTF/Three (x,z,-y)",
+  "bounds": {
+    "all": {
+      "blender": {
+        "min": [
+          -40.06082534790039,
+          -6.480000019073486,
+          -5.909999847412109
+        ],
+        "max": [
+          35.06399917602539,
+          60.95798873901367,
+          16.764598846435547
+        ]
+      },
+      "web": {
+        "min": [
+          -40.06082534790039,
+          -5.909999847412109,
+          -60.95798873901367
+        ],
+        "max": [
+          35.06399917602539,
+          16.764598846435547,
+          6.480000019073486
+        ]
+      }
+    },
+    "galleryArchitectureAndExhibits": {
+      "blender": {
+        "min": [
+          -9.289999961853027,
+          -6.480000019073486,
+          -0.49000000953674316
+        ],
+        "max": [
+          8.199999809265137,
+          4.0,
+          5.411657810211182
+        ]
+      },
+      "web": {
+        "min": [
+          -9.289999961853027,
+          -0.49000000953674316,
+          -4.0
+        ],
+        "max": [
+          8.199999809265137,
+          5.411657810211182,
+          6.480000019073486
+        ]
+      }
+    },
+    "camera": {
+      "type": "PERSP",
+      "blenderPosition": [
+        17.0,
+        -28.0,
+        15.5
+      ],
+      "webPosition": [
+        17.0,
+        15.5,
+        28.0
+      ]
+    }
+  },
+  "runtimeGroundY": -0.83,
+  "pngSourceTextures": "public/textures/works-gallery-v1/{day|night}-{0|1|2|3}.png",
+  "atlasSizes": [
+    4096,
+    3072,
+    4096,
+    4096
+  ],
+  "color": "sRGB baked AgX, unlit, runtime toneMapped=false, external PNG flipY=false",
+  "limits": [
+    "This geometry/resource validation does not prove 120 FPS.",
+    "Runtime navigation, collision, visual QA and performance are verified separately by the integrating task."
+  ]
+}

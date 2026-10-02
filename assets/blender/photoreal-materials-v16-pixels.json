@@ -1,0 +1,465 @@
+{
+  "complete": true,
+  "method": "Original PNG readback only; deterministic stride-8 statistics in display-referred RGB. No pixel modifications.",
+  "resolutionChecksPassed": true,
+  "nonEmptyChecksPassed": true,
+  "distinctDayNightChecksPassed": true,
+  "slots": [
+    {
+      "slot": 0,
+      "day": {
+        "path": "public/textures/lighting-v16/day-0.png",
+        "sha256": "3735675484f5e575fed0d43a0822d7f853b79896d8536820aee4c12b505e8e1f",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.17729568481445312,
+        "occupiedLumaMean": 58.42914949760096,
+        "occupiedLumaPercentiles": [
+          1.004,
+          41.2602,
+          175.298,
+          215.8648
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-0.png",
+        "sha256": "a7682600e9e8e6067d4e0e9e5b6761409cbd804444582ec6ac585663d71bf3da",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.12099838256835938,
+        "occupiedLumaMean": 38.23202580157003,
+        "occupiedLumaPercentiles": [
+          1.2166,
+          15.892199999999999,
+          207.55460000000002,
+          231.78679999999994
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 44.1074333190918
+    },
+    {
+      "slot": 1,
+      "day": {
+        "path": "public/textures/lighting-v16/day-1.png",
+        "sha256": "4723f5d6e666c99c0dd62bfafe816c5a746298a0ad5af076751b8e8aa03f70f9",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.1604156494140625,
+        "occupiedLumaMean": 60.754799357937785,
+        "occupiedLumaPercentiles": [
+          1.7191999999999998,
+          28.3324,
+          188.77999999999997,
+          217.19319999999996
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-1.png",
+        "sha256": "916ca99d77e59bd1b0bc57378241519193163476b539c02a64a2716ade43dccb",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.12398529052734375,
+        "occupiedLumaMean": 59.87179232047257,
+        "occupiedLumaPercentiles": [
+          1.004,
+          16.6888,
+          242.38339999999997,
+          251.9462
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 39.230079650878906
+    },
+    {
+      "slot": 2,
+      "day": {
+        "path": "public/textures/lighting-v16/day-2.png",
+        "sha256": "3fb3fd9befa899624a732ea5a91d23d78134e65c7f26a5dc5286323ca44baeac",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.3649101257324219,
+        "occupiedLumaMean": 52.81727567087257,
+        "occupiedLumaPercentiles": [
+          1.004,
+          23.880799999999997,
+          171.49,
+          192.0666
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-2.png",
+        "sha256": "77223f885c4b52cdfef191d9ebad6ab5dca8ced1138663f19afd203245f201b2",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.30104827880859375,
+        "occupiedLumaMean": 41.71244784459819,
+        "occupiedLumaPercentiles": [
+          1.004,
+          17.135199999999998,
+          213.3918,
+          236.24
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 36.19944381713867
+    },
+    {
+      "slot": 3,
+      "day": {
+        "path": "public/textures/lighting-v16/day-3.png",
+        "sha256": "6d4140e9e019b681d77685f04f952c9f20cc4194e18e853c96e1bba79d8a5130",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.38596343994140625,
+        "occupiedLumaMean": 65.69405265373895,
+        "occupiedLumaPercentiles": [
+          1.7913999999999999,
+          41.803399999999996,
+          197.5748,
+          236.7794
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-3.png",
+        "sha256": "08de7a3cfde464a3106f743c38595df1cfc8cb2d53f6a610881e720052d5540e",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.2700691223144531,
+        "occupiedLumaMean": 19.827314414452587,
+        "occupiedLumaPercentiles": [
+          1.004,
+          9.595999999999998,
+          65.12003999999999,
+          156.2959679999996
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 52.099571228027344
+    },
+    {
+      "slot": 4,
+      "day": {
+        "path": "public/textures/lighting-v16/day-4.png",
+        "sha256": "50f4acdcf0a873d15a3681def958ff42c577afc7f769689424c4856a9bacca25",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.45264434814453125,
+        "occupiedLumaMean": 78.0227970233781,
+        "occupiedLumaPercentiles": [
+          1.7191999999999998,
+          58.4222,
+          182.7456,
+          227.87371199999987
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-4.png",
+        "sha256": "d56872b3662bfd7a5c0ad3708935792b3695f8b9a50d04d476407a14552cc8d3",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.3925933837890625,
+        "occupiedLumaMean": 70.33432355124567,
+        "occupiedLumaPercentiles": [
+          1.7191999999999998,
+          36.1923,
+          210.2606,
+          239.80595000000037
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 47.702579498291016
+    },
+    {
+      "slot": 5,
+      "day": {
+        "path": "public/textures/lighting-v16/day-5.png",
+        "sha256": "cb03541dc358aa7a68f3c6b57a19cf41d218e077b9f2551e2c16f465280addd6",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.2904396057128906,
+        "occupiedLumaMean": 90.08161673824816,
+        "occupiedLumaPercentiles": [
+          1.7913999999999999,
+          80.7188,
+          195.89199999999997,
+          228.605728
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-5.png",
+        "sha256": "cb3a7053194aa97a6101f29069035bb53c806eb128b77a073c59f312332990d3",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.24660873413085938,
+        "occupiedLumaMean": 72.8734227667177,
+        "occupiedLumaPercentiles": [
+          1.7191999999999998,
+          29.7834,
+          217.1186,
+          229.894
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 60.276771545410156
+    },
+    {
+      "slot": 6,
+      "day": {
+        "path": "public/textures/lighting-v16/day-6.png",
+        "sha256": "4094a8026c510fdddf8489066ad22cad57c348cc65af90bada78a3fb1dafaaf4",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.4626125759548611,
+        "occupiedLumaMean": 85.19845993989591,
+        "occupiedLumaPercentiles": [
+          1.7782,
+          75.2842,
+          191.9104,
+          228.69799999999998
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-6.png",
+        "sha256": "c7b6541bbebe127aa8906a9a89843b3362d88b9542a7a33c0afffeb6e25bf984",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.4497612847222222,
+        "occupiedLumaMean": 52.29212178528347,
+        "occupiedLumaPercentiles": [
+          1.5655999999999999,
+          28.4904,
+          180.23611999999994,
+          202.65780999999998
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 66.5903549194336
+    },
+    {
+      "slot": 7,
+      "day": {
+        "path": "public/textures/lighting-v16/day-7.png",
+        "sha256": "cae8471ad8d31fa15143309f5e5cccf09c70043ccc29a844333fd137d170d7e9",
+        "resolution": [
+          2048,
+          2048
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.2588653564453125,
+        "occupiedLumaMean": 56.37764793398173,
+        "occupiedLumaPercentiles": [
+          1.8504,
+          42.28339999999999,
+          170.08499999999998,
+          184.97691200000003
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-7.png",
+        "sha256": "910b6fb2d55baddb8ce72bfe9acda88af3c3a89f26d88f0158fd3e49dd02b488",
+        "resolution": [
+          2048,
+          2048
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.2178192138671875,
+        "occupiedLumaMean": 20.742236931698773,
+        "occupiedLumaPercentiles": [
+          1.2756,
+          11.3832,
+          100.03375999999993,
+          140.267
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 51.879058837890625
+    },
+    {
+      "slot": 8,
+      "day": {
+        "path": "public/textures/lighting-v16/day-8.png",
+        "sha256": "0184292acc3d1310577f4a24a2c44d82d5da241fb56888ed1a35425bd18df6e0",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.3971964518229167,
+        "occupiedLumaMean": 107.34904187198005,
+        "occupiedLumaPercentiles": [
+          1.7913999999999999,
+          116.68599999999999,
+          191.45159999999998,
+          226.89649599999996
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-8.png",
+        "sha256": "3fb1a6bf2c93abdb7d078e1b0dfdbb8ebeee2afb48d99ee49645a3bcc1df454c",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.3265719943576389,
+        "occupiedLumaMean": 46.63358127712595,
+        "occupiedLumaPercentiles": [
+          1.7913999999999999,
+          29.0424,
+          215.44580000000002,
+          227.80859999999998
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 78.40621948242188
+    },
+    {
+      "slot": 9,
+      "day": {
+        "path": "public/textures/lighting-v16/day-9.png",
+        "sha256": "c36ef32c7ac526bfb76dcc2cbcbd39da11de607ec3826cfc0d1df950ea6f8284",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.337677001953125,
+        "occupiedLumaMean": 75.26047201762313,
+        "occupiedLumaPercentiles": [
+          1.7913999999999999,
+          51.3782,
+          194.53740000000002,
+          238.85559999999998
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-9.png",
+        "sha256": "66c6f84d2f1cb27a91e8862ca09fe3e900faacc9a28f7f334962660642a2644e",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.28143310546875,
+        "occupiedLumaMean": 62.90465776404251,
+        "occupiedLumaPercentiles": [
+          1.004,
+          29.1106,
+          215.03040000000001,
+          239.5312
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 47.4217529296875
+    },
+    {
+      "slot": 10,
+      "day": {
+        "path": "public/textures/lighting-v16/day-10.png",
+        "sha256": "9c67e09de2ec5214ce55ed0f517a4cf9dd049a6c87215b25c3f8e852c59a6532",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.23791885375976562,
+        "occupiedLumaMean": 49.87331707739422,
+        "occupiedLumaPercentiles": [
+          1.7913999999999999,
+          29.9806,
+          172.96375999999998,
+          207.56223999999997
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-10.png",
+        "sha256": "291b6ed8fd818e41bd5a2ae436cce88ae0237f2fefaa9e66430d3cf5009623f5",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.20232772827148438,
+        "occupiedLumaMean": 44.829700477007485,
+        "occupiedLumaPercentiles": [
+          1.7191999999999998,
+          21.1782,
+          184.4876,
+          232.63446000000016
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 32.28169250488281
+    },
+    {
+      "slot": 11,
+      "day": {
+        "path": "public/textures/lighting-v16/day-11.png",
+        "sha256": "5eba0ef5423cdb93b0c938cdcf5301d24fc2894dcf5c3c3cdce5ed67c177f178",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.5042249891493056,
+        "occupiedLumaMean": 91.72754402765263,
+        "occupiedLumaPercentiles": [
+          1.7191999999999998,
+          107.678,
+          172.541,
+          221.5708
+        ]
+      },
+      "night": {
+        "path": "public/textures/lighting-v16/night-11.png",
+        "sha256": "cd7c09e86e53cac75e219bd7b1038683c76f456ae42b9c8170f2de0a8de61b1a",
+        "resolution": [
+          3072,
+          3072
+        ],
+        "sampleStride": 8,
+        "nonBlackSampleFraction": 0.4034762912326389,
+        "occupiedLumaMean": 56.204500078998244,
+        "occupiedLumaPercentiles": [
+          1.9317999999999997,
+          50.902,
+          117.04639999999998,
+          145.9152
+        ]
+      },
+      "occupiedDayNightMeanAbsoluteDifference": 51.370540618896484
+    }
+  ]
+}

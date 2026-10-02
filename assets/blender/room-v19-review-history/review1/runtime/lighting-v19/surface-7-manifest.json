@@ -1,0 +1,95 @@
+{
+  "complete": true,
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/orbital-dual-bake-v19.blend",
+  "sourceSha256": "dee2cef56c2a79401fb33af63ed8bb35ef73441e85c1ffb6b4f532d5680a31b4",
+  "slot": 7,
+  "dataSize": 2048,
+  "samples": 8,
+  "normal": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/normal-7.png",
+    "sha256": "0a38af09ad6320cd75da8c0df326152e4c12bf9ef30896f7ce5a1c4d556e90cf",
+    "bytes": 2067454,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "colorSpace": "NoColorSpace / linear data",
+    "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+    "channels": 4,
+    "encoding": "RGBA8 linear numeric data",
+    "sourceRange": [
+      1.6987323760986328e-06,
+      1.0
+    ],
+    "valuesOutsideUnitRangeFraction": 0.0,
+    "valuesOutsideRangeBeyondFloatToleranceFraction": 0.0
+  },
+  "specular": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-7.png",
+    "sha256": "f45a189a66f4c903d94f0c676860c5c2aa213b154793d7c10e8d5c6b92824c86",
+    "bytes": 1172833,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "colorSpace": "NoColorSpace / linear data",
+    "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+    "channels": 4,
+    "encoding": "RGBA8 linear numeric data",
+    "sourceRange": [
+      0.0,
+      1.0
+    ],
+    "valuesOutsideUnitRangeFraction": 0.0,
+    "valuesOutsideRangeBeyondFloatToleranceFraction": 0.0
+  },
+  "geometryUvNormalsUnchanged": true,
+  "rawNormalStatistics": {
+    "channelMin": [
+      0.27976909279823303,
+      0.032615289092063904,
+      1.762939427862875e-05
+    ],
+    "channelMax": [
+      0.8948898911476135,
+      0.900391697883606,
+      1.0000100135803223
+    ],
+    "outsideExactUnitRangeFraction": 0.07868662899699931,
+    "outsideUnitRangeBeyond1e5Fraction": 0.0,
+    "decodedVectorLengthPercentiles": [
+      0.0779552310705185,
+      0.9874184226989746,
+      1.0000194311141968,
+      1.000022053718567,
+      1.0000324249267578
+    ],
+    "filteredVectorLengthBelowQuarterCount": 153,
+    "filteredVectorLengthBelowQuarterFraction": 9.447261127854787e-05,
+    "zeroLengthFallbackCount": 0
+  },
+  "decodedNormalsRenormalizedBeforeQuantization": true,
+  "occupiedTexelFraction": 0.3861229419708252,
+  "unusedNormalTexels": "neutral +Z",
+  "unusedSpecularTexels": "zero F0, roughness one",
+  "seconds": {
+    "normal": 2.41,
+    "f0": 1.96,
+    "roughness": 1.83
+  },
+  "f0Formula": "mix(2 * specularIORLevel * ((IOR-1)/(IOR+1))^2 * specularTint, baseColor, metallic)",
+  "normalConvention": "Tangent +X +Y +Z (OpenGL), BakeUV; PNG top-down, glTF flipY=false",
+  "limitations": [
+    "Single base specular lobe; coat, anisotropy and transmission remain source-only unless runtime handles separate lobes."
+  ],
+  "inheritedFrom": {
+    "manifest": "public/textures/lighting-v18/surface-7-manifest.json",
+    "manifestSha256": "331f6e2ff80d6c293170e7d94fc4df06c11675a272e42a4b82e1e4466721d156",
+    "sourceSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79",
+    "reason": "Light-independent F0/roughness/tangent-normal; identical material graphs and receiving geometry/BakeUV/normals/world transforms. No radiance inheritance.",
+    "equivalenceProof": "assets/blender/room-v19-surface-reuse-proof.json",
+    "equivalenceProofSha256": "98300c8b03086556a180484b9001486b66d3d8b1a4d131544e681379c0c282ae",
+    "sourceProof": "assets/blender/room-v18-surface-reuse-proof.json",
+    "sourceProofSha256": "1506cfb956249a2f9b1e9e57217b407be7d45fbab67e8bb98eef7d9aa4fe5c6b"
+  }
+}

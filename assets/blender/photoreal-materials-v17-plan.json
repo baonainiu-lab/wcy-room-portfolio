@@ -1,0 +1,3166 @@
+{
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-dual-bake-v16.blend",
+  "sourceSha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+  "materials": [
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Amber_Status",
+      "canonical": "MAT_Amber_Status",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.20000000298023224,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.949999988079071,
+        0.23000000417232513,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+      "canonical": "MAT_Graphite_Enamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.550000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+      "canonical": "MAT_Ivory_Ceramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.03999999910593033,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6800000071525574,
+        0.7300000190734863,
+        0.7400000095367432,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Warm_White",
+      "canonical": "MAT_Warm_White",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.949999988079071,
+        0.699999988079071,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_BonsaiBark",
+      "canonical": "P_BonsaiBark",
+      "role": "bark",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.7,
+          0.94
+        ],
+        "bump": 0.0012,
+        "macro_m": 0.08,
+        "feature_m": 0.006
+      },
+      "sourceBaseColor": [
+        0.09300000220537186,
+        0.05000000074505806,
+        0.02199999988079071,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_CreativeFolioCover",
+      "canonical": "P_CreativeFolioCover",
+      "role": "leather",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.029999999329447746,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.31,
+          0.58
+        ],
+        "bump": 0.0007,
+        "scan": "brown_leather",
+        "tile_m": 0.32,
+        "macro_m": 0.045,
+        "feature_m": 0.0035,
+        "coat": 0.08
+      },
+      "sourceBaseColor": [
+        0.10499999672174454,
+        0.12999999523162842,
+        0.14499999582767487,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DeepLeaf",
+      "canonical": "P_DeepLeaf",
+      "role": "leaf",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.28,
+          0.52
+        ],
+        "bump": 8e-05,
+        "macro_m": 0.045,
+        "feature_m": 0.003,
+        "subsurface": 0.06,
+        "transmission": 0.12
+      },
+      "sourceBaseColor": [
+        0.052000001072883606,
+        0.10000000149011612,
+        0.027000000700354576,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplayInk",
+      "canonical": "P_DisplayInk",
+      "role": "display_ink",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.20000000298023224,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.22,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.05,
+        "feature_m": 0.004,
+        "coat": 0.35
+      },
+      "sourceBaseColor": [
+        0.00800000037997961,
+        0.01600000075995922,
+        0.020999999716877937,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplaySilverBlue",
+      "canonical": "P_DisplaySilverBlue",
+      "role": "display_metal",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.25,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.24,
+          0.37
+        ],
+        "bump": 3.5e-05,
+        "macro_m": 0.06,
+        "feature_m": 0.0015
+      },
+      "sourceBaseColor": [
+        0.20000000298023224,
+        0.33000001311302185,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_GreenStem",
+      "canonical": "P_GreenStem",
+      "role": "stem",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.39,
+          0.62
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.04,
+        "feature_m": 0.002,
+        "subsurface": 0.04
+      },
+      "sourceBaseColor": [
+        0.07000000029802322,
+        0.09700000286102295,
+        0.02800000086426735,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_LensCoating",
+      "canonical": "P_LensCoating",
+      "role": "optical_coating",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.75,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.045,
+          0.09
+        ],
+        "bump": 0,
+        "macro_m": 0.06,
+        "feature_m": 0.006,
+        "coat": 0.65,
+        "ior": 1.52
+      },
+      "sourceBaseColor": [
+        0.012000000104308128,
+        0.06499999761581421,
+        0.08799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_NewLeaf",
+      "canonical": "P_NewLeaf",
+      "role": "leaf",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.28,
+          0.52
+        ],
+        "bump": 8e-05,
+        "macro_m": 0.045,
+        "feature_m": 0.003,
+        "subsurface": 0.06,
+        "transmission": 0.12
+      },
+      "sourceBaseColor": [
+        0.14000000059604645,
+        0.20000000298023224,
+        0.050999999046325684,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PageEdge",
+      "canonical": "P_PageEdge",
+      "role": "paper_edges",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.73,
+          0.92
+        ],
+        "bump": 0.0002,
+        "macro_m": 0.055,
+        "feature_m": 0.0008
+      },
+      "sourceBaseColor": [
+        0.2199999988079071,
+        0.20999999344348907,
+        0.18000000715255737,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PetalBrushedSilver",
+      "canonical": "P_PetalBrushedSilver",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.5799999833106995,
+        0.6399999856948853,
+        0.699999988079071,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_RiverStone",
+      "canonical": "P_RiverStone",
+      "role": "river_stone",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.73
+        ],
+        "bump": 0.00075,
+        "macro_m": 0.06,
+        "feature_m": 0.005
+      },
+      "sourceBaseColor": [
+        0.25,
+        0.25,
+        0.20999999344348907,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_Soil",
+      "canonical": "P_Soil",
+      "role": "soil",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.82,
+          0.98
+        ],
+        "bump": 0.0017,
+        "macro_m": 0.06,
+        "feature_m": 0.005
+      },
+      "sourceBaseColor": [
+        0.04399999976158142,
+        0.035999998450279236,
+        0.017000000923871994,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_TerrariumMoss",
+      "canonical": "P_TerrariumMoss",
+      "role": "moss",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.75,
+          0.94
+        ],
+        "bump": 0.0011,
+        "macro_m": 0.035,
+        "feature_m": 0.0025
+      },
+      "sourceBaseColor": [
+        0.07500000298023224,
+        0.14000000059604645,
+        0.024000000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmAnodizedMetal",
+      "canonical": "P_WarmAnodizedMetal",
+      "role": "anodized_warm",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.75,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.21,
+          0.36
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.06,
+        "feature_m": 0.001,
+        "anisotropy": 0.4
+      },
+      "sourceBaseColor": [
+        0.5600000023841858,
+        0.3199999928474426,
+        0.10000000149011612,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmPaper",
+      "canonical": "P_WarmPaper",
+      "role": "paper",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.72,
+          0.93
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.07,
+        "feature_m": 0.001
+      },
+      "sourceBaseColor": [
+        0.6399999856948853,
+        0.6100000143051147,
+        0.5400000214576721,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Amber_Status",
+      "canonical": "MAT_Amber_Status",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.20000000298023224,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.949999988079071,
+        0.23000000417232513,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+      "canonical": "MAT_Graphite_Enamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.550000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+      "canonical": "MAT_Ivory_Ceramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.03999999910593033,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6800000071525574,
+        0.7300000190734863,
+        0.7400000095367432,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Amber_Status",
+      "canonical": "MAT_Amber_Status",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.20000000298023224,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.949999988079071,
+        0.23000000417232513,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Charcoal_Woven",
+      "canonical": "MAT_Charcoal_Woven",
+      "role": "upholstery",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.65,
+          0.86
+        ],
+        "bump": 0.0011,
+        "scan": "hessian_230",
+        "tile_m": 0.7,
+        "macro_m": 0.09,
+        "feature_m": 0.0028,
+        "sheen": 0.35
+      },
+      "sourceBaseColor": [
+        0.017999999225139618,
+        0.02500000037252903,
+        0.032999999821186066,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Graphite_Enamel",
+      "canonical": "MAT_Graphite_Enamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.550000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+      "canonical": "MAT_Ivory_Ceramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.03999999910593033,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6800000071525574,
+        0.7300000190734863,
+        0.7400000095367432,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_White",
+      "canonical": "MAT_Optical_White",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.15000000596046448,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.550000011920929,
+        0.8500000238418579,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_DisplaySilverBlue",
+      "canonical": "P_DisplaySilverBlue",
+      "role": "display_metal",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.25,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.24,
+          0.37
+        ],
+        "bump": 3.5e-05,
+        "macro_m": 0.06,
+        "feature_m": 0.0015
+      },
+      "sourceBaseColor": [
+        0.20000000298023224,
+        0.33000001311302185,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_LensCoating",
+      "canonical": "P_LensCoating",
+      "role": "optical_coating",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.75,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.045,
+          0.09
+        ],
+        "bump": 0,
+        "macro_m": 0.06,
+        "feature_m": 0.006,
+        "coat": 0.65,
+        "ior": 1.52
+      },
+      "sourceBaseColor": [
+        0.012000000104308128,
+        0.06499999761581421,
+        0.08799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_TeaSurface",
+      "canonical": "P_TeaSurface",
+      "role": "tea",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.05000000074505806,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.065,
+          0.13
+        ],
+        "bump": 8e-05,
+        "macro_m": 0.035,
+        "feature_m": 0.007,
+        "transmission": 0.15,
+        "ior": 1.333
+      },
+      "sourceBaseColor": [
+        0.052000001072883606,
+        0.017999999225139618,
+        0.007000000216066837,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB15_BAKE_A9_WEB8_BAKE_A2_P_WarmAnodizedMetal",
+      "canonical": "P_WarmAnodizedMetal",
+      "role": "anodized_warm",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.75,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.21,
+          0.36
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.06,
+        "feature_m": 0.001,
+        "anisotropy": 0.4
+      },
+      "sourceBaseColor": [
+        0.5600000023841858,
+        0.3199999928474426,
+        0.10000000149011612,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Graphite_Enamel",
+      "canonical": "MAT_Graphite_Enamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.550000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Optical_White",
+      "canonical": "MAT_Optical_White",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.15000000596046448,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.550000011920929,
+        0.8500000238418579,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Titanium_Floor",
+      "canonical": "MAT_Titanium_Floor",
+      "role": "titanium_floor",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.6600000262260437,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.32,
+          0.53
+        ],
+        "bump": 0.00016,
+        "macro_m": 0.24,
+        "feature_m": 0.002,
+        "anisotropy": 0.3
+      },
+      "sourceBaseColor": [
+        0.07500000298023224,
+        0.09000000357627869,
+        0.11500000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A0_MAT_Warm_White",
+      "canonical": "MAT_Warm_White",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.949999988079071,
+        0.699999988079071,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A11_F_Chair_Seam",
+      "canonical": "F_Chair_Seam",
+      "role": "stitch",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.68,
+          0.86
+        ],
+        "bump": 0.00022,
+        "macro_m": 0.014,
+        "feature_m": 0.0012,
+        "sheen": 0.3
+      },
+      "sourceBaseColor": [
+        0.035999998450279236,
+        0.03999999910593033,
+        0.04699999839067459,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A11_MAT_Charcoal_Woven",
+      "canonical": "MAT_Charcoal_Woven",
+      "role": "upholstery",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.65,
+          0.86
+        ],
+        "bump": 0.0011,
+        "scan": "hessian_230",
+        "tile_m": 0.7,
+        "macro_m": 0.09,
+        "feature_m": 0.0028,
+        "sheen": 0.35
+      },
+      "sourceBaseColor": [
+        0.017999999225139618,
+        0.02500000037252903,
+        0.032999999821186066,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A11_MAT_Ivory_Ceramic",
+      "canonical": "MAT_Ivory_Ceramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.03999999910593033,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6800000071525574,
+        0.7300000190734863,
+        0.7400000095367432,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A11_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A11_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A1_F_Rug_Embossed_Grooves",
+      "canonical": "F_Rug_Embossed_Grooves",
+      "role": "rug",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.78,
+          0.97
+        ],
+        "bump": 0.0018,
+        "scan": "hessian_230",
+        "tile_m": 1.0,
+        "macro_m": 0.14,
+        "feature_m": 0.004,
+        "sheen": 0.16
+      },
+      "sourceBaseColor": [
+        0.10499999672174454,
+        0.11900000274181366,
+        0.13199999928474426,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A1_MAT_Graphite_Enamel",
+      "canonical": "MAT_Graphite_Enamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.550000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A1_MAT_Graphite_Rug",
+      "canonical": "MAT_Graphite_Rug",
+      "role": "rug",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.78,
+          0.97
+        ],
+        "bump": 0.0018,
+        "scan": "hessian_230",
+        "tile_m": 1.0,
+        "macro_m": 0.14,
+        "feature_m": 0.004,
+        "sheen": 0.16
+      },
+      "sourceBaseColor": [
+        0.012000000104308128,
+        0.01899999938905239,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A1_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A1_MAT_Optical_White",
+      "canonical": "MAT_Optical_White",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.15000000596046448,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.550000011920929,
+        0.8500000238418579,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A1_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_BlackCeramic",
+      "canonical": "D_BlackCeramic",
+      "role": "black_ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.10000000149011612,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.16,
+          0.35
+        ],
+        "bump": 6e-05,
+        "macro_m": 0.035,
+        "feature_m": 0.003,
+        "coat": 0.32
+      },
+      "sourceBaseColor": [
+        0.014000000432133675,
+        0.019999999552965164,
+        0.027000000700354576,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_BlueGreyBookCloth",
+      "canonical": "D_BlueGreyBookCloth",
+      "role": "bookcloth",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.57,
+          0.79
+        ],
+        "bump": 0.00035,
+        "scan": "hessian_230",
+        "tile_m": 0.3,
+        "macro_m": 0.05,
+        "feature_m": 0.0014,
+        "sheen": 0.2
+      },
+      "sourceBaseColor": [
+        0.07999999821186066,
+        0.12399999797344208,
+        0.1550000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_BookPaper",
+      "canonical": "D_BookPaper",
+      "role": "paper",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.72,
+          0.93
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.07,
+        "feature_m": 0.001
+      },
+      "sourceBaseColor": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5099999904632568,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_DeepLanceLeaf",
+      "canonical": "D_DeepLanceLeaf",
+      "role": "leaf",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.28,
+          0.52
+        ],
+        "bump": 8e-05,
+        "macro_m": 0.045,
+        "feature_m": 0.003,
+        "subsurface": 0.06,
+        "transmission": 0.12
+      },
+      "sourceBaseColor": [
+        0.029999999329447746,
+        0.09099999815225601,
+        0.03700000047683716,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_OpticCoating",
+      "canonical": "D_OpticCoating",
+      "role": "optical_coating",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.6000000238418579,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.045,
+          0.09
+        ],
+        "bump": 0,
+        "macro_m": 0.06,
+        "feature_m": 0.006,
+        "coat": 0.65,
+        "ior": 1.52
+      },
+      "sourceBaseColor": [
+        0.01600000075995922,
+        0.0689999982714653,
+        0.08100000023841858,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_PaleMidrib",
+      "canonical": "D_PaleMidrib",
+      "role": "stem",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.39,
+          0.62
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.04,
+        "feature_m": 0.002,
+        "subsurface": 0.04
+      },
+      "sourceBaseColor": [
+        0.13099999725818634,
+        0.1809999942779541,
+        0.06700000166893005,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_PaperEdges",
+      "canonical": "D_PaperEdges",
+      "role": "paper_edges",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.73,
+          0.92
+        ],
+        "bump": 0.0002,
+        "macro_m": 0.055,
+        "feature_m": 0.0008
+      },
+      "sourceBaseColor": [
+        0.2199999988079071,
+        0.23000000417232513,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_PlanterSoil",
+      "canonical": "D_PlanterSoil",
+      "role": "soil",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.82,
+          0.98
+        ],
+        "bump": 0.0017,
+        "macro_m": 0.06,
+        "feature_m": 0.005
+      },
+      "sourceBaseColor": [
+        0.032999999821186066,
+        0.024000000208616257,
+        0.012000000104308128,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_SageLanceLeaf",
+      "canonical": "D_SageLanceLeaf",
+      "role": "leaf",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.28,
+          0.52
+        ],
+        "bump": 8e-05,
+        "macro_m": 0.045,
+        "feature_m": 0.003,
+        "subsurface": 0.06,
+        "transmission": 0.12
+      },
+      "sourceBaseColor": [
+        0.08399999886751175,
+        0.1459999978542328,
+        0.054999999701976776,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_SoftAnodizedGold",
+      "canonical": "D_SoftAnodizedGold",
+      "role": "anodized_warm",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.800000011920929,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.21,
+          0.36
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.06,
+        "feature_m": 0.001,
+        "anisotropy": 0.4
+      },
+      "sourceBaseColor": [
+        0.49000000953674316,
+        0.3199999928474426,
+        0.13500000536441803,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_SoftDisplayLine",
+      "canonical": "D_SoftDisplayLine",
+      "role": "display_metal",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.3499999940395355,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.24,
+          0.37
+        ],
+        "bump": 3.5e-05,
+        "macro_m": 0.06,
+        "feature_m": 0.0015
+      },
+      "sourceBaseColor": [
+        0.15000000596046448,
+        0.33000001311302185,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_D_WarmGreyBookCloth",
+      "canonical": "D_WarmGreyBookCloth",
+      "role": "bookcloth",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.57,
+          0.79
+        ],
+        "bump": 0.00035,
+        "scan": "hessian_230",
+        "tile_m": 0.3,
+        "macro_m": 0.05,
+        "feature_m": 0.0014,
+        "sheen": 0.2
+      },
+      "sourceBaseColor": [
+        0.4300000071525574,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_MAT_Amber_Status",
+      "canonical": "MAT_Amber_Status",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.20000000298023224,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.949999988079071,
+        0.23000000417232513,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+      "canonical": "MAT_Graphite_Enamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.550000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_MAT_Ivory_Ceramic",
+      "canonical": "MAT_Ivory_Ceramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.03999999910593033,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6800000071525574,
+        0.7300000190734863,
+        0.7400000095367432,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_MAT_Optical_White",
+      "canonical": "MAT_Optical_White",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.15000000596046448,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.550000011920929,
+        0.8500000238418579,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A3_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_IW8_MAT_Graphite",
+      "canonical": "IW8_MAT_Graphite",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.25,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.017999999225139618,
+        0.02800000086426735,
+        0.03700000047683716,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic",
+      "canonical": "IW8_MAT_IvoryCeramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.03999999910593033,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6899999976158142,
+        0.699999988079071,
+        0.6399999856948853,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_IW8_MAT_SatinTitanium",
+      "canonical": "IW8_MAT_SatinTitanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.36000001430511475,
+        0.4399999976158142,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser",
+      "canonical": "IW8_MAT_WarmDiffuser",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.8600000143051147,
+        0.6100000143051147,
+        0.3199999928474426,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+      "canonical": "V5_MAT_AmberSignal",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.10000000149011612,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.949999988079071,
+        0.2800000011920929,
+        0.04699999839067459,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+      "canonical": "V5_MAT_BlueGreyEnamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.07500000298023224,
+        0.15000000596046448,
+        0.20499999821186066,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_BurntOrange",
+      "canonical": "V5_MAT_BurntOrange",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.23999999463558197,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.4300000071525574,
+        0.08299999684095383,
+        0.024000000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_Graphite",
+      "canonical": "V5_MAT_Graphite",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.47999998927116394,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.020999999716877937,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_IceSignal",
+      "canonical": "V5_MAT_IceSignal",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.11999999731779099,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.3100000023841858,
+        0.6800000071525574,
+        0.8600000143051147,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+      "canonical": "V5_MAT_PearlCeramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.03999999910593033,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6499999761581421,
+        0.7200000286102295,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+      "canonical": "V5_MAT_RecessedOptics",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+      "canonical": "V5_MAT_SatinTitanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.49000000953674316,
+        0.550000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A4_V5_MAT_WarmDiffuser",
+      "canonical": "V5_MAT_WarmDiffuser",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.8600000143051147,
+        0.6100000143051147,
+        0.3199999928474426,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A5_EXT6_MAT_BlueGreyEnamel",
+      "canonical": "EXT6_MAT_BlueGreyEnamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.36000001430511475,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.0949999988079071,
+        0.17599999904632568,
+        0.23499999940395355,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A5_EXT6_MAT_BurntOrange",
+      "canonical": "EXT6_MAT_BurntOrange",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.23999999463558197,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.46000000834465027,
+        0.10199999809265137,
+        0.03099999949336052,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A5_EXT6_MAT_Graphite",
+      "canonical": "EXT6_MAT_Graphite",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.47999998927116394,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.019999999552965164,
+        0.032999999821186066,
+        0.04699999839067459,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A5_EXT6_MAT_IceSignal",
+      "canonical": "EXT6_MAT_IceSignal",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.10000000149011612,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.2800000011920929,
+        0.6700000166893005,
+        0.8199999928474426,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A5_EXT6_MAT_SatinTitanium",
+      "canonical": "EXT6_MAT_SatinTitanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.7699999809265137,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.4000000059604645,
+        0.4699999988079071,
+        0.550000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A5_EXT6_MAT_WarmSignal",
+      "canonical": "EXT6_MAT_WarmSignal",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.05000000074505806,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.8999999761581421,
+        0.44999998807907104,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_AmberDiffuser",
+      "canonical": "WG7_MAT_AmberDiffuser",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.019999999552965164,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.9399999976158142,
+        0.25999999046325684,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_BlueGrey",
+      "canonical": "WG7_MAT_BlueGrey",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.2800000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.04899999871850014,
+        0.09600000083446503,
+        0.12399999797344208,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_ChampagneMetal",
+      "canonical": "WG7_MAT_ChampagneMetal",
+      "role": "anodized_warm",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.75,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.21,
+          0.36
+        ],
+        "bump": 7.5e-05,
+        "macro_m": 0.06,
+        "feature_m": 0.001,
+        "anisotropy": 0.4
+      },
+      "sourceBaseColor": [
+        0.4300000071525574,
+        0.23499999940395355,
+        0.08500000089406967,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_DesaturatedBotanical",
+      "canonical": "WG7_MAT_DesaturatedBotanical",
+      "role": "leaf",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.11999999731779099,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.28,
+          0.52
+        ],
+        "bump": 8e-05,
+        "macro_m": 0.045,
+        "feature_m": 0.003,
+        "subsurface": 0.06,
+        "transmission": 0.12
+      },
+      "sourceBaseColor": [
+        0.057999998331069946,
+        0.11500000208616257,
+        0.09099999815225601,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_Graphite",
+      "canonical": "WG7_MAT_Graphite",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.30000001192092896,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.017999999225139618,
+        0.026000000536441803,
+        0.03099999949336052,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_Titanium",
+      "canonical": "WG7_MAT_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.7599999904632568,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.3499999940395355,
+        0.4300000071525574,
+        0.49000000953674316,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_WalnutOrangeEnamel",
+      "canonical": "WG7_MAT_WalnutOrangeEnamel",
+      "role": "wood_veneer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.18000000715255737,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.26,
+          0.51
+        ],
+        "bump": 0.00032,
+        "scan": "walnut_veneer",
+        "tile_m": 0.85,
+        "macro_m": 0.13,
+        "feature_m": 0.0025,
+        "coat": 0.2
+      },
+      "sourceBaseColor": [
+        0.23499999940395355,
+        0.07500000298023224,
+        0.027000000700354576,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_WarmCeramic",
+      "canonical": "WG7_MAT_WarmCeramic",
+      "role": "ceramic",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.10000000149011612,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.19,
+          0.34
+        ],
+        "bump": 0,
+        "macro_m": 0.045,
+        "feature_m": 0.005,
+        "coat": 0.28
+      },
+      "sourceBaseColor": [
+        0.6499999761581421,
+        0.5899999737739563,
+        0.46000000834465027,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A6_WG7_MAT_WarmWhiteDiffuser",
+      "canonical": "WG7_MAT_WarmWhiteDiffuser",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.019999999552965164,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.9100000262260437,
+        0.5299999713897705,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A7_F_Orange_Upholstery_Stitch",
+      "canonical": "F_Orange_Upholstery_Stitch",
+      "role": "stitch",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.68,
+          0.86
+        ],
+        "bump": 0.00022,
+        "macro_m": 0.014,
+        "feature_m": 0.0012,
+        "sheen": 0.3
+      },
+      "sourceBaseColor": [
+        0.25,
+        0.057999998331069946,
+        0.014000000432133675,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A7_MAT_Charcoal_Woven",
+      "canonical": "MAT_Charcoal_Woven",
+      "role": "upholstery",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.65,
+          0.86
+        ],
+        "bump": 0.0011,
+        "scan": "hessian_230",
+        "tile_m": 0.7,
+        "macro_m": 0.09,
+        "feature_m": 0.0028,
+        "sheen": 0.35
+      },
+      "sourceBaseColor": [
+        0.017999999225139618,
+        0.02500000037252903,
+        0.032999999821186066,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A7_MAT_Graphite_Enamel",
+      "canonical": "MAT_Graphite_Enamel",
+      "role": "powdercoat",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.550000011920929,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.3,
+          0.51
+        ],
+        "bump": 0.00013,
+        "macro_m": 0.11,
+        "feature_m": 0.0018,
+        "coat": 0.15
+      },
+      "sourceBaseColor": [
+        0.023000000044703484,
+        0.032999999821186066,
+        0.04800000041723251,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A7_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A7_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A7_MAT_Vermilion_Woven",
+      "canonical": "MAT_Vermilion_Woven",
+      "role": "upholstery",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.65,
+          0.86
+        ],
+        "bump": 0.0011,
+        "scan": "hessian_230",
+        "tile_m": 0.7,
+        "macro_m": 0.09,
+        "feature_m": 0.0028,
+        "sheen": 0.35
+      },
+      "sourceBaseColor": [
+        0.27000001072883606,
+        0.03999999910593033,
+        0.00800000037997961,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Optical_Black",
+      "canonical": "MAT_Optical_Black",
+      "role": "soft_polymer",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.4000000059604645,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.43,
+          0.66
+        ],
+        "bump": 0.00012,
+        "macro_m": 0.05,
+        "feature_m": 0.0012
+      },
+      "sourceBaseColor": [
+        0.006000000052154064,
+        0.008999999612569809,
+        0.014999999664723873,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Optical_White",
+      "canonical": "MAT_Optical_White",
+      "role": "emitter",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.15000000596046448,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.32,
+          0.48
+        ],
+        "bump": 2.5e-05,
+        "macro_m": 0.03,
+        "feature_m": 0.002,
+        "transmission": 0.1
+      },
+      "sourceBaseColor": [
+        0.550000011920929,
+        0.8500000238418579,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Satin_Titanium",
+      "canonical": "MAT_Satin_Titanium",
+      "role": "brushed_titanium",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.9399999976158142,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.22,
+          0.4
+        ],
+        "bump": 0.0001,
+        "macro_m": 0.08,
+        "feature_m": 0.0012,
+        "anisotropy": 0.55
+      },
+      "sourceBaseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Titanium_Floor",
+      "canonical": "MAT_Titanium_Floor",
+      "role": "titanium_floor",
+      "action": "replace physical surface shader",
+      "oldRevision": 16,
+      "oldMetalness": 0.6600000262260437,
+      "target": {
+        "metal": 1,
+        "rough": [
+          0.32,
+          0.53
+        ],
+        "bump": 0.00016,
+        "macro_m": 0.24,
+        "feature_m": 0.002,
+        "anisotropy": 0.3
+      },
+      "sourceBaseColor": [
+        0.07500000298023224,
+        0.09000000357627869,
+        0.11500000208616257,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_GLASS_D_PlanterGlass",
+      "canonical": "D_PlanterGlass",
+      "role": "glass",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.025,
+          0.045
+        ],
+        "bump": 0,
+        "macro_m": 0.08,
+        "feature_m": 0.008,
+        "transmission": 1,
+        "ior": 1.48
+      },
+      "sourceBaseColor": [
+        0.7799999713897705,
+        0.8999999761581421,
+        0.9200000166893005,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_GLASS_D_SpecimenSmokeGlass",
+      "canonical": "D_SpecimenSmokeGlass",
+      "role": "glass",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.029999999329447746,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.025,
+          0.045
+        ],
+        "bump": 0,
+        "macro_m": 0.08,
+        "feature_m": 0.008,
+        "transmission": 1,
+        "ior": 1.48
+      },
+      "sourceBaseColor": [
+        0.5299999713897705,
+        0.6499999761581421,
+        0.6899999976158142,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+      "canonical": "MAT_Compute_Smoked_Optical_Glass",
+      "role": "glass",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.05000000074505806,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.025,
+          0.045
+        ],
+        "bump": 0,
+        "macro_m": 0.08,
+        "feature_m": 0.008,
+        "transmission": 1,
+        "ior": 1.48
+      },
+      "sourceBaseColor": [
+        0.25,
+        0.3499999940395355,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_GLASS_MAT_Smoke_Glass",
+      "canonical": "MAT_Smoke_Glass",
+      "role": "glass",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.20000000298023224,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.025,
+          0.045
+        ],
+        "bump": 0,
+        "macro_m": 0.08,
+        "feature_m": 0.008,
+        "transmission": 1,
+        "ior": 1.48
+      },
+      "sourceBaseColor": [
+        0.10999999940395355,
+        0.17000000178813934,
+        0.20999999344348907,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_GLASS_P_ClearTerrariumGlass",
+      "canonical": "P_ClearTerrariumGlass",
+      "role": "glass",
+      "action": "replace physical surface shader",
+      "oldRevision": null,
+      "oldMetalness": 0.0,
+      "target": {
+        "metal": 0,
+        "rough": [
+          0.025,
+          0.045
+        ],
+        "bump": 0,
+        "macro_m": 0.08,
+        "feature_m": 0.008,
+        "transmission": 1,
+        "ior": 1.48
+      },
+      "sourceBaseColor": [
+        0.8899999856948853,
+        0.949999988079071,
+        0.9700000286102295,
+        1.0
+      ]
+    },
+    {
+      "name": "WEB8_IMAGE_MAT_Original_Window_City_V2.001",
+      "canonical": "MAT_Original_Window_City_V2",
+      "role": "image_content",
+      "action": "preserve authored screen/panorama image content",
+      "oldRevision": null,
+      "oldMetalness": null,
+      "target": null,
+      "sourceBaseColor": null
+    },
+    {
+      "name": "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+      "canonical": "MAT_Rendered_3D_ScreenArtwork",
+      "role": "image_content",
+      "action": "preserve authored screen/panorama image content",
+      "oldRevision": null,
+      "oldMetalness": null,
+      "target": null,
+      "sourceBaseColor": null
+    }
+  ],
+  "usedMaterialCount": 117,
+  "roleCounts": {
+    "emitter": 19,
+    "powdercoat": 16,
+    "ceramic": 8,
+    "soft_polymer": 10,
+    "brushed_titanium": 14,
+    "bark": 1,
+    "leather": 1,
+    "leaf": 5,
+    "display_ink": 1,
+    "display_metal": 3,
+    "stem": 2,
+    "optical_coating": 3,
+    "paper_edges": 2,
+    "river_stone": 1,
+    "soil": 2,
+    "moss": 1,
+    "anodized_warm": 4,
+    "paper": 2,
+    "upholstery": 4,
+    "tea": 1,
+    "titanium_floor": 2,
+    "stitch": 2,
+    "rug": 2,
+    "black_ceramic": 1,
+    "bookcloth": 2,
+    "wood_veneer": 1,
+    "glass": 5,
+    "image_content": 2
+  },
+  "unmapped": [],
+  "completeCoverage": true,
+  "verifiedScanMaps": [
+    {
+      "asset": "walnut_veneer",
+      "map": "Diffuse",
+      "file": "walnut_veneer/walnut_veneer_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_diff_2k.jpg",
+      "sha256": "66c73defcc62ac090cb838e8455b8c1febbfea29a15c8f40a5e2d398b2ba4733",
+      "md5": "48000eac719ccbae27319f942ab5bf2c",
+      "bytes": 2060618,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "sRGB",
+      "normal_usage": null
+    },
+    {
+      "asset": "walnut_veneer",
+      "map": "Rough",
+      "file": "walnut_veneer/walnut_veneer_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_rough_2k.jpg",
+      "sha256": "e3a8a7e035a378ce6ce2252fcd4352f62b16a2a6b2f453baacd4e081c2fedb34",
+      "md5": "cff9cdcca482f6c71d7ecf49b3789f9e",
+      "bytes": 2426374,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "walnut_veneer",
+      "map": "Displacement",
+      "file": "walnut_veneer/walnut_veneer_disp_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_disp_2k.jpg",
+      "sha256": "f43ff69bc7fcfe111ab72af3f3ce6d07b0286c39b502a8403ce6b0f8a1a2e7af",
+      "md5": "1bccc6894c29a7c713ec9a194ea3c868",
+      "bytes": 851317,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "walnut_veneer",
+      "map": "nor_gl",
+      "file": "walnut_veneer/walnut_veneer_nor_gl_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/walnut_veneer/walnut_veneer_nor_gl_2k.jpg",
+      "sha256": "544d3feffd325a0f6f7db5dc94ae99820349bb3d53ce3651e4647d5e66336cba",
+      "md5": "987a6cf092f9ab65705416dda264b0ff",
+      "bytes": 1891517,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": "retained for later UV export; explicit three-plane FLAT projections use scanned height bump"
+    },
+    {
+      "asset": "brown_leather",
+      "map": "Diffuse",
+      "file": "brown_leather/brown_leather_albedo_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_albedo_2k.jpg",
+      "sha256": "b0de2403a31efa31e501b0028c0bd8e504d5bd6318f4a5ce90c550c3067f96d8",
+      "md5": "1bd381c43817743a2affdd1ce2d193c7",
+      "bytes": 2137518,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "sRGB",
+      "normal_usage": null
+    },
+    {
+      "asset": "brown_leather",
+      "map": "Rough",
+      "file": "brown_leather/brown_leather_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_rough_2k.jpg",
+      "sha256": "8a47afca2630310849034fe40ca9497db0956c67c0d933e6efd49d3cd2befe83",
+      "md5": "95b48a5c95b02d87dadee46c26f1cfb5",
+      "bytes": 2801956,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "brown_leather",
+      "map": "Displacement",
+      "file": "brown_leather/brown_leather_disp_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_disp_2k.jpg",
+      "sha256": "37ff21737b1ca5ea8cfe88d9a8fe1e2ace0ef190d9ee2d23369307f63c7c3eab",
+      "md5": "b385c7ec27f2cc9e9b1df077e41dbb01",
+      "bytes": 1027529,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "brown_leather",
+      "map": "nor_gl",
+      "file": "brown_leather/brown_leather_nor_gl_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_nor_gl_2k.jpg",
+      "sha256": "3386277290af50b4d464dc9a9f195bbf8dd6f137b9ae0274552397d2f0135c98",
+      "md5": "6e86bbaf5e995c4154b76a1e4b0f4f1c",
+      "bytes": 3030702,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/brown_leather",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": "retained for later UV export; current BOX projection uses scanned height bump"
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Diffuse",
+      "file": "hessian_230/hessian_230_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_diff_2k.jpg",
+      "sha256": "1c1d66e3764dded1cfafa5147ea56a28ef7648e3c5cae6892b8dada92d408685",
+      "md5": "e73dcb7ae06f7267f74fc5869c63233c",
+      "bytes": 3828573,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "sRGB",
+      "normal_usage": null
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Rough",
+      "file": "hessian_230/hessian_230_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_rough_2k.jpg",
+      "sha256": "6c5be8aff1a36df639bf690e5acdc9116d12389614fb0db26a75ea31b65dd597",
+      "md5": "ecb347b5a4299c3c39fed62b8393e008",
+      "bytes": 3755640,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "hessian_230",
+      "map": "Displacement",
+      "file": "hessian_230/hessian_230_disp_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_disp_2k.jpg",
+      "sha256": "dab9d86c779d02ac995dec4fab11efb42988d037ca1864fe401947ef68bceb76",
+      "md5": "0c3d9ee1abda84887b8c0f0c980a44e0",
+      "bytes": 2039184,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": null
+    },
+    {
+      "asset": "hessian_230",
+      "map": "nor_gl",
+      "file": "hessian_230/hessian_230_nor_gl_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_nor_gl_2k.jpg",
+      "sha256": "a285b3716eed4e7c8eddbe9412d35049c2e05e85d9dc78d6052ab74db5041204",
+      "md5": "3926d1f27d318a410b41ac5952aae574",
+      "bytes": 3759284,
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hessian_230",
+      "dimensions": [
+        2048,
+        2036
+      ],
+      "source_unchanged": true,
+      "color_space": "Non-Color",
+      "normal_usage": "retained for later UV export; current BOX projection uses scanned height bump"
+    }
+  ],
+  "scanScalePolicy": "Authored metre footprints evaluated against real geometry; vendor scan dimensions in metres are unknown.",
+  "webWarning": "Legacy export discards normal/roughness/metalness and bakes view-dependent gloss into MeshBasicMaterial. New physical surface channels must reach a revised renderer; increasing combined bake resolution alone cannot fix this."
+}

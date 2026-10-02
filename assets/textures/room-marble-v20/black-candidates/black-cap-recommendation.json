@@ -1,0 +1,57 @@
+{
+  "status": "candidate_recommended_not_applied",
+  "assetId": "Marble002",
+  "assetPage": "https://ambientcg.com/a/Marble002",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://docs.ambientcg.com/license/",
+  "officialCreationMethod": "PBRProcedural",
+  "notAScan": true,
+  "officialDimensionsMetres": null,
+  "recommendation": "Narrow dark upper cap: near-black body, sparse subdued grey-white mineral veins; most restrained of seven official black-marble previews inspected.",
+  "avoidCandidates": {
+    "Marble016": "More uniformly busy fine vein network.",
+    "Marble017": "Dense bright crackle.",
+    "Marble023": "Brighter grey-blue body with dense white web.",
+    "Marble006": "Larger mottled beige patches.",
+    "Marble009": "Green cast.",
+    "Marble013": "Brown and blue mottling."
+  },
+  "previewIsNotProductionTexture": true,
+  "productionDownloads": [
+    {
+      "fullDownloadPath": "https://ambientcg.com/get?file=Marble002_2K-PNG.zip",
+      "downloadLink": "https://ambientcg.com/get?file=Marble002_2K-PNG.zip",
+      "fileName": "Marble002_2K-PNG.zip",
+      "size": 51275666,
+      "filetype": "zip",
+      "attribute": "2K-PNG",
+      "zipContent": []
+    },
+    {
+      "fullDownloadPath": "https://ambientcg.com/get?file=Marble002_4K-PNG.zip",
+      "downloadLink": "https://ambientcg.com/get?file=Marble002_4K-PNG.zip",
+      "fileName": "Marble002_4K-PNG.zip",
+      "size": 186677681,
+      "filetype": "zip",
+      "attribute": "4K-PNG",
+      "zipContent": []
+    }
+  ],
+  "previewFiles": [
+    {
+      "path": "assets/textures/room-marble-v20/black-candidates/Marble002-official-albedo-preview.jpg",
+      "sha256": "9cae40122eea0a948d973a26e548d4edd0c698fac771eeca193bd5cba89eee9d",
+      "bytes": 407367
+    },
+    {
+      "path": "assets/textures/room-marble-v20/black-candidates/Marble002-official-metadata.json",
+      "sha256": "24f010b9b2fdc22c1220553c7f732e4dc243e0ead6a401f63cbbc98568cb0494",
+      "bytes": 9097
+    },
+    {
+      "path": "assets/textures/room-marble-v20/black-candidates/Marble002-official-preview.png",
+      "sha256": "906430e3c5bc906bb99d88840d5d65987d1a778be9e64e81fe75748f45950996",
+      "bytes": 245387
+    }
+  ]
+}

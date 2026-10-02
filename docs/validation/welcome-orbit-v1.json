@@ -1,0 +1,363 @@
+{
+  "revision": 1,
+  "checkedAt": "2026-09-25T02:31:19.764Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Actual GLB loaded by real GLTFLoader; vertex/index/normal/material and authored-pivot checks. Production intro controller runs in a VM with real Three transforms and real input binding; DOM, timeline scheduling and GPU PMREM are controlled substitutes. No browser, GPU, rendered appearance or performance claim.",
+  "model": {
+    "path": "public/models/welcome-orbit-v1.glb",
+    "sha256": "d86e2f3c71d676671c7a8a5dda5372444a584877957847dd48378d4ab523ecea",
+    "bytes": 179404
+  },
+  "sourceSha256": {
+    "src/cube-intro.js": "9b4deb957cb86533f68438e4bbf5c6a2e91301d1d277eaa5a680c7f7341b7fa7",
+    "src/main.js": "079b062c60b4f6b180993271724f3ddea00eecbb8d56a734ebce5df3dc3022b9",
+    "src/room-entry.js": "b6be65e75407f23cf2a97a5217bf4e73e3374fe8409c5a7d0aef1d9ce9573514",
+    "src/intro-input.js": "cc8148b1e99cb508a19b936c2d8630052affd8e8457dead3b004ce896ed930cc",
+    "public/models/welcome-orbit-v1.glb": "d86e2f3c71d676671c7a8a5dda5372444a584877957847dd48378d4ab523ecea",
+    "assets/blender/welcome-orbit-v1.blend": "0dbf0ed8d2978622d7df0aa8351843be0ec400832611a9c0d4d8a7a43b0f21dd"
+  },
+  "checks": 9,
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "check": "small self-contained GLB needs no textures, external requests or decoder extensions",
+      "status": "passed",
+      "bytes": 179404,
+      "triangles": 8024,
+      "externalDependencies": 0
+    },
+    {
+      "check": "real GLTFLoader produces four independently addressable sibling meshes and one primitive each",
+      "status": "passed",
+      "logicalParts": 4,
+      "renderableMeshes": 4,
+      "records": [
+        {
+          "name": "welcome_base",
+          "vertices": 576,
+          "triangles": 896
+        },
+        {
+          "name": "welcome_ring_left",
+          "vertices": 1072,
+          "triangles": 2076
+        },
+        {
+          "name": "welcome_ring_right",
+          "vertices": 1072,
+          "triangles": 2076
+        },
+        {
+          "name": "welcome_core",
+          "vertices": 1490,
+          "triangles": 2976
+        }
+      ]
+    },
+    {
+      "check": "finite Y-up bounds, original shared ring pivot and left/right sides agree with production motion axes",
+      "status": "passed",
+      "bounds": {
+        "min": [
+          -0.8659999966621399,
+          -0.6110000126063824,
+          -0.33500000834465027
+        ],
+        "max": [
+          0.8659999966621399,
+          1.1648131608963013,
+          0.33500000834465027
+        ]
+      },
+      "parts": [
+        {
+          "name": "welcome_base",
+          "position": [
+            0,
+            -0.550000011920929,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bounds": {
+            "min": [
+              -0.8399999737739563,
+              -0.6110000126063824,
+              -0.33500000834465027
+            ],
+            "max": [
+              0.8399999737739563,
+              -0.492000013589859,
+              0.33500000834465027
+            ]
+          },
+          "localYInModel": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "welcome_ring_left",
+          "position": [
+            0,
+            0.30000001192092896,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bounds": {
+            "min": [
+              -0.8659999966621399,
+              -0.5648131370544434,
+              -0.03500000014901161
+            ],
+            "max": [
+              -0.04092671722173691,
+              1.1648131608963013,
+              0.03500000014901161
+            ]
+          },
+          "localYInModel": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "welcome_ring_right",
+          "position": [
+            0,
+            0.30000001192092896,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bounds": {
+            "min": [
+              0.04092671722173691,
+              -0.5648131370544434,
+              -0.03500000014901161
+            ],
+            "max": [
+              0.8659999966621399,
+              1.1648131608963013,
+              0.03500000014901161
+            ]
+          },
+          "localYInModel": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "welcome_core",
+          "position": [
+            0,
+            0.30000001192092896,
+            0.012000000104308128
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "bounds": {
+            "min": [
+              -0.28600049018859863,
+              0.013999998569488525,
+              -0.27400060929358006
+            ],
+            "max": [
+              0.28600016236305237,
+              0.5860000252723694,
+              0.29800031147897243
+            ]
+          },
+          "localYInModel": [
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "ringPlane": "XY",
+      "openingAxis": "+Y, vertical in the glTF model"
+    },
+    {
+      "check": "actual exported normals are unit, finite and aligned with nondegenerate triangle winding",
+      "status": "passed",
+      "records": [
+        {
+          "name": "welcome_base",
+          "minimumNormalLength": 0.9999999402175104,
+          "maximumNormalLength": 1.0000001050864673,
+          "minimumArea": 0.00031968601752480806,
+          "minimumFaceNormalDot": 0.9584550338049654,
+          "degenerates": 0
+        },
+        {
+          "name": "welcome_ring_right",
+          "minimumNormalLength": 0.9999999344759299,
+          "maximumNormalLength": 1.0000001022161489,
+          "minimumArea": 0.000009646120314191536,
+          "minimumFaceNormalDot": 0.9909600654246148,
+          "degenerates": 0
+        },
+        {
+          "name": "welcome_ring_left",
+          "minimumNormalLength": 0.9999999344759299,
+          "maximumNormalLength": 1.0000001022161489,
+          "minimumArea": 0.000009646120314191536,
+          "minimumFaceNormalDot": 0.9909600654246148,
+          "degenerates": 0
+        },
+        {
+          "name": "welcome_core",
+          "minimumNormalLength": 0.9999999478905394,
+          "maximumNormalLength": 1.0000001121739546,
+          "minimumArea": 0.0000513486340461322,
+          "minimumFaceNormalDot": 0.9996233579318097,
+          "degenerates": 0
+        }
+      ]
+    },
+    {
+      "check": "constant PBR materials and copper vertex colors survive real loading without texture or transmission dependencies",
+      "status": "passed",
+      "materials": [
+        {
+          "name": "welcome_midnight_enamel",
+          "metalness": 0.2800000011920929,
+          "roughness": 0.30000001192092896,
+          "vertexColors": false
+        },
+        {
+          "name": "welcome_titanium_with_copper_tip",
+          "metalness": 0.8500000238418579,
+          "roughness": 0.25,
+          "vertexColors": true
+        },
+        {
+          "name": "welcome_warm_porcelain",
+          "metalness": 0.02500000037252903,
+          "roughness": 0.24500000476837158,
+          "vertexColors": false
+        }
+      ]
+    },
+    {
+      "check": "authored source evidence matches the actual GLB and Blender file",
+      "status": "passed",
+      "sourceBlend": "assets/blender/welcome-orbit-v1.blend",
+      "sourceSha256": "0dbf0ed8d2978622d7df0aa8351843be0ec400832611a9c0d4d8a7a43b0f21dd",
+      "provenance": "Original procedural geometry and constant-factor PBR; no third-party assets declared."
+    },
+    {
+      "check": "production controller opens the actual independent rings around Y without drift and lowers its core correctly",
+      "status": "passed",
+      "samples": [
+        {
+          "opening": 0,
+          "leftPosition": [
+            0,
+            0.30000001192092896,
+            0
+          ],
+          "coreY": 0.30000001192092896
+        },
+        {
+          "opening": 0.25,
+          "leftPosition": [
+            -0.08226999968290329,
+            0.30000001192092896,
+            0
+          ],
+          "coreY": 0.18457215564325452
+        },
+        {
+          "opening": 0.5,
+          "leftPosition": [
+            -0.16453999936580657,
+            0.30000001192092896,
+            0
+          ],
+          "coreY": 0.06914429936558009
+        },
+        {
+          "opening": 0.75,
+          "leftPosition": [
+            -0.24680999904870987,
+            0.30000001192092896,
+            0
+          ],
+          "coreY": -0.04628355691209435
+        },
+        {
+          "opening": 1,
+          "leftPosition": [
+            -0.32907999873161314,
+            0.30000001192092896,
+            0
+          ],
+          "coreY": -0.16171141318976878
+        },
+        {
+          "opening": 0.5,
+          "leftPosition": [
+            -0.16453999936580657,
+            0.30000001192092896,
+            0
+          ],
+          "coreY": 0.06914429936558009
+        }
+      ],
+      "ringTurnAtFullOpeningRadians": [
+        -0.65,
+        0.65
+      ],
+      "axis": "local +Y = glTF up; ring plane is XY",
+      "productionControllerExecuted": true
+    },
+    {
+      "check": "production resize and skip restore exact native camera and release welcome resources only once",
+      "status": "passed",
+      "startCount": 1,
+      "completeCount": 1,
+      "disposedGeometriesAndMaterials": 7,
+      "resourceDisposals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reflectionTargetDisposals": 1
+    },
+    {
+      "check": "main loads the checked GLB before the controller and prewarms its materials before ready",
+      "status": "passed",
+      "url": "/models/welcome-orbit-v1.glb",
+      "modelSha256": "d86e2f3c71d676671c7a8a5dda5372444a584877957847dd48378d4ab523ecea",
+      "inspection": "Main loading order and wiring; shader compilation itself is not run by this CPU test."
+    }
+  ]
+}

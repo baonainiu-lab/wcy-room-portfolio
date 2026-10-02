@@ -1,0 +1,993 @@
+{
+  "complete": true,
+  "source": "assets/blender/works-gallery-v4.blend",
+  "source_sha256": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+  "v3_source_sha256": "c423ec1d7348830cf2d6783e15df50ed0025e6379c65eefa4a8b94033849f54e",
+  "asset_count": 77,
+  "asset_hierarchy": {
+    "gallery.architecture": null,
+    "gallery.architecture.glazing": null,
+    "gallery.environment.terrace": null,
+    "gallery.architecture.portal": null,
+    "gallery.work.01": null,
+    "gallery.work.01.art": "gallery.work.01",
+    "gallery.work.01.console": "gallery.work.01",
+    "gallery.work.01.label": "gallery.work.01",
+    "gallery.work.01.maquette": "gallery.work.01",
+    "gallery.work.02": null,
+    "gallery.work.02.vitrine": "gallery.work.02",
+    "gallery.work.02.vitrine.glass.side.-1": "gallery.work.02.vitrine",
+    "gallery.work.02.vitrine.glass.face.-1": "gallery.work.02.vitrine",
+    "gallery.work.02.vitrine.glass.side.1": "gallery.work.02.vitrine",
+    "gallery.work.02.vitrine.glass.face.1": "gallery.work.02.vitrine",
+    "gallery.work.02.vitrine.glass.roof": "gallery.work.02.vitrine",
+    "gallery.work.02.label": "gallery.work.02",
+    "gallery.work.02.geometry": "gallery.work.02",
+    "gallery.work.02.geometry.sphere": "gallery.work.02.geometry",
+    "gallery.work.02.geometry.folded_form": "gallery.work.02.geometry",
+    "gallery.work.03": null,
+    "gallery.work.03.art": "gallery.work.03",
+    "gallery.work.03.console": "gallery.work.03",
+    "gallery.work.03.label": "gallery.work.03",
+    "gallery.work.03.maquette": "gallery.work.03",
+    "gallery.work.04": null,
+    "gallery.work.04.sculpture": "gallery.work.04",
+    "gallery.work.04.sculpture.model": "gallery.work.04.sculpture",
+    "gallery.work.04.sculpture.model.silver_ribbon": "gallery.work.04.sculpture.model",
+    "gallery.work.04.sculpture.model.champagne_ribbon": "gallery.work.04.sculpture.model",
+    "gallery.work.04.label": "gallery.work.04",
+    "gallery.work.05": null,
+    "gallery.work.05.vitrine": "gallery.work.05",
+    "gallery.work.05.vitrine.glass.side.-1": "gallery.work.05.vitrine",
+    "gallery.work.05.vitrine.glass.face.-1": "gallery.work.05.vitrine",
+    "gallery.work.05.vitrine.glass.side.1": "gallery.work.05.vitrine",
+    "gallery.work.05.vitrine.glass.face.1": "gallery.work.05.vitrine",
+    "gallery.work.05.vitrine.glass.roof": "gallery.work.05.vitrine",
+    "gallery.work.05.label": "gallery.work.05",
+    "gallery.work.05.geometry": "gallery.work.05",
+    "gallery.work.05.geometry.faceted_core": "gallery.work.05.geometry",
+    "gallery.work.06": null,
+    "gallery.work.06.art": "gallery.work.06",
+    "gallery.work.06.console": "gallery.work.06",
+    "gallery.work.06.label": "gallery.work.06",
+    "gallery.work.06.maquette": "gallery.work.06",
+    "gallery.table.main": null,
+    "gallery.library.01": null,
+    "gallery.library.02": null,
+    "gallery.library.03": null,
+    "gallery.library.04": null,
+    "gallery.library.05": null,
+    "gallery.album.01": null,
+    "gallery.album.02": null,
+    "gallery.album.03": null,
+    "gallery.sculpture.ring": null,
+    "gallery.lamp.base": null,
+    "gallery.lamp.head": "gallery.lamp.base",
+    "gallery.cup": null,
+    "gallery.planter.table": null,
+    "gallery.tool.pencil": null,
+    "gallery.tool.caliper": null,
+    "gallery.tool.measure_disc": null,
+    "gallery.bench": null,
+    "gallery.archive.cart": null,
+    "gallery.archive.drawer.01": "gallery.archive.cart",
+    "gallery.archive.drawer.02": "gallery.archive.cart",
+    "gallery.archive.wheel.00": "gallery.archive.cart",
+    "gallery.archive.wheel.01": "gallery.archive.cart",
+    "gallery.archive.wheel.10": "gallery.archive.cart",
+    "gallery.archive.wheel.11": "gallery.archive.cart",
+    "gallery.planter.floor.01": null,
+    "gallery.planter.floor.02": null,
+    "gallery.planter.floor.03": null,
+    "gallery.planter.floor.04": null,
+    "gallery.lantern.01": null,
+    "gallery.lantern.02": null
+  },
+  "removed_old_architectural_nodes": [
+    "Back structural blue core",
+    "Back structural silver sleeve",
+    "Window base continuous rail",
+    "Panoramic clear panel 0",
+    "Panoramic clear panel 1",
+    "Panoramic clear panel 2",
+    "Panoramic clear panel 3",
+    "Panoramic clear panel 4",
+    "Panoramic clear panel 5",
+    "Slender window mullion",
+    "Slender window mullion.001",
+    "Slender window mullion.002",
+    "Slender window mullion.003",
+    "Slender window mullion.004",
+    "Slender window mullion.005",
+    "Slender window mullion.006",
+    "Silver roof rib 0",
+    "Rib blue inset 0",
+    "Rib machined connector",
+    "Rib machined connector.001",
+    "Silver roof rib 1",
+    "Rib blue inset 1",
+    "Rib machined connector.002",
+    "Rib machined connector.003",
+    "Silver roof rib 2",
+    "Rib blue inset 2",
+    "Rib machined connector.004",
+    "Rib machined connector.005",
+    "Silver roof rib 3",
+    "Rib blue inset 3",
+    "Rib machined connector.006",
+    "Rib machined connector.007",
+    "Silver roof rib 4",
+    "Rib blue inset 4",
+    "Rib machined connector.008",
+    "Rib machined connector.009",
+    "Silver roof rib 5",
+    "Rib blue inset 5",
+    "Rib machined connector.010",
+    "Rib machined connector.011",
+    "Silver roof rib 6",
+    "Rib blue inset 6",
+    "Rib machined connector.012",
+    "Rib machined connector.013",
+    "Glass canopy segment 0",
+    "Glass canopy segment 1",
+    "Glass canopy segment 2",
+    "Glass canopy segment 3",
+    "Glass canopy segment 4",
+    "Glass canopy segment 5",
+    "Front canopy continuous rail",
+    "Corner load-bearing column",
+    "Corner load-bearing column.001",
+    "Gateway rounded frame",
+    "Gateway rounded frame.001",
+    "Gateway rounded frame.002",
+    "Gateway rounded frame.003",
+    "Gateway rounded frame.004",
+    "Gateway rounded frame.005",
+    "Gateway rear pier",
+    "Gateway front pier",
+    "Gateway lintel",
+    "Passage ceiling arch",
+    "Passage ceiling arch.001",
+    "Passage threshold",
+    "Passage side lining",
+    "Passage side lining.001",
+    "Connection return wall",
+    "Connection vertical bronze inlay",
+    "Works doorway sign"
+  ],
+  "quad_shell_designs": [
+    {
+      "name": "V4 continuous back structural wall",
+      "axis": "Y",
+      "center": [
+        0,
+        3.425,
+        2.77
+      ],
+      "outer_size": [
+        15.14,
+        5.28
+      ],
+      "depth": 0.39,
+      "section": 0.37,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 left continuous end wall",
+      "axis": "X",
+      "center": [
+        -7.35,
+        0.59,
+        2.77
+      ],
+      "outer_size": [
+        6.06,
+        5.28
+      ],
+      "depth": 0.44,
+      "section": 0.36,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 right continuous end wall",
+      "axis": "X",
+      "center": [
+        7.35,
+        0.59,
+        2.77
+      ],
+      "outer_size": [
+        6.06,
+        5.28
+      ],
+      "depth": 0.44,
+      "section": 0.36,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 end silver face reveal -1",
+      "axis": "X",
+      "center": [
+        -7.587,
+        0.59,
+        2.77
+      ],
+      "outer_size": [
+        6.02,
+        5.24
+      ],
+      "depth": 0.035,
+      "section": 0.085,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 end silver face reveal 1",
+      "axis": "X",
+      "center": [
+        7.587,
+        0.59,
+        2.77
+      ],
+      "outer_size": [
+        6.02,
+        5.24
+      ],
+      "depth": 0.035,
+      "section": 0.085,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 solid return doorway shell",
+      "axis": "X",
+      "center": [
+        -8.075,
+        -0.05,
+        2.55
+      ],
+      "outer_size": [
+        3.98,
+        4.91
+      ],
+      "depth": 1.85,
+      "section": 0.365,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 door silver front reveal",
+      "axis": "X",
+      "center": [
+        -7.13,
+        -0.05,
+        2.55
+      ],
+      "outer_size": [
+        3.91,
+        4.84
+      ],
+      "depth": 0.04,
+      "section": 0.1,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 door silver back reveal",
+      "axis": "X",
+      "center": [
+        -9.02,
+        -0.05,
+        2.55
+      ],
+      "outer_size": [
+        3.91,
+        4.84
+      ],
+      "depth": 0.04,
+      "section": 0.1,
+      "quads": 336,
+      "all_faces_quads": true
+    },
+    {
+      "name": "V4 door warm recessed inner reveal",
+      "axis": "X",
+      "center": [
+        -7.106,
+        -0.05,
+        2.55
+      ],
+      "outer_size": [
+        3.31,
+        4.24
+      ],
+      "depth": 0.016,
+      "section": 0.018,
+      "quads": 336,
+      "all_faces_quads": true
+    }
+  ],
+  "new_geometry_checks": [
+    {
+      "name": "V4 unified continuous structural shell",
+      "owner": "gallery.architecture",
+      "triangles": 15002,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 12.553483742510265,
+      "bounds": {
+        "min": [
+          -7.570000171661377,
+          -2.440000057220459,
+          0.12999999523162842
+        ],
+        "max": [
+          7.570000171661377,
+          3.643059730529785,
+          5.409999847412109
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 end silver face reveal -1",
+      "owner": "gallery.architecture",
+      "triangles": 2688,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.060271370111544195,
+      "bounds": {
+        "min": [
+          -7.604499816894531,
+          -2.4200000762939453,
+          0.15000000596046448
+        ],
+        "max": [
+          -7.569499969482422,
+          3.5999999046325684,
+          5.389999866485596
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 end silver face reveal 1",
+      "owner": "gallery.architecture",
+      "triangles": 2688,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.06027137011154022,
+      "bounds": {
+        "min": [
+          7.569499969482422,
+          -2.4200000762939453,
+          0.15000000596046448
+        ],
+        "max": [
+          7.604499816894531,
+          3.5999999046325684,
+          5.389999866485596
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 continuous door tunnel and threshold",
+      "owner": "gallery.architecture.portal",
+      "triangles": 2976,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 14.75261970039791,
+      "bounds": {
+        "min": [
+          -9.085000038146973,
+          -2.0450000762939453,
+          -0.4099999964237213
+        ],
+        "max": [
+          -7.064999580383301,
+          1.9450000524520874,
+          5.005000114440918
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 door silver front reveal",
+      "owner": "gallery.architecture.portal",
+      "triangles": 2688,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.061678685922965625,
+      "bounds": {
+        "min": [
+          -7.150000095367432,
+          -2.005000114440918,
+          0.12999999523162842
+        ],
+        "max": [
+          -7.110000133514404,
+          1.9049999713897705,
+          4.96999979019165
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 door silver back reveal",
+      "owner": "gallery.architecture.portal",
+      "triangles": 2688,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.06167880303742557,
+      "bounds": {
+        "min": [
+          -9.039999961853027,
+          -2.005000114440918,
+          0.12999999523162842
+        ],
+        "max": [
+          -9.0,
+          1.9049999713897705,
+          4.96999979019165
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 door warm recessed inner reveal",
+      "owner": "gallery.architecture.portal",
+      "triangles": 2688,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.0039326126208025225,
+      "bounds": {
+        "min": [
+          -7.113999843597412,
+          -1.7050000429153442,
+          0.4300000071525574
+        ],
+        "max": [
+          -7.0980000495910645,
+          1.6050000190734863,
+          4.670000076293945
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 return portal back wall",
+      "owner": "gallery.architecture.portal",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 2.9623958493106484,
+      "bounds": {
+        "min": [
+          -9.289999961853027,
+          -1.75,
+          0.21000003814697266
+        ],
+        "max": [
+          -9.089999198913574,
+          1.6500000953674316,
+          4.590000152587891
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 doorway brushed threshold tread",
+      "owner": "gallery.architecture.portal",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.32071587304084864,
+      "bounds": {
+        "min": [
+          -9.015000343322754,
+          -1.6999999284744263,
+          0.26499998569488525
+        ],
+        "max": [
+          -7.065000057220459,
+          1.600000023841858,
+          0.3149999976158142
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 Works return doorway label",
+      "owner": "gallery.architecture.portal",
+      "triangles": 8620,
+      "boundary_edges": 1440,
+      "non_manifold_edges": 1440,
+      "volume": 8.575710283143786e-05,
+      "bounds": {
+        "min": [
+          -7.101099967956543,
+          -1.9885914325714111,
+          2.327979326248169
+        ],
+        "max": [
+          -7.098899841308594,
+          -1.3484184741973877,
+          2.63316011428833
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 inset rear glazing pane 00",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 1020,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.3461807685001457,
+      "bounds": {
+        "min": [
+          -7.239999771118164,
+          3.434000015258789,
+          0.4749999940395355
+        ],
+        "max": [
+          -4.829999923706055,
+          3.4660000801086426,
+          5.065000057220459
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 inset rear glazing pane 01",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.35244954189819033,
+      "bounds": {
+        "min": [
+          -4.809999942779541,
+          3.434000015258789,
+          0.4749999940395355
+        ],
+        "max": [
+          -2.4100000858306885,
+          3.4660000801086426,
+          5.065000057220459
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 inset rear glazing pane 02",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.349512149521237,
+      "bounds": {
+        "min": [
+          -2.390000104904175,
+          3.434000015258789,
+          0.4749999940395355
+        ],
+        "max": [
+          -0.009999999776482582,
+          3.4660000801086426,
+          5.065000057220459
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 inset rear glazing pane 03",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.349512149521237,
+      "bounds": {
+        "min": [
+          0.009999999776482582,
+          3.434000015258789,
+          0.4749999940395355
+        ],
+        "max": [
+          2.390000104904175,
+          3.4660000801086426,
+          5.065000057220459
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 inset rear glazing pane 04",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.3524495418981921,
+      "bounds": {
+        "min": [
+          2.4100000858306885,
+          3.434000015258789,
+          0.4749999940395355
+        ],
+        "max": [
+          4.809999942779541,
+          3.4660000801086426,
+          5.065000057220459
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 inset rear glazing pane 05",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 1020,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.34618077261642455,
+      "bounds": {
+        "min": [
+          4.829999923706055,
+          3.434000015258789,
+          0.4749999940395355
+        ],
+        "max": [
+          7.239999771118164,
+          3.4660000801086426,
+          5.065000057220459
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 sealed window mullion 00",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.02484906900371355,
+      "bounds": {
+        "min": [
+          -4.845000267028809,
+          3.3420000076293945,
+          0.4249999523162842
+        ],
+        "max": [
+          -4.795000076293945,
+          3.452000141143799,
+          5.114999771118164
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 00",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.000618129851941669,
+      "bounds": {
+        "min": [
+          -4.826000213623047,
+          3.319999933242798,
+          0.48000001907348633
+        ],
+        "max": [
+          -4.814000129699707,
+          3.3320000171661377,
+          5.059999942779541
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 sealed window mullion 01",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.02484906900371355,
+      "bounds": {
+        "min": [
+          -2.4250001907348633,
+          3.3420000076293945,
+          0.4249999523162842
+        ],
+        "max": [
+          -2.375,
+          3.452000141143799,
+          5.114999771118164
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 01",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.000618129851941669,
+      "bounds": {
+        "min": [
+          -2.4060001373291016,
+          3.319999933242798,
+          0.48000001907348633
+        ],
+        "max": [
+          -2.3940000534057617,
+          3.3320000171661377,
+          5.059999942779541
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 sealed window mullion 02",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.02484906900371355,
+      "bounds": {
+        "min": [
+          -0.02500000037252903,
+          3.3420000076293945,
+          0.4249999523162842
+        ],
+        "max": [
+          0.02500000037252903,
+          3.452000141143799,
+          5.114999771118164
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 02",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.000618129851941669,
+      "bounds": {
+        "min": [
+          -0.006000000052154064,
+          3.319999933242798,
+          0.48000001907348633
+        ],
+        "max": [
+          0.006000000052154064,
+          3.3320000171661377,
+          5.059999942779541
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 sealed window mullion 03",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.02484906900371355,
+      "bounds": {
+        "min": [
+          2.375,
+          3.3420000076293945,
+          0.4249999523162842
+        ],
+        "max": [
+          2.4250001907348633,
+          3.452000141143799,
+          5.114999771118164
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 03",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.000618129851941669,
+      "bounds": {
+        "min": [
+          2.3940000534057617,
+          3.319999933242798,
+          0.48000001907348633
+        ],
+        "max": [
+          2.4060001373291016,
+          3.3320000171661377,
+          5.059999942779541
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 sealed window mullion 04",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.02484906900371355,
+      "bounds": {
+        "min": [
+          4.795000076293945,
+          3.3420000076293945,
+          0.4249999523162842
+        ],
+        "max": [
+          4.845000267028809,
+          3.452000141143799,
+          5.114999771118164
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 04",
+      "owner": "gallery.architecture",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.000618129851941669,
+      "bounds": {
+        "min": [
+          4.814000129699707,
+          3.319999933242798,
+          0.48000001907348633
+        ],
+        "max": [
+          4.826000213623047,
+          3.3320000171661377,
+          5.059999942779541
+        ]
+      },
+      "architecture_glass": false
+    },
+    {
+      "name": "V4 solid canopy glass 00",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 236,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.14991013788172936,
+      "bounds": {
+        "min": [
+          -7.284999847412109,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          -4.965000152587891,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 solid canopy glass 01",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.1531959301000505,
+      "bounds": {
+        "min": [
+          -4.835000038146973,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          -2.515000104904175,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 solid canopy glass 02",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.15319592964980444,
+      "bounds": {
+        "min": [
+          -2.384999990463257,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          -0.06499999761581421,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 solid canopy glass 03",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.15319592964994477,
+      "bounds": {
+        "min": [
+          0.06499999761581421,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          2.384999990463257,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 solid canopy glass 04",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 188,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.1531959301002228,
+      "bounds": {
+        "min": [
+          2.515000104904175,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          4.835000038146973,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "architecture_glass": true
+    },
+    {
+      "name": "V4 solid canopy glass 05",
+      "owner": "gallery.architecture.glazing",
+      "triangles": 236,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "volume": 0.14991026760237247,
+      "bounds": {
+        "min": [
+          4.965000152587891,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          7.284999847412109,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "architecture_glass": true
+    }
+  ],
+  "sun_and_local_lights_preserved": true,
+  "source_floor_and_exhibits_unchanged": true,
+  "rear_glass_thickness_m": 0.032,
+  "canopy_glass_thickness_m": 0.03,
+  "architecture_glass_material": "GALLERY_ARCH_GLASS_PBR",
+  "return_interface": "gallery.architecture.portal"
+}

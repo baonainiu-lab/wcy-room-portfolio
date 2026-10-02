@@ -1,0 +1,146 @@
+{
+  "createdAt": "2026-09-30T05:28:06.574Z",
+  "scope": "CPU clock + real GLTF material hooks; GPU compilation and visual output checked separately in browser",
+  "checks": [
+    {
+      "name": "a complete real-time cycle visits day, dusk, night and dawn, then returns continuously",
+      "passed": true,
+      "seconds": 60,
+      "samples": 3601,
+      "maximumStep": 0.0013765255381180674,
+      "sunsetSeconds": 15,
+      "sunriseSeconds": 15
+    },
+    {
+      "name": "pauses do not accumulate time and reduced-motion stays at daylight 10:00",
+      "passed": true
+    },
+    {
+      "name": "every opening including old night QA links starts at 10:00; only completed entry starts the automatic cycle",
+      "passed": true,
+      "testedUrlQueries": [
+        "",
+        "?qa&sceneHour=22&timeHold",
+        "?qa&sceneHour=18.5",
+        "?qa&timeHold"
+      ],
+      "startHour": 10,
+      "dayMixAtEntry": 1,
+      "clockHeldThroughoutIntro": true,
+      "automaticCycleStillRuns": true
+    },
+    {
+      "name": "morning and evening have zero endpoint speed, and accessible clock is not a live announcement",
+      "passed": true
+    },
+    {
+      "name": "longer perceptual ramps reduce visible brightness steps without changing either baked endpoint",
+      "passed": true,
+      "scope": "sRGB output response for representative linear-light channels, not a GPU benchmark",
+      "comparisons": [
+        {
+          "nightLinear": 0,
+          "dayLinear": 1,
+          "oldMaximumDisplayStep": 0.001982247988335184,
+          "newMaximumDisplayStep": 0.0010708030202255525,
+          "reduction": 0.4598037044169837
+        },
+        {
+          "nightLinear": 0.004,
+          "dayLinear": 0.5,
+          "oldMaximumDisplayStep": 0.0013840073618751614,
+          "newMaximumDisplayStep": 0.0007806053491482556,
+          "reduction": 0.4359817941353791
+        },
+        {
+          "nightLinear": 0.02,
+          "dayLinear": 0.65,
+          "oldMaximumDisplayStep": 0.0013850207197369513,
+          "newMaximumDisplayStep": 0.0008148897527681109,
+          "reduction": 0.4116407493724151
+        },
+        {
+          "nightLinear": 0.12,
+          "dayLinear": 0.7,
+          "oldMaximumDisplayStep": 0.0009823344452466465,
+          "newMaximumDisplayStep": 0.0006158670340558059,
+          "reduction": 0.3730576821001398
+        },
+        {
+          "nightLinear": 0.7,
+          "dayLinear": 0.2,
+          "oldMaximumDisplayStep": 0.0007690048734450006,
+          "newMaximumDisplayStep": 0.0005192070704976848,
+          "reduction": 0.3248325356226516
+        }
+      ],
+      "frameRates": [
+        24,
+        30,
+        60,
+        120
+      ]
+    },
+    {
+      "name": "UI wash and theme metadata blend continuously with no half-mix CSS class switch",
+      "passed": true,
+      "backgroundMaximumStep": 0.0010416658093284625,
+      "metaEndpoints": [
+        "#10171c",
+        "#e3e8e5"
+      ],
+      "classChangesPerCycle": 0,
+      "introOverlayDisplayRuleUntouched": true
+    },
+    {
+      "name": "actual room materials, window, screens, environment and resident terminal follow exactly one fractional mix",
+      "passed": true,
+      "boundMaterialSamples": 117,
+      "materialCount": 26
+    },
+    {
+      "name": "clock writes do not allocate GSAP tweens, change material versions, or upload new textures",
+      "passed": true,
+      "writes": 1001,
+      "textureUploadsAdded": 0,
+      "materialRecompilesAdded": 0,
+      "tweensAdded": 0
+    },
+    {
+      "name": "night readability only grades interior shadows, preserving outdoor/window night and fixture highlights",
+      "passed": true,
+      "interiorMaterials": 10,
+      "excludedMaterials": 3,
+      "nightGrayBefore": 0.02,
+      "nightGrayAfter": 0.06382814814814816,
+      "interiorNightGrade": {
+        "method": "black-preserving peak-channel exposure shoulder",
+        "maximumGain": 3.4,
+        "constantRGBOffset": [
+          0,
+          0,
+          0
+        ],
+        "highlightsUnchangedAbove": 0.45
+      },
+      "trueBlackPreserved": true,
+      "bakedHueRatiosPreserved": true,
+      "saturatedWarmEmittersPreserved": true,
+      "dayEndpointUnchanged": true
+    }
+  ],
+  "passed": true,
+  "sourceSha256": {
+    "src/scene-clock.js": "a2d6a92d4b1bda0243ca2ee60eabdea9db80e4f6c6ca14473690c5a06095089e",
+    "src/scene-time-theme.js": "eabc6a3583dc68fcfafc8615dedb0cd092a6e07992a0f172e3fa6714ad281735",
+    "src/scene-time-theme.scss": "7caaf27e4843c6dabf45a610decd03afc9bf90c6df60d01a36988045b73f7b34",
+    "src/dual-lighting.js": "4d0a34a48e12003d7476664c6e82da73a86fb98ddae1714f316568092fa3252a",
+    "src/exterior-atmosphere.js": "2048676688b50d1c2e7e854a40c265d44126941ae5200055280b5213c737fff8",
+    "src/resident-terminal.js": "37e1f7a7ea0045fb477b773312e6e3810b83e8dcd453787452f7b5432e1baa83",
+    "src/live-room-surfaces.js": "89de4ecc91897a34230dc6e51586e004b6d65430a7c77654067919ca9e8f2c4c",
+    "src/works-gallery.js": "c9aa222a77878ec601314236b182554b071e25bc43d42f42f954cb39b0621f30",
+    "src/main.js": "49004727cd1c23cb86dc8b6e6d008f9a2d6bcffd6bb15bd21abd95879e454ce5",
+    "index.html": "dc532e0ac24515e604b1a9719acaa0907eedeba182f1f0c4b86dee1d0d6b249b",
+    "src/style.scss": "1aedcc47b21fdd670a0ad61e3bfad5ac9a21905610932a91f34019ff2d65f21b"
+  }
+}

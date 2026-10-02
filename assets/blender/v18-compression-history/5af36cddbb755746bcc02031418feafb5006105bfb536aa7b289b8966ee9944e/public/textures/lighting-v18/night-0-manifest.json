@@ -1,0 +1,45 @@
+{
+  "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/textures/lighting-v18/night-0.png",
+  "sha256": "9244c9821c95562ea468196d11f147abfd5d2139c7dda753f7a5286ef9b270da",
+  "bytes": 3606469,
+  "dimensions": [
+    4096,
+    4096
+  ],
+  "colorSpace": "NoColorSpace / linear data",
+  "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+  "channels": 4,
+  "encoding": "RGBM32",
+  "decode": "32 * rgb * alpha",
+  "range": 32,
+  "sourceRadianceMaximum": 35.825233459472656,
+  "valuesAboveRangeFraction": 4.331270853678386e-06,
+  "negativeInputFraction": 0.0,
+  "quantizationMAE": 4.5913446228951216e-05,
+  "quantizationMaxError": 0.0623927116394043,
+  "alphaIsMultiplier": true,
+  "hdrOutliers": {
+    "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/linear-intermediates/lighting-v18/night-0-hdr-outliers.npz",
+    "sha256": "e0dcd4fc271cc0341a4a68df1fc2e14ab6d8472878fc386aea2da820f9a777a0",
+    "count": 218,
+    "indexConvention": "flattened bottom-up Blender RGB float buffer; restore before PNG row flip"
+  },
+  "slot": 0,
+  "state": "night",
+  "engine": "CYCLES",
+  "samples": 96,
+  "passFilter": [
+    "DIRECT",
+    "INDIRECT",
+    "COLOR",
+    "DIFFUSE",
+    "EMIT"
+  ],
+  "glossyExcluded": true,
+  "geometryUvNormalsUnchanged": true,
+  "seconds": 94.47,
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-dual-bake-v18.blend",
+  "sourceSha256": "5af36cddbb755746bcc02031418feafb5006105bfb536aa7b289b8966ee9944e",
+  "cleanIntro": false,
+  "receiverOnly": false
+}

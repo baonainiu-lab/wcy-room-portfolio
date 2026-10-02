@@ -1,0 +1,21 @@
+{
+  "reason": "User rejected down-only top light and requested less washed-out daytime wood. Unreleased revision1 runtime outputs preserved before revision2 source freeze.",
+  "files": [
+    {
+      "original": "public/textures/lighting-v19",
+      "archive": "assets/blender/room-v19-review-history/review1/runtime/lighting-v19"
+    },
+    {
+      "original": "assets/blender/photoreal-materials-v19-compression.json",
+      "archive": "assets/blender/room-v19-review-history/review1/runtime/photoreal-materials-v19-compression.json"
+    },
+    {
+      "original": "assets/blender/room-v19-surface-inheritance.json",
+      "archive": "assets/blender/room-v19-review-history/review1/runtime/room-v19-surface-inheritance.json"
+    },
+    {
+      "original": "assets/blender/room-v19-surface-reuse-proof.json",
+      "archive": "assets/blender/room-v19-review-history/review1/runtime/room-v19-surface-reuse-proof.json"
+    }
+  ]
+}

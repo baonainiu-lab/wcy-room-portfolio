@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "daySignatureV12": "1170fef5f6b576b19bad3dd25c4139e16576182b624bd9aaa17d69e89c87113b",
+  "daySignatureV13": "1170fef5f6b576b19bad3dd25c4139e16576182b624bd9aaa17d69e89c87113b",
+  "scope": "All editable day objects, transforms, mesh positions/topology/UVs/smooth flags/material indices, material node values/links, lights, world nodes and view settings.",
+  "v12Sharing": {
+    "sharedObjects": [],
+    "sharedMeshData": []
+  },
+  "v13Sharing": {
+    "sharedObjects": [],
+    "sharedMeshData": []
+  },
+  "objectCount": 2097,
+  "daySceneRenameOnly": "ORIGINAL_DAY_V12 to ORIGINAL_DAY_V13"
+}

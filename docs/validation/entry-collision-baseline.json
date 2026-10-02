@@ -1,0 +1,4252 @@
+{
+  "checkedAt": "2026-09-25T03:47:57.509Z",
+  "sourceSha256": {
+    "src/room-entry.js": "0cc25cee391d0a94e6758175a92059742aa4253b388b14910b271bda8454934d",
+    "src/cube-intro.js": "e45d88d208d8eb24bc38bd074c032be8c5a4b114b6566baeb08bcf8eee2cf1e4",
+    "public/models/orbital-atelier-v15.glb": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15",
+    "public/models/welcome-terminal-v1.glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24"
+  },
+  "sampleRateHz": 24,
+  "durationSeconds": 4.7179865,
+  "method": "Actual GLTFLoader geometry and unchanged production GSAP controller. Every prop vertex is evaluated in original room coordinates, removing only the external uniform room reveal. Downward ray/triangle hits on unchanged reference floor, desk, coffee table, rug or static architecture confirm selected support crossings. Whole-scene AABB overlap is not treated as collision.",
+  "limitations": [
+    "Reference support is in its final pose: a delayed or still-growing support is reported separately by choreography checks.",
+    "Footprint escape alone is a trajectory risk, not a triangle collision verdict.",
+    "This low-vertex witness scan is not exhaustive triangle/triangle intersection testing.",
+    "This intermediate baseline already includes hardware binding in its animated scene; the pre-binding main_display reference box is not comparable. That record is excluded from verified collision counts. Raw data is retained for provenance."
+  ],
+  "propCount": 36,
+  "supportCrossingCount": 12,
+  "footprintEscapeCount": 3,
+  "props": [
+    {
+      "id": "main_display",
+      "baselineBounds": {
+        "min": [
+          -4.702630443879952,
+          2.2605003111839252,
+          -1.7324405968804053
+        ],
+        "max": [
+          -3.1211982658423376,
+          3.799500319051738,
+          1.4449813234806512
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 4.7179865,
+        "depth": 0.4069612,
+        "point": [
+          -4.5200753,
+          1.8535391,
+          1.4762228
+        ],
+        "baselineMinimumY": 2.2605003111839252,
+        "scale": 1
+      },
+      "referenceSurfacePenetration": {
+        "time": 3.4583333,
+        "depth": 0.4247987,
+        "vertex": [
+          -4.5095299,
+          1.8687479,
+          1.4314968
+        ],
+        "supportingTriangleHit": [
+          -4.5095299,
+          2.2935466,
+          1.4314968
+        ],
+        "supportMesh": "WEB8_room_static__baked__A0",
+        "supportFace": 9052,
+        "supportOwner": null,
+        "originalLowestVertexGap": -0.0330463,
+        "scale": 0.9769623
+      },
+      "footprintEscape": {
+        "time": 3.625,
+        "distance": 0.2612754,
+        "vertex": [
+          -4.9639058,
+          2.6196001,
+          1.370343
+        ],
+        "scale": 1
+      },
+      "excludedFromVerifiedCounts": true
+    },
+    {
+      "id": "compute_core",
+      "baselineBounds": {
+        "min": [
+          -3.6130350798199817,
+          0.20608418686871577,
+          0.8131748346958055
+        ],
+        "max": [
+          -2.491209750453187,
+          1.6359159969251489,
+          2.0448327754394913
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.9583333,
+        "depth": 0.1502059,
+        "point": [
+          -2.9680272,
+          0.0558782,
+          1.5421938
+        ],
+        "baselineMinimumY": 0.20608418686871577,
+        "scale": 0.1245798
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.9583333,
+        "depth": 0.1241223,
+        "vertex": [
+          -2.9680272,
+          0.0558782,
+          1.5421938
+        ],
+        "supportingTriangleHit": [
+          -2.9680272,
+          0.1800005,
+          1.5421938
+        ],
+        "supportMesh": "WEB8_architectureplatform__baked__A0",
+        "supportFace": 186,
+        "supportOwner": "architecture.platform",
+        "originalLowestVertexGap": 0.0260837,
+        "scale": 0.1245798
+      },
+      "footprintEscape": {
+        "time": 3.6666667,
+        "distance": 0.0039616,
+        "vertex": [
+          -2.4872482,
+          0.4308,
+          1.3012723
+        ],
+        "scale": 1
+      }
+    },
+    {
+      "id": "furniture.desk",
+      "baselineBounds": {
+        "min": [
+          -4.648341564351446,
+          0.18114003041744198,
+          -2.3398900360454444
+        ],
+        "max": [
+          -2.002965553661169,
+          1.8580841382455304,
+          1.9567989208901895
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.work_chair",
+      "baselineBounds": {
+        "min": [
+          -2.2068479667754692,
+          0.17687503263354287,
+          -0.16781262197607338
+        ],
+        "max": [
+          -0.7089463989666588,
+          2.6086880070171503,
+          1.267964573768932
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.lounge",
+      "baselineBounds": {
+        "min": [
+          1.32922947126565,
+          0.20343999179959305,
+          0.671724607956194
+        ],
+        "max": [
+          3.98748068499179,
+          1.5776594109028963,
+          2.635562253651748
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.coffee_table",
+      "baselineBounds": {
+        "min": [
+          -1.0489707963137533,
+          0.20409295970132035,
+          0.5102582310111927
+        ],
+        "max": [
+          0.8489707933335211,
+          0.9551500226318836,
+          1.7897417213050915
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.5833333,
+        "depth": 0.0810026,
+        "point": [
+          -0.1438868,
+          0.1230904,
+          1.1448016
+        ],
+        "baselineMinimumY": 0.20409295970132035,
+        "scale": 0.101247
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.5833333,
+        "depth": 0.0885037,
+        "vertex": [
+          -0.1438868,
+          0.1230904,
+          1.1448016
+        ],
+        "supportingTriangleHit": [
+          -0.1438868,
+          0.211594,
+          1.1448016
+        ],
+        "supportMesh": "WEB8_furniturerug__baked__A1",
+        "supportFace": 2067,
+        "supportOwner": "furniture.rug",
+        "originalLowestVertexGap": -0.0075011,
+        "scale": 0.101247
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.rug",
+      "baselineBounds": {
+        "min": [
+          -1.4011374032256754,
+          0.1852186769247055,
+          -0.8398256773977124
+        ],
+        "max": [
+          4.401137725090763,
+          0.21663829684257507,
+          3.3398256773977124
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "robot_companion",
+      "baselineBounds": {
+        "min": [
+          -3.8179987342357116,
+          0.19187737631310497,
+          1.97573623521075
+        ],
+        "max": [
+          -2.642001303911261,
+          1.1224489294468913,
+          2.978227529852692
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "folding_drawing_terminal",
+      "baselineBounds": {
+        "min": [
+          -2.8451153186141305,
+          1.8455394854253586,
+          -1.5853259522378798
+        ],
+        "max": [
+          -2.005140859102397,
+          2.731956740199453,
+          -0.6915179186536808
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 3,
+        "depth": 0.027924,
+        "point": [
+          -2.2674651,
+          1.8176155,
+          -1.2949229
+        ],
+        "baselineMinimumY": 1.8455394854253586,
+        "scale": 0.4219198
+      },
+      "referenceSurfacePenetration": {
+        "time": 3,
+        "depth": 0.0404646,
+        "vertex": [
+          -2.2674651,
+          1.8176155,
+          -1.2949229
+        ],
+        "supportingTriangleHit": [
+          -2.2674651,
+          1.8580801,
+          -1.2949229
+        ],
+        "supportMesh": "WEB8_furnituredesk__baked__A1",
+        "supportFace": 3378,
+        "supportOwner": "furniture.desk",
+        "originalLowestVertexGap": -0.0125406,
+        "scale": 0.4219198
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "c_archive_dock",
+      "baselineBounds": {
+        "min": [
+          3.545140018210411,
+          2.041040010458827,
+          -3.116600548589224
+        ],
+        "max": [
+          4.444599978113175,
+          2.825359963550568,
+          -2.683399625158316
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "kinetic_three_petal_flower",
+      "baselineBounds": {
+        "min": [
+          3.523172142863658,
+          3.267497423300978,
+          -3.1812559370840425
+        ],
+        "max": [
+          4.417726222365723,
+          4.021369760377144,
+          -2.6187442536508208
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "headphones_on_stand",
+      "baselineBounds": {
+        "min": [
+          -3.78579378367584,
+          1.8478975212880173,
+          1.3269712949545134
+        ],
+        "max": [
+          -3.3486356152969066,
+          2.564552777313523,
+          1.9057153922762586
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.9583333,
+        "depth": 0.0826133,
+        "point": [
+          -3.569798,
+          1.7652842,
+          1.6193678
+        ],
+        "baselineMinimumY": 1.8478975212880173,
+        "scale": 0.1038998
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.9583333,
+        "depth": 0.0927959,
+        "vertex": [
+          -3.569798,
+          1.7652842,
+          1.6193678
+        ],
+        "supportingTriangleHit": [
+          -3.569798,
+          1.8580801,
+          1.6193678
+        ],
+        "supportMesh": "WEB8_furnituredesk__baked__A1",
+        "supportFace": 3339,
+        "supportOwner": "furniture.desk",
+        "originalLowestVertexGap": -0.0101826,
+        "scale": 0.1038998
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "ceramic_ring_speaker",
+      "baselineBounds": {
+        "min": [
+          -3.2464480952492893,
+          1.8466799230214954,
+          -2.1327465910648575
+        ],
+        "max": [
+          -2.7950252934225857,
+          2.4769940881979067,
+          -1.6717120709233004
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "split_keyboard",
+      "baselineBounds": {
+        "min": [
+          -3.1021205080379852,
+          1.8468175585637108,
+          -0.3602252555693139
+        ],
+        "max": [
+          -2.4717823908136083,
+          1.9484469884988878,
+          0.8025622421143241
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "compact_camera",
+      "baselineBounds": {
+        "min": [
+          -3.221298804990236,
+          1.853519947414398,
+          0.9873535913790479
+        ],
+        "max": [
+          -2.9004273508170937,
+          2.1024608757001984,
+          1.3562051969205127
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "thermal_cup",
+      "baselineBounds": {
+        "min": [
+          -2.5026452746914862,
+          1.8478199290334434,
+          -2.121587858905255
+        ],
+        "max": [
+          -2.331903337875335,
+          2.125995869679251,
+          -1.9506598375789688
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "table_notebook_group",
+      "baselineBounds": {
+        "min": [
+          -0.8377232843343152,
+          0.9485501399382976,
+          0.9342192483873692
+        ],
+        "max": [
+          0.30300002157688155,
+          1.041500004544854,
+          1.4773810255789226
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.8333333,
+        "depth": 0.0082644,
+        "point": [
+          -0.1042004,
+          0.9402857,
+          1.1038769
+        ],
+        "baselineMinimumY": 0.9485501399382976,
+        "scale": 0.5382304
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.8333333,
+        "depth": 0.0148643,
+        "vertex": [
+          -0.1042004,
+          0.9402857,
+          1.1038769
+        ],
+        "supportingTriangleHit": [
+          -0.1042004,
+          0.95515,
+          1.1038769
+        ],
+        "supportMesh": "WEB8_furniturecoffee_table__glass__A1",
+        "supportFace": 1275,
+        "supportOwner": "furniture.coffee_table",
+        "originalLowestVertexGap": -0.0065999,
+        "scale": 0.5382304
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "glass_bonsai_terrarium",
+      "baselineBounds": {
+        "min": [
+          3.5972708555710895,
+          0.7592800001737475,
+          -3.3023585382555716
+        ],
+        "max": [
+          4.4025012544208195,
+          1.6106955495173807,
+          -2.497481209893195
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "trailing_wall_plant",
+      "baselineBounds": {
+        "min": [
+          4.162167549133301,
+          3.2789515256881714,
+          -2.7162274941802025
+        ],
+        "max": [
+          5.037046104669571,
+          4.5236604660749435,
+          -2.2807775139808655
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.0416667,
+        "depth": 0.1411203,
+        "point": [
+          4.6047894,
+          3.1378313,
+          -2.4966816
+        ],
+        "baselineMinimumY": 3.2789515256881714,
+        "scale": 0.1316378
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.0416667,
+        "depth": 0.1121687,
+        "vertex": [
+          4.6047894,
+          3.1378313,
+          -2.4966816
+        ],
+        "supportingTriangleHit": [
+          4.6047894,
+          3.25,
+          -2.4966816
+        ],
+        "supportMesh": "WEB8_room_static__baked__A0",
+        "supportFace": 4238,
+        "supportOwner": null,
+        "originalLowestVertexGap": 0.0289515,
+        "scale": 0.1316378
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "studio_reference_books",
+      "baselineBounds": {
+        "min": [
+          -1.8114999681711197,
+          1.4199999012053013,
+          -2.9434998631477356
+        ],
+        "max": [
+          -1.2504999488592148,
+          1.9510473199042173,
+          -2.636999875307083
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "geometric_specimen_cloche",
+      "baselineBounds": {
+        "min": [
+          -0.5708635747432709,
+          1.4199999570846558,
+          -3.000863552093506
+        ],
+        "max": [
+          -0.12913641333580017,
+          1.99399995803833,
+          -2.559136390686035
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "portable_fold_communicator",
+      "baselineBounds": {
+        "min": [
+          0.8439999967813492,
+          1.420999938622117,
+          -2.9249999970197678
+        ],
+        "max": [
+          1.1560000032186508,
+          1.922454632580022,
+          -2.6670000106096268
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 3.2916667,
+        "depth": 0.0050952,
+        "point": [
+          0.9284544,
+          1.4159048,
+          -2.7474319
+        ],
+        "baselineMinimumY": 1.420999938622117,
+        "scale": 0.522231
+      },
+      "referenceSurfacePenetration": {
+        "time": 3.2916667,
+        "depth": 0.0110953,
+        "vertex": [
+          0.9284544,
+          1.4159048,
+          -2.7474319
+        ],
+        "supportingTriangleHit": [
+          0.9284544,
+          1.427,
+          -2.7474319
+        ],
+        "supportMesh": "WEB8_room_static__baked__A0",
+        "supportFace": 5271,
+        "supportOwner": null,
+        "originalLowestVertexGap": -0.0060001,
+        "scale": 0.522231
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "ceramic_mobius_study",
+      "baselineBounds": {
+        "min": [
+          2.0652992273965967,
+          1.4249989446252584,
+          -2.9608185142690333
+        ],
+        "max": [
+          2.4795189056311333,
+          1.9305036216974258,
+          -2.5991814285105077
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "glass_cutting_planter",
+      "baselineBounds": {
+        "min": [
+          2.8561390787363052,
+          1.4200415750965476,
+          -2.859000027179718
+        ],
+        "max": [
+          3.1517897993326187,
+          1.9193947613239288,
+          -2.581000030040741
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "black_ceramic_floor_planter",
+      "baselineBounds": {
+        "min": [
+          3.8170086443424225,
+          0.18600000720471144,
+          -0.7009987831115723
+        ],
+        "max": [
+          4.398877561092377,
+          1.5352281332015991,
+          -0.1990039348602295
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.5,
+        "depth": 0.1436118,
+        "point": [
+          4.107132,
+          0.0423882,
+          -0.4499951
+        ],
+        "baselineMinimumY": 0.18600000720471144,
+        "scale": 0.1130089
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.5,
+        "depth": 0.1376123,
+        "vertex": [
+          4.107132,
+          0.0423882,
+          -0.4499951
+        ],
+        "supportingTriangleHit": [
+          4.107132,
+          0.1800005,
+          -0.4499951
+        ],
+        "supportMesh": "WEB8_architectureplatform__baked__A0",
+        "supportFace": 179,
+        "supportOwner": "architecture.platform",
+        "originalLowestVertexGap": 0.0059995,
+        "scale": 0.1130089
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_orbital_clock",
+      "baselineBounds": {
+        "min": [
+          -4.760000377942855,
+          3.2420001030600165,
+          -2.6779996779407464
+        ],
+        "max": [
+          -4.632000952969835,
+          3.9980000595403062,
+          -1.9219997214605216
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": {
+        "time": 2.1666667,
+        "distance": 0.0258276,
+        "vertex": [
+          -4.785828,
+          3.486551,
+          -2.0748353
+        ],
+        "scale": 0.6469605
+      }
+    },
+    {
+      "id": "v5_portable_projector",
+      "baselineBounds": {
+        "min": [
+          -3.9363070695156974,
+          1.8597897820705191,
+          0.6823291408370586
+        ],
+        "max": [
+          -3.4792327864868695,
+          2.152199806158544,
+          1.1815886622567913
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_magnetic_pen_dock",
+      "baselineBounds": {
+        "min": [
+          -3.4725210648786353,
+          1.8614997770208137,
+          -0.9983794786424713
+        ],
+        "max": [
+          -3.079310657380886,
+          2.3106510869496923,
+          -0.5787016056089325
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.7083333,
+        "depth": 0.0511781,
+        "point": [
+          -3.2742447,
+          1.8103217,
+          -0.7830753
+        ],
+        "baselineMinimumY": 1.8614997770208137,
+        "scale": 0.1277707
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.7083333,
+        "depth": 0.0477582,
+        "vertex": [
+          -3.2742447,
+          1.8103217,
+          -0.7830753
+        ],
+        "supportingTriangleHit": [
+          -3.2742447,
+          1.8580799,
+          -0.7830753
+        ],
+        "supportMesh": "WEB8_furnituredesk__baked__A1",
+        "supportFace": 3362,
+        "supportOwner": "furniture.desk",
+        "originalLowestVertexGap": 0.0034199,
+        "scale": 0.1277707
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_modular_equipment_cases",
+      "baselineBounds": {
+        "min": [
+          0.8389999568462372,
+          0.18000000715255737,
+          -1.8289999663829803
+        ],
+        "max": [
+          1.7609999477863312,
+          0.9835000336170197,
+          -1.153023898601532
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.8333333,
+        "depth": 0.0862094,
+        "point": [
+          1.2606151,
+          0.0937906,
+          -1.4655628
+        ],
+        "baselineMinimumY": 0.18000000715255737,
+        "scale": 0.1059059
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.8333333,
+        "depth": 0.0862099,
+        "vertex": [
+          1.2606151,
+          0.0937906,
+          -1.4655628
+        ],
+        "supportingTriangleHit": [
+          1.2606151,
+          0.1800005,
+          -1.4655628
+        ],
+        "supportMesh": "WEB8_architectureplatform__baked__A0",
+        "supportFace": 179,
+        "supportOwner": "architecture.platform",
+        "originalLowestVertexGap": -5e-07,
+        "scale": 0.1059059
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_geometric_floor_lamp",
+      "baselineBounds": {
+        "min": [
+          1.9849999845027924,
+          0.19700000621378422,
+          -1.0259999781847
+        ],
+        "max": [
+          2.5749999582767487,
+          1.963579968184682,
+          -0.533999964594841
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.5833333,
+        "depth": 0.2045823,
+        "point": [
+          2.2751206,
+          -0.0075823,
+          -0.7795295
+        ],
+        "baselineMinimumY": 0.19700000621378422,
+        "scale": 0.1028222
+      },
+      "referenceSurfacePenetration": {
+        "time": 2.5833333,
+        "depth": 0.2191099,
+        "vertex": [
+          2.2751206,
+          -0.0075823,
+          -0.7795295
+        ],
+        "supportingTriangleHit": [
+          2.2751206,
+          0.2115276,
+          -0.7795295
+        ],
+        "supportMesh": "WEB8_furniturerug__baked__A1",
+        "supportFace": 2029,
+        "supportOwner": "furniture.rug",
+        "originalLowestVertexGap": -0.0145276,
+        "scale": 0.1028222
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_energy_capsule_rack",
+      "baselineBounds": {
+        "min": [
+          0.14650000631809235,
+          1.4280000310391188,
+          -2.9009999781847
+        ],
+        "max": [
+          0.533500000834465,
+          1.7179999947547913,
+          -2.6389999836683273
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_mechanical_data_panel",
+      "baselineBounds": {
+        "min": [
+          -4.7965002658338936,
+          1.970999926328659,
+          1.7029999571237335
+        ],
+        "max": [
+          -4.643999608178523,
+          2.6689999401569366,
+          2.1569999379720914
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 2.25,
+        "depth": 0.0037448,
+        "point": [
+          -4.739902,
+          1.9672551,
+          2.0344364
+        ],
+        "baselineMinimumY": 1.970999926328659,
+        "scale": 0.5749782
+      },
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_scout_drone_display",
+      "baselineBounds": {
+        "min": [
+          -2.459505081176758,
+          1.4275000002235174,
+          -2.8924999982118607
+        ],
+        "max": [
+          -1.9204950332641602,
+          1.7110000625252724,
+          -2.6075000017881393
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v8_desk_glow_lamp",
+      "baselineBounds": {
+        "min": [
+          -3.774999901652336,
+          1.8580000400543213,
+          0.07500000298023224
+        ],
+        "max": [
+          -3.3699999004602432,
+          2.2850000262260437,
+          0.32500000298023224
+        ]
+      },
+      "belowOriginalMinimum": {
+        "time": 3.0833333,
+        "depth": 0.0483531,
+        "point": [
+          -3.568263,
+          1.809647,
+          0.1981828
+        ],
+        "baselineMinimumY": 1.8580000400543213,
+        "scale": 0.1335382
+      },
+      "referenceSurfacePenetration": {
+        "time": 3.0833333,
+        "depth": 0.048433,
+        "vertex": [
+          -3.568263,
+          1.809647,
+          0.1981828
+        ],
+        "supportingTriangleHit": [
+          -3.568263,
+          1.8580799,
+          0.1981828
+        ],
+        "supportMesh": "WEB8_furnituredesk__baked__A1",
+        "supportFace": 3360,
+        "supportOwner": "furniture.desk",
+        "originalLowestVertexGap": -7.99e-05,
+        "scale": 0.1335382
+      },
+      "footprintEscape": null
+    },
+    {
+      "id": "v8_window_light_bar",
+      "baselineBounds": {
+        "min": [
+          1.01500004529953,
+          1.2465000301599503,
+          -2.5350001007318497
+        ],
+        "max": [
+          1.8850000500679016,
+          1.3450000286102295,
+          -2.3260000944137573
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v8_reading_puck",
+      "baselineBounds": {
+        "min": [
+          0.35750001668930054,
+          0.9549999833106995,
+          0.7679999768733978
+        ],
+        "max": [
+          0.6650000214576721,
+          1.1869999766349792,
+          1.0149999782443047
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    }
+  ],
+  "handoffAndExterior": {
+    "hashes": {
+      "src/cube-intro.js": "e45d88d208d8eb24bc38bd074c032be8c5a4b114b6566baeb08bcf8eee2cf1e4",
+      "src/room-entry.js": "0cc25cee391d0a94e6758175a92059742aa4253b388b14910b271bda8454934d",
+      "public/models/welcome-terminal-v1.glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24",
+      "public/models/orbital-atelier-v15.glb": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15"
+    },
+    "unchanged": true,
+    "method": "Real GLTFLoader + production controller and GSAP; source triangle edge segments intersect target triangles using BVH broadphase, strict interior segment hits. Sparse source triangle sampling: terminal stride2, exterior stride7; coordinates are world units. Does not prove absence of unsampled collisions.",
+    "records": [
+      {
+        "time": 1.35,
+        "roomScale": 0.025,
+        "exteriorScale": [
+          1e-05,
+          1e-05,
+          1e-05
+        ],
+        "terminal": [],
+        "exterior": []
+      },
+      {
+        "time": 1.45,
+        "roomScale": 0.026978,
+        "exteriorScale": [
+          1e-05,
+          1e-05,
+          1e-05
+        ],
+        "terminal": [],
+        "exterior": []
+      },
+      {
+        "time": 1.6,
+        "roomScale": 0.051673,
+        "exteriorScale": [
+          1e-05,
+          1e-05,
+          1e-05
+        ],
+        "terminal": [
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 13356,
+                "point": [
+                  -0.4163062060922025,
+                  0.04509585141234601,
+                  -0.06673455468371581
+                ],
+                "edge": [
+                  [
+                    2.8301719980701723,
+                    0.04509585141234601,
+                    1.9042049353142334
+                  ],
+                  [
+                    -3.1453673284032466,
+                    0.04509585141234601,
+                    -1.7235497243296027
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 6850,
+                "point": [
+                  -0.41426189571905137,
+                  -0.04038742675672191,
+                  -0.0628065870778226
+                ],
+                "edge": [
+                  [
+                    2.7498233194998902,
+                    -0.04038742675672191,
+                    1.8249891280190176
+                  ],
+                  [
+                    -3.0650186498329646,
+                    -0.04038742675672191,
+                    -1.644333917034387
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "exterior": []
+      },
+      {
+        "time": 1.75,
+        "roomScale": 0.118295,
+        "exteriorScale": [
+          1e-05,
+          1e-05,
+          1e-05
+        ],
+        "terminal": [
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 6851,
+                "point": [
+                  -0.7581979643654824,
+                  -0.07404822457710342,
+                  -0.4475679640385251
+                ],
+                "edge": [
+                  [
+                    2.843635421528601,
+                    -0.07404822457710342,
+                    1.7691958517227793
+                  ],
+                  [
+                    -3.141533813699974,
+                    -0.07404822457710342,
+                    -1.9144022413547612
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 15349,
+                "point": [
+                  0.42302557003603675,
+                  0.3842979851660303,
+                  -0.42623455364154467
+                ],
+                "edge": [
+                  [
+                    -3.137779189169129,
+                    0.3842979851660303,
+                    1.7752825413315674
+                  ],
+                  [
+                    2.839880796997756,
+                    0.3842979851660303,
+                    -1.9204889309635496
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbasetitanium_seam",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 6850,
+                "point": [
+                  -0.7581979643654828,
+                  0.35450549843670587,
+                  -0.4611925139702235
+                ],
+                "edge": [
+                  [
+                    3.029454367186415,
+                    0.35450549843670587,
+                    1.9546371394345967
+                  ],
+                  [
+                    -3.3273527593577876,
+                    0.35450549843670587,
+                    -2.0998435290665785
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 142,
+                "point": [
+                  -0.7652956575965877,
+                  -0.15998813250091848,
+                  -0.44543637301441397
+                ],
+                "edge": [
+                  [
+                    2.7633433319820524,
+                    -0.15998813250091848,
+                    1.6890671430347453
+                  ],
+                  [
+                    -3.0612417241534255,
+                    -0.15998813250091848,
+                    -1.8342735326667272
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 994,
+                "point": [
+                  -0.7303986235713955,
+                  -0.15998813250091848,
+                  -0.4243268625072608
+                ],
+                "edge": [
+                  [
+                    2.7633433319820524,
+                    -0.15998813250091848,
+                    1.6890671430347453
+                  ],
+                  [
+                    -3.0612417241534255,
+                    -0.15998813250091848,
+                    -1.8342735326667272
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 14686,
+                "point": [
+                  -0.45198977437835025,
+                  -0.05686023274750439,
+                  0.11155207415556122
+                ],
+                "edge": [
+                  [
+                    -3.05765034374435,
+                    -0.05686023274750439,
+                    1.69499058824376
+                  ],
+                  [
+                    2.7597519515729774,
+                    -0.05686023274750439,
+                    -1.8401969778757419
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 15606,
+                "point": [
+                  0.42700929846353647,
+                  -0.05686023274750439,
+                  -0.42260843859469277
+                ],
+                "edge": [
+                  [
+                    -3.05765034374435,
+                    -0.05686023274750439,
+                    1.69499058824376
+                  ],
+                  [
+                    2.7597519515729774,
+                    -0.05686023274750439,
+                    -1.8401969778757419
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "exterior": []
+      },
+      {
+        "time": 1.9,
+        "roomScale": 0.22963,
+        "exteriorScale": [
+          1e-05,
+          1e-05,
+          1e-05
+        ],
+        "terminal": [
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 142,
+                "point": [
+                  -1.3467426781082146,
+                  -0.1085684075152106,
+                  -0.8397627066526759
+                ],
+                "edge": [
+                  [
+                    2.338476801293264,
+                    -0.1085684075152106,
+                    1.4334952296368726
+                  ],
+                  [
+                    -2.6334768775872095,
+                    -0.1085684075152106,
+                    -1.6334952773205886
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 1099,
+                "point": [
+                  -1.2535574076823903,
+                  -0.1085684075152106,
+                  -0.7822806064074017
+                ],
+                "edge": [
+                  [
+                    2.338476801293264,
+                    -0.1085684075152106,
+                    1.4334952296368726
+                  ],
+                  [
+                    -2.6334768775872095,
+                    -0.1085684075152106,
+                    -1.6334952773205886
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 7589,
+                "point": [
+                  0.9828536675119399,
+                  0.2724242325466246,
+                  -0.7972680011132561
+                ],
+                "edge": [
+                  [
+                    -2.6334768775872095,
+                    0.2724242325466246,
+                    1.4334952296368726
+                  ],
+                  [
+                    2.338476801293264,
+                    0.2724242325466246,
+                    -1.6334952773205886
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 15310,
+                "point": [
+                  0.9925642131820223,
+                  0.2724242325466246,
+                  -0.803258031051392
+                ],
+                "edge": [
+                  [
+                    -2.6334768775872095,
+                    0.2724242325466246,
+                    1.4334952296368726
+                  ],
+                  [
+                    2.338476801293264,
+                    0.2724242325466246,
+                    -1.6334952773205886
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbasetitanium_seam",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 6851,
+                "point": [
+                  -1.3329648912477496,
+                  0.24765972499375613,
+                  -0.8578080292039063
+                ],
+                "edge": [
+                  [
+                    2.4927787619008805,
+                    0.24765972499375613,
+                    1.587797303789142
+                  ],
+                  [
+                    -2.787778838194826,
+                    0.24765972499375613,
+                    -1.7877973514728578
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 7220,
+                "point": [
+                  0.982379327616502,
+                  0.3238582501675069,
+                  -0.8222750252721759
+                ],
+                "edge": [
+                  [
+                    -2.787778838194826,
+                    0.3238582501675069,
+                    1.587797303789142
+                  ],
+                  [
+                    2.4927787619008805,
+                    0.3238582501675069,
+                    -1.7877973514728578
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 507,
+                "point": [
+                  -1.2581826263523612,
+                  -0.09428117606152393,
+                  0.573406000394049
+                ],
+                "edge": [
+                  [
+                    -2.56680323015491,
+                    -0.09428117606152393,
+                    1.3668216957492263
+                  ],
+                  [
+                    2.2718031538609647,
+                    -0.09428117606152393,
+                    -1.5668217434329421
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseupper",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 576,
+                "sourceEdge": 2,
+                "targetTriangle": 6851,
+                "point": [
+                  -1.3329648912477494,
+                  0.3143334185535712,
+                  -0.8502721959361933
+                ],
+                "edge": [
+                  [
+                    2.4470597802115974,
+                    0.3143334185535712,
+                    1.5420782085552056
+                  ],
+                  [
+                    -2.7420598565055427,
+                    0.3143334185535712,
+                    -1.7420782562389217
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 2,
+                "targetTriangle": 7588,
+                "point": [
+                  0.9828536675119399,
+                  0.4095815785690301,
+                  -0.8153927474315285
+                ],
+                "edge": [
+                  [
+                    -2.7420598565055427,
+                    0.4095815785690301,
+                    1.5420782085552056
+                  ],
+                  [
+                    2.4470597802115974,
+                    0.4095815785690301,
+                    -1.7420782562389217
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "exterior": []
+      },
+      {
+        "time": 2.05,
+        "roomScale": 0.376111,
+        "exteriorScale": [
+          1e-05,
+          1e-05,
+          1e-05
+        ],
+        "terminal": [
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 2,
+                "sourceEdge": 0,
+                "targetTriangle": 266,
+                "point": [
+                  -1.435214239338228,
+                  -0.1348697113892324,
+                  0.7305160732714459
+                ],
+                "edge": [
+                  [
+                    -1.435214239338228,
+                    -0.1398093402541696,
+                    0.718590740761032
+                  ],
+                  [
+                    -1.435214239338228,
+                    -0.13043783878154816,
+                    0.7412155723503309
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 2,
+                "sourceEdge": 2,
+                "targetTriangle": 266,
+                "point": [
+                  -1.4443685329964764,
+                  -0.13486971180397334,
+                  0.7270606131082573
+                ],
+                "edge": [
+                  [
+                    -1.459822729152511,
+                    -0.12653067551596012,
+                    0.7413593753675006
+                  ],
+                  [
+                    -1.435214239338228,
+                    -0.1398093402541696,
+                    0.718590740761032
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbasenavy",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 448,
+                "sourceEdge": 2,
+                "targetTriangle": 103,
+                "point": [
+                  -1.4965986224521155,
+                  -0.041883970830806125,
+                  0.7643834915313785
+                ],
+                "edge": [
+                  [
+                    -1.501499607839903,
+                    -0.03939203522748373,
+                    0.7606224511877228
+                  ],
+                  [
+                    -1.4820927290025112,
+                    -0.04925957991446987,
+                    0.7755153856644809
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 452,
+                "sourceEdge": 2,
+                "targetTriangle": 14,
+                "point": [
+                  -1.5215820139652014,
+                  -0.04379541409274937,
+                  0.7286870194165636
+                ],
+                "edge": [
+                  [
+                    -1.5257640290854977,
+                    -0.039392032470524044,
+                    0.718590740761032
+                  ],
+                  [
+                    -1.5163925423166613,
+                    -0.04925957991446987,
+                    0.7412155135351909
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 0,
+                "targetTriangle": 215,
+                "point": [
+                  -1.400677989161492,
+                  -0.1800030443938671,
+                  0.6598120618127532
+                ],
+                "edge": [
+                  [
+                    -1.400677989161492,
+                    -0.1800045222043991,
+                    0.6598008325093115
+                  ],
+                  [
+                    -1.400677989161492,
+                    -0.17933254452672243,
+                    0.6649069276989293
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 2,
+                "targetTriangle": 215,
+                "point": [
+                  -1.400683276454391,
+                  -0.1800030443936936,
+                  0.6598061633768538
+                ],
+                "edge": [
+                  [
+                    -1.4059447673134442,
+                    -0.17853244541856422,
+                    0.6651110162345446
+                  ],
+                  [
+                    -1.400677989161492,
+                    -0.1800045222043991,
+                    0.6598008325093115
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminallidnavy",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 432,
+                "sourceEdge": 0,
+                "targetTriangle": 8611,
+                "point": [
+                  -1.298055568528191,
+                  1.3013455175735844,
+                  -0.5850762884851168
+                ],
+                "edge": [
+                  [
+                    -1.298055568528191,
+                    1.363200005953422,
+                    -0.5796920988151419
+                  ],
+                  [
+                    -1.298055568528191,
+                    0.18158936839729162,
+                    -0.6825466523860023
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 432,
+                "sourceEdge": 2,
+                "targetTriangle": 8611,
+                "point": [
+                  -1.2984446509590926,
+                  1.3010986334705803,
+                  -0.5850463792752264
+                ],
+                "edge": [
+                  [
+                    -1.305459218344689,
+                    0.1815048728131054,
+                    -0.6815759527170542
+                  ],
+                  [
+                    -1.298055568528191,
+                    1.363200005953422,
+                    -0.5796920988151419
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminallidrim",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 456,
+                "sourceEdge": 0,
+                "targetTriangle": 8611,
+                "point": [
+                  -1.309896585393112,
+                  1.3020834943528747,
+                  -0.5572784323629543
+                ],
+                "edge": [
+                  [
+                    -1.309896585393112,
+                    0.1673969509506415,
+                    -0.6560484282948464
+                  ],
+                  [
+                    -1.309896585393112,
+                    1.37260052715428,
+                    -0.551140202308652
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 582,
+                "sourceEdge": 1,
+                "targetTriangle": 8611,
+                "point": [
+                  -1.309896585393112,
+                  1.3020834943528747,
+                  -0.5572784323629543
+                ],
+                "edge": [
+                  [
+                    -1.309896585393112,
+                    1.37260052715428,
+                    -0.551140202308652
+                  ],
+                  [
+                    -1.309896585393112,
+                    0.1673969509506415,
+                    -0.6560484282948464
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "exterior": []
+      },
+      {
+        "time": 2.2,
+        "roomScale": 0.540182,
+        "exteriorScale": [
+          1e-05,
+          1e-05,
+          1e-05
+        ],
+        "terminal": [
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 0,
+                "targetTriangle": 215,
+                "point": [
+                  -0.3941762124834023,
+                  -0.18000239245451016,
+                  0.04957573967904802
+                ],
+                "edge": [
+                  [
+                    -0.3941762124834023,
+                    -0.1800045222043991,
+                    0.04955955654376773
+                  ],
+                  [
+                    -0.3941762124834023,
+                    -0.17987224978240623,
+                    0.05056464287340899
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 2,
+                "targetTriangle": 215,
+                "point": [
+                  -0.3941838322771585,
+                  -0.18000239245426009,
+                  0.04956723913521667
+                ],
+                "edge": [
+                  [
+                    -0.3952129277276743,
+                    -0.17971475787399,
+                    0.05060481576278257
+                  ],
+                  [
+                    -0.3941762124834023,
+                    -0.1800045222043991,
+                    0.04955955654376773
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminallidartwork",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 1,
+                "targetTriangle": 161,
+                "point": [
+                  0.05790158347093527,
+                  -0.02334952335203843,
+                  -0.19243454709724395
+                ],
+                "edge": [
+                  [
+                    0.05790158347093527,
+                    -0.08477209777793455,
+                    -0.197808335477552
+                  ],
+                  [
+                    0.05790158347093527,
+                    0.08550270426682392,
+                    -0.18291119446319565
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 2,
+                "targetTriangle": 161,
+                "point": [
+                  -0.20471419953815068,
+                  -0.02334952901516183,
+                  -0.1924345475927039
+                ],
+                "edge": [
+                  [
+                    0.05790158347093527,
+                    0.08550270426682392,
+                    -0.18291119446319565
+                  ],
+                  [
+                    -0.3529016597648805,
+                    -0.08477209777793455,
+                    -0.197808335477552
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminallidnavy",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 432,
+                "sourceEdge": 0,
+                "targetTriangle": 298,
+                "point": [
+                  -0.37397596390539867,
+                  -0.02334902600991716,
+                  -0.20725260724679684
+                ],
+                "edge": [
+                  [
+                    -0.37397596390539867,
+                    0.12374664389489055,
+                    -0.19438338108497677
+                  ],
+                  [
+                    -0.37397596390539867,
+                    -0.10883326167524733,
+                    -0.2147315219066192
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 432,
+                "sourceEdge": 2,
+                "targetTriangle": 298,
+                "point": [
+                  -0.37489759435319936,
+                  -0.02334902597453998,
+                  -0.20713085114483876
+                ],
+                "edge": [
+                  [
+                    -0.3754333020363335,
+                    -0.10884997778538673,
+                    -0.21454045622883566
+                  ],
+                  [
+                    -0.37397596390539867,
+                    0.12374664389489055,
+                    -0.19438338108497677
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminallidrim",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 2,
+                "sourceEdge": 0,
+                "targetTriangle": 266,
+                "point": [
+                  -0.3763067555843675,
+                  -0.11518052229366896,
+                  -0.23371043015887555
+                ],
+                "edge": [
+                  [
+                    -0.3763067555843675,
+                    -0.11256808929770436,
+                    -0.2345341277230784
+                  ],
+                  [
+                    -0.3763067555843675,
+                    -0.11556843623224206,
+                    -0.23358812127408635
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 2,
+                "sourceEdge": 2,
+                "targetTriangle": 266,
+                "point": [
+                  -0.3790034833487417,
+                  -0.11518052237561582,
+                  -0.23330198312602296
+                ],
+                "edge": [
+                  [
+                    -0.3794680725480281,
+                    -0.11563058938196712,
+                    -0.23308971065294892
+                  ],
+                  [
+                    -0.3763067555843675,
+                    -0.11256808929770436,
+                    -0.2345341277230784
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminallidscreen_recess",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 432,
+                "sourceEdge": 0,
+                "targetTriangle": 298,
+                "point": [
+                  -0.3592142446812577,
+                  -0.02334902623834261,
+                  -0.1972113855120936
+                ],
+                "edge": [
+                  [
+                    -0.3592142446812577,
+                    0.0960758951979193,
+                    -0.1867630404023059
+                  ],
+                  [
+                    -0.3592142446812577,
+                    -0.09451579043696672,
+                    -0.20343768152930275
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 432,
+                "sourceEdge": 2,
+                "targetTriangle": 298,
+                "point": [
+                  -0.35952914367420846,
+                  -0.023349026226255155,
+                  -0.19716978745976144
+                ],
+                "edge": [
+                  [
+                    -0.35971681100048136,
+                    -0.09452154883108116,
+                    -0.2033717964823064
+                  ],
+                  [
+                    -0.3592142446812577,
+                    0.0960758951979193,
+                    -0.1867630404023059
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminaldialsocket",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 1,
+                "targetTriangle": 232,
+                "point": [
+                  0.08237022676066827,
+                  -0.11517999023759494,
+                  0.017831142606822878
+                ],
+                "edge": [
+                  [
+                    0.08254361846247613,
+                    -0.11435369840723514,
+                    0.017693031127067313
+                  ],
+                  [
+                    0.08229906737724499,
+                    -0.11551909768370125,
+                    0.0178878231032977
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 2,
+                "targetTriangle": 232,
+                "point": [
+                  0.08178759776282693,
+                  -0.11517999022713021,
+                  0.017169135893976784
+                ],
+                "edge": [
+                  [
+                    0.08229906737724499,
+                    -0.11551909768370125,
+                    0.0178878231032977
+                  ],
+                  [
+                    0.08054131682641824,
+                    -0.11435369840723514,
+                    0.015417934761067828
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "terminalrailorange",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 90,
+                "sourceEdge": 1,
+                "targetTriangle": 266,
+                "point": [
+                  -0.41273041661241694,
+                  -0.11518051776281338,
+                  -0.028306837482635468
+                ],
+                "edge": [
+                  [
+                    -0.4126971433474043,
+                    -0.11537524384752551,
+                    -0.028314405738024368
+                  ],
+                  [
+                    -0.4127677901808295,
+                    -0.11496179535471912,
+                    -0.02829833658227494
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 90,
+                "sourceEdge": 2,
+                "targetTriangle": 266,
+                "point": [
+                  -0.4127574038576387,
+                  -0.11518051776950589,
+                  -0.028510960030989976
+                ],
+                "edge": [
+                  [
+                    -0.4127677901808295,
+                    -0.11496179535471912,
+                    -0.02829833658227494
+                  ],
+                  [
+                    -0.41274736669529594,
+                    -0.11539188731240152,
+                    -0.028716435639000254
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "exterior": []
+      },
+      {
+        "time": 2.3,
+        "roomScale": 0.648889,
+        "exteriorScale": [
+          0.00296,
+          0.00296,
+          0.00296
+        ],
+        "terminal": [
+          {
+            "source": "terminalbaseunderside",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 0,
+                "targetTriangle": 215,
+                "point": [
+                  -0.15933321256163538,
+                  -0.18000196252831976,
+                  -0.09280612905029298
+                ],
+                "edge": [
+                  [
+                    -0.15933321256163538,
+                    -0.18000452220439908,
+                    -0.09282557902631125
+                  ],
+                  [
+                    -0.15933321256163538,
+                    -0.1799981770328644,
+                    -0.09277736455293363
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 0,
+                "sourceEdge": 2,
+                "targetTriangle": 215,
+                "point": [
+                  -0.15934237054018863,
+                  -0.18000196252801925,
+                  -0.09281634557328428
+                ],
+                "edge": [
+                  [
+                    -0.1593829442892204,
+                    -0.179990622070468,
+                    -0.09277543744015926
+                  ],
+                  [
+                    -0.15933321256163538,
+                    -0.18000452220439908,
+                    -0.09282557902631125
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 15757,
+                "sourceEdge": 0,
+                "targetTriangle": 154,
+                "point": [
+                  0.019273214359747354,
+                  0.008175952036600306,
+                  -0.022868653426025575
+                ],
+                "edge": [
+                  [
+                    0.01933505752563476,
+                    0.007329354705810559,
+                    -0.022558969612121584
+                  ],
+                  [
+                    0.019250564613342278,
+                    0.008486014022827157,
+                    -0.022982073554992676
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 15757,
+                "sourceEdge": 1,
+                "targetTriangle": 154,
+                "point": [
+                  0.01879281741132971,
+                  0.008175952047328197,
+                  -0.022982073554992676
+                ],
+                "edge": [
+                  [
+                    0.019250564613342278,
+                    0.008486014022827157,
+                    -0.022982073554992676
+                  ],
+                  [
+                    0.018788239631652826,
+                    0.008172851219177255,
+                    -0.022982073554992676
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 0,
+                "targetTriangle": 154,
+                "point": [
+                  0.05149420847492263,
+                  0.008175951291126346,
+                  -0.014329828062033902
+                ],
+                "edge": [
+                  [
+                    0.05153659179687499,
+                    -0.0029304000282287523,
+                    -0.014440245628356937
+                  ],
+                  [
+                    0.05146158798217772,
+                    0.01672399887084962,
+                    -0.014244844741821291
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 1,
+                "targetTriangle": 154,
+                "point": [
+                  0.05146158798217772,
+                  0.008175951289274105,
+                  -0.014244844741821291
+                ],
+                "edge": [
+                  [
+                    0.05146158798217772,
+                    0.01672399887084962,
+                    -0.014244844741821291
+                  ],
+                  [
+                    0.05146158798217772,
+                    -0.0029304000282287523,
+                    -0.014244844741821291
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 2.35,
+        "roomScale": 0.700654,
+        "exteriorScale": [
+          0.009434,
+          0.009434,
+          0.009434
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 15743,
+                "sourceEdge": 0,
+                "targetTriangle": 154,
+                "point": [
+                  0.06395822887657421,
+                  0.02318801560705018,
+                  -0.07150698455270225
+                ],
+                "edge": [
+                  [
+                    0.06477772784519197,
+                    0.021421673378467565,
+                    -0.0705136294631958
+                  ],
+                  [
+                    0.06343269529724122,
+                    0.02432074693346023,
+                    -0.07214400970554352
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 15743,
+                "sourceEdge": 2,
+                "targetTriangle": 154,
+                "point": [
+                  0.06377034848184146,
+                  0.023188015606249238,
+                  -0.07137189232498227
+                ],
+                "edge": [
+                  [
+                    0.06315154918479919,
+                    0.024273020291328426,
+                    -0.07189909436511993
+                  ],
+                  [
+                    0.06477772784519197,
+                    0.021421673378467565,
+                    -0.0705136294631958
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 0,
+                "targetTriangle": 154,
+                "point": [
+                  0.1641313453899854,
+                  0.023188013310013494,
+                  -0.04570001955883996
+                ],
+                "edge": [
+                  [
+                    0.16425547534179685,
+                    -0.009339660089969636,
+                    -0.046023404479026794
+                  ],
+                  [
+                    0.1640164260215759,
+                    0.05330209640121461,
+                    -0.04540063016700745
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 1,
+                "targetTriangle": 154,
+                "point": [
+                  0.1640164260215759,
+                  0.023188013303488228,
+                  -0.04540063016700745
+                ],
+                "edge": [
+                  [
+                    0.1640164260215759,
+                    0.05330209640121461,
+                    -0.04540063016700745
+                  ],
+                  [
+                    0.1640164260215759,
+                    -0.009339660089969636,
+                    -0.04540063016700745
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 2.45,
+        "roomScale": 0.79537,
+        "exteriorScale": [
+          0.038921,
+          0.038921,
+          0.038921
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 15701,
+                "sourceEdge": 0,
+                "targetTriangle": 161,
+                "point": [
+                  0.28074408860418437,
+                  0.050656046602390425,
+                  -0.28371274927789336
+                ],
+                "edge": [
+                  [
+                    0.28420273985385885,
+                    0.04752949890971184,
+                    -0.2818152385549545
+                  ],
+                  [
+                    0.27306236006784435,
+                    0.05760016698265075,
+                    -0.2879271557664871
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 15701,
+                "sourceEdge": 2,
+                "targetTriangle": 161,
+                "point": [
+                  0.2831480261475646,
+                  0.05065604666219255,
+                  -0.28332155292373584
+                ],
+                "edge": [
+                  [
+                    0.2799232063193321,
+                    0.06021556326460836,
+                    -0.2879271557664871
+                  ],
+                  [
+                    0.28420273985385885,
+                    0.04752949890971184,
+                    -0.2818152385549545
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 0,
+                "targetTriangle": 154,
+                "point": [
+                  0.6773135964129493,
+                  0.05065603879999567,
+                  -0.18898790351311082
+                ],
+                "edge": [
+                  [
+                    0.6776539490966796,
+                    -0.038531790371179576,
+                    -0.18987459462881084
+                  ],
+                  [
+                    0.6766677249507903,
+                    0.21990363515281675,
+                    -0.18730527101230618
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 1,
+                "targetTriangle": 154,
+                "point": [
+                  0.6766677249507903,
+                  0.05065603876332225,
+                  -0.18730527101230618
+                ],
+                "edge": [
+                  [
+                    0.6766677249507903,
+                    0.21990363515281675,
+                    -0.18730527101230618
+                  ],
+                  [
+                    0.6766677249507903,
+                    -0.038531790371179576,
+                    -0.18730527101230618
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 5194,
+                "sourceEdge": 2,
+                "targetTriangle": 147,
+                "point": [
+                  0.1819715752807161,
+                  0.11239934769355475,
+                  -0.7353121345163958
+                ],
+                "edge": [
+                  [
+                    0.18283552650165552,
+                    0.3035838074235916,
+                    -0.7435319403800963
+                  ],
+                  [
+                    0.18128952643012997,
+                    -0.038531790371179576,
+                    -0.7288229844284057
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 6692,
+                "sourceEdge": 1,
+                "targetTriangle": 157,
+                "point": [
+                  -0.09133507371973991,
+                  0.10813122761451008,
+                  -0.7371591581592558
+                ],
+                "edge": [
+                  [
+                    -0.09133507371973991,
+                    -0.03755877093887328,
+                    -0.7371591581592558
+                  ],
+                  [
+                    -0.09133507371973991,
+                    0.27342002871179577,
+                    -0.7371591581592558
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 2.6,
+        "roomScale": 0.906705,
+        "exteriorScale": [
+          0.132657,
+          0.132657,
+          0.132657
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 504,
+                "sourceEdge": 1,
+                "targetTriangle": 232,
+                "point": [
+                  0.9544091322155,
+                  -0.07119538364923475,
+                  -0.06255528045120837
+                ],
+                "edge": [
+                  [
+                    0.9544091322155,
+                    -0.09285989841860533,
+                    -0.06255528045120837
+                  ],
+                  [
+                    0.9544091322155,
+                    -0.05173622810232639,
+                    -0.06255528045120837
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 504,
+                "sourceEdge": 2,
+                "targetTriangle": 232,
+                "point": [
+                  0.9553781433508519,
+                  -0.07119538462941713,
+                  -0.032954980075921556
+                ],
+                "edge": [
+                  [
+                    0.9544091322155,
+                    -0.05173622810232639,
+                    -0.06255528045120837
+                  ],
+                  [
+                    0.956456975060463,
+                    -0.09285989841860533,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 0,
+                "targetTriangle": 232,
+                "point": [
+                  2.309462968461548,
+                  -0.07119533624446887,
+                  -0.6465641952719977
+                ],
+                "edge": [
+                  [
+                    2.309692452026367,
+                    -0.13133043126511573,
+                    -0.6471620487570764
+                  ],
+                  [
+                    2.306331039510727,
+                    0.7495119993953705,
+                    -0.6384048543634415
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 1,
+                "targetTriangle": 232,
+                "point": [
+                  2.306331039510727,
+                  -0.07119533658407837,
+                  -0.6384048543634415
+                ],
+                "edge": [
+                  [
+                    2.306331039510727,
+                    0.7495119993953705,
+                    -0.6384048543634415
+                  ],
+                  [
+                    2.306331039510727,
+                    -0.13133043126511573,
+                    -0.6384048543634415
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 805,
+                "sourceEdge": 0,
+                "targetTriangle": 159,
+                "point": [
+                  2.162972374082147,
+                  0.14961374893341273,
+                  -0.8276509235980556
+                ],
+                "edge": [
+                  [
+                    2.2297594034271238,
+                    -0.06566523144650459,
+                    -0.6776446961832047
+                  ],
+                  [
+                    1.9955885045242305,
+                    0.6891530745162964,
+                    -1.2036015093441008
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 3052,
+                "sourceEdge": 0,
+                "targetTriangle": 76,
+                "point": [
+                  1.7078406967335586,
+                  0.14857582481861115,
+                  -1.6677438237473772
+                ],
+                "edge": [
+                  [
+                    1.58162327880764,
+                    0.14857582481861115,
+                    -1.798445772108078
+                  ],
+                  [
+                    1.852548067105293,
+                    0.14857582481861115,
+                    -1.5178949711837768
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 2.75,
+        "roomScale": 0.973327,
+        "exteriorScale": [
+          0.28235,
+          0.28235,
+          0.28235
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 504,
+                "sourceEdge": 1,
+                "targetTriangle": 205,
+                "point": [
+                  2.0313848381996156,
+                  -0.1800006527160057,
+                  -0.1331439986988902
+                ],
+                "edge": [
+                  [
+                    2.0313848381996156,
+                    -0.19764499663412569,
+                    -0.1331439986988902
+                  ],
+                  [
+                    2.0313848381996156,
+                    -0.11011649596095084,
+                    -0.1331439986988902
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 504,
+                "sourceEdge": 2,
+                "targetTriangle": 205,
+                "point": [
+                  2.0348648721264744,
+                  -0.18000065150033298,
+                  -0.02683969961176821
+                ],
+                "edge": [
+                  [
+                    2.0313848381996156,
+                    -0.11011649596095084,
+                    -0.1331439986988902
+                  ],
+                  [
+                    2.0357435107707977,
+                    -0.19764499663412569,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 14217,
+                "sourceEdge": 2,
+                "targetTriangle": 167,
+                "point": [
+                  -1.7688982087373732,
+                  0.17786304504084674,
+                  -2.3861708763599396
+                ],
+                "edge": [
+                  [
+                    -1.7688982087373732,
+                    0.22305650605857372,
+                    -2.3861708763599396
+                  ],
+                  [
+                    -1.7688982087373732,
+                    -0.10305775269269943,
+                    -2.3861708763599396
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 14224,
+                "sourceEdge": 1,
+                "targetTriangle": 36,
+                "point": [
+                  -1.8551483335256576,
+                  0.1732067491123178,
+                  -2.319749520921707
+                ],
+                "edge": [
+                  [
+                    -1.8551483335256576,
+                    -0.10305775269269943,
+                    -2.319749520921707
+                  ],
+                  [
+                    -1.8551483335256576,
+                    0.22305650605857372,
+                    -2.319749520921707
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 756,
+                "sourceEdge": 1,
+                "targetTriangle": 232,
+                "point": [
+                  4.196422081995009,
+                  -0.06320025658071075,
+                  -2.6951312092304227
+                ],
+                "edge": [
+                  [
+                    4.196422081995009,
+                    -0.27952650269269946,
+                    -2.6951312092304227
+                  ],
+                  [
+                    4.196422081995009,
+                    1.595277392292023,
+                    -2.6951312092304227
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 756,
+                "sourceEdge": 2,
+                "targetTriangle": 154,
+                "point": [
+                  4.27447856117979,
+                  0.1022643148401905,
+                  -2.729884258510715
+                ],
+                "edge": [
+                  [
+                    4.196422081995009,
+                    1.595277392292023,
+                    -2.6951312092304227
+                  ],
+                  [
+                    4.294439034032821,
+                    -0.27952650269269946,
+                    -2.7387712503910064
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 0,
+                "targetTriangle": 676,
+                "point": [
+                  4.915165653433161,
+                  -0.06118257631381869,
+                  -1.3752628249070014
+                ],
+                "edge": [
+                  [
+                    4.9159988830566395,
+                    -0.27952650269269946,
+                    -1.3774335652589798
+                  ],
+                  [
+                    4.908844380664825,
+                    1.595277392292023,
+                    -1.358794565153122
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 749,
+                "sourceEdge": 1,
+                "targetTriangle": 820,
+                "point": [
+                  4.908844380664825,
+                  0.10162928786861812,
+                  -1.358794565153122
+                ],
+                "edge": [
+                  [
+                    4.908844380664825,
+                    1.595277392292023,
+                    -1.358794565153122
+                  ],
+                  [
+                    4.908844380664825,
+                    -0.27952650269269946,
+                    -1.358794565153122
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 756,
+                "sourceEdge": 1,
+                "targetTriangle": 2547,
+                "point": [
+                  4.196422081995009,
+                  0.7251939893792421,
+                  -2.6951312092304227
+                ],
+                "edge": [
+                  [
+                    4.196422081995009,
+                    -0.27952650269269946,
+                    -2.6951312092304227
+                  ],
+                  [
+                    4.196422081995009,
+                    1.595277392292023,
+                    -2.6951312092304227
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 756,
+                "sourceEdge": 2,
+                "targetTriangle": 2547,
+                "point": [
+                  4.241911065349662,
+                  0.7251939893792421,
+                  -2.715384247757721
+                ],
+                "edge": [
+                  [
+                    4.196422081995009,
+                    1.595277392292023,
+                    -2.6951312092304227
+                  ],
+                  [
+                    4.294439034032821,
+                    -0.27952650269269946,
+                    -2.7387712503910064
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 756,
+                "sourceEdge": 1,
+                "targetTriangle": 15582,
+                "point": [
+                  4.196422081995009,
+                  0.5159287099057586,
+                  -2.6951312092304227
+                ],
+                "edge": [
+                  [
+                    4.196422081995009,
+                    -0.27952650269269946,
+                    -2.6951312092304227
+                  ],
+                  [
+                    4.196422081995009,
+                    1.595277392292023,
+                    -2.6951312092304227
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 756,
+                "sourceEdge": 2,
+                "targetTriangle": 15467,
+                "point": [
+                  4.259212536733328,
+                  0.3942628058983533,
+                  -2.7230873736724153
+                ],
+                "edge": [
+                  [
+                    4.196422081995009,
+                    1.595277392292023,
+                    -2.6951312092304227
+                  ],
+                  [
+                    4.294439034032821,
+                    -0.27952650269269946,
+                    -2.7387712503910064
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 2.8,
+        "roomScale": 0.98564,
+        "exteriorScale": [
+          0.341543,
+          0.341543,
+          0.341543
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_room_static__image__A0",
+            "hits": [
+              {
+                "sourceTriangle": 15953,
+                "sourceEdge": 0,
+                "targetTriangle": 47,
+                "point": [
+                  1.1646892196851615,
+                  1.8372421380478254,
+                  -3.076632687544823
+                ],
+                "edge": [
+                  [
+                    1.166016983509779,
+                    1.8367025488562583,
+                    -3.075566742098808
+                  ],
+                  [
+                    1.0550939095032212,
+                    1.8817805143194197,
+                    -3.1646171766738886
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 15953,
+                "sourceEdge": 2,
+                "targetTriangle": 47,
+                "point": [
+                  1.160594619074084,
+                  1.838893400605042,
+                  -3.076632687544823
+                ],
+                "edge": [
+                  [
+                    1.0444742718226907,
+                    1.8858106576175688,
+                    -3.099459990432739
+                  ],
+                  [
+                    1.166016983509779,
+                    1.8367025488562583,
+                    -3.075566742098808
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 504,
+                "sourceEdge": 1,
+                "targetTriangle": 205,
+                "point": [
+                  2.4572526006488795,
+                  -0.1800005972779822,
+                  -0.16105684698995948
+                ],
+                "edge": [
+                  [
+                    2.4572526006488795,
+                    -0.23908009592849014,
+                    -0.16105684698995948
+                  ],
+                  [
+                    2.4572526006488795,
+                    -0.1332017651141882,
+                    -0.16105684698995948
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 504,
+                "sourceEdge": 2,
+                "targetTriangle": 205,
+                "point": [
+                  2.459583050513764,
+                  -0.18000059646389122,
+                  -0.08986879404249166
+                ],
+                "edge": [
+                  [
+                    2.4572526006488795,
+                    -0.1332017651141882,
+                    -0.16105684698995948
+                  ],
+                  [
+                    2.462525043028831,
+                    -0.23908009592849014,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 8176,
+                "sourceEdge": 1,
+                "targetTriangle": 446,
+                "point": [
+                  1.2205093383111951,
+                  -0.16686196765394815,
+                  -3.397535551401138
+                ],
+                "edge": [
+                  [
+                    1.2205093383111951,
+                    -0.2971424116286039,
+                    -3.397535551401138
+                  ],
+                  [
+                    1.2205093383111951,
+                    -0.15027891918569802,
+                    -3.397535551401138
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 8176,
+                "sourceEdge": 2,
+                "targetTriangle": 446,
+                "point": [
+                  1.2285331512703832,
+                  -0.1698253201619857,
+                  -3.3945722118188475
+                ],
+                "edge": [
+                  [
+                    1.2205093383111951,
+                    -0.15027891918569802,
+                    -3.397535551401138
+                  ],
+                  [
+                    1.2807969173557756,
+                    -0.2971424116286039,
+                    -3.3752702555608747
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 11977,
+                "sourceEdge": 0,
+                "targetTriangle": 160,
+                "point": [
+                  2.656843763590819,
+                  0.18120570959692597,
+                  -2.4187407980025517
+                ],
+                "edge": [
+                  [
+                    2.691022083792686,
+                    -0.12466319825720786,
+                    -2.3808152149710655
+                  ],
+                  [
+                    2.6469419639606473,
+                    0.2698189773287177,
+                    -2.429728216980934
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 12369,
+                "sourceEdge": 0,
+                "targetTriangle": 1694,
+                "point": [
+                  2.27880920627885,
+                  0.2819591312708791,
+                  -2.7910617084866294
+                ],
+                "edge": [
+                  [
+                    2.3209568544936174,
+                    0.2664035302283763,
+                    -2.756224870944023
+                  ],
+                  [
+                    2.27005956144905,
+                    0.28518839767128223,
+                    -2.798293664916038
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 12761,
+                "sourceEdge": 0,
+                "targetTriangle": 246,
+                "point": [
+                  0.8951395385692829,
+                  0.18469258592966917,
+                  -3.479637033103625
+                ],
+                "edge": [
+                  [
+                    0.9450796779227255,
+                    -0.12466319825720786,
+                    -3.4665121395912166
+                  ],
+                  [
+                    0.8813973554053305,
+                    0.2698189773287177,
+                    -3.4832486507921216
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 12761,
+                "sourceEdge": 2,
+                "targetTriangle": 242,
+                "point": [
+                  0.9450796779227255,
+                  0.18787050535907476,
+                  -3.4665121395912166
+                ],
+                "edge": [
+                  [
+                    0.9450796779227255,
+                    0.2698189773287177,
+                    -3.4665121395912166
+                  ],
+                  [
+                    0.9450796779227255,
+                    -0.12466319825720786,
+                    -3.4665121395912166
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 833,
+                "sourceEdge": 0,
+                "targetTriangle": 176,
+                "point": [
+                  4.777308465350054,
+                  0.1748310779246507,
+                  -3.1184138724676544
+                ],
+                "edge": [
+                  [
+                    4.7743990105152125,
+                    -0.32958896568512913,
+                    -3.110834486037254
+                  ],
+                  [
+                    4.787381263924598,
+                    1.921179375,
+                    -3.14465440107727
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 833,
+                "sourceEdge": 1,
+                "targetTriangle": 305,
+                "point": [
+                  4.787381263924598,
+                  0.10583617550406653,
+                  -3.14465440107727
+                ],
+                "edge": [
+                  [
+                    4.787381263924598,
+                    1.921179375,
+                    -3.14465440107727
+                  ],
+                  [
+                    4.787381263924598,
+                    -0.32958896568512913,
+                    -3.14465440107727
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 889,
+                "sourceEdge": 0,
+                "targetTriangle": 816,
+                "point": [
+                  4.980249448728504,
+                  -0.051957933642975615,
+                  -3.051817512527148
+                ],
+                "edge": [
+                  [
+                    4.996687161636351,
+                    -0.3067056146514415,
+                    -3.0591360827169414
+                  ],
+                  [
+                    4.854408413204192,
+                    1.8982958611059189,
+                    -2.9957892526102063
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 12068,
+                "sourceEdge": 0,
+                "targetTriangle": 896,
+                "point": [
+                  -4.9813580899562835,
+                  0.10428544187429926,
+                  -2.8246063672561643
+                ],
+                "edge": [
+                  [
+                    -4.9813580899562835,
+                    0.03415429796424508,
+                    -2.8246063672561643
+                  ],
+                  [
+                    -4.9813580899562835,
+                    0.12295548488581176,
+                    -2.8246063672561643
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 2359,
+                "sourceEdge": 0,
+                "targetTriangle": 6228,
+                "point": [
+                  4.886656337051391,
+                  2.2611948096038463,
+                  -3.529461201876504
+                ],
+                "edge": [
+                  [
+                    4.827943599256514,
+                    2.245645159855842,
+                    -3.567875471358299
+                  ],
+                  [
+                    4.9246644326457965,
+                    2.271260982572078,
+                    -3.504593459688186
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 2359,
+                "sourceEdge": 1,
+                "targetTriangle": 6151,
+                "point": [
+                  4.884534651574561,
+                  2.271260982572078,
+                  -3.5461491491852346
+                ],
+                "edge": [
+                  [
+                    4.9246644326457965,
+                    2.271260982572078,
+                    -3.504593459688186
+                  ],
+                  [
+                    4.846370275621413,
+                    2.271260982572078,
+                    -3.5856695979547495
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 1036,
+                "sourceEdge": 0,
+                "targetTriangle": 15326,
+                "point": [
+                  4.753594711456298,
+                  1.8170086557693481,
+                  -3.0442010565868736
+                ],
+                "edge": [
+                  [
+                    4.744779916465758,
+                    1.8170086557693481,
+                    -3.06399941978836
+                  ],
+                  [
+                    5.451872515633582,
+                    1.8170086557693481,
+                    -1.4758426775803564
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 1036,
+                "sourceEdge": 2,
+                "targetTriangle": 15326,
+                "point": [
+                  4.753594711456298,
+                  1.8171600164325452,
+                  -3.0438289271920045
+                ],
+                "edge": [
+                  [
+                    5.440952074806212,
+                    1.8289627715144157,
+                    -1.4709804805316922
+                  ],
+                  [
+                    4.744779916465758,
+                    1.8170086557693481,
+                    -3.06399941978836
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 2.9,
+        "roomScale": 0.998022,
+        "exteriorScale": [
+          0.467703,
+          0.467703,
+          0.467703
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 889,
+                "sourceEdge": 0,
+                "targetTriangle": 205,
+                "point": [
+                  3.29895020719568,
+                  -0.180000537327523,
+                  -0.45044298669547317
+                ],
+                "edge": [
+                  [
+                    3.3015562964615817,
+                    -0.18240416330945486,
+                    -0.43465814694410554
+                  ],
+                  [
+                    3.2660593865103715,
+                    -0.14966495665472743,
+                    -0.6496596215980053
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 889,
+                "sourceEdge": 2,
+                "targetTriangle": 205,
+                "point": [
+                  3.3015562964615817,
+                  -0.18000053711141206,
+                  -0.43465814694410554
+                ],
+                "edge": [
+                  [
+                    3.3015562964615817,
+                    -0.14966495665472743,
+                    -0.43465814694410554
+                  ],
+                  [
+                    3.3015562964615817,
+                    -0.18240416330945486,
+                    -0.43465814694410554
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 5845,
+                "sourceEdge": 1,
+                "targetTriangle": 375,
+                "point": [
+                  -0.8217541567268369,
+                  -0.17772713776981827,
+                  3.42292290829098
+                ],
+                "edge": [
+                  [
+                    -0.8217541567268369,
+                    -0.17772713776981827,
+                    3.2467941849646564
+                  ],
+                  [
+                    -0.8217541567268369,
+                    -0.17772713776981827,
+                    3.4413588042426104
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 5866,
+                "sourceEdge": 1,
+                "targetTriangle": 375,
+                "point": [
+                  -0.8217541567268369,
+                  -0.17772713776981827,
+                  3.42292290829098
+                ],
+                "edge": [
+                  [
+                    -0.8217541567268369,
+                    -0.17772713776981827,
+                    3.4413588042426104
+                  ],
+                  [
+                    -0.8217541567268369,
+                    -0.17772713776981827,
+                    3.2467941849646564
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 11970,
+                "sourceEdge": 2,
+                "targetTriangle": 214,
+                "point": [
+                  3.5968857067469733,
+                  0.2762981017843187,
+                  -3.1620411788830487
+                ],
+                "edge": [
+                  [
+                    3.5869577772645944,
+                    0.36948538003581755,
+                    -3.1734720553736686
+                  ],
+                  [
+                    3.644508953988075,
+                    -0.17071159946036335,
+                    -3.1072084508442877
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 11977,
+                "sourceEdge": 0,
+                "targetTriangle": 5848,
+                "point": [
+                  3.6346191866246462,
+                  0.2805012677477176,
+                  -3.3161938478044157
+                ],
+                "edge": [
+                  [
+                    3.6850384919500345,
+                    -0.17071159946036335,
+                    -3.26024664094305
+                  ],
+                  [
+                    3.624675948183059,
+                    0.36948538003581755,
+                    -3.327227248887062
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_room_static__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 12019,
+                "sourceEdge": 0,
+                "targetTriangle": 248,
+                "point": [
+                  3.2396905201319157,
+                  0.17985485868274126,
+                  -3.527015972981602
+                ],
+                "edge": [
+                  [
+                    3.281532387103557,
+                    -0.17071159946036335,
+                    -3.4883714803891177
+                  ],
+                  [
+                    3.2170571652746194,
+                    0.36948538003581755,
+                    -3.547919784819603
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 12180,
+                "sourceEdge": 1,
+                "targetTriangle": 255,
+                "point": [
+                  3.256457785263061,
+                  0.165999461920182,
+                  -3.5143415001797673
+                ],
+                "edge": [
+                  [
+                    3.256457785263061,
+                    -0.11458723723018167,
+                    -3.5143415001797673
+                  ],
+                  [
+                    3.256457785263061,
+                    0.26892921942454573,
+                    -3.5143415001797673
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_furnituredesk__baked__A1",
+            "hits": [
+              {
+                "sourceTriangle": 19761,
+                "sourceEdge": 0,
+                "targetTriangle": 2100,
+                "point": [
+                  -4.050147848479251,
+                  0.23859983707750912,
+                  1.2750877003645802
+                ],
+                "edge": [
+                  [
+                    -4.159429360814094,
+                    0.3638996669649482,
+                    1.2415079157779219
+                  ],
+                  [
+                    -4.0467070572710035,
+                    0.2346546999371052,
+                    1.276144979176998
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 19761,
+                "sourceEdge": 2,
+                "targetTriangle": 2061,
+                "point": [
+                  -4.1319836153486085,
+                  0.2329293306782952,
+                  1.2760339983244786
+                ],
+                "edge": [
+                  [
+                    -4.1289927331266405,
+                    0.21865692365267875,
+                    1.2797964556646346
+                  ],
+                  [
+                    -4.159429360814094,
+                    0.3638996669649482,
+                    1.2415079157779219
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 13125,
+                "sourceEdge": 0,
+                "targetTriangle": 298,
+                "point": [
+                  -3.822756729934707,
+                  0.10942705506893502,
+                  2.0434938917080507
+                ],
+                "edge": [
+                  [
+                    -3.823940006326675,
+                    -0.40222458669054506,
+                    2.034508005396366
+                  ],
+                  [
+                    -3.8227285716304777,
+                    0.1216027755396366,
+                    2.043707727902412
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 13125,
+                "sourceEdge": 2,
+                "targetTriangle": 298,
+                "point": [
+                  -3.823940006326675,
+                  0.1094270548565055,
+                  2.034508005396366
+                ],
+                "edge": [
+                  [
+                    -3.823940006326675,
+                    0.1216027755396366,
+                    2.034508005396366
+                  ],
+                  [
+                    -3.823940006326675,
+                    -0.40222458669054506,
+                    2.034508005396366
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentwarm_gallery__baked__A6",
+            "target": "WEB8_room_static__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 13405,
+                "sourceEdge": 0,
+                "targetTriangle": 5,
+                "point": [
+                  -3.7926154488056385,
+                  0.18712554990148544,
+                  1.9549465406903357
+                ],
+                "edge": [
+                  [
+                    -3.7883944784145354,
+                    0.14031090557545423,
+                    1.9545307906122205
+                  ],
+                  [
+                    -3.803997275582313,
+                    0.31336101780563586,
+                    1.9560676088175772
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 13608,
+                "sourceEdge": 1,
+                "targetTriangle": 0,
+                "point": [
+                  -3.7952803874130248,
+                  0.1857831114189058,
+                  1.9496199305219648
+                ],
+                "edge": [
+                  [
+                    -3.7952803874130248,
+                    0.1262798289565444,
+                    1.9496199305219648
+                  ],
+                  [
+                    -3.7952803874130248,
+                    0.31336101780563586,
+                    1.9496199305219648
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 3.05,
+        "roomScale": 1,
+        "exteriorScale": [
+          0.658467,
+          0.658467,
+          0.658467
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 1267,
+                "sourceEdge": 0,
+                "targetTriangle": 221,
+                "point": [
+                  4.598985271347221,
+                  -0.1800006769271814,
+                  -0.4399585544316691
+                ],
+                "edge": [
+                  [
+                    4.612541315537453,
+                    -0.21070943529027703,
+                    -0.3023219269399345
+                  ],
+                  [
+                    4.582892667334557,
+                    -0.14354580254620314,
+                    -0.60334926877141
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 1267,
+                "sourceEdge": 2,
+                "targetTriangle": 221,
+                "point": [
+                  4.612541315537453,
+                  -0.18000068527620589,
+                  -0.3023219269399345
+                ],
+                "edge": [
+                  [
+                    4.612541315537453,
+                    -0.14354580254620314,
+                    -0.3023219269399345
+                  ],
+                  [
+                    4.612541315537453,
+                    -0.21070943529027703,
+                    -0.3023219269399345
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 1176,
+                "sourceEdge": 1,
+                "targetTriangle": 635,
+                "point": [
+                  3.0748333459582686,
+                  -0.14354580254620314,
+                  -3.450000047683716
+                ],
+                "edge": [
+                  [
+                    3.268557492483616,
+                    -0.14354580254620314,
+                    -3.268557492483616
+                  ],
+                  [
+                    3.0477854592790603,
+                    -0.14354580254620314,
+                    -3.4753331708893778
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 1176,
+                "sourceEdge": 2,
+                "targetTriangle": 635,
+                "point": [
+                  3.0731185824847222,
+                  -0.14354580254620314,
+                  -3.450000047683716
+                ],
+                "edge": [
+                  [
+                    3.0477854592790603,
+                    -0.14354580254620314,
+                    -3.4753331708893778
+                  ],
+                  [
+                    3.4753331708893778,
+                    -0.14354580254620314,
+                    -3.0477854592790603
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 3.2,
+        "roomScale": 1,
+        "exteriorScale": [
+          0.822969,
+          0.822969,
+          0.822969
+        ],
+        "terminal": [],
+        "exterior": [
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A0",
+            "hits": [
+              {
+                "sourceTriangle": 1624,
+                "sourceEdge": 1,
+                "targetTriangle": 205,
+                "point": [
+                  4.350517683558941,
+                  -0.18000053572255598,
+                  -2.6660006571507453
+                ],
+                "edge": [
+                  [
+                    4.350517683558941,
+                    -0.1851680200947225,
+                    -2.6660006571507453
+                  ],
+                  [
+                    4.350517683558941,
+                    -0.1678856728606224,
+                    -2.6660006571507453
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 1624,
+                "sourceEdge": 2,
+                "targetTriangle": 221,
+                "point": [
+                  4.487746364417739,
+                  -0.18000061821606606,
+                  -2.42096152557253
+                ],
+                "edge": [
+                  [
+                    4.350517683558941,
+                    -0.1678856728606224,
+                    -2.6660006571507453
+                  ],
+                  [
+                    4.5462786749210355,
+                    -0.1851680200947225,
+                    -2.3164446968364714
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "source": "WEB8_environmentorbital_dock__baked__A5",
+            "target": "WEB8_architectureplatform__baked__A8",
+            "hits": [
+              {
+                "sourceTriangle": 1232,
+                "sourceEdge": 2,
+                "targetTriangle": 1423,
+                "point": [
+                  -4.786144520067616,
+                  -0.17940723768335579,
+                  3.146827318622336
+                ],
+                "edge": [
+                  [
+                    -4.34356082281065,
+                    -0.17940723768335579,
+                    3.8092006913595196
+                  ],
+                  [
+                    -5.181451284514904,
+                    -0.17940723768335579,
+                    2.555208882481098
+                  ]
+                ]
+              },
+              {
+                "sourceTriangle": 1260,
+                "sourceEdge": 0,
+                "targetTriangle": 445,
+                "point": [
+                  3.89053128616985,
+                  -0.17940723768335579,
+                  -3.4229389049825327
+                ],
+                "edge": [
+                  [
+                    5.764872824160576,
+                    -0.17940723768335579,
+                    0.3778497235120833
+                  ],
+                  [
+                    3.2096639416794774,
+                    -0.17940723768335579,
+                    -4.8036012912125585
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 3.4,
+        "roomScale": 1,
+        "exteriorScale": [
+          0.961089,
+          0.961089,
+          0.961089
+        ],
+        "terminal": [],
+        "exterior": []
+      },
+      {
+        "time": 3.65,
+        "roomScale": 1,
+        "exteriorScale": [
+          1,
+          1,
+          1
+        ],
+        "terminal": [],
+        "exterior": []
+      },
+      {
+        "time": 4.2,
+        "roomScale": 1,
+        "exteriorScale": [
+          1,
+          1,
+          1
+        ],
+        "terminal": [],
+        "exterior": []
+      }
+    ],
+    "final": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "complete": true,
+  "passed": 5,
+  "checks": [
+    {
+      "name": "Actual V3 native PBR keeps all textures and BRDF values, with one AgX after lighting and before sRGB",
+      "passed": true
+    },
+    {
+      "name": "About and other scene materials are excluded, with no renderer or light changes",
+      "passed": true
+    },
+    {
+      "name": "Outer decorators survive disposal and cannot reactivate a disposed terminal AgX hook",
+      "passed": true
+    },
+    {
+      "name": "Failed partial installation restores earlier materials without disposing model resources",
+      "passed": true
+    },
+    {
+      "name": "AgX retains increasing highlight distinctions that unmapped sRGB output clips to white; exposure remains one",
+      "passed": true,
+      "samples": [
+        {
+          "linear": 0,
+          "unmappedDisplay": 0,
+          "agxDisplay": 0
+        },
+        {
+          "linear": 0.18,
+          "unmappedDisplay": 0.4613620325120445,
+          "agxDisplay": 0.5005536122009017
+        },
+        {
+          "linear": 1,
+          "unmappedDisplay": 0.9999999999999999,
+          "agxDisplay": 0.7919270713952582
+        },
+        {
+          "linear": 4,
+          "unmappedDisplay": 1,
+          "agxDisplay": 0.9362297108648029
+        },
+        {
+          "linear": 8,
+          "unmappedDisplay": 1,
+          "agxDisplay": 0.9717258678911574
+        },
+        {
+          "linear": 16,
+          "unmappedDisplay": 1,
+          "agxDisplay": 0.9978924127407721
+        }
+      ],
+      "method": "CPU evaluation of the installed Three AgX equations for neutral radiance, not a measured framebuffer result"
+    }
+  ],
+  "existingLightAnalysis": {
+    "welcome": {
+      "hemisphere": 2.1,
+      "directional": 3.1,
+      "environmentIntensity": 0.9
+    },
+    "docked": {
+      "hemisphere": 0,
+      "directional": 0,
+      "environmentDay": 1.1,
+      "environmentNight": 0.3
+    },
+    "explanation": "Native PBR can produce radiance above 1 from existing lights and RoomEnvironment reflections. NoToneMapping only applies sRGB conversion and clips that range in display. Local AgX compresses that radiance without reducing lights or exposure."
+  },
+  "limitations": "CPU shader composition and real GLB material preservation only; webpage WebGL compilation and visual acceptance are still pending."
+}

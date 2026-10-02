@@ -1,0 +1,2309 @@
+{
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v11.blend",
+  "source_sha256": "f60171543a8bf48c855e672a2055ced1dce2a178d0b1a47eefb0437ea240d785",
+  "source_file_unchanged": true,
+  "output": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-atelier-v12.blend",
+  "bytes": 73834201,
+  "sha256": "9b7936dcebdb3974703c37772911d596b0a8a196743e99c9e757bf21a38d5b8c",
+  "scenes": {
+    "ORBITAL_ATELIER_V2": {
+      "objects_before": {
+        "A_SweepingTopBand": {
+          "raw_vertices": 364,
+          "evaluated_vertices": 1988,
+          "triangles": 3972,
+          "smooth_faces": 0,
+          "faces": 1986,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 1,
+          "signed_volume": 1.5952057043757462,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              4.4649128913879395
+            ],
+            "max": [
+              4.915319442749023,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          }
+        },
+        "A_LeftTopRail": {
+          "raw_vertices": 164,
+          "evaluated_vertices": 932,
+          "triangles": 1860,
+          "smooth_faces": 0,
+          "faces": 930,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7390142699308367,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.46258282661438,
+              3.7509868144989014
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          }
+        },
+        "A_LeftFrontRail": {
+          "raw_vertices": 84,
+          "evaluated_vertices": 672,
+          "triangles": 1340,
+          "smooth_faces": 0,
+          "faces": 670,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 1,
+          "signed_volume": 0.4542697022786376,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              4.094791889190674
+            ]
+          }
+        },
+        "A_BackWall_Graphite": {
+          "raw_vertices": 28,
+          "evaluated_vertices": 436,
+          "triangles": 868,
+          "smooth_faces": 0,
+          "faces": 424,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 19.756317597659375,
+          "bevels": [
+            {
+              "width": 0.1599999964237213,
+              "segments": 6,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          }
+        },
+        "A_LeftWallInner": {
+          "raw_vertices": 4,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 0,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 9.391574940860728,
+          "bevels": [
+            {
+              "width": 0.11999999731779099,
+              "segments": 6,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          }
+        },
+        "A_PanoramaTitaniumBezel": {
+          "raw_vertices": 208,
+          "evaluated_vertices": 832,
+          "triangles": 1664,
+          "smooth_faces": 0,
+          "faces": 832,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.756316769238159,
+          "bevels": [
+            {
+              "width": 0.02500000037252903,
+              "segments": 3,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              3.0799999237060547,
+              1.559999942779541
+            ],
+            "max": [
+              3.4000000953674316,
+              3.3499999046325684,
+              4.380000114440918
+            ]
+          }
+        },
+        "A_DisplayTowerFrame": {
+          "raw_vertices": 824,
+          "evaluated_vertices": 952,
+          "triangles": 1904,
+          "smooth_faces": 0,
+          "faces": 938,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7756092914405724,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 3,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.174999952316284,
+              2.549999952316284,
+              0.4099999964237213
+            ],
+            "max": [
+              4.824999809265137,
+              3.1700000762939453,
+              4.690000057220459
+            ]
+          }
+        },
+        "A_DisplayTowerBack": {
+          "raw_vertices": 494,
+          "evaluated_vertices": 598,
+          "triangles": 1192,
+          "smooth_faces": 0,
+          "faces": 543,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.4572539498648127,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 3,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.2249999046325684,
+              3.059999942779541,
+              0.44999998807907104
+            ],
+            "max": [
+              4.775000095367432,
+              3.299999952316284,
+              4.650000095367432
+            ]
+          }
+        }
+      },
+      "objects_after": {
+        "A_SweepingTopBand": {
+          "raw_vertices": 588,
+          "evaluated_vertices": 4354,
+          "triangles": 8704,
+          "smooth_faces": 4353,
+          "faces": 4353,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.582491580985186,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.906404495239258,
+              3.119999885559082,
+              4.467175006866455
+            ],
+            "max": [
+              4.9112229347229,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          }
+        },
+        "A_LeftTopRail": {
+          "raw_vertices": 164,
+          "evaluated_vertices": 1388,
+          "triangles": 2772,
+          "smooth_faces": 1386,
+          "faces": 1386,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7392540616861266,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.4628243446350098,
+              3.750743865966797
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          }
+        },
+        "A_LeftFrontRail": {
+          "raw_vertices": 8,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 294,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.5197661921131853,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              3.9200000762939453
+            ]
+          }
+        },
+        "A_BackWall_Graphite": {
+          "raw_vertices": 28,
+          "evaluated_vertices": 436,
+          "triangles": 868,
+          "smooth_faces": 424,
+          "faces": 424,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 19.756317597659375,
+          "bevels": [
+            {
+              "width": 0.1599999964237213,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          }
+        },
+        "A_LeftWallInner": {
+          "raw_vertices": 4,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 294,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 9.391574940860728,
+          "bevels": [
+            {
+              "width": 0.11999999731779099,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          }
+        },
+        "A_PanoramaTitaniumBezel": {
+          "raw_vertices": 208,
+          "evaluated_vertices": 1456,
+          "triangles": 2912,
+          "smooth_faces": 1456,
+          "faces": 1456,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7573911465461013,
+          "bevels": [
+            {
+              "width": 0.02500000037252903,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              3.0799999237060547,
+              1.559999942779541
+            ],
+            "max": [
+              3.4000000953674316,
+              3.3499999046325684,
+              4.380000114440918
+            ]
+          }
+        },
+        "A_DisplayTowerFrame": {
+          "raw_vertices": 824,
+          "evaluated_vertices": 1136,
+          "triangles": 2272,
+          "smooth_faces": 1120,
+          "faces": 1120,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7756101317834111,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.174999952316284,
+              2.549999952316284,
+              0.4099999964237213
+            ],
+            "max": [
+              4.824999809265137,
+              3.1700000762939453,
+              4.690000057220459
+            ]
+          }
+        },
+        "A_DisplayTowerBack": {
+          "raw_vertices": 494,
+          "evaluated_vertices": 758,
+          "triangles": 1512,
+          "smooth_faces": 701,
+          "faces": 701,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.4572553800928856,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.2249999046325684,
+              3.059999942779541,
+              0.44999998807907104
+            ],
+            "max": [
+              4.775000095367432,
+              3.299999952316284,
+              4.650000095367432
+            ]
+          }
+        }
+      },
+      "centerline_metrics_before": {
+        "A_SweepingTopBand": {
+          "sections": 91,
+          "maximum_segment_length": 0.2923638090457264,
+          "maximum_tangent_turn_degrees": 15.382009482597256
+        },
+        "A_LeftTopRail": {
+          "sections": 41,
+          "maximum_segment_length": 0.2221416093921637,
+          "maximum_tangent_turn_degrees": 1.8497027390381937
+        },
+        "A_LeftFrontRail": {
+          "sections": 21,
+          "maximum_segment_length": 0.4397651096760952,
+          "maximum_tangent_turn_degrees": 88.15288029628577
+        }
+      },
+      "centerline_metrics_after": {
+        "A_SweepingTopBand": {
+          "sections": 147,
+          "maximum_segment_length": 0.15930938629359384,
+          "maximum_tangent_turn_degrees": 5.572743232963764
+        },
+        "A_LeftTopRail": {
+          "sections": 41,
+          "maximum_segment_length": 0.2221416093921637,
+          "maximum_tangent_turn_degrees": 1.8497027390381937
+        }
+      },
+      "sharp_source_edges_retained": {
+        "A_SweepingTopBand": 592,
+        "A_LeftTopRail": 168,
+        "A_LeftFrontRail": 12,
+        "A_BackWall_Graphite": 30,
+        "A_LeftWallInner": 0,
+        "A_PanoramaTitaniumBezel": 208,
+        "A_DisplayTowerFrame": 32,
+        "A_DisplayTowerBack": 26
+      },
+      "front_post": {
+        "old_top_z": 4.094791889190674,
+        "new_top_z": 3.92,
+        "unchanged_foot_z": 0.2198982983827591,
+        "source_of_spike": "reversing Catmull-Rom endpoint"
+      },
+      "valley_fold_repair_x": [
+        2.18,
+        2.9
+      ],
+      "top_gap_exact_z_lower_bound": 0.12377023696899414,
+      "wall_cap_envelope": {
+        "vertical_envelope_samples": 600,
+        "minimum_cap_cover_over_wall": 0.042110443115234375,
+        "minimum_wall_embed_into_cap": 0.055623531341552734,
+        "protruding_wall_fin": false,
+        "wall_lift_max": 0.04,
+        "header_lift_max": 0.16
+      },
+      "self_intersection_checks": {
+        "A_SweepingTopBand": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftTopRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftFrontRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_BackWall_Graphite": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftWallInner": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_PanoramaTitaniumBezel": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerFrame": {
+          "nonadjacent_bvh_candidates": 1,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerBack": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      },
+      "window_junction_checks": {
+        "A_SweepingTopBand": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.12377023696899414,
+          "closest_points": [
+            [
+              2.5106000900268555,
+              3.135711908340454,
+              4.503770351409912
+            ],
+            [
+              2.5106000900268555,
+              3.135711908340454,
+              4.380000114440918
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_DisplayTowerFrame": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.034999847412109375,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              4.269893646240234
+            ],
+            [
+              3.1782379150390625,
+              3.0799999237060547,
+              4.269893646240234
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.029999971389770508,
+          "closest_points": [
+            [
+              3.430000066757202,
+              3.296149969100952,
+              3.9049997329711914
+            ],
+            [
+              3.4000000953674316,
+              3.296149969100952,
+              3.9049997329711914
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        }
+      },
+      "source_scene_total_triangles": 1137786,
+      "edited_objects_triangles_before": 13388,
+      "edited_objects_triangles_after": 20216,
+      "asset_count": 129,
+      "asset_ids_and_world_transforms_unchanged": true,
+      "all_object_transforms_unchanged": true,
+      "window_image_unchanged": true,
+      "self_intersection_checks_before": {
+        "A_SweepingTopBand": {
+          "nonadjacent_bvh_candidates": 98,
+          "strict_triangle_penetrations": 75
+        },
+        "A_LeftTopRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftFrontRail": {
+          "nonadjacent_bvh_candidates": 105,
+          "strict_triangle_penetrations": 55
+        },
+        "A_BackWall_Graphite": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftWallInner": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_PanoramaTitaniumBezel": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerFrame": {
+          "nonadjacent_bvh_candidates": 1,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerBack": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      }
+    },
+    "ORIGINAL_DAY_V12": {
+      "objects_before": {
+        "A_SweepingTopBand": {
+          "raw_vertices": 364,
+          "evaluated_vertices": 1988,
+          "triangles": 3972,
+          "smooth_faces": 0,
+          "faces": 1986,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 1,
+          "signed_volume": 1.5952057043757462,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              4.4649128913879395
+            ],
+            "max": [
+              4.915319442749023,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          }
+        },
+        "A_LeftTopRail": {
+          "raw_vertices": 164,
+          "evaluated_vertices": 932,
+          "triangles": 1860,
+          "smooth_faces": 0,
+          "faces": 930,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7390142699308367,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.46258282661438,
+              3.7509868144989014
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          }
+        },
+        "A_LeftFrontRail": {
+          "raw_vertices": 84,
+          "evaluated_vertices": 672,
+          "triangles": 1340,
+          "smooth_faces": 0,
+          "faces": 670,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 1,
+          "signed_volume": 0.4542697022786376,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              4.094791889190674
+            ]
+          }
+        },
+        "A_BackWall_Graphite": {
+          "raw_vertices": 28,
+          "evaluated_vertices": 436,
+          "triangles": 868,
+          "smooth_faces": 0,
+          "faces": 424,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 19.756317597659375,
+          "bevels": [
+            {
+              "width": 0.1599999964237213,
+              "segments": 6,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          }
+        },
+        "A_LeftWallInner": {
+          "raw_vertices": 4,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 0,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 9.391574940860728,
+          "bevels": [
+            {
+              "width": 0.11999999731779099,
+              "segments": 6,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          }
+        },
+        "A_PanoramaTitaniumBezel": {
+          "raw_vertices": 208,
+          "evaluated_vertices": 832,
+          "triangles": 1664,
+          "smooth_faces": 0,
+          "faces": 832,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.756316769238159,
+          "bevels": [
+            {
+              "width": 0.02500000037252903,
+              "segments": 3,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              3.0799999237060547,
+              1.559999942779541
+            ],
+            "max": [
+              3.4000000953674316,
+              3.3499999046325684,
+              4.380000114440918
+            ]
+          }
+        },
+        "A_DisplayTowerFrame": {
+          "raw_vertices": 824,
+          "evaluated_vertices": 952,
+          "triangles": 1904,
+          "smooth_faces": 0,
+          "faces": 938,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7756092914405724,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 3,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.174999952316284,
+              2.549999952316284,
+              0.4099999964237213
+            ],
+            "max": [
+              4.824999809265137,
+              3.1700000762939453,
+              4.690000057220459
+            ]
+          }
+        },
+        "A_DisplayTowerBack": {
+          "raw_vertices": 494,
+          "evaluated_vertices": 598,
+          "triangles": 1192,
+          "smooth_faces": 0,
+          "faces": 543,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.4572539498648127,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 3,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.2249999046325684,
+              3.059999942779541,
+              0.44999998807907104
+            ],
+            "max": [
+              4.775000095367432,
+              3.299999952316284,
+              4.650000095367432
+            ]
+          }
+        }
+      },
+      "objects_after": {
+        "A_SweepingTopBand": {
+          "raw_vertices": 588,
+          "evaluated_vertices": 4354,
+          "triangles": 8704,
+          "smooth_faces": 4353,
+          "faces": 4353,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.582491580985186,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.906404495239258,
+              3.119999885559082,
+              4.467175006866455
+            ],
+            "max": [
+              4.9112229347229,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          }
+        },
+        "A_LeftTopRail": {
+          "raw_vertices": 164,
+          "evaluated_vertices": 1388,
+          "triangles": 2772,
+          "smooth_faces": 1386,
+          "faces": 1386,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7392540616861266,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.4628243446350098,
+              3.750743865966797
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          }
+        },
+        "A_LeftFrontRail": {
+          "raw_vertices": 8,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 294,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.5197661921131853,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              3.9200000762939453
+            ]
+          }
+        },
+        "A_BackWall_Graphite": {
+          "raw_vertices": 28,
+          "evaluated_vertices": 436,
+          "triangles": 868,
+          "smooth_faces": 424,
+          "faces": 424,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 19.756317597659375,
+          "bevels": [
+            {
+              "width": 0.1599999964237213,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          }
+        },
+        "A_LeftWallInner": {
+          "raw_vertices": 4,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 294,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 9.391574940860728,
+          "bevels": [
+            {
+              "width": 0.11999999731779099,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          }
+        },
+        "A_PanoramaTitaniumBezel": {
+          "raw_vertices": 208,
+          "evaluated_vertices": 1456,
+          "triangles": 2912,
+          "smooth_faces": 1456,
+          "faces": 1456,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7573911465461013,
+          "bevels": [
+            {
+              "width": 0.02500000037252903,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              3.0799999237060547,
+              1.559999942779541
+            ],
+            "max": [
+              3.4000000953674316,
+              3.3499999046325684,
+              4.380000114440918
+            ]
+          }
+        },
+        "A_DisplayTowerFrame": {
+          "raw_vertices": 824,
+          "evaluated_vertices": 1136,
+          "triangles": 2272,
+          "smooth_faces": 1120,
+          "faces": 1120,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7756101317834111,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.174999952316284,
+              2.549999952316284,
+              0.4099999964237213
+            ],
+            "max": [
+              4.824999809265137,
+              3.1700000762939453,
+              4.690000057220459
+            ]
+          }
+        },
+        "A_DisplayTowerBack": {
+          "raw_vertices": 494,
+          "evaluated_vertices": 758,
+          "triangles": 1512,
+          "smooth_faces": 701,
+          "faces": 701,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.4572553800928856,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.2249999046325684,
+              3.059999942779541,
+              0.44999998807907104
+            ],
+            "max": [
+              4.775000095367432,
+              3.299999952316284,
+              4.650000095367432
+            ]
+          }
+        }
+      },
+      "centerline_metrics_before": {
+        "A_SweepingTopBand": {
+          "sections": 91,
+          "maximum_segment_length": 0.2923638090457264,
+          "maximum_tangent_turn_degrees": 15.382009482597256
+        },
+        "A_LeftTopRail": {
+          "sections": 41,
+          "maximum_segment_length": 0.2221416093921637,
+          "maximum_tangent_turn_degrees": 1.8497027390381937
+        },
+        "A_LeftFrontRail": {
+          "sections": 21,
+          "maximum_segment_length": 0.4397651096760952,
+          "maximum_tangent_turn_degrees": 88.15288029628577
+        }
+      },
+      "centerline_metrics_after": {
+        "A_SweepingTopBand": {
+          "sections": 147,
+          "maximum_segment_length": 0.15930938629359384,
+          "maximum_tangent_turn_degrees": 5.572743232963764
+        },
+        "A_LeftTopRail": {
+          "sections": 41,
+          "maximum_segment_length": 0.2221416093921637,
+          "maximum_tangent_turn_degrees": 1.8497027390381937
+        }
+      },
+      "sharp_source_edges_retained": {
+        "A_SweepingTopBand": 592,
+        "A_LeftTopRail": 168,
+        "A_LeftFrontRail": 12,
+        "A_BackWall_Graphite": 30,
+        "A_LeftWallInner": 0,
+        "A_PanoramaTitaniumBezel": 208,
+        "A_DisplayTowerFrame": 32,
+        "A_DisplayTowerBack": 26
+      },
+      "front_post": {
+        "old_top_z": 4.094791889190674,
+        "new_top_z": 3.92,
+        "unchanged_foot_z": 0.2198982983827591,
+        "source_of_spike": "reversing Catmull-Rom endpoint"
+      },
+      "valley_fold_repair_x": [
+        2.18,
+        2.9
+      ],
+      "top_gap_exact_z_lower_bound": 0.12377023696899414,
+      "wall_cap_envelope": {
+        "vertical_envelope_samples": 600,
+        "minimum_cap_cover_over_wall": 0.042110443115234375,
+        "minimum_wall_embed_into_cap": 0.055623531341552734,
+        "protruding_wall_fin": false,
+        "wall_lift_max": 0.04,
+        "header_lift_max": 0.16
+      },
+      "self_intersection_checks": {
+        "A_SweepingTopBand": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftTopRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftFrontRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_BackWall_Graphite": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftWallInner": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_PanoramaTitaniumBezel": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerFrame": {
+          "nonadjacent_bvh_candidates": 1,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerBack": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      },
+      "window_junction_checks": {
+        "A_SweepingTopBand": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.12377023696899414,
+          "closest_points": [
+            [
+              2.5106000900268555,
+              3.135711908340454,
+              4.503770351409912
+            ],
+            [
+              2.5106000900268555,
+              3.135711908340454,
+              4.380000114440918
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_DisplayTowerFrame": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.034999847412109375,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              4.269893646240234
+            ],
+            [
+              3.1782379150390625,
+              3.0799999237060547,
+              4.269893646240234
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.029999971389770508,
+          "closest_points": [
+            [
+              3.430000066757202,
+              3.296149969100952,
+              3.9049997329711914
+            ],
+            [
+              3.4000000953674316,
+              3.296149969100952,
+              3.9049997329711914
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        }
+      },
+      "source_scene_total_triangles": 1137834,
+      "edited_objects_triangles_before": 13388,
+      "edited_objects_triangles_after": 20216,
+      "asset_count": 129,
+      "asset_ids_and_world_transforms_unchanged": true,
+      "all_object_transforms_unchanged": true,
+      "window_image_unchanged": true,
+      "self_intersection_checks_before": {
+        "A_SweepingTopBand": {
+          "nonadjacent_bvh_candidates": 98,
+          "strict_triangle_penetrations": 75
+        },
+        "A_LeftTopRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftFrontRail": {
+          "nonadjacent_bvh_candidates": 105,
+          "strict_triangle_penetrations": 55
+        },
+        "A_BackWall_Graphite": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftWallInner": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_PanoramaTitaniumBezel": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerFrame": {
+          "nonadjacent_bvh_candidates": 1,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerBack": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      }
+    },
+    "ORIGINAL_NIGHT_V12": {
+      "objects_before": {
+        "A_SweepingTopBand": {
+          "raw_vertices": 364,
+          "evaluated_vertices": 1988,
+          "triangles": 3972,
+          "smooth_faces": 0,
+          "faces": 1986,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 1,
+          "signed_volume": 1.5952057043757462,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.908666610717773,
+              3.119999885559082,
+              4.4649128913879395
+            ],
+            "max": [
+              4.915319442749023,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          }
+        },
+        "A_LeftTopRail": {
+          "raw_vertices": 164,
+          "evaluated_vertices": 932,
+          "triangles": 1860,
+          "smooth_faces": 0,
+          "faces": 930,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7390142699308367,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.46258282661438,
+              3.7509868144989014
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          }
+        },
+        "A_LeftFrontRail": {
+          "raw_vertices": 84,
+          "evaluated_vertices": 672,
+          "triangles": 1340,
+          "smooth_faces": 0,
+          "faces": 670,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 1,
+          "signed_volume": 0.4542697022786376,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 4,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              4.094791889190674
+            ]
+          }
+        },
+        "A_BackWall_Graphite": {
+          "raw_vertices": 28,
+          "evaluated_vertices": 436,
+          "triangles": 868,
+          "smooth_faces": 0,
+          "faces": 424,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 19.756317597659375,
+          "bevels": [
+            {
+              "width": 0.1599999964237213,
+              "segments": 6,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          }
+        },
+        "A_LeftWallInner": {
+          "raw_vertices": 4,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 0,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 9.391574940860728,
+          "bevels": [
+            {
+              "width": 0.11999999731779099,
+              "segments": 6,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          }
+        },
+        "A_PanoramaTitaniumBezel": {
+          "raw_vertices": 208,
+          "evaluated_vertices": 832,
+          "triangles": 1664,
+          "smooth_faces": 0,
+          "faces": 832,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.756316769238159,
+          "bevels": [
+            {
+              "width": 0.02500000037252903,
+              "segments": 3,
+              "harden_normals": false
+            }
+          ],
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              3.0799999237060547,
+              1.559999942779541
+            ],
+            "max": [
+              3.4000000953674316,
+              3.3499999046325684,
+              4.380000114440918
+            ]
+          }
+        },
+        "A_DisplayTowerFrame": {
+          "raw_vertices": 824,
+          "evaluated_vertices": 952,
+          "triangles": 1904,
+          "smooth_faces": 0,
+          "faces": 938,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7756092914405724,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 3,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.174999952316284,
+              2.549999952316284,
+              0.4099999964237213
+            ],
+            "max": [
+              4.824999809265137,
+              3.1700000762939453,
+              4.690000057220459
+            ]
+          }
+        },
+        "A_DisplayTowerBack": {
+          "raw_vertices": 494,
+          "evaluated_vertices": 598,
+          "triangles": 1192,
+          "smooth_faces": 0,
+          "faces": 543,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.4572539498648127,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 3,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.2249999046325684,
+              3.059999942779541,
+              0.44999998807907104
+            ],
+            "max": [
+              4.775000095367432,
+              3.299999952316284,
+              4.650000095367432
+            ]
+          }
+        }
+      },
+      "objects_after": {
+        "A_SweepingTopBand": {
+          "raw_vertices": 588,
+          "evaluated_vertices": 4354,
+          "triangles": 8704,
+          "smooth_faces": 4353,
+          "faces": 4353,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.582491580985186,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.906404495239258,
+              3.119999885559082,
+              4.467175006866455
+            ],
+            "max": [
+              4.9112229347229,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          }
+        },
+        "A_LeftTopRail": {
+          "raw_vertices": 164,
+          "evaluated_vertices": 1388,
+          "triangles": 2772,
+          "smooth_faces": 1386,
+          "faces": 1386,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7392540616861266,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.4628243446350098,
+              3.750743865966797
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          }
+        },
+        "A_LeftFrontRail": {
+          "raw_vertices": 8,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 294,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.5197661921131853,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.548675060272217,
+              0.2198982983827591
+            ],
+            "max": [
+              -4.759999752044678,
+              -2.3091442584991455,
+              3.9200000762939453
+            ]
+          }
+        },
+        "A_BackWall_Graphite": {
+          "raw_vertices": 28,
+          "evaluated_vertices": 436,
+          "triangles": 868,
+          "smooth_faces": 424,
+          "faces": 424,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 19.756317597659375,
+          "bevels": [
+            {
+              "width": 0.1599999964237213,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          }
+        },
+        "A_LeftWallInner": {
+          "raw_vertices": 4,
+          "evaluated_vertices": 296,
+          "triangles": 588,
+          "smooth_faces": 294,
+          "faces": 294,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 9.391574940860728,
+          "bevels": [
+            {
+              "width": 0.11999999731779099,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.309999942779541,
+              -2.450000047683716,
+              0.18000000715255737
+            ],
+            "max": [
+              -4.929999828338623,
+              3.740000009536743,
+              4.595376491546631
+            ]
+          }
+        },
+        "A_PanoramaTitaniumBezel": {
+          "raw_vertices": 208,
+          "evaluated_vertices": 1456,
+          "triangles": 2912,
+          "smooth_faces": 1456,
+          "faces": 1456,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7573911465461013,
+          "bevels": [
+            {
+              "width": 0.02500000037252903,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              3.0799999237060547,
+              1.559999942779541
+            ],
+            "max": [
+              3.4000000953674316,
+              3.3499999046325684,
+              4.380000114440918
+            ]
+          }
+        },
+        "A_DisplayTowerFrame": {
+          "raw_vertices": 824,
+          "evaluated_vertices": 1136,
+          "triangles": 2272,
+          "smooth_faces": 1120,
+          "faces": 1120,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7756101317834111,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.174999952316284,
+              2.549999952316284,
+              0.4099999964237213
+            ],
+            "max": [
+              4.824999809265137,
+              3.1700000762939453,
+              4.690000057220459
+            ]
+          }
+        },
+        "A_DisplayTowerBack": {
+          "raw_vertices": 494,
+          "evaluated_vertices": 758,
+          "triangles": 1512,
+          "smooth_faces": 701,
+          "faces": 701,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.4572553800928856,
+          "bevels": [
+            {
+              "width": 0.00800000037997961,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              3.2249999046325684,
+              3.059999942779541,
+              0.44999998807907104
+            ],
+            "max": [
+              4.775000095367432,
+              3.299999952316284,
+              4.650000095367432
+            ]
+          }
+        }
+      },
+      "centerline_metrics_before": {
+        "A_SweepingTopBand": {
+          "sections": 91,
+          "maximum_segment_length": 0.2923638090457264,
+          "maximum_tangent_turn_degrees": 15.382009482597256
+        },
+        "A_LeftTopRail": {
+          "sections": 41,
+          "maximum_segment_length": 0.2221416093921637,
+          "maximum_tangent_turn_degrees": 1.8497027390381937
+        },
+        "A_LeftFrontRail": {
+          "sections": 21,
+          "maximum_segment_length": 0.4397651096760952,
+          "maximum_tangent_turn_degrees": 88.15288029628577
+        }
+      },
+      "centerline_metrics_after": {
+        "A_SweepingTopBand": {
+          "sections": 147,
+          "maximum_segment_length": 0.15930938629359384,
+          "maximum_tangent_turn_degrees": 5.572743232963764
+        },
+        "A_LeftTopRail": {
+          "sections": 41,
+          "maximum_segment_length": 0.2221416093921637,
+          "maximum_tangent_turn_degrees": 1.8497027390381937
+        }
+      },
+      "sharp_source_edges_retained": {
+        "A_SweepingTopBand": 592,
+        "A_LeftTopRail": 168,
+        "A_LeftFrontRail": 12,
+        "A_BackWall_Graphite": 30,
+        "A_LeftWallInner": 0,
+        "A_PanoramaTitaniumBezel": 208,
+        "A_DisplayTowerFrame": 32,
+        "A_DisplayTowerBack": 26
+      },
+      "front_post": {
+        "old_top_z": 4.094791889190674,
+        "new_top_z": 3.92,
+        "unchanged_foot_z": 0.2198982983827591,
+        "source_of_spike": "reversing Catmull-Rom endpoint"
+      },
+      "valley_fold_repair_x": [
+        2.18,
+        2.9
+      ],
+      "top_gap_exact_z_lower_bound": 0.12377023696899414,
+      "wall_cap_envelope": {
+        "vertical_envelope_samples": 600,
+        "minimum_cap_cover_over_wall": 0.042110443115234375,
+        "minimum_wall_embed_into_cap": 0.055623531341552734,
+        "protruding_wall_fin": false,
+        "wall_lift_max": 0.04,
+        "header_lift_max": 0.16
+      },
+      "self_intersection_checks": {
+        "A_SweepingTopBand": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftTopRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftFrontRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_BackWall_Graphite": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftWallInner": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_PanoramaTitaniumBezel": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerFrame": {
+          "nonadjacent_bvh_candidates": 1,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerBack": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      },
+      "window_junction_checks": {
+        "A_SweepingTopBand": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.12377023696899414,
+          "closest_points": [
+            [
+              2.5106000900268555,
+              3.135711908340454,
+              4.503770351409912
+            ],
+            [
+              2.5106000900268555,
+              3.135711908340454,
+              4.380000114440918
+            ]
+          ],
+          "verification_region": "entire mesh"
+        },
+        "A_DisplayTowerFrame": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.034999847412109375,
+          "closest_points": [
+            [
+              3.1782379150390625,
+              3.0450000762939453,
+              4.269893646240234
+            ],
+            [
+              3.1782379150390625,
+              3.0799999237060547,
+              4.269893646240234
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        },
+        "A_DisplayTowerBack": {
+          "confirmed_edge_triangle_intersections": 0,
+          "sampled_minimum_surface_clearance": 0.029999971389770508,
+          "closest_points": [
+            [
+              3.430000066757202,
+              3.296149969100952,
+              3.9049997329711914
+            ],
+            [
+              3.4000000953674316,
+              3.296149969100952,
+              3.9049997329711914
+            ]
+          ],
+          "verification_region": "upper-right x>1 / z>=3.4"
+        }
+      },
+      "source_scene_total_triangles": 1137786,
+      "edited_objects_triangles_before": 13388,
+      "edited_objects_triangles_after": 20216,
+      "asset_count": 129,
+      "asset_ids_and_world_transforms_unchanged": true,
+      "all_object_transforms_unchanged": true,
+      "window_image_unchanged": true,
+      "self_intersection_checks_before": {
+        "A_SweepingTopBand": {
+          "nonadjacent_bvh_candidates": 98,
+          "strict_triangle_penetrations": 75
+        },
+        "A_LeftTopRail": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftFrontRail": {
+          "nonadjacent_bvh_candidates": 105,
+          "strict_triangle_penetrations": 55
+        },
+        "A_BackWall_Graphite": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_LeftWallInner": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_PanoramaTitaniumBezel": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerFrame": {
+          "nonadjacent_bvh_candidates": 1,
+          "strict_triangle_penetrations": 0
+        },
+        "A_DisplayTowerBack": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      }
+    }
+  },
+  "renders_executed": 0,
+  "exports_executed": 0,
+  "reopened_verification": {
+    "source_ids_and_transforms_identical": true,
+    "objects": {
+      "A_SweepingTopBand": {
+        "largest_plane_normals": [
+          {
+            "area": 0.13110622763633728,
+            "normal": [
+              0.8274390697479248,
+              0.0,
+              -0.5615555047988892
+            ],
+            "max_corner_normal_deviation_degrees": 0.0
+          },
+          {
+            "area": 0.13110600411891937,
+            "normal": [
+              -0.9686388969421387,
+              0.0,
+              -0.2484729290008545
+            ],
+            "max_corner_normal_deviation_degrees": 0.0
+          }
+        ],
+        "stats": {
+          "raw_vertices": 588,
+          "evaluated_vertices": 4354,
+          "triangles": 8704,
+          "smooth_faces": 4353,
+          "faces": 4353,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 1.582491580985186,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.906404495239258,
+              3.119999885559082,
+              4.467175006866455
+            ],
+            "max": [
+              4.9112229347229,
+              3.7799999713897705,
+              5.21248722076416
+            ]
+          }
+        },
+        "self": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      },
+      "A_LeftTopRail": {
+        "largest_plane_normals": [
+          {
+            "area": 0.11312549561262131,
+            "normal": [
+              0.0,
+              -0.1580306887626648,
+              0.9874342679977417
+            ],
+            "max_corner_normal_deviation_degrees": 0.07132625143984156
+          },
+          {
+            "area": 0.1129719540476799,
+            "normal": [
+              0.0,
+              -0.1598215103149414,
+              0.9871459007263184
+            ],
+            "max_corner_normal_deviation_degrees": 0.05233915597547922
+          }
+        ],
+        "stats": {
+          "raw_vertices": 164,
+          "evaluated_vertices": 1388,
+          "triangles": 2772,
+          "smooth_faces": 1386,
+          "faces": 1386,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7392540616861266,
+          "bevels": [
+            {
+              "width": 0.02800000086426735,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              -2.4628243446350098,
+              3.750743865966797
+            ],
+            "max": [
+              -4.760375022888184,
+              3.7773051261901855,
+              4.713982582092285
+            ]
+          }
+        },
+        "self": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      },
+      "A_BackWall_Graphite": {
+        "largest_plane_normals": [
+          {
+            "area": 42.17089080810547,
+            "normal": [
+              0.0,
+              -1.0,
+              1.4134072801041953e-09
+            ],
+            "max_corner_normal_deviation_degrees": 0.0
+          },
+          {
+            "area": 42.17089080810547,
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "max_corner_normal_deviation_degrees": 0.0
+          }
+        ],
+        "stats": {
+          "raw_vertices": 28,
+          "evaluated_vertices": 436,
+          "triangles": 868,
+          "smooth_faces": 424,
+          "faces": 424,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 19.756317597659375,
+          "bevels": [
+            {
+              "width": 0.1599999964237213,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              3.309999942779541,
+              0.18000000715255737
+            ],
+            "max": [
+              4.960000038146973,
+              3.740000009536743,
+              5.130000114440918
+            ]
+          }
+        },
+        "self": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      },
+      "A_PanoramaTitaniumBezel": {
+        "largest_plane_normals": [
+          {
+            "area": 1.1879997253417969,
+            "normal": [
+              -0.0,
+              0.0,
+              1.0
+            ],
+            "max_corner_normal_deviation_degrees": 0.03956468118525214
+          },
+          {
+            "area": 1.1879997253417969,
+            "normal": [
+              -0.0,
+              0.0,
+              -1.0
+            ],
+            "max_corner_normal_deviation_degrees": 0.03956468118525214
+          }
+        ],
+        "stats": {
+          "raw_vertices": 208,
+          "evaluated_vertices": 1456,
+          "triangles": 2912,
+          "smooth_faces": 1456,
+          "faces": 1456,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "degenerate_faces": 0,
+          "signed_volume": 0.7573911465461013,
+          "bevels": [
+            {
+              "width": 0.02500000037252903,
+              "segments": 6,
+              "harden_normals": true
+            }
+          ],
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              3.0799999237060547,
+              1.559999942779541
+            ],
+            "max": [
+              3.4000000953674316,
+              3.3499999046325684,
+              4.380000114440918
+            ]
+          }
+        },
+        "self": {
+          "nonadjacent_bvh_candidates": 0,
+          "strict_triangle_penetrations": 0
+        }
+      }
+    }
+  }
+}

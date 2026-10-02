@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-30",
+  "page": "http://127.0.0.1:5173/material-review/terminal.html",
+  "shaderErrors": [],
+  "gpuTextureFormat": 37808,
+  "materials": 7,
+  "drawCalls": 27,
+  "triangles": 26868,
+  "bakedSurfaceUvChannel": 1,
+  "visualChecks": [
+    "closed welcome pose with original lighting intensities",
+    "fully unfolded Blender clip endpoint",
+    "night environment intensity and screen emission endpoint",
+    "ivory marks and bezel fasteners visible",
+    "native PBR shading with one local AgX"
+  ]
+}

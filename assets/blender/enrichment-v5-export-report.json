@@ -1,0 +1,105 @@
+{
+  "source": "assets/blender/orbital-atelier-v5.blend",
+  "model": "public/models/orbital-enrichment-v5.glb",
+  "texture": "assets/textures/baked/room-enrichment-v5.png",
+  "atlas": 4096,
+  "samples": 32,
+  "triangles": 25228,
+  "drawCalls": 16,
+  "bytes": 8030756,
+  "sha256": "8f21a79789b9172e2603ed701bf0817f5677a19f6209b6be76bec9728a426918",
+  "roots": [
+    {
+      "id": "v5_orbital_clock",
+      "name": "V5_ORBITAL_CLOCK_Root__web",
+      "location": [
+        -4.760000228881836,
+        2.299999952316284,
+        3.619999885559082
+      ]
+    },
+    {
+      "id": "v5_portable_projector",
+      "name": "V5_PROJECTOR_Root__web",
+      "location": [
+        -3.713420867919922,
+        -0.9319590330123901,
+        1.8580799102783203
+      ]
+    },
+    {
+      "id": "v5_magnetic_pen_dock",
+      "name": "V5_PEN_DOCK_Root__web",
+      "location": [
+        -3.2759158611297607,
+        0.7885405421257019,
+        1.8580799102783203
+      ]
+    },
+    {
+      "id": "v5_modular_equipment_cases",
+      "name": "V5_MODULAR_CASES_Root__web",
+      "location": [
+        1.2999999523162842,
+        1.5199999809265137,
+        0.18000000715255737
+      ]
+    },
+    {
+      "id": "v5_geometric_floor_lamp",
+      "name": "V5_GEOMETRIC_LAMP_Root__web",
+      "location": [
+        2.2799999713897705,
+        0.7799999713897705,
+        0.18000000715255737
+      ]
+    },
+    {
+      "id": "v5_energy_capsule_rack",
+      "name": "V5_CAPSULE_RACK_Root__web",
+      "location": [
+        0.3400000035762787,
+        2.7699999809265137,
+        1.4270000457763672
+      ]
+    },
+    {
+      "id": "v5_mechanical_data_panel",
+      "name": "V5_MECHANICAL_PANEL_Root__web",
+      "location": [
+        -4.760000228881836,
+        -1.9299999475479126,
+        2.319999933242798
+      ]
+    },
+    {
+      "id": "v5_scout_drone_display",
+      "name": "V5_SCOUT_DISPLAY_Root__web",
+      "location": [
+        -2.190000057220459,
+        2.75,
+        1.4270000457763672
+      ]
+    }
+  ],
+  "componentIds": [
+    "v5_orbital_clock",
+    "v5_clock_dial",
+    "v5_portable_projector",
+    "v5_projector_lens",
+    "v5_magnetic_pen_dock",
+    "v5_magnetic_stylus",
+    "v5_modular_equipment_cases",
+    "v5_upper_equipment_case",
+    "v5_geometric_floor_lamp",
+    "v5_floor_lamp_head",
+    "v5_energy_capsule_rack",
+    "v5_energy_capsule",
+    "v5_mechanical_data_panel",
+    "v5_data_panel_selector",
+    "v5_scout_drone_display",
+    "v5_scout_drone"
+  ],
+  "seconds": 73.58,
+  "blenderDevice": "GPU"
+}

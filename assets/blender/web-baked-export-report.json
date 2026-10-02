@@ -1,0 +1,20 @@
+{
+  "source": "assets/blender/orbital-atelier-v2.blend",
+  "scene": "WEB_BAKE_V4",
+  "model": "public/models/orbital-atelier-v4.glb",
+  "triangles": 252261,
+  "mesh_groups": 79,
+  "draw_primitives": 79,
+  "materials": 12,
+  "images": 7,
+  "logical_roots": 26,
+  "component_groups": 74,
+  "bytes": 39933240,
+  "sha256": "201113e022325a1b093a34dbaa753b72a17c4080b582dbf4c0e78fcc7346f38a",
+  "baked": true,
+  "atlas_resolution": 4096,
+  "samples": 32,
+  "web_shader": "KHR_materials_unlit / MeshBasicMaterial",
+  "color": "Cycles COMBINED lighting, AgX display transform baked into sRGB PNG; browser NoToneMapping",
+  "chair_repair": "High resolution source silhouette + dedicated 2048 atlas with 32px padding"
+}

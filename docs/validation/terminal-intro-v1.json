@@ -1,0 +1,441 @@
+{
+  "revision": 2,
+  "checkedAt": "2026-09-30T04:35:27.190Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Actual Blender GLBs loaded by GLTFLoader; unchanged production intro controller with real GSAP and real room-entry, manually advanced time. Browser DOM, image decoding and GPU PMREM are controlled substitutes. No browser rendering, visual quality, frame-rate or mobile layout claim.",
+  "model": {
+    "path": "public/models/welcome-terminal-v1.glb",
+    "bytes": 4306676,
+    "sha256": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24"
+  },
+  "sourceSha256": {
+    "src/cube-intro.js": "aa1d942edab50a238f8531e1852b1e2ab47e00bcb8c2861b5090f6891b583420",
+    "src/main.js": "54cf78481798fca7307cd2985b0514797c50d1123c4bb29dcaed68ca14ac3f02",
+    "src/room-entry.js": "6cc32b6cf33e4182c94179b4db511eb554f05ebf5134a53bc83b3161eae39c66",
+    "src/intro-input.js": "cc8148b1e99cb508a19b936c2d8630052affd8e8457dead3b004ce896ed930cc",
+    "src/intro-lighting.js": "84b3580947666ab97412503146ef0911ff63fb7edd5a4fd4080e65f31d06338a",
+    "src/exterior-atmosphere.js": "2048676688b50d1c2e7e854a40c265d44126941ae5200055280b5213c737fff8",
+    "public/models/welcome-terminal-v1.glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24"
+  },
+  "verificationSourceSha256": {
+    "scripts/check-terminal-intro.mjs": "fc87ed4fa6360823f0b9293281e3b1d77686487032ff206f22d9c0df207b1242",
+    "scripts/lib/intro-controller-fixture.mjs": "dc8871e77c41acea3488942dec25343eed645fc3da4e88c4f5a2966c366cebed"
+  },
+  "checks": 17,
+  "passed": 17,
+  "failed": 0,
+  "results": [
+    {
+      "check": "real Blender GLB has independent seed groups, a real opening clip and colored PBR materials",
+      "status": "passed",
+      "bytes": 4306676,
+      "meshes": 18,
+      "triangles": 11294,
+      "clipDuration": 1.6166666746139526,
+      "tracks": [
+        "seedlid.position",
+        "seedlid.quaternion",
+        "seeddial.quaternion",
+        "seedrail.quaternion"
+      ],
+      "materials": [
+        {
+          "name": "TERMINAL_DeepBlue_Enamel",
+          "color": [
+            0.017641954123973846,
+            0.07818742096424103,
+            0.16202937066555023
+          ],
+          "metalness": 0.41999998688697815,
+          "mapped": false
+        },
+        {
+          "name": "TERMINAL_SatinTitanium",
+          "color": [
+            0.4564110338687897,
+            0.5520114302635193,
+            0.6239603757858276
+          ],
+          "metalness": 0.8500000238418579,
+          "mapped": false
+        },
+        {
+          "name": "TERMINAL_DarkRubber",
+          "color": [
+            0.005181516520678997,
+            0.010960093699395657,
+            0.019382361322641373
+          ],
+          "metalness": 0.05000000074505806,
+          "mapped": false
+        },
+        {
+          "name": "TERMINAL_WarmTrace",
+          "color": [
+            0.8631572127342224,
+            0.41788506507873535,
+            0.09989872574806213
+          ],
+          "metalness": 0.550000011920929,
+          "mapped": false
+        },
+        {
+          "name": "TERMINAL_OriginalScreenArtwork",
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "metalness": 1,
+          "mapped": true
+        },
+        {
+          "name": "TERMINAL_Vermilion",
+          "color": [
+            0.9130986332893372,
+            0.2158605009317398,
+            0.03688944876194
+          ],
+          "metalness": 0.18000000715255737,
+          "mapped": false
+        }
+      ]
+    },
+    {
+      "check": "welcome keeps the whole room hidden and never rewrites its bake colors, maps or compile hooks",
+      "status": "passed",
+      "materialsPreserved": 19,
+      "welcomeRoomVisible": false
+    },
+    {
+      "check": "actual production controller and GSAP accept first down-wheel once and release scroll lock after completion",
+      "status": "passed",
+      "startCount": 1,
+      "completeCount": 1,
+      "duration": 5.7016622
+    },
+    {
+      "check": "the production controller samples the real sliding hinge clip and keeps both models uniformly scaled",
+      "status": "passed",
+      "tracks": 4,
+      "records": [
+        {
+          "time": 0.5,
+          "opening": 0.019946,
+          "roomVisible": false,
+          "roomScale": 0.025,
+          "terminalVisible": true
+        },
+        {
+          "time": 0.9,
+          "opening": 0.237271,
+          "roomVisible": false,
+          "roomScale": 0.025,
+          "terminalVisible": true
+        },
+        {
+          "time": 1.3,
+          "opening": 0.625155,
+          "roomVisible": true,
+          "roomScale": 0.033346,
+          "terminalVisible": true
+        },
+        {
+          "time": 1.7,
+          "opening": 0.928868,
+          "roomVisible": true,
+          "roomScale": 0.21385165,
+          "terminalVisible": true
+        },
+        {
+          "time": 2.1,
+          "opening": 1,
+          "roomVisible": true,
+          "roomScale": 0.5933226250000001,
+          "terminalVisible": true
+        },
+        {
+          "time": 2.35,
+          "opening": 1,
+          "roomVisible": true,
+          "roomScale": 0.81882745,
+          "terminalVisible": true
+        },
+        {
+          "time": 3,
+          "opening": 1,
+          "roomVisible": true,
+          "roomScale": 1,
+          "terminalVisible": false
+        }
+      ],
+      "floorAnchor": [
+        -0.14750003814697266,
+        -0.1800045222043991,
+        -0.10000002384185791
+      ]
+    },
+    {
+      "check": "terminal handoff retracts above the growing platform with no translucent material or color changes",
+      "status": "passed",
+      "records": [
+        {
+          "time": 1.7,
+          "terminalWidth": 2.9967575627445595,
+          "visible": true
+        },
+        {
+          "time": 1.9,
+          "terminalWidth": 2.009060442426969,
+          "visible": true
+        },
+        {
+          "time": 2.1,
+          "terminalWidth": 1.0773300818742115,
+          "visible": true
+        },
+        {
+          "time": 2.3,
+          "terminalWidth": 0.41844855355008154,
+          "visible": true
+        },
+        {
+          "time": 2.35,
+          "terminalWidth": 0.30764827481734464,
+          "visible": true
+        },
+        {
+          "time": 2.6,
+          "terminalWidth": 0.030995773720910367,
+          "visible": true
+        },
+        {
+          "time": 2.92,
+          "terminalWidth": 0.00004177999877929688,
+          "visible": false
+        }
+      ],
+      "untouchedMaterials": 6,
+      "disposedTemporaryResources": 25
+    },
+    {
+      "check": "room growth and terminal retraction share one continuous handoff while the camera keeps settling after model arrival",
+      "status": "passed",
+      "samplingHz": 120,
+      "samples": 217,
+      "overlapSeconds": 1.6,
+      "records": [
+        {
+          "time": 1.12,
+          "handoff": 0,
+          "roomScale": 0.025,
+          "terminalScale": 5.070949866159728,
+          "terminalVisible": true,
+          "cameraDistanceToEnd": 2.1467470777441084
+        },
+        {
+          "time": 1.9200000000000002,
+          "handoff": 0.396687,
+          "roomScale": 0.41176982500000003,
+          "terminalScale": 1.909016061379793,
+          "terminalVisible": true,
+          "cameraDistanceToEnd": 0.7009276885052141
+        },
+        {
+          "time": 2.3200000000000003,
+          "handoff": 0.790123,
+          "roomScale": 0.795369925,
+          "terminalScale": 0.371547152216234,
+          "terminalVisible": true,
+          "cameraDistanceToEnd": 0.20060969927728814
+        },
+        {
+          "time": 2.62,
+          "handoff": 0.964506,
+          "roomScale": 0.9653933499999999,
+          "terminalScale": 0.023643326937932727,
+          "terminalVisible": true,
+          "cameraDistanceToEnd": 0.031455410857272034
+        },
+        {
+          "time": 2.92,
+          "handoff": 1,
+          "roomScale": 1,
+          "terminalScale": 0.00004177999877929688,
+          "terminalVisible": false,
+          "cameraDistanceToEnd": 0
+        }
+      ]
+    },
+    {
+      "check": "clean receiver bakes stay free of absent-prop shadows while exterior contact light fades independently, then both restore",
+      "status": "passed",
+      "lastFrameWithIncompleteProps": 4.6499999999999915,
+      "firstShadowFrame": {
+        "time": 4.799999999999991,
+        "remaining": 0,
+        "shadowReveal": 0.001219,
+        "contactReveal": 1,
+        "exteriorReveal": 1
+      },
+      "firstContactFrame": {
+        "time": 2.949999999999997,
+        "remaining": 30,
+        "shadowReveal": 0,
+        "contactReveal": 0.000352,
+        "exteriorReveal": 0.457445
+      },
+      "cleanTextureDisposalsByController": 0
+    },
+    {
+      "check": "120 Hz production timeline samples show staggered, gradual sky, fixture, contact and prop-shadow reveals with no final snap",
+      "status": "passed",
+      "samplingHz": 120,
+      "samples": 686,
+      "duration": 5.7016622,
+      "maxAdjacentFrameDelta": {
+        "environment": 0.006649000000000016,
+        "exterior": 0.007102000000000053,
+        "contact": 0.01041599999999998,
+        "baked": 0.01644599999999996
+      },
+      "allowedAdjacentFrameDelta": {
+        "environment": 0.008,
+        "exterior": 0.008,
+        "contact": 0.011,
+        "baked": 0.01644936842105263
+      },
+      "intervals": {
+        "environment": {
+          "firstPositive": 1.6166666666666667,
+          "lastIncomplete": 3.933333333333333,
+          "full": 3.941666666666667
+        },
+        "exterior": {
+          "firstPositive": 1.9083333333333334,
+          "lastIncomplete": 4.091666666666667,
+          "full": 4.1
+        },
+        "contact": {
+          "firstPositive": 2.908333333333333,
+          "lastIncomplete": 4.391666666666667,
+          "full": 4.4
+        },
+        "baked": {
+          "firstPositive": 4.758333333333334,
+          "lastIncomplete": 5.691666666666666,
+          "full": 5.7
+        }
+      },
+      "scope": "CPU evaluation of real GSAP uniform curves at 120 samples/second; this does not measure rendered FPS or visual luminance."
+    },
+    {
+      "check": "skip and reduced motion restore optional clean lighting and contact shadow immediately",
+      "status": "passed"
+    },
+    {
+      "check": "every prop has its original precise local transform after normal completion, including nonunit GLB quaternions",
+      "status": "passed",
+      "independentRoots": 37,
+      "components": 93,
+      "allSceneNodes": 200,
+      "intermediateGrowthSamples": 1604
+    },
+    {
+      "check": "skip from welcome, partial appearance, entry opening and room growth returns the same exact scene",
+      "status": "passed",
+      "records": [
+        {
+          "at": "welcome",
+          "startCount": 1,
+          "completeCount": 1
+        },
+        {
+          "at": "appearance",
+          "startCount": 1,
+          "completeCount": 1
+        },
+        {
+          "at": 0.15,
+          "startCount": 1,
+          "completeCount": 1
+        },
+        {
+          "at": 0.8,
+          "startCount": 1,
+          "completeCount": 1
+        },
+        {
+          "at": 1.8,
+          "startCount": 1,
+          "completeCount": 1
+        },
+        {
+          "at": 2.6,
+          "startCount": 1,
+          "completeCount": 1
+        },
+        {
+          "at": 3.7,
+          "startCount": 1,
+          "completeCount": 1
+        }
+      ]
+    },
+    {
+      "check": "mobile up swipe triggers once and repeated viewport changes preserve timeline progress",
+      "status": "passed",
+      "inputSource": "touch",
+      "checkedViewports": 4,
+      "preservedProgress": 0.2192343138111549,
+      "scope": "Controller transform and timeline checks; DOM layout and visual framing still require browser verification."
+    },
+    {
+      "check": "reduced motion and a live reduction change both finish without a stuck overlay or controls",
+      "status": "passed"
+    },
+    {
+      "check": "dispose is idempotent and never disposes persistent room geometry or materials",
+      "status": "passed",
+      "persistentResourceCount": 137,
+      "disposedPersistentResources": 0
+    },
+    {
+      "check": "QA inspection freezes the unchanged production timeline at 1.6, 2.1 and 2.8 seconds, then skip restores exactly",
+      "status": "passed",
+      "records": [
+        {
+          "seconds": 1.6,
+          "roomVisible": true,
+          "roomScale": 0.143822275,
+          "opening": 0.873962
+        },
+        {
+          "seconds": 2.1,
+          "roomVisible": true,
+          "roomScale": 0.5933226250000001,
+          "opening": 1
+        },
+        {
+          "seconds": 2.8,
+          "roomVisible": true,
+          "roomScale": 0.997391875,
+          "opening": 1
+        }
+      ],
+      "method": "Production timeline equivalence, not a substitute scene or altered animation."
+    },
+    {
+      "check": "the automatic inspection gate needs DEV, qa and introAt together; normal qa and production are unchanged",
+      "status": "passed"
+    },
+    {
+      "check": "main keeps V16 room assets and compiles the terminal before exposing the welcome UI",
+      "status": "passed",
+      "modelPath": "public/models/welcome-terminal-v1.glb",
+      "roomPath": "public/models/orbital-atelier-v16-compressed.glb",
+      "shaderAppearance": "Original room colors and baked texture hooks preserved."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "index": 2,
+    "slug": "night-store",
+    "title": "夜班便利店",
+    "subtitle": "第一人称恐怖经营 · 游戏原型",
+    "eyebrow": "02 / GAME DEVELOPMENT",
+    "description": "在日常收银中观察异常，在深夜经营中作出判断。从玩法循环、夜班任务到实机界面，展示一个可玩游戏原型的制作过程。",
+    "cover": "/media/works/night-store/playable-build.webp",
+    "coverAlt": "夜班便利店实际运行画面，玩家在收银台扫描商品，顾客站在柜台另一侧",
+    "tags": ["游戏策划", "Unity", "交互原型"],
+    "items": [
+      {
+        "id": "night-store-game",
+        "title": "在日常规则中制造不安",
+        "kicker": "NIGHT SHIFT CONVENIENCE STORE",
+        "description": "玩家以夜班店员的第一人称视角完成商品扫描、顾客观察与身份判断。五个夜班把经营任务与异常事件串联起来：收银是日常工作，放行或拒绝则成为需要承担结果的选择。",
+        "tools": ["Unity 2022.3", "游戏玩法设计", "场景整合", "交互 UI"],
+        "image": "/media/works/night-store/playable-build.webp",
+        "imageAlt": "夜班便利店 Windows 实机截图，展示收银台、商品高亮、顾客与室内环境",
+        "gallery": [
+          {"src": "/media/works/night-store/main-menu.webp", "alt": "夜班便利店主菜单与开始入口", "caption": "从主菜单进入夜班，建立场景基调与操作入口。"},
+          {"src": "/media/works/night-store/checkout-terminal.webp", "alt": "商品收银及身份检验终端界面", "caption": "商品结算与检查信息集中在收银终端，支撑观察、判断、处理的循环。"},
+          {"src": "/media/works/night-store/night-briefing.webp", "alt": "夜班任务简报与目标界面", "caption": "夜班简报组织任务与规则，推动五夜叙事逐步展开。"},
+          {"src": "/media/works/night-store/settings-qa.webp", "alt": "实际运行时的游戏设置界面", "caption": "运行时设置覆盖声音、灵敏度和画面选项，补齐可玩原型的使用流程。"}
+        ],
+        "facts": [
+          {"label": "类型", "value": "第一人称恐怖经营"},
+          {"label": "核心循环", "value": "收银 → 观察 → 身份判断"},
+          {"label": "叙事结构", "value": "五夜任务"},
+          {"label": "现有成果", "value": "Windows 可玩原型与实机截图"}
+        ],
+        "note": "此处展示已有开发版本的真实截图；试玩下载与更新演示视频待补充。"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "slug": "3d-studies",
+    "title": "三维模型与空间",
+    "subtitle": "相机 · 暖色客厅 · AURORA GT",
+    "eyebrow": "03 / 3D & LOOK DEVELOPMENT",
+    "description": "从相机硬表面到室内空间，再到跑车曲面，集中展示三组模型的结构、材质和灯光。图片来自实际制作与渲染输出。",
+    "cover": "/media/works/3d-studies/aurora-hero-front.webp",
+    "coverAlt": "AURORA GT 银色跑车的 Blender Cycles 前侧棚拍渲染",
+    "tags": ["Maya", "Blender", "PBR 材质", "灯光渲染"],
+    "items": [
+      {
+        "id": "nikon-camera",
+        "title": "复古相机 · 硬表面练习",
+        "kicker": "CAMERA / HARD SURFACE",
+        "description": "以复古尼康相机为结构研究对象，拆分机身、镜头、旋钮与背部组件。通过拓扑过程板、材质通道和多角度成片，呈现从形体搭建到金属与皮革质感的制作过程。",
+        "tools": ["Maya", "Arnold", "PBR 材质"],
+        "image": "/media/works/3d-studies/nikon-final-render.webp",
+        "imageAlt": "复古相机正面、前侧和背面的三角度材质渲染",
+        "video": "/media/works/3d-studies/nikon-camera-modeling.mp4",
+        "gallery": [
+          {"src": "/media/works/3d-studies/nikon-model-topology.webp", "alt": "相机机身、镜头及结构拓扑过程板", "caption": "结构与拓扑：按功能拆分组件，检查轮廓和硬边走向。"},
+          {"src": "/media/works/3d-studies/nikon-pbr-textures.webp", "alt": "相机 Base Color、Normal、Metallic 与 Roughness 材质通道", "caption": "材质通道：以颜色、法线、金属度和粗糙度区分不同表面。"}
+        ],
+        "facts": [
+          {"label": "展示内容", "value": "拓扑 / 材质通道 / 成片 / 视频"},
+          {"label": "视频规格", "value": "1920 × 1080 · 10 秒"}
+        ],
+        "note": "个人模型研究作品，展示中的品牌标识属于原产品；不代表品牌合作。"
+      },
+      {
+        "id": "warm-living-room",
+        "title": "暖色客厅 · 材质与采光",
+        "kicker": "LIVING ROOM / INTERIOR",
+        "description": "围绕参考设计重建可编辑的客厅空间，以木地板、胡桃木柜、织物沙发、藤编椅和洞石茶几组织层次。窗外低角度阳光与灯槽暖光共同塑造室内氛围，近景重点呈现织物尺度与表面细节。",
+        "tools": ["Blender 5.1.2", "Cycles", "PBR", "HDRI"],
+        "image": "/media/works/3d-studies/living-room-final.webp",
+        "imageAlt": "实际 Blender 客厅渲染，木质电视柜、米白沙发、洞石茶几与暖色日光",
+        "gallery": [
+          {"src": "/media/works/3d-studies/upholstery-detail.webp", "alt": "客厅沙发织物、抱枕和边桌近景渲染", "caption": "材质近景：织物微表面、软包边缘与木石材之间的对比。"},
+          {"src": "/media/works/3d-studies/layout-plan.webp", "alt": "客厅家具、墙体和窗户的俯视布局渲染", "caption": "空间布局：以统一尺度组织家具、建筑和装饰集合。"}
+        ],
+        "facts": [
+          {"label": "原始主图", "value": "2400 × 1966 · Cycles 384 采样"},
+          {"label": "材料", "value": "木材 / 织物 / 洞石 / 藤编"},
+          {"label": "文件组织", "value": "建筑、家具、装饰、灯光独立集合"}
+        ],
+        "note": "基于参考图推定尺寸的三维重建，制作包含脚本辅助；此处为实际 Blender 渲染。PBR 与 HDRI 来源记录为 CC0，洞石贴图为程序生成材质。"
+      },
+      {
+        "id": "aurora-gt",
+        "title": "AURORA GT · 跑车设计研究",
+        "kicker": "AURORA GT / AUTOMOTIVE",
+        "description": "以连续车身曲面为核心，协调低矮座舱、外扩轮拱与前后包围。银色金属车漆、碳纤维车顶、分区玻璃和酒红饰边形成材质对比，再通过棚灯与红色轮廓光检查曲面衔接。",
+        "tools": ["Blender 5.1.2", "Cycles", "Blender MCP", "脚本辅助"],
+        "image": "/media/works/3d-studies/aurora-hero-front.webp",
+        "imageAlt": "AURORA GT V4 银色跑车前侧渲染，展示前包围、车身曲面与红色轮廓光",
+        "gallery": [
+          {"src": "/media/works/3d-studies/aurora-hero-rear.webp", "alt": "AURORA GT V4 后侧棚拍渲染", "caption": "后侧视角：车肩、车尾和座舱比例的整体关系。"},
+          {"src": "/media/works/3d-studies/aurora-front-left-detail.webp", "alt": "AURORA GT V4 头灯、进气口和前包围近景", "caption": "前部细节：头灯轮廓、开口厚度和进气结构。"},
+          {"src": "/media/works/3d-studies/aurora-wheel-detail.webp", "alt": "AURORA GT V4 轮胎、轮毂和刹车近景", "caption": "轮组细节：轮胎截面、轮毂辐条与刹车层次。"},
+          {"src": "/media/works/3d-studies/aurora-roof-detail.webp", "alt": "AURORA GT V4 碳纤维车顶、分区玻璃与立柱近景", "caption": "座舱细节：实体车顶、玻璃分区与立柱共用曲面。"}
+        ],
+        "facts": [
+          {"label": "当前版本", "value": "V4 · 可编辑 Blender 工程"},
+          {"label": "原始主图", "value": "2400 × 1500 · Cycles 160 采样"},
+          {"label": "材质文件", "value": "15 张 PBR 图片已打包到工程"}
+        ],
+        "note": "根据已确认概念方案，通过 Blender MCP 与脚本辅助制作、调整及渲染；展示图全部来自 V4 实际模型，不是概念图替代成片。"
+      }
+    ]
+  }
+]

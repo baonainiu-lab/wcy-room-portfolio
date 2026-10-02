@@ -1,0 +1,87 @@
+{
+  "revision": 15,
+  "source": "assets/blender/orbital-atelier-v15.blend",
+  "sourceSha256": "0ba9f8611dcd91bbcdf6224b0be51e187d82078d3554783df20a456d857b7713",
+  "source_scene": "ENV_CITY.001",
+  "source_objects": 1041,
+  "camera": {
+    "name": "ENV_Camera.001",
+    "type": "PERSP",
+    "lens": 40.0,
+    "orthographicScale": 6.0,
+    "matrixWorld": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.009803332388401031,
+        -0.999951958656311,
+        -82.0
+      ],
+      [
+        0.0,
+        0.999951958656311,
+        0.009803332388401031,
+        16.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "lightingSource": "assets/blender/scripts/render_window_states_v8.py",
+  "lightingSourceSha256": "51af3f0f43bd664fe4e38161c7abe8264ecf8bc053aea6eb699a71f375c20aef",
+  "resampling": false,
+  "originalCompositionPreserved": true,
+  "source_unchanged": true,
+  "renders": {
+    "day": {
+      "scene": "WINDOW_V15_DAY",
+      "width": 3072,
+      "height": 1344,
+      "bytes": 3740026,
+      "sha256": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968",
+      "engine": "BLENDER_EEVEE",
+      "renderPercentage": 100,
+      "samples": 128,
+      "seconds": 9.09,
+      "sun_energy": 3.0,
+      "exposure": -0.25,
+      "moon_visible": false,
+      "warm_procedural_lit_windows": false,
+      "resampling": false
+    },
+    "night": {
+      "scene": "WINDOW_V15_NIGHT",
+      "width": 3072,
+      "height": 1344,
+      "bytes": 3678209,
+      "sha256": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf",
+      "engine": "BLENDER_EEVEE",
+      "renderPercentage": 100,
+      "samples": 128,
+      "seconds": 3.83,
+      "sun_energy": 0.15,
+      "exposure": -0.10000000149011612,
+      "moon_visible": true,
+      "warm_procedural_lit_windows": true,
+      "resampling": false
+    }
+  },
+  "paths": {
+    "day": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/textures/lighting-v15/window-day.png",
+    "night": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/textures/lighting-v15/window-night.png"
+  },
+  "screenUnchanged": true,
+  "complete": true,
+  "seconds": 14.2,
+  "phase": "complete",
+  "currentState": null
+}

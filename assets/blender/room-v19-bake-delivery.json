@@ -1,0 +1,283 @@
+{
+  "complete": true,
+  "scope": "V19 revision2 source bakes and raw model delivery; website activation belongs to root",
+  "prepared": {
+    "path": "assets/blender/orbital-dual-bake-v19.blend",
+    "sha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64"
+  },
+  "editable": {
+    "path": "assets/blender/orbital-atelier-v19.blend",
+    "sha256": "175deff40751433f8e39783cc67b8fc437dd067a69ac9652df7d213f3ba8832f"
+  },
+  "sourceReports": [
+    {
+      "path": "assets/blender/photoreal-materials-v19-prepared.json",
+      "sha256": "a3826a184b2dee29ed3defaa0766643eb759d93c116e6d1ce435dbe3741539f3"
+    },
+    {
+      "path": "assets/blender/photoreal-materials-v19-source.json",
+      "sha256": "547048fccc8022e9ea99ad8ce62c61944f4fc5344adb0771224e60ad02dbea73"
+    }
+  ],
+  "exportReport": {
+    "path": "assets/blender/dual-lighting-v19-export-report.json",
+    "sha256": "c874cf072ab86b5d437ec61f1cc043f0e2b53cd319a783d549627b1d2fef1fc6"
+  },
+  "rawModel": {
+    "path": "public/models/orbital-atelier-v19.glb",
+    "sha256": "bea7daa74b9f67a96397119b755fdb564f604d5dcd7215286ddf0bf44459505c"
+  },
+  "counts": {
+    "dayLightmaps": 13,
+    "nightLightmaps": 13,
+    "surfacePairs": 13,
+    "freshIntroMaps": 3,
+    "hdrProbes": 2,
+    "independentAssetIds": 96,
+    "nodes": 199,
+    "triangles": 418383,
+    "drawPrimitives": 103
+  },
+  "sourceBoundManifests": {
+    "dayNight": [
+      {
+        "path": "public/textures/lighting-v19/day-0-manifest.json",
+        "sha256": "78cf3b733cf659aec987028610c557334586af849b746bad1536c8b0fefcdf41"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-1-manifest.json",
+        "sha256": "5693c34695fcae02c00814f98891a6accfd485e52b4b424427f78f3a0593683e"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-2-manifest.json",
+        "sha256": "80328ef2b66e882a005fe1b66913b47394e70a5b5dd649b51a81581f1c40fd26"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-3-manifest.json",
+        "sha256": "109f359bb4a38a70875e3553cad480f55821687e9834cd98dedd1009a06f0471"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-4-manifest.json",
+        "sha256": "b8321f1893382ac1f06adc98932f75cb3e787d4bd51c8e4654da33218b5beb1a"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-5-manifest.json",
+        "sha256": "0a52bb2dcc3d014b877c95a1c36446bc39e0d0e909aade3d91376843a040bde8"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-6-manifest.json",
+        "sha256": "2f3356f5635d0e158bac9db11b48f080c7d0eac3b9fd0fbc5978a810eafdac6b"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-7-manifest.json",
+        "sha256": "706ceaef94cfb2b364ea8ba6155d4b24e3aad0b90081f30b105029e738374ebd"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-8-manifest.json",
+        "sha256": "7b8aab06402a69417352e8ede9c04c4af5bb9679b261e968858d350b5d5ec01c"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-9-manifest.json",
+        "sha256": "e331f2e8c08d3a037bc519733624e1b81304d28fc6f93d3f50bb9db9c246a103"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-10-manifest.json",
+        "sha256": "be02b5540fda34b11fc49b27c51a4a3faf435ec1699adfaf0d6d2455ec3460dd"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-11-manifest.json",
+        "sha256": "b0751bb10ec11951060818a46f828ae5666d8e9443c43c943537e062f19585a1"
+      },
+      {
+        "path": "public/textures/lighting-v19/day-12-manifest.json",
+        "sha256": "3adbdef1b0df91c067ab71a8e1c77d4201f1db64de7ce719d46883f83a08dc29"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-0-manifest.json",
+        "sha256": "adc431c69a97c27979eab6be66b3c8f43ec3d4dfc2235fe0f2ade27739fed407"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-1-manifest.json",
+        "sha256": "38c89099314b06298a6cf6ad335f211dad898e7f269fac0fc982d3bb964bd829"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-2-manifest.json",
+        "sha256": "c3863a120b73369392443d41b883339b9ce0a32f9e6a44a6483c21ea745300d5"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-3-manifest.json",
+        "sha256": "efb722f0891119e3cc19bd7bc2d7bbe36e95d29b789a6c83cdd917f92ff7ccfa"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-4-manifest.json",
+        "sha256": "a65e06956d0776eb140e94f8d546c1542c98c53af576db19b4c1a08997ccc1ea"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-5-manifest.json",
+        "sha256": "2e79508cbd08e0175a5a4accf599eb9114b96f4171a48694ec10a96e7a0d8a60"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-6-manifest.json",
+        "sha256": "9b93dd5a69d81e51241fd2722b3f2d70d83c2f8db3a7edc67649bdd920dc25c5"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-7-manifest.json",
+        "sha256": "b62778a93111ce475e0bf1a05d91fa67f2ae645b6667e3774ea974c51afd9d10"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-8-manifest.json",
+        "sha256": "7126812a4ad22519b878d4c7741ecc92c0a5c1e82136341bee651219713aa630"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-9-manifest.json",
+        "sha256": "ec2e01191b0bdde5d55f882b02f8f706b7aad51a6cdd06f16f891b577df1b5af"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-10-manifest.json",
+        "sha256": "5c3b3cbcb238ed14adba0799a18e8d66bcfc1918cdd2f23a27eb22b17ca37f34"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-11-manifest.json",
+        "sha256": "5c2157847e6be90ec091ff5aec0796f5608b1a7d751e792280cb14f704978150"
+      },
+      {
+        "path": "public/textures/lighting-v19/night-12-manifest.json",
+        "sha256": "50501d2bea8c0de597c6a35787b964dffc2d3a44834eb04de6d1a509c7fd0b9e"
+      }
+    ],
+    "surface": [
+      {
+        "path": "public/textures/lighting-v19/surface-0-manifest.json",
+        "sha256": "c7d28f2ac19c602738d117d77df5923eab565d6c623a6e2480a2877162d34693"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-1-manifest.json",
+        "sha256": "b578519a6a6c68ed446e27751a24290c4dfe35187833332b69802387aa8ea8ff"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-2-manifest.json",
+        "sha256": "853679c56b6c022146f3739479215e76a462107bab2f98206cf90514c7c227ee"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-3-manifest.json",
+        "sha256": "1d42c232ab3e4627a2d111b9b3163d1a5b7789c1e00c5cf084e24f46938aaee1"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-4-manifest.json",
+        "sha256": "6a56376e964cd682d794874ba084d773e05563bb67b80a015cf86773760f1682"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-5-manifest.json",
+        "sha256": "eab84c8a37067e57cd8441e6e9259e9be0056f3b1955b47781ba15cda2e8a544"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-6-manifest.json",
+        "sha256": "d31b4f90e6718770433fa1ad7d1b5ed3ed39784647e79eb3b069331ecfa040cf"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-7-manifest.json",
+        "sha256": "37f518c3020af33ea459e0a3683eec82bfeda5cfa947202e8cfa0d38981d7fc6"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-8-manifest.json",
+        "sha256": "73592ce65370e3bcdbb10f51a967ef36c399ab9781cc9f96394c01961428dc04"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-9-manifest.json",
+        "sha256": "f32518c596cf9198094ba717088791e7e9a11f217ce25b20c76ee349ef9aafe4"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-10-manifest.json",
+        "sha256": "1061d131c6a6cefd0013063cbe04e2836d29da222d58ad0ff9e70ab61be92ffc"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-11-manifest.json",
+        "sha256": "3c3ac6ed747211697a7473715124c71bc9507f57cb519798a57e0c27d4b13588"
+      },
+      {
+        "path": "public/textures/lighting-v19/surface-12-manifest.json",
+        "sha256": "41d936009e6297605aefa9238e715a875df0423871f1189b8b4851c09a0b0699"
+      }
+    ],
+    "intro": [
+      {
+        "path": "public/textures/intro-clean-v19/day-0-manifest.json",
+        "sha256": "821ac5dc2ed2ac5296a1380e827716210bfdfeacb8bc83fb5ec3eeaf62a5a3c0"
+      },
+      {
+        "path": "public/textures/intro-clean-v19/day-1-manifest.json",
+        "sha256": "4ed666fbc399514f05342deac090e73ba01a65a4433313618dcb28ce0fc72102"
+      },
+      {
+        "path": "public/textures/intro-clean-v19/day-8-manifest.json",
+        "sha256": "d7ca97c295e4106891cc8ec502dd0f6312522738e92c67a412e22ad0d8d0fe07"
+      }
+    ],
+    "hdr": [
+      {
+        "path": "public/textures/lighting-v19/reflection-day.json",
+        "sha256": "48462099b99535368c00821e1aeb41628691b647812cbd6b1dc8b9cb14a82c09"
+      },
+      {
+        "path": "public/textures/lighting-v19/reflection-night.json",
+        "sha256": "e61e7caf4e58a2e0dfc77c7bfcc0ced51c0360e0755f1c165cc6f0fe5ebf2f33"
+      }
+    ]
+  },
+  "actualNightRadianceScale": {
+    "0": 2.0,
+    "1": 2.0,
+    "2": 2.0,
+    "4": 8.0,
+    "12": 128.0
+  },
+  "geometryChanges": {
+    "removed": "9 graphite floor grid components from A0 only; 180 vertices/90 quads/180 triangles, original triangles 0..179",
+    "added": "independent lighting.ceiling_warm in slot12, 4708 triangles",
+    "preserved": "All other existing export object geometry; original remaining A0 UV values, corner normals and face order",
+    "removedIndexMap": {
+      "path": "assets/blender/room-v19-floor-removal-index-map.json",
+      "sha256": "02967d141c01c9307d82d2d0398d531d5c6579cbdf1cc4c4fd2738bfe77e149a"
+    },
+    "changedExistingExportObjects": [
+      "WEB8_room_static__baked__A0"
+    ],
+    "rootMustVerifyRuntimeAttachmentsAgainstFinalGlb": true
+  },
+  "surfaceReuse": {
+    "onlyDataSlots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "rebakedDataSlots": [
+      0,
+      8,
+      12
+    ],
+    "unchangedGeometryUvNormalAndFullMaterialGraphsProven": true,
+    "proof": {
+      "path": "assets/blender/room-v19-surface-reuse-proof.json",
+      "sha256": "15ec8c8e76ab531e6adfe8cddf102b99d0fa0d0051f0110327d17078ad956bc1"
+    },
+    "inheritance": {
+      "path": "assets/blender/room-v19-surface-inheritance.json",
+      "sha256": "f7d4769ef2cf30a25b283f6711f949ba2009a1902831ae1b66cf3ffe2a61f592"
+    },
+    "radianceInherited": false
+  },
+  "executionMethod": {
+    "path": "assets/blender/room-v19-execution-method.json",
+    "sha256": "e33e543331247cbdde59969aa9a67b971fd04376a8f4af2edc271b513f3b30cf"
+  },
+  "license": "Existing CC0 wood scans remain original sourced assets; retained original project licensing; no new external asset downloads.",
+  "aboutSceneChanged": false,
+  "finalReviewFocus": "Lamp slot12 retains real near-emitter high radiance (scale128). Check only local outlets are bright, not the whole fixture; do not clamp source values."
+}

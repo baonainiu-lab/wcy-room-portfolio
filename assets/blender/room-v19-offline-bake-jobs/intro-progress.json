@@ -1,0 +1,32 @@
+{
+  "stage": "intro",
+  "status": "complete",
+  "completed": [
+    {
+      "job": "intro-0",
+      "status": "complete",
+      "wallSeconds": 41.32,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/intro-clean-v19/day-0-manifest.json",
+      "manifestSha256": "821ac5dc2ed2ac5296a1380e827716210bfdfeacb8bc83fb5ec3eeaf62a5a3c0",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/intro-0.log"
+    },
+    {
+      "job": "intro-1",
+      "status": "complete",
+      "wallSeconds": 27.76,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/intro-clean-v19/day-1-manifest.json",
+      "manifestSha256": "4ed666fbc399514f05342deac090e73ba01a65a4433313618dcb28ce0fc72102",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/intro-1.log"
+    },
+    {
+      "job": "intro-8",
+      "status": "complete",
+      "wallSeconds": 22.59,
+      "manifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/intro-clean-v19/day-8-manifest.json",
+      "manifestSha256": "d7ca97c295e4106891cc8ec502dd0f6312522738e92c67a412e22ad0d8d0fe07",
+      "log": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/room-v19-offline-bake-jobs/intro-8.log"
+    }
+  ],
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "launcherSha256": "d5ffc12ea9e5d22ee5a8eb7579cd6edd171dc2d73827ec51be1be83e8526537a"
+}

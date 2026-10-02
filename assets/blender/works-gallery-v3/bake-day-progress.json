@@ -1,0 +1,102 @@
+{
+  "state": "day",
+  "preparation_id": "77f5a97efea38633967ce29d2b7bd6cc87c0c5658a7b0b9baeda5ffbf0540b58",
+  "prepared": "assets/blender/works-gallery-bake-v3.blend",
+  "scene": "WEB_WORKS_GALLERY_V3",
+  "lighting": {
+    "state": "day",
+    "sunEnergy": 3.5,
+    "worldStrength": 0.054999999701976776,
+    "device": "GPU",
+    "backend": "METAL",
+    "names": [
+      "Apple M5 (GPU - 10 cores)"
+    ],
+    "samples": 64,
+    "preparation_id": "77f5a97efea38633967ce29d2b7bd6cc87c0c5658a7b0b9baeda5ffbf0540b58",
+    "color_management": "AgX save_render to sRGB PNG",
+    "passes": [
+      "COLOR",
+      "DIFFUSE",
+      "DIRECT",
+      "EMIT",
+      "GLOSSY",
+      "INDIRECT"
+    ]
+  },
+  "complete": true,
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/works-gallery-v3/day-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 4487481,
+      "sha256": "088f0a238fd2dd57c79034b8087468862d4780bca68c24121acf07818db17317",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 167.77,
+      "original_atlas": 0,
+      "retained_from_preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+      "rebaked": false
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/works-gallery-v3/day-1.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5405310,
+      "sha256": "d58653fd155a9ac51856cbf0b6db3b40511bde5de2ce38fb4513c1dcf73f007f",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 159.54,
+      "original_atlas": 2,
+      "retained_from_preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+      "rebaked": false
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/works-gallery-v3/day-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5308940,
+      "sha256": "034001871d79cf824eaa5dc1ac05f1dae0d958f6244b5ac96290c61df9fe0e14",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 94.34,
+      "original_atlas": 3,
+      "retained_from_preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+      "rebaked": false
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/works-gallery-v3/day-3.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "bytes": 175032,
+      "sha256": "bee4251c30623b3cb737e42b973055bbebfed88e0ee225b1a164fa8ee5c5d1a9",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 8.88,
+      "rebaked": true,
+      "samples": 64
+    }
+  ],
+  "retained_atlases": [
+    0,
+    1,
+    2
+  ],
+  "rebaked_atlases": [
+    3
+  ],
+  "phase": "complete"
+}

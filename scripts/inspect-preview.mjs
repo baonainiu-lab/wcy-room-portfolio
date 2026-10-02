@@ -1,0 +1,18 @@
+import { chromium } from '/Users/a90/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+const browser=await chromium.launch({headless:true, executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--enable-webgl','--ignore-gpu-blocklist']});
+const page=await browser.newPage({viewport:{width:1440,height:960},deviceScaleFactor:1});
+const errors=[];const failed=[];const warnings=[];
+page.on('pageerror',e=>errors.push(String(e)));
+page.on('console',m=>{if(m.type()==='error')errors.push(m.text());if(m.type()==='warning')warnings.push(m.text())});
+page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()})});
+await page.goto('http://127.0.0.1:5173/',{waitUntil:'networkidle',timeout:60000});
+await page.waitForFunction(()=>window.__roomPreview, {timeout:60000});
+await page.waitForFunction(()=>!document.querySelector('.loading-screen-button')?.disabled,{timeout:60000});
+await page.screenshot({path:'renders/web-loading.png'});
+console.log('INITIAL',JSON.stringify(await page.evaluate(()=>({debugKeys:Object.keys(window.__roomPreview),state:window.__roomPreview.getState?.(),status:document.querySelector('#loading-status')?.textContent}))));
+await page.locator('.loading-screen-button').click();
+await page.waitForTimeout(3500);
+await page.screenshot({path:'renders/web-desktop-preview.png'});
+console.log('ENTERED',JSON.stringify(await page.evaluate(()=>({state:window.__roomPreview.getState?.(),bodyClass:document.body.className,canvasSize:{w:document.querySelector('canvas').width,h:document.querySelector('canvas').height}}))));
+console.log(JSON.stringify({errors,failed,warnings}));
+await browser.close();

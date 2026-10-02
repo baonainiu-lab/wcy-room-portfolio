@@ -1,0 +1,40 @@
+{
+  "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/about-atelier-v3.blend",
+  "scene": "ABOUT_ATELIER_V3_APPROVAL",
+  "objects": 1950,
+  "meshes": 914,
+  "materials": 24,
+  "images": 13,
+  "interactive": 127,
+  "approval": "pending",
+  "websiteIntegrated": false,
+  "sourceSha256": "d7a9ec353e8214201c586e823283259c64f63a99f8284913d8aff94c691a2b40",
+  "modelObjectCount": 1748,
+  "evaluatedModelTriangles": 572230,
+  "independentAssetRoots": 128,
+  "heroFraming": {
+    "xmin": 0.07404499062754277,
+    "xmax": 0.922410660944361,
+    "ymin": 0.05242952421801239,
+    "ymax": 0.9394834408622363,
+    "widthFraction": 0.8483656703168182,
+    "heightFraction": 0.887053916644224
+  },
+  "modelBoundsMetres": {
+    "min": [
+      -3.75,
+      -2.695499840649098,
+      -0.0040000006556510925
+    ],
+    "max": [
+      3.7799999713897705,
+      2.3299999237060547,
+      4.146907269954681
+    ],
+    "dimensions": [
+      7.5299999713897705,
+      5.025499764355153,
+      4.1509072706103325
+    ]
+  }
+}

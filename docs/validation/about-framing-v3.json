@@ -1,0 +1,215 @@
+{
+  "checkedAt": "2026-09-30T03:18:25.698Z",
+  "model": "/models/about-atelier-v3-compressed.glb",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Real exported GLB vertices and production framing. Complete projection and conservative all-direction minimum orbit radius. No GPU performance or visual rendering claim.",
+  "sourceSha256": {
+    "src/about-framing.js": "84f6ba5a5811aae1b2b52b90edcc3e231d4c43e6786a9b5a699747dacb630cad",
+    "src/about-atelier.js": "3374173ff481d0e7b85a7634b4424e82f86d6ad037158ee225b1f1773cfc04da",
+    "scripts/check-about-framing.mjs": "207b9b8d420aa4614d102b2a6fa273b26892746ce4a61a97e75e339cb7da99a8",
+    "public/models/about-atelier-v3-compressed.glb": "863d75f984e3c4973f8a7b0c0340e5e20a1c3fcbc511086c351a08a03eb778e1"
+  },
+  "passed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "check": "web derivative retains all 128 source identities, the real return button and four baked material slots",
+      "status": "passed",
+      "assetCount": 128,
+      "materials": [
+        "ATELIER_LIGHTMAP_0",
+        "ATELIER_METAL_SatinBrass",
+        "ATELIER_GLASS",
+        "ATELIER_LIGHTMAP_1",
+        "ATELIER_METAL_BrushedSteel",
+        "ATELIER_LIGHTMAP_2",
+        "ATELIER_LIGHTMAP_3"
+      ]
+    },
+    {
+      "check": "complete authored silhouette remains visible and centred across desktop, tablet and phone",
+      "status": "passed",
+      "vertices": 455412,
+      "views": [
+        {
+          "viewport": [
+            1500,
+            1000
+          ],
+          "fov": 35,
+          "distance": 10.576962104093997,
+          "minDistance": 5.416643325840175,
+          "maxDistance": 11.846197556585278,
+          "widthPercent": 87.18689385335216,
+          "heightPercent": 89.00000027592637,
+          "vertexRadius": 4.716643331711621,
+          "target": [
+            -0.022577678103152324,
+            1.1281151286307654,
+            0.028139780542018444
+          ]
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "fov": 35,
+          "distance": 10.576962104093997,
+          "minDistance": 5.416643325840176,
+          "maxDistance": 11.846197556585278,
+          "widthPercent": 73.5639416887659,
+          "heightPercent": 89.00000027592637,
+          "vertexRadius": 4.716643331711622,
+          "target": [
+            -0.02257767810315254,
+            1.1281151286307651,
+            0.028139780542018683
+          ]
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "fov": 35,
+          "distance": 10.576962104093997,
+          "minDistance": 5.416643325840175,
+          "maxDistance": 11.846197556585278,
+          "widthPercent": 81.73771298751767,
+          "heightPercent": 89.00000027592637,
+          "vertexRadius": 4.716643331711621,
+          "target": [
+            -0.022577678103152535,
+            1.1281151286307654,
+            0.028139780542018586
+          ]
+        },
+        {
+          "viewport": [
+            1024,
+            1024
+          ],
+          "fov": 35,
+          "distance": 15.621708572139692,
+          "minDistance": 5.330115308747088,
+          "maxDistance": 17.496313600796455,
+          "widthPercent": 87.99999865017753,
+          "heightPercent": 58.64257048708621,
+          "vertexRadius": 4.630115214239375,
+          "target": [
+            -0.051471101507502545,
+            1.3963843257086739,
+            -0.023118419719453515
+          ]
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "fov": 35,
+          "distance": 10.576962104093997,
+          "minDistance": 5.416643325840175,
+          "maxDistance": 11.846197556585278,
+          "widthPercent": 60.431674057122066,
+          "heightPercent": 89.00000027592637,
+          "vertexRadius": 4.716643331711621,
+          "target": [
+            -0.0225776781031524,
+            1.1281151286307654,
+            0.02813978054201854
+          ]
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "fov": 35,
+          "distance": 33.60272338642918,
+          "minDistance": 5.475839195603565,
+          "maxDistance": 37.63505019280069,
+          "widthPercent": 87.9999978996201,
+          "heightPercent": 26.517442661536005,
+          "vertexRadius": 4.775839103618699,
+          "target": [
+            -0.0855872896705287,
+            1.6854617263884248,
+            -0.07644418347185206
+          ]
+        },
+        {
+          "viewport": [
+            320,
+            740
+          ],
+          "fov": 35,
+          "distance": 35.91066176000152,
+          "minDistance": 5.484940788532353,
+          "maxDistance": 40.219941171201704,
+          "widthPercent": 87.99999789738084,
+          "heightPercent": 24.775420668719295,
+          "vertexRadius": 4.784940696700396,
+          "target": [
+            -0.0890299051450307,
+            1.7011410411781793,
+            -0.07831753141350709
+          ]
+        },
+        {
+          "viewport": [
+            768,
+            1024
+          ],
+          "fov": 35,
+          "distance": 20.763006585090796,
+          "minDistance": 5.396110098880555,
+          "maxDistance": 23.254567375301693,
+          "widthPercent": 87.99999863404166,
+          "heightPercent": 43.55464694552186,
+          "vertexRadius": 4.69611000553077,
+          "target": [
+            -0.06618392977929526,
+            1.5321159652398573,
+            -0.04899243590361404
+          ]
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "fov": 45,
+          "distance": 25.605778244976246,
+          "minDistance": 5.434675202161875,
+          "maxDistance": 28.6784716343734,
+          "widthPercent": 87.99999862481353,
+          "heightPercent": 26.686762567282972,
+          "vertexRadius": 4.734675109477363,
+          "target": [
+            -0.07446168753077625,
+            1.6085834117238682,
+            -0.06357620702850887
+          ]
+        }
+      ]
+    },
+    {
+      "check": "framing preserves authored parentage, transforms, cache isolation and reference camera direction",
+      "status": "passed",
+      "preservedNodes": 610,
+      "sourceCameraBlender": [
+        8,
+        -12.3,
+        5.2
+      ],
+      "sourceTargetBlender": [
+        0,
+        0.2,
+        1.95
+      ]
+    }
+  ]
+}

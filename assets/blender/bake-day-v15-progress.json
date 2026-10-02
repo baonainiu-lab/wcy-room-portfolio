@@ -1,0 +1,27 @@
+{
+  "state": "day",
+  "completed": [
+    {
+      "atlas": 0,
+      "path": "public/textures/lighting-v15/day-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 2690321
+    },
+    {
+      "atlas": 8,
+      "path": "public/textures/lighting-v15/day-8.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 16,
+      "bytes": 4240380
+    }
+  ],
+  "phase": "baking",
+  "elapsed": 239.81
+}

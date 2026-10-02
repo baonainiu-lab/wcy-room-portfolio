@@ -1,0 +1,37 @@
+{
+  "published": false,
+  "fullBakesStarted": false,
+  "decision": "User rejected revision3 vein appearance; requires white marble walls and textured black top cap. Await verified CC0 PBR source.",
+  "files": [
+    {
+      "original": "assets/blender/orbital-dual-bake-v20.blend",
+      "archive": "assets/blender/room-v20-review-history/review3/orbital-dual-bake-v20.blend",
+      "sha256": "368df934dacf5728546153d182ea8518ecf108feda6d9167442020b2abcc3be9"
+    },
+    {
+      "original": "assets/blender/orbital-atelier-v20.blend",
+      "archive": "assets/blender/room-v20-review-history/review3/orbital-atelier-v20.blend",
+      "sha256": "6ae45280e783a2c13b7b210f6a3239f6092f322efee620804404f2c997be82c1"
+    },
+    {
+      "original": "assets/blender/photoreal-materials-v20-prepared.json",
+      "archive": "assets/blender/room-v20-review-history/review3/photoreal-materials-v20-prepared.json",
+      "sha256": "d54b4a3ac5bf7041de2e7a5960bc7ede690e026a59dc0e7a537ffce25ebd8db7"
+    },
+    {
+      "original": "assets/blender/photoreal-materials-v20-source.json",
+      "archive": "assets/blender/room-v20-review-history/review3/photoreal-materials-v20-source.json",
+      "sha256": "c2702d532bf79493a32d4d43dba0b6b239d342b8c451fafe444470cea99c69e5"
+    },
+    {
+      "original": "assets/blender/scripts/room_marble_v20.py",
+      "archive": "assets/blender/room-v20-review-history/review3/room_marble_v20.py",
+      "sha256": "5b83bd77e1f939b591a1b9ff5da0fbebd9eaed290d44a523819b06aaa596901f"
+    },
+    {
+      "original": "assets/blender/scripts/photoreal_materials_v20.py",
+      "archive": "assets/blender/room-v20-review-history/review3/photoreal_materials_v20.py",
+      "sha256": "ecf8f80caac1fdb2f4e59bec7940c8de66431b0c237dab014ca3219ba02fff7a"
+    }
+  ]
+}

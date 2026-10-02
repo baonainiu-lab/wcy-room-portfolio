@@ -1,0 +1,46 @@
+// Full background plate and an actual transparent frame sequence, above WebGL.
+.avatar-home { position:absolute; inset:0; z-index:-1; overflow:hidden; pointer-events:none; }
+.avatar-backdrop { position:absolute; inset:0; background:#e6dfcf url('/media/avatar-home-v1/studio.webp') center center / cover no-repeat; }
+.avatar-figure {
+  --avatar-height:min(138svh,160vw);
+  position:absolute; height:var(--avatar-height); width:calc(var(--avatar-height) * .75);
+  left:62%; top:calc(86svh - var(--avatar-height) * .78125); transform:translateX(-50%);
+}
+.avatar-sprite { position:absolute; inset:0; background-size:700% 200%; background-repeat:no-repeat; }
+.avatar-grounding { position:absolute; left:43%; top:77%; width:28%; height:2.3%; background:radial-gradient(ellipse,#22252270,transparent 70%); transform:rotate(-5deg); }
+.cube-intro[data-avatar='ready'] {
+  --intro-ink:#182e3b;
+  .intro-welcome { top:24%; left:8%; right:auto; width:32%; }
+  .intro-overline { display:none; }
+  h1 { font-size:clamp(34px,4.1vw,64px); line-height:1.13; text-shadow:0 1px #fff8; letter-spacing:-.05em; }
+  .intro-description { margin-top:16px; font-size:10px; letter-spacing:.04em; font-weight:650; }
+  .intro-brand { top:30px; left:38px; }
+  .intro-enter { left:50%; bottom:20px; min-height:80px; gap:7px; }
+  .intro-enter-label { color:#172f3e; font-weight:650; text-shadow:0 1px 6px #fff; }
+  .intro-arrow { color:#172f3e; }
+  .intro-skip { right:38px; color:#213943; text-shadow:0 1px 8px #fff; }
+  &[data-phase='loading'] .avatar-home, &[data-phase='error'] .avatar-home { visibility:hidden; }
+}
+.intro-identity[hidden] { display:none!important; }
+@media(max-width:700px) {
+  .avatar-backdrop { background-position:57% center; }
+  .avatar-figure {
+    --avatar-height:min(108svh,240vw);
+    left:53%; top:calc(84svh - var(--avatar-height) * .78125);
+  }
+  .cube-intro[data-avatar='ready'] {
+    .intro-brand { top:18px; left:20px; }
+    .intro-skip { top:18px; right:20px; font-size:10px; }
+    .intro-welcome { top:14%; left:8%; right:auto; width:75%; }
+    h1 { font-size:clamp(28px,8vw,42px); }
+    .intro-line { display:inline; }
+    .intro-line + .intro-line { margin-left:.18em; }
+    .intro-description { margin-top:8px; font-size:8px; letter-spacing:.04em; }
+    .intro-enter { bottom:max(12px,env(safe-area-inset-bottom)); }
+  }
+}
+@media(max-height:560px) and (min-width:701px) {
+  .avatar-figure { --avatar-height:min(132svh,160vw); top:calc(87svh - var(--avatar-height) * .78125); }
+  .cube-intro[data-avatar='ready'] .intro-brand { top:12px; }
+  .cube-intro[data-avatar='ready'] .intro-enter { bottom:4px; }
+}

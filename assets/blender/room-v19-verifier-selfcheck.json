@@ -1,0 +1,65 @@
+{
+  "selfCheckPassed": true,
+  "releaseComplete": false,
+  "script": "scripts/verify-room-v19.py",
+  "scriptSha256": "5185c33f832aaceeaaa942f4f0f152c61402ed39b0f3300e8554b18d65ff0e81",
+  "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "editableSha256": "175deff40751433f8e39783cc67b8fc437dd067a69ac9652df7d213f3ba8832f",
+  "sourceContractPassed": true,
+  "approvedAboutFilesUnchanged": 38,
+  "currentSurfaceProofPassed": true,
+  "surfaceInheritedSlots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+  ],
+  "freshSurfaceSlots": [
+    0,
+    8,
+    12
+  ],
+  "mutationsOnlyInCpuMemory": true,
+  "negativeCases": [
+    {
+      "case": "mutated_floor_POSITION",
+      "rejected": true,
+      "reason": "Retained floor indexed-corner POSITION differs from V18 after triangle 180."
+    },
+    {
+      "case": "mutated_floor_NORMAL",
+      "rejected": true,
+      "reason": "Retained floor indexed-corner NORMAL differs from V18 after triangle 180."
+    },
+    {
+      "case": "mutated_floor_TEXCOORD_0",
+      "rejected": true,
+      "reason": "Retained floor indexed-corner TEXCOORD_0 differs from V18 after triangle 180."
+    },
+    {
+      "case": "old_gray_as_current_runtime",
+      "rejected": true,
+      "reason": "Final triangle count differs from current prepared source."
+    },
+    {
+      "case": "archived_review1_as_current_evidence",
+      "rejected": true,
+      "reason": "Rejected historical V19 artifact: assets/blender/room-v19-review-history/review1/photoreal-materials-v19-prepared.json"
+    },
+    {
+      "case": "unexpected_prepared_sha",
+      "rejected": true,
+      "reason": "Prepared/editable SHA differs from the reviewed V19 contract."
+    }
+  ],
+  "meshDatablockRenameAllowed": true,
+  "pendingInputCountAtSelfCheck": 35,
+  "note": "The current-source final GLB, compression and lighting outputs are still pending. No full release success is claimed.",
+  "postSelfcheckEdit": "Provenance wording updated to disclose the explicitly authorized offline CLI lighting/intro/probe bake fallback; validation logic unchanged."
+}

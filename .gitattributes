@@ -1,0 +1,7 @@
+* text=auto
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb binary
+*.ktx2 binary
+*.woff2 binary
+*.mp4 binary
+*.pdf binary

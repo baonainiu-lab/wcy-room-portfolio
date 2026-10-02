@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "sourceAndPreparedUseSameWorldCoordinateContract": true,
+  "BOXProjectionCount": 0,
+  "objectNormalProjectionCount": 0,
+  "files": [
+    {
+      "path": "assets/blender/works-gallery-v5.blend",
+      "unchangedSha256": "32cb5f98a4e8d51f682c6e148a53bd1f410762db013d1da9c1c5897f7f1834d4",
+      "materials": [
+        {
+          "material": "GALLERY_terrazzo",
+          "scanSamples": 9,
+          "projection": "3 FLAT world-coordinate planes per map",
+          "weights": "Geometry.Normal WORLD -> abs -> power6 -> normalized sum",
+          "objectSpaceNodes": 0
+        },
+        {
+          "material": "GALLERY_leather",
+          "scanSamples": 9,
+          "projection": "3 FLAT world-coordinate planes per map",
+          "weights": "Geometry.Normal WORLD -> abs -> power6 -> normalized sum",
+          "objectSpaceNodes": 0
+        }
+      ]
+    },
+    {
+      "path": "assets/blender/works-gallery-bake-v5.blend",
+      "unchangedSha256": "7f60264c50df924f6489ffd52e24c6e45d41eb40a00736d7ead74d30763da765",
+      "materials": [
+        {
+          "material": "GALLERY_PREP_A3_baked_GALLERY_terrazzo",
+          "scanSamples": 9,
+          "projection": "3 FLAT world-coordinate planes per map",
+          "weights": "Geometry.Normal WORLD -> abs -> power6 -> normalized sum",
+          "objectSpaceNodes": 0
+        },
+        {
+          "material": "GALLERY_PREP_A3_baked_GALLERY_leather",
+          "scanSamples": 9,
+          "projection": "3 FLAT world-coordinate planes per map",
+          "weights": "Geometry.Normal WORLD -> abs -> power6 -> normalized sum",
+          "objectSpaceNodes": 0
+        },
+        {
+          "material": "GALLERY_PREP_A0_baked_GALLERY_terrazzo.001",
+          "scanSamples": 9,
+          "projection": "3 FLAT world-coordinate planes per map",
+          "weights": "Geometry.Normal WORLD -> abs -> power6 -> normalized sum",
+          "objectSpaceNodes": 0
+        }
+      ]
+    }
+  ],
+  "gpuUsed": false
+}

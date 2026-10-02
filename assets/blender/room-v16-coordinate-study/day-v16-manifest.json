@@ -1,0 +1,45 @@
+{
+  "state": "day",
+  "samples": 96,
+  "preparedSha256": "abdd790f54785647a978ab66b8f0099a9ff695f9a42976fd8d6d8f2fce5b669e",
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/lighting-v16/day-0.png",
+      "sha256": "dcc32144925073a9d9bd1db6a59373b7b6dcdf84563555a1438959a84b70825c",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 95.49,
+      "bytes": 2491604
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/lighting-v16/day-1.png",
+      "sha256": "08c7d208a3568788cb800f767553123fe7fe95ce1120245cd5b99c4e1a9a3ed3",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 73.98,
+      "bytes": 3410968
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/lighting-v16/day-2.png",
+      "sha256": "167be055d860da50e2066516816184e57859433d6677c2b57d2afdcb5d1b2aea",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "secondsIncludingGpuQueue": 136.23,
+      "bytes": 7011344
+    }
+  ],
+  "complete": false,
+  "secondsThisRun": 308.44
+}

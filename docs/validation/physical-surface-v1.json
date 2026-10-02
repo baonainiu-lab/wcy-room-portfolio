@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "name": "Room RGBM diffuse/intro decode before one AgX, view-dependent GGX uses independent F0 and tangent normals",
+      "passed": true
+    },
+    {
+      "name": "One shared uniform drives a complete 60 second cycle without texture upload or shader replacement",
+      "passed": true
+    },
+    {
+      "name": "Intro restore retains physical reflection and dual lighting, then disposal releases only owned resources once",
+      "passed": true
+    },
+    {
+      "name": "Out-of-order disposal and later compile decorators never revive disposed surface, day or intro samplers",
+      "passed": true
+    },
+    {
+      "name": "Failure at normal-1 leaves old materials untouched and cleans successful partial loads",
+      "passed": true
+    },
+    {
+      "name": "Failure at reflection-night.hdr leaves old materials untouched and cleans successful partial loads",
+      "passed": true
+    },
+    {
+      "name": "Partial material installation failure rolls back earlier bindings and both prefiltered probes",
+      "passed": true
+    },
+    {
+      "name": "About family is rejected and Gallery opt-in remains isolated to GALLERY_LIGHTMAP slots",
+      "passed": true
+    },
+    {
+      "name": "Optional Room glass reuses the two PMREMs and shared clock, keeps original mesh ownership and restores materials exactly once",
+      "passed": true
+    },
+    {
+      "name": "Gallery glass is opt-in and uses view-dependent Fresnel without About or arbitrary transparent replacements",
+      "passed": true
+    }
+  ],
+  "passed": 10,
+  "limitations": "CPU shader composition and ownership; HDR decode, PMREM convolution and WebGL compilation use controlled substitutes. Final browser compilation and visual review still required."
+}

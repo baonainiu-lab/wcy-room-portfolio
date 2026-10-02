@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-01",
+  "desktop": "Actual local WebGL scene and object clicks in Codex browser, 1280x720",
+  "work": {
+    "originFrom": "gallery.work.01.art",
+    "bounds": [
+      56,
+      56,
+      1168,
+      608
+    ],
+    "videoPlayed": true,
+    "videoInitiallyMuted": true,
+    "closePausedVideo": true,
+    "cameraRestoredExactly": true
+  },
+  "resume": {
+    "originFrom": "about.workbench.open_sketchbook",
+    "bookScale": [
+      1.42,
+      1.12,
+      1.42
+    ],
+    "illustrationsLoaded": 4,
+    "flexibleTurnScreenshotVerified": true,
+    "continuousShadingVerified": true,
+    "rapidArrowInputsSafe": true,
+    "escapeDuringTurnSafe": true,
+    "cameraRestoredExactly": true,
+    "lastObservedTurnFrames": 93,
+    "lastObservedTurnDurationMs": 982,
+    "desktopBodyHeightAndScrollHeight": [
+      460,
+      460
+    ]
+  },
+  "mobileLayout": {
+    "method": "actual same-origin iframe viewport; not a physical touch device",
+    "size": [
+      390,
+      844
+    ],
+    "allFourPagesBodyHeightAndScrollHeight": [
+      412,
+      412
+    ],
+    "imageDragTurnVerified": true,
+    "resizeDuringTurn": {
+      "to": [
+        920,
+        660
+      ],
+      "singleToSpread": true,
+      "remainingStrips": 0,
+      "animationActive": false,
+      "bodyHeightAndScrollHeight": [
+        409,
+        409
+      ]
+    }
+  },
+  "reducedMotion": {
+    "turnFrames": 0,
+    "stripCount": 0,
+    "animationActive": false,
+    "focusReturned": true
+  },
+  "runtimeErrors": [],
+  "assets": [
+    {
+      "asset": "overview.webp",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "asset": "game-design.webp",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "asset": "game-operations.webp",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "asset": "projects.webp",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "asset": "resume-game-design.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "asset": "resume-game-operations.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    }
+  ],
+  "geometryValidation": "scene-inspection-geometry.json"
+}

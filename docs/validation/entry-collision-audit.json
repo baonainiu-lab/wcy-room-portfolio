@@ -1,0 +1,670 @@
+{
+  "checkedAt": "2026-09-25T04:11:48.442Z",
+  "sourceSha256": {
+    "src/room-entry.js": "768a3e536517d9f51538b58b2110e55ce34e6014c6a00e68c019f21870bc810b",
+    "src/cube-intro.js": "3c401d9f1838e11168e85777a7490e908da664a07dd6ee72381e1e45408c6824",
+    "public/models/orbital-atelier-v15.glb": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15",
+    "public/models/welcome-terminal-v1.glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24"
+  },
+  "sampleRateHz": 24,
+  "durationSeconds": 5.2316622,
+  "method": "Actual GLTFLoader geometry and unchanged production GSAP controller. Every prop vertex is evaluated in original room coordinates, removing only the external uniform room reveal. Downward ray/triangle hits on unchanged reference floor, desk, coffee table, rug or static architecture confirm selected support crossings. Whole-scene AABB overlap is not treated as collision.",
+  "limitations": [
+    "Reference support is in its final pose: a delayed or still-growing support is reported separately by choreography checks.",
+    "Footprint escape alone is a trajectory risk, not a triangle collision verdict.",
+    "This low-vertex witness scan is not exhaustive triangle/triangle intersection testing."
+  ],
+  "propCount": 36,
+  "supportCrossingCount": 0,
+  "footprintEscapeCount": 0,
+  "props": [
+    {
+      "id": "main_display",
+      "baselineBounds": {
+        "min": [
+          -4.963905811309814,
+          1.853539109230041,
+          -1.7324405968804053
+        ],
+        "max": [
+          -3.0704269409179683,
+          3.799500319051738,
+          1.5989754199981687
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "compute_core",
+      "baselineBounds": {
+        "min": [
+          -3.6130350798199817,
+          0.20608418686871577,
+          0.8131748346958055
+        ],
+        "max": [
+          -2.4872481822967525,
+          1.6359159969251489,
+          2.0448327754394913
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.desk",
+      "baselineBounds": {
+        "min": [
+          -4.648341564351446,
+          0.18114003041744198,
+          -2.3398900360454444
+        ],
+        "max": [
+          -2.002965553661169,
+          1.8580841382455304,
+          1.9567989208901895
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.work_chair",
+      "baselineBounds": {
+        "min": [
+          -2.2068479667754692,
+          0.17687503263354287,
+          -0.16781262197607338
+        ],
+        "max": [
+          -0.7089463989666588,
+          2.6086880070171503,
+          1.267964573768932
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.lounge",
+      "baselineBounds": {
+        "min": [
+          1.32922947126565,
+          0.20343999179959305,
+          0.671724607956194
+        ],
+        "max": [
+          3.98748068499179,
+          1.5776594109028963,
+          2.635562253651748
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.coffee_table",
+      "baselineBounds": {
+        "min": [
+          -1.0489707963137533,
+          0.20409295970132035,
+          0.5102582310111927
+        ],
+        "max": [
+          0.8489707933335211,
+          0.9551500226318836,
+          1.7897417213050915
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "furniture.rug",
+      "baselineBounds": {
+        "min": [
+          -1.4011374032256754,
+          0.1852186769247055,
+          -0.8398256773977124
+        ],
+        "max": [
+          4.401137725090763,
+          0.21663829684257507,
+          3.3398256773977124
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "robot_companion",
+      "baselineBounds": {
+        "min": [
+          -3.8179987342357116,
+          0.19187737631310497,
+          1.97573623521075
+        ],
+        "max": [
+          -2.642001303911261,
+          1.1224489294468913,
+          2.978227529852692
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "folding_drawing_terminal",
+      "baselineBounds": {
+        "min": [
+          -2.8451153186141305,
+          1.8455394854253586,
+          -1.5853259522378798
+        ],
+        "max": [
+          -2.005140859102397,
+          2.731956740199453,
+          -0.6915179186536808
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "c_archive_dock",
+      "baselineBounds": {
+        "min": [
+          3.545140018210411,
+          2.041040010458827,
+          -3.116600548589224
+        ],
+        "max": [
+          4.444599978113175,
+          2.825359963550568,
+          -2.683399625158316
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "kinetic_three_petal_flower",
+      "baselineBounds": {
+        "min": [
+          3.523172142863658,
+          3.267497423300978,
+          -3.1812559370840425
+        ],
+        "max": [
+          4.417726222365723,
+          4.021369760377144,
+          -2.6187442536508208
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "headphones_on_stand",
+      "baselineBounds": {
+        "min": [
+          -3.78579378367584,
+          1.8478975212880173,
+          1.3269712949545134
+        ],
+        "max": [
+          -3.3486356152969066,
+          2.564552777313523,
+          1.9057153922762586
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "ceramic_ring_speaker",
+      "baselineBounds": {
+        "min": [
+          -3.2464480952492893,
+          1.8466799230214954,
+          -2.1327465910648575
+        ],
+        "max": [
+          -2.7950252934225857,
+          2.4769940881979067,
+          -1.6717120709233004
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "split_keyboard",
+      "baselineBounds": {
+        "min": [
+          -3.1021205080379852,
+          1.8468175585637108,
+          -0.3602252555693139
+        ],
+        "max": [
+          -2.4717823908136083,
+          1.9484469884988878,
+          0.8025622421143241
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "compact_camera",
+      "baselineBounds": {
+        "min": [
+          -3.221298804990236,
+          1.853519947414398,
+          0.9873535913790479
+        ],
+        "max": [
+          -2.9004273508170937,
+          2.1024608757001984,
+          1.3562051969205127
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "thermal_cup",
+      "baselineBounds": {
+        "min": [
+          -2.5026452746914862,
+          1.8478199290334434,
+          -2.121587858905255
+        ],
+        "max": [
+          -2.331903337875335,
+          2.125995869679251,
+          -1.9506598375789688
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "table_notebook_group",
+      "baselineBounds": {
+        "min": [
+          -0.8377232843343152,
+          0.9485501399382976,
+          0.9342192483873692
+        ],
+        "max": [
+          0.30300002157688155,
+          1.041500004544854,
+          1.4773810255789226
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "glass_bonsai_terrarium",
+      "baselineBounds": {
+        "min": [
+          3.5972708555710895,
+          0.7592800001737475,
+          -3.3023585382555716
+        ],
+        "max": [
+          4.4025012544208195,
+          1.6106955495173807,
+          -2.497481209893195
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "trailing_wall_plant",
+      "baselineBounds": {
+        "min": [
+          4.162167549133301,
+          3.2789515256881714,
+          -2.7162274941802025
+        ],
+        "max": [
+          5.037046104669571,
+          4.5236604660749435,
+          -2.2807775139808655
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "studio_reference_books",
+      "baselineBounds": {
+        "min": [
+          -1.8114999681711197,
+          1.4199999012053013,
+          -2.9434998631477356
+        ],
+        "max": [
+          -1.2504999488592148,
+          1.9510473199042173,
+          -2.636999875307083
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "geometric_specimen_cloche",
+      "baselineBounds": {
+        "min": [
+          -0.5708635747432709,
+          1.4199999570846558,
+          -3.000863552093506
+        ],
+        "max": [
+          -0.12913641333580017,
+          1.99399995803833,
+          -2.559136390686035
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "portable_fold_communicator",
+      "baselineBounds": {
+        "min": [
+          0.8439999967813492,
+          1.420999938622117,
+          -2.9249999970197678
+        ],
+        "max": [
+          1.1560000032186508,
+          1.922454632580022,
+          -2.6670000106096268
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "ceramic_mobius_study",
+      "baselineBounds": {
+        "min": [
+          2.0652992273965967,
+          1.4249989446252584,
+          -2.9608185142690333
+        ],
+        "max": [
+          2.4795189056311333,
+          1.9305036216974258,
+          -2.5991814285105077
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "glass_cutting_planter",
+      "baselineBounds": {
+        "min": [
+          2.8561390787363052,
+          1.4200415750965476,
+          -2.859000027179718
+        ],
+        "max": [
+          3.1517897993326187,
+          1.9193947613239288,
+          -2.581000030040741
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "black_ceramic_floor_planter",
+      "baselineBounds": {
+        "min": [
+          3.8170086443424225,
+          0.18600000720471144,
+          -0.7009987831115723
+        ],
+        "max": [
+          4.398877561092377,
+          1.5352281332015991,
+          -0.1990039348602295
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_orbital_clock",
+      "baselineBounds": {
+        "min": [
+          -4.760000377942855,
+          3.2420001030600165,
+          -2.6779996779407464
+        ],
+        "max": [
+          -4.632000952969835,
+          3.9980000595403062,
+          -1.9219997214605216
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_portable_projector",
+      "baselineBounds": {
+        "min": [
+          -3.9363070695156974,
+          1.8597897820705191,
+          0.6823291408370586
+        ],
+        "max": [
+          -3.4792327864868695,
+          2.152199806158544,
+          1.1815886622567913
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_magnetic_pen_dock",
+      "baselineBounds": {
+        "min": [
+          -3.4725210648786353,
+          1.8614997770208137,
+          -0.9983794786424713
+        ],
+        "max": [
+          -3.079310657380886,
+          2.3106510869496923,
+          -0.5787016056089325
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_modular_equipment_cases",
+      "baselineBounds": {
+        "min": [
+          0.8389999568462372,
+          0.18000000715255737,
+          -1.8289999663829803
+        ],
+        "max": [
+          1.7609999477863312,
+          0.9835000336170197,
+          -1.153023898601532
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_geometric_floor_lamp",
+      "baselineBounds": {
+        "min": [
+          1.9849999845027924,
+          0.19700000621378422,
+          -1.0259999781847
+        ],
+        "max": [
+          2.5749999582767487,
+          1.963579968184682,
+          -0.533999964594841
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_energy_capsule_rack",
+      "baselineBounds": {
+        "min": [
+          0.14650000631809235,
+          1.4280000310391188,
+          -2.9009999781847
+        ],
+        "max": [
+          0.533500000834465,
+          1.7179999947547913,
+          -2.6389999836683273
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_mechanical_data_panel",
+      "baselineBounds": {
+        "min": [
+          -4.7965002658338936,
+          1.970999926328659,
+          1.7029999571237335
+        ],
+        "max": [
+          -4.643999608178523,
+          2.6689999401569366,
+          2.1569999379720914
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v5_scout_drone_display",
+      "baselineBounds": {
+        "min": [
+          -2.459505081176758,
+          1.4275000002235174,
+          -2.8924999982118607
+        ],
+        "max": [
+          -1.9204950332641602,
+          1.7110000625252724,
+          -2.6075000017881393
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v8_desk_glow_lamp",
+      "baselineBounds": {
+        "min": [
+          -3.774999901652336,
+          1.8580000400543213,
+          0.07500000298023224
+        ],
+        "max": [
+          -3.3699999004602432,
+          2.2850000262260437,
+          0.32500000298023224
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v8_window_light_bar",
+      "baselineBounds": {
+        "min": [
+          1.01500004529953,
+          1.2465000301599503,
+          -2.5350001007318497
+        ],
+        "max": [
+          1.8850000500679016,
+          1.3450000286102295,
+          -2.3260000944137573
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    },
+    {
+      "id": "v8_reading_puck",
+      "baselineBounds": {
+        "min": [
+          0.35750001668930054,
+          0.9549999833106995,
+          0.7679999768733978
+        ],
+        "max": [
+          0.6650000214576721,
+          1.1869999766349792,
+          1.0149999782443047
+        ]
+      },
+      "belowOriginalMinimum": null,
+      "referenceSurfacePenetration": null,
+      "footprintEscape": null
+    }
+  ]
+}

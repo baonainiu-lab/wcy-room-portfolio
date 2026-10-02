@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-01T05:30:46.678Z",
+  "scope": "Real GLTF vertices, attributes, hierarchy and production GSAP transforms; CPU tests, not rendered pixels or exhaustive pairwise triangle collision proof.",
+  "sourceSha256": {
+    "src/main.js": "6d68563a8dc7b390736712cbca39864515a6a7cfaf25c50ae24182c4386fe6c4",
+    "src/cube-intro.js": "d5fb8f118d1eb50773714e04874b38d5570b66bdef6fb8e2135d70316555877b",
+    "src/room-entry.js": "347a214c889e2cbb3dc6cdb9ed9d0e65f1f64f36429a357e26a7080b8b510494",
+    "src/room-entry-attachments.js": "200c8128335adc99f200e4d3aaa555d9c373d7319f0e2c76e55ea03d58e65cc1",
+    "public/models/orbital-atelier-v20-compressed.glb": "f2779105330bbd9f65d3c88a095e81d8aa1e5315bd1464d6351b9d7156392621",
+    "public/models/welcome-terminal-v1.glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24"
+  },
+  "passed": 3,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "hardware extraction preserves every triangle corner attribute byte and final world position",
+      "passed": true,
+      "corners": 70596,
+      "attributeBytes": 2259072,
+      "maxPositionError": 1.2755491433176288e-15,
+      "retainedInteractiveIds": 96,
+      "addedDraws": 2
+    },
+    {
+      "name": "all visible prop vertices stay within final envelopes; support furniture settles before mounted props",
+      "passed": true,
+      "samples": 262,
+      "vertexChecks": 56697471,
+      "maxEnvelopeEscape": 1.3322676295501878e-15,
+      "supportChecks": 1644,
+      "finalExactTransformRestore": true
+    },
+    {
+      "name": "exterior fade holds final geometry fixed and releases only temporary material copies",
+      "passed": true,
+      "fixedNodes": 5,
+      "releasedMaterialCopies": 2,
+      "persistentTexturesUnchanged": true
+    }
+  ]
+}

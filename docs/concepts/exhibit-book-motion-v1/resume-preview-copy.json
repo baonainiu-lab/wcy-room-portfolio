@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "purpose": "简历书翻页动效预演文案，仅用于预演；网站接入待用户验收",
+  "language": "zh-CN",
+  "sourcePaths": [
+    "/Users/a90/Documents/ChatGPT/个人网站/tmp/resume/王丞业_游戏策划_简历_v3.txt",
+    "/Users/a90/Documents/ChatGPT/个人网站/tmp/resume/王丞业_AI游戏运营_简历_v3.txt",
+    "/Users/a90/Documents/ChatGPT/个人网站/output/docx/王丞业_游戏策划_简历_v3.docx",
+    "/Users/a90/Documents/ChatGPT/个人网站/output/docx/王丞业_AI游戏运营_简历_v3.docx"
+  ],
+  "verifiedRenderPaths": [
+    "/Users/a90/Documents/ChatGPT/个人网站/tmp/resume/name-sync-20261001/planner-fixed/page-1.png",
+    "/Users/a90/Documents/ChatGPT/个人网站/tmp/resume/name-sync-20261001/ai-fixed/page-1.png"
+  ],
+  "mergePrinciples": [
+    "将游戏策划的玩法、成长、战斗与原型交付能力，与 AI 游戏运营内容方向的视觉制作、一致性控制、后期交付和游戏理解合并。",
+    "以最终 DOCX 的身份、联系方式与项目名称为准；保留可玩垂直切片、开发中原型等项目状态。",
+    "运营页仅陈述内容方向实践，不补写商业上线、用户增长、投放、社群、活动或运营业绩。",
+    "明确保留 AI 辅助开发与 AIGC 制作表述，不将其写成纯手工制作。",
+    "每页标题加四项短文案，总显示字符数不超过 90（含英文、数字、空格和标点），供翻页预演排版。",
+    "联系方式从两份最终 DOCX 核对一致后引用；作品集域名仅转录原简历，未声明其当前上线状态。"
+  ],
+  "sourceConflicts": [
+    {
+      "field": "游戏项目名称",
+      "textVersion": "糖壳进化（暂定名）",
+      "finalDocxVersion": "糖壳暴食兽",
+      "resolution": "采用两份最终 DOCX 一致的糖壳暴食兽；旧 TXT 尚未同步更名。"
+    }
+  ],
+  "evidenceNotes": [
+    "成长设计的 5 阶进化、三选一和 6 款可叠加道具，以及完美释放窗口与伤害结算，来自游戏策划简历的糖壳暴食兽项目。",
+    "4 组产品主题短片、视觉统一与后期交付，来自 AI 游戏运营简历的 AIGC 与视觉内容实践。",
+    "两份最终 DOCX 的身份、教育与联系方式一致；岗位意向差异是内容合并的依据，不视作事实冲突。"
+  ],
+  "pages": [
+    {
+      "id": "overview",
+      "number": 1,
+      "title": "个人概览",
+      "items": [
+        "王丞业｜2027 届数字媒体艺术本科",
+        "游戏策划 / AI 游戏运营（内容方向）",
+        "Unity 与 Godot 可玩原型实践",
+        "三维美术、AI 辅助开发与视觉内容制作"
+      ],
+      "displayCharacterCount": 81
+    },
+    {
+      "id": "game-design",
+      "number": 2,
+      "title": "游戏策划能力",
+      "items": [
+        "玩法循环｜收银取证与风险判断",
+        "成长设计｜5 阶进化、三选一、6 款叠加道具",
+        "战斗迭代｜完美释放窗口与命中结算",
+        "原型交付｜可玩构建与边界校验"
+      ],
+      "displayCharacterCount": 72
+    },
+    {
+      "id": "game-operations",
+      "number": 3,
+      "title": "游戏运营能力",
+      "items": [
+        "内容制作｜4 组 AIGC 产品主题短片",
+        "视觉统一｜母版、角色与场景参考",
+        "后期交付｜AE / PR 剪辑、合成与输出",
+        "游戏理解｜关注玩法卖点与内容表达"
+      ],
+      "displayCharacterCount": 78
+    },
+    {
+      "id": "projects-contact",
+      "number": 4,
+      "title": "项目与联系",
+      "items": [
+        "夜班便利店｜可玩垂直切片",
+        "糖壳暴食兽｜开发中原型",
+        "作品集｜wcy90.cn",
+        "189 7084 3804 · 3151109516@qq.com"
+      ],
+      "displayCharacterCount": 73
+    }
+  ]
+}

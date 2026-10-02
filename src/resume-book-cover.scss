@@ -1,0 +1,122 @@
+// The outer boards only exist during lifting/opening and closing/returning.
+// The regular segmented paper turn remains owned by resume-book.scss.
+.resume-book__jacket-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 12;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  perspective: 1800px;
+}
+.resume-book__jacket-bed {
+  position: absolute;
+  left: 50%;
+  right: -7px;
+  top: -6px;
+  bottom: -12px;
+  border-radius: 2px 8px 8px 2px;
+  background: transparent;
+  border-right: 7px solid #67483d;
+  border-bottom: 9px solid #67483d;
+  border-left: 2px solid #67483d;
+  transform: translateZ(-3px);
+  box-shadow: 0 22px 42px #0004, 0 5px 8px #0005;
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 5px 3px 4px 0;
+    border-right: 6px solid #e2d4b8;
+    border-bottom: 7px solid transparent;
+    border-image: repeating-linear-gradient(0deg, #a79a82 0 1px, #ede2c9 1px 2px) 8;
+  }
+}
+.resume-book__jacket-hinge {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.resume-book__jacket-front,
+.resume-book__jacket-inside {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.resume-book__jacket-front {
+  inset: -6px -6px -7px 0;
+  border-radius: 2px 8px 8px 2px;
+  border: 1px solid #d3b28c5c;
+  transform: translateZ(5px);
+  color: #d4b47d;
+  background:
+    repeating-linear-gradient(88deg, #ecc99707 0 .7px, transparent .7px 3px),
+    repeating-linear-gradient(2deg, #1a16100a 0 .6px, transparent .6px 2px),
+    linear-gradient(100deg, #382e29 0, #735348 3%, #684a40 6%, #805b49 54%, #684738);
+  box-shadow: inset 2px 0 3px #2c201aba, inset 0 1px #c8a27b73, inset 0 -2px #30231b80;
+  &::before { content: ''; position: absolute; inset: 5.5% 7.5%; border: 1px solid #ceaf755c; box-shadow: inset 0 0 0 4px #684936, inset 0 0 0 5px #c4a46835; }
+  &::after { content: ''; position: absolute; inset: 0; border-radius: inherit; background: linear-gradient(90deg, #271b0c, #fff2c33b 65%, #281b0d); opacity: var(--jacket-light, 0); }
+}
+.resume-book__jacket-imprint {
+  position: absolute;
+  inset: 12% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-ui);
+  text-shadow: 0 1px #2b2112cc, 0 -1px #dec48c21;
+  > span { font-size: clamp(7px, .8vw, 11px); letter-spacing: .04em; }
+  > i { display: grid; place-items: center; width: 2em; height: 2em; margin: 24% 0 13%; border: 1px solid #d1b68170; border-radius: 50%; font: 700 clamp(28px, 4vw, 48px)/1 var(--font-display); }
+  > strong { font-size: clamp(19px, 2.6vw, 34px); font-family: var(--font-display); font-weight: 700; letter-spacing: .03em; }
+  > p { margin-top: 7%; font-size: clamp(11px, 1.3vw, 17px); letter-spacing: .03em; }
+  > small { margin-top: auto; padding-top: 16%; font-size: clamp(6px, .65vw, 9px); letter-spacing: .03em; white-space: nowrap; }
+}
+.resume-book__jacket-inside {
+  transform: rotateY(180deg) translateZ(.5px);
+  background: var(--paper);
+  box-shadow: 0 0 0 5px #765647;
+  > .resume-page { width: 100%; height: 100%; }
+  &::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, #4d36181c, #3e2b11b3); opacity: var(--jacket-light, 0); }
+}
+.resume-book__jacket-edge {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  height: calc(100% + 11px);
+  width: 5px;
+  transform: rotateY(90deg);
+  transform-origin: left;
+  background: linear-gradient(90deg, #b19368, #513e2a);
+  backface-visibility: hidden;
+}
+.resume-book[data-jacket='active'] {
+  .resume-book__stage { will-change: transform, opacity; transform-style: preserve-3d; }
+  .resume-book__cover,
+  .resume-book__gutter,
+  .resume-book__corner { visibility: hidden; }
+  .resume-book__leaves { background: transparent; box-shadow: none; overflow: visible; }
+  .resume-book__slot--left { visibility: hidden; }
+  .resume-book__slot--right { box-shadow: 1px 4px #e5d8bb, 3px 6px #b5a385; }
+  .resume-book__bar,
+  .resume-book__controls,
+  .resume-book__help { opacity: var(--book-ui-reveal, 0); pointer-events: none; }
+}
+@media (max-width: 760px), (max-height: 520px) {
+  .resume-book__jacket-layer { overflow: clip; overflow-clip-margin: 14px; }
+  .resume-book__jacket-hinge { left: 0; width: 100%; }
+  .resume-book__jacket-bed { left: 0; }
+  .resume-book[data-jacket='active'] .resume-book__slot--left { visibility: visible; }
+  .resume-book__jacket-imprint {
+    > span { font-size: 8px; }
+    > i { font-size: 32px; }
+    > strong { font-size: 25px; }
+    > p { font-size: 13px; }
+    > small { font-size: 7px; }
+  }
+}

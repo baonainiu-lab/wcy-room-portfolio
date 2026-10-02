@@ -1,0 +1,264 @@
+{
+  "complete": true,
+  "status": "floor_surface_pixels_passed",
+  "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "baselinePreparedSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79",
+  "verifier": "scripts/check-room-v19-floor-surface.py",
+  "verifierSha256": "1d13b5f8abedf8fca7a77874e864c5f9bbb32f7d7daedffdfc0db88c98823f38",
+  "geometrySource": "public/models/orbital-atelier-v18.glb",
+  "geometrySha256": "11e0449c84a38fc8458c81fc68eecdf92ddda26d99bcc5005add16b790622897",
+  "platformGeometryProof": "Current pinned-source preparation records exactly equal before/after geometry/UV/normal/ownership signatures.",
+  "sourcePreparationManifest": "assets/blender/photoreal-materials-v19-prepared.json",
+  "sourcePreparationManifestSha256": "2c0270a076822d9a84b38e5025973982405562a32d455ff6fd25dec07643a472",
+  "selection": "architecture.platform owner only; world-space upward normals and horizontal triangles; all corners at Y 0.175..0.185m; samples inside X +/-4.6m and Z +/-3.1m.",
+  "sampling": "Seeded uniform barycentric draws, triangle probability proportional to world-space area; identical UV sample positions for both revisions; 2-texel UV triangle-edge exclusion.",
+  "imageCoordinates": "glTF UV0 already includes the export V flip; PNG top-down sampling y=floor(UV.y*height), matching flipY=false.",
+  "selectionIndependentOfPixelValues": true,
+  "seed": 19,
+  "rows": [
+    {
+      "node": "WEB8_architecture.platform__baked__A0",
+      "slot": 0,
+      "candidateTopTriangleCount": 26,
+      "candidateTopTriangleAreaM2": 68.62480884115143,
+      "sampling": {
+        "draws": 40000,
+        "interiorSamples": 33176,
+        "samples": 32027,
+        "rejectedUvEdgeSamples": 1149,
+        "uvEdgeMarginTexels": 2.0,
+        "sampledTriangleIndices": [
+          175,
+          179,
+          184,
+          186,
+          192,
+          196
+        ],
+        "uniqueTexels": 28687
+      },
+      "states": {
+        "v18": {
+          "medianF0": [
+            0.0392156862745098,
+            0.0392156862745098,
+            0.0392156862745098
+          ],
+          "f0Percentiles": {
+            "p1": [
+              0.0392156862745098,
+              0.0392156862745098,
+              0.0392156862745098
+            ],
+            "p5": [
+              0.0392156862745098,
+              0.0392156862745098,
+              0.0392156862745098
+            ],
+            "p50": [
+              0.0392156862745098,
+              0.0392156862745098,
+              0.0392156862745098
+            ],
+            "p95": [
+              0.0392156862745098,
+              0.0392156862745098,
+              0.0392156862745098
+            ],
+            "p99": [
+              0.0392156862745098,
+              0.0392156862745098,
+              0.0392156862745098
+            ]
+          },
+          "medianRoughness": 0.5725490196078431,
+          "roughnessPercentiles": {
+            "p1": 0.5529411764705883,
+            "p5": 0.5607843137254902,
+            "p50": 0.5725490196078431,
+            "p95": 0.5803921568627451,
+            "p99": 0.5843137254901961
+          },
+          "roughnessMinMax": [
+            0.5450980392156862,
+            0.592156862745098
+          ],
+          "zeroF0SampleFraction": 0.0,
+          "decodedNormalLengthPercentiles": {
+            "p1": 1.0000153785822494,
+            "p5": 1.0000153785822494,
+            "p50": 1.0000153785822494,
+            "p95": 1.0000153785822494,
+            "p99": 1.0000153785822494
+          },
+          "tangentNormalTiltDegrees": {
+            "p1": 0.31775544206983286,
+            "p5": 0.31775544206983286,
+            "p50": 0.31775544206983286,
+            "p95": 0.31775544206983286,
+            "p99": 0.31775544206983286
+          }
+        },
+        "v19": {
+          "medianF0": [
+            0.0196078431372549,
+            0.0196078431372549,
+            0.0196078431372549
+          ],
+          "f0Percentiles": {
+            "p1": [
+              0.0196078431372549,
+              0.0196078431372549,
+              0.0196078431372549
+            ],
+            "p5": [
+              0.0196078431372549,
+              0.0196078431372549,
+              0.0196078431372549
+            ],
+            "p50": [
+              0.0196078431372549,
+              0.0196078431372549,
+              0.0196078431372549
+            ],
+            "p95": [
+              0.0196078431372549,
+              0.0196078431372549,
+              0.0196078431372549
+            ],
+            "p99": [
+              0.0196078431372549,
+              0.0196078431372549,
+              0.0196078431372549
+            ]
+          },
+          "medianRoughness": 0.7450980392156863,
+          "roughnessPercentiles": {
+            "p1": 0.7176470588235294,
+            "p5": 0.7294117647058823,
+            "p50": 0.7450980392156863,
+            "p95": 0.7529411764705882,
+            "p99": 0.7568627450980392
+          },
+          "roughnessMinMax": [
+            0.7098039215686275,
+            0.7686274509803922
+          ],
+          "zeroF0SampleFraction": 0.0,
+          "decodedNormalLengthPercentiles": {
+            "p1": 1.0000153785822494,
+            "p5": 1.0000153785822494,
+            "p50": 1.0000153785822494,
+            "p95": 1.0001383987273944,
+            "p99": 1.0001999031258677
+          },
+          "tangentNormalTiltDegrees": {
+            "p1": 0.31775544206983286,
+            "p5": 0.31775544206983286,
+            "p50": 0.31775544206983286,
+            "p95": 0.9531881531811416,
+            "p99": 1.1455426214098738
+          }
+        }
+      },
+      "expectedF0": 0.01818229889615969,
+      "expectedQuantizedF0": 0.0196078431372549,
+      "expectedRoughnessRange": [
+        0.64,
+        0.82
+      ],
+      "quantizationTolerance": 0.0019617843137254903,
+      "fractionMatchingExpectedF0": 1.0,
+      "fractionWithinRoughnessRange": 1.0,
+      "fractionWithLowerF0": 1.0,
+      "medianF0RatioV19ToV18": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fractionWithHigherRoughness": 1.0,
+      "medianPairedRoughnessGain": 0.1725490196078432,
+      "normalPixelChangedFraction": 0.7576107659162582,
+      "normalComponentAbsoluteChangeMean": 0.001376657073045598,
+      "checks": {
+        "f0MatchesExpectedWithinHalfByte": true,
+        "roughnessWithinAuthoredRange": true,
+        "f0LowerOnAtLeast99PercentOfSamples": true,
+        "medianF0AtMost60PercentOfV18": true,
+        "roughnessHigherOnAtLeast95PercentOfSamples": true,
+        "medianPairedRoughnessGainAtLeastPoint10": true,
+        "noBlankSurfaceTexels": true,
+        "baselineF0MatchesPoint04": true
+      },
+      "sourceFiles": [
+        {
+          "version": "v18",
+          "kind": "normal",
+          "path": "public/textures/lighting-v18/normal-0.png",
+          "sha256": "e0418496e716c558e851dc20d2cc7a776a3d10ffe3218ffbc48b1a06ff37b4e7",
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "manifest": "public/textures/lighting-v18/surface-0-manifest.json",
+          "manifestSha256": "1cdc6da903926cad949ad158cfda11214efe30571c03db114fbdd049c17fe034",
+          "preparedSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79"
+        },
+        {
+          "version": "v18",
+          "kind": "specular",
+          "path": "public/textures/lighting-v18/specular-0.png",
+          "sha256": "4339fe0c69cbaa3cf684901e0baefcca1bd90500a21783c38b827362dba5d36e",
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "manifest": "public/textures/lighting-v18/surface-0-manifest.json",
+          "manifestSha256": "1cdc6da903926cad949ad158cfda11214efe30571c03db114fbdd049c17fe034",
+          "preparedSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79"
+        },
+        {
+          "version": "v19",
+          "kind": "normal",
+          "path": "public/textures/lighting-v19/normal-0.png",
+          "sha256": "55087bcb6758f77a11e17d96fb0cd917a32d2429c3aaab50f20efbb4c2d6a06d",
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "manifest": "public/textures/lighting-v19/surface-0-manifest.json",
+          "manifestSha256": "c7d28f2ac19c602738d117d77df5923eab565d6c623a6e2480a2877162d34693",
+          "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64"
+        },
+        {
+          "version": "v19",
+          "kind": "specular",
+          "path": "public/textures/lighting-v19/specular-0.png",
+          "sha256": "b7f7498702fbf3ef0275e2fe587a3f8d62f0beb36537f8ed06dcff28b968bdea",
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "manifest": "public/textures/lighting-v19/surface-0-manifest.json",
+          "manifestSha256": "c7d28f2ac19c602738d117d77df5923eab565d6c623a6e2480a2877162d34693",
+          "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64"
+        }
+      ]
+    }
+  ],
+  "excludedPlatformParts": [
+    {
+      "node": "WEB8_architecture.platform__baked__A8",
+      "slot": 8,
+      "reason": "No upward horizontal triangles on the floor top plane."
+    }
+  ],
+  "failedChecks": [],
+  "dayNightBakeAssetsRequired": false,
+  "lightingPixelsSampled": false,
+  "gpuPixelsRead": false,
+  "aboutAssetsModified": false,
+  "aboutBaselineRehashed": false,
+  "provenance": "Read-only CPU inspection of MCP-produced source-bound PNG bakes and unchanged exported platform geometry; only this report is written.",
+  "limitations": "Verifies uncompressed linear source-bake material pixels. It does not establish final KTX/GPU decoding, visible daylight whitening, wall-wash appearance, or browser visual approval."
+}

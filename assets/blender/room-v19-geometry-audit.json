@@ -1,0 +1,222 @@
+{
+  "complete": true,
+  "geometryDiagnosticComplete": true,
+  "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "currentRuntimeVerified": true,
+  "baseline": "public/models/orbital-atelier-v18.glb",
+  "baselineSha256": "11e0449c84a38fc8458c81fc68eecdf92ddda26d99bcc5005add16b790622897",
+  "path": "public/models/orbital-atelier-v19.glb",
+  "sha256": "bea7daa74b9f67a96397119b755fdb564f604d5dcd7215286ddf0bf44459505c",
+  "floor": {
+    "node": "WEB8_room_static__baked__A0",
+    "oldVertices": 21635,
+    "newVertices": 21373,
+    "oldTriangles": 23712,
+    "newTriangles": 23532,
+    "removedTriangles": 180,
+    "removedComponents": 9,
+    "deletedOldTriangleRange": [
+      0,
+      179
+    ],
+    "indexedCornersExactlyPreserved": true,
+    "attributes": {
+      "NORMAL": {
+        "retainedCorners": {
+          "shape": [
+            70596,
+            3
+          ],
+          "sha256": "d19e507838fabbcc08301d9a24c66de2fcd8a40c8f7c96fa2602a52e3ed03757"
+        },
+        "exportedVertices": {
+          "shape": [
+            21373,
+            3
+          ],
+          "sha256": "a7007ed9bd2a2814c911e679b5d7822a563d95c5032ab685bed002be7cf63ac7"
+        },
+        "maxError": 0
+      },
+      "POSITION": {
+        "retainedCorners": {
+          "shape": [
+            70596,
+            3
+          ],
+          "sha256": "1f7e7a490adaaf935b3a56215acc8b93e85a37256e1a800f1a7b4907bb078be5"
+        },
+        "exportedVertices": {
+          "shape": [
+            21373,
+            3
+          ],
+          "sha256": "4dc21e967c77ec5056e9b95c600b46fa609601a33aeef1a603aec7967160a8a1"
+        },
+        "maxError": 0
+      },
+      "TEXCOORD_0": {
+        "retainedCorners": {
+          "shape": [
+            70596,
+            2
+          ],
+          "sha256": "18aef4052d05be5868b57ef38b00b2f312b2e5f5baca60e89f4b113f5f3cd928"
+        },
+        "exportedVertices": {
+          "shape": [
+            21373,
+            2
+          ],
+          "sha256": "414341684d8c6572fc059af4f17d2e011343bc6337e4eea5b70e08a29c20e576"
+        },
+        "maxError": 0
+      }
+    },
+    "indices": {
+      "shape": [
+        70596
+      ],
+      "sha256": "440c6be01070a94d482383d9fdca07c083b86a2cf7e2cccedbbc501ea184e6db"
+    },
+    "fingerprintEncoding": "Float attributes as little-endian float64, indices as int64, signed zero canonicalized."
+  },
+  "oldNodeCount": 197,
+  "newNodeCount": 199,
+  "preservedAssetIds": 95,
+  "addedAssetIds": [
+    "lighting.ceiling_warm"
+  ],
+  "unchangedExistingMeshCount": 101,
+  "unchangedExistingMeshNodes": [
+    "WEB8_room_static__image__A0",
+    "WEB8_architecture.platform__baked__A0",
+    "WEB8_architecture.platform__baked__A8",
+    "WEB8_main_display__baked__A2",
+    "WEB8_main_display__image__A2",
+    "WEB8_compute_core__baked__A2",
+    "WEB8_compute_core__glass__A2",
+    "WEB8_furniture.desk__baked__A1",
+    "WEB8_furniture.work_chair__baked__A1",
+    "WEB8_furniture.lounge__baked__A7",
+    "WEB8_furniture.coffee_table__baked__A1",
+    "WEB8_furniture.coffee_table__glass__A1",
+    "WEB8_furniture.rug__baked__A1",
+    "WEB8_robot_leg_00__baked__A2",
+    "WEB8_robot_leg_01__baked__A2",
+    "WEB8_robot_leg_02__baked__A2",
+    "WEB8_robot_service_hatch__baked__A2",
+    "WEB8_robot_companion__baked__A2",
+    "WEB8_folding_drawing_terminal__baked__A2",
+    "WEB8_drawing_stylus__baked__A2",
+    "WEB8_terminal_panel_L__baked__A2",
+    "WEB8_terminal_panel_R__baked__A2",
+    "WEB8_terminal_tilt__baked__A2",
+    "WEB8_c_archive_dock__baked__A2",
+    "WEB8_archive_cartridge_00__baked__A2",
+    "WEB8_archive_cartridge_01__baked__A2",
+    "WEB8_archive_cartridge_02__baked__A2",
+    "WEB8_kinetic_three_petal_flower__baked__A2",
+    "WEB8_flower_petal_0__baked__A2",
+    "WEB8_flower_petal_1__baked__A2",
+    "WEB8_flower_petal_2__baked__A2",
+    "WEB8_headphones_on_stand__baked__A2",
+    "WEB8_headphone_cup_0__baked__A2",
+    "WEB8_headphone_cup_1__baked__A2",
+    "WEB8_ceramic_ring_speaker__baked__A2",
+    "WEB8_speaker_gimbal__baked__A2",
+    "WEB8_desktop_creative_controller__baked__A2",
+    "WEB8_keyboard_dial__baked__A2",
+    "WEB8_keyboard_half_0__baked__A2",
+    "WEB8_keyboard_half_1__baked__A2",
+    "WEB8_compact_camera__baked__A2",
+    "WEB8_camera_focus_lens__baked__A2",
+    "WEB8_thermal_cup__baked__A2",
+    "WEB8_coffee_table_dial__baked__A2",
+    "WEB8_coffee_table_pen__baked__A2",
+    "WEB8_creative_folio__baked__A2",
+    "WEB8_notebook__baked__A2",
+    "WEB8_glass_bonsai_terrarium__baked__A2",
+    "WEB8_glass_bonsai_terrarium__glass__A2",
+    "WEB8_trailing_wall_plant__baked__A2",
+    "WEB8_creative_book_0__baked__A3",
+    "WEB8_creative_book_1__baked__A3",
+    "WEB8_creative_book_2__baked__A3",
+    "WEB8_titanium_bookend_0__baked__A3",
+    "WEB8_titanium_bookend_1__baked__A3",
+    "WEB8_original_trefoil_geometry__baked__A3",
+    "WEB8_geometric_specimen_cloche__baked__A3",
+    "WEB8_geometric_specimen_cloche__glass__A3",
+    "WEB8_communicator_panel_0__baked__A3",
+    "WEB8_communicator_panel_1__baked__A3",
+    "WEB8_folding_communicator_handset__baked__A3",
+    "WEB8_portable_fold_communicator__baked__A3",
+    "WEB8_ceramic_mobius_study__baked__A3",
+    "WEB8_ceramic_mobius_form__baked__A3",
+    "WEB8_small_planter_leaf_0__baked__A3",
+    "WEB8_small_planter_leaf_1__baked__A3",
+    "WEB8_small_planter_leaf_2__baked__A3",
+    "WEB8_small_planter_leaf_3__baked__A3",
+    "WEB8_small_planter_leaf_4__baked__A3",
+    "WEB8_glass_cutting_planter__baked__A3",
+    "WEB8_glass_cutting_planter__glass__A3",
+    "WEB8_black_ceramic_floor_planter__baked__A3",
+    "WEB8_floor_vase_leaf_0__baked__A3",
+    "WEB8_floor_vase_leaf_1__baked__A3",
+    "WEB8_floor_vase_leaf_2__baked__A3",
+    "WEB8_floor_vase_leaf_3__baked__A3",
+    "WEB8_floor_vase_leaf_4__baked__A3",
+    "WEB8_floor_vase_leaf_5__baked__A3",
+    "WEB8_floor_vase_leaf_6__baked__A3",
+    "WEB8_v5_clock_dial__baked__A4",
+    "WEB8_v5_orbital_clock__baked__A4",
+    "WEB8_v5_portable_projector__baked__A4",
+    "WEB8_v5_projector_lens__baked__A4",
+    "WEB8_v5_magnetic_pen_dock__baked__A4",
+    "WEB8_v5_magnetic_stylus__baked__A4",
+    "WEB8_v5_modular_equipment_cases__baked__A4",
+    "WEB8_v5_upper_equipment_case__baked__A4",
+    "WEB8_v5_geometric_floor_lamp__baked__A4",
+    "WEB8_v5_floor_lamp_head__baked__A4",
+    "WEB8_v5_energy_capsule__baked__A4",
+    "WEB8_v5_energy_capsule_rack__baked__A4",
+    "WEB8_v5_data_panel_selector__baked__A4",
+    "WEB8_v5_mechanical_data_panel__baked__A4",
+    "WEB8_v5_scout_drone_display__baked__A4",
+    "WEB8_v5_scout_drone__baked__A4",
+    "WEB8_environment.orbital_dock__baked__A5",
+    "WEB8_environment.warm_gallery__baked__A6",
+    "WEB8_v8_desk_glow_lamp__baked__A4",
+    "WEB8_v8_window_light_bar__baked__A4",
+    "WEB8_v8_reading_puck__baked__A4",
+    "WEB8_room_static__baked__A8"
+  ],
+  "oldNodeHierarchyIdsOwnershipTransformsExactlyPreserved": true,
+  "addedNodes": [
+    "WEB19_CEILING_WARM_Root",
+    "WEB19_lighting.ceiling_warm__baked__A12"
+  ],
+  "triangles": 418383,
+  "expectedCurrentTriangles": 418383,
+  "nodeIdentityPolicy": "Compare by stable node name, allowing Blender mesh datablock suffixes such as .001.",
+  "compressedPath": "public/models/orbital-atelier-v19-compressed.glb",
+  "compressedSha256": "9f1ead74d33e4b58ec295c2bfb28ce32debf91368053b199213ce9aaa75c31ef",
+  "compressedGeometryHierarchyExactlyPreserved": true,
+  "boundEmbeddedImages": [
+    "night-window",
+    "night-0",
+    "night-8",
+    "night-2",
+    "static-screen",
+    "night-1",
+    "night-11",
+    "night-7",
+    "night-10",
+    "night-9",
+    "night-3",
+    "night-4",
+    "night-5",
+    "night-6",
+    "night-12"
+  ]
+}

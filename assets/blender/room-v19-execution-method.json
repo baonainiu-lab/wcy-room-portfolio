@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "revision": 19,
+  "reviewRevision": 2,
+  "preparedSource": "assets/blender/orbital-dual-bake-v19.blend",
+  "preparedSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "authoring": {
+    "method": "File-targeted Blender MCP with Python helper scripts",
+    "includes": [
+      "floor geometry removal",
+      "original geometry/UV/normal preservation audit",
+      "matte deep-wood grain materials",
+      "independent three-direction warm ceiling luminaire",
+      "editable and prepared source saves",
+      "real day/night Cycles review renders",
+      "13 surface/data bakes or full-nodegraph-proven inheritance",
+      "day radiance slots 0 and 1"
+    ]
+  },
+  "offlineBakeFallback": {
+    "reason": "Installed Blender MCP file-targeted tool exposes only blend_file and code. Its internal run_blender_cli defaults to a hard 120-second subprocess timeout; the public tool exposes no timeout/environment override. Full atlas and UV receiver partition attempts exceeded that bound. No MCP installation was patched.",
+    "authorization": "Root explained this concrete limitation to the user and authorized an offline bake-only fallback under the device MCP preference exception.",
+    "method": "Fresh independent Blender background process per atlas, same immutable source and original recipe, serial GPU lock, 1800-second job timeout.",
+    "quality": "96 samples and original atlas dimensions. No receiver splitting, no float buffer assembly, no geometry/UV/material changes.",
+    "observedBottleneck": "One-second read-only process stack sample found Cycles bake inside OpenImageDenoise CPU denoising. day-2 completed intact in 199.75 wall seconds.",
+    "activeLauncher": "assets/blender/scripts/run_room_v19_offline_bakes.py",
+    "launcherSha256": "d5ffc12ea9e5d22ee5a8eb7579cd6edd171dc2d73827ec51be1be83e8526537a",
+    "jobAuditDirectory": "assets/blender/room-v19-offline-bake-jobs"
+  },
+  "abandonedPartitionExperiment": {
+    "helper": "assets/blender/scripts/room_v19_partitioned_bake.py",
+    "reason": "Preserving original 4096-pixel buffer kept denoising cost over 120 seconds, even with receiver splitting.",
+    "producedDeliveredPixels": false,
+    "usedInRuntime": false
+  },
+  "foregroundSafety": "Interactive courtyard scene was not switched, saved or modified by these jobs.",
+  "status": "all source bakes, reflection probes and raw GLB delivered",
+  "gpuDenoiseOverride": {
+    "for": "night 0–12, intro 0/1/8, day and night reflection probes",
+    "supportedHardware": "Apple M5 10-core Metal GPU; MCP capability query true",
+    "onlySettingChanged": "denoising_use_gpu false -> true",
+    "unchanged": [
+      "OPENIMAGEDENOISE",
+      "HIGH quality",
+      "ACCURATE prefilter",
+      "RGB_ALBEDO_NORMAL inputs",
+      "96 bake samples",
+      "original map dimensions",
+      "source blend bytes"
+    ],
+    "perProductEvidence": "execution field in manifests"
+  },
+  "reflectionAndFinalExport": "file-targeted Blender MCP",
+  "foregroundFinalRead": {
+    "connected": false,
+    "error": "Cannot connect to Blender at localhost:9876",
+    "lastSuccessfulRead": {
+      "file": "/Users/a90/Documents/ChatGPT/毕设模型设计 2/scene-courtyard-v03/Iron_Flower_Courtyard_v03.blend",
+      "scene": "CY03_DAY_MAIN",
+      "dirty": false
+    },
+    "didNotReopenOrSwitchScene": true
+  }
+}

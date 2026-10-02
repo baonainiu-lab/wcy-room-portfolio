@@ -1,0 +1,39 @@
+{
+  "id": "qingke",
+  "name": "站酷庆科黄油体",
+  "family": "Room Review Qingke",
+  "weight": 400,
+  "style": "normal",
+  "tag": "圆角切口 · 装置铭牌感",
+  "description": "方圆结合与断笔切口，带温度的未来感。",
+  "fontUrl": "/fonts/review-v3/zcool-qingke/review-qingke.woff2",
+  "license": "OFL-1.1",
+  "source": "https://github.com/googlefonts/zcool-qingke-huangyou",
+  "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/OFL.txt",
+  "files": [
+    {
+      "name": "ZCOOLQingKeHuangYou-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+      "bytes": 8328684,
+      "sha256": "54f0c0df4308cd74cd0f2fd3494ae054dbc4a1fd6fa7d71f4807eb4cdd8b4136"
+    },
+    {
+      "name": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/OFL.txt",
+      "bytes": 4419,
+      "sha256": "f1bce31b817dee01c1e4ef8bc45d8ecb95f01f4abbf0a985007cb3cd0fd8123d"
+    },
+    {
+      "name": "METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/METADATA.pb",
+      "bytes": 687,
+      "sha256": "254f65c558dd29fdabcec269174fb5d80fbd36350a8df729a85686163840f74f"
+    }
+  ],
+  "derivative": {
+    "bytes": 18508,
+    "sha256": "678dbc1c1ca0f0b1a7a64c9de8cebc29afe7c413e8bda5c056129b9d0cef7aeb",
+    "renamed": true,
+    "characters": 128
+  }
+}

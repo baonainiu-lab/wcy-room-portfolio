@@ -1,0 +1,118 @@
+{
+  "checkedAt": "2026-09-25T14:22:49.050Z",
+  "checks": [
+    {
+      "check": "the actual fully opened terminal fits within the original asset envelope without changing its root",
+      "status": "passed",
+      "finalBounds": {
+        "min": [
+          -2.810899019573696,
+          1.8610803159106388,
+          -1.5719188317341164
+        ],
+        "max": [
+          -2.03935715814283,
+          2.2890332969048397,
+          -0.7049250391574435
+        ]
+      },
+      "originalBounds": {
+        "min": [
+          -2.8451153186141305,
+          1.8455394854253586,
+          -1.5853259522378798
+        ],
+        "max": [
+          -2.005140859102397,
+          2.731956740199453,
+          -0.6915179186536808
+        ]
+      },
+      "support": {
+        "assetId": "furniture.desk",
+        "surfaceHeight": 1.8580803159106392,
+        "clearance": 0.003,
+        "lift": 0.015540830485280654,
+        "samples": [
+          {
+            "x": -2.8108990195736965,
+            "z": -1.5719188317341166,
+            "y": 1.8580800113973246
+          },
+          {
+            "x": -2.8108990195736965,
+            "z": -1.13842193544578,
+            "y": 1.858079855896898
+          },
+          {
+            "x": -2.8108990195736965,
+            "z": -0.7049250391574438,
+            "y": 1.8580798324171064
+          },
+          {
+            "x": -2.4251280888582634,
+            "z": -1.5719188317341166,
+            "y": 1.8580803159106392
+          },
+          {
+            "x": -2.4251280888582634,
+            "z": -1.13842193544578,
+            "y": 1.8580799601410318
+          },
+          {
+            "x": -2.4251280888582634,
+            "z": -0.7049250391574438,
+            "y": 1.8580798031667571
+          },
+          {
+            "x": -2.0393571581428303,
+            "z": -1.5719188317341166,
+            "y": 1.8333908267892527
+          }
+        ]
+      },
+      "independentlyMeasuredSupport": {
+        "validSamples": 38,
+        "surfaceHeight": 1.8580803159106392,
+        "actualClearance": 0.0029999999999996696
+      },
+      "meshes": 18,
+      "triangleDelta": -14946,
+      "drawCallDelta": 13
+    },
+    {
+      "check": "all native parts remain independently selectable and the original Blender animation still resolves",
+      "status": "passed",
+      "parts": [
+        "terminal_dial",
+        "terminal_lid",
+        "terminal_rail"
+      ],
+      "tracks": [
+        "seedlid.position",
+        "seedlid.quaternion",
+        "seeddial.quaternion",
+        "seedrail.quaternion"
+      ]
+    },
+    {
+      "check": "detachment preserves the exact world pose and landing restores final native geometry even after room animation",
+      "status": "passed"
+    },
+    {
+      "check": "welcome lighting fades to retained PBR reflections and room day/night values instead of black",
+      "status": "passed"
+    },
+    {
+      "check": "disposal restores original children once and never disposes the shared room atlases",
+      "status": "passed"
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "scope": "Actual GLTFLoader vertices, native clip and transforms. Image decoding and GPU PMREM generation are substituted; no rendered brightness or FPS claim.",
+  "sourceSha256": {
+    "src/resident-terminal.js": "b27c39fed75fba661c3ba7fd2ebf5f4519f0e9b120a4e559ac4c1cf7533acc3e",
+    "src/main.js": "8672170f0eec0a67d12190cb3ee5fd09abff04aff4a9d7a1a53b1f4cf3b429b7"
+  }
+}

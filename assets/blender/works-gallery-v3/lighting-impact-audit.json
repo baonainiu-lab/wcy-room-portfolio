@@ -1,0 +1,12 @@
+{
+  "probe_count": 140,
+  "sun_direction": [
+    0.5757662057876587,
+    0.5234238505363464,
+    0.62810879945755
+  ],
+  "removed_environment_direct_sun_occlusion_count": 0,
+  "hits": [],
+  "retained_lights": "all original local light positions/powers/materials preserved",
+  "indirect_limit": "Old A0/A2/A3 bake includes V1 indirect environment contribution. Removing the remote city may change subtle indirect bounce; no claim of mathematically identical global illumination. The user requested a fast clean gallery preview; original interior maps retain approved light and shadow appearance."
+}

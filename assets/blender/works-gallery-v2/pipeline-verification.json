@@ -1,0 +1,96 @@
+{
+  "complete": true,
+  "model": {
+    "source": "public/models/works-gallery-v2.glb",
+    "sourceBytes": 35353208,
+    "sourceSha256": "1c53fcd028db92d1deec2a1ca6837121a49eade0302b46f4f065f34e2675a426",
+    "path": "public/models/works-gallery-v2-compressed.glb",
+    "bytes": 37353148,
+    "sha256": "366fcec8eead92040255ea7321a897d42723dd1e7a25fe18e1ca60602bebc66c",
+    "nodes": 162,
+    "meshes": 90,
+    "materials": 6,
+    "triangles": 834070,
+    "replacedImageBufferViews": [
+      3,
+      13,
+      50,
+      54,
+      150
+    ],
+    "preservedNonImageBufferViews": 258,
+    "geometryAndHierarchyUnchanged": true,
+    "otherTopLevelJsonUnchanged": true,
+    "sourceGlbUnchanged": true,
+    "requiredExtension": "KHR_texture_basisu"
+  },
+  "asset_count": 87,
+  "primitives": 90,
+  "atlas_sizes": [
+    4096,
+    3072,
+    4096,
+    4096,
+    2048
+  ],
+  "textures": 10,
+  "estimated_astc_mib_both_states": 162.66696166992188,
+  "checks": {
+    "original_v1_source_hash_unchanged": true,
+    "original_86_ids_preserved": true,
+    "original_geometry_and_uv_sha256": "25229fd6683864cde3cbead0561cf5dbd46da4b6885acf5286cdb803d903b122",
+    "retained_atlases_byte_identical": {
+      "day-0": true,
+      "day-2": true,
+      "day-3": true,
+      "night-0": true,
+      "night-2": true,
+      "night-3": true
+    },
+    "bake_complete": {
+      "day": true,
+      "night": true
+    },
+    "geometry_closed": {
+      "vertices": 24520,
+      "edges": 47820,
+      "faces": 23546,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "all_supports_connected": true,
+    "compressed_geometry_and_hierarchy_preserved": true,
+    "preserved_non_image_views": 258,
+    "works-gallery-v1.glb_unchanged": true,
+    "works-gallery-v1-compressed.glb_unchanged": true
+  },
+  "web_bounds": {
+    "min": [
+      -60.0,
+      -7.619999885559082,
+      -84.0
+    ],
+    "max": [
+      56.0,
+      16.764598846435547,
+      28.0
+    ]
+  },
+  "stage_offset_y": 4.755,
+  "stage_alignment": "terrain TOP -5.82 + 4.755 aligned to room ground -1.065; hide stage-only old infinite ground; bottom-alignment 6.555 is superseded because broad landmass overlaps room",
+  "native_gallery_floor_y": -7.63,
+  "preview_render_verification": {
+    "complete": true,
+    "type": "actual Blender Cycles Metal 24samples, 1200x820",
+    "report": "renders/works-gallery-v2/foundation-review-renders.json",
+    "inspected": [
+      "day-foundation-overview.png",
+      "day-podium-low.png",
+      "day-city-supports.png"
+    ],
+    "finding": "Continuous gallery podium, ground and pier foundations visible; no cut-off floating supports in inspected overview, low front angle and city side angle. Original skyline geometry unchanged. This is not an exhaustive check of every possible camera pose."
+  },
+  "gpu_jobs_complete": true
+}

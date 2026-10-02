@@ -1,0 +1,699 @@
+{
+  "complete": true,
+  "sourceUnchanged": true,
+  "sourceSha256": "d7a9ec353e8214201c586e823283259c64f63a99f8284913d8aff94c691a2b40",
+  "modelSha256": "8d713bfb253b275e87c6f8875309baf506a9d09ab8f74b717b2d23cdb7126ec0",
+  "assetCount": 128,
+  "interactiveRoots": 127,
+  "hierarchyPreserved": true,
+  "interactionExtrasPreserved": true,
+  "sourceToGltfRootWorldMatrixMaxError": 3.304272908621897e-07,
+  "boundsGltfFromActualVertices": {
+    "min": [
+      -3.75,
+      -0.0040000006556510925,
+      -2.3299999237060547
+    ],
+    "max": [
+      3.7799999713897705,
+      4.146907329559326,
+      2.695499897003174
+    ],
+    "dimensions": [
+      7.5299999713897705,
+      4.150907330214977,
+      5.0254998207092285
+    ]
+  },
+  "triangles": 430574,
+  "offlineContextExcluded": true,
+  "atlasValidation": [
+    {
+      "atlas": 0,
+      "sha256": "86a2dcf84adfa4b5dd3f4e3c722f28392de1b8f73e9871165713b4c6441e43c2",
+      "embeddedMatchesPng": true,
+      "unlit": true
+    },
+    {
+      "atlas": 1,
+      "sha256": "617520295978a241f32a54b6430ab14745e645475a4d948f09696c64f9b50d20",
+      "embeddedMatchesPng": true,
+      "unlit": true
+    },
+    {
+      "atlas": 2,
+      "sha256": "65eab721c5a4b2acec6f791cb8fab69b3bda370a98d6a6844d98c6c1691a1378",
+      "embeddedMatchesPng": true,
+      "unlit": true
+    },
+    {
+      "atlas": 3,
+      "sha256": "7bb69bea2f7e2842b63153b077d98ebaef7c18e5609c485b297f44c26b36cf1f",
+      "embeddedMatchesPng": true,
+      "unlit": true
+    }
+  ],
+  "assetInterfaces": {
+    "about.workbench.board_surface_sample_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.contact_terminal_display": {
+      "interaction": "contact",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_surface_sample_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.right_shelf_portfolio_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_vernier_caliper": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.envelope.02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.top_book.2": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_eraser": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_graphite_pencil": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.portfolio.rack": {
+      "interaction": "browse_archive",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.articulated_brass_task_lamp": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_spare_lens": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.02.glass_lid": {
+      "interaction": "lift",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_book_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_book_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.02.sculpture": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.awards_console": {
+      "interaction": "cabinet",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_pen_03": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_book_03": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_brush_cup": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_inkwell": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_crate": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.03": {
+      "interaction": "award_placeholder",
+      "interactive": true,
+      "content_status": "award information pending"
+    },
+    "archive.cabinet": {
+      "interaction": "cabinet",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_steel_rule": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_pen_04": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.portfolio.book.0": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_drafting_pen_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_magnifier": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_pen_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.material_sample.0": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.material_sample.1": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_pen_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.plant.foreground": {
+      "interaction": "sway",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.keepsake_box": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.material_sample.2": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_pen_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.portfolio.book.1": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.01.glass_lid": {
+      "interaction": "lift",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_drafting_pen_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.lower_archive.0": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_drafting_pen_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.medal.0.16": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_pen_05": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_large_fabric_sample": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_pen_cup": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.portfolio.book.2": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_folder_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.right_shelf_portfolio_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_lens_shelf": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_folder_03": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_folder_04": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.03.glass_lid": {
+      "interaction": "lift",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_roll_tool_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_ring_gauge": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.01.sculpture": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_drafting_pen_03": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_roll_tool_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.swatch_binding_pin": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.lower_archive.2": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.material_sample.3": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.stored_scroll.2": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_roll_tool_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.task_lamp_shade": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.right_shelf_portfolio_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_roll_tool_04": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.walnut_screen": {
+      "interaction": "architecture",
+      "interactive": false,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_roll_tool_05": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_headphones": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.medal.-0.17": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.top_book.0": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.machined_lens_study": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_book_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_structure": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawer_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawer_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawer_03": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawer_sketch_pad_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawer_sketch_pad_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.chair": {
+      "interaction": "swivel",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawing_roll_long": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawing_roll_short": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.medal_tray": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_leather_tool_roll": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.material_swatch_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.return.interface": {
+      "interaction": "return_room",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.chair.caster.0": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.drawer_sketch_pad_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.02": {
+      "interaction": "award_placeholder",
+      "interactive": true,
+      "content_status": "award information pending"
+    },
+    "archive.ribbon_spool": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.material_swatch_02": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.scroll_drawer": {
+      "interaction": "slide",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.chair.caster.2": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.stored_scroll.0": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.stored_scroll.1": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.chair.caster.1": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.drawer.03": {
+      "interaction": "slide",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_surface_sample_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_original_geometry_frame": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.material_swatch_03": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_book_04": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.chair.caster.3": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.drawer.01": {
+      "interaction": "slide",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.drawer.02": {
+      "interaction": "slide",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.material_swatch_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.01": {
+      "interaction": "award_placeholder",
+      "interactive": true,
+      "content_status": "award information pending"
+    },
+    "archive.drawer.04": {
+      "interaction": "slide",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.drawer.05": {
+      "interaction": "slide",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.lower_archive.1": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.chair.caster.4": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.material_swatch_04": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.drawer.06": {
+      "interaction": "slide",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_tool_case": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.envelope.01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.top_book.1": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.material_swatch_05": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_folder_00": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.floor.art": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_mechanical_pencil": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.open_sketchbook": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.shelf_archive_folder_01": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "atelier.plant.cabinet": {
+      "interaction": "sway",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "archive.award.03.sculpture": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.desk_parts_dish": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.contact_terminal": {
+      "interaction": "contact",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.board_roll_tool_03": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.paper_polyhedron_study": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    },
+    "about.workbench.tool_pegboard_structure": {
+      "interaction": "inspect",
+      "interactive": true,
+      "content_status": "placeholder"
+    }
+  },
+  "method": "Source loaded in independent background Blender; every original asset world matrix compared to recursively evaluated glTF node matrix after the Z-up/Y-up basis conversion; all exported POSITION vertices inspected; every embedded PNG hash compared."
+}

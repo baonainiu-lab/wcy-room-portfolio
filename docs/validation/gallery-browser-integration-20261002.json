@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-02",
+  "url": "http://127.0.0.1:5173/?qa",
+  "browser": "CUA Codex IAB actual main page; Chrome actual catalog mobile fixture",
+  "desktopViewport": [
+    1280,
+    720
+  ],
+  "mobileViewport": [
+    390,
+    844
+  ],
+  "results": {
+    "actualStand2Click": true,
+    "stand3ThreeProjects": true,
+    "cameraVideoPlayed": true,
+    "tornadoVideoPlayed": true,
+    "stand5SixProjects": true,
+    "latestEcommerceImagesLoaded": [
+      "dashboard-20261002.webp",
+      "assistant-20261002.webp",
+      "campaigns-20261002.webp"
+    ],
+    "latestEcommerceNaturalWidth": 1512,
+    "dialogDesktopBounds": {
+      "x": 56,
+      "y": 56,
+      "width": 1168,
+      "height": 608
+    },
+    "freshOpenScrollTop": 0,
+    "closeRestoredPosition": [
+      11.156362973336927,
+      9.224119453798298,
+      18.117503084847097
+    ],
+    "closeRestoredTarget": [
+      0.4930044795619606,
+      0.8413636436630598,
+      0.6739744505215713
+    ],
+    "controlsRestored": true,
+    "coverReadyCount": 5,
+    "consoleErrors": [],
+    "mobileSixProjectImagesLoaded": true,
+    "mobileVisibleContentOverflow": false,
+    "mobileContentWidth": 366
+  },
+  "limits": [
+    "No fixed-frame-rate claim",
+    "Original media resolution retained",
+    "No deployment performed"
+  ]
+}

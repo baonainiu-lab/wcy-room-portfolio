@@ -1,0 +1,346 @@
+{
+  "created": "2026-10-02",
+  "scope": "User authorized exhibit 2 night-store and exhibit 3 camera, living-room, sports-car. Local portfolio only. Original projects read-only.",
+  "editorialPolicy": "Uses actual captures and renders, not generated concept art; claims limited to existing project evidence; no commercial results or independently verified gameplay performance claimed.",
+  "licensingNotes": [
+    "Nikon is a study of an existing camera product; do not imply brand endorsement.",
+    "Living room source documents list Poly Haven and ambientCG CC0 PBR/HDRI assets. Source design reference rights remain to be confirmed before public release.",
+    "Media reused from user project workspace for explicitly requested local portfolio integration."
+  ],
+  "assets": [
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/night-store/playable-build.jpg",
+      "sourceSha256": "ccc3b9b4cdb97a4e90c743fdcf662ea0a55b90be064375d08344e04e2b49ac6b",
+      "output": "/media/works/night-store/playable-build.webp",
+      "outputSha256": "543c19242ffda5f0d05d29e32b2a556128db3e734988c3078a979128b43be605",
+      "sourceDimensions": [
+        1282,
+        752
+      ],
+      "outputDimensions": [
+        1282,
+        752
+      ],
+      "outputBytes": 118922,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing game screenshot",
+      "caption": "Windows 实机：收银视角与便利店环境"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/night-store/main-menu.jpg",
+      "sourceSha256": "e4a28f5918ee8ea37ea5d248b4df59729ddd0d7927cc5cde433ad8259f235fc8",
+      "output": "/media/works/night-store/main-menu.webp",
+      "outputSha256": "3356d4f0b91a771a2e1bd4b908aa7234cc056d50ff03cfaca28681d7c416413d",
+      "sourceDimensions": [
+        1282,
+        752
+      ],
+      "outputDimensions": [
+        1282,
+        752
+      ],
+      "outputBytes": 83874,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing game screenshot",
+      "caption": "游戏主菜单与夜班入口"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/night-store/checkout-terminal.jpg",
+      "sourceSha256": "1c32cc23ba053f1e8116216937f4aca1713c9843f149485f13cf2cb9ee8b0a70",
+      "output": "/media/works/night-store/checkout-terminal.webp",
+      "outputSha256": "c2cc0fd7b45e10365956761f0edbcbe02bf059964e0d1f1f6c76580f7c462c33",
+      "sourceDimensions": [
+        1282,
+        752
+      ],
+      "outputDimensions": [
+        1282,
+        752
+      ],
+      "outputBytes": 94874,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing game screenshot",
+      "caption": "商品结算与身份检查终端"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/night-store/settings-qa.jpg",
+      "sourceSha256": "3e2ae3c8a69edc00bacef393c782552269433d8ca47e28441a837d40f345f0d8",
+      "output": "/media/works/night-store/settings-qa.webp",
+      "outputSha256": "8b3df2e6adbc84c39a8b5d1471df2a008f62620d4b750c44ab9c2eb08c702f2c",
+      "sourceDimensions": [
+        1282,
+        752
+      ],
+      "outputDimensions": [
+        1282,
+        752
+      ],
+      "outputBytes": 54438,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing game screenshot",
+      "caption": "运行时设置界面"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/night-store/night-briefing.jpg",
+      "sourceSha256": "fffbb1cab6cac35acef7b0e629e860088745cc3f82409449fbfa12a03517b64d",
+      "output": "/media/works/night-store/night-briefing.webp",
+      "outputSha256": "dedb0868222a2f61d8ad8b1bf761214c3a6d9ed051be70e08ffea1f1898b8c70",
+      "sourceDimensions": [
+        1282,
+        752
+      ],
+      "outputDimensions": [
+        1282,
+        752
+      ],
+      "outputBytes": 93596,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing game screenshot",
+      "caption": "夜班简报与任务指引"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/nikon/final-render.png",
+      "sourceSha256": "9861d1ebc4b8ffd9b4e8c06e6d7b910c010c5e638e02676f33dd2b11adfd4366",
+      "output": "/media/works/3d-studies/nikon-final-render.webp",
+      "outputSha256": "c0e25f123d49e82c19316aaebc283e4686b0d6dacd251ad22e75364a4ec78f92",
+      "sourceDimensions": [
+        1920,
+        1080
+      ],
+      "outputDimensions": [
+        1600,
+        900
+      ],
+      "outputBytes": 85656,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing authored 3D work image",
+      "caption": "相机三个角度的材质成片"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/nikon/model-topology.png",
+      "sourceSha256": "ed480e9838ca03d8362c353ebdfb9d64280abadd931c3e4ecf54a89afd29f6a1",
+      "output": "/media/works/3d-studies/nikon-model-topology.webp",
+      "outputSha256": "a179ac2030c682efbaeae933e975363fce4565d8a5ef659bc2d22d6895be665e",
+      "sourceDimensions": [
+        1920,
+        1080
+      ],
+      "outputDimensions": [
+        1600,
+        900
+      ],
+      "outputBytes": 52004,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing authored 3D work image",
+      "caption": "相机建模与拓扑过程板"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/nikon/pbr-textures.png",
+      "sourceSha256": "2b4757c63d0e43b9b57b2f57332bd4caf39f7acba1e49d2f9f8fbb8d5d3d8c2c",
+      "output": "/media/works/3d-studies/nikon-pbr-textures.webp",
+      "outputSha256": "c858c3a69eb458e20cb7aa5bd1f3109411796ff6b307213a4c9ac06a2ccef403",
+      "sourceDimensions": [
+        1920,
+        1080
+      ],
+      "outputDimensions": [
+        1600,
+        900
+      ],
+      "outputBytes": 76788,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "existing authored 3D work image",
+      "caption": "相机 PBR 材质通道过程板"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/reference-living-room/renders/living-room-final.png",
+      "sourceSha256": "1e93b4a6811e862a95646ea69ddc0863b1b0f8f2cf625d8ddadaeb4e6c919a8b",
+      "output": "/media/works/3d-studies/living-room-final.webp",
+      "outputSha256": "e85d10af56ed24408e73518ae9f5090c98e9385dd6cc4ae357a9dc7853e2c17c",
+      "sourceDimensions": [
+        2400,
+        1966
+      ],
+      "outputDimensions": [
+        1600,
+        1311
+      ],
+      "outputBytes": 178906,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender render",
+      "caption": "暖色客厅最终 Cycles 渲染"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/reference-living-room/renders/upholstery-detail.png",
+      "sourceSha256": "71d3f3e7dce24c800e5023e0ffd7f50504f167a425c8809fd2bdb51cf90f7089",
+      "output": "/media/works/3d-studies/upholstery-detail.webp",
+      "outputSha256": "81caeee2f29d0b15f5ef5fafb7003bab40367ce7711ce3e075d256da2ef6c9f2",
+      "sourceDimensions": [
+        1600,
+        1150
+      ],
+      "outputDimensions": [
+        1600,
+        1150
+      ],
+      "outputBytes": 367656,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender render",
+      "caption": "软包织物、边桌与软装细节"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/reference-living-room/renders/layout-plan.png",
+      "sourceSha256": "f4dc2fb07c8216b642eb501012d6d7c04cb85d078ed8ede96a8ff84ab15e68de",
+      "output": "/media/works/3d-studies/layout-plan.webp",
+      "outputSha256": "85da3d1bde167d0ff357e6f565d455168b03a86438f132cfe2b8e9ba639a7a7d",
+      "sourceDimensions": [
+        1200,
+        1200
+      ],
+      "outputDimensions": [
+        1200,
+        1200
+      ],
+      "outputBytes": 116066,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender render",
+      "caption": "客厅俯视布局检查图"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/renders/v4/hero_front.png",
+      "sourceSha256": "6ccda0ab88ad50c0e60d8713b655d5a9580250e5cfa07f85ab93a041937085e2",
+      "output": "/media/works/3d-studies/aurora-hero-front.webp",
+      "outputSha256": "791fcc496904f0909f77b7255c21031548f5f8144d34f3c0f8ea4b73290b2b81",
+      "sourceDimensions": [
+        2400,
+        1500
+      ],
+      "outputDimensions": [
+        1600,
+        1000
+      ],
+      "outputBytes": 75002,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender V4 Cycles render",
+      "caption": "AURORA GT V4 前侧棚拍"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/renders/v4/hero_rear.png",
+      "sourceSha256": "35bed3106dbd7053040d09dd04cc1ee0e2c18cfccee8cd074a0e8156c79021d1",
+      "output": "/media/works/3d-studies/aurora-hero-rear.webp",
+      "outputSha256": "07d40cd6540af3ff9b0755bf22e8fd3bff8e6d47222cbfe38debd15cd0e954ac",
+      "sourceDimensions": [
+        2400,
+        1500
+      ],
+      "outputDimensions": [
+        1600,
+        1000
+      ],
+      "outputBytes": 71494,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender V4 Cycles render",
+      "caption": "AURORA GT V4 后侧棚拍"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/renders/v4/wheel_detail.png",
+      "sourceSha256": "32667ef9f442ec9559c7feb88248fe3bdb8a44c5194d1d2caac731bfacdfc2bf",
+      "output": "/media/works/3d-studies/aurora-wheel-detail.webp",
+      "outputSha256": "0bf2fe52b89f09eb0a16f6c804e43e59542454149d0e8b7c1d171b6930669c67",
+      "sourceDimensions": [
+        1500,
+        1500
+      ],
+      "outputDimensions": [
+        1500,
+        1500
+      ],
+      "outputBytes": 115138,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender V4 Cycles render",
+      "caption": "轮毂、轮胎与刹车结构"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/renders/v4/roof_detail.png",
+      "sourceSha256": "c3f6ea8c1bfa80de63d8504c08943cc8fb946a3b3666b530d7fdb5eadc606fd7",
+      "output": "/media/works/3d-studies/aurora-roof-detail.webp",
+      "outputSha256": "e930d01b48f10fc152b3bda728f0c0ae9b7286dfa790a86cd893a6e403be8e57",
+      "sourceDimensions": [
+        1800,
+        1200
+      ],
+      "outputDimensions": [
+        1600,
+        1067
+      ],
+      "outputBytes": 97970,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender V4 Cycles render",
+      "caption": "车顶、立柱与分区玻璃"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/renders/v4/front_left_detail.png",
+      "sourceSha256": "806572908f8881ed5a18d4d847eb487ff189e064f94590ccadba1f66ce1a63bf",
+      "output": "/media/works/3d-studies/aurora-front-left-detail.webp",
+      "outputSha256": "8032cb68ee623eb2edeb3f1bce7f438a4c7655af310420f144385b78e881a211",
+      "sourceDimensions": [
+        1600,
+        1100
+      ],
+      "outputDimensions": [
+        1600,
+        1100
+      ],
+      "outputBytes": 90022,
+      "conversion": "WebP quality 91; max dimension 1600; preserves full composition; no generative editing",
+      "kind": "actual Blender V4 Cycles render",
+      "caption": "前包围、头灯与进气细节"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/nikon-camera-modeling.mp4",
+      "sourceSha256": "23caae1cb669f66569fa9efa01058d3bd87e973ec31d39093b29ca39eac57b10",
+      "output": "/media/works/3d-studies/nikon-camera-modeling.mp4",
+      "outputSha256": "bb8fb03a4d555124e518689706087f6164a5774088f97a812baeac8a51a67c08",
+      "outputBytes": 5724938,
+      "kind": "existing authored camera demonstration video",
+      "conversion": "Stream-copy MP4 remux with faststart; H264 Main 1920x1080 30 fps, 10 seconds; no audio stream"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "/Users/a90/Documents/wcy90-portfolio/app/page.tsx",
+      "sha256": "1216b757995ea38b2edb40c21c1b7390d713838d1866b39530959c9f9827276d",
+      "purpose": "Read only existing work metadata and titles for night-store and Nikon; no UI code copied"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/建模/reference-living-room/README.md",
+      "sha256": "de6e9de46f8ff4ddd6d4cd9bdbdecae25b7f6a5469fab6c1979c8befe80fda8f",
+      "purpose": "Blender engineering, rendering and limits"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/建模/reference-living-room/assets/SOURCES.md",
+      "sha256": "7626c414afbbf701c439310cb9217e9b05f9f0c9f30bb1d29432de5a918b0624",
+      "purpose": "Third-party PBR/HDRI origin and CC0 licenses"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/建模/reference-living-room/delivery_validation.json",
+      "sha256": "acb0b30f2e0d2bffbf57cd31679dfdd70888a6d8d74e73ccac5caece38cea886",
+      "purpose": "Actual engineering delivery record"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/README.md",
+      "sha256": "063705bb09d0e1054f9f62069061985c253f76af2a7c56c5ecf0a9f2bf1f2cf5",
+      "purpose": "V4 current engineering and Blender MCP production record"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/render_report.json",
+      "sha256": "eb0e169b8273418187d226030d75d7045ed082f22961dfc6012fe3564c88880f",
+      "purpose": "V4 actual Cycles output resolution and file names"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/建模/aurora-gt-blender/delivery_validation_v4.json",
+      "sha256": "1230d005c7a58a3104c1d45469e03ad9fb41abb5afd47d278ea9d7881e71df0e",
+      "purpose": "V4 engineering validation"
+    }
+  ]
+}

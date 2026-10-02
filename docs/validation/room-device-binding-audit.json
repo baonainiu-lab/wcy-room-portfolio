@@ -1,0 +1,1244 @@
+{
+  "checkedAt": "2026-09-25T03:41:53.075Z",
+  "scope": "Read-only production V15 geometry and room-entry binding audit. No GLB, blend or runtime files changed.",
+  "sourceModels": [
+    {
+      "path": "public/models/orbital-atelier-v15.glb",
+      "sha256": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15"
+    },
+    {
+      "path": "public/models/orbital-atelier-v15-compressed.glb",
+      "sha256": "3787d233559af32f2e3ababb21b71c56c5805e7c7f2e286f87634efe8cd6bffd"
+    }
+  ],
+  "sourceStructureReport": {
+    "path": "docs/validation/room-fold-structure.json",
+    "sha256": "2aa3233472fc5e7c0d8f15143a82e5fdd3f9dc9fefba30b9ab0406e05ff84579"
+  },
+  "runtime": {
+    "path": "src/room-entry.js",
+    "sha256": "0cc25cee391d0a94e6758175a92059742aa4253b388b14910b271bda8454934d",
+    "deviceBefore": {
+      "main_display": {
+        "scale": [
+          1.1399998664855957,
+          1.1399999856948853,
+          1.1399998664855957
+        ],
+        "boundsLength": 3.934540583304912,
+        "matrixWorld": [
+          0.48178484752886674,
+          0,
+          -1.0331907285637136,
+          0,
+          0,
+          1.1399999856948853,
+          0,
+          0,
+          1.0331907285637136,
+          0,
+          0.48178484752886674,
+          0,
+          -0.2872920036315918,
+          -0.025199994444847107,
+          -1.9106242656707764,
+          1
+        ]
+      },
+      "compute_core": {
+        "scale": [
+          1.1399998664855957,
+          1.1399999856948853,
+          1.1399998664855957
+        ],
+        "boundsLength": 2.210513541649664,
+        "matrixWorld": [
+          0.48178484752886674,
+          0,
+          -1.0331907285637136,
+          0,
+          0,
+          1.1399999856948853,
+          0,
+          0,
+          1.0331907285637136,
+          0,
+          0.48178484752886674,
+          0,
+          -0.2872920036315918,
+          -0.025199994444847107,
+          -1.9106242656707764,
+          1
+        ]
+      }
+    },
+    "deviceHidden": {
+      "main_display": {
+        "scale": [
+          0.000011399998664855958,
+          0.000011399999856948854,
+          0.000011399998664855958
+        ],
+        "boundsLength": 0.00003934540583313977,
+        "children": [
+          "WEB8_main_display__baked__A2",
+          "WEB8_main_display__image__A2"
+        ]
+      },
+      "compute_core": {
+        "scale": [
+          0.000011399998664855958,
+          0.000011399999856948854,
+          0.000011399998664855958
+        ],
+        "boundsLength": 0.00002210513541645316,
+        "children": [
+          "WEB8_compute_core__baked__A2",
+          "WEB8_compute_core__glass__A2"
+        ]
+      }
+    },
+    "staticWorldMatrixMaximumDeltaWhileDeviceHidden": 0,
+    "restoreMaximumMatrixError": 0
+  },
+  "staticAudits": [
+    {
+      "nodeIndex": 195,
+      "name": "WEB8_room_static__baked__A0",
+      "meshIndex": 100,
+      "primitive": 0,
+      "material": "WEB8_LIGHTMAP_0",
+      "triangleCount": 23712,
+      "components": 38,
+      "attributes": {
+        "POSITION": {
+          "bytes": 259620,
+          "sha256": "aca658f7a37fd98ed38eceb9f9f26b98e5c078af2aaa96da04690dc30f65edcc",
+          "compressedGLBIdentical": true
+        },
+        "NORMAL": {
+          "bytes": 259620,
+          "sha256": "4184f72779863d4bae8136efc271b6bef1830fcf495278ad255c85d28349358b",
+          "compressedGLBIdentical": true
+        },
+        "TEXCOORD_0": {
+          "bytes": 173080,
+          "sha256": "e15afdb4c7c08d592c17cf45e7bc579333c1a70d53b0bddac0a2d13724a72faa",
+          "compressedGLBIdentical": true
+        }
+      },
+      "indicesCompressedGLBIdentical": true,
+      "parts": [
+        {
+          "part": 0,
+          "source": "A_FloorJointX",
+          "assembly": "fold.floor",
+          "firstTriangle": 0,
+          "endTriangleExclusive": 20,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 0,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -3.802999973297119,
+              0.1821468323469162,
+              -3
+            ],
+            "max": [
+              -3.796999931335449,
+              0.18785317242145538,
+              3.119999885559082
+            ]
+          },
+          "maxBoundsError": 1.7242145539109188e-7
+        },
+        {
+          "part": 1,
+          "source": "A_FloorJointX",
+          "assembly": "fold.floor",
+          "firstTriangle": 20,
+          "endTriangleExclusive": 40,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 60,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -1.902999997138977,
+              0.1821468323469162,
+              -3
+            ],
+            "max": [
+              -1.8969999551773071,
+              0.18785317242145538,
+              3.119999885559082
+            ]
+          },
+          "maxBoundsError": 1.7242145539109188e-7
+        },
+        {
+          "part": 2,
+          "source": "A_FloorJointX",
+          "assembly": "fold.floor",
+          "firstTriangle": 40,
+          "endTriangleExclusive": 60,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 120,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -0.0030000002589076757,
+              0.1821468323469162,
+              -3
+            ],
+            "max": [
+              0.0030000002589076757,
+              0.18785317242145538,
+              3.119999885559082
+            ]
+          },
+          "maxBoundsError": 1.7242145539109188e-7
+        },
+        {
+          "part": 3,
+          "source": "A_FloorJointX",
+          "assembly": "fold.floor",
+          "firstTriangle": 60,
+          "endTriangleExclusive": 80,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 180,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              1.8969999551773071,
+              0.1821468323469162,
+              -3
+            ],
+            "max": [
+              1.902999997138977,
+              0.18785317242145538,
+              3.119999885559082
+            ]
+          },
+          "maxBoundsError": 1.7242145539109188e-7
+        },
+        {
+          "part": 4,
+          "source": "A_FloorJointX",
+          "assembly": "fold.floor",
+          "firstTriangle": 80,
+          "endTriangleExclusive": 100,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 240,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              3.796999931335449,
+              0.1821468323469162,
+              -3
+            ],
+            "max": [
+              3.802999973297119,
+              0.18785317242145538,
+              3.119999885559082
+            ]
+          },
+          "maxBoundsError": 1.7242145539109188e-7
+        },
+        {
+          "part": 5,
+          "source": "A_FloorJointY",
+          "assembly": "fold.floor",
+          "firstTriangle": 100,
+          "endTriangleExclusive": 120,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 300,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -4.550000190734863,
+              0.1821468323469162,
+              2.197000026702881
+            ],
+            "max": [
+              4.550000190734863,
+              0.18785317242145538,
+              2.203000068664551
+            ]
+          },
+          "maxBoundsError": 1.9073486345888568e-7
+        },
+        {
+          "part": 6,
+          "source": "A_FloorJointY",
+          "assembly": "fold.floor",
+          "firstTriangle": 120,
+          "endTriangleExclusive": 140,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 360,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -4.550000190734863,
+              0.1821468323469162,
+              0.6469999551773071
+            ],
+            "max": [
+              4.550000190734863,
+              0.18785317242145538,
+              0.652999997138977
+            ]
+          },
+          "maxBoundsError": 1.9073486345888568e-7
+        },
+        {
+          "part": 7,
+          "source": "A_FloorJointY",
+          "assembly": "fold.floor",
+          "firstTriangle": 140,
+          "endTriangleExclusive": 160,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 420,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -4.550000190734863,
+              0.1821468323469162,
+              -0.902999997138977
+            ],
+            "max": [
+              4.550000190734863,
+              0.18785317242145538,
+              -0.8969999551773071
+            ]
+          },
+          "maxBoundsError": 1.9073486345888568e-7
+        },
+        {
+          "part": 8,
+          "source": "A_FloorJointY",
+          "assembly": "fold.floor",
+          "firstTriangle": 160,
+          "endTriangleExclusive": 180,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 480,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -4.550000190734863,
+              0.1821468323469162,
+              -2.453000068664551
+            ],
+            "max": [
+              4.550000190734863,
+              0.18785317242145538,
+              -2.447000026702881
+            ]
+          },
+          "maxBoundsError": 1.9073486345888568e-7
+        },
+        {
+          "part": 9,
+          "source": "A_LeftSkirting",
+          "assembly": "fold.floor",
+          "firstTriangle": 180,
+          "endTriangleExclusive": 220,
+          "triangles": 40,
+          "contiguous": true,
+          "indexOffset": 540,
+          "indexCount": 120,
+          "bounds": {
+            "min": [
+              -4.815000057220459,
+              0.27720245718955994,
+              -3.2150001525878906
+            ],
+            "max": [
+              4.699999809265137,
+              0.3627975583076477,
+              2.3499999046325684
+            ]
+          },
+          "maxBoundsError": 4.5718955993256927e-7
+        },
+        {
+          "part": 10,
+          "source": "A_UnderWindow_Panel_00",
+          "assembly": "fold.wall.back",
+          "firstTriangle": 220,
+          "endTriangleExclusive": 520,
+          "triangles": 300,
+          "contiguous": true,
+          "indexOffset": 660,
+          "indexCount": 900,
+          "bounds": {
+            "min": [
+              -3.0899999141693115,
+              0.2850000262260437,
+              -3.2049999237060547
+            ],
+            "max": [
+              -1.9900000095367432,
+              1.4149999618530273,
+              -2.755000114440918
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 11,
+          "source": "A_UnderWindow_Panel_01",
+          "assembly": "fold.wall.back",
+          "firstTriangle": 520,
+          "endTriangleExclusive": 820,
+          "triangles": 300,
+          "contiguous": true,
+          "indexOffset": 1560,
+          "indexCount": 900,
+          "bounds": {
+            "min": [
+              -1.940000057220459,
+              0.2850000262260437,
+              -3.2049999237060547
+            ],
+            "max": [
+              -0.8399999737739563,
+              1.4149999618530273,
+              -2.755000114440918
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 12,
+          "source": "A_UnderWindow_Panel_02",
+          "assembly": "fold.wall.back",
+          "firstTriangle": 820,
+          "endTriangleExclusive": 1120,
+          "triangles": 300,
+          "contiguous": true,
+          "indexOffset": 2460,
+          "indexCount": 900,
+          "bounds": {
+            "min": [
+              -0.7900000214576721,
+              0.2850000262260437,
+              -3.2049999237060547
+            ],
+            "max": [
+              0.3100000023841858,
+              1.4149999618530273,
+              -2.755000114440918
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 13,
+          "source": "A_UnderWindow_Panel_03",
+          "assembly": "fold.wall.back",
+          "firstTriangle": 1120,
+          "endTriangleExclusive": 1420,
+          "triangles": 300,
+          "contiguous": true,
+          "indexOffset": 3360,
+          "indexCount": 900,
+          "bounds": {
+            "min": [
+              0.36000001430511475,
+              0.2850000262260437,
+              -3.2049999237060547
+            ],
+            "max": [
+              1.4600000381469727,
+              1.4149999618530273,
+              -2.755000114440918
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 14,
+          "source": "A_UnderWindow_Panel_04",
+          "assembly": "fold.wall.back",
+          "firstTriangle": 1420,
+          "endTriangleExclusive": 1720,
+          "triangles": 300,
+          "contiguous": true,
+          "indexOffset": 4260,
+          "indexCount": 900,
+          "bounds": {
+            "min": [
+              1.5099999904632568,
+              0.2850000262260437,
+              -3.2049999237060547
+            ],
+            "max": [
+              2.609999895095825,
+              1.4149999618530273,
+              -2.755000114440918
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 15,
+          "source": "A_DisplayShelf_0",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 1720,
+          "endTriangleExclusive": 2548,
+          "triangles": 828,
+          "contiguous": true,
+          "indexOffset": 5160,
+          "indexCount": 2484,
+          "bounds": {
+            "min": [
+              3.255000114440918,
+              0.675000011920929,
+              -3.2149999141693115
+            ],
+            "max": [
+              4.744999885559082,
+              0.75,
+              -2.4649999141693115
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 16,
+          "source": "A_ShelfWarmStrip_0",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 2548,
+          "endTriangleExclusive": 2568,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 7644,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              3.440000057220459,
+              1.6566851139068604,
+              -3.0439999103546143
+            ],
+            "max": [
+              4.559999942779541,
+              1.6833148002624512,
+              -3.0160000324249268
+            ]
+          },
+          "maxBoundsError": 1.9973754872282257e-7
+        },
+        {
+          "part": 17,
+          "source": "A_DisplayShelf_1",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 2568,
+          "endTriangleExclusive": 3396,
+          "triangles": 828,
+          "contiguous": true,
+          "indexOffset": 7704,
+          "indexCount": 2484,
+          "bounds": {
+            "min": [
+              3.255000114440918,
+              1.9249999523162842,
+              -3.2149999141693115
+            ],
+            "max": [
+              4.744999885559082,
+              2,
+              -2.4649999141693115
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 18,
+          "source": "A_ShelfWarmStrip_1",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 3396,
+          "endTriangleExclusive": 3416,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 10188,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              3.440000057220459,
+              2.9066853523254395,
+              -3.0439999103546143
+            ],
+            "max": [
+              4.559999942779541,
+              2.933314800262451,
+              -3.0160000324249268
+            ]
+          },
+          "maxBoundsError": 3.523254394899311e-7
+        },
+        {
+          "part": 19,
+          "source": "A_DisplayShelf_2",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 3416,
+          "endTriangleExclusive": 4244,
+          "triangles": 828,
+          "contiguous": true,
+          "indexOffset": 10248,
+          "indexCount": 2484,
+          "bounds": {
+            "min": [
+              3.255000114440918,
+              3.174999952316284,
+              -3.2149999141693115
+            ],
+            "max": [
+              4.744999885559082,
+              3.25,
+              -2.4649999141693115
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 20,
+          "source": "A_ShelfWarmStrip_2",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 4244,
+          "endTriangleExclusive": 4264,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 12732,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              3.440000057220459,
+              4.1566853523254395,
+              -3.0439999103546143
+            ],
+            "max": [
+              4.559999942779541,
+              4.183314800262451,
+              -3.0160000324249268
+            ]
+          },
+          "maxBoundsError": 3.523254390458419e-7
+        },
+        {
+          "part": 21,
+          "source": "A_RightSpine_Light",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 4264,
+          "endTriangleExclusive": 4344,
+          "triangles": 80,
+          "contiguous": true,
+          "indexOffset": 12792,
+          "indexCount": 240,
+          "bounds": {
+            "min": [
+              4.6781487464904785,
+              0.6483636498451233,
+              -3.0315728187561035
+            ],
+            "max": [
+              4.941833972930908,
+              4.300273418426514,
+              -2.978431224822998
+            ]
+          },
+          "maxBoundsError": 4.1842651388179775e-7
+        },
+        {
+          "part": 22,
+          "source": "A_WindowDisplayLedge",
+          "assembly": "fold.window-ledge",
+          "firstTriangle": 4344,
+          "endTriangleExclusive": 5172,
+          "triangles": 828,
+          "contiguous": true,
+          "indexOffset": 13032,
+          "indexCount": 2484,
+          "bounds": {
+            "min": [
+              -2.625,
+              1.3450000286102295,
+              -3.2300000190734863
+            ],
+            "max": [
+              3.325000047683716,
+              1.4199999570846558,
+              -2.4100000858306885
+            ]
+          },
+          "maxBoundsError": 8.583068833445395e-8
+        },
+        {
+          "part": 23,
+          "source": "A_WindowDisplayInlay",
+          "assembly": "fold.window-ledge",
+          "firstTriangle": 5172,
+          "endTriangleExclusive": 5376,
+          "triangles": 204,
+          "contiguous": true,
+          "indexOffset": 15516,
+          "indexCount": 612,
+          "bounds": {
+            "min": [
+              -2.575000047683716,
+              1.4190000295639038,
+              -3.180000066757202
+            ],
+            "max": [
+              3.2750000953674316,
+              1.4270000457763672,
+              -2.440000057220459
+            ]
+          },
+          "maxBoundsError": 9.536743172944284e-8
+        },
+        {
+          "part": 24,
+          "source": "A_WindowDisplayRecessGlow",
+          "assembly": "fold.window-ledge",
+          "firstTriangle": 5376,
+          "endTriangleExclusive": 5396,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 16128,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -2.450000047683716,
+              1.3492937088012695,
+              -2.4560000896453857
+            ],
+            "max": [
+              3.0999999046325684,
+              1.3607063293457031,
+              -2.444000005722046
+            ]
+          },
+          "maxBoundsError": 3.293457031539049e-7
+        },
+        {
+          "part": 25,
+          "source": "A_BackWall_Graphite",
+          "assembly": "fold.wall.back",
+          "firstTriangle": 5396,
+          "endTriangleExclusive": 6264,
+          "triangles": 868,
+          "contiguous": true,
+          "indexOffset": 16188,
+          "indexCount": 2604,
+          "bounds": {
+            "min": [
+              -4.960000038146973,
+              0.18000000715255737,
+              -3.740000009536743
+            ],
+            "max": [
+              4.960000038146973,
+              5.130000114440918,
+              -3.309999942779541
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        },
+        {
+          "part": 26,
+          "source": "A_LeftWallInner",
+          "assembly": "fold.wall.left",
+          "firstTriangle": 6264,
+          "endTriangleExclusive": 6852,
+          "triangles": 588,
+          "contiguous": true,
+          "indexOffset": 18792,
+          "indexCount": 1764,
+          "bounds": {
+            "min": [
+              -5.309999942779541,
+              0.18000000715255737,
+              -3.740000009536743
+            ],
+            "max": [
+              -4.929999828338623,
+              4.595376491546631,
+              2.450000047683716
+            ]
+          },
+          "maxBoundsError": 4.915466309540761e-7
+        },
+        {
+          "part": 27,
+          "source": "A_DisplayTowerBack",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 6852,
+          "endTriangleExclusive": 8364,
+          "triangles": 1512,
+          "contiguous": true,
+          "indexOffset": 20556,
+          "indexCount": 4536,
+          "bounds": {
+            "min": [
+              3.2249999046325684,
+              0.44999998807907104,
+              -3.299999952316284
+            ],
+            "max": [
+              4.775000095367432,
+              4.650000095367432,
+              -3.059999942779541
+            ]
+          },
+          "maxBoundsError": 9.536743172944284e-8
+        },
+        {
+          "part": 28,
+          "source": "T_DisplaySilverRim",
+          "assembly": "main_display",
+          "firstTriangle": 8364,
+          "endTriangleExclusive": 9404,
+          "triangles": 1040,
+          "contiguous": true,
+          "indexOffset": 25092,
+          "indexCount": 3120,
+          "bounds": {
+            "min": [
+              -4.565698146820068,
+              2.2637948989868164,
+              -1.678436040878296
+            ],
+            "max": [
+              -3.0704269409179688,
+              3.7962052822113037,
+              1.482515573501587
+            ]
+          },
+          "maxBoundsError": 4.2649841303088465e-7
+        },
+        {
+          "part": 29,
+          "source": "T_ArticulatedArm_0",
+          "assembly": "main_display",
+          "firstTriangle": 9404,
+          "endTriangleExclusive": 9424,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 28212,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -4.909587383270264,
+              1.8535391092300415,
+              1.3006103038787842
+            ],
+            "max": [
+              -4.39640998840332,
+              2.6560606956481934,
+              1.598975419998169
+            ]
+          },
+          "maxBoundsError": 4.1999816891014063e-7
+        },
+        {
+          "part": 30,
+          "source": "T_ArmPivot_0",
+          "assembly": "main_display",
+          "firstTriangle": 9424,
+          "endTriangleExclusive": 11632,
+          "triangles": 2208,
+          "contiguous": true,
+          "indexOffset": 28272,
+          "indexCount": 6624,
+          "bounds": {
+            "min": [
+              -4.9639058113098145,
+              2.4941999912261963,
+              1.2505322694778442
+            ],
+            "max": [
+              -4.713344097137451,
+              2.745000123977661,
+              1.5010936260223389
+            ]
+          },
+          "maxBoundsError": 3.739776610611756e-7
+        },
+        {
+          "part": 31,
+          "source": "T_ArticulatedArm_1",
+          "assembly": "main_display",
+          "firstTriangle": 11632,
+          "endTriangleExclusive": 11652,
+          "triangles": 20,
+          "contiguous": true,
+          "indexOffset": 34896,
+          "indexCount": 60,
+          "bounds": {
+            "min": [
+              -4.913267612457275,
+              2.5709333419799805,
+              0.8848884105682373
+            ],
+            "max": [
+              -4.602263927459717,
+              3.2154667377471924,
+              1.4390065670013428
+            ]
+          },
+          "maxBoundsError": 4.3299865715162866e-7
+        },
+        {
+          "part": 32,
+          "source": "T_ArmPivot_1",
+          "assembly": "main_display",
+          "firstTriangle": 11652,
+          "endTriangleExclusive": 13860,
+          "triangles": 2208,
+          "contiguous": true,
+          "indexOffset": 34956,
+          "indexCount": 6624,
+          "bounds": {
+            "min": [
+              -4.802187442779541,
+              3.0413999557495117,
+              0.8228026032447815
+            ],
+            "max": [
+              -4.551625728607178,
+              3.2922000885009766,
+              1.073364019393921
+            ]
+          },
+          "maxBoundsError": 4.427795410322233e-7
+        },
+        {
+          "part": 33,
+          "source": "T_Compute_Disc",
+          "assembly": "compute_core",
+          "firstTriangle": 13860,
+          "endTriangleExclusive": 14880,
+          "triangles": 1020,
+          "contiguous": true,
+          "indexOffset": 41580,
+          "indexCount": 3060,
+          "bounds": {
+            "min": [
+              -2.7670938968658447,
+              0.7727999091148376,
+              1.4168260097503662
+            ],
+            "max": [
+              -2.572591543197632,
+              1.1831998825073242,
+              1.7977042198181152
+            ]
+          },
+          "maxBoundsError": 4.5680236837597477e-7
+        },
+        {
+          "part": 34,
+          "source": "T_Compute_Bolt",
+          "assembly": "compute_core",
+          "firstTriangle": 14880,
+          "endTriangleExclusive": 17088,
+          "triangles": 2208,
+          "contiguous": true,
+          "indexOffset": 44640,
+          "indexCount": 6624,
+          "bounds": {
+            "min": [
+              -2.80491042137146,
+              0.4102800190448761,
+              1.9089680910110474
+            ],
+            "max": [
+              -2.7763187885284424,
+              0.45132002234458923,
+              1.9476388692855835
+            ]
+          },
+          "maxBoundsError": 4.2137145994658454e-7
+        },
+        {
+          "part": 35,
+          "source": "T_Compute_Bolt",
+          "assembly": "compute_core",
+          "firstTriangle": 17088,
+          "endTriangleExclusive": 19296,
+          "triangles": 2208,
+          "contiguous": true,
+          "indexOffset": 51264,
+          "indexCount": 6624,
+          "bounds": {
+            "min": [
+              -2.80491042137146,
+              1.3792799711227417,
+              1.9089680910110474
+            ],
+            "max": [
+              -2.7763187885284424,
+              1.42031991481781,
+              1.9476388692855835
+            ]
+          },
+          "maxBoundsError": 4.2137145994658454e-7
+        },
+        {
+          "part": 36,
+          "source": "T_Compute_Bolt",
+          "assembly": "compute_core",
+          "firstTriangle": 19296,
+          "endTriangleExclusive": 21504,
+          "triangles": 2208,
+          "contiguous": true,
+          "indexOffset": 57888,
+          "indexCount": 6624,
+          "bounds": {
+            "min": [
+              -2.5158398151397705,
+              0.4102800190448761,
+              1.2890537977218628
+            ],
+            "max": [
+              -2.487248182296753,
+              0.45132002234458923,
+              1.327724575996399
+            ]
+          },
+          "maxBoundsError": 4.240036011182724e-7
+        },
+        {
+          "part": 37,
+          "source": "T_Compute_Bolt",
+          "assembly": "compute_core",
+          "firstTriangle": 21504,
+          "endTriangleExclusive": 23712,
+          "triangles": 2208,
+          "contiguous": true,
+          "indexOffset": 64512,
+          "indexCount": 6624,
+          "bounds": {
+            "min": [
+              -2.5158398151397705,
+              1.3792799711227417,
+              1.2890537977218628
+            ],
+            "max": [
+              -2.487248182296753,
+              1.42031991481781,
+              1.327724575996399
+            ]
+          },
+          "maxBoundsError": 4.240036011182724e-7
+        }
+      ]
+    },
+    {
+      "nodeIndex": 196,
+      "name": "WEB8_room_static__baked__A8",
+      "meshIndex": 101,
+      "primitive": 0,
+      "material": "WEB8_LIGHTMAP_8",
+      "triangleCount": 19328,
+      "components": 7,
+      "attributes": {
+        "POSITION": {
+          "bytes": 159120,
+          "sha256": "b87aed9372f2ceacdf0ba9edc2ba2a0cc4bdc30bc928bb1ccb07a8817e2fdd33",
+          "compressedGLBIdentical": true
+        },
+        "NORMAL": {
+          "bytes": 159120,
+          "sha256": "5ef08c2e677617a9a0e335ad7bad34fcd3f895304df9909585623510b28a4692",
+          "compressedGLBIdentical": true
+        },
+        "TEXCOORD_0": {
+          "bytes": 106080,
+          "sha256": "e7ae1ab953a0356b492016dc61d982357df3afca8f63b38eeec7a7829dacce26",
+          "compressedGLBIdentical": true
+        }
+      },
+      "indicesCompressedGLBIdentical": true,
+      "parts": [
+        {
+          "part": 0,
+          "source": "A_FloorEdgePrecisionSeam",
+          "assembly": "fold.floor",
+          "firstTriangle": 0,
+          "endTriangleExclusive": 1040,
+          "triangles": 1040,
+          "contiguous": true,
+          "indexOffset": 0,
+          "indexCount": 3120,
+          "bounds": {
+            "min": [
+              -4.993992328643799,
+              0.16668520867824554,
+              -3.5339925289154053
+            ],
+            "max": [
+              4.993992328643799,
+              0.1933148056268692,
+              3.5339925289154053
+            ]
+          },
+          "maxBoundsError": 4.710845948885378e-7
+        },
+        {
+          "part": 1,
+          "source": "A_WindowRecessLight",
+          "assembly": "fold.window",
+          "firstTriangle": 1040,
+          "endTriangleExclusive": 2080,
+          "triangles": 1040,
+          "contiguous": true,
+          "indexOffset": 3120,
+          "indexCount": 3120,
+          "bounds": {
+            "min": [
+              -2.7376043796539307,
+              1.7173956632614136,
+              -3.0809998512268066
+            ],
+            "max": [
+              2.9876043796539307,
+              4.222604751586914,
+              -3.065000057220459
+            ]
+          },
+          "maxBoundsError": 3.7965393051564433e-7
+        },
+        {
+          "part": 2,
+          "source": "A_SweepingTopBand",
+          "assembly": "fold.wall.back",
+          "firstTriangle": 2080,
+          "endTriangleExclusive": 10784,
+          "triangles": 8704,
+          "contiguous": true,
+          "indexOffset": 6240,
+          "indexCount": 26112,
+          "bounds": {
+            "min": [
+              -4.906404495239258,
+              4.467175006866455,
+              -3.7799999713897705
+            ],
+            "max": [
+              4.9112229347229,
+              5.21248722076416,
+              -3.119999885559082
+            ]
+          },
+          "maxBoundsError": 4.952392576029752e-7
+        },
+        {
+          "part": 3,
+          "source": "A_LeftTopRail",
+          "assembly": "fold.wall.left",
+          "firstTriangle": 10784,
+          "endTriangleExclusive": 13556,
+          "triangles": 2772,
+          "contiguous": true,
+          "indexOffset": 32352,
+          "indexCount": 8316,
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              3.750743865966797,
+              -3.7773051261901855
+            ],
+            "max": [
+              -4.760375022888184,
+              4.713982582092285,
+              2.4628243446350098
+            ]
+          },
+          "maxBoundsError": 4.179077146559962e-7
+        },
+        {
+          "part": 4,
+          "source": "A_LeftFrontRail",
+          "assembly": "fold.wall.left",
+          "firstTriangle": 13556,
+          "endTriangleExclusive": 14144,
+          "triangles": 588,
+          "contiguous": true,
+          "indexOffset": 40668,
+          "indexCount": 1764,
+          "bounds": {
+            "min": [
+              -5.349999904632568,
+              0.2198982983827591,
+              2.3091442584991455
+            ],
+            "max": [
+              -4.759999752044678,
+              3.9200000762939453,
+              2.548675060272217
+            ]
+          },
+          "maxBoundsError": 2.983827590841148e-7
+        },
+        {
+          "part": 5,
+          "source": "A_DisplayTowerFrame",
+          "assembly": "fold.display-tower",
+          "firstTriangle": 14144,
+          "endTriangleExclusive": 16416,
+          "triangles": 2272,
+          "contiguous": true,
+          "indexOffset": 42432,
+          "indexCount": 6816,
+          "bounds": {
+            "min": [
+              3.174999952316284,
+              0.4099999964237213,
+              -3.1700000762939453
+            ],
+            "max": [
+              4.824999809265137,
+              4.690000057220459,
+              -2.549999952316284
+            ]
+          },
+          "maxBoundsError": 1.9073486345888568e-7
+        },
+        {
+          "part": 6,
+          "source": "A_PanoramaTitaniumBezel",
+          "assembly": "fold.window",
+          "firstTriangle": 16416,
+          "endTriangleExclusive": 19328,
+          "triangles": 2912,
+          "contiguous": true,
+          "indexOffset": 49248,
+          "indexCount": 8736,
+          "bounds": {
+            "min": [
+              -2.9000000953674316,
+              1.559999942779541,
+              -3.3499999046325684
+            ],
+            "max": [
+              3.1500000953674316,
+              4.380000114440918,
+              -3.0799999237060547
+            ]
+          },
+          "maxBoundsError": 1.1444091807533141e-7
+        }
+      ]
+    }
+  ]
+}

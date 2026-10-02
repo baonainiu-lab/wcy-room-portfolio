@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "slot": 8,
+  "channel": "roughness",
+  "dataSize": 2048,
+  "samples": 8,
+  "sourceSha256": "88fc6d9c51dc70909c6c7e5154d8d755a60f30dd8f75174108a360ccf487f33a",
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/orbital-dual-bake-v20.blend",
+  "meshSignature": "56ed5bc67ad00d82fb0ce4973c75f51d932399e64f2c1bd2b3fe0abc7b04ef88",
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v20/roughness-8.npz",
+  "sha256": "43e70f3e6ba1ff2b8dcc4ed07335afc6292bdb02e6110e5ebe903e06852db581",
+  "seconds": 7.33,
+  "rawRange": [
+    0.0,
+    1.0
+  ],
+  "losslessFloatIntermediate": true
+}

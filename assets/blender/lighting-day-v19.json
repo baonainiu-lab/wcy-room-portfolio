@@ -1,0 +1,56 @@
+{
+  "scene": "WEB_DUAL_V8",
+  "state": "day",
+  "sun_energy": 18.0,
+  "sun_position_direction": [
+    7.0,
+    16.0,
+    12.0
+  ],
+  "sun_elevation_degrees": 34.4936568430141,
+  "solar_angular_diameter_degrees": 0.526,
+  "sky_strength": 0.16,
+  "sun_color_linear": [
+    1.0,
+    0.9399999976158142,
+    0.8199999928474426
+  ],
+  "cutaway_roof_height": 5.21,
+  "projected_window_center_on_floor": [
+    -1.5025000000000002,
+    -0.4900000000000002,
+    0.18
+  ],
+  "aperture": {
+    "center_x": 0.125,
+    "center_z": 2.97,
+    "width": 5.57,
+    "height": 2.35,
+    "radius": 0.29,
+    "min_y": 3.075,
+    "max_y": 3.79
+  },
+  "shadow_aperture_material_count": 24,
+  "patched_objects": [
+    "WEB8_room_static__image__A0",
+    "WEB8_environment.orbital_dock__baked__A5",
+    "WEB8_environment.warm_gallery__baked__A6",
+    "WEB8_room_static__baked__A0",
+    "WEB8_room_static__baked__A8"
+  ],
+  "shadow_proxies": [
+    "DAY_SUN_V9_Cutaway_Roof_Flag.001",
+    "DAY_SUN_V9_Window_Mullion_Shadow_0.001",
+    "DAY_SUN_V9_Window_Mullion_Shadow_1.001",
+    "DAY_SUN_V9_Window_Mullion_Shadow_2.001"
+  ],
+  "proxy_exported": false,
+  "night_changed": false,
+  "method": "One real Sun through a rounded shadow-ray aperture, with a cutaway ceiling flag; coherent geometrical furniture shadows and localized oblique sunlight.",
+  "tradeoff": "The modeled backdrop wall is solid behind the city image. Day-only shadow transparency acts as its light aperture. Roof and three optional mullions are camera-invisible lighting proxies and are not exported visible geometry.",
+  "wall_geometry_revision": 19,
+  "cutaway_roof_outward_bounds": {
+    "min_x": -5.38,
+    "max_y": 3.81
+  }
+}

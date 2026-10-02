@@ -1,0 +1,53 @@
+// The camera moves through the shared 3D stage. Only its surrounding controls recede.
+body > .scene-accessibility,
+body > .scene-controls {
+  transition: opacity .46s var(--motion-ease, ease), transform .56s var(--motion-ease, ease);
+  transform: translateY(0);
+}
+
+body > .gallery-nav > .gallery-nav__controls {
+  transition: opacity .38s var(--motion-ease, ease), translate .5s var(--motion-ease, ease);
+  translate: 0 0;
+}
+
+body.is-scene-travelling {
+  > .scene-accessibility,
+  > .scene-controls {
+    // GSAP sets inline opacity for the initial homepage reveal.
+    opacity: .18 !important;
+    pointer-events: none;
+    transition-duration: .25s, .36s;
+  }
+
+  > .scene-accessibility { transform: translateY(-7px); }
+  > .scene-controls { transform: translateY(10px); }
+
+  // Keep the text present while the parent fades; the ordinary inert rule
+  // otherwise removes the top labels immediately on the first travel frame.
+  > .scene-accessibility[inert] .nav-label { opacity: 1; }
+
+  > .gallery-nav > .gallery-nav__controls {
+    opacity: .12 !important;
+    translate: 0 8px;
+    pointer-events: none;
+    animation: none;
+    transition-duration: .25s, .36s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body > .scene-accessibility,
+  body > .scene-controls,
+  body.is-scene-travelling > .scene-accessibility,
+  body.is-scene-travelling > .scene-controls {
+    transform: none;
+    transition: opacity .12s linear;
+  }
+
+  body > .gallery-nav > .gallery-nav__controls,
+  body.is-scene-travelling > .gallery-nav > .gallery-nav__controls {
+    translate: 0 0;
+    transition: opacity .12s linear;
+    animation: none;
+  }
+}

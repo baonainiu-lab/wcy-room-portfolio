@@ -1,0 +1,136 @@
+{
+  "source_sha256": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+  "shell": {
+    "object": "V4 unified continuous structural shell",
+    "vertices": 7485,
+    "triangles": 15002,
+    "components": [
+      {
+        "vertices": 7485,
+        "faces": 7309,
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "bounds": {
+          "min": [
+            -7.570000171661377,
+            -2.440000057220459,
+            0.12999999523162842
+          ],
+          "max": [
+            7.570000171661377,
+            3.643059730529785,
+            5.409999847412109
+          ]
+        }
+      }
+    ],
+    "component_count": 1,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "zero_length_edges": 4
+  },
+  "canopy": [
+    {
+      "name": "V4 solid canopy glass 00",
+      "source_vertices": 10,
+      "source_top_footprint": [
+        [
+          -7.285,
+          1.285,
+          5.022
+        ],
+        [
+          -4.965,
+          1.285,
+          5.022
+        ],
+        [
+          -4.965,
+          3.48,
+          5.191
+        ],
+        [
+          -6.83,
+          3.48,
+          5.191
+        ],
+        [
+          -7.285,
+          3.0,
+          5.154043
+        ]
+      ],
+      "evaluated_bounds": {
+        "min": [
+          -7.284999847412109,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          -4.965000152587891,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "back_region_min_clearance_to_outer_top_m": 0.0684077454062404,
+      "side_region_min_clearance_to_outer_top_m": 0.187704570943227,
+      "back_region_outside_outer_top_samples": 0,
+      "back_region_samples": 696,
+      "max_x_inside_side_outer_plane_m": 0.2850001525878909,
+      "max_y_inside_back_outer_plane_m": 0.13788902282714854
+    },
+    {
+      "name": "V4 solid canopy glass 05",
+      "source_vertices": 10,
+      "source_top_footprint": [
+        [
+          4.965,
+          1.285,
+          5.022
+        ],
+        [
+          7.285,
+          1.285,
+          5.022
+        ],
+        [
+          7.285,
+          3.0,
+          5.154043
+        ],
+        [
+          6.83,
+          3.48,
+          5.191
+        ],
+        [
+          4.965,
+          3.48,
+          5.191
+        ]
+      ],
+      "evaluated_bounds": {
+        "min": [
+          4.965000152587891,
+          1.2851918935775757,
+          4.992280006408691
+        ],
+        "max": [
+          7.284999847412109,
+          3.4821109771728516,
+          5.190808296203613
+        ]
+      },
+      "back_region_min_clearance_to_outer_top_m": 0.0684077454062404,
+      "side_region_min_clearance_to_outer_top_m": 0.18770504778038521,
+      "back_region_outside_outer_top_samples": 0,
+      "back_region_samples": 696,
+      "max_x_inside_side_outer_plane_m": 0.2850001525878909,
+      "max_y_inside_back_outer_plane_m": 0.13788902282714854
+    }
+  ],
+  "source_unchanged": true,
+  "rendered": false,
+  "gpu_requested": false
+}

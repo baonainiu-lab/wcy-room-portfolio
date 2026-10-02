@@ -1,0 +1,66 @@
+{
+  "complete": true,
+  "method": "Official KTX-Software UASTC quality 3, RDO .5, Zstd 9; source Blender bakes unmodified",
+  "source": "public/models/welcome-terminal-v3.glb",
+  "sourceSha256": "e811f7dc9217255e9dc85877d35a3b30339284352888102c03c2db3d29a2255d",
+  "sourceBytes": 44158812,
+  "output": "public/models/welcome-terminal-v3-compressed.glb",
+  "sha256": "d0d5398e18e4315fa31b1c6653bd915d84c9ddcb91076403a22f61c066f1ee5c",
+  "bytes": 9317240,
+  "textures": [
+    {
+      "channel": "normal",
+      "source": "public/textures/welcome-terminal-v3/normal.png",
+      "sourceSha256": "9f5977531a71c3e098be7415e5967f11a9041f2db027c8ef9a3fe21bd7f44432",
+      "path": "public/textures/welcome-terminal-v3/normal.ktx2",
+      "sha256": "a49e242d862ba59fe0237d0c470a3fb36a9c848ba4d4b55511b7bb77a37c318c",
+      "bytes": 1809024,
+      "oetf": "linear",
+      "seconds": 9.4,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "uastcAstcBc7MipBytes": 5592432,
+      "rgba8MipBytes": 22369620
+    },
+    {
+      "channel": "basecolor",
+      "source": "public/textures/welcome-terminal-v3/basecolor.png",
+      "sourceSha256": "6c63af0452bce1cfb6b3b3d1ea90cd3c5de03fbcb5509af1dcc37c2211b04e1c",
+      "path": "public/textures/welcome-terminal-v3/basecolor.ktx2",
+      "sha256": "3270acb9a1d9565d618328d0c4fb9367422735e6014cb696b93138526e558aba",
+      "bytes": 676364,
+      "oetf": "srgb",
+      "seconds": 7.44,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "uastcAstcBc7MipBytes": 5592432,
+      "rgba8MipBytes": 22369620
+    },
+    {
+      "channel": "orm",
+      "source": "public/textures/welcome-terminal-v3/orm.png",
+      "sourceSha256": "9db635aa3a75f8ae4661f3a28059016e4e73ad3df24a9c2a844df55529c0e4a9",
+      "path": "public/textures/welcome-terminal-v3/orm.ktx2",
+      "sha256": "9d29ac9ab7947bb78ae818e2c3847388f0e92dec64b38de9c72da59cbe070d76",
+      "bytes": 1758578,
+      "oetf": "linear",
+      "seconds": 8.62,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "mipLevels": 12,
+      "uastcAstcBc7MipBytes": 5592432,
+      "rgba8MipBytes": 22369620
+    }
+  ],
+  "geometryAndAnimationUnchangedFromRawV3": true,
+  "preservedNonMaterialBufferViews": 138,
+  "preservedOriginalScreenArtwork": true
+}

@@ -1,0 +1,89 @@
+{
+  "verifiedAt": "2026-09-30",
+  "scope": "Room V16 local browser integration after material-only rebake",
+  "localUrl": "http://127.0.0.1:5173/?qa",
+  "viewport": [
+    1280,
+    720
+  ],
+  "model": "/models/orbital-atelier-v16-compressed.glb",
+  "lightingRevision": 16,
+  "releaseReport": "assets/blender/photoreal-materials-v16-release.json",
+  "checks": {
+    "firstWheelStartsOnce": true,
+    "repeatWheelDoesNotRestart": true,
+    "startCount": 1,
+    "completeCount": 1,
+    "openingStartsInDaylight": true,
+    "clockPausedDuringIntro": true,
+    "controlsLockedDuringIntro": true,
+    "controlsRestoredAfterIntro": true,
+    "introCleanLighting": {
+      "revision": 16,
+      "slots": [
+        0,
+        1,
+        8
+      ],
+      "mapsLoaded": 3,
+      "restoredAndDisposedAfterIntro": true
+    },
+    "roomDayLighting": {
+      "ready": true,
+      "dayTextureCount": 13,
+      "materialBindings": 13
+    },
+    "roomNightObserved": {
+      "dayMix": 0.037975905932925165,
+      "liveScreenDayMix": 0.037975905932925165,
+      "screenMaterialCount": 1,
+      "windowMaterialCount": 1,
+      "extraDrawCalls": 0
+    },
+    "bookEntersAbout": true,
+    "physicalAboutReturnWorks": true,
+    "aboutNightObserved": {
+      "clockDayMix": 0.0007142583837036756,
+      "modelDayMix": 0.0007142583837036756,
+      "skyDayMix": 0.0007142583837036756,
+      "nightAtlasCount": 5,
+      "nightAtlasSize": [
+        4096,
+        4096
+      ],
+      "nightReady": true,
+      "materialBindings": 127,
+      "practicalLights": 2
+    },
+    "sharedCycleSeconds": 60,
+    "dawnAndDuskSeconds": 15,
+    "errors": [],
+    "galleryAfterRoomUpgrade": {
+      "ready": true,
+      "revision": "gallery-5",
+      "materialBindings": 4,
+      "dayTextureCount": 4,
+      "dayMix": 0.00019178916493937004,
+      "clockDayMix": 0.00019178916493937004,
+      "controlsEnabled": true
+    },
+    "browserConsoleErrors": []
+  },
+  "build": {
+    "passed": true,
+    "modules": 58,
+    "existingWarning": "Main JS chunk exceeds 500 kB"
+  },
+  "limitations": [
+    "No new dedicated 120 FPS benchmark; no stable-120 claim.",
+    "Visual review covers representative day/night states and opening completion, not every animation frame.",
+    "User artistic approval remains separate from technical integration."
+  ],
+  "productionMethod": {
+    "completedAssets": "Real Blender scenes and Cycles bakes produced using background Blender scripts before the latest MCP-first preference.",
+    "currentTurn": "Runtime code integration and read-only Blender MCP inspection; no new modeling launched.",
+    "mcpConnectedScene": "CY03_ROOF_MATERIAL_DETAIL",
+    "mcpConnectedProject": "Iron_Flower_Courtyard_v03.blend",
+    "mcpSceneLeftUnchanged": true
+  }
+}

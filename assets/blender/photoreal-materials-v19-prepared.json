@@ -1,0 +1,2730 @@
+{
+  "complete": true,
+  "revision": 19,
+  "invocation": "Blender MCP file-targeted scene operations with Python assistance",
+  "source": "assets/blender/orbital-dual-bake-v18.blend",
+  "sourceSha256": "80fbfa84eb4cc2cf8beea3a4a44e5978823de49ac6227cfa1549a61dd776ab79",
+  "derivative": "assets/blender/orbital-dual-bake-v19.blend",
+  "sha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "userDirection": "Remove black floor lines, make dark natural timber grain clearer, add one top warm night practical",
+  "removedFloorGrid": [
+    {
+      "object": "WEB8_room_static__baked__A0",
+      "removedComponents": 9,
+      "removedVertices": 180,
+      "removedPolygons": 90,
+      "removedTriangles": 180,
+      "remainingUvsExactlyPreserved": true,
+      "remainingCornerNormalMaxError": 0.0,
+      "components": [
+        {
+          "bounds": [
+            [
+              -3.802999973297119,
+              -3.119999885559082,
+              0.1821468323469162
+            ],
+            [
+              -3.796999931335449,
+              3.0,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              -1.902999997138977,
+              -3.119999885559082,
+              0.1821468323469162
+            ],
+            [
+              -1.8969999551773071,
+              3.0,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              -0.0030000002589076757,
+              -3.119999885559082,
+              0.1821468323469162
+            ],
+            [
+              0.0030000002589076757,
+              3.0,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              1.8969999551773071,
+              -3.119999885559082,
+              0.1821468323469162
+            ],
+            [
+              1.902999997138977,
+              3.0,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              3.796999931335449,
+              -3.119999885559082,
+              0.1821468323469162
+            ],
+            [
+              3.802999973297119,
+              3.0,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              -4.550000190734863,
+              -2.203000068664551,
+              0.1821468323469162
+            ],
+            [
+              4.550000190734863,
+              -2.197000026702881,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              -4.550000190734863,
+              -0.652999997138977,
+              0.1821468323469162
+            ],
+            [
+              4.550000190734863,
+              -0.6469999551773071,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              -4.550000190734863,
+              0.8969999551773071,
+              0.1821468323469162
+            ],
+            [
+              4.550000190734863,
+              0.902999997138977,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        },
+        {
+          "bounds": [
+            [
+              -4.550000190734863,
+              2.447000026702881,
+              0.1821468323469162
+            ],
+            [
+              4.550000190734863,
+              2.453000068664551,
+              0.18785317242145538
+            ]
+          ],
+          "faces": 10
+        }
+      ]
+    }
+  ],
+  "removedSourceCurves": [
+    "A_FloorJointX",
+    "A_FloorJointX.001",
+    "A_FloorJointX.002",
+    "A_FloorJointX.003",
+    "A_FloorJointX.004",
+    "A_FloorJointY",
+    "A_FloorJointY.001",
+    "A_FloorJointY.002",
+    "A_FloorJointY.003",
+    "DAY_V8__A_FloorJointX",
+    "DAY_V8__A_FloorJointX.001",
+    "DAY_V8__A_FloorJointX.002",
+    "DAY_V8__A_FloorJointX.003",
+    "DAY_V8__A_FloorJointX.004",
+    "DAY_V8__A_FloorJointY",
+    "DAY_V8__A_FloorJointY.001",
+    "DAY_V8__A_FloorJointY.002",
+    "DAY_V8__A_FloorJointY.003",
+    "NIGHT_V8__A_FloorJointX",
+    "NIGHT_V8__A_FloorJointX.001",
+    "NIGHT_V8__A_FloorJointX.002",
+    "NIGHT_V8__A_FloorJointX.003",
+    "NIGHT_V8__A_FloorJointX.004",
+    "NIGHT_V8__A_FloorJointY",
+    "NIGHT_V8__A_FloorJointY.001",
+    "NIGHT_V8__A_FloorJointY.002",
+    "NIGHT_V8__A_FloorJointY.003"
+  ],
+  "floorMaterials": [
+    {
+      "name": "WEB8_BAKE_A0_MAT_Titanium_Floor",
+      "oilTint": [
+        0.18000000715255737,
+        0.11999999731779099,
+        0.07500000298023224,
+        1.0
+      ],
+      "scanFootprintM": 2.65,
+      "contrastInput": [
+        0.125,
+        0.195
+      ],
+      "contrastGain": [
+        0.54,
+        1.44
+      ],
+      "roughness": [
+        0.64,
+        0.82
+      ],
+      "coatWeight": 0,
+      "specularIORLevel": 0.26,
+      "ior": 1.46,
+      "expectedDielectricF0": 0.01818229889615969,
+      "bumpDistance": 0.0007,
+      "geometryDisplacement": false,
+      "scanNodes": [
+        "V18_walnut_veneer_diff_2k metres",
+        "V18_walnut_veneer_rough_2k metres",
+        "V18_walnut_veneer_disp_2k metres"
+      ]
+    },
+    {
+      "name": "WEB8_BAKE_A8_MAT_Titanium_Floor",
+      "oilTint": [
+        0.18000000715255737,
+        0.11999999731779099,
+        0.07500000298023224,
+        1.0
+      ],
+      "scanFootprintM": 2.65,
+      "contrastInput": [
+        0.125,
+        0.195
+      ],
+      "contrastGain": [
+        0.54,
+        1.44
+      ],
+      "roughness": [
+        0.64,
+        0.82
+      ],
+      "coatWeight": 0,
+      "specularIORLevel": 0.26,
+      "ior": 1.46,
+      "expectedDielectricF0": 0.01818229889615969,
+      "bumpDistance": 0.0007,
+      "geometryDisplacement": false,
+      "scanNodes": [
+        "V18_walnut_veneer_diff_2k metres",
+        "V18_walnut_veneer_rough_2k metres",
+        "V18_walnut_veneer_disp_2k metres"
+      ]
+    }
+  ],
+  "lamps": [
+    {
+      "assetId": "lighting.ceiling_warm",
+      "root": "WEB19_CEILING_WARM_Root",
+      "parts": [
+        "WEB19_lighting.ceiling_warm__baked__A12"
+      ],
+      "location": [
+        0.0,
+        3.0799999237060547,
+        4.429999828338623
+      ],
+      "atlas": 12,
+      "fixture": "Graphite bar with champagne endcaps and three recessed opal apertures: downlight, upper rear-wall wash, left-wall wash; two actual wall brackets",
+      "size": [
+        1.72,
+        0.28,
+        0.18
+      ],
+      "colorTemperatureK": 3000,
+      "nightWatts": {
+        "down": 65.0,
+        "rearUpperWall": 18.0,
+        "leftWall": 140.0
+      },
+      "dayWatts": 0
+    }
+  ],
+  "changedExistingExportObjects": [
+    "WEB8_room_static__baked__A0"
+  ],
+  "allOtherExistingExportGeometryUnchanged": true,
+  "existingGeometryBefore": {
+    "WEB8_room_static__image__A0": {
+      "geometry": "cf7d438330736b982b95ec08ada613ad5ea44c0a65f26449bbd1a6484e21d29b",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_V10__A_Platform": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "architecture.platform",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_T_MainDisplay": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "main_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_main_display__baked__A2": {
+      "geometry": "9415eb198450fd052ec07153d9db7cb53c3fb5de094df0544a8d15088f892544",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_main_display__image__A2": {
+      "geometry": "3916a5990f541e2d57aa43f7cc1e36ec29a2d8f2d480d597649a30a7dd3bbc3b",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_T_ComputeCore": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "compute_core",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compute_core__glass__A2": {
+      "geometry": "5d8bacb5f0284bf213a5fc211f6b8f8810f49ca9035b9178d4e241e2ee64cc53",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_compute_core__baked__A2": {
+      "geometry": "d722a2038a2600b4f30633312a2f41ac8367e28e29cb8f0fb6e3a7c352b2ba24",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_F_Cantilever_Desk": {
+      "geometry": "b1521f51d9940baa09a35864d512cd7faf52f063668651d876ac67a0dbbe5250",
+      "id": "furniture.desk",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.desk__baked__A1": {
+      "geometry": "1f68f63aea10eb6192f318a45e607b1ed4fc2ce1f7c91e8c6aa7bf84ff552e9c",
+      "id": null,
+      "owner": "furniture.desk",
+      "parent": "WEB8_F_Cantilever_Desk"
+    },
+    "WEB8_F_Sculptural_Work_Chair": {
+      "geometry": "70c1a70228d15c3dea1e18624e279602ebe7e30a6139731c1495e26b6d048673",
+      "id": "furniture.work_chair",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.work_chair__baked__A1": {
+      "geometry": "756ae0adfc2436247e671f1e3f3d3c99f57123e38b197170a71a02848581384d",
+      "id": null,
+      "owner": "furniture.work_chair",
+      "parent": "WEB8_F_Sculptural_Work_Chair"
+    },
+    "WEB8_F_Crescent_Orange_Lounge": {
+      "geometry": "8b6eb0a8ed0848cf8f64b1f3475a73bab57ee43196234eefcf813f8ecf4f995b",
+      "id": "furniture.lounge",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.lounge__baked__A7": {
+      "geometry": "33a06cbb890bbf13ed28d3081822a706e0e750d5efa6456cc1d0d328266128a6",
+      "id": null,
+      "owner": "furniture.lounge",
+      "parent": "WEB8_F_Crescent_Orange_Lounge"
+    },
+    "WEB8_F_Smoked_Glass_Coffee_Table": {
+      "geometry": "559cb0b24333751a96990f4f57f97d0b1158de3f53bca065eca7961c715eb6a7",
+      "id": "furniture.coffee_table",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.coffee_table__baked__A1": {
+      "geometry": "187583cc90ebd5f41819373cea82f5e7bd35390233dbef65bf41ca33a05b5320",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_furniture.coffee_table__glass__A1": {
+      "geometry": "871794b159fb75d25d242ac11e51eb8852e59feb537a33bd52be569098381c7c",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_F_Charcoal_Inlaid_Rug": {
+      "geometry": "2042b301c88b93f8f6a3549527ec1a771fbfecd11685d2d7841b286eec6b0054",
+      "id": "furniture.rug",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.rug__baked__A1": {
+      "geometry": "a205ac10ca942de21515b5ca0570d4389542cac207e2bbdf5c1447a7a6dfe07f",
+      "id": null,
+      "owner": "furniture.rug",
+      "parent": "WEB8_F_Charcoal_Inlaid_Rug"
+    },
+    "WEB8_P_ROBOT_Root": {
+      "geometry": "63e0c791b0d6f0d1ad50adf2979fc89585ed73e4a633ebbc91c0c5fca1392edc",
+      "id": "robot_companion",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_robot_companion__baked__A2": {
+      "geometry": "d29695a94cf5125be61d823359ab407b2294328fce252c6db9141abd5e4f393b",
+      "id": null,
+      "owner": "robot_companion",
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_P_Robot_ServiceHatch": {
+      "geometry": "6c2c9de035116ba6e1f77f40bda5fcf3e97b369e2890653ac26d5bcf62d31d69",
+      "id": "robot_service_hatch",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_service_hatch__baked__A2": {
+      "geometry": "309f1a92b5afbf812bfeb0f8e311e776f06b7e058d3942da56abce70cf6ad18c",
+      "id": null,
+      "owner": "robot_service_hatch",
+      "parent": "WEB8_P_Robot_ServiceHatch"
+    },
+    "WEB8_P_Robot_Leg_00_Pivot": {
+      "geometry": "85e8975f3c86d5793c735db56a7f71554b6f20eed79489277e0bc3a762c9ac1e",
+      "id": "robot_leg_00",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_00__baked__A2": {
+      "geometry": "dde140718438943f80c13f1b507781937121fff823ddfed7b6e63229a737df6b",
+      "id": null,
+      "owner": "robot_leg_00",
+      "parent": "WEB8_P_Robot_Leg_00_Pivot"
+    },
+    "WEB8_P_Robot_Leg_01_Pivot": {
+      "geometry": "94050930d04a3f59c41c731c267fff1d4648a3d561c6746fe0772877737971e3",
+      "id": "robot_leg_01",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_01__baked__A2": {
+      "geometry": "f77a2ffa79239a8f02a534e6aedcec8243b47b61885c1de85f6999a1e47a7d11",
+      "id": null,
+      "owner": "robot_leg_01",
+      "parent": "WEB8_P_Robot_Leg_01_Pivot"
+    },
+    "WEB8_P_Robot_Leg_02_Pivot": {
+      "geometry": "7593e0a81bd3d09291d74ae4bb79cc0ad667b803ce16df7ab7366672269127aa",
+      "id": "robot_leg_02",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_02__baked__A2": {
+      "geometry": "a42fa4cdcc07f809a0f7e9b8ef2e2e120a3ac70c143d9d7c7e436ec98d3f15b7",
+      "id": null,
+      "owner": "robot_leg_02",
+      "parent": "WEB8_P_Robot_Leg_02_Pivot"
+    },
+    "WEB8_P_TERMINAL_Root": {
+      "geometry": "15cfa717a80ea77d9db2341062fd971774201fe316d0beb87f08a9ae47ca4031",
+      "id": "folding_drawing_terminal",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_folding_drawing_terminal__baked__A2": {
+      "geometry": "606b8c6416929ccb4f50b206a4f2774efc492673b12c671632a1427ad15a71d7",
+      "id": null,
+      "owner": "folding_drawing_terminal",
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_P_Terminal_TiltPivot": {
+      "geometry": "a56f9977a07f93d13cac86b7c091cc9e90028f2392b470fd44390483384b3d7a",
+      "id": "terminal_tilt",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_terminal_tilt__baked__A2": {
+      "geometry": "fc64166fdd9d4bfeb9e6a54048c53dc4af266bfd98f6156e390da79e6cc43661",
+      "id": null,
+      "owner": "terminal_tilt",
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_P_Terminal_L_FoldPivot": {
+      "geometry": "1856f1f15aec3cddd0c9d36b8f9614a583a5a1cef2a17209a0c6700acafc6c1e",
+      "id": "terminal_panel_L",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_L__baked__A2": {
+      "geometry": "9a6d7a85f5c8163a3cec6802810e40585bb9e72637eefc2cd7ad84a2f8a72195",
+      "id": null,
+      "owner": "terminal_panel_L",
+      "parent": "WEB8_P_Terminal_L_FoldPivot"
+    },
+    "WEB8_P_Terminal_R_FoldPivot": {
+      "geometry": "6a2c748453a595e04877811d890eb2f25f6d63b3bda00482b3c30b8f8708511a",
+      "id": "terminal_panel_R",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_R__baked__A2": {
+      "geometry": "63a9b28c8b89ace75446081091a79d0ce6388e7d710648bccf4110ea72ea1c1b",
+      "id": null,
+      "owner": "terminal_panel_R",
+      "parent": "WEB8_P_Terminal_R_FoldPivot"
+    },
+    "WEB8_P_Terminal_Stylus_Root": {
+      "geometry": "9bacf223c5185742fd269e60e377caebe610be8fd23257211f372e2f3123be64",
+      "id": "drawing_stylus",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_drawing_stylus__baked__A2": {
+      "geometry": "ed0465134e1f70a6f44721bc268cea5ae1874964d80a949008685f81b979e3be",
+      "id": null,
+      "owner": "drawing_stylus",
+      "parent": "WEB8_P_Terminal_Stylus_Root"
+    },
+    "WEB8_P_ARCHIVE_Root": {
+      "geometry": "38e79c6398b0ef568db55f8e97ee70342e35efb97eb80e6b6fe9c5eb093e5ddc",
+      "id": "c_archive_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_c_archive_dock__baked__A2": {
+      "geometry": "5248fa214f8e6303314960cbc3d408c145cce0b728259f67af457adc23aa413f",
+      "id": null,
+      "owner": "c_archive_dock",
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_P_Archive_Cartridge_00_Root": {
+      "geometry": "09b1b982d7d35acb6f1e62248230e6b4f79abe5cfac9a8327f94eac8bd6a8e8c",
+      "id": "archive_cartridge_00",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_00__baked__A2": {
+      "geometry": "2275a33e13eb671ec479eb4dc099ddc107b3b9ea6efa2321b729be4db47755dc",
+      "id": null,
+      "owner": "archive_cartridge_00",
+      "parent": "WEB8_P_Archive_Cartridge_00_Root"
+    },
+    "WEB8_P_Archive_Cartridge_01_Root": {
+      "geometry": "27b4ae7a37a718197f924b39c3a23a932d9f045f0eb8ca253628188d4cf7750f",
+      "id": "archive_cartridge_01",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_01__baked__A2": {
+      "geometry": "63c3558379a86e4096485756974d47420dac29bc91b1ebd081a5d7e5cd9d6872",
+      "id": null,
+      "owner": "archive_cartridge_01",
+      "parent": "WEB8_P_Archive_Cartridge_01_Root"
+    },
+    "WEB8_P_Archive_Cartridge_02_Root": {
+      "geometry": "5cb3186e9aed482b51986b006f244bec96718c15806aeafa8eb0bd9ed7d571bd",
+      "id": "archive_cartridge_02",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_02__baked__A2": {
+      "geometry": "f19e7207935920ba7bc804e62f68aecccd35f668744919c4bf35f5031a76091d",
+      "id": null,
+      "owner": "archive_cartridge_02",
+      "parent": "WEB8_P_Archive_Cartridge_02_Root"
+    },
+    "WEB8_P_FLOWER_Root": {
+      "geometry": "117acfb4e60339d7ba52a24fde0545895d8588e50197d17bd05278f7633d15a1",
+      "id": "kinetic_three_petal_flower",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_kinetic_three_petal_flower__baked__A2": {
+      "geometry": "859528330e53f7013abce477b7e930c565a37a88bb19199d8cccae1d24726531",
+      "id": null,
+      "owner": "kinetic_three_petal_flower",
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_P_Flower_Petal_0_Hinge": {
+      "geometry": "127a1199eba0096e2f2a267ed8da6826862187d8555d6305f9998ae9ba160fd6",
+      "id": "flower_petal_0",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_0__baked__A2": {
+      "geometry": "c8900554ccb3d56e8ca43ec5bb25a5cf7446c89523789be4045d88f1a65570a4",
+      "id": null,
+      "owner": "flower_petal_0",
+      "parent": "WEB8_P_Flower_Petal_0_Hinge"
+    },
+    "WEB8_P_Flower_Petal_1_Hinge": {
+      "geometry": "cffd69021f3bf3cd76a607a362e9eb0ff9fb25c9cceb2e74a2e74a5c324262d3",
+      "id": "flower_petal_1",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_1__baked__A2": {
+      "geometry": "cf9d2fa688ad1ae19b2880380ac8df156649e0ae6dd02f6689d476ea73cb8c52",
+      "id": null,
+      "owner": "flower_petal_1",
+      "parent": "WEB8_P_Flower_Petal_1_Hinge"
+    },
+    "WEB8_P_Flower_Petal_2_Hinge": {
+      "geometry": "33c473e99d0ef237f0550a20ae9edd9979b88f3c1c7f68c0081365395e561926",
+      "id": "flower_petal_2",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_2__baked__A2": {
+      "geometry": "216ecd2375be8bc2207fc118ec19a4bf13d885086dc05c7a13e1f35d50bcd24b",
+      "id": null,
+      "owner": "flower_petal_2",
+      "parent": "WEB8_P_Flower_Petal_2_Hinge"
+    },
+    "WEB8_P_HEADPHONES_Root": {
+      "geometry": "c08e0817c6baaaaf88d534966b5aca6dadd136a45fa951352050863bdd0abd29",
+      "id": "headphones_on_stand",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_headphones_on_stand__baked__A2": {
+      "geometry": "45eca92514232e8c607958f9b694d735ee0f4a1dab9dcd98742664f240c8dd08",
+      "id": null,
+      "owner": "headphones_on_stand",
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_P_Headphones_Cup_0_Pivot": {
+      "geometry": "8ea97b99564ed6c4316a9eb6872d06d35d7b8b05bba495b960dc138524e57c4a",
+      "id": "headphone_cup_0",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_0__baked__A2": {
+      "geometry": "58146fd1c7bf1223a12a460288a9cd6b7a07c336d688b7bdb5c03bdce4cf7e39",
+      "id": null,
+      "owner": "headphone_cup_0",
+      "parent": "WEB8_P_Headphones_Cup_0_Pivot"
+    },
+    "WEB8_P_Headphones_Cup_1_Pivot": {
+      "geometry": "0121344cd5cc6a30736131fffa506d8ada6387d723f09ad23735cf05138ed412",
+      "id": "headphone_cup_1",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_1__baked__A2": {
+      "geometry": "1a9ca2432c29e66c4af32dc4934862a4d675b98e3f2b596c7c8578d186f75874",
+      "id": null,
+      "owner": "headphone_cup_1",
+      "parent": "WEB8_P_Headphones_Cup_1_Pivot"
+    },
+    "WEB8_P_SPEAKER_Root": {
+      "geometry": "c6b1a956182b663209fbadf871080eaaba059de5b26e940cd20643d2e3443ca1",
+      "id": "ceramic_ring_speaker",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_ring_speaker__baked__A2": {
+      "geometry": "bea571b8819c93a4494e6e1e29767d86c6de89ac55e339da45d1abce2b26e4a5",
+      "id": null,
+      "owner": "ceramic_ring_speaker",
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_P_Speaker_Gimbal": {
+      "geometry": "663be1013c0c38ff17710138636eaeeb4edb16973eb6df9e70072be1e8fb4e9e",
+      "id": "speaker_gimbal",
+      "owner": null,
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_speaker_gimbal__baked__A2": {
+      "geometry": "f3e6b46f8160ba69daa4411b27a0b8d8fe469809f7eb291ee4b45e9df5a4fee6",
+      "id": null,
+      "owner": "speaker_gimbal",
+      "parent": "WEB8_P_Speaker_Gimbal"
+    },
+    "WEB8_P_KEYBOARD_Root": {
+      "geometry": "00a6cca8a1c28e056bb03f6a25cda8f92c6cd9551cc3c93f6350c05a6a60db30",
+      "id": "split_keyboard",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Keyboard_L_Half": {
+      "geometry": "0d9eab21b7f07113703dabd46c134607580fd6c2520bbc35454a1e610b0de584",
+      "id": "keyboard_half_0",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_0__baked__A2": {
+      "geometry": "4a547808edae07137ddd76590ca5022b0e007e849f49d1a5e806096d7632009e",
+      "id": null,
+      "owner": "keyboard_half_0",
+      "parent": "WEB8_P_Keyboard_L_Half"
+    },
+    "WEB8_P_Keyboard_R_Half": {
+      "geometry": "e3abe260842e4a87a0fb5a5c02ea57855392a8f5af7fd8088bb2043497b51a23",
+      "id": "keyboard_half_1",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_1__baked__A2": {
+      "geometry": "b949d85a3316b8764688fb7031fafa87389110e1cbcff21bfd0b28210f93f794",
+      "id": null,
+      "owner": "keyboard_half_1",
+      "parent": "WEB8_P_Keyboard_R_Half"
+    },
+    "WEB8_P_Keyboard_Dial_Root": {
+      "geometry": "bc9f9c946f61b1e0d3a90a5de79ad2f458825d9edf3efcbdbdc29789f388779e",
+      "id": "keyboard_dial",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_dial__baked__A2": {
+      "geometry": "daeb001f14ef4de4271d52014e58e07793b25be88995b65271fc0a3e8569cd0f",
+      "id": null,
+      "owner": "keyboard_dial",
+      "parent": "WEB8_P_Keyboard_Dial_Root"
+    },
+    "WEB8_P_Desktop_Controller_Root": {
+      "geometry": "59e31de04a64fb3e12638188dd73f7449f44d4ad59876bfa06094128745c1a7c",
+      "id": "desktop_creative_controller",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_desktop_creative_controller__baked__A2": {
+      "geometry": "88d8c0b4c4f4f714aab66549477359c19ed95d0f4a17e625bdbc13995c05ccba",
+      "id": null,
+      "owner": "desktop_creative_controller",
+      "parent": "WEB8_P_Desktop_Controller_Root"
+    },
+    "WEB8_P_CAMERA_Root": {
+      "geometry": "e88e42e4d2223e4363ddc6d36ae431c3afc70ca1bdb8773db5fbf9168c5d68c7",
+      "id": "compact_camera",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compact_camera__baked__A2": {
+      "geometry": "01a79925ceaec6a9b6444a2187a4f2ce51db3b55da561a02ae051a4911ce9fb4",
+      "id": null,
+      "owner": "compact_camera",
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_P_Camera_Lens_Root": {
+      "geometry": "27bd75418e15703b3dbfb83d1cd7c76b90b40bd950aadbf2b88ad7bf8fdadfd3",
+      "id": "camera_focus_lens",
+      "owner": null,
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_camera_focus_lens__baked__A2": {
+      "geometry": "6b51538ae4ffe5ba99fa154397335ba28ac256dd7b72cfc2338ce2417afc377d",
+      "id": null,
+      "owner": "camera_focus_lens",
+      "parent": "WEB8_P_Camera_Lens_Root"
+    },
+    "WEB8_P_CUP_Root": {
+      "geometry": "83fbb31e3df124f26b5fcda090f1e57186ea6d4bad05682ae6a433bd56bbdc69",
+      "id": "thermal_cup",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_thermal_cup__baked__A2": {
+      "geometry": "382defd2d0af6b2b5ffa39ea6fb08ac2fb3994f61e8de0c3a458ccb65bf6605b",
+      "id": null,
+      "owner": "thermal_cup",
+      "parent": "WEB8_P_CUP_Root"
+    },
+    "WEB8_P_TABLE_OBJECTS_Root": {
+      "geometry": "8ea4d34a1349678944f2f9f07ba471bdcb52b23e92fa03a172b04c5657f2e87b",
+      "id": "table_notebook_group",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Notebook_Root": {
+      "geometry": "29be774f135cee96292f305b52005e1ebc551bea501bb0c02092a3febcdf114d",
+      "id": "notebook",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_P_CreativeFolio_Root": {
+      "geometry": "aa41dedf0abdd96bc301afaf5f6bd916e3a6b18ef455800a7098c8970d68ff07",
+      "id": "creative_folio",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_creative_folio__baked__A2": {
+      "geometry": "713a7cf7a3fe1fd3d5c764b41cdd254083a8592be315dcb5fbf6087ea0ab936b",
+      "id": null,
+      "owner": "creative_folio",
+      "parent": "WEB8_P_CreativeFolio_Root"
+    },
+    "WEB8_notebook__baked__A2": {
+      "geometry": "cf9f18a0ad97ef6e3c1c7d2d6ea104e3eec6154247e29177f8b4a417445ee459",
+      "id": null,
+      "owner": "notebook",
+      "parent": "WEB8_P_Notebook_Root"
+    },
+    "WEB8_P_CoffeePen_Root": {
+      "geometry": "8c8f72f5f8d6b0898f43aebddc9636eafb636ecab3f998bef4906e821eb56cdf",
+      "id": "coffee_table_pen",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_pen__baked__A2": {
+      "geometry": "0edb94c41b13879e57aa02acbd1c1791b5f4973f243f4a443477ab2bad3afe0a",
+      "id": null,
+      "owner": "coffee_table_pen",
+      "parent": "WEB8_P_CoffeePen_Root"
+    },
+    "WEB8_P_CoffeeDial_Root": {
+      "geometry": "bd9b848eff86702d715d389fd485d10a7fc8cd01912c52df18b2837bd0247d40",
+      "id": "coffee_table_dial",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_dial__baked__A2": {
+      "geometry": "af2def41955042aa267cd03a63725bc0e85d68e6498c156ba068400a58251c6e",
+      "id": null,
+      "owner": "coffee_table_dial",
+      "parent": "WEB8_P_CoffeeDial_Root"
+    },
+    "WEB8_P_TERRARIUM_Root": {
+      "geometry": "b1c62e0b9fe88eb05ba1110a1ae9c79395243e44eaeb7b1b45794ad1e963d0c9",
+      "id": "glass_bonsai_terrarium",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_bonsai_terrarium__baked__A2": {
+      "geometry": "50e0f47dce156bf393d853ef91c8e0b06612a165c8edddc121303e4bdeb749a6",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_glass_bonsai_terrarium__glass__A2": {
+      "geometry": "92a31607fa169ff523ead37b530032e4fa7eb20015e17cea62586eff313853ac",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_P_VINES_Root": {
+      "geometry": "5105f089402e2ba9025673bf07c23301b38b00577ae7c2770314473cb276b38f",
+      "id": "trailing_wall_plant",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_trailing_wall_plant__baked__A2": {
+      "geometry": "c8993d53ffd48051f60e2867f7cb89488d8431b1821cf74e6c5628a42776b1ee",
+      "id": null,
+      "owner": "trailing_wall_plant",
+      "parent": "WEB8_P_VINES_Root"
+    },
+    "WEB8_D_BOOKS_Root": {
+      "geometry": "2c3580a8ee0e9b4c3091dd5295f6f51f4447a7b8a3498789c20604f3d6a0adcb",
+      "id": "studio_reference_books",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_D_Book_0_Root": {
+      "geometry": "8989bc01b7f030d3d9f8ec092d93ac87323691abeae10f870c89286292b60215",
+      "id": "creative_book_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_0__baked__A3": {
+      "geometry": "5a46963d2e93cbc33a6455c9ea56bb271ca1950d6611e3409acf401382d26e4b",
+      "id": null,
+      "owner": "creative_book_0",
+      "parent": "WEB8_D_Book_0_Root"
+    },
+    "WEB8_D_Book_1_Root": {
+      "geometry": "2d531cf63266e2e0a1df82a88b92f457364aa08b886ea6771ea3de59accc52cc",
+      "id": "creative_book_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_1__baked__A3": {
+      "geometry": "9b88f5f382ba1d3c8b31ba129d0df6f758dc7767558872fbb58f964e065a2c29",
+      "id": null,
+      "owner": "creative_book_1",
+      "parent": "WEB8_D_Book_1_Root"
+    },
+    "WEB8_D_Book_2_Root": {
+      "geometry": "a6db691be5d41999499a9494721aca79516375dc398235277c17e8b0f20239df",
+      "id": "creative_book_2",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_2__baked__A3": {
+      "geometry": "b9fef505ab30c4d706d291848d544e7746cfba289f80812ed10ad1978d47b48d",
+      "id": null,
+      "owner": "creative_book_2",
+      "parent": "WEB8_D_Book_2_Root"
+    },
+    "WEB8_D_Bookend_0_Root": {
+      "geometry": "aa71ddc3e2c54d9717bc125cfd12ccb3aaf3be18e408a6b33b1d2b4deddbfcd8",
+      "id": "titanium_bookend_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_0__baked__A3": {
+      "geometry": "5fcaa26e6493f7a2bcf3a915cd133cb37fdafc79cb96107061cc69ba6d90b03d",
+      "id": null,
+      "owner": "titanium_bookend_0",
+      "parent": "WEB8_D_Bookend_0_Root"
+    },
+    "WEB8_D_Bookend_1_Root": {
+      "geometry": "7ac11453074e7cf876daea75961f1dcbe37bc787a4cbfc6e6853e0cc12cafcf3",
+      "id": "titanium_bookend_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_1__baked__A3": {
+      "geometry": "1162037a7e380a4724977fc406cf4f519fd3dd1f1da998cd8658ace842e77946",
+      "id": null,
+      "owner": "titanium_bookend_1",
+      "parent": "WEB8_D_Bookend_1_Root"
+    },
+    "WEB8_D_SPECIMEN_Root": {
+      "geometry": "dada1ee44edc562e3db6926761958f1b05a45ab646b773353e9cd366d747f5df",
+      "id": "geometric_specimen_cloche",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_geometric_specimen_cloche__baked__A3": {
+      "geometry": "ea194ba5794dbf69a1da3092c95f75d9d6d7f5cd50ef13c0cf13ab817000e669",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_geometric_specimen_cloche__glass__A3": {
+      "geometry": "de5e8eefb5f9df495bcea3659355b4de5f86dce2e615b9a942e8067b62f36a6c",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_D_Specimen_Geometry_Root": {
+      "geometry": "5ce868ab641e3bea074d7da4fb5b6086b61c02fa7688382020a0a38bb870ce90",
+      "id": "original_trefoil_geometry",
+      "owner": null,
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_original_trefoil_geometry__baked__A3": {
+      "geometry": "731b58f7ae06e3a58b9e39a64462d4a0bd2b3317bed6652fa016dfc8d0701fd3",
+      "id": null,
+      "owner": "original_trefoil_geometry",
+      "parent": "WEB8_D_Specimen_Geometry_Root"
+    },
+    "WEB8_D_COMMUNICATOR_Root": {
+      "geometry": "9c2c9096374615bdb2da77ff3483eebd863ff1543ca830a5215920930fde1148",
+      "id": "portable_fold_communicator",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_portable_fold_communicator__baked__A3": {
+      "geometry": "86c01fe868f2e9117ffdd827b0b764b3dc32ab65b1c216643c31632de83b181b",
+      "id": null,
+      "owner": "portable_fold_communicator",
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Handset_Root": {
+      "geometry": "a627b9455a49f9e87128a716b12154d4be3d5529e6a5a34905c51aaf70f8a1ef",
+      "id": "folding_communicator_handset",
+      "owner": null,
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Panel_0_Hinge": {
+      "geometry": "d523d263b0a4e68849d6ed26eb6f709e16dd70602ddf56b2371b9a1e23b816e9",
+      "id": "communicator_panel_0",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_0__baked__A3": {
+      "geometry": "1e6ca49b0196c620be0b6eba3efe417803432aad8c590bdb761a754a2e89e4c3",
+      "id": null,
+      "owner": "communicator_panel_0",
+      "parent": "WEB8_D_Comms_Panel_0_Hinge"
+    },
+    "WEB8_D_Comms_Panel_1_Hinge": {
+      "geometry": "6e8b443f32f7e7e63b4fb76c0a8d3ed6a963b37d49c76865cfda7e87a83ccb43",
+      "id": "communicator_panel_1",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_1__baked__A3": {
+      "geometry": "3419b947e2b4c3955be8365e92ad03307215887b4aef065ea16a7bab9be747f6",
+      "id": null,
+      "owner": "communicator_panel_1",
+      "parent": "WEB8_D_Comms_Panel_1_Hinge"
+    },
+    "WEB8_folding_communicator_handset__baked__A3": {
+      "geometry": "754828a2ba9bdebf429ad28b471058cc6adb9457f7575e5bff0339a0371059ec",
+      "id": null,
+      "owner": "folding_communicator_handset",
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_D_SCULPTURE_Root": {
+      "geometry": "687586446403792b4f0b3759a23539148a3a58f1755373880c7944f2e49f434c",
+      "id": "ceramic_mobius_study",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_mobius_study__baked__A3": {
+      "geometry": "70fe8fcc10950738e1d2076db433d26efe2e56db307339d3e70c7cecc52943d1",
+      "id": null,
+      "owner": "ceramic_mobius_study",
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_D_Sculpture_Form_Root": {
+      "geometry": "554e4e04cbf2dac8b1504a37349f684ad37ab25a3dffbd0e263afc076b3490b8",
+      "id": "ceramic_mobius_form",
+      "owner": null,
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_ceramic_mobius_form__baked__A3": {
+      "geometry": "c21c4b00a06b63db9b0653cdd64462cb93c21914a5d89b451ea6a98e89c44706",
+      "id": null,
+      "owner": "ceramic_mobius_form",
+      "parent": "WEB8_D_Sculpture_Form_Root"
+    },
+    "WEB8_D_SMALL_PLANTER_Root": {
+      "geometry": "d97b18a422a2f4ac9344259b522997173ef8d087ffe5c25c7f9493bd87f3d7d1",
+      "id": "glass_cutting_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_cutting_planter__glass__A3": {
+      "geometry": "3c38d5dc3f15f7fb176e8ee91685911c12b053c097ef66c7244de67a3104fa41",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_glass_cutting_planter__baked__A3": {
+      "geometry": "b7c9927a287a003a5d31f07ca520b1ec5c4a22405d214a66dda216f294301cbd",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_D_Planter_Leaf_0_Pivot": {
+      "geometry": "50a51d1ac38cf618f94811fe9e348bda17ca006c557a95a032f2f8b898cab063",
+      "id": "small_planter_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_0__baked__A3": {
+      "geometry": "20381fc17883ab354d69bf0f865c7d373be04ffa88e25f901715ce3555703876",
+      "id": null,
+      "owner": "small_planter_leaf_0",
+      "parent": "WEB8_D_Planter_Leaf_0_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_1_Pivot": {
+      "geometry": "179006d4ced5e530d67b06ad4467234b787ca0af43265e2908ca9b575520dab7",
+      "id": "small_planter_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_1__baked__A3": {
+      "geometry": "b82e64d3564a407f86fd51f5e5b12202f49223cdf2aab2ffaa492e74f939417a",
+      "id": null,
+      "owner": "small_planter_leaf_1",
+      "parent": "WEB8_D_Planter_Leaf_1_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_2_Pivot": {
+      "geometry": "95b0614720b39ad2efcdd92869ef05fb00b8e177e592e269d7134049c7e7ee15",
+      "id": "small_planter_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_2__baked__A3": {
+      "geometry": "79382b4cc460d66d5002e1aa2228ee170f04bbc6bd24c0ddf5df31e49ee232de",
+      "id": null,
+      "owner": "small_planter_leaf_2",
+      "parent": "WEB8_D_Planter_Leaf_2_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_3_Pivot": {
+      "geometry": "aedc19b7cfa309f1209d42717b261eb6d8f5436b764ccba04171cf6ee143fee2",
+      "id": "small_planter_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_3__baked__A3": {
+      "geometry": "9b7600b45b1097a9ca25cd63a5eb588030bbfb4b36fe066a49b6658af3d86725",
+      "id": null,
+      "owner": "small_planter_leaf_3",
+      "parent": "WEB8_D_Planter_Leaf_3_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_4_Pivot": {
+      "geometry": "48f71ab649b90c95c30d050467a0834dd17631e97ef434417691131c3e1710c6",
+      "id": "small_planter_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_4__baked__A3": {
+      "geometry": "461502ccac63dfd75b0ee11c1a3cda43a5100e5ce87df4ce2143eea40b4003ef",
+      "id": null,
+      "owner": "small_planter_leaf_4",
+      "parent": "WEB8_D_Planter_Leaf_4_Pivot"
+    },
+    "WEB8_D_FLOOR_VASE_Root": {
+      "geometry": "1b53906b33dabc3494608e759cacab4eccb365ed3880a5a57fdf6cf1e70bd775",
+      "id": "black_ceramic_floor_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_black_ceramic_floor_planter__baked__A3": {
+      "geometry": "3f8ac5f74abd5ec72f810b4dffeea82ed17e835008bd1139c77923139b38283f",
+      "id": null,
+      "owner": "black_ceramic_floor_planter",
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_D_FloorVase_Leaf_0_Pivot": {
+      "geometry": "280c51aa43bd0773aa1422e3a78789be767b1f6eeb05c59b3b7bf52b669173c3",
+      "id": "floor_vase_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_0__baked__A3": {
+      "geometry": "2f64644af8c60bc20eaccd12fe146d385584bf4d602c7c8eca71795887146889",
+      "id": null,
+      "owner": "floor_vase_leaf_0",
+      "parent": "WEB8_D_FloorVase_Leaf_0_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_1_Pivot": {
+      "geometry": "9ab41cea7c159c2f810ee28bd7decb5cd8ef142c88e59b9d835943b560bc6d4e",
+      "id": "floor_vase_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_1__baked__A3": {
+      "geometry": "735248f553037f5263d4ef67efc7b01749a52832fe8a9ea8bfd8cda90cd3ad9a",
+      "id": null,
+      "owner": "floor_vase_leaf_1",
+      "parent": "WEB8_D_FloorVase_Leaf_1_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_2_Pivot": {
+      "geometry": "30e342128ef572852d43087ebef12ef216adcc9e4ea160bd7660321b05d819e3",
+      "id": "floor_vase_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_2__baked__A3": {
+      "geometry": "9c8d59959caefcb43066074d41c152bec0df9872aa7fe2a90f22821c9513fbea",
+      "id": null,
+      "owner": "floor_vase_leaf_2",
+      "parent": "WEB8_D_FloorVase_Leaf_2_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_3_Pivot": {
+      "geometry": "8e34d240e87c755a14802055b764cd404f57620111608b99867cd67c2001f88d",
+      "id": "floor_vase_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_3__baked__A3": {
+      "geometry": "93931912c7d7f2806735fe8eaf15c021361fd00604fcca81cfc101475b677c17",
+      "id": null,
+      "owner": "floor_vase_leaf_3",
+      "parent": "WEB8_D_FloorVase_Leaf_3_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_4_Pivot": {
+      "geometry": "3a92fff692e6e72d603f8bb58498fa035bbbf608edcaf6b0f648aa011fd42555",
+      "id": "floor_vase_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_4__baked__A3": {
+      "geometry": "206ac26b216f5007b8b140db80186d293a199dc3e424d9e78bbc95faca79eafc",
+      "id": null,
+      "owner": "floor_vase_leaf_4",
+      "parent": "WEB8_D_FloorVase_Leaf_4_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_5_Pivot": {
+      "geometry": "7a4e4c58bed62dc214b1cb74ca544d38b50ec7187f42191c4e77a0d4ba5e9dd9",
+      "id": "floor_vase_leaf_5",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_5__baked__A3": {
+      "geometry": "bf267a81f5f1e2f0d71d2e804a3d76336e8ff0c6cf48c94677de63bc949e0f1f",
+      "id": null,
+      "owner": "floor_vase_leaf_5",
+      "parent": "WEB8_D_FloorVase_Leaf_5_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_6_Pivot": {
+      "geometry": "50d690d8d65c389d23bd2ee8448cbaae111590ff47ffdcd0188449872777340c",
+      "id": "floor_vase_leaf_6",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_6__baked__A3": {
+      "geometry": "bc8d8c940571ae58ea8c1b00c873ea72e2d8f47144b4861e1970e5c5ed82e8ae",
+      "id": null,
+      "owner": "floor_vase_leaf_6",
+      "parent": "WEB8_D_FloorVase_Leaf_6_Pivot"
+    },
+    "WEB8_V5_ORBITAL_CLOCK_Root": {
+      "geometry": "834c4adb411f1ad13106c17764980b3bf9803c26a1ced4c1dae5072d40d5df9c",
+      "id": "v5_orbital_clock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_orbital_clock__baked__A4": {
+      "geometry": "0559676f17c10332d11e18461134672a32768f52fedadc89a9d6162ccb5a6800",
+      "id": null,
+      "owner": "v5_orbital_clock",
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_V5_CLOCK_DIAL_Pivot": {
+      "geometry": "28945f79a79f8643595704e9c4c508ed0531ae6d53950a9bef5dbe63b89c0ab3",
+      "id": "v5_clock_dial",
+      "owner": null,
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_v5_clock_dial__baked__A4": {
+      "geometry": "591bc9edf749b634004c065b527f51510518dac8d89c5452739e3836180c5b8f",
+      "id": null,
+      "owner": "v5_clock_dial",
+      "parent": "WEB8_V5_CLOCK_DIAL_Pivot"
+    },
+    "WEB8_V5_PROJECTOR_Root": {
+      "geometry": "8387e75450264c40eefc508b732451da3b0716ad59f07a9ef18dd5f9d156c94b",
+      "id": "v5_portable_projector",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_portable_projector__baked__A4": {
+      "geometry": "26330d91b6c834635b5147c9fcf1401fb6a8c1376ef6d325ed7a52f0e9468e09",
+      "id": null,
+      "owner": "v5_portable_projector",
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_V5_PROJECTOR_LENS_Pivot": {
+      "geometry": "32e2440fc72dc1d53d403194756851ff2ea07fb7a1fe8d272596a15f46212668",
+      "id": "v5_projector_lens",
+      "owner": null,
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_v5_projector_lens__baked__A4": {
+      "geometry": "fb059fd1e007516ee75222c90811d24e4a5eb94e22e1e7496bd080e10ef98f94",
+      "id": null,
+      "owner": "v5_projector_lens",
+      "parent": "WEB8_V5_PROJECTOR_LENS_Pivot"
+    },
+    "WEB8_V5_PEN_DOCK_Root": {
+      "geometry": "310d154261a9dd562a821615c8a7cd1dd8ef9d95a95c5528ed2bb17b5b441f23",
+      "id": "v5_magnetic_pen_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_magnetic_pen_dock__baked__A4": {
+      "geometry": "c126d79dfc8e7f9b4bea5ec361b57084437ebc81b7b6caf068af74c143b047da",
+      "id": null,
+      "owner": "v5_magnetic_pen_dock",
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_V5_MAGNETIC_STYLUS_Pivot": {
+      "geometry": "f942285a23f6a9439eb1559d479255baed9f0e2ecb36c62f1e1356263236a506",
+      "id": "v5_magnetic_stylus",
+      "owner": null,
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_v5_magnetic_stylus__baked__A4": {
+      "geometry": "934f2cfccd48aa6cce6e10576568874d760f0cc2ad404a2ca81d480c07ea985b",
+      "id": null,
+      "owner": "v5_magnetic_stylus",
+      "parent": "WEB8_V5_MAGNETIC_STYLUS_Pivot"
+    },
+    "WEB8_V5_MODULAR_CASES_Root": {
+      "geometry": "52a3dbb4dbf6d19d963c7414d1df7e1b28eb95759aaa3ed8f5fb1ab67afe8427",
+      "id": "v5_modular_equipment_cases",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_modular_equipment_cases__baked__A4": {
+      "geometry": "353e2884918c0f08adc3d410ee3d6cbf658dc6576f23c0407008232431718be1",
+      "id": null,
+      "owner": "v5_modular_equipment_cases",
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_V5_UPPER_CASE_Pivot": {
+      "geometry": "365c1639d6693b049f52e8236d2d16ea5ea81b339d1c6196d56492feea9f3032",
+      "id": "v5_upper_equipment_case",
+      "owner": null,
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_v5_upper_equipment_case__baked__A4": {
+      "geometry": "108fc5252031fb747b5bf8a3d84cbef620903544462fa6f6224bc353fe26820c",
+      "id": null,
+      "owner": "v5_upper_equipment_case",
+      "parent": "WEB8_V5_UPPER_CASE_Pivot"
+    },
+    "WEB8_V5_GEOMETRIC_LAMP_Root": {
+      "geometry": "05f901dcda2cd863673789ca8457a12e62c9c9df34618f2faa0bf659b05b2171",
+      "id": "v5_geometric_floor_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_geometric_floor_lamp__baked__A4": {
+      "geometry": "78805a9352ff93b1c9ff00d3d66f6bd633f6728dd0fc4aab51d13909049d6636",
+      "id": null,
+      "owner": "v5_geometric_floor_lamp",
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_V5_LAMP_HEAD_Pivot": {
+      "geometry": "2902af1d83a0db58f0cefdbdfe3b7986dc3573f3546254d02abc339e844765e7",
+      "id": "v5_floor_lamp_head",
+      "owner": null,
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_v5_floor_lamp_head__baked__A4": {
+      "geometry": "de776a3d148602d89c8c30e92866156988a94e65929b340cad1345b253cec5e7",
+      "id": null,
+      "owner": "v5_floor_lamp_head",
+      "parent": "WEB8_V5_LAMP_HEAD_Pivot"
+    },
+    "WEB8_V5_CAPSULE_RACK_Root": {
+      "geometry": "a0266280ae1b0b4c6748523f56811e3e57b7480754ecf8d8e01fffcc229528bb",
+      "id": "v5_energy_capsule_rack",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_energy_capsule_rack__baked__A4": {
+      "geometry": "e7e4f2c4b0e5ce30fcc446364f71f3f84d22dbffc18650e8ea3b4427fbcf0044",
+      "id": null,
+      "owner": "v5_energy_capsule_rack",
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_V5_ENERGY_CAPSULE_Pivot": {
+      "geometry": "6ae9b33030647546a7821023ae9de94b023e6ae0e410d75c2ffdfaa8c6264bf0",
+      "id": "v5_energy_capsule",
+      "owner": null,
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_v5_energy_capsule__baked__A4": {
+      "geometry": "6cade0c5058329c9179e088d3c316ecd8c20fcc76c9cca8581e6afe7f40f798a",
+      "id": null,
+      "owner": "v5_energy_capsule",
+      "parent": "WEB8_V5_ENERGY_CAPSULE_Pivot"
+    },
+    "WEB8_V5_MECHANICAL_PANEL_Root": {
+      "geometry": "634e9bcaac3ee311859984dd347fbe0a4d78b6ea05746a5db45ca37687dbed69",
+      "id": "v5_mechanical_data_panel",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_mechanical_data_panel__baked__A4": {
+      "geometry": "d8ac56bba3cac16e010477c61bee4b5ca63a7462ce7d5448748946467036d57c",
+      "id": null,
+      "owner": "v5_mechanical_data_panel",
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_V5_DATA_SELECTOR_Pivot": {
+      "geometry": "81fda1adbac1f3c04f5f9c0ac51eef0c17c88d44d251a9ab5ebc05c76954183e",
+      "id": "v5_data_panel_selector",
+      "owner": null,
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_v5_data_panel_selector__baked__A4": {
+      "geometry": "28f80c8015e4154730bdf3f347ce2debc0be68c80a17eada12f3912e2adb4aa3",
+      "id": null,
+      "owner": "v5_data_panel_selector",
+      "parent": "WEB8_V5_DATA_SELECTOR_Pivot"
+    },
+    "WEB8_V5_SCOUT_DISPLAY_Root": {
+      "geometry": "326f59674066306482d30c9b24dfa951868ce7be4357ed40e6f1b66905094243",
+      "id": "v5_scout_drone_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_scout_drone_display__baked__A4": {
+      "geometry": "68d586984aac791612b4bac881007b63fb8397e63f2ec05e34d73e4d91e49adf",
+      "id": null,
+      "owner": "v5_scout_drone_display",
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_V5_SCOUT_DRONE_Pivot": {
+      "geometry": "d658a2596913b2b4850d238c21670bcec97c865413237c9a8e3ea3a3937d52a4",
+      "id": "v5_scout_drone",
+      "owner": null,
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_v5_scout_drone__baked__A4": {
+      "geometry": "a1ce691d0d3814072ccaa1931f8f32cd5fb68f03dff9219f3d435608f3e0cbcc",
+      "id": null,
+      "owner": "v5_scout_drone",
+      "parent": "WEB8_V5_SCOUT_DRONE_Pivot"
+    },
+    "WEB8_EXT6_ORBITAL_DOCK_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.orbital_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.orbital_dock__baked__A5": {
+      "geometry": "c51921918b3deaa0ed73d0f5652fa2656c9f952b642e0877657384fa98b46fca",
+      "id": null,
+      "owner": "environment.orbital_dock",
+      "parent": "WEB8_EXT6_ORBITAL_DOCK_Root"
+    },
+    "WEB8_WG7_WARM_GALLERY_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.warm_gallery",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.warm_gallery__baked__A6": {
+      "geometry": "6e99bf57d114e26e4501d72ca123dfa3947a753f9d017c2a27210a334b988336",
+      "id": null,
+      "owner": "environment.warm_gallery",
+      "parent": "WEB8_WG7_WARM_GALLERY_Root"
+    },
+    "WEB8_IW8_DeskPetal_Root": {
+      "geometry": "99e738a11773d1bafabc6fca2492908626a7c0cf8da3e51a030f567fdd064af8",
+      "id": "v8_desk_glow_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_desk_glow_lamp__baked__A4": {
+      "geometry": "36d7c3c8f1def8becc63ae4465b81a3fe3675a703d7aae3be21c3d7da0e1d1f8",
+      "id": null,
+      "owner": "v8_desk_glow_lamp",
+      "parent": "WEB8_IW8_DeskPetal_Root"
+    },
+    "WEB8_IW8_WindowUndershelf_Root": {
+      "geometry": "826b7939558ef800022b4016ce09e3afb11f22340b7b597c95b67b75e92ecd85",
+      "id": "v8_window_light_bar",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_window_light_bar__baked__A4": {
+      "geometry": "7f6bc0c1a23b97a414b08c38f5a1f943e8600a14267c2370614b90c757a64863",
+      "id": null,
+      "owner": "v8_window_light_bar",
+      "parent": "WEB8_IW8_WindowUndershelf_Root"
+    },
+    "WEB8_IW8_ReadingPuck_Root": {
+      "geometry": "7082044a5a1d6ec333bccda0676f5dfbf061540ba7d4c48d34eb100387b24edf",
+      "id": "v8_reading_puck",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_reading_puck__baked__A4": {
+      "geometry": "09e0dabfc4ce8bea1e19434f94759f504a021176f2801590384bbca04ccc1fc8",
+      "id": null,
+      "owner": "v8_reading_puck",
+      "parent": "WEB8_IW8_ReadingPuck_Root"
+    },
+    "WEB8_room_static__baked__A0": {
+      "geometry": "0ab6736b09972d5f29c2986937c3192491bd0f6bc5320f3056afc96216a81a9b",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_room_static__baked__A8": {
+      "geometry": "da6106888dcd32202402a0bbc526ecd18619b6c897f1a781551fd237a96381cd",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_architecture.platform__baked__A0": {
+      "geometry": "0d8bb882ef8c2537c80a4d65e9719871c7c09ec0ac785988d53c691147370882",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    },
+    "WEB8_architecture.platform__baked__A8": {
+      "geometry": "7f0cda52267ffaaf28804fae90c5776bb9d7d89ff6002a9756df268b0dbde92f",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    }
+  },
+  "existingGeometryAfter": {
+    "WEB8_room_static__image__A0": {
+      "geometry": "cf7d438330736b982b95ec08ada613ad5ea44c0a65f26449bbd1a6484e21d29b",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_V10__A_Platform": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "architecture.platform",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_T_MainDisplay": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "main_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_main_display__baked__A2": {
+      "geometry": "9415eb198450fd052ec07153d9db7cb53c3fb5de094df0544a8d15088f892544",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_main_display__image__A2": {
+      "geometry": "3916a5990f541e2d57aa43f7cc1e36ec29a2d8f2d480d597649a30a7dd3bbc3b",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_T_ComputeCore": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "compute_core",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compute_core__glass__A2": {
+      "geometry": "5d8bacb5f0284bf213a5fc211f6b8f8810f49ca9035b9178d4e241e2ee64cc53",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_compute_core__baked__A2": {
+      "geometry": "d722a2038a2600b4f30633312a2f41ac8367e28e29cb8f0fb6e3a7c352b2ba24",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_F_Cantilever_Desk": {
+      "geometry": "b1521f51d9940baa09a35864d512cd7faf52f063668651d876ac67a0dbbe5250",
+      "id": "furniture.desk",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.desk__baked__A1": {
+      "geometry": "1f68f63aea10eb6192f318a45e607b1ed4fc2ce1f7c91e8c6aa7bf84ff552e9c",
+      "id": null,
+      "owner": "furniture.desk",
+      "parent": "WEB8_F_Cantilever_Desk"
+    },
+    "WEB8_F_Sculptural_Work_Chair": {
+      "geometry": "70c1a70228d15c3dea1e18624e279602ebe7e30a6139731c1495e26b6d048673",
+      "id": "furniture.work_chair",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.work_chair__baked__A1": {
+      "geometry": "756ae0adfc2436247e671f1e3f3d3c99f57123e38b197170a71a02848581384d",
+      "id": null,
+      "owner": "furniture.work_chair",
+      "parent": "WEB8_F_Sculptural_Work_Chair"
+    },
+    "WEB8_F_Crescent_Orange_Lounge": {
+      "geometry": "8b6eb0a8ed0848cf8f64b1f3475a73bab57ee43196234eefcf813f8ecf4f995b",
+      "id": "furniture.lounge",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.lounge__baked__A7": {
+      "geometry": "33a06cbb890bbf13ed28d3081822a706e0e750d5efa6456cc1d0d328266128a6",
+      "id": null,
+      "owner": "furniture.lounge",
+      "parent": "WEB8_F_Crescent_Orange_Lounge"
+    },
+    "WEB8_F_Smoked_Glass_Coffee_Table": {
+      "geometry": "559cb0b24333751a96990f4f57f97d0b1158de3f53bca065eca7961c715eb6a7",
+      "id": "furniture.coffee_table",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.coffee_table__baked__A1": {
+      "geometry": "187583cc90ebd5f41819373cea82f5e7bd35390233dbef65bf41ca33a05b5320",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_furniture.coffee_table__glass__A1": {
+      "geometry": "871794b159fb75d25d242ac11e51eb8852e59feb537a33bd52be569098381c7c",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_F_Charcoal_Inlaid_Rug": {
+      "geometry": "2042b301c88b93f8f6a3549527ec1a771fbfecd11685d2d7841b286eec6b0054",
+      "id": "furniture.rug",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.rug__baked__A1": {
+      "geometry": "a205ac10ca942de21515b5ca0570d4389542cac207e2bbdf5c1447a7a6dfe07f",
+      "id": null,
+      "owner": "furniture.rug",
+      "parent": "WEB8_F_Charcoal_Inlaid_Rug"
+    },
+    "WEB8_P_ROBOT_Root": {
+      "geometry": "63e0c791b0d6f0d1ad50adf2979fc89585ed73e4a633ebbc91c0c5fca1392edc",
+      "id": "robot_companion",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_robot_companion__baked__A2": {
+      "geometry": "d29695a94cf5125be61d823359ab407b2294328fce252c6db9141abd5e4f393b",
+      "id": null,
+      "owner": "robot_companion",
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_P_Robot_ServiceHatch": {
+      "geometry": "6c2c9de035116ba6e1f77f40bda5fcf3e97b369e2890653ac26d5bcf62d31d69",
+      "id": "robot_service_hatch",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_service_hatch__baked__A2": {
+      "geometry": "309f1a92b5afbf812bfeb0f8e311e776f06b7e058d3942da56abce70cf6ad18c",
+      "id": null,
+      "owner": "robot_service_hatch",
+      "parent": "WEB8_P_Robot_ServiceHatch"
+    },
+    "WEB8_P_Robot_Leg_00_Pivot": {
+      "geometry": "85e8975f3c86d5793c735db56a7f71554b6f20eed79489277e0bc3a762c9ac1e",
+      "id": "robot_leg_00",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_00__baked__A2": {
+      "geometry": "dde140718438943f80c13f1b507781937121fff823ddfed7b6e63229a737df6b",
+      "id": null,
+      "owner": "robot_leg_00",
+      "parent": "WEB8_P_Robot_Leg_00_Pivot"
+    },
+    "WEB8_P_Robot_Leg_01_Pivot": {
+      "geometry": "94050930d04a3f59c41c731c267fff1d4648a3d561c6746fe0772877737971e3",
+      "id": "robot_leg_01",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_01__baked__A2": {
+      "geometry": "f77a2ffa79239a8f02a534e6aedcec8243b47b61885c1de85f6999a1e47a7d11",
+      "id": null,
+      "owner": "robot_leg_01",
+      "parent": "WEB8_P_Robot_Leg_01_Pivot"
+    },
+    "WEB8_P_Robot_Leg_02_Pivot": {
+      "geometry": "7593e0a81bd3d09291d74ae4bb79cc0ad667b803ce16df7ab7366672269127aa",
+      "id": "robot_leg_02",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_02__baked__A2": {
+      "geometry": "a42fa4cdcc07f809a0f7e9b8ef2e2e120a3ac70c143d9d7c7e436ec98d3f15b7",
+      "id": null,
+      "owner": "robot_leg_02",
+      "parent": "WEB8_P_Robot_Leg_02_Pivot"
+    },
+    "WEB8_P_TERMINAL_Root": {
+      "geometry": "15cfa717a80ea77d9db2341062fd971774201fe316d0beb87f08a9ae47ca4031",
+      "id": "folding_drawing_terminal",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_folding_drawing_terminal__baked__A2": {
+      "geometry": "606b8c6416929ccb4f50b206a4f2774efc492673b12c671632a1427ad15a71d7",
+      "id": null,
+      "owner": "folding_drawing_terminal",
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_P_Terminal_TiltPivot": {
+      "geometry": "a56f9977a07f93d13cac86b7c091cc9e90028f2392b470fd44390483384b3d7a",
+      "id": "terminal_tilt",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_terminal_tilt__baked__A2": {
+      "geometry": "fc64166fdd9d4bfeb9e6a54048c53dc4af266bfd98f6156e390da79e6cc43661",
+      "id": null,
+      "owner": "terminal_tilt",
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_P_Terminal_L_FoldPivot": {
+      "geometry": "1856f1f15aec3cddd0c9d36b8f9614a583a5a1cef2a17209a0c6700acafc6c1e",
+      "id": "terminal_panel_L",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_L__baked__A2": {
+      "geometry": "9a6d7a85f5c8163a3cec6802810e40585bb9e72637eefc2cd7ad84a2f8a72195",
+      "id": null,
+      "owner": "terminal_panel_L",
+      "parent": "WEB8_P_Terminal_L_FoldPivot"
+    },
+    "WEB8_P_Terminal_R_FoldPivot": {
+      "geometry": "6a2c748453a595e04877811d890eb2f25f6d63b3bda00482b3c30b8f8708511a",
+      "id": "terminal_panel_R",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_R__baked__A2": {
+      "geometry": "63a9b28c8b89ace75446081091a79d0ce6388e7d710648bccf4110ea72ea1c1b",
+      "id": null,
+      "owner": "terminal_panel_R",
+      "parent": "WEB8_P_Terminal_R_FoldPivot"
+    },
+    "WEB8_P_Terminal_Stylus_Root": {
+      "geometry": "9bacf223c5185742fd269e60e377caebe610be8fd23257211f372e2f3123be64",
+      "id": "drawing_stylus",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_drawing_stylus__baked__A2": {
+      "geometry": "ed0465134e1f70a6f44721bc268cea5ae1874964d80a949008685f81b979e3be",
+      "id": null,
+      "owner": "drawing_stylus",
+      "parent": "WEB8_P_Terminal_Stylus_Root"
+    },
+    "WEB8_P_ARCHIVE_Root": {
+      "geometry": "38e79c6398b0ef568db55f8e97ee70342e35efb97eb80e6b6fe9c5eb093e5ddc",
+      "id": "c_archive_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_c_archive_dock__baked__A2": {
+      "geometry": "5248fa214f8e6303314960cbc3d408c145cce0b728259f67af457adc23aa413f",
+      "id": null,
+      "owner": "c_archive_dock",
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_P_Archive_Cartridge_00_Root": {
+      "geometry": "09b1b982d7d35acb6f1e62248230e6b4f79abe5cfac9a8327f94eac8bd6a8e8c",
+      "id": "archive_cartridge_00",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_00__baked__A2": {
+      "geometry": "2275a33e13eb671ec479eb4dc099ddc107b3b9ea6efa2321b729be4db47755dc",
+      "id": null,
+      "owner": "archive_cartridge_00",
+      "parent": "WEB8_P_Archive_Cartridge_00_Root"
+    },
+    "WEB8_P_Archive_Cartridge_01_Root": {
+      "geometry": "27b4ae7a37a718197f924b39c3a23a932d9f045f0eb8ca253628188d4cf7750f",
+      "id": "archive_cartridge_01",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_01__baked__A2": {
+      "geometry": "63c3558379a86e4096485756974d47420dac29bc91b1ebd081a5d7e5cd9d6872",
+      "id": null,
+      "owner": "archive_cartridge_01",
+      "parent": "WEB8_P_Archive_Cartridge_01_Root"
+    },
+    "WEB8_P_Archive_Cartridge_02_Root": {
+      "geometry": "5cb3186e9aed482b51986b006f244bec96718c15806aeafa8eb0bd9ed7d571bd",
+      "id": "archive_cartridge_02",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_02__baked__A2": {
+      "geometry": "f19e7207935920ba7bc804e62f68aecccd35f668744919c4bf35f5031a76091d",
+      "id": null,
+      "owner": "archive_cartridge_02",
+      "parent": "WEB8_P_Archive_Cartridge_02_Root"
+    },
+    "WEB8_P_FLOWER_Root": {
+      "geometry": "117acfb4e60339d7ba52a24fde0545895d8588e50197d17bd05278f7633d15a1",
+      "id": "kinetic_three_petal_flower",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_kinetic_three_petal_flower__baked__A2": {
+      "geometry": "859528330e53f7013abce477b7e930c565a37a88bb19199d8cccae1d24726531",
+      "id": null,
+      "owner": "kinetic_three_petal_flower",
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_P_Flower_Petal_0_Hinge": {
+      "geometry": "127a1199eba0096e2f2a267ed8da6826862187d8555d6305f9998ae9ba160fd6",
+      "id": "flower_petal_0",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_0__baked__A2": {
+      "geometry": "c8900554ccb3d56e8ca43ec5bb25a5cf7446c89523789be4045d88f1a65570a4",
+      "id": null,
+      "owner": "flower_petal_0",
+      "parent": "WEB8_P_Flower_Petal_0_Hinge"
+    },
+    "WEB8_P_Flower_Petal_1_Hinge": {
+      "geometry": "cffd69021f3bf3cd76a607a362e9eb0ff9fb25c9cceb2e74a2e74a5c324262d3",
+      "id": "flower_petal_1",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_1__baked__A2": {
+      "geometry": "cf9d2fa688ad1ae19b2880380ac8df156649e0ae6dd02f6689d476ea73cb8c52",
+      "id": null,
+      "owner": "flower_petal_1",
+      "parent": "WEB8_P_Flower_Petal_1_Hinge"
+    },
+    "WEB8_P_Flower_Petal_2_Hinge": {
+      "geometry": "33c473e99d0ef237f0550a20ae9edd9979b88f3c1c7f68c0081365395e561926",
+      "id": "flower_petal_2",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_2__baked__A2": {
+      "geometry": "216ecd2375be8bc2207fc118ec19a4bf13d885086dc05c7a13e1f35d50bcd24b",
+      "id": null,
+      "owner": "flower_petal_2",
+      "parent": "WEB8_P_Flower_Petal_2_Hinge"
+    },
+    "WEB8_P_HEADPHONES_Root": {
+      "geometry": "c08e0817c6baaaaf88d534966b5aca6dadd136a45fa951352050863bdd0abd29",
+      "id": "headphones_on_stand",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_headphones_on_stand__baked__A2": {
+      "geometry": "45eca92514232e8c607958f9b694d735ee0f4a1dab9dcd98742664f240c8dd08",
+      "id": null,
+      "owner": "headphones_on_stand",
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_P_Headphones_Cup_0_Pivot": {
+      "geometry": "8ea97b99564ed6c4316a9eb6872d06d35d7b8b05bba495b960dc138524e57c4a",
+      "id": "headphone_cup_0",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_0__baked__A2": {
+      "geometry": "58146fd1c7bf1223a12a460288a9cd6b7a07c336d688b7bdb5c03bdce4cf7e39",
+      "id": null,
+      "owner": "headphone_cup_0",
+      "parent": "WEB8_P_Headphones_Cup_0_Pivot"
+    },
+    "WEB8_P_Headphones_Cup_1_Pivot": {
+      "geometry": "0121344cd5cc6a30736131fffa506d8ada6387d723f09ad23735cf05138ed412",
+      "id": "headphone_cup_1",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_1__baked__A2": {
+      "geometry": "1a9ca2432c29e66c4af32dc4934862a4d675b98e3f2b596c7c8578d186f75874",
+      "id": null,
+      "owner": "headphone_cup_1",
+      "parent": "WEB8_P_Headphones_Cup_1_Pivot"
+    },
+    "WEB8_P_SPEAKER_Root": {
+      "geometry": "c6b1a956182b663209fbadf871080eaaba059de5b26e940cd20643d2e3443ca1",
+      "id": "ceramic_ring_speaker",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_ring_speaker__baked__A2": {
+      "geometry": "bea571b8819c93a4494e6e1e29767d86c6de89ac55e339da45d1abce2b26e4a5",
+      "id": null,
+      "owner": "ceramic_ring_speaker",
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_P_Speaker_Gimbal": {
+      "geometry": "663be1013c0c38ff17710138636eaeeb4edb16973eb6df9e70072be1e8fb4e9e",
+      "id": "speaker_gimbal",
+      "owner": null,
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_speaker_gimbal__baked__A2": {
+      "geometry": "f3e6b46f8160ba69daa4411b27a0b8d8fe469809f7eb291ee4b45e9df5a4fee6",
+      "id": null,
+      "owner": "speaker_gimbal",
+      "parent": "WEB8_P_Speaker_Gimbal"
+    },
+    "WEB8_P_KEYBOARD_Root": {
+      "geometry": "00a6cca8a1c28e056bb03f6a25cda8f92c6cd9551cc3c93f6350c05a6a60db30",
+      "id": "split_keyboard",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Keyboard_L_Half": {
+      "geometry": "0d9eab21b7f07113703dabd46c134607580fd6c2520bbc35454a1e610b0de584",
+      "id": "keyboard_half_0",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_0__baked__A2": {
+      "geometry": "4a547808edae07137ddd76590ca5022b0e007e849f49d1a5e806096d7632009e",
+      "id": null,
+      "owner": "keyboard_half_0",
+      "parent": "WEB8_P_Keyboard_L_Half"
+    },
+    "WEB8_P_Keyboard_R_Half": {
+      "geometry": "e3abe260842e4a87a0fb5a5c02ea57855392a8f5af7fd8088bb2043497b51a23",
+      "id": "keyboard_half_1",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_1__baked__A2": {
+      "geometry": "b949d85a3316b8764688fb7031fafa87389110e1cbcff21bfd0b28210f93f794",
+      "id": null,
+      "owner": "keyboard_half_1",
+      "parent": "WEB8_P_Keyboard_R_Half"
+    },
+    "WEB8_P_Keyboard_Dial_Root": {
+      "geometry": "bc9f9c946f61b1e0d3a90a5de79ad2f458825d9edf3efcbdbdc29789f388779e",
+      "id": "keyboard_dial",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_dial__baked__A2": {
+      "geometry": "daeb001f14ef4de4271d52014e58e07793b25be88995b65271fc0a3e8569cd0f",
+      "id": null,
+      "owner": "keyboard_dial",
+      "parent": "WEB8_P_Keyboard_Dial_Root"
+    },
+    "WEB8_P_Desktop_Controller_Root": {
+      "geometry": "59e31de04a64fb3e12638188dd73f7449f44d4ad59876bfa06094128745c1a7c",
+      "id": "desktop_creative_controller",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_desktop_creative_controller__baked__A2": {
+      "geometry": "88d8c0b4c4f4f714aab66549477359c19ed95d0f4a17e625bdbc13995c05ccba",
+      "id": null,
+      "owner": "desktop_creative_controller",
+      "parent": "WEB8_P_Desktop_Controller_Root"
+    },
+    "WEB8_P_CAMERA_Root": {
+      "geometry": "e88e42e4d2223e4363ddc6d36ae431c3afc70ca1bdb8773db5fbf9168c5d68c7",
+      "id": "compact_camera",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compact_camera__baked__A2": {
+      "geometry": "01a79925ceaec6a9b6444a2187a4f2ce51db3b55da561a02ae051a4911ce9fb4",
+      "id": null,
+      "owner": "compact_camera",
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_P_Camera_Lens_Root": {
+      "geometry": "27bd75418e15703b3dbfb83d1cd7c76b90b40bd950aadbf2b88ad7bf8fdadfd3",
+      "id": "camera_focus_lens",
+      "owner": null,
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_camera_focus_lens__baked__A2": {
+      "geometry": "6b51538ae4ffe5ba99fa154397335ba28ac256dd7b72cfc2338ce2417afc377d",
+      "id": null,
+      "owner": "camera_focus_lens",
+      "parent": "WEB8_P_Camera_Lens_Root"
+    },
+    "WEB8_P_CUP_Root": {
+      "geometry": "83fbb31e3df124f26b5fcda090f1e57186ea6d4bad05682ae6a433bd56bbdc69",
+      "id": "thermal_cup",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_thermal_cup__baked__A2": {
+      "geometry": "382defd2d0af6b2b5ffa39ea6fb08ac2fb3994f61e8de0c3a458ccb65bf6605b",
+      "id": null,
+      "owner": "thermal_cup",
+      "parent": "WEB8_P_CUP_Root"
+    },
+    "WEB8_P_TABLE_OBJECTS_Root": {
+      "geometry": "8ea4d34a1349678944f2f9f07ba471bdcb52b23e92fa03a172b04c5657f2e87b",
+      "id": "table_notebook_group",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Notebook_Root": {
+      "geometry": "29be774f135cee96292f305b52005e1ebc551bea501bb0c02092a3febcdf114d",
+      "id": "notebook",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_P_CreativeFolio_Root": {
+      "geometry": "aa41dedf0abdd96bc301afaf5f6bd916e3a6b18ef455800a7098c8970d68ff07",
+      "id": "creative_folio",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_creative_folio__baked__A2": {
+      "geometry": "713a7cf7a3fe1fd3d5c764b41cdd254083a8592be315dcb5fbf6087ea0ab936b",
+      "id": null,
+      "owner": "creative_folio",
+      "parent": "WEB8_P_CreativeFolio_Root"
+    },
+    "WEB8_notebook__baked__A2": {
+      "geometry": "cf9f18a0ad97ef6e3c1c7d2d6ea104e3eec6154247e29177f8b4a417445ee459",
+      "id": null,
+      "owner": "notebook",
+      "parent": "WEB8_P_Notebook_Root"
+    },
+    "WEB8_P_CoffeePen_Root": {
+      "geometry": "8c8f72f5f8d6b0898f43aebddc9636eafb636ecab3f998bef4906e821eb56cdf",
+      "id": "coffee_table_pen",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_pen__baked__A2": {
+      "geometry": "0edb94c41b13879e57aa02acbd1c1791b5f4973f243f4a443477ab2bad3afe0a",
+      "id": null,
+      "owner": "coffee_table_pen",
+      "parent": "WEB8_P_CoffeePen_Root"
+    },
+    "WEB8_P_CoffeeDial_Root": {
+      "geometry": "bd9b848eff86702d715d389fd485d10a7fc8cd01912c52df18b2837bd0247d40",
+      "id": "coffee_table_dial",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_dial__baked__A2": {
+      "geometry": "af2def41955042aa267cd03a63725bc0e85d68e6498c156ba068400a58251c6e",
+      "id": null,
+      "owner": "coffee_table_dial",
+      "parent": "WEB8_P_CoffeeDial_Root"
+    },
+    "WEB8_P_TERRARIUM_Root": {
+      "geometry": "b1c62e0b9fe88eb05ba1110a1ae9c79395243e44eaeb7b1b45794ad1e963d0c9",
+      "id": "glass_bonsai_terrarium",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_bonsai_terrarium__baked__A2": {
+      "geometry": "50e0f47dce156bf393d853ef91c8e0b06612a165c8edddc121303e4bdeb749a6",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_glass_bonsai_terrarium__glass__A2": {
+      "geometry": "92a31607fa169ff523ead37b530032e4fa7eb20015e17cea62586eff313853ac",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_P_VINES_Root": {
+      "geometry": "5105f089402e2ba9025673bf07c23301b38b00577ae7c2770314473cb276b38f",
+      "id": "trailing_wall_plant",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_trailing_wall_plant__baked__A2": {
+      "geometry": "c8993d53ffd48051f60e2867f7cb89488d8431b1821cf74e6c5628a42776b1ee",
+      "id": null,
+      "owner": "trailing_wall_plant",
+      "parent": "WEB8_P_VINES_Root"
+    },
+    "WEB8_D_BOOKS_Root": {
+      "geometry": "2c3580a8ee0e9b4c3091dd5295f6f51f4447a7b8a3498789c20604f3d6a0adcb",
+      "id": "studio_reference_books",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_D_Book_0_Root": {
+      "geometry": "8989bc01b7f030d3d9f8ec092d93ac87323691abeae10f870c89286292b60215",
+      "id": "creative_book_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_0__baked__A3": {
+      "geometry": "5a46963d2e93cbc33a6455c9ea56bb271ca1950d6611e3409acf401382d26e4b",
+      "id": null,
+      "owner": "creative_book_0",
+      "parent": "WEB8_D_Book_0_Root"
+    },
+    "WEB8_D_Book_1_Root": {
+      "geometry": "2d531cf63266e2e0a1df82a88b92f457364aa08b886ea6771ea3de59accc52cc",
+      "id": "creative_book_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_1__baked__A3": {
+      "geometry": "9b88f5f382ba1d3c8b31ba129d0df6f758dc7767558872fbb58f964e065a2c29",
+      "id": null,
+      "owner": "creative_book_1",
+      "parent": "WEB8_D_Book_1_Root"
+    },
+    "WEB8_D_Book_2_Root": {
+      "geometry": "a6db691be5d41999499a9494721aca79516375dc398235277c17e8b0f20239df",
+      "id": "creative_book_2",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_2__baked__A3": {
+      "geometry": "b9fef505ab30c4d706d291848d544e7746cfba289f80812ed10ad1978d47b48d",
+      "id": null,
+      "owner": "creative_book_2",
+      "parent": "WEB8_D_Book_2_Root"
+    },
+    "WEB8_D_Bookend_0_Root": {
+      "geometry": "aa71ddc3e2c54d9717bc125cfd12ccb3aaf3be18e408a6b33b1d2b4deddbfcd8",
+      "id": "titanium_bookend_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_0__baked__A3": {
+      "geometry": "5fcaa26e6493f7a2bcf3a915cd133cb37fdafc79cb96107061cc69ba6d90b03d",
+      "id": null,
+      "owner": "titanium_bookend_0",
+      "parent": "WEB8_D_Bookend_0_Root"
+    },
+    "WEB8_D_Bookend_1_Root": {
+      "geometry": "7ac11453074e7cf876daea75961f1dcbe37bc787a4cbfc6e6853e0cc12cafcf3",
+      "id": "titanium_bookend_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_1__baked__A3": {
+      "geometry": "1162037a7e380a4724977fc406cf4f519fd3dd1f1da998cd8658ace842e77946",
+      "id": null,
+      "owner": "titanium_bookend_1",
+      "parent": "WEB8_D_Bookend_1_Root"
+    },
+    "WEB8_D_SPECIMEN_Root": {
+      "geometry": "dada1ee44edc562e3db6926761958f1b05a45ab646b773353e9cd366d747f5df",
+      "id": "geometric_specimen_cloche",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_geometric_specimen_cloche__baked__A3": {
+      "geometry": "ea194ba5794dbf69a1da3092c95f75d9d6d7f5cd50ef13c0cf13ab817000e669",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_geometric_specimen_cloche__glass__A3": {
+      "geometry": "de5e8eefb5f9df495bcea3659355b4de5f86dce2e615b9a942e8067b62f36a6c",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_D_Specimen_Geometry_Root": {
+      "geometry": "5ce868ab641e3bea074d7da4fb5b6086b61c02fa7688382020a0a38bb870ce90",
+      "id": "original_trefoil_geometry",
+      "owner": null,
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_original_trefoil_geometry__baked__A3": {
+      "geometry": "731b58f7ae06e3a58b9e39a64462d4a0bd2b3317bed6652fa016dfc8d0701fd3",
+      "id": null,
+      "owner": "original_trefoil_geometry",
+      "parent": "WEB8_D_Specimen_Geometry_Root"
+    },
+    "WEB8_D_COMMUNICATOR_Root": {
+      "geometry": "9c2c9096374615bdb2da77ff3483eebd863ff1543ca830a5215920930fde1148",
+      "id": "portable_fold_communicator",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_portable_fold_communicator__baked__A3": {
+      "geometry": "86c01fe868f2e9117ffdd827b0b764b3dc32ab65b1c216643c31632de83b181b",
+      "id": null,
+      "owner": "portable_fold_communicator",
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Handset_Root": {
+      "geometry": "a627b9455a49f9e87128a716b12154d4be3d5529e6a5a34905c51aaf70f8a1ef",
+      "id": "folding_communicator_handset",
+      "owner": null,
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Panel_0_Hinge": {
+      "geometry": "d523d263b0a4e68849d6ed26eb6f709e16dd70602ddf56b2371b9a1e23b816e9",
+      "id": "communicator_panel_0",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_0__baked__A3": {
+      "geometry": "1e6ca49b0196c620be0b6eba3efe417803432aad8c590bdb761a754a2e89e4c3",
+      "id": null,
+      "owner": "communicator_panel_0",
+      "parent": "WEB8_D_Comms_Panel_0_Hinge"
+    },
+    "WEB8_D_Comms_Panel_1_Hinge": {
+      "geometry": "6e8b443f32f7e7e63b4fb76c0a8d3ed6a963b37d49c76865cfda7e87a83ccb43",
+      "id": "communicator_panel_1",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_1__baked__A3": {
+      "geometry": "3419b947e2b4c3955be8365e92ad03307215887b4aef065ea16a7bab9be747f6",
+      "id": null,
+      "owner": "communicator_panel_1",
+      "parent": "WEB8_D_Comms_Panel_1_Hinge"
+    },
+    "WEB8_folding_communicator_handset__baked__A3": {
+      "geometry": "754828a2ba9bdebf429ad28b471058cc6adb9457f7575e5bff0339a0371059ec",
+      "id": null,
+      "owner": "folding_communicator_handset",
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_D_SCULPTURE_Root": {
+      "geometry": "687586446403792b4f0b3759a23539148a3a58f1755373880c7944f2e49f434c",
+      "id": "ceramic_mobius_study",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_mobius_study__baked__A3": {
+      "geometry": "70fe8fcc10950738e1d2076db433d26efe2e56db307339d3e70c7cecc52943d1",
+      "id": null,
+      "owner": "ceramic_mobius_study",
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_D_Sculpture_Form_Root": {
+      "geometry": "554e4e04cbf2dac8b1504a37349f684ad37ab25a3dffbd0e263afc076b3490b8",
+      "id": "ceramic_mobius_form",
+      "owner": null,
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_ceramic_mobius_form__baked__A3": {
+      "geometry": "c21c4b00a06b63db9b0653cdd64462cb93c21914a5d89b451ea6a98e89c44706",
+      "id": null,
+      "owner": "ceramic_mobius_form",
+      "parent": "WEB8_D_Sculpture_Form_Root"
+    },
+    "WEB8_D_SMALL_PLANTER_Root": {
+      "geometry": "d97b18a422a2f4ac9344259b522997173ef8d087ffe5c25c7f9493bd87f3d7d1",
+      "id": "glass_cutting_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_cutting_planter__glass__A3": {
+      "geometry": "3c38d5dc3f15f7fb176e8ee91685911c12b053c097ef66c7244de67a3104fa41",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_glass_cutting_planter__baked__A3": {
+      "geometry": "b7c9927a287a003a5d31f07ca520b1ec5c4a22405d214a66dda216f294301cbd",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_D_Planter_Leaf_0_Pivot": {
+      "geometry": "50a51d1ac38cf618f94811fe9e348bda17ca006c557a95a032f2f8b898cab063",
+      "id": "small_planter_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_0__baked__A3": {
+      "geometry": "20381fc17883ab354d69bf0f865c7d373be04ffa88e25f901715ce3555703876",
+      "id": null,
+      "owner": "small_planter_leaf_0",
+      "parent": "WEB8_D_Planter_Leaf_0_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_1_Pivot": {
+      "geometry": "179006d4ced5e530d67b06ad4467234b787ca0af43265e2908ca9b575520dab7",
+      "id": "small_planter_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_1__baked__A3": {
+      "geometry": "b82e64d3564a407f86fd51f5e5b12202f49223cdf2aab2ffaa492e74f939417a",
+      "id": null,
+      "owner": "small_planter_leaf_1",
+      "parent": "WEB8_D_Planter_Leaf_1_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_2_Pivot": {
+      "geometry": "95b0614720b39ad2efcdd92869ef05fb00b8e177e592e269d7134049c7e7ee15",
+      "id": "small_planter_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_2__baked__A3": {
+      "geometry": "79382b4cc460d66d5002e1aa2228ee170f04bbc6bd24c0ddf5df31e49ee232de",
+      "id": null,
+      "owner": "small_planter_leaf_2",
+      "parent": "WEB8_D_Planter_Leaf_2_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_3_Pivot": {
+      "geometry": "aedc19b7cfa309f1209d42717b261eb6d8f5436b764ccba04171cf6ee143fee2",
+      "id": "small_planter_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_3__baked__A3": {
+      "geometry": "9b7600b45b1097a9ca25cd63a5eb588030bbfb4b36fe066a49b6658af3d86725",
+      "id": null,
+      "owner": "small_planter_leaf_3",
+      "parent": "WEB8_D_Planter_Leaf_3_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_4_Pivot": {
+      "geometry": "48f71ab649b90c95c30d050467a0834dd17631e97ef434417691131c3e1710c6",
+      "id": "small_planter_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_4__baked__A3": {
+      "geometry": "461502ccac63dfd75b0ee11c1a3cda43a5100e5ce87df4ce2143eea40b4003ef",
+      "id": null,
+      "owner": "small_planter_leaf_4",
+      "parent": "WEB8_D_Planter_Leaf_4_Pivot"
+    },
+    "WEB8_D_FLOOR_VASE_Root": {
+      "geometry": "1b53906b33dabc3494608e759cacab4eccb365ed3880a5a57fdf6cf1e70bd775",
+      "id": "black_ceramic_floor_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_black_ceramic_floor_planter__baked__A3": {
+      "geometry": "3f8ac5f74abd5ec72f810b4dffeea82ed17e835008bd1139c77923139b38283f",
+      "id": null,
+      "owner": "black_ceramic_floor_planter",
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_D_FloorVase_Leaf_0_Pivot": {
+      "geometry": "280c51aa43bd0773aa1422e3a78789be767b1f6eeb05c59b3b7bf52b669173c3",
+      "id": "floor_vase_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_0__baked__A3": {
+      "geometry": "2f64644af8c60bc20eaccd12fe146d385584bf4d602c7c8eca71795887146889",
+      "id": null,
+      "owner": "floor_vase_leaf_0",
+      "parent": "WEB8_D_FloorVase_Leaf_0_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_1_Pivot": {
+      "geometry": "9ab41cea7c159c2f810ee28bd7decb5cd8ef142c88e59b9d835943b560bc6d4e",
+      "id": "floor_vase_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_1__baked__A3": {
+      "geometry": "735248f553037f5263d4ef67efc7b01749a52832fe8a9ea8bfd8cda90cd3ad9a",
+      "id": null,
+      "owner": "floor_vase_leaf_1",
+      "parent": "WEB8_D_FloorVase_Leaf_1_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_2_Pivot": {
+      "geometry": "30e342128ef572852d43087ebef12ef216adcc9e4ea160bd7660321b05d819e3",
+      "id": "floor_vase_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_2__baked__A3": {
+      "geometry": "9c8d59959caefcb43066074d41c152bec0df9872aa7fe2a90f22821c9513fbea",
+      "id": null,
+      "owner": "floor_vase_leaf_2",
+      "parent": "WEB8_D_FloorVase_Leaf_2_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_3_Pivot": {
+      "geometry": "8e34d240e87c755a14802055b764cd404f57620111608b99867cd67c2001f88d",
+      "id": "floor_vase_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_3__baked__A3": {
+      "geometry": "93931912c7d7f2806735fe8eaf15c021361fd00604fcca81cfc101475b677c17",
+      "id": null,
+      "owner": "floor_vase_leaf_3",
+      "parent": "WEB8_D_FloorVase_Leaf_3_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_4_Pivot": {
+      "geometry": "3a92fff692e6e72d603f8bb58498fa035bbbf608edcaf6b0f648aa011fd42555",
+      "id": "floor_vase_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_4__baked__A3": {
+      "geometry": "206ac26b216f5007b8b140db80186d293a199dc3e424d9e78bbc95faca79eafc",
+      "id": null,
+      "owner": "floor_vase_leaf_4",
+      "parent": "WEB8_D_FloorVase_Leaf_4_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_5_Pivot": {
+      "geometry": "7a4e4c58bed62dc214b1cb74ca544d38b50ec7187f42191c4e77a0d4ba5e9dd9",
+      "id": "floor_vase_leaf_5",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_5__baked__A3": {
+      "geometry": "bf267a81f5f1e2f0d71d2e804a3d76336e8ff0c6cf48c94677de63bc949e0f1f",
+      "id": null,
+      "owner": "floor_vase_leaf_5",
+      "parent": "WEB8_D_FloorVase_Leaf_5_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_6_Pivot": {
+      "geometry": "50d690d8d65c389d23bd2ee8448cbaae111590ff47ffdcd0188449872777340c",
+      "id": "floor_vase_leaf_6",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_6__baked__A3": {
+      "geometry": "bc8d8c940571ae58ea8c1b00c873ea72e2d8f47144b4861e1970e5c5ed82e8ae",
+      "id": null,
+      "owner": "floor_vase_leaf_6",
+      "parent": "WEB8_D_FloorVase_Leaf_6_Pivot"
+    },
+    "WEB8_V5_ORBITAL_CLOCK_Root": {
+      "geometry": "834c4adb411f1ad13106c17764980b3bf9803c26a1ced4c1dae5072d40d5df9c",
+      "id": "v5_orbital_clock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_orbital_clock__baked__A4": {
+      "geometry": "0559676f17c10332d11e18461134672a32768f52fedadc89a9d6162ccb5a6800",
+      "id": null,
+      "owner": "v5_orbital_clock",
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_V5_CLOCK_DIAL_Pivot": {
+      "geometry": "28945f79a79f8643595704e9c4c508ed0531ae6d53950a9bef5dbe63b89c0ab3",
+      "id": "v5_clock_dial",
+      "owner": null,
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_v5_clock_dial__baked__A4": {
+      "geometry": "591bc9edf749b634004c065b527f51510518dac8d89c5452739e3836180c5b8f",
+      "id": null,
+      "owner": "v5_clock_dial",
+      "parent": "WEB8_V5_CLOCK_DIAL_Pivot"
+    },
+    "WEB8_V5_PROJECTOR_Root": {
+      "geometry": "8387e75450264c40eefc508b732451da3b0716ad59f07a9ef18dd5f9d156c94b",
+      "id": "v5_portable_projector",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_portable_projector__baked__A4": {
+      "geometry": "26330d91b6c834635b5147c9fcf1401fb6a8c1376ef6d325ed7a52f0e9468e09",
+      "id": null,
+      "owner": "v5_portable_projector",
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_V5_PROJECTOR_LENS_Pivot": {
+      "geometry": "32e2440fc72dc1d53d403194756851ff2ea07fb7a1fe8d272596a15f46212668",
+      "id": "v5_projector_lens",
+      "owner": null,
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_v5_projector_lens__baked__A4": {
+      "geometry": "fb059fd1e007516ee75222c90811d24e4a5eb94e22e1e7496bd080e10ef98f94",
+      "id": null,
+      "owner": "v5_projector_lens",
+      "parent": "WEB8_V5_PROJECTOR_LENS_Pivot"
+    },
+    "WEB8_V5_PEN_DOCK_Root": {
+      "geometry": "310d154261a9dd562a821615c8a7cd1dd8ef9d95a95c5528ed2bb17b5b441f23",
+      "id": "v5_magnetic_pen_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_magnetic_pen_dock__baked__A4": {
+      "geometry": "c126d79dfc8e7f9b4bea5ec361b57084437ebc81b7b6caf068af74c143b047da",
+      "id": null,
+      "owner": "v5_magnetic_pen_dock",
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_V5_MAGNETIC_STYLUS_Pivot": {
+      "geometry": "f942285a23f6a9439eb1559d479255baed9f0e2ecb36c62f1e1356263236a506",
+      "id": "v5_magnetic_stylus",
+      "owner": null,
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_v5_magnetic_stylus__baked__A4": {
+      "geometry": "934f2cfccd48aa6cce6e10576568874d760f0cc2ad404a2ca81d480c07ea985b",
+      "id": null,
+      "owner": "v5_magnetic_stylus",
+      "parent": "WEB8_V5_MAGNETIC_STYLUS_Pivot"
+    },
+    "WEB8_V5_MODULAR_CASES_Root": {
+      "geometry": "52a3dbb4dbf6d19d963c7414d1df7e1b28eb95759aaa3ed8f5fb1ab67afe8427",
+      "id": "v5_modular_equipment_cases",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_modular_equipment_cases__baked__A4": {
+      "geometry": "353e2884918c0f08adc3d410ee3d6cbf658dc6576f23c0407008232431718be1",
+      "id": null,
+      "owner": "v5_modular_equipment_cases",
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_V5_UPPER_CASE_Pivot": {
+      "geometry": "365c1639d6693b049f52e8236d2d16ea5ea81b339d1c6196d56492feea9f3032",
+      "id": "v5_upper_equipment_case",
+      "owner": null,
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_v5_upper_equipment_case__baked__A4": {
+      "geometry": "108fc5252031fb747b5bf8a3d84cbef620903544462fa6f6224bc353fe26820c",
+      "id": null,
+      "owner": "v5_upper_equipment_case",
+      "parent": "WEB8_V5_UPPER_CASE_Pivot"
+    },
+    "WEB8_V5_GEOMETRIC_LAMP_Root": {
+      "geometry": "05f901dcda2cd863673789ca8457a12e62c9c9df34618f2faa0bf659b05b2171",
+      "id": "v5_geometric_floor_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_geometric_floor_lamp__baked__A4": {
+      "geometry": "78805a9352ff93b1c9ff00d3d66f6bd633f6728dd0fc4aab51d13909049d6636",
+      "id": null,
+      "owner": "v5_geometric_floor_lamp",
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_V5_LAMP_HEAD_Pivot": {
+      "geometry": "2902af1d83a0db58f0cefdbdfe3b7986dc3573f3546254d02abc339e844765e7",
+      "id": "v5_floor_lamp_head",
+      "owner": null,
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_v5_floor_lamp_head__baked__A4": {
+      "geometry": "de776a3d148602d89c8c30e92866156988a94e65929b340cad1345b253cec5e7",
+      "id": null,
+      "owner": "v5_floor_lamp_head",
+      "parent": "WEB8_V5_LAMP_HEAD_Pivot"
+    },
+    "WEB8_V5_CAPSULE_RACK_Root": {
+      "geometry": "a0266280ae1b0b4c6748523f56811e3e57b7480754ecf8d8e01fffcc229528bb",
+      "id": "v5_energy_capsule_rack",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_energy_capsule_rack__baked__A4": {
+      "geometry": "e7e4f2c4b0e5ce30fcc446364f71f3f84d22dbffc18650e8ea3b4427fbcf0044",
+      "id": null,
+      "owner": "v5_energy_capsule_rack",
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_V5_ENERGY_CAPSULE_Pivot": {
+      "geometry": "6ae9b33030647546a7821023ae9de94b023e6ae0e410d75c2ffdfaa8c6264bf0",
+      "id": "v5_energy_capsule",
+      "owner": null,
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_v5_energy_capsule__baked__A4": {
+      "geometry": "6cade0c5058329c9179e088d3c316ecd8c20fcc76c9cca8581e6afe7f40f798a",
+      "id": null,
+      "owner": "v5_energy_capsule",
+      "parent": "WEB8_V5_ENERGY_CAPSULE_Pivot"
+    },
+    "WEB8_V5_MECHANICAL_PANEL_Root": {
+      "geometry": "634e9bcaac3ee311859984dd347fbe0a4d78b6ea05746a5db45ca37687dbed69",
+      "id": "v5_mechanical_data_panel",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_mechanical_data_panel__baked__A4": {
+      "geometry": "d8ac56bba3cac16e010477c61bee4b5ca63a7462ce7d5448748946467036d57c",
+      "id": null,
+      "owner": "v5_mechanical_data_panel",
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_V5_DATA_SELECTOR_Pivot": {
+      "geometry": "81fda1adbac1f3c04f5f9c0ac51eef0c17c88d44d251a9ab5ebc05c76954183e",
+      "id": "v5_data_panel_selector",
+      "owner": null,
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_v5_data_panel_selector__baked__A4": {
+      "geometry": "28f80c8015e4154730bdf3f347ce2debc0be68c80a17eada12f3912e2adb4aa3",
+      "id": null,
+      "owner": "v5_data_panel_selector",
+      "parent": "WEB8_V5_DATA_SELECTOR_Pivot"
+    },
+    "WEB8_V5_SCOUT_DISPLAY_Root": {
+      "geometry": "326f59674066306482d30c9b24dfa951868ce7be4357ed40e6f1b66905094243",
+      "id": "v5_scout_drone_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_scout_drone_display__baked__A4": {
+      "geometry": "68d586984aac791612b4bac881007b63fb8397e63f2ec05e34d73e4d91e49adf",
+      "id": null,
+      "owner": "v5_scout_drone_display",
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_V5_SCOUT_DRONE_Pivot": {
+      "geometry": "d658a2596913b2b4850d238c21670bcec97c865413237c9a8e3ea3a3937d52a4",
+      "id": "v5_scout_drone",
+      "owner": null,
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_v5_scout_drone__baked__A4": {
+      "geometry": "a1ce691d0d3814072ccaa1931f8f32cd5fb68f03dff9219f3d435608f3e0cbcc",
+      "id": null,
+      "owner": "v5_scout_drone",
+      "parent": "WEB8_V5_SCOUT_DRONE_Pivot"
+    },
+    "WEB8_EXT6_ORBITAL_DOCK_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.orbital_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.orbital_dock__baked__A5": {
+      "geometry": "c51921918b3deaa0ed73d0f5652fa2656c9f952b642e0877657384fa98b46fca",
+      "id": null,
+      "owner": "environment.orbital_dock",
+      "parent": "WEB8_EXT6_ORBITAL_DOCK_Root"
+    },
+    "WEB8_WG7_WARM_GALLERY_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.warm_gallery",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.warm_gallery__baked__A6": {
+      "geometry": "6e99bf57d114e26e4501d72ca123dfa3947a753f9d017c2a27210a334b988336",
+      "id": null,
+      "owner": "environment.warm_gallery",
+      "parent": "WEB8_WG7_WARM_GALLERY_Root"
+    },
+    "WEB8_IW8_DeskPetal_Root": {
+      "geometry": "99e738a11773d1bafabc6fca2492908626a7c0cf8da3e51a030f567fdd064af8",
+      "id": "v8_desk_glow_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_desk_glow_lamp__baked__A4": {
+      "geometry": "36d7c3c8f1def8becc63ae4465b81a3fe3675a703d7aae3be21c3d7da0e1d1f8",
+      "id": null,
+      "owner": "v8_desk_glow_lamp",
+      "parent": "WEB8_IW8_DeskPetal_Root"
+    },
+    "WEB8_IW8_WindowUndershelf_Root": {
+      "geometry": "826b7939558ef800022b4016ce09e3afb11f22340b7b597c95b67b75e92ecd85",
+      "id": "v8_window_light_bar",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_window_light_bar__baked__A4": {
+      "geometry": "7f6bc0c1a23b97a414b08c38f5a1f943e8600a14267c2370614b90c757a64863",
+      "id": null,
+      "owner": "v8_window_light_bar",
+      "parent": "WEB8_IW8_WindowUndershelf_Root"
+    },
+    "WEB8_IW8_ReadingPuck_Root": {
+      "geometry": "7082044a5a1d6ec333bccda0676f5dfbf061540ba7d4c48d34eb100387b24edf",
+      "id": "v8_reading_puck",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_reading_puck__baked__A4": {
+      "geometry": "09e0dabfc4ce8bea1e19434f94759f504a021176f2801590384bbca04ccc1fc8",
+      "id": null,
+      "owner": "v8_reading_puck",
+      "parent": "WEB8_IW8_ReadingPuck_Root"
+    },
+    "WEB8_room_static__baked__A0": {
+      "geometry": "fc23fedc654ad452e0a897fad5705dff7770acda3f6d1bc57ef227b017984061",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_room_static__baked__A8": {
+      "geometry": "da6106888dcd32202402a0bbc526ecd18619b6c897f1a781551fd237a96381cd",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_architecture.platform__baked__A0": {
+      "geometry": "0d8bb882ef8c2537c80a4d65e9719871c7c09ec0ac785988d53c691147370882",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    },
+    "WEB8_architecture.platform__baked__A8": {
+      "geometry": "7f0cda52267ffaaf28804fae90c5776bb9d7d89ff6002a9756df268b0dbde92f",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    },
+    "WEB19_CEILING_WARM_Root": {
+      "geometry": "a143939d93b3350136dc2fcb8ebc576d4c1a6dfeabc8a7c30a362ad3f5255c6d",
+      "id": "lighting.ceiling_warm",
+      "owner": null,
+      "parent": null
+    },
+    "WEB19_lighting.ceiling_warm__baked__A12": {
+      "geometry": "a68c339032f42dc69c1b88c6f2882dcfcccfdc27c55cb4ac0f6868e1fef934c4",
+      "id": null,
+      "owner": "lighting.ceiling_warm",
+      "parent": "WEB19_CEILING_WARM_Root"
+    }
+  },
+  "expectedExportTriangles": 418383,
+  "atlasCount": 13,
+  "affectedSurfaceSlots": [
+    0,
+    8,
+    12
+  ],
+  "unchangedSurfaceSlots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+  ],
+  "rebakeDayNightSlots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "introSlots": [
+    0,
+    1,
+    8
+  ],
+  "runtimeExported": true,
+  "aboutAssetsUnchanged": true,
+  "reviewRevision": 2,
+  "status": "source_bakes_and_raw_export_complete",
+  "recipeFiles": [
+    {
+      "path": "assets/blender/scripts/room_refinement_v19.py",
+      "sha256": "51a7ee22ce354bc59ccebb66b1b7f90e744ac80a0d17526a27f97001678380f3"
+    },
+    {
+      "path": "assets/blender/scripts/photoreal_materials_v19.py",
+      "sha256": "1dda7ddf07034b61af88e26c09e854328511c384b3a935f2a8141b14dcc06847"
+    },
+    {
+      "path": "assets/blender/scripts/pbr_bake_channels.py",
+      "sha256": "bcf3d8be033c0a0192e7a5c6d1e56f1373c8542397cac53001d4dcf9e497601b"
+    }
+  ],
+  "legacyV18Preserved": true,
+  "rejectedV19Review1": "assets/blender/room-v19-review-history/review1",
+  "floorRemovalIndexMap": "assets/blender/room-v19-floor-removal-index-map.json",
+  "review2Decision": "Parent visually checked day/night and authorised full bake on 2026-10-01",
+  "runtimePublishedByThisAgent": false,
+  "deliveryReport": "assets/blender/room-v19-bake-delivery.json"
+}

@@ -1,0 +1,133 @@
+{
+  "createdAt": "2026-10-01",
+  "purpose": "Four existing-work illustrations for the local resume flip book",
+  "copyVerification": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/docs/concepts/exhibit-book-motion-v1/resume-preview-copy.json",
+  "policy": [
+    "No new AI image generation. Existing AIGC artwork is explicitly identified.",
+    "Read-only source media reuse; no old website layouts or components migrated.",
+    "Local preview only; no deployment or upload performed.",
+    "No fictional career history, product clients, growth metrics or operational results inferred."
+  ],
+  "images": [
+    {
+      "id": "overview",
+      "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/renders/room-materials-v20/day-review-4.png",
+      "caption": "创作空间 · Blender 实际渲染",
+      "alt": "个人网站创作空间的日间三维渲染：桌面工作区、玻璃窗、展示架与座椅。",
+      "kind": "Existing Blender Cycles render",
+      "evidence": [
+        "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/renders/room-materials-v20/day-review-4.json",
+        "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/project-status.json"
+      ],
+      "scope": "作为个人三维创作作品代表，不作为真人照片或头像。场景制作使用 Blender MCP 与 Python 辅助，40 samples Cycles 渲染；本次仅缩放转码。",
+      "sourceDimensions": [
+        1400,
+        1050
+      ],
+      "sourceSha256": "91e86622c2570f3cd50241a6662692e901789c25dcfbc711687ebe04ee2f70b7",
+      "path": "/media/resume-book/overview.webp",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "bytes": 167654,
+      "sha256": "0b4386c772703145c212de82d0576d34f9fa2fc1a997bd78bfe8688ed034598a",
+      "transformation": "Pillow: existing image RGB conversion, optional recorded crop, Lanczos resize to 1200 px width, WebP quality 91. No redraw, compositing, generated pixels or added labels."
+    },
+    {
+      "id": "game-design",
+      "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/media/works/sugar-shell-glutton/combat.webp",
+      "caption": "糖壳暴食兽 · 实机战斗演示",
+      "alt": "糖壳暴食兽实机战斗画面，展示聚怪、破甲和范围攻击的技能组合。",
+      "kind": "Existing playable prototype video frame",
+      "evidence": [
+        "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/docs/sugar-shell-glutton-content-evidence.json"
+      ],
+      "sourceVideo": "/Users/a90/Documents/ChatGPT/游戏/artifacts/video/application-20261001/王丞业_糖壳暴食兽_VibeCoding作品演示_1080p.mp4",
+      "sourceTimeSeconds": 12.3,
+      "scope": "开发中游戏原型的视频实机帧，保留原视频中的玩法解说字幕。开发与美术结合 AI 辅助、Blender 脚本及既有素材；不表示商业上线成果。",
+      "sourceDimensions": [
+        1920,
+        1080
+      ],
+      "sourceSha256": "46583203c74f4e33d0e5a19b12e6e27bf3694779482e65a34e75e60f3c3b6dbe",
+      "path": "/media/resume-book/game-design.webp",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "bytes": 170662,
+      "sha256": "f0ea955214aa624918406016180341cbe006eed44094733982db84c89f25d94d",
+      "transformation": "Pillow: existing image RGB conversion, optional recorded crop, Lanczos resize to 1200 px width, WebP quality 91. No redraw, compositing, generated pixels or added labels."
+    },
+    {
+      "id": "game-operations",
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/aigc-process/perfume/22.webp",
+      "caption": "香水 AIGC 短片 · 产品视觉母版",
+      "alt": "香水 AIGC 短片产品视觉母版，展示同一瓶身的正侧背视图及瓶盖、液体和玻璃细节。",
+      "kind": "Existing AIGC production reference board",
+      "evidence": [
+        "/Users/a90/Documents/wcy90-portfolio/app/aigc-case-assets.json",
+        "/Users/a90/Documents/wcy90-portfolio/app/page.tsx",
+        "/Users/a90/Documents/ChatGPT/个人网站/output/docx/王丞业_AI游戏运营_简历_v3.docx"
+      ],
+      "scope": "用户既有香水 AIGC 短片制作素材，用于说明视觉一致性和内容制作实践。原图为 AIGC 作品，不作为真实产品摄影、商业合作或运营业绩证据。本次未调用图像生成。",
+      "sourceDimensions": [
+        1672,
+        941
+      ],
+      "sourceSha256": "ce044ceef8dcae8dc774c0a9f87309f60e69eea02cbeb358bbebbe82960dd1a6",
+      "path": "/media/resume-book/game-operations.webp",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "bytes": 69448,
+      "sha256": "3b1d5b26c313a0b94aeee7f6e5254001f9a6fb95fb3f6cf35e5a07032c9a28a0",
+      "transformation": "Pillow: existing image RGB conversion, optional recorded crop, Lanczos resize to 1200 px width, WebP quality 91. No redraw, compositing, generated pixels or added labels."
+    },
+    {
+      "id": "projects",
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/night-store/playable-build.jpg",
+      "crop": [
+        1,
+        31,
+        1281,
+        751
+      ],
+      "caption": "夜班便利店 · 可玩垂直切片",
+      "alt": "夜班便利店 Windows 可玩版本实机截图，玩家在收银台观察顾客并扫描商品。",
+      "kind": "Existing Windows playable build screenshot",
+      "evidence": [
+        "/Users/a90/Documents/wcy90-portfolio/app/page.tsx",
+        "/Users/a90/Documents/ChatGPT/个人网站/output/docx/王丞业_游戏策划_简历_v3.docx"
+      ],
+      "scope": "已有可玩垂直切片截图，裁去 Windows 标题栏与外框，保留游戏内容及界面。未在本次运行或重测该游戏。",
+      "sourceDimensions": [
+        1282,
+        752
+      ],
+      "sourceSha256": "ccc3b9b4cdb97a4e90c743fdcf662ea0a55b90be064375d08344e04e2b49ac6b",
+      "path": "/media/resume-book/projects.webp",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "bytes": 104702,
+      "sha256": "83ba7921f5d1a5eb058c89cb58069e9a05b28e93053065efd2f6ee0d533b57f8",
+      "transformation": "Pillow: existing image RGB conversion, optional recorded crop, Lanczos resize to 1200 px width, WebP quality 91. No redraw, compositing, generated pixels or added labels."
+    }
+  ],
+  "originalResumeDownloads": [
+    {
+      "source": "/Users/a90/Documents/ChatGPT/个人网站/output/pdf/王丞业_游戏策划_简历_v3.pdf",
+      "target": "public/media/resume-book/resume-game-design.pdf",
+      "sha256": "c006eb4ddf227a6d7dc45182384c212e03aeed57efe4b4897b8fbad1cc105797"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/个人网站/output/pdf/王丞业_AI游戏运营_简历_v3.pdf",
+      "target": "public/media/resume-book/resume-game-operations.pdf",
+      "sha256": "bde9cff32ac04f6188e281870fba7d1d4e3aaad16e2711bffe16f49873e5e6ed"
+    }
+  ]
+}

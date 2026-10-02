@@ -1,0 +1,500 @@
+{
+  "model": "public/models/orbital-atelier-v15.glb",
+  "source": "assets/blender/orbital-atelier-v15.blend",
+  "prepared": "assets/blender/orbital-dual-bake-v15.blend",
+  "lightingRevision": 15,
+  "triangles": 373203,
+  "drawPrimitives": 102,
+  "materials": [
+    "WEB8_WINDOW_CITY",
+    "WEB8_LIGHTMAP_0",
+    "WEB8_LIGHTMAP_8",
+    "WEB8_LIGHTMAP_2",
+    "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+    "WEB8_CLEAR_WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass",
+    "WEB8_LIGHTMAP_1",
+    "WEB8_LIGHTMAP_7",
+    "WEB8_CLEAR_WEB8_GLASS_MAT_Smoke_Glass",
+    "WEB8_LIGHTMAP_10",
+    "WEB8_LIGHTMAP_9",
+    "WEB8_CLEAR_WEB8_GLASS_P_ClearTerrariumGlass",
+    "WEB8_LIGHTMAP_3",
+    "WEB8_CLEAR_WEB8_GLASS_D_SpecimenSmokeGlass",
+    "WEB8_CLEAR_WEB8_GLASS_D_PlanterGlass",
+    "WEB8_LIGHTMAP_4",
+    "WEB8_LIGHTMAP_5",
+    "WEB8_LIGHTMAP_6"
+  ],
+  "bytes": 66053292,
+  "sha256": "363d70c42dfa142184e18bb0552383b62a58b7d16edbaa197f82dbdf128f0c7a",
+  "componentIds": [
+    "architecture.platform",
+    "main_display",
+    "compute_core",
+    "furniture.desk",
+    "furniture.work_chair",
+    "furniture.lounge",
+    "furniture.coffee_table",
+    "furniture.rug",
+    "robot_companion",
+    "robot_service_hatch",
+    "robot_leg_00",
+    "robot_leg_01",
+    "robot_leg_02",
+    "folding_drawing_terminal",
+    "terminal_tilt",
+    "terminal_panel_L",
+    "terminal_panel_R",
+    "drawing_stylus",
+    "c_archive_dock",
+    "archive_cartridge_00",
+    "archive_cartridge_01",
+    "archive_cartridge_02",
+    "kinetic_three_petal_flower",
+    "flower_petal_0",
+    "flower_petal_1",
+    "flower_petal_2",
+    "headphones_on_stand",
+    "headphone_cup_0",
+    "headphone_cup_1",
+    "ceramic_ring_speaker",
+    "speaker_gimbal",
+    "split_keyboard",
+    "keyboard_half_0",
+    "keyboard_half_1",
+    "keyboard_dial",
+    "desktop_creative_controller",
+    "compact_camera",
+    "camera_focus_lens",
+    "thermal_cup",
+    "table_notebook_group",
+    "notebook",
+    "creative_folio",
+    "coffee_table_pen",
+    "coffee_table_dial",
+    "glass_bonsai_terrarium",
+    "trailing_wall_plant",
+    "studio_reference_books",
+    "creative_book_0",
+    "creative_book_1",
+    "creative_book_2",
+    "titanium_bookend_0",
+    "titanium_bookend_1",
+    "geometric_specimen_cloche",
+    "original_trefoil_geometry",
+    "portable_fold_communicator",
+    "folding_communicator_handset",
+    "communicator_panel_0",
+    "communicator_panel_1",
+    "ceramic_mobius_study",
+    "ceramic_mobius_form",
+    "glass_cutting_planter",
+    "small_planter_leaf_0",
+    "small_planter_leaf_1",
+    "small_planter_leaf_2",
+    "small_planter_leaf_3",
+    "small_planter_leaf_4",
+    "black_ceramic_floor_planter",
+    "floor_vase_leaf_0",
+    "floor_vase_leaf_1",
+    "floor_vase_leaf_2",
+    "floor_vase_leaf_3",
+    "floor_vase_leaf_4",
+    "floor_vase_leaf_5",
+    "floor_vase_leaf_6",
+    "v5_orbital_clock",
+    "v5_clock_dial",
+    "v5_portable_projector",
+    "v5_projector_lens",
+    "v5_magnetic_pen_dock",
+    "v5_magnetic_stylus",
+    "v5_modular_equipment_cases",
+    "v5_upper_equipment_case",
+    "v5_geometric_floor_lamp",
+    "v5_floor_lamp_head",
+    "v5_energy_capsule_rack",
+    "v5_energy_capsule",
+    "v5_mechanical_data_panel",
+    "v5_data_panel_selector",
+    "v5_scout_drone_display",
+    "v5_scout_drone",
+    "environment.orbital_dock",
+    "environment.warm_gallery",
+    "v8_desk_glow_lamp",
+    "v8_window_light_bar",
+    "v8_reading_puck"
+  ],
+  "bakedStates": [
+    "day",
+    "night"
+  ],
+  "atlasSizes": [
+    4096,
+    4096,
+    4096,
+    4096,
+    4096,
+    4096,
+    3072,
+    2048,
+    3072,
+    4096,
+    4096
+  ],
+  "samples": 96,
+  "color": "Cycles combined direct, indirect, diffuse, glossy and emission; AgX baked to sRGB, browser NoToneMapping",
+  "geometryInheritedFrom": 14,
+  "newSamples": 96,
+  "rebakedAtlasIDs": [
+    0,
+    2,
+    3,
+    4,
+    8,
+    9,
+    10
+  ],
+  "retainedAtlasIDs": [
+    1,
+    5,
+    6,
+    7
+  ],
+  "sourceGeometryUnchanged": false,
+  "smallPropGeometryUnchanged": true,
+  "windowClearanceRepair": {
+    "revision": 15,
+    "windowWidthReduction": 0.25,
+    "reason": "Actual window/display tower geometry intersections confirmed by world-space BVH.",
+    "preparedEdits": [
+      {
+        "object": "WEB8_room_static__image__A0",
+        "beforeMin": [
+          -2.7100000381469727,
+          3.119999885559082,
+          1.7450000047683716
+        ],
+        "beforeMax": [
+          3.2100000381469727,
+          3.125,
+          4.195000171661377
+        ],
+        "afterMin": [
+          -2.7100000381469727,
+          3.119999885559082,
+          1.7450000047683716
+        ],
+        "afterMax": [
+          2.9600000381469727,
+          3.125,
+          4.195000171661377
+        ],
+        "xScale": 0.9577702708145055
+      },
+      {
+        "object": "WEB8_room_static__baked__A8",
+        "beforeMin": [
+          -2.7376043796539307,
+          3.065000057220459,
+          1.7173956632614136
+        ],
+        "beforeMax": [
+          3.2376043796539307,
+          3.0809998512268066,
+          4.222604751586914
+        ],
+        "afterMin": [
+          -2.7376043796539307,
+          3.065000057220459,
+          1.7173956632614136
+        ],
+        "afterMax": [
+          2.9876043796539307,
+          3.0809998512268066,
+          4.222604751586914
+        ],
+        "xScale": 0.9581604576391471
+      },
+      {
+        "object": "WEB8_room_static__baked__A8",
+        "beforeMin": [
+          -2.9000000953674316,
+          3.0799999237060547,
+          1.559999942779541
+        ],
+        "beforeMax": [
+          3.4000000953674316,
+          3.3499999046325684,
+          4.380000114440918
+        ],
+        "afterMin": [
+          -2.9000000953674316,
+          3.0799999237060547,
+          1.559999942779541
+        ],
+        "afterMax": [
+          3.1500000953674316,
+          3.3499999046325684,
+          4.380000114440918
+        ],
+        "xScale": 0.9603174615188641
+      }
+    ],
+    "bvhChecks": [
+      {
+        "window": "WEB8_room_static__image__A0",
+        "tower": "WEB8_room_static__baked__A0",
+        "triangleIntersections": 0
+      },
+      {
+        "window": "WEB8_room_static__image__A0",
+        "tower": "WEB8_room_static__baked__A8",
+        "triangleIntersections": 0
+      },
+      {
+        "window": "WEB8_room_static__baked__A8",
+        "tower": "WEB8_room_static__baked__A0",
+        "triangleIntersections": 0
+      },
+      {
+        "window": "WEB8_room_static__baked__A8",
+        "tower": "WEB8_room_static__baked__A8",
+        "triangleIntersections": 0
+      },
+      {
+        "window": "WEB8_room_static__baked__A8",
+        "tower": "WEB8_room_static__baked__A0",
+        "triangleIntersections": 0
+      },
+      {
+        "window": "WEB8_room_static__baked__A8",
+        "tower": "WEB8_room_static__baked__A8",
+        "triangleIntersections": 0
+      }
+    ],
+    "allWindowTowerIntersectionsRemoved": true,
+    "editableSourceEdits": [
+      {
+        "name": "A_PanoramaTitaniumBezel",
+        "leftPreserved": -2.9000000953674316,
+        "rightBefore": 3.4000000953674316,
+        "rightAfter": 3.1500000953674316
+      },
+      {
+        "name": "A_Window_CityPanel",
+        "leftPreserved": -2.7100000381469727,
+        "rightBefore": 3.2100000381469727,
+        "rightAfter": 2.9600000381469727
+      },
+      {
+        "name": "A_WindowRecessLight",
+        "leftPreserved": -2.7376043796539307,
+        "rightBefore": 3.2376043796539307,
+        "rightAfter": 2.9876043796539307
+      },
+      {
+        "name": "DAY_V8__A_PanoramaTitaniumBezel",
+        "leftPreserved": -2.9000000953674316,
+        "rightBefore": 3.4000000953674316,
+        "rightAfter": 3.1500000953674316
+      },
+      {
+        "name": "DAY_V8__A_Window_CityPanel",
+        "leftPreserved": -2.7100000381469727,
+        "rightBefore": 3.2100000381469727,
+        "rightAfter": 2.9600000381469727
+      },
+      {
+        "name": "DAY_V8__A_WindowRecessLight",
+        "leftPreserved": -2.7376043796539307,
+        "rightBefore": 3.2376043796539307,
+        "rightAfter": 2.9876043796539307
+      },
+      {
+        "name": "NIGHT_V8__A_PanoramaTitaniumBezel",
+        "leftPreserved": -2.9000000953674316,
+        "rightBefore": 3.4000000953674316,
+        "rightAfter": 3.1500000953674316
+      },
+      {
+        "name": "NIGHT_V8__A_Window_CityPanel",
+        "leftPreserved": -2.7100000381469727,
+        "rightBefore": 3.2100000381469727,
+        "rightAfter": 2.9600000381469727
+      },
+      {
+        "name": "NIGHT_V8__A_WindowRecessLight",
+        "leftPreserved": -2.7376043796539307,
+        "rightBefore": 3.2376043796539307,
+        "rightAfter": 2.9876043796539307
+      },
+      {
+        "name": "V11__A_PanoramaTitaniumBezel",
+        "leftPreserved": -2.9000000953674316,
+        "rightBefore": 3.4000000953674316,
+        "rightAfter": 3.1500000953674316
+      }
+    ],
+    "dayApertureMaterialsUpdated": 4,
+    "preparedBeforeWindowRepairSha256": "d53d3f4ed77ae411ab019dd47eaa555000af4b93f7fafba1814baf156fcaa87e",
+    "preparedAfterWindowRepairSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+    "smallPropBakeSnapshot": "assets/blender/orbital-dual-bake-v15-props-snapshot.blend",
+    "editableSource": "assets/blender/orbital-atelier-v15.blend",
+    "geometryChangedAtlases": [
+      8
+    ],
+    "independentWindowImageChanged": true,
+    "requiredSupplementalBakes": [
+      0,
+      8
+    ],
+    "lightingNote": "Sun/world/practical powers unchanged. A2/A9 left desk props were completed before window repair. A10/A3/A4 restarted from repaired prepared geometry and corrected daylight aperture; architecture A0/A8 separately rebaked after repair.",
+    "editableSourceSha256": "0ba9f8611dcd91bbcdf6224b0be51e187d82078d3554783df20a456d857b7713",
+    "affectedAtlasesRebakedAfterWindowRepair": [
+      0,
+      3,
+      4,
+      8,
+      10
+    ]
+  },
+  "uvAudit": "assets/blender/texture-precision-v15-prepare.json",
+  "nativeRerenderedImages": {
+    "revision": 15,
+    "complete": true,
+    "sources": [
+      {
+        "source": "assets/blender/orbital-atelier-v15.blend",
+        "sha256BeforeImageBinding": "0ba9f8611dcd91bbcdf6224b0be51e187d82078d3554783df20a456d857b7713",
+        "sha256AfterImageBinding": "ee353085b7f0004ced816f5b681b43c295210a41998c87af5467df89705a9ef2",
+        "changes": [
+          {
+            "material": "DAY_SUN_V9_DAY_V8__MAT_Original_Window_City_V2.001",
+            "node": "Image Texture",
+            "previousImage": "WINDOW_DAY_V8_RENDER",
+            "image": "window-city-v15-day",
+            "path": "public/textures/lighting-v15/window-day.png"
+          },
+          {
+            "material": "DAY_V8__MAT_Rendered_3D_ScreenArtwork",
+            "node": "Image Texture",
+            "previousImage": "screen-art-render.png",
+            "image": "screen-art-render-v15.png",
+            "path": "public/textures/lighting-v15/screen-art-render.png"
+          },
+          {
+            "material": "MAT_Original_Window_City_V2.001",
+            "node": "Image Texture",
+            "previousImage": "window-city-v2.png",
+            "image": "window-city-v15-day",
+            "path": "public/textures/lighting-v15/window-day.png"
+          },
+          {
+            "material": "MAT_Rendered_3D_ScreenArtwork",
+            "node": "Image Texture",
+            "previousImage": "screen-art-render.png",
+            "image": "screen-art-render-v15.png",
+            "path": "public/textures/lighting-v15/screen-art-render.png"
+          },
+          {
+            "material": "NIGHT_V8__MAT_Original_Window_City_V2.001",
+            "node": "Image Texture",
+            "previousImage": "WINDOW_NIGHT_V8_RENDER",
+            "image": "window-city-v15-night",
+            "path": "public/textures/lighting-v15/window-night.png"
+          },
+          {
+            "material": "NIGHT_V8__MAT_Rendered_3D_ScreenArtwork",
+            "node": "Image Texture",
+            "previousImage": "screen-art-render.png",
+            "image": "screen-art-render-v15.png",
+            "path": "public/textures/lighting-v15/screen-art-render.png"
+          }
+        ],
+        "geometryAndUVUnchanged": "No geometry operations performed"
+      },
+      {
+        "source": "assets/blender/orbital-dual-bake-v15.blend",
+        "sha256BeforeImageBinding": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+        "sha256AfterImageBinding": "ada64411ff60de044e6f5a7e0a7035305fdf78ae982948e65040210765488f42",
+        "changes": [
+          {
+            "material": "DAY_SUN_V9_DAY_V8__MAT_Original_Window_City_V2.001",
+            "node": "Image Texture",
+            "previousImage": "WINDOW_DAY_V8_RENDER",
+            "image": "window-city-v15-day",
+            "path": "public/textures/lighting-v15/window-day.png"
+          },
+          {
+            "material": "DAY_V8__MAT_Rendered_3D_ScreenArtwork",
+            "node": "Image Texture",
+            "previousImage": "screen-art-render.png",
+            "image": "screen-art-render-v15.png",
+            "path": "public/textures/lighting-v15/screen-art-render.png"
+          },
+          {
+            "material": "MAT_Original_Window_City_V2.001",
+            "node": "Image Texture",
+            "previousImage": "window-city-v2.png",
+            "image": "window-city-v15-day",
+            "path": "public/textures/lighting-v15/window-day.png"
+          },
+          {
+            "material": "MAT_Rendered_3D_ScreenArtwork",
+            "node": "Image Texture",
+            "previousImage": "screen-art-render.png",
+            "image": "screen-art-render-v15.png",
+            "path": "public/textures/lighting-v15/screen-art-render.png"
+          },
+          {
+            "material": "NIGHT_V8__MAT_Original_Window_City_V2.001",
+            "node": "Image Texture",
+            "previousImage": "WINDOW_NIGHT_V8_RENDER",
+            "image": "window-city-v15-night",
+            "path": "public/textures/lighting-v15/window-night.png"
+          },
+          {
+            "material": "NIGHT_V8__MAT_Rendered_3D_ScreenArtwork",
+            "node": "Image Texture",
+            "previousImage": "screen-art-render.png",
+            "image": "screen-art-render-v15.png",
+            "path": "public/textures/lighting-v15/screen-art-render.png"
+          },
+          {
+            "material": "WEB8_IMAGE_MAT_Original_Window_City_V2.001",
+            "node": "Image Texture",
+            "previousImage": "window-city-v2.png",
+            "image": "window-city-v15-day",
+            "path": "public/textures/lighting-v15/window-day.png"
+          },
+          {
+            "material": "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+            "node": "Image Texture",
+            "previousImage": "screen-art-render.png",
+            "image": "screen-art-render-v15.png",
+            "path": "public/textures/lighting-v15/screen-art-render.png"
+          }
+        ],
+        "geometryAndUVUnchanged": true
+      }
+    ],
+    "images": {
+      "day": {
+        "path": "public/textures/lighting-v15/window-day.png",
+        "sha256": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968"
+      },
+      "night": {
+        "path": "public/textures/lighting-v15/window-night.png",
+        "sha256": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf"
+      },
+      "screen": {
+        "path": "public/textures/lighting-v15/screen-art-render.png",
+        "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d"
+      }
+    },
+    "windowRenderManifest": "public/textures/lighting-v15/window-v15-manifest.json",
+    "screenRenderManifest": "public/textures/lighting-v15/screen-v15-manifest.json"
+  },
+  "preparedSha256": "ada64411ff60de044e6f5a7e0a7035305fdf78ae982948e65040210765488f42",
+  "sourceSha256": "ee353085b7f0004ced816f5b681b43c295210a41998c87af5467df89705a9ef2"
+}

@@ -1,0 +1,138 @@
+{
+  "complete": true,
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "count": 13,
+  "samples": 96,
+  "rows": [
+    {
+      "slot": 0,
+      "seconds": 106.13,
+      "maximum": 8.09089469909668,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "2e7b60ca4a4ffba015ab941deba6c7311e7c9712bfa406383c36c79b4b13af21"
+    },
+    {
+      "slot": 1,
+      "seconds": 85.94,
+      "maximum": 5.744961738586426,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "af45d6a4729b27f9be444658e34f10e08ec144f54ba1151eeaf197a10254e3d2"
+    },
+    {
+      "slot": 2,
+      "seconds": 193.04,
+      "maximum": 11.102571487426758,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "faa70954116711d97fdc7c7293d4da6255b9e91f48c88eb4a9513d8c99d9706b"
+    },
+    {
+      "slot": 3,
+      "seconds": 119.71,
+      "maximum": 6.49278450012207,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "20b840933ad88fb960738f6614c28122277b0346547b7dd7af2f76e56ae3a852"
+    },
+    {
+      "slot": 4,
+      "seconds": 122.35,
+      "maximum": 8.611989974975586,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "4d5aeb38ff8fd27af6a7a2b4a30461af35a5cac622d4e53f301ab822312f2e7d"
+    },
+    {
+      "slot": 5,
+      "seconds": 119.03,
+      "maximum": 8.581183433532715,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "5a7368477bd0505c41be61328c7647628254022e5595f20fac2f03e8422c0575"
+    },
+    {
+      "slot": 6,
+      "seconds": 67.19,
+      "maximum": 5.464705944061279,
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "sha256": "3264a26389e1eb55b21b92bb24382e2c705ae5f25e28bd57a15d52bec22be3d4"
+    },
+    {
+      "slot": 7,
+      "seconds": 27.01,
+      "maximum": 1.996731162071228,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "37c0b2e8e4d8fbaa956ea984504f8317b7d2d034ced2b5295f298a8d850dd41a"
+    },
+    {
+      "slot": 8,
+      "seconds": 39.83,
+      "maximum": 4.36388635635376,
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "sha256": "591993313e02ad49344c8cdd59c5daaf720211802e44300ff12e45186dfdecc2"
+    },
+    {
+      "slot": 9,
+      "seconds": 83.93,
+      "maximum": 9.73639965057373,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "652f98fca14c63f67b782ba9cad96f5ee458a401b4de87a9eb3c42226019861c"
+    },
+    {
+      "slot": 10,
+      "seconds": 74.81,
+      "maximum": 2.2702417373657227,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "67ba92fc7cf6675c405eda80a01258422759f8dbb30d923d882b01e9370eab4e"
+    },
+    {
+      "slot": 11,
+      "seconds": 96.3,
+      "maximum": 2.7938637733459473,
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "sha256": "7165896120d9fff63b4b1543773d366d9a7104a2372b36c807fee65a410863ba"
+    },
+    {
+      "slot": 12,
+      "seconds": 7.92,
+      "maximum": 0.40407103300094604,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "da88a8d41d7de7b99d9ad61b5303a623d45aa8e813c1e56223eb102e3507d1d5"
+    }
+  ]
+}

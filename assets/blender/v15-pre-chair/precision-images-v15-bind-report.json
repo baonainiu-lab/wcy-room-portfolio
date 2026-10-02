@@ -1,0 +1,136 @@
+{
+  "revision": 15,
+  "complete": true,
+  "sources": [
+    {
+      "source": "assets/blender/orbital-atelier-v15.blend",
+      "sha256BeforeImageBinding": "0ba9f8611dcd91bbcdf6224b0be51e187d82078d3554783df20a456d857b7713",
+      "sha256AfterImageBinding": "ee353085b7f0004ced816f5b681b43c295210a41998c87af5467df89705a9ef2",
+      "changes": [
+        {
+          "material": "DAY_SUN_V9_DAY_V8__MAT_Original_Window_City_V2.001",
+          "node": "Image Texture",
+          "previousImage": "WINDOW_DAY_V8_RENDER",
+          "image": "window-city-v15-day",
+          "path": "public/textures/lighting-v15/window-day.png"
+        },
+        {
+          "material": "DAY_V8__MAT_Rendered_3D_ScreenArtwork",
+          "node": "Image Texture",
+          "previousImage": "screen-art-render.png",
+          "image": "screen-art-render-v15.png",
+          "path": "public/textures/lighting-v15/screen-art-render.png"
+        },
+        {
+          "material": "MAT_Original_Window_City_V2.001",
+          "node": "Image Texture",
+          "previousImage": "window-city-v2.png",
+          "image": "window-city-v15-day",
+          "path": "public/textures/lighting-v15/window-day.png"
+        },
+        {
+          "material": "MAT_Rendered_3D_ScreenArtwork",
+          "node": "Image Texture",
+          "previousImage": "screen-art-render.png",
+          "image": "screen-art-render-v15.png",
+          "path": "public/textures/lighting-v15/screen-art-render.png"
+        },
+        {
+          "material": "NIGHT_V8__MAT_Original_Window_City_V2.001",
+          "node": "Image Texture",
+          "previousImage": "WINDOW_NIGHT_V8_RENDER",
+          "image": "window-city-v15-night",
+          "path": "public/textures/lighting-v15/window-night.png"
+        },
+        {
+          "material": "NIGHT_V8__MAT_Rendered_3D_ScreenArtwork",
+          "node": "Image Texture",
+          "previousImage": "screen-art-render.png",
+          "image": "screen-art-render-v15.png",
+          "path": "public/textures/lighting-v15/screen-art-render.png"
+        }
+      ],
+      "geometryAndUVUnchanged": "No geometry operations performed"
+    },
+    {
+      "source": "assets/blender/orbital-dual-bake-v15.blend",
+      "sha256BeforeImageBinding": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+      "sha256AfterImageBinding": "ada64411ff60de044e6f5a7e0a7035305fdf78ae982948e65040210765488f42",
+      "changes": [
+        {
+          "material": "DAY_SUN_V9_DAY_V8__MAT_Original_Window_City_V2.001",
+          "node": "Image Texture",
+          "previousImage": "WINDOW_DAY_V8_RENDER",
+          "image": "window-city-v15-day",
+          "path": "public/textures/lighting-v15/window-day.png"
+        },
+        {
+          "material": "DAY_V8__MAT_Rendered_3D_ScreenArtwork",
+          "node": "Image Texture",
+          "previousImage": "screen-art-render.png",
+          "image": "screen-art-render-v15.png",
+          "path": "public/textures/lighting-v15/screen-art-render.png"
+        },
+        {
+          "material": "MAT_Original_Window_City_V2.001",
+          "node": "Image Texture",
+          "previousImage": "window-city-v2.png",
+          "image": "window-city-v15-day",
+          "path": "public/textures/lighting-v15/window-day.png"
+        },
+        {
+          "material": "MAT_Rendered_3D_ScreenArtwork",
+          "node": "Image Texture",
+          "previousImage": "screen-art-render.png",
+          "image": "screen-art-render-v15.png",
+          "path": "public/textures/lighting-v15/screen-art-render.png"
+        },
+        {
+          "material": "NIGHT_V8__MAT_Original_Window_City_V2.001",
+          "node": "Image Texture",
+          "previousImage": "WINDOW_NIGHT_V8_RENDER",
+          "image": "window-city-v15-night",
+          "path": "public/textures/lighting-v15/window-night.png"
+        },
+        {
+          "material": "NIGHT_V8__MAT_Rendered_3D_ScreenArtwork",
+          "node": "Image Texture",
+          "previousImage": "screen-art-render.png",
+          "image": "screen-art-render-v15.png",
+          "path": "public/textures/lighting-v15/screen-art-render.png"
+        },
+        {
+          "material": "WEB8_IMAGE_MAT_Original_Window_City_V2.001",
+          "node": "Image Texture",
+          "previousImage": "window-city-v2.png",
+          "image": "window-city-v15-day",
+          "path": "public/textures/lighting-v15/window-day.png"
+        },
+        {
+          "material": "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+          "node": "Image Texture",
+          "previousImage": "screen-art-render.png",
+          "image": "screen-art-render-v15.png",
+          "path": "public/textures/lighting-v15/screen-art-render.png"
+        }
+      ],
+      "geometryAndUVUnchanged": true
+    }
+  ],
+  "images": {
+    "day": {
+      "path": "public/textures/lighting-v15/window-day.png",
+      "sha256": "b98492135d03f547ef809b1da06fc039aa417c09236e995f24843f9b694bb968"
+    },
+    "night": {
+      "path": "public/textures/lighting-v15/window-night.png",
+      "sha256": "6a483faccda3d2b4d5482a72761baea43760499cd207c0d1649bf670557adcdf"
+    },
+    "screen": {
+      "path": "public/textures/lighting-v15/screen-art-render.png",
+      "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d"
+    }
+  },
+  "windowRenderManifest": "public/textures/lighting-v15/window-v15-manifest.json",
+  "screenRenderManifest": "public/textures/lighting-v15/screen-v15-manifest.json"
+}

@@ -1,0 +1,587 @@
+{
+  "created": "2026-10-02",
+  "authorization": "User assigned the tornado to gallery stand 4 and all AI software projects to stand 5. Media and project facts only; no old website UI, layout, events or code were migrated. Old project read only.",
+  "softwareDeduplication": "Use folioflow-v2 and wander-journal-v2 only; add Lumière as a separate product verified by its own README, not an ecommerce assistant variant. Six products total.",
+  "productionDisclosure": "AI-assisted / Codex-assisted product development; interface screenshots and existing project presentation pages are evidence of prototypes, not proof of commercial deployment or business outcomes.",
+  "licensing": "User-provided project media used in authorized local portfolio preview. Embedded generated promotional illustration is identified in records; no third-party image stock or new external assets introduced. Further public deployment rights review remains separate.",
+  "factSources": [
+    {
+      "path": "/Users/a90/Documents/wcy90-portfolio/app/page.tsx",
+      "sha256": "1216b757995ea38b2edb40c21c1b7390d713838d1866b39530959c9f9827276d"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/README.md",
+      "sha256": "8ea95f3950aebfd1a9a685aafb31b7f7dba87044bd71b1ab4053d9e502719600"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/git/cosmetics-content-ops/README.md",
+      "sha256": "6e1d21d88afd8044f905e225e29c910c540f97e9dd07aa3446dded56b3beeeff"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/git/cosmetics-content-ops/HANDOFF.md",
+      "sha256": "40cbab02dc65fc6d7d8c4c7dab258bd9b910d320cb5c3d3b5a71e79311c93d4e"
+    },
+    {
+      "path": "/Users/a90/Documents/ChatGPT/git/cosmetics-content-ops/prototype/PRODUCT.md",
+      "sha256": "84497d3d504146279789ed0d8f4f2ac8ad3abecc3a26579828f01245a4153840"
+    }
+  ],
+  "files": [
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/ecommerce-assistant/cover.png",
+      "archiveMember": null,
+      "sourceSha256": "6e9b367ecbc5a6c9c9acb6da8a7692ebbd98a0d53f5f1b2243052a4ebe8e1419",
+      "sourceMediaSha256": "6e9b367ecbc5a6c9c9acb6da8a7692ebbd98a0d53f5f1b2243052a4ebe8e1419",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1440,
+        1000
+      ],
+      "output": "/media/works/ai-products/ecommerce-assistant/cover.webp",
+      "outputSha256": "0be2fd17fb30fbbbdcbd7414dc58b278737c12dd2c42547b1b6ad71549d32811",
+      "outputDimensions": [
+        1440,
+        1000
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration",
+      "status": "superseded 2026-10-02: replaced by screenshots of currently running blue workspace; retained as historical source evidence only"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/ecommerce-assistant/evidence-chain.png",
+      "archiveMember": null,
+      "sourceSha256": "4f91ed31a816e76fd6554a9dc50c02183aac39e353da99f22884f59f0eaf00f2",
+      "sourceMediaSha256": "4f91ed31a816e76fd6554a9dc50c02183aac39e353da99f22884f59f0eaf00f2",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1440,
+        1000
+      ],
+      "output": "/media/works/ai-products/ecommerce-assistant/evidence-chain.webp",
+      "outputSha256": "2f654c780cbc79c8bd5408cc81e3d156a4999c8428ca83715fde7a405c72e500",
+      "outputDimensions": [
+        1440,
+        1000
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration",
+      "status": "superseded 2026-10-02: replaced by screenshots of currently running blue workspace; retained as historical source evidence only"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/ecommerce-assistant/simulation.png",
+      "archiveMember": null,
+      "sourceSha256": "6e0f970199f185ba8c7e6c584d77792589b02433c8c951f879d65ae8e405b273",
+      "sourceMediaSha256": "6e0f970199f185ba8c7e6c584d77792589b02433c8c951f879d65ae8e405b273",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1440,
+        1000
+      ],
+      "output": "/media/works/ai-products/ecommerce-assistant/simulation.webp",
+      "outputSha256": "103be33da1ab4a10254181b845dac580a8a517831f353ac8427f3a865182fb25",
+      "outputDimensions": [
+        1440,
+        1000
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration",
+      "status": "superseded 2026-10-02: replaced by screenshots of currently running blue workspace; retained as historical source evidence only"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/lingji/cover.png",
+      "archiveMember": null,
+      "sourceSha256": "00ec56663cfa640944580e6ceb9763cda887cd9e2bac57f36191777911085673",
+      "sourceMediaSha256": "00ec56663cfa640944580e6ceb9763cda887cd9e2bac57f36191777911085673",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1440,
+        966
+      ],
+      "output": "/media/works/ai-products/lingji/cover.webp",
+      "outputSha256": "cf8e753c8b3dddce16c1e30d5889686a227ed541081617eb5f9dfc3e1dd50340",
+      "outputDimensions": [
+        1440,
+        966
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/lingji/diagnosis.png",
+      "archiveMember": null,
+      "sourceSha256": "cbab56aa37c1ccdcd4d1706ab97bb19c41bafc7e2cd11c5a9068ef04ec58b3ea",
+      "sourceMediaSha256": "cbab56aa37c1ccdcd4d1706ab97bb19c41bafc7e2cd11c5a9068ef04ec58b3ea",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1440,
+        1084
+      ],
+      "output": "/media/works/ai-products/lingji/diagnosis.webp",
+      "outputSha256": "619a980a655af87945354f780afa2c12e9b47b6222c5f2a19dd18a799a05e547",
+      "outputDimensions": [
+        1440,
+        1084
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/lingji/comparison.png",
+      "archiveMember": null,
+      "sourceSha256": "49de05e5e6d853595cb043b16600fb0da6420417c4985452ad16d462395e8e4f",
+      "sourceMediaSha256": "49de05e5e6d853595cb043b16600fb0da6420417c4985452ad16d462395e8e4f",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1440,
+        966
+      ],
+      "output": "/media/works/ai-products/lingji/comparison.webp",
+      "outputSha256": "b64ce8b453bb79b6f2a044f844e52caab12bdc6aea8a6a56eaec52ea3e4b582f",
+      "outputDimensions": [
+        1440,
+        966
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/folioflow-v2/product-input.jpg",
+      "archiveMember": null,
+      "sourceSha256": "a2040ed79bd394b677124cd5bea937bd38484bf434b496e3c9abaec50afd33b1",
+      "sourceMediaSha256": "a2040ed79bd394b677124cd5bea937bd38484bf434b496e3c9abaec50afd33b1",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1482,
+        921
+      ],
+      "output": "/media/works/ai-products/folioflow-v2/product-input.webp",
+      "outputSha256": "51b5a289e6efe1f5fd4fdf40a8f37a6361c07a3fe0137d861fe9200e4f6a0733",
+      "outputDimensions": [
+        1482,
+        921
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/folioflow-v2/editor.jpg",
+      "archiveMember": null,
+      "sourceSha256": "093e352cba4228487ef188f61f53f89c961ecb6b0dec67d191ebc9440505cdb0",
+      "sourceMediaSha256": "093e352cba4228487ef188f61f53f89c961ecb6b0dec67d191ebc9440505cdb0",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1482,
+        921
+      ],
+      "output": "/media/works/ai-products/folioflow-v2/editor.webp",
+      "outputSha256": "e33a892e09fdddfcb805820a36ea67fb71feb2abc6b0869ed6c314d72cfba9ed",
+      "outputDimensions": [
+        1482,
+        921
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/folioflow-v2/direction-list.png",
+      "archiveMember": null,
+      "sourceSha256": "9cdfe77b2b04b1764aaa79cb71fa53bd635bd92bb3f2e98787e0701c712b8af4",
+      "sourceMediaSha256": "9cdfe77b2b04b1764aaa79cb71fa53bd635bd92bb3f2e98787e0701c712b8af4",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        768,
+        1024
+      ],
+      "output": "/media/works/ai-products/folioflow-v2/direction-list.webp",
+      "outputSha256": "d94946ebd95c293bcdd55b0d7b573aec0d76f6e78ae0dce006c6c02460ae16e0",
+      "outputDimensions": [
+        768,
+        1024
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/wander-journal-v2/overview.png",
+      "archiveMember": null,
+      "sourceSha256": "f5a98a9adce238341ac0eb5162522fcc9141cc34858a19d7d01c2fde3124de4a",
+      "sourceMediaSha256": "f5a98a9adce238341ac0eb5162522fcc9141cc34858a19d7d01c2fde3124de4a",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1584,
+        935
+      ],
+      "output": "/media/works/ai-products/wander-journal-v2/overview.webp",
+      "outputSha256": "bd297a842f9fbd5fd8f96f5225b594cc79badb8664319661fdaabb13debc83ac",
+      "outputDimensions": [
+        1584,
+        935
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/wander-journal-v2/route-options.png",
+      "archiveMember": null,
+      "sourceSha256": "05493aac688f2a32600a29b4bdeab37a5f586fe9fe6b49df56882effe0eac1e1",
+      "sourceMediaSha256": "05493aac688f2a32600a29b4bdeab37a5f586fe9fe6b49df56882effe0eac1e1",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1584,
+        935
+      ],
+      "output": "/media/works/ai-products/wander-journal-v2/route-options.webp",
+      "outputSha256": "5326cd62d8bb0383dcfa8443d117f8a6f477b195a1bd5f022b5d8167b3f34328",
+      "outputDimensions": [
+        1584,
+        935
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/wander-journal-v2/route-preview.png",
+      "archiveMember": null,
+      "sourceSha256": "1a1c8b5842ff46e9f9a50df7df91c7c0dac070c7670bf20146581cf03f3bd3cb",
+      "sourceMediaSha256": "1a1c8b5842ff46e9f9a50df7df91c7c0dac070c7670bf20146581cf03f3bd3cb",
+      "sourceKind": "existing actual product interface screenshot",
+      "originalDimensions": [
+        1584,
+        935
+      ],
+      "output": "/media/works/ai-products/wander-journal-v2/route-preview.webp",
+      "outputSha256": "ea55aab597cb4c0baf3f0745df9a1a442b0ea5bff737830a63f15518229e0b2b",
+      "outputDimensions": [
+        1584,
+        935
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/manga-director/cover.png",
+      "archiveMember": null,
+      "sourceSha256": "41101dcec91aa2714e7be87ca8dc6128ec36a0a77c458ac124b652ca4dc9a775",
+      "sourceMediaSha256": "41101dcec91aa2714e7be87ca8dc6128ec36a0a77c458ac124b652ca4dc9a775",
+      "sourceKind": "existing project presentation page; imagery may include illustrative concept art",
+      "originalDimensions": [
+        1600,
+        900
+      ],
+      "output": "/media/works/ai-products/manga-director/cover.webp",
+      "outputSha256": "a88ae9f992a999ad50c2557caf7ef02cd9e24c08007995f7fb13aa2f927d59bd",
+      "outputDimensions": [
+        1600,
+        900
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/manga-director/workflow.png",
+      "archiveMember": null,
+      "sourceSha256": "c526c4948ebb9e1cdf0599ea3368ea800b8fa9aa81c465c1d396ea491992ffa1",
+      "sourceMediaSha256": "c526c4948ebb9e1cdf0599ea3368ea800b8fa9aa81c465c1d396ea491992ffa1",
+      "sourceKind": "existing project presentation page; imagery may include illustrative concept art",
+      "originalDimensions": [
+        1600,
+        900
+      ],
+      "output": "/media/works/ai-products/manga-director/workflow.webp",
+      "outputSha256": "c79fc7cfd8d79bf9609424dce30d98e42361eb31008c44b9e588c043c67b9f9c",
+      "outputDimensions": [
+        1600,
+        900
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/projects/manga-director/local-app.png",
+      "archiveMember": null,
+      "sourceSha256": "f917c615059cee09f5fb53a5945046bab813409bef77b0b7e16f3364c96fb856",
+      "sourceMediaSha256": "f917c615059cee09f5fb53a5945046bab813409bef77b0b7e16f3364c96fb856",
+      "sourceKind": "existing project presentation page; imagery may include illustrative concept art",
+      "originalDimensions": [
+        1600,
+        900
+      ],
+      "output": "/media/works/ai-products/manga-director/local-app.webp",
+      "outputSha256": "f6c700a66ef9709a43b4089d4700941c5dca2d8ae1a521fca9c3b6078f921872",
+      "outputDimensions": [
+        1600,
+        900
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/git/cosmetics-content-ops/prototype/portfolio-output/Lumiere_Beauty_Atelier_Portfolio_v2.pptx",
+      "archiveMember": "ppt/media/image2.png",
+      "sourceSha256": "311e898f2f386b85b84486eaf3890d0043748ef39aa1d4a927ee4e3248e2dbcf",
+      "sourceMediaSha256": "44582e02230b57e6cafc32c477538c2075487d16b40b0d41de13121d51e6f4d3",
+      "sourceKind": "actual product screenshot embedded in project deck; product hero inside screenshot is a generated illustrative asset",
+      "originalDimensions": [
+        1440,
+        900
+      ],
+      "output": "/media/works/ai-products/lumiere/overview.webp",
+      "outputSha256": "e4894d01bb9cb4a0fe073990f0c0d2214d6128f11982a0f5f3927791a39a22cd",
+      "outputDimensions": [
+        1440,
+        900
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/git/cosmetics-content-ops/prototype/portfolio-output/Lumiere_Beauty_Atelier_Portfolio_v2.pptx",
+      "archiveMember": "ppt/media/image3.png",
+      "sourceSha256": "311e898f2f386b85b84486eaf3890d0043748ef39aa1d4a927ee4e3248e2dbcf",
+      "sourceMediaSha256": "8b4d96547008cf9f13dcb48df7df01a3e07c0eac3762809b355caef0a1b031ad",
+      "sourceKind": "actual product screenshot embedded in project deck; product hero inside screenshot is a generated illustrative asset",
+      "originalDimensions": [
+        1440,
+        900
+      ],
+      "output": "/media/works/ai-products/lumiere/content.webp",
+      "outputSha256": "15df6781545b64b9157d8a25a018ed24623b0e703d2924c7902ff31fabf18c94",
+      "outputDimensions": [
+        1440,
+        900
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/git/cosmetics-content-ops/prototype/portfolio-output/Lumiere_Beauty_Atelier_Portfolio_v2.pptx",
+      "archiveMember": "ppt/media/image4.png",
+      "sourceSha256": "311e898f2f386b85b84486eaf3890d0043748ef39aa1d4a927ee4e3248e2dbcf",
+      "sourceMediaSha256": "7d41cb28f15e808e18761871d2979c2682ad3805e5f92f51ddc6e0df33f00347",
+      "sourceKind": "actual product screenshot embedded in project deck; product hero inside screenshot is a generated illustrative asset",
+      "originalDimensions": [
+        1440,
+        900
+      ],
+      "output": "/media/works/ai-products/lumiere/checks.webp",
+      "outputSha256": "48d09d819b4ea59868a4b39301800be8e6e4f4768b4c634c046b009b2424676e",
+      "outputDimensions": [
+        1440,
+        900
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration"
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/maya-fluid-smoke.mp4",
+      "archiveMember": null,
+      "sourceSha256": "d2618c8cfebb7e0103649db814af3de55758936bc06e4adc9b141774b8def450",
+      "sourceMediaSha256": "d2618c8cfebb7e0103649db814af3de55758936bc06e4adc9b141774b8def450",
+      "sourceKind": "unaltered video frame from original Maya fluid/Arnold demonstration",
+      "originalDimensions": [
+        960,
+        540
+      ],
+      "output": "/media/works/tornado/formation.webp",
+      "outputSha256": "cbee74a1f3f50638b3a55becd4be4bb1381e5500beffc146355601a413b5bfaa",
+      "outputDimensions": [
+        960,
+        540
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration",
+      "frameTimeSeconds": 1.8
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/maya-fluid-smoke.mp4",
+      "archiveMember": null,
+      "sourceSha256": "d2618c8cfebb7e0103649db814af3de55758936bc06e4adc9b141774b8def450",
+      "sourceMediaSha256": "d2618c8cfebb7e0103649db814af3de55758936bc06e4adc9b141774b8def450",
+      "sourceKind": "unaltered video frame from original Maya fluid/Arnold demonstration",
+      "originalDimensions": [
+        960,
+        540
+      ],
+      "output": "/media/works/tornado/vortex.webp",
+      "outputSha256": "73666040e94d6d848fc12afc4270d1e5fe01bd440c84d51a4e1fdbc58c7dbc44",
+      "outputDimensions": [
+        960,
+        540
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration",
+      "frameTimeSeconds": 3.2
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/maya-fluid-smoke.mp4",
+      "archiveMember": null,
+      "sourceSha256": "d2618c8cfebb7e0103649db814af3de55758936bc06e4adc9b141774b8def450",
+      "sourceMediaSha256": "d2618c8cfebb7e0103649db814af3de55758936bc06e4adc9b141774b8def450",
+      "sourceKind": "unaltered video frame from original Maya fluid/Arnold demonstration",
+      "originalDimensions": [
+        960,
+        540
+      ],
+      "output": "/media/works/tornado/poster.webp",
+      "outputSha256": "b5e314ae2ca3e2c5052367492219897903161d75430d1b9003695c7deb91e37a",
+      "outputDimensions": [
+        960,
+        540
+      ],
+      "processing": "RGB WebP quality 92; preserved framing and aspect ratio; maximum side 1600px; no upscaling, redraw or AI regeneration",
+      "frameTimeSeconds": 4.7
+    },
+    {
+      "source": "/Users/a90/Documents/wcy90-portfolio/public/maya-fluid-smoke.mp4",
+      "sourceSha256": "d2618c8cfebb7e0103649db814af3de55758936bc06e4adc9b141774b8def450",
+      "output": "/media/works/tornado/demo.mp4",
+      "outputSha256": "dee793cc489b43a2a7d1490fce4d6ea7dc7050c000c5748b28f45cd3dbadaa65",
+      "sourceKind": "user original Maya fluid/Arnold demonstration",
+      "processing": "lossless video-stream remux; H.264 stream unchanged; faststart moov index",
+      "dimensions": [
+        960,
+        540
+      ],
+      "durationSeconds": 6.6667,
+      "fps": 30,
+      "hasAudio": false,
+      "bytes": 8379460
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/docs/validation/merchpilot-latest-20261002/dashboard.png",
+      "sourceSha256": "209ce7adc6adf4e0c0ebf26a8b672e914cff78419709548adda75cd8ddb5d18b",
+      "sourceKind": "real screenshot of current running local application via cua_repl screenshot({fullPage:true})",
+      "sourceURL": "http://127.0.0.1:3100/",
+      "capturedOn": "2026-10-02",
+      "originalDimensions": [
+        1512,
+        1813
+      ],
+      "crop": [
+        0,
+        0,
+        1512,
+        1115
+      ],
+      "output": "/media/works/ai-products/ecommerce-assistant/dashboard-20261002.webp",
+      "outputSha256": "eeec0300a2c20d463ccc956713193ce8e3e537f78db61675ad023eeba6be7119",
+      "outputDimensions": [
+        1512,
+        1115
+      ],
+      "processing": "WebP quality 94; no upscaling, AI generation, screenshot content replacement or removed UI. Dashboard uses the original top portion through chart and anomaly cards; other pages retain full screenshot."
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/docs/validation/merchpilot-latest-20261002/assistant.png",
+      "sourceSha256": "9e1a461c0149637b8fef9320c40b997ea4202ee21a23f332bf831293e495bb80",
+      "sourceKind": "real screenshot of current running local application via cua_repl screenshot({fullPage:true})",
+      "sourceURL": "http://127.0.0.1:3100/assistant",
+      "capturedOn": "2026-10-02",
+      "originalDimensions": [
+        1512,
+        929
+      ],
+      "crop": null,
+      "output": "/media/works/ai-products/ecommerce-assistant/assistant-20261002.webp",
+      "outputSha256": "407fd43290da22a7727d89984e9ad35a0744bacd779679c0cf80d52c28cf95d5",
+      "outputDimensions": [
+        1512,
+        929
+      ],
+      "processing": "WebP quality 94; no upscaling, AI generation, screenshot content replacement or removed UI. Dashboard uses the original top portion through chart and anomaly cards; other pages retain full screenshot."
+    },
+    {
+      "source": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/docs/validation/merchpilot-latest-20261002/campaigns.png",
+      "sourceSha256": "0a6b6e68f246afe7a81c19c668d2639148f55b999c3dfc7e8a9d99b26cc915d7",
+      "sourceKind": "real screenshot of current running local application via cua_repl screenshot({fullPage:true})",
+      "sourceURL": "http://127.0.0.1:3100/campaigns",
+      "capturedOn": "2026-10-02",
+      "originalDimensions": [
+        1512,
+        1379
+      ],
+      "crop": null,
+      "output": "/media/works/ai-products/ecommerce-assistant/campaigns-20261002.webp",
+      "outputSha256": "65b0b9361bfb9f9fb1295a3f165acae9a62e7cd771697b4b22d16b31bc4dfb99",
+      "outputDimensions": [
+        1512,
+        1379
+      ],
+      "processing": "WebP quality 94; no upscaling, AI generation, screenshot content replacement or removed UI. Dashboard uses the original top portion through chart and anomaly cards; other pages retain full screenshot."
+    }
+  ],
+  "ecommerceLatestVersionUpdate": {
+    "repository": "/Users/a90/Documents/ChatGPT/git/merchpilot",
+    "branch": "main",
+    "head": "1221031848cc5d14ac0854bcd3b9d26db0c9f5fa",
+    "headDate": "2026-09-23T14:14:14+08:00",
+    "versionDefinition": "latest located device working tree, main commit plus existing uncommitted 2026-09-26 workspace/dashboard/assistant changes; not only committed or archived screenshot version",
+    "workingTreeStatus": [
+      "M apps/web/src/app/layout.tsx",
+      " M apps/web/src/components/assistant/AssistantWorkspace.tsx",
+      " M apps/web/src/components/dashboard/Dashboard.test.tsx",
+      " M apps/web/src/components/dashboard/Dashboard.tsx",
+      " M apps/web/src/components/dashboard/RevenueChart.tsx",
+      " M apps/web/src/components/layout/AppShell.module.css",
+      " M apps/web/src/components/layout/AppShell.tsx",
+      " M apps/web/src/components/layout/PageHeader.tsx",
+      " M apps/web/src/components/retrospective/RetrospectiveWorkspace.test.tsx",
+      " M apps/web/src/components/reviews/ReviewCenter.test.tsx",
+      " M apps/web/src/lib/assistant.ts",
+      " M docs/QUALITY.md",
+      " M services/api/src/merchpilot/assistant.py",
+      " M services/api/src/merchpilot/routes/assistant.py",
+      " M services/api/tests/test_assistant.py",
+      "?? apps/web/src/app/workspace.css",
+      "?? apps/web/src/components/assistant/AssistantWorkspace.module.css",
+      "?? apps/web/src/components/assistant/AssistantWorkspace.test.tsx",
+      "?? apps/web/src/components/dashboard/Dashboard.module.css",
+      "?? apps/web/src/components/dashboard/RevenueChart.test.tsx",
+      "?? apps/web/src/components/layout/AppShell.test.tsx",
+      "?? apps/web/src/lib/assistant.test.ts"
+    ],
+    "runtime": {
+      "frontend": "http://127.0.0.1:3100",
+      "api": "http://127.0.0.1:8100",
+      "frontendPid": 49165,
+      "frontendCwd": "/Users/a90/Documents/ChatGPT/git/merchpilot/apps/web",
+      "server": "next-server v16.3.4 already running since 2026-09-26 09:44:36 +0800",
+      "captureMethod": "cua_repl Chrome independent tab; screenshot({fullPage:true})",
+      "pagesViewed": [
+        "/",
+        "/assistant",
+        "/cases",
+        "/campaigns"
+      ],
+      "writesPerformed": "none; navigated existing pages only; did not create cases, submit chat, approve actions, or edit source/database"
+    },
+    "files": [
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/apps/web/src/components/dashboard/Dashboard.tsx",
+        "sha256": "af764894f52f8ab711c58387dd990910f98a2ce0f4e74fe5345017efc67021e2",
+        "modifiedAt": "2026-09-26T10:04:02.960723+08:00"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/apps/web/src/components/dashboard/Dashboard.module.css",
+        "sha256": "55f1431a2c582424c4e088020cf91078e0698f3236acfbed0cb9d66155bf805c",
+        "modifiedAt": "2026-09-26T10:13:35.254817+08:00"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/apps/web/src/components/layout/AppShell.tsx",
+        "sha256": "f68f22d41d831dfd0a3c83587086fe8dac94966f24dc68ef0b9ca99ffd635f8d",
+        "modifiedAt": "2026-09-26T10:13:00.769047+08:00"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/apps/web/src/components/assistant/AssistantWorkspace.tsx",
+        "sha256": "0cd111801b4acb57a6b01b60f002647fb0d405acbab1509a4adb537f2865abcd",
+        "modifiedAt": "2026-09-26T10:06:56.859981+08:00"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/apps/web/src/components/assistant/AssistantWorkspace.module.css",
+        "sha256": "54ff40a30cdb1a79e6f1f6a314f874f6d43838883cbc30d2f56c9610ac597eba",
+        "modifiedAt": "2026-09-26T10:10:32.704337+08:00"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/apps/web/src/lib/assistant.ts",
+        "sha256": "de2a04967d7bcdb7e94761167cf7b11039c5212e9ca7760edd339f1106289bf5",
+        "modifiedAt": "2026-09-26T09:56:40.494407+08:00"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/services/api/src/merchpilot/assistant.py",
+        "sha256": "61eb8e1bf66ad9d5539c1bac43925dc7018e940ba97d16c875b82a1297fbd6b6",
+        "modifiedAt": "2026-09-26T10:00:10.445487+08:00"
+      },
+      {
+        "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/docs/QUALITY.md",
+        "sha256": "99c63bd7c3c7a7156434b8a39dbbeb172e0cb6ee9f35f40d6a10e7c4b19ea5c6",
+        "modifiedAt": "2026-09-26T10:12:47.606345+08:00"
+      }
+    ],
+    "oldScreenshotEvidence": {
+      "path": "/Users/a90/Documents/ChatGPT/git/merchpilot/docs/screenshots/dashboard.png",
+      "modifiedAt": "2026-09-26T09:41:23+08:00",
+      "note": "Older than current UI files updated 10:04–10:13; cannot establish latest UI from this archived image."
+    },
+    "limits": "Current UI screenshot and local working-tree evidence only. No claim of full regression suite, model response timing, live store integration or production deployment."
+  }
+}

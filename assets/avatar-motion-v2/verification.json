@@ -1,0 +1,467 @@
+{
+  "actions": [
+    {
+      "action": "greeting",
+      "allReferenceBytesExact": true,
+      "referenceByteMatches": {
+        "00": true,
+        "01": true,
+        "02": true,
+        "03": true,
+        "04": true,
+        "05": true,
+        "06": true,
+        "07": true,
+        "08": true,
+        "09": true,
+        "10": true,
+        "11": true,
+        "12": true,
+        "13": true
+      },
+      "frameCount": 14,
+      "durationsMs": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "totalDurationMs": 1540,
+      "allFootBaselines500": true,
+      "footBaselines": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "structuralErrors": [],
+      "gifSha256": "ecd02e216e82ede72ba5a1eca4c5276d52facca79308a54a3145451a018e01d7",
+      "contactSheetViewed": true,
+      "visualAcceptance": "local-browser-reviewed-with-noted-limitations",
+      "sources": {
+        "keys": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-fff5e869-03aa-4ef5-bdf1-15d727e57605.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/greeting/keys.png",
+          "sha256": "e84a11f65d420c95a96c1c4c97af0da157f73311736804ec4da86d2e72ccacb6",
+          "indices": [
+            2,
+            5,
+            8,
+            11
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/greeting/source-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        },
+        "inA": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-d38c55cf-54fd-4168-be8e-292baf56d2cb.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/greeting/inA.png",
+          "sha256": "d1d4b7e911617e811aeec48e1678b1816aee36f0b1265467a4b4c51febdc7d08",
+          "indices": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/greeting/in-a-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        },
+        "inB": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-57cd4893-defd-40ba-8f2e-e4dd2d560724.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/greeting/inB.png",
+          "sha256": "c80cb9525563daa7ec749a1e89b1b2b7b2bb7eb2138033a9da93050e261c2d3d",
+          "indices": [
+            7,
+            9,
+            10,
+            12
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/greeting/in-b-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        }
+      },
+      "manifest": "renders/avatar-motion-v2/greeting/manifest.json",
+      "manifestSha256": "7504288056e8e637ba4831bf80ad7300903121c62faf63ce6467ba070e361ac9"
+    },
+    {
+      "action": "tap",
+      "allReferenceBytesExact": true,
+      "referenceByteMatches": {
+        "00": true,
+        "01": true,
+        "02": true,
+        "03": true,
+        "04": true,
+        "05": true,
+        "06": true,
+        "07": true,
+        "08": true,
+        "09": true,
+        "10": true,
+        "11": true,
+        "12": true,
+        "13": true
+      },
+      "frameCount": 14,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "totalDurationMs": 1400,
+      "allFootBaselines500": true,
+      "footBaselines": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "structuralErrors": [],
+      "gifSha256": "44f60e8712e060064f97555afe24cb8ea97f2eed8b1c5c84efccc10697f9adc1",
+      "contactSheetViewed": true,
+      "visualAcceptance": "local-browser-reviewed-with-noted-limitations",
+      "sources": {
+        "keys": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-ecc67c86-a0fd-430b-b310-02f2b489a244.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/tap/keys.png",
+          "sha256": "15a8a99e00006ffebd6381b55bdb9dd26cd34b7c313adcc8c17118a9dfc52af0",
+          "indices": [
+            2,
+            5,
+            8,
+            11
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/tap/source-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        },
+        "inA": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-3002bed4-dac6-4b4a-bd2a-8ecd0e5890dc.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/tap/inA.png",
+          "sha256": "5ceb3140eecda65d827b03a8d7f4f68ab86103dc2a04333aabab4e8c12a48a7d",
+          "indices": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/tap/in-a-sheet-v3.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        },
+        "inB": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-400b1a08-5531-4591-be7f-d5ee96b5a802.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/tap/inB.png",
+          "sha256": "7ef25886a5f6c16458a783a9cbf20a8b3bd817318b42dfedbf72d5a090297945",
+          "indices": [
+            7,
+            9,
+            10,
+            12
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/tap/in-b-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        }
+      },
+      "manifest": "renders/avatar-motion-v2/tap/manifest.json",
+      "manifestSha256": "ce71ecc080a053597a055babc6679197d9897a3b221b269fb6ad1733a070962a"
+    },
+    {
+      "action": "present",
+      "allReferenceBytesExact": true,
+      "referenceByteMatches": {
+        "00": true,
+        "01": true,
+        "02": true,
+        "03": true,
+        "04": true,
+        "05": true,
+        "06": true,
+        "07": true,
+        "08": true,
+        "09": true,
+        "10": true,
+        "11": true,
+        "12": true,
+        "13": true
+      },
+      "frameCount": 14,
+      "durationsMs": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "totalDurationMs": 1540,
+      "allFootBaselines500": true,
+      "footBaselines": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "structuralErrors": [],
+      "gifSha256": "569350d721c40f284f34adbc4677b8d500a82a625240f112329e50ab533111b4",
+      "contactSheetViewed": true,
+      "visualAcceptance": "local-browser-reviewed-with-noted-limitations",
+      "sources": {
+        "keys": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-d3eab916-f2cd-46ff-8c27-330b61d18a53.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/present/keys.png",
+          "sha256": "043a6f4cff376543f263d0896f97007f6152746448c22c785aaa266a1626a711",
+          "indices": [
+            2,
+            5,
+            8,
+            11
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/present/source-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        },
+        "inA": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-cf34d356-ff9d-47bf-8408-e52fb4c88c89.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/present/inA.png",
+          "sha256": "f3d087536eee8a227cde05c85f0545871b39ead5c1271f55a1c81c60423cf30c",
+          "indices": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/present/in-a-final-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        },
+        "inB": {
+          "originalPath": "/Users/a90/.codex/generated_images/01a0c3dd-f4f8-7ec0-8cb2-47cf0726ce5e/exec-23526d9d-0534-41db-a999-05ebb7e7b34f.png",
+          "preservedPath": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/avatar-motion-v2/sources/present/inB.png",
+          "sha256": "aac5806acf6b83ddcedf3387ed101a27e7a7defe0999f05a6bcb7c6b944b1673",
+          "indices": [
+            7,
+            9,
+            10,
+            12
+          ],
+          "importedFrom": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/approved/present/in-b-sheet.png",
+          "archiveRequiredForReproducibility": true,
+          "imageSize": [
+            1086,
+            1448
+          ]
+        }
+      },
+      "manifest": "renders/avatar-motion-v2/present/manifest.json",
+      "manifestSha256": "b1e21e45539d4f4bcb9907b417743261832fb0ce76b379d7deb6db061ddc964d",
+      "continuityCorrection": "Final A03 remains near waist before04/05 progressively open; earlier source version is superseded."
+    }
+  ],
+  "revision": 2,
+  "verifiedAt": "2026-09-26T02:39:52.366992+00:00",
+  "scope": "Final 3 action packages, source archive, independent live Chrome review and root-reported homepage checks",
+  "archivedFrom": {
+    "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/tmp/avatar-motion-v2/package-verification-v2.json",
+    "sha256": "c322be0c518d1b89bf5c9dd5a21e0194da00686e3f05c055cc293ae2fc13fa92",
+    "note": "Historical temporary verification consumed into this durable record and refreshed against final present A03 correction; draft originals may be cleaned."
+  },
+  "browserReview": {
+    "url": "http://127.0.0.1:5173/avatar-motion-review-v2/index.html",
+    "browser": "Chrome via CUA",
+    "tabId": "365947979",
+    "checks": [
+      "All three GIFs showed different poses in separate screenshots.",
+      "Tap playback showed finger contacting the screen.",
+      "Present playback showed head lifting and terminal moving forward.",
+      "Click action switching and Right-arrow tap-to-present switching worked.",
+      "Pause and first-frame button showed the stable baseline.",
+      "Space resumed playback and restart restored changing GIF frames.",
+      "Final contact sheets showed no hand-side swaps or canvas clipping."
+    ],
+    "scope": "Separate motion review page only; no homepage interaction in this independent check."
+  },
+  "limitations": [
+    "14 model-drawn frames at approximately 9-10 fps, not continuous skeletal animation.",
+    "Minor clothing, shoe and hanging-accessory texture flutter remains.",
+    "Interval browser screenshots verify playback and controls, not frame-by-frame timing smoothness or stable120fps."
+  ],
+  "homepageVerification": {
+    "reportedBy": "root final browser checks",
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "swipeRepeatedWheel": {
+      "startCount": 1,
+      "completeCount": 1,
+      "inputSource": "swipe",
+      "errors": []
+    },
+    "cameraDragChangedPose": true,
+    "inSceneWorksOpenedGallery": true,
+    "reducedMotionFrame": 0,
+    "reducedMotionKeyboardEnterCompletedOnce": true,
+    "normalSkipThenRepeatedWheelCompletedOnce": true,
+    "viewportResetAfterTest": true,
+    "buildPassed": true,
+    "controllerChecks": {
+      "cubeIntro": {
+        "passed": 16,
+        "total": 16
+      },
+      "residentTerminal": {
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "stable120FpsMeasured": false,
+    "userVisualAcceptancePending": true,
+    "source": "assets/avatar-motion-v2/homepage-web-verification.json",
+    "sourceSha256": "e410b4fd0e762a6d1ccf67a8dd17a416f8601252b370c3d1a353bbf0d141b57b",
+    "normalSkip": {
+      "phase": "complete",
+      "startCount": 1,
+      "completeCount": 1,
+      "inputSource": "skip",
+      "avatarFinished": true
+    },
+    "consoleErrors": [],
+    "touchHardwareLimit": "Native touch hardware was not available; compact pointer gesture was browser-tested and touch event handling separately covered by the existing script.",
+    "reducedMotionMechanism": "Development QA motion=reduce exercises the same reduced-motion configuration.",
+    "normalPreviewRetained": true
+  },
+  "runtimeAssets": [
+    {
+      "path": "public/media/avatar-home-v1/studio.webp",
+      "sha256": "3e7afa6540f0c80b8ec135b22d5332967d67883888d572ba0fcf435fcdc74647",
+      "bytes": 287296,
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/media/avatar-home-v1/greeting.webp",
+      "sha256": "da68bfa0de80fad7e7e17bbdb3e249896443b7c9ef8c628e66f1677fe9fe5a53",
+      "bytes": 982410,
+      "size": [
+        3360,
+        1280
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "public/media/avatar-home-v1/tap.webp",
+      "sha256": "2dd9ae71e91bcb242ca7b1208f0d7a6855815b9a8cb7133cfc6047600f94bf1b",
+      "bytes": 942050,
+      "size": [
+        3360,
+        1280
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "public/media/avatar-home-v1/present.webp",
+      "sha256": "6e9d5f36bb0fe9e0077c3387f1f3d6417c77b119c3fb61cc664c0298d50979bf",
+      "bytes": 958620,
+      "size": [
+        3360,
+        1280
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "public/media/brand/creator-gate.svg",
+      "sha256": "2a0d1d1d7eb04349c78782b6b8654e046e153bba2854a0319283b3f9544b8d37",
+      "bytes": 676
+    }
+  ]
+}

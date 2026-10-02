@@ -1,0 +1,87 @@
+{
+  "state": "night",
+  "completed": [
+    {
+      "atlas": 0,
+      "path": "public/textures/lighting-v13/night-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 3092826
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/lighting-v13/night-1.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 2720892
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/lighting-v13/night-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 3753475
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/lighting-v13/night-3.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 4241036
+    },
+    {
+      "atlas": 4,
+      "path": "public/textures/lighting-v13/night-4.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 6058586
+    },
+    {
+      "atlas": 5,
+      "path": "public/textures/lighting-v13/night-5.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 4577973
+    },
+    {
+      "atlas": 6,
+      "path": "public/textures/lighting-v13/night-6.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 16,
+      "bytes": 3804151
+    },
+    {
+      "atlas": 7,
+      "path": "public/textures/lighting-v13/night-7.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "margin": 32,
+      "bytes": 965927
+    }
+  ],
+  "phase": "baking",
+  "elapsed": 415.05
+}

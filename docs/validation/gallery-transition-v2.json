@@ -1,0 +1,151 @@
+{
+  "revision": 2,
+  "checkedAt": "2026-09-24T16:38:39.826Z",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "methodology": "Real Three.js objects, production path/transition modules, actual custom OrbitControls, and production main lifecycle functions isolated in VM. Only DOM and renderer are simulated. This validates scheduling, geometry-independent camera continuity, state restoration, and sampler separation; it does not measure GPU performance or rendered image quality.",
+  "sourceSha256": {
+    "src/gallery-transition.js": "51b3903ab17ceb0dae909a3385da7c29c864735f66e53ebbe8126c9ec902a239",
+    "src/gallery-transition-path.js": "bd0b1353e856b2961be05a48ffb4e48060c7971a337d0de0d556c13fee09cc52",
+    "src/main.js": "c39ecc959b476ac19a8344f13795eee7decdbeae359cb5bee86eeb22f110545d",
+    "src/utils/OrbitControls.js": "ab46812656956ff81a121973a82acb179e7d3b0b782483693e2440313fa94160"
+  },
+  "checks": 16,
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "check": "camera paths: exact visible endpoints and zero terminal velocity",
+      "status": "passed",
+      "directions": 2,
+      "positionEndpointTolerance": 0,
+      "velocityDifferenceSteps": [
+        0.01,
+        0.001
+      ]
+    },
+    {
+      "check": "near views at distance 5 through 7 have no added orbit or dolly",
+      "status": "passed",
+      "samples": 968,
+      "maxDisplacement": 1.2560739669470201e-15
+    },
+    {
+      "check": "aperture begins transparent and ends beyond all viewport edges",
+      "status": "passed"
+    },
+    {
+      "check": "prepare: actual draw scheduling, renderer restoration and no attachment feedback",
+      "status": "passed",
+      "compiledPasses": 3,
+      "offscreenDraws": 3,
+      "feedbackChecks": 1
+    },
+    {
+      "check": "prepare failure: restore temporary uniforms and support a clean retry",
+      "status": "passed",
+      "retryPrepared": true
+    },
+    {
+      "check": "concurrent prepare shares work; disposal during async preparation prevents later draws",
+      "status": "passed"
+    },
+    {
+      "check": "forward lifecycle at 30, 60 and 120 Hz commits once after final composite",
+      "status": "passed",
+      "frameCounts": [
+        {
+          "fps": 30,
+          "frames": 72
+        },
+        {
+          "fps": 60,
+          "frames": 143
+        },
+        {
+          "fps": 120,
+          "frames": 284
+        }
+      ],
+      "controlStabilityFramesPerRun": 120
+    },
+    {
+      "check": "production main integration: near-room return restores saved pose with one handoff",
+      "status": "passed",
+      "finalDistance": 5,
+      "guardResets": 1,
+      "focusCommits": 1
+    },
+    {
+      "check": "production mid-transition resize resolves latest destination and commits only once",
+      "status": "passed",
+      "finalAspect": 0.65,
+      "finalTargetSize": [
+        1300,
+        2000
+      ],
+      "commitCount": 1
+    },
+    {
+      "check": "return after viewport changed in gallery adapts saved room pose on first resolve",
+      "status": "passed",
+      "savedAspect": 1.6,
+      "currentAspect": 0.8,
+      "distanceFactor": 2
+    },
+    {
+      "check": "cancel before and near completion never commits or calls completion; restart remains usable",
+      "status": "passed",
+      "cancelProgress": [
+        0.05,
+        0.5,
+        0.95
+      ]
+    },
+    {
+      "check": "reduced motion uses a short dissolve without camera excursions and still commits once",
+      "status": "passed",
+      "durationSeconds": 0.32,
+      "cameraExcursion": 0
+    },
+    {
+      "check": "long and invalid deltas cannot skip handoff or reverse transition progress",
+      "status": "passed",
+      "injectedSeconds": 10,
+      "maximumAdvanceSeconds": 0.05
+    },
+    {
+      "check": "renderer state restores even if a source, destination or composite draw throws",
+      "status": "passed"
+    },
+    {
+      "check": "target formats and final disposal follow capabilities without leaving active resources",
+      "status": "passed",
+      "choices": [
+        {
+          "float": true,
+          "ratio": 2,
+          "samples": 0
+        },
+        {
+          "float": false,
+          "ratio": 1,
+          "samples": 2
+        }
+      ]
+    },
+    {
+      "check": "production OrbitControls flush preserves the visible pose while clearing real residual inertia",
+      "status": "passed",
+      "residualTheta": 0.12,
+      "residualPhi": -0.04,
+      "residualPan": [
+        0.15,
+        0.03,
+        -0.2
+      ],
+      "residualDollyScale": 0.97,
+      "finalCameraJump": 0
+    }
+  ]
+}

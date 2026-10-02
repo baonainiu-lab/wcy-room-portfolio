@@ -1,0 +1,1348 @@
+{
+  "checkedAt": "2026-09-30T04:30:40.274Z",
+  "scope": "Unchanged production controller, real GSAP timeline/easing and GLTFLoader mesh vertices. Original room reveal is removed from measurements. Tests measure visible-stage geometry and exact restoration, not rendered pixels, hardware FPS or exhaustive collision freedom.",
+  "method": "Seek actual factor values via public start/duration/factor state; normalize source GLB quaternions only for angle measurement; measure physical source-geometry support clearances and anchor trajectories.",
+  "sourceSha256": {
+    "src/room-entry.js": "6cc32b6cf33e4182c94179b4db511eb554f05ebf5134a53bc83b3161eae39c66",
+    "src/cube-intro.js": "aa1d942edab50a238f8531e1852b1e2ab47e00bcb8c2861b5090f6891b583420",
+    "src/room-entry-attachments.js": "14ba426c8080e90dc97829462fbfffdd9a82ff35b57867c13a59687deaf502eb",
+    "scripts/lib/intro-controller-fixture.mjs": "dc8871e77c41acea3488942dec25343eed645fc3da4e88c4f5a2966c366cebed",
+    "scripts/check-prop-entry-motions.mjs": "a13f551328655b9b367a330094e9e3c923113e0577c866f8ac72f09c5149584e",
+    "public/models/orbital-atelier-v16.glb": "d137bfe14e940f7dfe26b0dd2e23b68768adc4e8f5bf58fc5c6d3965d0baf00c",
+    "public/models/welcome-terminal-v1.glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24"
+  },
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "all six motion families move substantial real geometry at 35%, 50% and 65% reveal",
+      "passed": true,
+      "families": [
+        "spin",
+        "hop",
+        "drift",
+        "flip",
+        "dock",
+        "spring"
+      ],
+      "measuredRoots": 16,
+      "samplesPerRoot": 5,
+      "exactNormalCompletionRestore": true,
+      "note": "Visibility here means geometric extent; pixel appearance still requires browser review."
+    },
+    {
+      "name": "spin props retain and release a clear yaw while already visibly grown",
+      "passed": true,
+      "records": [
+        {
+          "id": "ceramic_mobius_study",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 164.7956843,
+              "yawDegrees": 164.7945207,
+              "tiltDegrees": 10.6536397,
+              "liftMetres": 0.0166994,
+              "liftHeightFraction": 0.0330351,
+              "horizontalAnchorMetres": 0.010944,
+              "horizontalAnchorFraction": 0.0264206,
+              "anchorOffset": [
+                0.0082441,
+                0.0189803,
+                -0.0071976
+              ],
+              "scaleRatios": [
+                0.5107492,
+                0.5107492,
+                0.5107492
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.5033639
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 98.8264166,
+              "yawDegrees": 98.7686451,
+              "tiltDegrees": 6.0336344,
+              "liftMetres": 0.011188,
+              "liftHeightFraction": 0.0221324,
+              "horizontalAnchorMetres": 0.0065592,
+              "horizontalAnchorFraction": 0.0158351,
+              "anchorOffset": [
+                0.0049411,
+                0.0198626,
+                -0.0043138
+              ],
+              "scaleRatios": [
+                0.6417165,
+                0.6417165,
+                0.6417165
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.6496931
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 35.1844906,
+              "yawDegrees": 35.1058168,
+              "tiltDegrees": 2.5061677,
+              "liftMetres": 0.0055945,
+              "liftHeightFraction": 0.0110671,
+              "horizontalAnchorMetres": 0.0070914,
+              "horizontalAnchorFraction": 0.01712,
+              "anchorOffset": [
+                0.0017562,
+                0.0106879,
+                -0.0068705
+              ],
+              "scaleRatios": [
+                0.6519783,
+                0.6519783,
+                0.6519783
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.6578274
+            }
+          ]
+        },
+        {
+          "id": "ceramic_ring_speaker",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 118.6763992,
+              "yawDegrees": 118.6461752,
+              "tiltDegrees": 6.6925634,
+              "liftMetres": 0.0151058,
+              "liftHeightFraction": 0.0239656,
+              "horizontalAnchorMetres": 0.017169,
+              "horizontalAnchorFraction": 0.0372401,
+              "anchorOffset": [
+                0.0120117,
+                0.0209606,
+                0.0122675
+              ],
+              "scaleRatios": [
+                0.4846314,
+                0.5270908,
+                0.455047
+              ],
+              "heightLead": 0.0424593,
+              "visibleExtentFraction": 0.5228617
+            },
+            {
+              "factor": 0.499999,
+              "rotationDegrees": 64.4859974,
+              "yawDegrees": 64.2637403,
+              "tiltDegrees": 6.6829799,
+              "liftMetres": 0.0130455,
+              "liftHeightFraction": 0.0206968,
+              "horizontalAnchorMetres": 0.0100492,
+              "horizontalAnchorFraction": 0.0217971,
+              "anchorOffset": [
+                0.0070306,
+                0.0249955,
+                0.0071803
+              ],
+              "scaleRatios": [
+                0.6198568,
+                0.6551994,
+                0.5946067
+              ],
+              "heightLead": 0.0353426,
+              "visibleExtentFraction": 0.6542141
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 18.5359733,
+              "yawDegrees": 18.3904554,
+              "tiltDegrees": 2.3584026,
+              "liftMetres": 0.005012,
+              "liftHeightFraction": 0.0079515,
+              "horizontalAnchorMetres": 0.0035091,
+              "horizontalAnchorFraction": 0.0076114,
+              "anchorOffset": [
+                0.0024551,
+                0.0108738,
+                0.0025073
+              ],
+              "scaleRatios": [
+                0.7428681,
+                0.7689152,
+                0.7239135
+              ],
+              "heightLead": 0.0260471,
+              "visibleExtentFraction": 0.7801769
+            }
+          ]
+        },
+        {
+          "id": "v8_reading_puck",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 130.056816,
+              "yawDegrees": 130.0506201,
+              "tiltDegrees": 4.1340173,
+              "liftMetres": 0.0098491,
+              "liftHeightFraction": 0.0424528,
+              "horizontalAnchorMetres": 0.0132695,
+              "horizontalAnchorFraction": 0.043153,
+              "anchorOffset": [
+                -0.0124971,
+                0.0114929,
+                0.0044615
+              ],
+              "scaleRatios": [
+                0.5439552,
+                0.4054197,
+                0.4795704
+              ],
+              "heightLead": -0.1385354,
+              "visibleExtentFraction": 0.5435659
+            },
+            {
+              "factor": 0.499999,
+              "rotationDegrees": 89.1991493,
+              "yawDegrees": 89.1193098,
+              "tiltDegrees": 5.9562664,
+              "liftMetres": 0.0091609,
+              "liftHeightFraction": 0.0394867,
+              "horizontalAnchorMetres": 0.0090932,
+              "horizontalAnchorFraction": 0.0295713,
+              "anchorOffset": [
+                -0.0085638,
+                0.0134437,
+                0.0030573
+              ],
+              "scaleRatios": [
+                0.6689663,
+                0.5509561,
+                0.6155752
+              ],
+              "heightLead": -0.1180102,
+              "visibleExtentFraction": 0.6451188
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 38.9533603,
+              "yawDegrees": 38.8722125,
+              "tiltDegrees": 2.717899,
+              "liftMetres": 0.0052162,
+              "liftHeightFraction": 0.0224835,
+              "horizontalAnchorMetres": 0.0047625,
+              "horizontalAnchorFraction": 0.0154877,
+              "anchorOffset": [
+                -0.0037354,
+                0.0079012,
+                0.0029544
+              ],
+              "scaleRatios": [
+                0.6425333,
+                0.5695238,
+                0.6101624
+              ],
+              "heightLead": -0.0730095,
+              "visibleExtentFraction": 0.6793659
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hop props leave their support and return along a peaked vertical path",
+      "passed": true,
+      "records": [
+        {
+          "id": "thermal_cup",
+          "samples": [
+            {
+              "factor": 0.15,
+              "rotationDegrees": 1.196759,
+              "yawDegrees": 1.1967564,
+              "tiltDegrees": 0.0024812,
+              "liftMetres": 0.0008673,
+              "liftHeightFraction": 0.0031176,
+              "horizontalAnchorMetres": 0.0077277,
+              "horizontalAnchorFraction": 0.0452103,
+              "anchorOffset": [
+                -0.0058646,
+                0.0008678,
+                0.0050323
+              ],
+              "scaleRatios": [
+                0.2192242,
+                0.2192242,
+                0.2192242
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.2192365
+            },
+            {
+              "factor": 0.349999,
+              "rotationDegrees": 10.8263212,
+              "yawDegrees": 10.6260363,
+              "tiltDegrees": 2.0847541,
+              "liftMetres": 0.0826496,
+              "liftHeightFraction": 0.2971126,
+              "horizontalAnchorMetres": 0.0060024,
+              "horizontalAnchorFraction": 0.0351167,
+              "anchorOffset": [
+                -0.0045553,
+                0.0836264,
+                0.0039088
+              ],
+              "scaleRatios": [
+                0.4317767,
+                0.4317767,
+                0.4317767
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.4358641
+            },
+            {
+              "factor": 0.499999,
+              "rotationDegrees": 12.9039744,
+              "yawDegrees": 11.9755546,
+              "tiltDegrees": 4.8412669,
+              "liftMetres": 0.1069502,
+              "liftHeightFraction": 0.3844696,
+              "horizontalAnchorMetres": 0.003694,
+              "horizontalAnchorFraction": 0.0216117,
+              "anchorOffset": [
+                -0.0028034,
+                0.1099629,
+                0.0024056
+              ],
+              "scaleRatios": [
+                0.5743525,
+                0.5743257,
+                0.5743525
+              ],
+              "heightLead": -0.0000268,
+              "visibleExtentFraction": 0.5936571
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 5.5704796,
+              "yawDegrees": 4.7047066,
+              "tiltDegrees": 2.9859663,
+              "liftMetres": 0.0215269,
+              "liftHeightFraction": 0.0773859,
+              "horizontalAnchorMetres": 0.0014856,
+              "horizontalAnchorFraction": 0.0086912,
+              "anchorOffset": [
+                -0.0011274,
+                0.0238301,
+                0.0009674
+              ],
+              "scaleRatios": [
+                0.708488,
+                0.6708089,
+                0.708488
+              ],
+              "heightLead": -0.0376791,
+              "visibleExtentFraction": 0.6979795
+            },
+            {
+              "factor": 0.85,
+              "rotationDegrees": 0.1125743,
+              "yawDegrees": 0.0940611,
+              "tiltDegrees": 0.0618506,
+              "liftMetres": 0.0000285,
+              "liftHeightFraction": 0.0001026,
+              "horizontalAnchorMetres": 0.0000653,
+              "horizontalAnchorFraction": 0.0003822,
+              "anchorOffset": [
+                -0.0000496,
+                0.0000862,
+                0.0000425
+              ],
+              "scaleRatios": [
+                0.8554176,
+                0.8482634,
+                0.8554176
+              ],
+              "heightLead": -0.0071542,
+              "visibleExtentFraction": 0.8515705
+            }
+          ]
+        },
+        {
+          "id": "robot_companion",
+          "samples": [
+            {
+              "factor": 0.149999,
+              "rotationDegrees": 0.1702225,
+              "yawDegrees": 0.1702225,
+              "tiltDegrees": 0,
+              "liftMetres": 0.0014733,
+              "liftHeightFraction": 0.0015833,
+              "horizontalAnchorMetres": 0.1295495,
+              "horizontalAnchorFraction": 0.1101614,
+              "anchorOffset": [
+                0.1056133,
+                0.0014733,
+                -0.075026
+              ],
+              "scaleRatios": [
+                0.1813423,
+                0.2859099,
+                0.191962
+              ],
+              "heightLead": 0.0939479,
+              "visibleExtentFraction": 0.217137
+            },
+            {
+              "factor": 0.35,
+              "rotationDegrees": 10.5152127,
+              "yawDegrees": 10.1031174,
+              "tiltDegrees": 2.9300746,
+              "liftMetres": 0.1409496,
+              "liftHeightFraction": 0.1514656,
+              "horizontalAnchorMetres": 0.1071465,
+              "horizontalAnchorFraction": 0.0911111,
+              "anchorOffset": [
+                0.0873496,
+                0.1527208,
+                -0.0620517
+              ],
+              "scaleRatios": [
+                0.3887479,
+                0.5001373,
+                0.4011859
+              ],
+              "heightLead": 0.0989514,
+              "visibleExtentFraction": 0.4360732
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 17.4185159,
+              "yawDegrees": 14.887058,
+              "tiltDegrees": 9.1455729,
+              "liftMetres": 0.2267863,
+              "liftHeightFraction": 0.2437065,
+              "horizontalAnchorMetres": 0.0664161,
+              "horizontalAnchorFraction": 0.0564764,
+              "anchorOffset": [
+                0.0541448,
+                0.2811796,
+                -0.0384636
+              ],
+              "scaleRatios": [
+                0.5358914,
+                0.6328524,
+                0.5471514
+              ],
+              "heightLead": 0.085701,
+              "visibleExtentFraction": 0.5919958
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 9.3962346,
+              "yawDegrees": 5.9136015,
+              "tiltDegrees": 7.3149111,
+              "liftMetres": 0.0435482,
+              "liftHeightFraction": 0.0467973,
+              "horizontalAnchorMetres": 0.0249182,
+              "horizontalAnchorFraction": 0.021189,
+              "anchorOffset": [
+                0.0203142,
+                0.0943711,
+                -0.0144309
+              ],
+              "scaleRatios": [
+                0.6774051,
+                0.7112389,
+                0.6862163
+              ],
+              "heightLead": 0.0250226,
+              "visibleExtentFraction": 0.7115179
+            },
+            {
+              "factor": 0.85,
+              "rotationDegrees": 0.395652,
+              "yawDegrees": 0.0509107,
+              "tiltDegrees": 0.3923629,
+              "liftMetres": 0.0003769,
+              "liftHeightFraction": 0.000405,
+              "horizontalAnchorMetres": 0.0004708,
+              "horizontalAnchorFraction": 0.0004003,
+              "anchorOffset": [
+                0.0003838,
+                0.0034344,
+                -0.0002726
+              ],
+              "scaleRatios": [
+                0.8475682,
+                0.8739094,
+                0.8517106
+              ],
+              "heightLead": 0.0221989,
+              "visibleExtentFraction": 0.8569897
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drift props float while travelling laterally within their available envelope",
+      "passed": true,
+      "records": [
+        {
+          "id": "geometric_specimen_cloche",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 14.758035,
+              "yawDegrees": 14.5963757,
+              "tiltDegrees": 2.2021552,
+              "liftMetres": 0.263138,
+              "liftHeightFraction": 0.4584285,
+              "horizontalAnchorMetres": 0.0842449,
+              "horizontalAnchorFraction": 0.1907171,
+              "anchorOffset": [
+                0.0828153,
+                0.2661046,
+                -0.0154542
+              ],
+              "scaleRatios": [
+                0.4096982,
+                0.3218123,
+                0.4096982
+              ],
+              "heightLead": -0.0878859,
+              "visibleExtentFraction": 0.3738843
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 10.1070268,
+              "yawDegrees": 8.7482535,
+              "tiltDegrees": 5.0813328,
+              "liftMetres": 0.180788,
+              "liftHeightFraction": 0.3149617,
+              "horizontalAnchorMetres": 0.0672636,
+              "horizontalAnchorFraction": 0.1522742,
+              "anchorOffset": [
+                0.0631418,
+                0.1900958,
+                -0.0231844
+              ],
+              "scaleRatios": [
+                0.5547892,
+                0.4730341,
+                0.5547892
+              ],
+              "heightLead": -0.0817551,
+              "visibleExtentFraction": 0.5293754
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 4.4183999,
+              "yawDegrees": 3.1094642,
+              "tiltDegrees": 3.1405678,
+              "liftMetres": 0.0575986,
+              "liftHeightFraction": 0.100346,
+              "horizontalAnchorMetres": 0.0400814,
+              "horizontalAnchorFraction": 0.0907378,
+              "anchorOffset": [
+                0.0342932,
+                0.0648126,
+                -0.0207484
+              ],
+              "scaleRatios": [
+                0.6933902,
+                0.6279836,
+                0.6933902
+              ],
+              "heightLead": -0.0654066,
+              "visibleExtentFraction": 0.67099
+            }
+          ]
+        },
+        {
+          "id": "v5_scout_drone_display",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 30.3052803,
+              "yawDegrees": 29.4933639,
+              "tiltDegrees": 7.2858684,
+              "liftMetres": 0.1284771,
+              "liftHeightFraction": 0.453182,
+              "horizontalAnchorMetres": 0.0456956,
+              "horizontalAnchorFraction": 0.084777,
+              "anchorOffset": [
+                -0.0182813,
+                0.1373654,
+                0.0418794
+              ],
+              "scaleRatios": [
+                0.3321086,
+                0.4795704,
+                0.3887479
+              ],
+              "heightLead": 0.0908225,
+              "visibleExtentFraction": 0.4299683
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 24.5107556,
+              "yawDegrees": 21.3675516,
+              "tiltDegrees": 12.2904125,
+              "liftMetres": 0.0507164,
+              "liftHeightFraction": 0.1788939,
+              "horizontalAnchorMetres": 0.0079905,
+              "horizontalAnchorFraction": 0.0148243,
+              "anchorOffset": [
+                -0.0045762,
+                0.074333,
+                0.0065503
+              ],
+              "scaleRatios": [
+                0.4829733,
+                0.6155761,
+                0.5358914
+              ],
+              "heightLead": 0.0796847,
+              "visibleExtentFraction": 0.5953891
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 12.0496541,
+              "yawDegrees": 10.1451982,
+              "tiltDegrees": 6.5355281,
+              "liftMetres": 0.0182009,
+              "liftHeightFraction": 0.0642007,
+              "horizontalAnchorMetres": 0.0075546,
+              "horizontalAnchorFraction": 0.0140157,
+              "anchorOffset": [
+                0.0058538,
+                0.0359285,
+                0.0047755
+              ],
+              "scaleRatios": [
+                0.6361519,
+                0.7396741,
+                0.678615
+              ],
+              "heightLead": 0.0610591,
+              "visibleExtentFraction": 0.7111718
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flip props tilt upright instead of only spinning around the vertical axis",
+      "passed": true,
+      "records": [
+        {
+          "id": "folding_drawing_terminal",
+          "samples": [
+            {
+              "factor": 0.349999,
+              "rotationDegrees": 34.815786,
+              "yawDegrees": 1.3632518,
+              "tiltDegrees": 34.7922252,
+              "liftMetres": 0.0372854,
+              "liftHeightFraction": 0.0420631,
+              "horizontalAnchorMetres": 0.0444865,
+              "horizontalAnchorFraction": 0.0497719,
+              "anchorOffset": [
+                -0.0262516,
+                0.1220583,
+                0.0359152
+              ],
+              "scaleRatios": [
+                0.4228056,
+                0.4228056,
+                0.4228056
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.5042377
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 23.2912514,
+              "yawDegrees": 4.4397856,
+              "tiltDegrees": 22.8866408,
+              "liftMetres": 0.0331781,
+              "liftHeightFraction": 0.0374294,
+              "horizontalAnchorMetres": 0.0292442,
+              "horizontalAnchorFraction": 0.0327187,
+              "anchorOffset": [
+                -0.0172571,
+                0.1077489,
+                0.0236097
+              ],
+              "scaleRatios": [
+                0.5664463,
+                0.5664463,
+                0.5664463
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.6498927
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 9.3668676,
+              "yawDegrees": 2.7275887,
+              "tiltDegrees": 8.964317,
+              "liftMetres": 0.0186064,
+              "liftHeightFraction": 0.0209905,
+              "horizontalAnchorMetres": 0.0114596,
+              "horizontalAnchorFraction": 0.0128211,
+              "anchorOffset": [
+                -0.0067623,
+                0.0525695,
+                0.0092517
+              ],
+              "scaleRatios": [
+                0.7024093,
+                0.7024093,
+                0.7024093
+              ],
+              "heightLead": 0,
+              "visibleExtentFraction": 0.7538283
+            }
+          ]
+        },
+        {
+          "id": "portable_fold_communicator",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 41.1614559,
+              "yawDegrees": 1.1127489,
+              "tiltDegrees": 41.1488421,
+              "liftMetres": 0.0115102,
+              "liftHeightFraction": 0.0229536,
+              "horizontalAnchorMetres": 0.0785962,
+              "horizontalAnchorFraction": 0.2519108,
+              "anchorOffset": [
+                -0.0194188,
+                0.0461206,
+                -0.0761595
+              ],
+              "scaleRatios": [
+                0.3427344,
+                0.5107492,
+                0.3846882
+              ],
+              "heightLead": 0.126061,
+              "visibleExtentFraction": 0.52157
+            },
+            {
+              "factor": 0.499999,
+              "rotationDegrees": 30.9296152,
+              "yawDegrees": 4.9905827,
+              "tiltDegrees": 30.5616641,
+              "liftMetres": 0.0096538,
+              "liftHeightFraction": 0.0192515,
+              "horizontalAnchorMetres": 0.0737171,
+              "horizontalAnchorFraction": 0.2362728,
+              "anchorOffset": [
+                -0.0144101,
+                0.0425983,
+                -0.072295
+              ],
+              "scaleRatios": [
+                0.4387903,
+                0.5710139,
+                0.4735542
+              ],
+              "heightLead": 0.0974596,
+              "visibleExtentFraction": 0.5894126
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 15.1485566,
+              "yawDegrees": 4.5211023,
+              "tiltDegrees": 14.473061,
+              "liftMetres": 0.0058828,
+              "liftHeightFraction": 0.0117315,
+              "horizontalAnchorMetres": 0.0444205,
+              "horizontalAnchorFraction": 0.1423735,
+              "anchorOffset": [
+                -0.0068251,
+                0.026963,
+                -0.0438931
+              ],
+              "scaleRatios": [
+                0.5993441,
+                0.7059406,
+                0.6284279
+              ],
+              "heightLead": 0.0775127,
+              "visibleExtentFraction": 0.7076258
+            }
+          ]
+        },
+        {
+          "id": "compact_camera",
+          "samples": [
+            {
+              "factor": 0.349999,
+              "rotationDegrees": 21.0175283,
+              "yawDegrees": 2.6473464,
+              "tiltDegrees": 20.857436,
+              "liftMetres": 0.0173177,
+              "liftHeightFraction": 0.0695655,
+              "horizontalAnchorMetres": 0.0211326,
+              "horizontalAnchorFraction": 0.0572929,
+              "anchorOffset": [
+                0.0197335,
+                0.044088,
+                -0.0075614
+              ],
+              "scaleRatios": [
+                0.4598482,
+                0.3688679,
+                0.4228056
+              ],
+              "heightLead": -0.0909803,
+              "visibleExtentFraction": 0.4858968
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 14.9824836,
+              "yawDegrees": 8.6113746,
+              "tiltDegrees": 12.3065034,
+              "liftMetres": 0.012994,
+              "liftHeightFraction": 0.0521971,
+              "horizontalAnchorMetres": 0.0128858,
+              "horizontalAnchorFraction": 0.0349349,
+              "anchorOffset": [
+                0.0120327,
+                0.0333024,
+                -0.0046106
+              ],
+              "scaleRatios": [
+                0.5987434,
+                0.5176373,
+                0.5664463
+              ],
+              "heightLead": -0.0811061,
+              "visibleExtentFraction": 0.6266677
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 7.6480888,
+              "yawDegrees": 6.5005682,
+              "tiltDegrees": 4.0380304,
+              "liftMetres": 0.0051722,
+              "liftHeightFraction": 0.020777,
+              "horizontalAnchorMetres": 0.0046391,
+              "horizontalAnchorFraction": 0.0125771,
+              "anchorOffset": [
+                0.004332,
+                0.0132253,
+                -0.0016599
+              ],
+              "scaleRatios": [
+                0.7270378,
+                0.6641547,
+                0.7024093
+              ],
+              "heightLead": -0.0628831,
+              "visibleExtentFraction": 0.7357995
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dock props traverse a visible lateral path before fitting their final positions",
+      "passed": true,
+      "records": [
+        {
+          "id": "studio_reference_books",
+          "samples": [
+            {
+              "factor": 0.349999,
+              "rotationDegrees": 16.7184103,
+              "yawDegrees": 16.4730924,
+              "tiltDegrees": 2.8932256,
+              "liftMetres": 0.0002726,
+              "liftHeightFraction": 0.0005133,
+              "horizontalAnchorMetres": 0.115981,
+              "horizontalAnchorFraction": 0.2067398,
+              "anchorOffset": [
+                0.1159784,
+                0.0077883,
+                0.0007804
+              ],
+              "scaleRatios": [
+                0.5161384,
+                0.3321076,
+                0.3928495
+              ],
+              "heightLead": -0.1840307,
+              "visibleExtentFraction": 0.4920313
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 10.4588061,
+              "yawDegrees": 8.753425,
+              "tiltDegrees": 5.7463071,
+              "liftMetres": 0.0006476,
+              "liftHeightFraction": 0.0012195,
+              "horizontalAnchorMetres": 0.0642636,
+              "horizontalAnchorFraction": 0.1145519,
+              "anchorOffset": [
+                0.0641251,
+                0.0191408,
+                0.0042166
+              ],
+              "scaleRatios": [
+                0.64618,
+                0.4829733,
+                0.5396187
+              ],
+              "heightLead": -0.1632066,
+              "visibleExtentFraction": 0.6217704
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 3.6438935,
+              "yawDegrees": 2.2538134,
+              "tiltDegrees": 2.8640031,
+              "liftMetres": 0.0003545,
+              "liftHeightFraction": 0.0006676,
+              "horizontalAnchorMetres": 0.0463709,
+              "horizontalAnchorFraction": 0.0826577,
+              "anchorOffset": [
+                0.0461231,
+                0.010879,
+                0.0047877
+              ],
+              "scaleRatios": [
+                0.7623183,
+                0.6361519,
+                0.6815447
+              ],
+              "heightLead": -0.1261664,
+              "visibleExtentFraction": 0.7219469
+            }
+          ]
+        },
+        {
+          "id": "v5_energy_capsule_rack",
+          "samples": [
+            {
+              "factor": 0.349999,
+              "rotationDegrees": 14.7907923,
+              "yawDegrees": 14.6448657,
+              "tiltDegrees": 2.0953013,
+              "liftMetres": 0.0049902,
+              "liftHeightFraction": 0.0172074,
+              "horizontalAnchorMetres": 0.1186086,
+              "horizontalAnchorFraction": 0.3064822,
+              "anchorOffset": [
+                -0.1114877,
+                0.0075764,
+                -0.0404782
+              ],
+              "scaleRatios": [
+                0.3218113,
+                0.4317767,
+                0.5215854
+              ],
+              "heightLead": -0.0898087,
+              "visibleExtentFraction": 0.466049
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 10.5946911,
+              "yawDegrees": 10.1409473,
+              "tiltDegrees": 3.0834296,
+              "liftMetres": 0.0037349,
+              "liftHeightFraction": 0.0128789,
+              "horizontalAnchorMetres": 0.077778,
+              "horizontalAnchorFraction": 0.2009768,
+              "anchorOffset": [
+                -0.0733195,
+                0.0089314,
+                -0.0259553
+              ],
+              "scaleRatios": [
+                0.4730341,
+                0.5743534,
+                0.6506744
+              ],
+              "heightLead": -0.076321,
+              "visibleExtentFraction": 0.609931
+            },
+            {
+              "factor": 0.649999,
+              "rotationDegrees": 4.6178713,
+              "yawDegrees": 4.4581311,
+              "tiltDegrees": 1.205293,
+              "liftMetres": 0.0016523,
+              "liftHeightFraction": 0.0056977,
+              "horizontalAnchorMetres": 0.0312597,
+              "horizontalAnchorFraction": 0.0807744,
+              "anchorOffset": [
+                -0.0297872,
+                0.0041608,
+                -0.0094811
+              ],
+              "scaleRatios": [
+                0.6279836,
+                0.7084871,
+                0.7656093
+              ],
+              "heightLead": -0.0571222,
+              "visibleExtentFraction": 0.7203619
+            }
+          ]
+        },
+        {
+          "id": "v5_portable_projector",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 15.2710269,
+              "yawDegrees": 15.251857,
+              "tiltDegrees": 0.7740503,
+              "liftMetres": 0.0062304,
+              "liftHeightFraction": 0.021307,
+              "horizontalAnchorMetres": 0.1548651,
+              "horizontalAnchorFraction": 0.3101895,
+              "anchorOffset": [
+                -0.1164934,
+                0.0073077,
+                0.1020415
+              ],
+              "scaleRatios": [
+                0.4096982,
+                0.4647021,
+                0.3427344
+              ],
+              "heightLead": 0.0550039,
+              "visibleExtentFraction": 0.412472
+            },
+            {
+              "factor": 0.499999,
+              "rotationDegrees": 10.3342474,
+              "yawDegrees": 9.3849239,
+              "tiltDegrees": 4.3460477,
+              "liftMetres": 0.0061436,
+              "liftHeightFraction": 0.0210101,
+              "horizontalAnchorMetres": 0.1099886,
+              "horizontalAnchorFraction": 0.2203036,
+              "anchorOffset": [
+                -0.0860332,
+                0.0146513,
+                0.0685259
+              ],
+              "scaleRatios": [
+                0.5547882,
+                0.602907,
+                0.4931204
+              ],
+              "heightLead": 0.0481188,
+              "visibleExtentFraction": 0.5712873
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 5.3304648,
+              "yawDegrees": 3.4014672,
+              "tiltDegrees": 4.1065395,
+              "liftMetres": 0.0036013,
+              "liftHeightFraction": 0.0123158,
+              "horizontalAnchorMetres": 0.0598021,
+              "horizontalAnchorFraction": 0.1197816,
+              "anchorOffset": [
+                -0.0517015,
+                0.0138218,
+                0.030054
+              ],
+              "scaleRatios": [
+                0.6933911,
+                0.7301773,
+                0.6444274
+              ],
+              "heightLead": 0.0367862,
+              "visibleExtentFraction": 0.707451
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spring props extend vertically before widening, with a visible settling tilt",
+      "passed": true,
+      "records": [
+        {
+          "id": "v5_magnetic_pen_dock",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 4.863301,
+              "yawDegrees": 0.0198819,
+              "tiltDegrees": 4.8632604,
+              "liftMetres": 0.0006556,
+              "liftHeightFraction": 0.0014596,
+              "horizontalAnchorMetres": 0.0071745,
+              "horizontalAnchorFraction": 0.0170952,
+              "anchorOffset": [
+                0.0071745,
+                0.0048625,
+                0
+              ],
+              "scaleRatios": [
+                0.2554472,
+                0.6640316,
+                0.2837217
+              ],
+              "heightLead": 0.3803098,
+              "visibleExtentFraction": 0.462996
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 4.0092797,
+              "yawDegrees": 0.0555264,
+              "tiltDegrees": 4.0088958,
+              "liftMetres": 0.002632,
+              "liftHeightFraction": 0.0058599,
+              "horizontalAnchorMetres": 0.0041993,
+              "horizontalAnchorFraction": 0.010006,
+              "anchorOffset": [
+                0.0041993,
+                0.0082305,
+                0
+              ],
+              "scaleRatios": [
+                0.4061321,
+                0.763132,
+                0.4352809
+              ],
+              "heightLead": 0.327851,
+              "visibleExtentFraction": 0.5815104
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 4.2782584,
+              "yawDegrees": 0.0647411,
+              "tiltDegrees": 4.2777694,
+              "liftMetres": 0.0038909,
+              "liftHeightFraction": 0.0086629,
+              "horizontalAnchorMetres": 0.0014664,
+              "horizontalAnchorFraction": 0.0034941,
+              "anchorOffset": [
+                0.0014664,
+                0.0121293,
+                0
+              ],
+              "scaleRatios": [
+                0.5695355,
+                0.8428828,
+                0.5946058
+              ],
+              "heightLead": 0.248277,
+              "visibleExtentFraction": 0.7017126
+            }
+          ]
+        },
+        {
+          "id": "headphones_on_stand",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 5.3209146,
+              "yawDegrees": 1.883971,
+              "tiltDegrees": 4.9771181,
+              "liftMetres": 0.0035073,
+              "liftHeightFraction": 0.0048939,
+              "horizontalAnchorMetres": 0.0138061,
+              "horizontalAnchorFraction": 0.0238553,
+              "anchorOffset": [
+                -0.0118294,
+                0.0075741,
+                0.0071185
+              ],
+              "scaleRatios": [
+                0.2897417,
+                0.6300753,
+                0.2501398
+              ],
+              "heightLead": 0.3403337,
+              "visibleExtentFraction": 0.4906985
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 6.9543183,
+              "yawDegrees": 3.9913281,
+              "tiltDegrees": 5.6994997,
+              "liftMetres": 0.0042876,
+              "liftHeightFraction": 0.0059828,
+              "horizontalAnchorMetres": 0.0084184,
+              "horizontalAnchorFraction": 0.014546,
+              "anchorOffset": [
+                -0.0072131,
+                0.0124743,
+                0.0043406
+              ],
+              "scaleRatios": [
+                0.4413571,
+                0.7371372,
+                0.4005409
+              ],
+              "heightLead": 0.2957802,
+              "visibleExtentFraction": 0.6097379
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 4.8979626,
+              "yawDegrees": 2.585264,
+              "tiltDegrees": 4.1615129,
+              "liftMetres": 0.0075517,
+              "liftHeightFraction": 0.0105374,
+              "horizontalAnchorMetres": 0.0030307,
+              "horizontalAnchorFraction": 0.0052367,
+              "anchorOffset": [
+                -0.0025968,
+                0.0156959,
+                0.0015627
+              ],
+              "scaleRatios": [
+                0.6015062,
+                0.8273367,
+                0.5663025
+              ],
+              "heightLead": 0.2258304,
+              "visibleExtentFraction": 0.7257648
+            }
+          ]
+        },
+        {
+          "id": "v8_desk_glow_lamp",
+          "samples": [
+            {
+              "factor": 0.35,
+              "rotationDegrees": 3.5304469,
+              "yawDegrees": 0.0500888,
+              "tiltDegrees": 3.530092,
+              "liftMetres": 0.0006879,
+              "liftHeightFraction": 0.0016109,
+              "horizontalAnchorMetres": 0.0103955,
+              "horizontalAnchorFraction": 0.0256679,
+              "anchorOffset": [
+                0.0056531,
+                0.0037531,
+                -0.008724
+              ],
+              "scaleRatios": [
+                0.2348703,
+                0.6041649,
+                0.3085787
+              ],
+              "heightLead": 0.2955862,
+              "visibleExtentFraction": 0.4490178
+            },
+            {
+              "factor": 0.5,
+              "rotationDegrees": 6.8913134,
+              "yawDegrees": 0.0897597,
+              "tiltDegrees": 6.8907316,
+              "liftMetres": 0.0013528,
+              "liftHeightFraction": 0.0031682,
+              "horizontalAnchorMetres": 0.0069186,
+              "horizontalAnchorFraction": 0.017083,
+              "anchorOffset": [
+                0.0037624,
+                0.0087913,
+                -0.0058062
+              ],
+              "scaleRatios": [
+                0.384225,
+                0.7169805,
+                0.4600992
+              ],
+              "heightLead": 0.2568812,
+              "visibleExtentFraction": 0.5864195
+            },
+            {
+              "factor": 0.65,
+              "rotationDegrees": 6.3010624,
+              "yawDegrees": 0.1137317,
+              "tiltDegrees": 6.30004,
+              "liftMetres": 0.0032592,
+              "liftHeightFraction": 0.0076327,
+              "horizontalAnchorMetres": 0.0029523,
+              "horizontalAnchorFraction": 0.0072896,
+              "anchorOffset": [
+                0.0016055,
+                0.012213,
+                -0.0024776
+              ],
+              "scaleRatios": [
+                0.5518537,
+                0.8132038,
+                0.6172565
+              ],
+              "heightLead": 0.1959473,
+              "visibleExtentFraction": 0.7239208
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "skipping halfway through every new motion family restores exact original transforms once",
+      "passed": true,
+      "records": [
+        {
+          "kind": "spin",
+          "id": "ceramic_mobius_study",
+          "factorBeforeSkip": 0.5,
+          "exactRestore": true,
+          "completionCount": 1
+        },
+        {
+          "kind": "hop",
+          "id": "thermal_cup",
+          "factorBeforeSkip": 0.499999,
+          "exactRestore": true,
+          "completionCount": 1
+        },
+        {
+          "kind": "drift",
+          "id": "geometric_specimen_cloche",
+          "factorBeforeSkip": 0.5,
+          "exactRestore": true,
+          "completionCount": 1
+        },
+        {
+          "kind": "flip",
+          "id": "folding_drawing_terminal",
+          "factorBeforeSkip": 0.5,
+          "exactRestore": true,
+          "completionCount": 1
+        },
+        {
+          "kind": "dock",
+          "id": "studio_reference_books",
+          "factorBeforeSkip": 0.5,
+          "exactRestore": true,
+          "completionCount": 1
+        },
+        {
+          "kind": "spring",
+          "id": "v5_magnetic_pen_dock",
+          "factorBeforeSkip": 0.5,
+          "exactRestore": true,
+          "completionCount": 1
+        }
+      ]
+    },
+    {
+      "name": "reduced motion restores every new gesture without a partial reveal",
+      "passed": true,
+      "exactRestore": true,
+      "completionCount": 1
+    }
+  ]
+}

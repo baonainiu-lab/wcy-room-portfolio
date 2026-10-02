@@ -1,0 +1,38 @@
+{
+  "size": [
+    1024,
+    1536
+  ],
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "fully_transparent_pixels": 957406,
+  "partially_transparent_pixels": 615458,
+  "corners": [
+    [
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      30,
+      25,
+      22,
+      0
+    ],
+    [
+      12,
+      5,
+      1,
+      0
+    ]
+  ]
+}

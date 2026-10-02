@@ -1,0 +1,120 @@
+{
+  "source": "assets/blender/orbital-atelier-v15.blend",
+  "sourceSha256": "0ba9f8611dcd91bbcdf6224b0be51e187d82078d3554783df20a456d857b7713",
+  "window": {
+    "scene": "ENV_CITY.001",
+    "objects": 1041,
+    "engine": "BLENDER_EEVEE",
+    "resolution": [
+      1536,
+      672
+    ],
+    "resolutionPercentage": 100,
+    "camera": {
+      "name": "ENV_Camera.001",
+      "type": "PERSP",
+      "lens": 40.0,
+      "orthographicScale": 6.0,
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.009803332388401031,
+          -0.999951958656311,
+          -82.0
+        ],
+        [
+          0.0,
+          0.999951958656311,
+          0.009803332388401031,
+          16.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "cyclesSamples": 4096,
+    "meshes": 702,
+    "curves": 336,
+    "lights": 2
+  },
+  "screen": {
+    "scene": "SCREEN_ART",
+    "objects": 130,
+    "engine": "CYCLES",
+    "resolution": [
+      1440,
+      600
+    ],
+    "resolutionPercentage": 100,
+    "camera": {
+      "name": "SCREEN_Camera",
+      "type": "ORTHO",
+      "lens": 50.0,
+      "orthographicScale": 9.5,
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.03569162264466286,
+          -0.9993628263473511,
+          -14.0
+        ],
+        [
+          0.0,
+          0.9993628263473511,
+          0.03569162264466286,
+          0.6000000238418579
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "cyclesSamples": 48,
+    "meshes": 69,
+    "curves": 54,
+    "lights": 6
+  },
+  "screenCurrentPng": {
+    "path": "assets/textures/screen-art-render.png",
+    "dimensions": [
+      1440,
+      600
+    ],
+    "sha256": "62d931999242d5e62552d7af43c483b8cba0a6f67fdef4e6cd17689ed5b8f08d"
+  },
+  "plannedWindowResolution": [
+    3072,
+    1344
+  ],
+  "resampling": false,
+  "screenRecommendation": {
+    "trueRerenderPossible": true,
+    "suggestedResolution": [
+      2880,
+      1200
+    ],
+    "suggestedCyclesSamples": 96,
+    "compositionChange": false,
+    "originalContentOverwriteAuthorized": false,
+    "note": "Existing SCREEN_ART retains actual folded glass/metal ribbon geometry and its camera; a real 2x rerender can preserve original composition. No screen render is performed by this script."
+  }
+}

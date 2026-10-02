@@ -1,0 +1,422 @@
+{
+  "state": "day",
+  "scene": "WEB_DUAL_V8",
+  "world": {
+    "model": "MULTIPLE_SCATTERING atmosphere, solar disc disabled; separate physical Sun",
+    "strength": 0.075,
+    "sun_elevation_degrees": 47.72631224058469,
+    "sun_rotation_degrees": -53.1301017798049
+  },
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": 0.15000000596046448,
+  "gamma": 1.0,
+  "source_light_objects_and_world_unchanged": true,
+  "removed_studio_lights": [
+    "L_Key_Softbox",
+    "L_Fill_Front",
+    "L_Rim",
+    "L_Warm_Bounce"
+  ],
+  "light_count": 26,
+  "active_light_count": 25,
+  "lights": [
+    {
+      "name": "V8_LIGHTING_day_L_Niche_0",
+      "type": "AREA",
+      "energy": 7.0,
+      "color_linear": [
+        1.0,
+        0.6200000047683716,
+        0.3100000023841858
+      ],
+      "position": [
+        4.0,
+        2.700000047683716,
+        1.649999976158142
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_L_Niche_1",
+      "type": "AREA",
+      "energy": 7.0,
+      "color_linear": [
+        1.0,
+        0.6200000047683716,
+        0.3100000023841858
+      ],
+      "position": [
+        4.0,
+        2.700000047683716,
+        2.9000000953674316
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_L_Niche_2",
+      "type": "AREA",
+      "energy": 7.0,
+      "color_linear": [
+        1.0,
+        0.6200000047683716,
+        0.3100000023841858
+      ],
+      "position": [
+        4.0,
+        2.700000047683716,
+        4.150000095367432
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_L_WindowLight",
+      "type": "AREA",
+      "energy": 0.0,
+      "color_linear": [
+        0.3799999952316284,
+        0.5799999833106995,
+        1.0
+      ],
+      "position": [
+        0.4000000059604645,
+        2.8499999046325684,
+        3.450000047683716
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 0",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        15.228803634643555,
+        6.780300140380859,
+        5.269999980926514
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 1",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        12.674766540527344,
+        12.239880561828613,
+        6.21999979019165
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 2",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.23839756846427917,
+        0.02518685907125473
+      ],
+      "position": [
+        12.804247856140137,
+        12.36491870880127,
+        3.384999990463257
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 3",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        7.899447917938232,
+        16.19626808166504,
+        6.769999980926514
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 4",
+      "type": "POINT",
+      "energy": 3.575000047683716,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        9.187966346740723,
+        15.257298469543457,
+        4.997450351715088
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 5",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        1.9149614572525024,
+        18.219640731811523,
+        7.420000076293945
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 6",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.23839756846427917,
+        0.02518685907125473
+      ],
+      "position": [
+        1.933776617050171,
+        18.39865493774414,
+        3.984999895095825
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 7",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        -4.32314395904541,
+        17.339183807373047,
+        6.670000076293945
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 8",
+      "type": "POINT",
+      "energy": 3.575000047683716,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        -2.732691526412964,
+        17.44810676574707,
+        4.8974289894104
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 9",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        -9.685220718383789,
+        14.358930587768555,
+        6.03000020980835
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 10",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.23839756846427917,
+        0.02518685907125473
+      ],
+      "position": [
+        -9.78587532043457,
+        14.508156776428223,
+        3.2899999618530273
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 11",
+      "type": "AREA",
+      "energy": 19.549999237060547,
+      "color_linear": [
+        1.0,
+        0.4507857859134674,
+        0.1384316086769104
+      ],
+      "position": [
+        -13.820056915283203,
+        9.321745872497559,
+        5.119999885559082
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 12",
+      "type": "POINT",
+      "energy": 3.575000047683716,
+      "color_linear": [
+        1.0,
+        0.23839756846427917,
+        0.02518685907125473
+      ],
+      "position": [
+        -7.897419452667236,
+        -4.241206645965576,
+        0.47499799728393555
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 13",
+      "type": "POINT",
+      "energy": 3.575000047683716,
+      "color_linear": [
+        1.0,
+        0.23839756846427917,
+        0.02518685907125473
+      ],
+      "position": [
+        -8.78410530090332,
+        -3.2208385467529297,
+        0.08520234376192093
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 14",
+      "type": "POINT",
+      "energy": 3.575000047683716,
+      "color_linear": [
+        1.0,
+        0.23839756846427917,
+        0.02518685907125473
+      ],
+      "position": [
+        7.937784671783447,
+        -3.3114688396453857,
+        0.654792308807373
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_day_Gallery warm practical 15",
+      "type": "POINT",
+      "energy": 3.575000047683716,
+      "color_linear": [
+        1.0,
+        0.23839756846427917,
+        0.02518685907125473
+      ],
+      "position": [
+        8.899184226989746,
+        -2.5858376026153564,
+        0.09515754133462906
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Day_Sun",
+      "type": "SUN",
+      "energy": 5.0,
+      "color_linear": [
+        1.0,
+        0.9399999976158142,
+        0.8399999737739563
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Floor_Lamp_Practical",
+      "type": "AREA",
+      "energy": 3.0,
+      "color_linear": [
+        1.0,
+        0.6800000071525574,
+        0.3799999952316284
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Monitor_Reflected_Light",
+      "type": "AREA",
+      "energy": 2.0,
+      "color_linear": [
+        0.47999998927116394,
+        0.699999988079071,
+        1.0
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Interior_Warm_0",
+      "type": "AREA",
+      "energy": 1.0800000429153442,
+      "color_linear": [
+        1.0,
+        0.6200000047683716,
+        0.3199999928474426
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Interior_Warm_1",
+      "type": "AREA",
+      "energy": 1.1699999570846558,
+      "color_linear": [
+        1.0,
+        0.5799999833106995,
+        0.27000001072883606
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V8_LIGHTING_Interior_Warm_2",
+      "type": "AREA",
+      "energy": 0.8100000023841858,
+      "color_linear": [
+        1.0,
+        0.6600000262260437,
+        0.3700000047683716
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "caller_material_notes": {
+    "day": "Render a matching blue-white city sky without the moon; use a dedicated window image. Reduce emissive fixture strengths to about 0.20 of original, monitor artwork to about 0.65. Copy materials before changing them.",
+    "night": "Use a genuine dim city-night image with moon and localized lit windows, not the original bright blue daytime city. Keep warm diffuser emissions at original strength; monitor artwork may stay original.",
+    "window": "Window-image exposure is independent of physical world irradiance. Never increase all materials or unlit color globally to simulate sunlight."
+  },
+  "cycles_samples": 40,
+  "device": "GPU"
+}

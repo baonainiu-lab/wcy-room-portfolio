@@ -1,0 +1,207 @@
+{
+  "collection": "ENRICHMENT_V5",
+  "source_scene": "ORBITAL_ATELIER_V2",
+  "root_count": 8,
+  "interactive_group_count": 16,
+  "mesh_count": 131,
+  "triangles": 25228,
+  "triangle_budget": 45000,
+  "within_budget": true,
+  "materials": [
+    "V5_MAT_SatinTitanium",
+    "V5_MAT_PearlCeramic",
+    "V5_MAT_Graphite",
+    "V5_MAT_BlueGreyEnamel",
+    "V5_MAT_RecessedOptics",
+    "V5_MAT_BurntOrange",
+    "V5_MAT_AmberSignal",
+    "V5_MAT_IceSignal",
+    "V5_MAT_WarmDiffuser"
+  ],
+  "assets": [
+    {
+      "root": "V5_ORBITAL_CLOCK_Root",
+      "asset_id": "v5_orbital_clock",
+      "label_zh": "左墙轨道时钟",
+      "position": [
+        -4.76,
+        2.3,
+        3.62
+      ],
+      "interaction": "rotate_dial",
+      "footprint_metres": [
+        0.12,
+        0.79,
+        0.79
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_CLOCK_DIAL_Pivot",
+          "asset_id": "v5_clock_dial",
+          "interaction": "rotate"
+        }
+      ]
+    },
+    {
+      "root": "V5_PROJECTOR_Root",
+      "asset_id": "v5_portable_projector",
+      "label_zh": "桌面便携投影仪",
+      "position": [
+        -3.713420867919922,
+        -0.9319590330123901,
+        1.8580799102783203
+      ],
+      "interaction": "focus_lens",
+      "footprint_metres": [
+        0.44,
+        0.34,
+        0.27
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_PROJECTOR_LENS_Pivot",
+          "asset_id": "v5_projector_lens",
+          "interaction": "rotate"
+        }
+      ]
+    },
+    {
+      "root": "V5_PEN_DOCK_Root",
+      "asset_id": "v5_magnetic_pen_dock",
+      "label_zh": "磁吸创作笔座",
+      "position": [
+        -3.2759158611297607,
+        0.7885405421257019,
+        1.8580799102783203
+      ],
+      "interaction": "tilt_stylus",
+      "footprint_metres": [
+        0.31,
+        0.28,
+        0.4
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_MAGNETIC_STYLUS_Pivot",
+          "asset_id": "v5_magnetic_stylus",
+          "interaction": "tilt"
+        }
+      ]
+    },
+    {
+      "root": "V5_MODULAR_CASES_Root",
+      "asset_id": "v5_modular_equipment_cases",
+      "label_zh": "双层模块器材箱",
+      "position": [
+        1.3,
+        1.52,
+        0.18
+      ],
+      "interaction": "lift_upper_case",
+      "footprint_metres": [
+        0.95,
+        0.65,
+        0.83
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_UPPER_CASE_Pivot",
+          "asset_id": "v5_upper_equipment_case",
+          "interaction": "lift"
+        }
+      ]
+    },
+    {
+      "root": "V5_GEOMETRIC_LAMP_Root",
+      "asset_id": "v5_geometric_floor_lamp",
+      "label_zh": "薄环几何落地灯",
+      "position": [
+        2.28,
+        0.78,
+        0.18
+      ],
+      "interaction": "tilt_light_head",
+      "footprint_metres": [
+        0.57,
+        0.47,
+        1.82
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_LAMP_HEAD_Pivot",
+          "asset_id": "v5_floor_lamp_head",
+          "interaction": "tilt"
+        }
+      ]
+    },
+    {
+      "root": "V5_CAPSULE_RACK_Root",
+      "asset_id": "v5_energy_capsule_rack",
+      "label_zh": "窗台能量胶囊架",
+      "position": [
+        0.34,
+        2.77,
+        1.427
+      ],
+      "interaction": "lift_capsule",
+      "footprint_metres": [
+        0.39,
+        0.27,
+        0.33
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_ENERGY_CAPSULE_Pivot",
+          "asset_id": "v5_energy_capsule",
+          "interaction": "lift"
+        }
+      ]
+    },
+    {
+      "root": "V5_MECHANICAL_PANEL_Root",
+      "asset_id": "v5_mechanical_data_panel",
+      "label_zh": "左墙机械数据面板",
+      "position": [
+        -4.76,
+        -1.93,
+        2.32
+      ],
+      "interaction": "rotate_selector",
+      "footprint_metres": [
+        0.13,
+        0.49,
+        0.76
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_DATA_SELECTOR_Pivot",
+          "asset_id": "v5_data_panel_selector",
+          "interaction": "rotate"
+        }
+      ]
+    },
+    {
+      "root": "V5_SCOUT_DISPLAY_Root",
+      "asset_id": "v5_scout_drone_display",
+      "label_zh": "窗台微型探测艇",
+      "position": [
+        -2.19,
+        2.75,
+        1.427
+      ],
+      "interaction": "rotate_scout",
+      "footprint_metres": [
+        0.53,
+        0.34,
+        0.34
+      ],
+      "independent_parts": [
+        {
+          "name": "V5_SCOUT_DRONE_Pivot",
+          "asset_id": "v5_scout_drone",
+          "interaction": "rotate"
+        }
+      ]
+    }
+  ]
+}

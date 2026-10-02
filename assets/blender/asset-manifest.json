@@ -1,0 +1,438 @@
+{
+  "scene": "ORBITAL_ATELIER_V2",
+  "blender_version": "5.1.2",
+  "scope": "V4 render source, latest user authorized local website trial; final render approval remains pending",
+  "objects": 1411,
+  "mesh_objects": 1061,
+  "logical_roots": [
+    {
+      "id": "architecture.platform",
+      "node": "A_Platform",
+      "collection": [
+        "ARCHITECTURE"
+      ],
+      "components": 3,
+      "mesh_components": 3,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interactive": true
+    },
+    {
+      "id": "main_display",
+      "node": "T_MainDisplay",
+      "collection": [
+        "WORKSTATION"
+      ],
+      "components": 2,
+      "mesh_components": 2,
+      "position": [
+        -0.2872920036315918,
+        1.9106242656707764,
+        -0.025199994444847107
+      ],
+      "interactive": true
+    },
+    {
+      "id": "compute_core",
+      "node": "T_ComputeCore",
+      "collection": [
+        "WORKSTATION"
+      ],
+      "components": 23,
+      "mesh_components": 11,
+      "position": [
+        -0.2872920036315918,
+        1.9106242656707764,
+        -0.025199994444847107
+      ],
+      "interactive": true
+    },
+    {
+      "id": "furniture.desk",
+      "node": "F_Cantilever_Desk",
+      "collection": [
+        "FURNITURE"
+      ],
+      "components": 7,
+      "mesh_components": 7,
+      "position": [
+        -0.2872920036315918,
+        1.9106240272521973,
+        -0.025199994444847107
+      ],
+      "interactive": true
+    },
+    {
+      "id": "furniture.work_chair",
+      "node": "F_Sculptural_Work_Chair",
+      "collection": [
+        "FURNITURE"
+      ],
+      "components": 13,
+      "mesh_components": 13,
+      "position": [
+        -1.399999976158142,
+        -0.47999998927116394,
+        -0.03500000014901161
+      ],
+      "interactive": true
+    },
+    {
+      "id": "furniture.lounge",
+      "node": "F_Crescent_Orange_Lounge",
+      "collection": [
+        "FURNITURE"
+      ],
+      "components": 16,
+      "mesh_components": 16,
+      "position": [
+        2.75,
+        -1.7200000286102295,
+        -0.019999999552965164
+      ],
+      "interactive": true
+    },
+    {
+      "id": "furniture.coffee_table",
+      "node": "F_Smoked_Glass_Coffee_Table",
+      "collection": [
+        "FURNITURE"
+      ],
+      "components": 8,
+      "mesh_components": 8,
+      "position": [
+        -0.10000000149011612,
+        -1.149999976158142,
+        -0.019999999552965164
+      ],
+      "interactive": true
+    },
+    {
+      "id": "furniture.rug",
+      "node": "F_Charcoal_Inlaid_Rug",
+      "collection": [
+        "FURNITURE"
+      ],
+      "components": 5,
+      "mesh_components": 5,
+      "position": [
+        1.5,
+        -1.25,
+        0.0
+      ],
+      "interactive": true
+    },
+    {
+      "id": "robot_companion",
+      "node": "P_ROBOT_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 73,
+      "mesh_components": 69,
+      "position": [
+        -3.2300000190734863,
+        -2.5799999237060547,
+        0.18000000715255737
+      ],
+      "interactive": true
+    },
+    {
+      "id": "folding_drawing_terminal",
+      "node": "P_TERMINAL_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 67,
+      "mesh_components": 39,
+      "position": [
+        -2.515002489089966,
+        1.1255388259887695,
+        1.8443999290466309
+      ],
+      "interactive": true
+    },
+    {
+      "id": "c_archive_dock",
+      "node": "P_ARCHIVE_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 54,
+      "mesh_components": 48,
+      "position": [
+        4.0,
+        2.9000000953674316,
+        2.0
+      ],
+      "interactive": true
+    },
+    {
+      "id": "kinetic_three_petal_flower",
+      "node": "P_FLOWER_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 38,
+      "mesh_components": 29,
+      "position": [
+        4.0,
+        2.9000000953674316,
+        3.25
+      ],
+      "interactive": true
+    },
+    {
+      "id": "headphones_on_stand",
+      "node": "P_HEADPHONES_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 37,
+      "mesh_components": 32,
+      "position": [
+        -3.5672149658203125,
+        -1.6164829730987549,
+        1.8443999290466309
+      ],
+      "interactive": true
+    },
+    {
+      "id": "ceramic_ring_speaker",
+      "node": "P_SPEAKER_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 15,
+      "mesh_components": 14,
+      "position": [
+        -3.0207366943359375,
+        1.9022424221038818,
+        1.8443999290466309
+      ],
+      "interactive": true
+    },
+    {
+      "id": "split_keyboard",
+      "node": "P_KEYBOARD_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 115,
+      "mesh_components": 111,
+      "position": [
+        -2.8169116973876953,
+        -0.3311491012573242,
+        1.8443999290466309
+      ],
+      "interactive": true
+    },
+    {
+      "id": "compact_camera",
+      "node": "P_CAMERA_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 98,
+      "mesh_components": 97,
+      "position": [
+        -3.06425142288208,
+        -1.1717793941497803,
+        1.8443999290466309
+      ],
+      "interactive": true
+    },
+    {
+      "id": "thermal_cup",
+      "node": "P_CUP_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 12,
+      "mesh_components": 12,
+      "position": [
+        -2.417475700378418,
+        2.0360279083251953,
+        1.8443999290466309
+      ],
+      "interactive": true
+    },
+    {
+      "id": "table_notebook_group",
+      "node": "P_TABLE_OBJECTS_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 53,
+      "mesh_components": 48,
+      "position": [
+        -0.16200000047683716,
+        -1.236799955368042,
+        0.9480000138282776
+      ],
+      "interactive": true
+    },
+    {
+      "id": "glass_bonsai_terrarium",
+      "node": "P_TERRARIUM_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 228,
+      "mesh_components": 216,
+      "position": [
+        4.0,
+        2.9000000953674316,
+        0.75
+      ],
+      "interactive": true
+    },
+    {
+      "id": "trailing_wall_plant",
+      "node": "P_VINES_Root",
+      "collection": [
+        "PROPS"
+      ],
+      "components": 326,
+      "mesh_components": 172,
+      "position": [
+        4.630000114440918,
+        2.6500000953674316,
+        4.400000095367432
+      ],
+      "interactive": true
+    },
+    {
+      "id": "studio_reference_books",
+      "node": "D_BOOKS_Root",
+      "collection": [
+        "STUDIO_ADDITIONS"
+      ],
+      "components": 52,
+      "mesh_components": 45,
+      "position": [
+        -1.5,
+        2.7799999713897705,
+        1.4199999570846558
+      ],
+      "interactive": true
+    },
+    {
+      "id": "geometric_specimen_cloche",
+      "node": "D_SPECIMEN_Root",
+      "collection": [
+        "STUDIO_ADDITIONS"
+      ],
+      "components": 8,
+      "mesh_components": 4,
+      "position": [
+        -0.3499999940395355,
+        2.7799999713897705,
+        1.4199999570846558
+      ],
+      "interactive": true
+    },
+    {
+      "id": "portable_fold_communicator",
+      "node": "D_COMMUNICATOR_Root",
+      "collection": [
+        "STUDIO_ADDITIONS"
+      ],
+      "components": 26,
+      "mesh_components": 13,
+      "position": [
+        1.0,
+        2.7799999713897705,
+        1.4199999570846558
+      ],
+      "interactive": true
+    },
+    {
+      "id": "ceramic_mobius_study",
+      "node": "D_SCULPTURE_Root",
+      "collection": [
+        "STUDIO_ADDITIONS"
+      ],
+      "components": 5,
+      "mesh_components": 3,
+      "position": [
+        2.25,
+        2.7799999713897705,
+        1.4199999570846558
+      ],
+      "interactive": true
+    },
+    {
+      "id": "glass_cutting_planter",
+      "node": "D_SMALL_PLANTER_Root",
+      "collection": [
+        "STUDIO_ADDITIONS"
+      ],
+      "components": 19,
+      "mesh_components": 8,
+      "position": [
+        3.0,
+        2.7200000286102295,
+        1.4199999570846558
+      ],
+      "interactive": true
+    },
+    {
+      "id": "black_ceramic_floor_planter",
+      "node": "D_FLOOR_VASE_Root",
+      "collection": [
+        "STUDIO_ADDITIONS"
+      ],
+      "components": 25,
+      "mesh_components": 9,
+      "position": [
+        4.099999904632568,
+        0.44999998807907104,
+        0.18000000715255737
+      ],
+      "interactive": true
+    }
+  ],
+  "textures": [
+    {
+      "name": "fabric_weave",
+      "path": "//../textures/fabric_weave.png",
+      "packed": true
+    },
+    {
+      "name": "micro_grain",
+      "path": "//../textures/micro_grain.png",
+      "packed": true
+    },
+    {
+      "name": "Original_Generative_Screen",
+      "path": "//../textures/screen-art.png",
+      "packed": true
+    },
+    {
+      "name": "screen-art-render.png",
+      "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/textures/screen-art-render.png",
+      "packed": true
+    },
+    {
+      "name": "titanium_brush",
+      "path": "//../textures/titanium_brush.png",
+      "packed": true
+    },
+    {
+      "name": "window-city-v2.png",
+      "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/textures/window-city-v2.png",
+      "packed": true
+    },
+    {
+      "name": "window-city.png",
+      "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/textures/window-city.png",
+      "packed": true
+    }
+  ],
+  "invalid_transforms": [],
+  "website_assets_replaced": true
+}

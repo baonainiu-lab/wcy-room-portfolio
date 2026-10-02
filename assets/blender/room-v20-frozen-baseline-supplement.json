@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "baselineRevision": 19,
+  "purpose": "Additional Gallery source/decoder coverage; original 424-file snapshot remains unchanged.",
+  "primaryBaselineSha256": "b002c19bd783f3087355b2070bc9d0ef5d4c4243f961fa8ddb91ebd949b10069",
+  "files": {
+    "assets/blender/works-gallery-bake-v5.blend": "7f60264c50df924f6489ffd52e24c6e45d41eb40a00736d7ead74d30763da765",
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Color.jpg": "e075ccaaced9f10e4b9900a866e43e41f95c8d1a8f4a2e2f81895499951df355",
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Roughness.jpg": "d37b2befb5643c5b820c9fb1bf76709b33ca8dd6d3d8668866e9b1e96f124b34",
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Displacement.jpg": "9c1e6fb0c7a5f6ea5f35c2557f7e9fa3d361d842ae16e490d3adaf3a3be05f73",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_albedo_2k.jpg": "b0de2403a31efa31e501b0028c0bd8e504d5bd6318f4a5ce90c550c3067f96d8",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_rough_2k.jpg": "8a47afca2630310849034fe40ca9497db0956c67c0d933e6efd49d3cd2befe83",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_disp_2k.jpg": "37ff21737b1ca5ea8cfe88d9a8fe1e2ace0ef190d9ee2d23369307f63c7c3eab",
+    "public/basis/basis_transcoder.js": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1",
+    "public/basis/basis_transcoder.wasm": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a",
+    "public/basis/README.md": "930b11bbbb742b2525491b0964f0462d63d8b21383c0623ec4c98c43d53723c6"
+  },
+  "fileCount": 10,
+  "existingApprovalEvidence": [
+    {
+      "path": "assets/blender/works-gallery-v5/material-refinement-report.json",
+      "sha256": "4a696340df851298ec4ea0a54fb7ad2e1de4b1fff7d4f6b48d27829108fe2bf5"
+    },
+    {
+      "path": "public/textures/works-gallery-v5/SOURCE.json",
+      "sha256": "9c7e8c49f856a189371ad11feb9aa1c34542fd315581a59a88148d05698377b1"
+    },
+    {
+      "path": "public/textures/works-gallery-v5/compression-manifest.json",
+      "sha256": "10d8891e0684820f0d2f5d771b375e10e3fc282c43bdb192d516293c969400c5"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "phase": "complete",
+  "states": [
+    "day",
+    "night"
+  ],
+  "samples": 96
+}

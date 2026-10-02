@@ -1,0 +1,22 @@
+{
+  "complete": false,
+  "status": "pending_unused",
+  "supersededBy": "Authorized offline Blender CLI full-atlas baking; same prepared scene, 96 samples and full atlas dimensions.",
+  "reason": "MCP 120-second hard timeout affected two single-atlas attempts and the first partition attempt.",
+  "script": "scripts/assemble-room-v19-light.py",
+  "scriptSha256": "7fd53ae79f5780ab988efe771620d5c22ded1a73a47fb8dc96d843051a15efaf",
+  "productionInvocationDisabled": true,
+  "onlySmallSyntheticTestsRun": true,
+  "realPartitionArraysRead": false,
+  "realPartitionArraysAssembled": false,
+  "runtimeOutputsWritten": false,
+  "includedInReleaseEvidence": false,
+  "syntheticChecksPassed": [
+    "Exact Euclidean distances match brute force",
+    "UV core bit preservation and priority",
+    "Nearest existing margin selection with deterministic tie",
+    "Conflicting core rejection",
+    "Exact HDR sidecar float bits and bottom-up indices",
+    "Single PNG row flip"
+  ]
+}

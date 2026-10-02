@@ -1,0 +1,25 @@
+{
+  "status": "C_approved",
+  "userReply": "C 轨道星核：科幻与轨道感",
+  "production": "Three concept sheets generated with built-in image_gen; approved C reconstructed as native SVG, not a Blender model.",
+  "priorLogo": "crossfold-v3 rejected by user; no longer the selected direction",
+  "references": {
+    "A": {
+      "path": "assets/brand/concepts-v4/A.png",
+      "sha256": "b2bf683a96231e408362d35f62d429a461d46b6651714b4ce790f14a7f05530a"
+    },
+    "B": {
+      "path": "assets/brand/concepts-v4/B.png",
+      "sha256": "3ba5869a52dec4f08da001d1c0d653367120666f58b9b926f45897910194ef2e"
+    },
+    "C": {
+      "path": "assets/brand/concepts-v4/C.png",
+      "sha256": "cbc09167fec43ae5b74878d2820b39a837c19113597b30b2263f3f4e85c5fe1c"
+    }
+  },
+  "implementation": {
+    "path": "public/media/brand/atelier-orbit-v4.svg",
+    "sha256": "0989bda2aceedf8b40dbdc71799de7a60130e2199236fc9c5478bb60c3655e72",
+    "method": "Native SVG paths and gradients; production mark reconstructed from user-approved C concept."
+  }
+}

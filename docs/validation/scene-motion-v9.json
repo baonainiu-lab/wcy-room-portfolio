@@ -1,0 +1,287 @@
+{
+  "ok": true,
+  "revision": 9,
+  "generatedAt": "2026-09-25T15:25:20.223Z",
+  "scope": "Deterministic Three.js + GSAP motion and actual GLB hierarchy; no render/FPS claim",
+  "hashes": {
+    "sceneMotion": "0020198b4aac58a125544b21caa744e9a0c86210cb5eae402cff009dd81804b9",
+    "robotPatrol": "4d7291727a3a48395f09ff4abdad172cd9c432cca25b78cabf3a7dc9f309f96e",
+    "fixture": "357cc0476b64ee70029037bb1095ed05358b32992552f6af0ecfb1bb55225ab2",
+    "test": "9e142a62baf3aac41a2e97c21a7527126cdbd9468145c3d2e12ffd2bf39e868f"
+  },
+  "results": [
+    {
+      "check": "Sixteen independent components move over their schedules; hierarchy, other assets and all scales stay intact",
+      "status": "passed"
+    },
+    {
+      "check": "Drone remains world-vertical and within 6 cm under rotated, 1.14-scaled parent",
+      "status": "passed",
+      "maxVerticalMetres": 0.051806317792437384,
+      "maxHorizontalMetres": 4.577566798522237e-16
+    },
+    {
+      "check": "Reduced motion performs zero transform writes",
+      "status": "passed"
+    },
+    {
+      "check": "Modal/drag disable pauses transforms and motion time; resume matches uninterrupted active time",
+      "status": "passed"
+    },
+    {
+      "check": "Hover ownership excludes both ancestors and descendants, while unrelated pieces keep moving",
+      "status": "passed"
+    },
+    {
+      "check": "Click hold covers the whole related assembly, survives disabled time, and resumes only after active hold time",
+      "status": "passed"
+    },
+    {
+      "check": "Real GSAP rotation/position/quaternion tweens own their transforms even after click hold expires",
+      "status": "passed"
+    },
+    {
+      "check": "Long tab delta is clamped; negative delta cannot rewind the motion clock",
+      "status": "passed"
+    },
+    {
+      "check": "Chair completes repeated full revolutions around a fixed parent-vertical swivel with no reverse jump",
+      "status": "passed",
+      "totalTurns": 2.493284465211111,
+      "maxRadiansPerSecond": 0.349065850399004
+    },
+    {
+      "check": "Actual mechanical face normals, fixed pivots, lens travel and enclosed sculpture use the intended axes",
+      "status": "passed",
+      "faceDimensionsMetres": {
+        "v5_clock_dial": [
+          0.23346023393441767,
+          0.17977924313474414,
+          0.03049993840977549
+        ],
+        "v5_projector_lens": [
+          0.12999999523162842,
+          0.1300000182069924,
+          0.059000214743044586
+        ],
+        "v5_data_panel_selector": [
+          0.10599999874830243,
+          0.10600000329962297,
+          0.03900027957323647
+        ]
+      },
+      "maxLensTravelMetres": 0.009999906263813363,
+      "sculptureRadialClearanceMetres": 0.03188092668049067
+    },
+    {
+      "check": "Actual chair sweep keeps a separating floor-plane gap to the workstation across the full 360 degrees at 1-degree samples",
+      "status": "passed",
+      "sampledPoses": 360,
+      "minimumSeparatingGapMetres": 0.44051224289916835,
+      "sweptBoundsMin": [
+        -2.2080915164132433,
+        0.17687503263354273,
+        -0.32809155098393705
+      ],
+      "sweptBoundsMax": [
+        -0.591908435903041,
+        2.60868800701715,
+        1.2880915295262656
+      ],
+      "limitation": "Desk footprint check across the full 360 degrees at 1-degree samples; not continuous full-room collision detection"
+    },
+    {
+      "check": "Actual active GLB keeps every asset independently addressable, with bounded drone movement",
+      "status": "passed",
+      "modelPath": "/models/orbital-atelier-v15-compressed.glb",
+      "independentlyAddressableAssets": 95,
+      "maxVerticalMetres": 0.05180631779243727,
+      "maxHorizontalMetres": 0
+    },
+    {
+      "check": "Full-room patrol uses authored scales, limits hover growth in narrow passages, and visits the connected floor while preserving local pause clocks",
+      "status": "passed",
+      "route": {
+        "lengthMetres": 38.4884509714605,
+        "durationSeconds": 131.51902004398377,
+        "cruiseSpeedMetresPerSecond": 0.42,
+        "minimumTurnSpeedMetresPerSecond": 0.16,
+        "observationSeconds": 1,
+        "observations": 5,
+        "samples": 1657,
+        "waypoints": [
+          [
+            -3.23,
+            2.84
+          ],
+          [
+            -0.4,
+            2.99
+          ],
+          [
+            2,
+            2.99
+          ],
+          [
+            3.4,
+            2.99
+          ],
+          [
+            4,
+            2.99
+          ],
+          [
+            4.5,
+            2.75
+          ],
+          [
+            4.5,
+            1.5
+          ],
+          [
+            4.5,
+            0.18
+          ],
+          [
+            3.18,
+            0.18
+          ],
+          [
+            2.67,
+            0.19
+          ],
+          [
+            1.83,
+            0.19
+          ],
+          [
+            1.47,
+            -0.05
+          ],
+          [
+            1.35,
+            -0.41
+          ],
+          [
+            0.39,
+            -0.53
+          ],
+          [
+            0.15,
+            -0.77
+          ],
+          [
+            0.03,
+            -1.61
+          ],
+          [
+            -0.8,
+            -1.65
+          ],
+          [
+            -1.8,
+            -1.65
+          ],
+          [
+            -3.3,
+            -1.5
+          ],
+          [
+            -1.8,
+            -1.65
+          ],
+          [
+            -0.8,
+            -1.65
+          ],
+          [
+            0.03,
+            -1.61
+          ],
+          [
+            0.15,
+            -0.77
+          ],
+          [
+            0.39,
+            -0.53
+          ],
+          [
+            1.35,
+            -0.41
+          ],
+          [
+            1.47,
+            -0.05
+          ],
+          [
+            1.83,
+            0.19
+          ],
+          [
+            2.67,
+            0.19
+          ],
+          [
+            3.18,
+            0.18
+          ],
+          [
+            4.5,
+            0.18
+          ],
+          [
+            4.5,
+            1.5
+          ],
+          [
+            4.5,
+            2.75
+          ],
+          [
+            4,
+            2.99
+          ],
+          [
+            3.4,
+            2.99
+          ],
+          [
+            2,
+            2.99
+          ],
+          [
+            -0.4,
+            2.99
+          ]
+        ],
+        "start": [
+          -3.23,
+          2.84
+        ],
+        "departureSeconds": 2.5,
+        "period": 131.51902004398377,
+        "gaitPeriodSeconds": 1,
+        "scope": "connected-room-floor"
+      },
+      "compactFrames": 14024,
+      "openFrames": 2059,
+      "activities": [
+        "leaving-dock",
+        "patrolling",
+        "side-stepping",
+        "looking-around"
+      ],
+      "visitedBoundsMin": [
+        -3.299999900892605,
+        0.1800000115095881,
+        -1.649999999998454
+      ],
+      "visitedBoundsMax": [
+        4.499999999999994,
+        0.274416479148149,
+        2.9899999999999975
+      ]
+    }
+  ]
+}

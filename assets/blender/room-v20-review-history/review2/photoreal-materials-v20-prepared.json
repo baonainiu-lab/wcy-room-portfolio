@@ -1,0 +1,3424 @@
+{
+  "complete": true,
+  "revision": 20,
+  "reviewRevision": 2,
+  "invocation": "Blender MCP file-targeted operations with Python assistance",
+  "source": "assets/blender/orbital-dual-bake-v19.blend",
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "derivative": "assets/blender/orbital-dual-bake-v20.blend",
+  "sha256": "5b733e75e8a6de5507df95273d987697b6e36e229c7e0672543acc64d5702c4b",
+  "userDirection": "White marble room walls with prominent natural grey veining; preserve V19 dark wood floor, top practical and all geometry/IDs",
+  "status": "authored_for_review",
+  "wallMaterialBindings": [
+    {
+      "object": "WEB8_room_static__baked__A0",
+      "slot": 0,
+      "before": "WEB8_BAKE_A0_MAT_Satin_Titanium",
+      "after": "V20_MARBLE_WEB8_BAKE_A0_MAT_Satin_Titanium",
+      "atlas": 0
+    },
+    {
+      "object": "WEB8_room_static__baked__A0",
+      "slot": 1,
+      "before": "WEB8_BAKE_A0_MAT_Graphite_Enamel",
+      "after": "V20_MARBLE_WEB8_BAKE_A0_MAT_Graphite_Enamel",
+      "atlas": 0
+    },
+    {
+      "object": "WEB8_room_static__baked__A8",
+      "slot": 0,
+      "before": "WEB8_BAKE_A8_MAT_Satin_Titanium",
+      "after": "V20_MARBLE_WEB8_BAKE_A8_MAT_Satin_Titanium",
+      "atlas": 8
+    }
+  ],
+  "wallMaterials": [
+    {
+      "name": "V20_MARBLE_WEB8_BAKE_A0_MAT_Satin_Titanium",
+      "role": "cap",
+      "baseBodyLinear": [
+        0.64,
+        0.8
+      ],
+      "veinLinear": [
+        0.065,
+        0.173
+      ],
+      "macroVeinScalePerMetre": 0.53,
+      "secondaryScalePerMetre": 1.63,
+      "veinMethod": "Domain-folded continuous mineral density isosurface; diagonal flow; sparse branches restricted near main veins; no Voronoi or periodic bands",
+      "roughness": [
+        0.27,
+        0.38
+      ],
+      "ior": 1.52,
+      "specularIORLevel": 0.42,
+      "normalReliefMetres": 0.0001,
+      "geometryDisplacement": false,
+      "license": "Project-authored native Blender procedural material; no external imagery"
+    },
+    {
+      "name": "V20_MARBLE_WEB8_BAKE_A0_MAT_Graphite_Enamel",
+      "role": "wall",
+      "baseBodyLinear": [
+        0.64,
+        0.8
+      ],
+      "veinLinear": [
+        0.065,
+        0.173
+      ],
+      "macroVeinScalePerMetre": 0.53,
+      "secondaryScalePerMetre": 1.63,
+      "veinMethod": "Domain-folded continuous mineral density isosurface; diagonal flow; sparse branches restricted near main veins; no Voronoi or periodic bands",
+      "roughness": [
+        0.27,
+        0.38
+      ],
+      "ior": 1.52,
+      "specularIORLevel": 0.42,
+      "normalReliefMetres": 0.0001,
+      "geometryDisplacement": false,
+      "license": "Project-authored native Blender procedural material; no external imagery"
+    },
+    {
+      "name": "V20_MARBLE_WEB8_BAKE_A8_MAT_Satin_Titanium",
+      "role": "cap",
+      "baseBodyLinear": [
+        0.64,
+        0.8
+      ],
+      "veinLinear": [
+        0.065,
+        0.173
+      ],
+      "macroVeinScalePerMetre": 0.53,
+      "secondaryScalePerMetre": 1.63,
+      "veinMethod": "Domain-folded continuous mineral density isosurface; diagonal flow; sparse branches restricted near main veins; no Voronoi or periodic bands",
+      "roughness": [
+        0.27,
+        0.38
+      ],
+      "ior": 1.52,
+      "specularIORLevel": 0.42,
+      "normalReliefMetres": 0.0001,
+      "geometryDisplacement": false,
+      "license": "Project-authored native Blender procedural material; no external imagery"
+    }
+  ],
+  "existingGeometryBefore": {
+    "WEB8_room_static__image__A0": {
+      "geometry": "cf7d438330736b982b95ec08ada613ad5ea44c0a65f26449bbd1a6484e21d29b",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_V10__A_Platform": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "architecture.platform",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_T_MainDisplay": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "main_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_main_display__baked__A2": {
+      "geometry": "9415eb198450fd052ec07153d9db7cb53c3fb5de094df0544a8d15088f892544",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_main_display__image__A2": {
+      "geometry": "3916a5990f541e2d57aa43f7cc1e36ec29a2d8f2d480d597649a30a7dd3bbc3b",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_T_ComputeCore": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "compute_core",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compute_core__glass__A2": {
+      "geometry": "5d8bacb5f0284bf213a5fc211f6b8f8810f49ca9035b9178d4e241e2ee64cc53",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_compute_core__baked__A2": {
+      "geometry": "d722a2038a2600b4f30633312a2f41ac8367e28e29cb8f0fb6e3a7c352b2ba24",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_F_Cantilever_Desk": {
+      "geometry": "b1521f51d9940baa09a35864d512cd7faf52f063668651d876ac67a0dbbe5250",
+      "id": "furniture.desk",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.desk__baked__A1": {
+      "geometry": "1f68f63aea10eb6192f318a45e607b1ed4fc2ce1f7c91e8c6aa7bf84ff552e9c",
+      "id": null,
+      "owner": "furniture.desk",
+      "parent": "WEB8_F_Cantilever_Desk"
+    },
+    "WEB8_F_Sculptural_Work_Chair": {
+      "geometry": "70c1a70228d15c3dea1e18624e279602ebe7e30a6139731c1495e26b6d048673",
+      "id": "furniture.work_chair",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.work_chair__baked__A1": {
+      "geometry": "756ae0adfc2436247e671f1e3f3d3c99f57123e38b197170a71a02848581384d",
+      "id": null,
+      "owner": "furniture.work_chair",
+      "parent": "WEB8_F_Sculptural_Work_Chair"
+    },
+    "WEB8_F_Crescent_Orange_Lounge": {
+      "geometry": "8b6eb0a8ed0848cf8f64b1f3475a73bab57ee43196234eefcf813f8ecf4f995b",
+      "id": "furniture.lounge",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.lounge__baked__A7": {
+      "geometry": "33a06cbb890bbf13ed28d3081822a706e0e750d5efa6456cc1d0d328266128a6",
+      "id": null,
+      "owner": "furniture.lounge",
+      "parent": "WEB8_F_Crescent_Orange_Lounge"
+    },
+    "WEB8_F_Smoked_Glass_Coffee_Table": {
+      "geometry": "559cb0b24333751a96990f4f57f97d0b1158de3f53bca065eca7961c715eb6a7",
+      "id": "furniture.coffee_table",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.coffee_table__baked__A1": {
+      "geometry": "187583cc90ebd5f41819373cea82f5e7bd35390233dbef65bf41ca33a05b5320",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_furniture.coffee_table__glass__A1": {
+      "geometry": "871794b159fb75d25d242ac11e51eb8852e59feb537a33bd52be569098381c7c",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_F_Charcoal_Inlaid_Rug": {
+      "geometry": "2042b301c88b93f8f6a3549527ec1a771fbfecd11685d2d7841b286eec6b0054",
+      "id": "furniture.rug",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.rug__baked__A1": {
+      "geometry": "a205ac10ca942de21515b5ca0570d4389542cac207e2bbdf5c1447a7a6dfe07f",
+      "id": null,
+      "owner": "furniture.rug",
+      "parent": "WEB8_F_Charcoal_Inlaid_Rug"
+    },
+    "WEB8_P_ROBOT_Root": {
+      "geometry": "63e0c791b0d6f0d1ad50adf2979fc89585ed73e4a633ebbc91c0c5fca1392edc",
+      "id": "robot_companion",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_robot_companion__baked__A2": {
+      "geometry": "d29695a94cf5125be61d823359ab407b2294328fce252c6db9141abd5e4f393b",
+      "id": null,
+      "owner": "robot_companion",
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_P_Robot_ServiceHatch": {
+      "geometry": "6c2c9de035116ba6e1f77f40bda5fcf3e97b369e2890653ac26d5bcf62d31d69",
+      "id": "robot_service_hatch",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_service_hatch__baked__A2": {
+      "geometry": "309f1a92b5afbf812bfeb0f8e311e776f06b7e058d3942da56abce70cf6ad18c",
+      "id": null,
+      "owner": "robot_service_hatch",
+      "parent": "WEB8_P_Robot_ServiceHatch"
+    },
+    "WEB8_P_Robot_Leg_00_Pivot": {
+      "geometry": "85e8975f3c86d5793c735db56a7f71554b6f20eed79489277e0bc3a762c9ac1e",
+      "id": "robot_leg_00",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_00__baked__A2": {
+      "geometry": "dde140718438943f80c13f1b507781937121fff823ddfed7b6e63229a737df6b",
+      "id": null,
+      "owner": "robot_leg_00",
+      "parent": "WEB8_P_Robot_Leg_00_Pivot"
+    },
+    "WEB8_P_Robot_Leg_01_Pivot": {
+      "geometry": "94050930d04a3f59c41c731c267fff1d4648a3d561c6746fe0772877737971e3",
+      "id": "robot_leg_01",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_01__baked__A2": {
+      "geometry": "f77a2ffa79239a8f02a534e6aedcec8243b47b61885c1de85f6999a1e47a7d11",
+      "id": null,
+      "owner": "robot_leg_01",
+      "parent": "WEB8_P_Robot_Leg_01_Pivot"
+    },
+    "WEB8_P_Robot_Leg_02_Pivot": {
+      "geometry": "7593e0a81bd3d09291d74ae4bb79cc0ad667b803ce16df7ab7366672269127aa",
+      "id": "robot_leg_02",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_02__baked__A2": {
+      "geometry": "a42fa4cdcc07f809a0f7e9b8ef2e2e120a3ac70c143d9d7c7e436ec98d3f15b7",
+      "id": null,
+      "owner": "robot_leg_02",
+      "parent": "WEB8_P_Robot_Leg_02_Pivot"
+    },
+    "WEB8_P_TERMINAL_Root": {
+      "geometry": "15cfa717a80ea77d9db2341062fd971774201fe316d0beb87f08a9ae47ca4031",
+      "id": "folding_drawing_terminal",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_folding_drawing_terminal__baked__A2": {
+      "geometry": "606b8c6416929ccb4f50b206a4f2774efc492673b12c671632a1427ad15a71d7",
+      "id": null,
+      "owner": "folding_drawing_terminal",
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_P_Terminal_TiltPivot": {
+      "geometry": "a56f9977a07f93d13cac86b7c091cc9e90028f2392b470fd44390483384b3d7a",
+      "id": "terminal_tilt",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_terminal_tilt__baked__A2": {
+      "geometry": "fc64166fdd9d4bfeb9e6a54048c53dc4af266bfd98f6156e390da79e6cc43661",
+      "id": null,
+      "owner": "terminal_tilt",
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_P_Terminal_L_FoldPivot": {
+      "geometry": "1856f1f15aec3cddd0c9d36b8f9614a583a5a1cef2a17209a0c6700acafc6c1e",
+      "id": "terminal_panel_L",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_L__baked__A2": {
+      "geometry": "9a6d7a85f5c8163a3cec6802810e40585bb9e72637eefc2cd7ad84a2f8a72195",
+      "id": null,
+      "owner": "terminal_panel_L",
+      "parent": "WEB8_P_Terminal_L_FoldPivot"
+    },
+    "WEB8_P_Terminal_R_FoldPivot": {
+      "geometry": "6a2c748453a595e04877811d890eb2f25f6d63b3bda00482b3c30b8f8708511a",
+      "id": "terminal_panel_R",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_R__baked__A2": {
+      "geometry": "63a9b28c8b89ace75446081091a79d0ce6388e7d710648bccf4110ea72ea1c1b",
+      "id": null,
+      "owner": "terminal_panel_R",
+      "parent": "WEB8_P_Terminal_R_FoldPivot"
+    },
+    "WEB8_P_Terminal_Stylus_Root": {
+      "geometry": "9bacf223c5185742fd269e60e377caebe610be8fd23257211f372e2f3123be64",
+      "id": "drawing_stylus",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_drawing_stylus__baked__A2": {
+      "geometry": "ed0465134e1f70a6f44721bc268cea5ae1874964d80a949008685f81b979e3be",
+      "id": null,
+      "owner": "drawing_stylus",
+      "parent": "WEB8_P_Terminal_Stylus_Root"
+    },
+    "WEB8_P_ARCHIVE_Root": {
+      "geometry": "38e79c6398b0ef568db55f8e97ee70342e35efb97eb80e6b6fe9c5eb093e5ddc",
+      "id": "c_archive_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_c_archive_dock__baked__A2": {
+      "geometry": "5248fa214f8e6303314960cbc3d408c145cce0b728259f67af457adc23aa413f",
+      "id": null,
+      "owner": "c_archive_dock",
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_P_Archive_Cartridge_00_Root": {
+      "geometry": "09b1b982d7d35acb6f1e62248230e6b4f79abe5cfac9a8327f94eac8bd6a8e8c",
+      "id": "archive_cartridge_00",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_00__baked__A2": {
+      "geometry": "2275a33e13eb671ec479eb4dc099ddc107b3b9ea6efa2321b729be4db47755dc",
+      "id": null,
+      "owner": "archive_cartridge_00",
+      "parent": "WEB8_P_Archive_Cartridge_00_Root"
+    },
+    "WEB8_P_Archive_Cartridge_01_Root": {
+      "geometry": "27b4ae7a37a718197f924b39c3a23a932d9f045f0eb8ca253628188d4cf7750f",
+      "id": "archive_cartridge_01",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_01__baked__A2": {
+      "geometry": "63c3558379a86e4096485756974d47420dac29bc91b1ebd081a5d7e5cd9d6872",
+      "id": null,
+      "owner": "archive_cartridge_01",
+      "parent": "WEB8_P_Archive_Cartridge_01_Root"
+    },
+    "WEB8_P_Archive_Cartridge_02_Root": {
+      "geometry": "5cb3186e9aed482b51986b006f244bec96718c15806aeafa8eb0bd9ed7d571bd",
+      "id": "archive_cartridge_02",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_02__baked__A2": {
+      "geometry": "f19e7207935920ba7bc804e62f68aecccd35f668744919c4bf35f5031a76091d",
+      "id": null,
+      "owner": "archive_cartridge_02",
+      "parent": "WEB8_P_Archive_Cartridge_02_Root"
+    },
+    "WEB8_P_FLOWER_Root": {
+      "geometry": "117acfb4e60339d7ba52a24fde0545895d8588e50197d17bd05278f7633d15a1",
+      "id": "kinetic_three_petal_flower",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_kinetic_three_petal_flower__baked__A2": {
+      "geometry": "859528330e53f7013abce477b7e930c565a37a88bb19199d8cccae1d24726531",
+      "id": null,
+      "owner": "kinetic_three_petal_flower",
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_P_Flower_Petal_0_Hinge": {
+      "geometry": "127a1199eba0096e2f2a267ed8da6826862187d8555d6305f9998ae9ba160fd6",
+      "id": "flower_petal_0",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_0__baked__A2": {
+      "geometry": "c8900554ccb3d56e8ca43ec5bb25a5cf7446c89523789be4045d88f1a65570a4",
+      "id": null,
+      "owner": "flower_petal_0",
+      "parent": "WEB8_P_Flower_Petal_0_Hinge"
+    },
+    "WEB8_P_Flower_Petal_1_Hinge": {
+      "geometry": "cffd69021f3bf3cd76a607a362e9eb0ff9fb25c9cceb2e74a2e74a5c324262d3",
+      "id": "flower_petal_1",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_1__baked__A2": {
+      "geometry": "cf9d2fa688ad1ae19b2880380ac8df156649e0ae6dd02f6689d476ea73cb8c52",
+      "id": null,
+      "owner": "flower_petal_1",
+      "parent": "WEB8_P_Flower_Petal_1_Hinge"
+    },
+    "WEB8_P_Flower_Petal_2_Hinge": {
+      "geometry": "33c473e99d0ef237f0550a20ae9edd9979b88f3c1c7f68c0081365395e561926",
+      "id": "flower_petal_2",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_2__baked__A2": {
+      "geometry": "216ecd2375be8bc2207fc118ec19a4bf13d885086dc05c7a13e1f35d50bcd24b",
+      "id": null,
+      "owner": "flower_petal_2",
+      "parent": "WEB8_P_Flower_Petal_2_Hinge"
+    },
+    "WEB8_P_HEADPHONES_Root": {
+      "geometry": "c08e0817c6baaaaf88d534966b5aca6dadd136a45fa951352050863bdd0abd29",
+      "id": "headphones_on_stand",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_headphones_on_stand__baked__A2": {
+      "geometry": "45eca92514232e8c607958f9b694d735ee0f4a1dab9dcd98742664f240c8dd08",
+      "id": null,
+      "owner": "headphones_on_stand",
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_P_Headphones_Cup_0_Pivot": {
+      "geometry": "8ea97b99564ed6c4316a9eb6872d06d35d7b8b05bba495b960dc138524e57c4a",
+      "id": "headphone_cup_0",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_0__baked__A2": {
+      "geometry": "58146fd1c7bf1223a12a460288a9cd6b7a07c336d688b7bdb5c03bdce4cf7e39",
+      "id": null,
+      "owner": "headphone_cup_0",
+      "parent": "WEB8_P_Headphones_Cup_0_Pivot"
+    },
+    "WEB8_P_Headphones_Cup_1_Pivot": {
+      "geometry": "0121344cd5cc6a30736131fffa506d8ada6387d723f09ad23735cf05138ed412",
+      "id": "headphone_cup_1",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_1__baked__A2": {
+      "geometry": "1a9ca2432c29e66c4af32dc4934862a4d675b98e3f2b596c7c8578d186f75874",
+      "id": null,
+      "owner": "headphone_cup_1",
+      "parent": "WEB8_P_Headphones_Cup_1_Pivot"
+    },
+    "WEB8_P_SPEAKER_Root": {
+      "geometry": "c6b1a956182b663209fbadf871080eaaba059de5b26e940cd20643d2e3443ca1",
+      "id": "ceramic_ring_speaker",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_ring_speaker__baked__A2": {
+      "geometry": "bea571b8819c93a4494e6e1e29767d86c6de89ac55e339da45d1abce2b26e4a5",
+      "id": null,
+      "owner": "ceramic_ring_speaker",
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_P_Speaker_Gimbal": {
+      "geometry": "663be1013c0c38ff17710138636eaeeb4edb16973eb6df9e70072be1e8fb4e9e",
+      "id": "speaker_gimbal",
+      "owner": null,
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_speaker_gimbal__baked__A2": {
+      "geometry": "f3e6b46f8160ba69daa4411b27a0b8d8fe469809f7eb291ee4b45e9df5a4fee6",
+      "id": null,
+      "owner": "speaker_gimbal",
+      "parent": "WEB8_P_Speaker_Gimbal"
+    },
+    "WEB8_P_KEYBOARD_Root": {
+      "geometry": "00a6cca8a1c28e056bb03f6a25cda8f92c6cd9551cc3c93f6350c05a6a60db30",
+      "id": "split_keyboard",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Keyboard_L_Half": {
+      "geometry": "0d9eab21b7f07113703dabd46c134607580fd6c2520bbc35454a1e610b0de584",
+      "id": "keyboard_half_0",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_0__baked__A2": {
+      "geometry": "4a547808edae07137ddd76590ca5022b0e007e849f49d1a5e806096d7632009e",
+      "id": null,
+      "owner": "keyboard_half_0",
+      "parent": "WEB8_P_Keyboard_L_Half"
+    },
+    "WEB8_P_Keyboard_R_Half": {
+      "geometry": "e3abe260842e4a87a0fb5a5c02ea57855392a8f5af7fd8088bb2043497b51a23",
+      "id": "keyboard_half_1",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_1__baked__A2": {
+      "geometry": "b949d85a3316b8764688fb7031fafa87389110e1cbcff21bfd0b28210f93f794",
+      "id": null,
+      "owner": "keyboard_half_1",
+      "parent": "WEB8_P_Keyboard_R_Half"
+    },
+    "WEB8_P_Keyboard_Dial_Root": {
+      "geometry": "bc9f9c946f61b1e0d3a90a5de79ad2f458825d9edf3efcbdbdc29789f388779e",
+      "id": "keyboard_dial",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_dial__baked__A2": {
+      "geometry": "daeb001f14ef4de4271d52014e58e07793b25be88995b65271fc0a3e8569cd0f",
+      "id": null,
+      "owner": "keyboard_dial",
+      "parent": "WEB8_P_Keyboard_Dial_Root"
+    },
+    "WEB8_P_Desktop_Controller_Root": {
+      "geometry": "59e31de04a64fb3e12638188dd73f7449f44d4ad59876bfa06094128745c1a7c",
+      "id": "desktop_creative_controller",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_desktop_creative_controller__baked__A2": {
+      "geometry": "88d8c0b4c4f4f714aab66549477359c19ed95d0f4a17e625bdbc13995c05ccba",
+      "id": null,
+      "owner": "desktop_creative_controller",
+      "parent": "WEB8_P_Desktop_Controller_Root"
+    },
+    "WEB8_P_CAMERA_Root": {
+      "geometry": "e88e42e4d2223e4363ddc6d36ae431c3afc70ca1bdb8773db5fbf9168c5d68c7",
+      "id": "compact_camera",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compact_camera__baked__A2": {
+      "geometry": "01a79925ceaec6a9b6444a2187a4f2ce51db3b55da561a02ae051a4911ce9fb4",
+      "id": null,
+      "owner": "compact_camera",
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_P_Camera_Lens_Root": {
+      "geometry": "27bd75418e15703b3dbfb83d1cd7c76b90b40bd950aadbf2b88ad7bf8fdadfd3",
+      "id": "camera_focus_lens",
+      "owner": null,
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_camera_focus_lens__baked__A2": {
+      "geometry": "6b51538ae4ffe5ba99fa154397335ba28ac256dd7b72cfc2338ce2417afc377d",
+      "id": null,
+      "owner": "camera_focus_lens",
+      "parent": "WEB8_P_Camera_Lens_Root"
+    },
+    "WEB8_P_CUP_Root": {
+      "geometry": "83fbb31e3df124f26b5fcda090f1e57186ea6d4bad05682ae6a433bd56bbdc69",
+      "id": "thermal_cup",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_thermal_cup__baked__A2": {
+      "geometry": "382defd2d0af6b2b5ffa39ea6fb08ac2fb3994f61e8de0c3a458ccb65bf6605b",
+      "id": null,
+      "owner": "thermal_cup",
+      "parent": "WEB8_P_CUP_Root"
+    },
+    "WEB8_P_TABLE_OBJECTS_Root": {
+      "geometry": "8ea4d34a1349678944f2f9f07ba471bdcb52b23e92fa03a172b04c5657f2e87b",
+      "id": "table_notebook_group",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Notebook_Root": {
+      "geometry": "29be774f135cee96292f305b52005e1ebc551bea501bb0c02092a3febcdf114d",
+      "id": "notebook",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_P_CreativeFolio_Root": {
+      "geometry": "aa41dedf0abdd96bc301afaf5f6bd916e3a6b18ef455800a7098c8970d68ff07",
+      "id": "creative_folio",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_creative_folio__baked__A2": {
+      "geometry": "713a7cf7a3fe1fd3d5c764b41cdd254083a8592be315dcb5fbf6087ea0ab936b",
+      "id": null,
+      "owner": "creative_folio",
+      "parent": "WEB8_P_CreativeFolio_Root"
+    },
+    "WEB8_notebook__baked__A2": {
+      "geometry": "cf9f18a0ad97ef6e3c1c7d2d6ea104e3eec6154247e29177f8b4a417445ee459",
+      "id": null,
+      "owner": "notebook",
+      "parent": "WEB8_P_Notebook_Root"
+    },
+    "WEB8_P_CoffeePen_Root": {
+      "geometry": "8c8f72f5f8d6b0898f43aebddc9636eafb636ecab3f998bef4906e821eb56cdf",
+      "id": "coffee_table_pen",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_pen__baked__A2": {
+      "geometry": "0edb94c41b13879e57aa02acbd1c1791b5f4973f243f4a443477ab2bad3afe0a",
+      "id": null,
+      "owner": "coffee_table_pen",
+      "parent": "WEB8_P_CoffeePen_Root"
+    },
+    "WEB8_P_CoffeeDial_Root": {
+      "geometry": "bd9b848eff86702d715d389fd485d10a7fc8cd01912c52df18b2837bd0247d40",
+      "id": "coffee_table_dial",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_dial__baked__A2": {
+      "geometry": "af2def41955042aa267cd03a63725bc0e85d68e6498c156ba068400a58251c6e",
+      "id": null,
+      "owner": "coffee_table_dial",
+      "parent": "WEB8_P_CoffeeDial_Root"
+    },
+    "WEB8_P_TERRARIUM_Root": {
+      "geometry": "b1c62e0b9fe88eb05ba1110a1ae9c79395243e44eaeb7b1b45794ad1e963d0c9",
+      "id": "glass_bonsai_terrarium",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_bonsai_terrarium__baked__A2": {
+      "geometry": "50e0f47dce156bf393d853ef91c8e0b06612a165c8edddc121303e4bdeb749a6",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_glass_bonsai_terrarium__glass__A2": {
+      "geometry": "92a31607fa169ff523ead37b530032e4fa7eb20015e17cea62586eff313853ac",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_P_VINES_Root": {
+      "geometry": "5105f089402e2ba9025673bf07c23301b38b00577ae7c2770314473cb276b38f",
+      "id": "trailing_wall_plant",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_trailing_wall_plant__baked__A2": {
+      "geometry": "c8993d53ffd48051f60e2867f7cb89488d8431b1821cf74e6c5628a42776b1ee",
+      "id": null,
+      "owner": "trailing_wall_plant",
+      "parent": "WEB8_P_VINES_Root"
+    },
+    "WEB8_D_BOOKS_Root": {
+      "geometry": "2c3580a8ee0e9b4c3091dd5295f6f51f4447a7b8a3498789c20604f3d6a0adcb",
+      "id": "studio_reference_books",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_D_Book_0_Root": {
+      "geometry": "8989bc01b7f030d3d9f8ec092d93ac87323691abeae10f870c89286292b60215",
+      "id": "creative_book_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_0__baked__A3": {
+      "geometry": "5a46963d2e93cbc33a6455c9ea56bb271ca1950d6611e3409acf401382d26e4b",
+      "id": null,
+      "owner": "creative_book_0",
+      "parent": "WEB8_D_Book_0_Root"
+    },
+    "WEB8_D_Book_1_Root": {
+      "geometry": "2d531cf63266e2e0a1df82a88b92f457364aa08b886ea6771ea3de59accc52cc",
+      "id": "creative_book_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_1__baked__A3": {
+      "geometry": "9b88f5f382ba1d3c8b31ba129d0df6f758dc7767558872fbb58f964e065a2c29",
+      "id": null,
+      "owner": "creative_book_1",
+      "parent": "WEB8_D_Book_1_Root"
+    },
+    "WEB8_D_Book_2_Root": {
+      "geometry": "a6db691be5d41999499a9494721aca79516375dc398235277c17e8b0f20239df",
+      "id": "creative_book_2",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_2__baked__A3": {
+      "geometry": "b9fef505ab30c4d706d291848d544e7746cfba289f80812ed10ad1978d47b48d",
+      "id": null,
+      "owner": "creative_book_2",
+      "parent": "WEB8_D_Book_2_Root"
+    },
+    "WEB8_D_Bookend_0_Root": {
+      "geometry": "aa71ddc3e2c54d9717bc125cfd12ccb3aaf3be18e408a6b33b1d2b4deddbfcd8",
+      "id": "titanium_bookend_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_0__baked__A3": {
+      "geometry": "5fcaa26e6493f7a2bcf3a915cd133cb37fdafc79cb96107061cc69ba6d90b03d",
+      "id": null,
+      "owner": "titanium_bookend_0",
+      "parent": "WEB8_D_Bookend_0_Root"
+    },
+    "WEB8_D_Bookend_1_Root": {
+      "geometry": "7ac11453074e7cf876daea75961f1dcbe37bc787a4cbfc6e6853e0cc12cafcf3",
+      "id": "titanium_bookend_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_1__baked__A3": {
+      "geometry": "1162037a7e380a4724977fc406cf4f519fd3dd1f1da998cd8658ace842e77946",
+      "id": null,
+      "owner": "titanium_bookend_1",
+      "parent": "WEB8_D_Bookend_1_Root"
+    },
+    "WEB8_D_SPECIMEN_Root": {
+      "geometry": "dada1ee44edc562e3db6926761958f1b05a45ab646b773353e9cd366d747f5df",
+      "id": "geometric_specimen_cloche",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_geometric_specimen_cloche__baked__A3": {
+      "geometry": "ea194ba5794dbf69a1da3092c95f75d9d6d7f5cd50ef13c0cf13ab817000e669",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_geometric_specimen_cloche__glass__A3": {
+      "geometry": "de5e8eefb5f9df495bcea3659355b4de5f86dce2e615b9a942e8067b62f36a6c",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_D_Specimen_Geometry_Root": {
+      "geometry": "5ce868ab641e3bea074d7da4fb5b6086b61c02fa7688382020a0a38bb870ce90",
+      "id": "original_trefoil_geometry",
+      "owner": null,
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_original_trefoil_geometry__baked__A3": {
+      "geometry": "731b58f7ae06e3a58b9e39a64462d4a0bd2b3317bed6652fa016dfc8d0701fd3",
+      "id": null,
+      "owner": "original_trefoil_geometry",
+      "parent": "WEB8_D_Specimen_Geometry_Root"
+    },
+    "WEB8_D_COMMUNICATOR_Root": {
+      "geometry": "9c2c9096374615bdb2da77ff3483eebd863ff1543ca830a5215920930fde1148",
+      "id": "portable_fold_communicator",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_portable_fold_communicator__baked__A3": {
+      "geometry": "86c01fe868f2e9117ffdd827b0b764b3dc32ab65b1c216643c31632de83b181b",
+      "id": null,
+      "owner": "portable_fold_communicator",
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Handset_Root": {
+      "geometry": "a627b9455a49f9e87128a716b12154d4be3d5529e6a5a34905c51aaf70f8a1ef",
+      "id": "folding_communicator_handset",
+      "owner": null,
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Panel_0_Hinge": {
+      "geometry": "d523d263b0a4e68849d6ed26eb6f709e16dd70602ddf56b2371b9a1e23b816e9",
+      "id": "communicator_panel_0",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_0__baked__A3": {
+      "geometry": "1e6ca49b0196c620be0b6eba3efe417803432aad8c590bdb761a754a2e89e4c3",
+      "id": null,
+      "owner": "communicator_panel_0",
+      "parent": "WEB8_D_Comms_Panel_0_Hinge"
+    },
+    "WEB8_D_Comms_Panel_1_Hinge": {
+      "geometry": "6e8b443f32f7e7e63b4fb76c0a8d3ed6a963b37d49c76865cfda7e87a83ccb43",
+      "id": "communicator_panel_1",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_1__baked__A3": {
+      "geometry": "3419b947e2b4c3955be8365e92ad03307215887b4aef065ea16a7bab9be747f6",
+      "id": null,
+      "owner": "communicator_panel_1",
+      "parent": "WEB8_D_Comms_Panel_1_Hinge"
+    },
+    "WEB8_folding_communicator_handset__baked__A3": {
+      "geometry": "754828a2ba9bdebf429ad28b471058cc6adb9457f7575e5bff0339a0371059ec",
+      "id": null,
+      "owner": "folding_communicator_handset",
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_D_SCULPTURE_Root": {
+      "geometry": "687586446403792b4f0b3759a23539148a3a58f1755373880c7944f2e49f434c",
+      "id": "ceramic_mobius_study",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_mobius_study__baked__A3": {
+      "geometry": "70fe8fcc10950738e1d2076db433d26efe2e56db307339d3e70c7cecc52943d1",
+      "id": null,
+      "owner": "ceramic_mobius_study",
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_D_Sculpture_Form_Root": {
+      "geometry": "554e4e04cbf2dac8b1504a37349f684ad37ab25a3dffbd0e263afc076b3490b8",
+      "id": "ceramic_mobius_form",
+      "owner": null,
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_ceramic_mobius_form__baked__A3": {
+      "geometry": "c21c4b00a06b63db9b0653cdd64462cb93c21914a5d89b451ea6a98e89c44706",
+      "id": null,
+      "owner": "ceramic_mobius_form",
+      "parent": "WEB8_D_Sculpture_Form_Root"
+    },
+    "WEB8_D_SMALL_PLANTER_Root": {
+      "geometry": "d97b18a422a2f4ac9344259b522997173ef8d087ffe5c25c7f9493bd87f3d7d1",
+      "id": "glass_cutting_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_cutting_planter__glass__A3": {
+      "geometry": "3c38d5dc3f15f7fb176e8ee91685911c12b053c097ef66c7244de67a3104fa41",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_glass_cutting_planter__baked__A3": {
+      "geometry": "b7c9927a287a003a5d31f07ca520b1ec5c4a22405d214a66dda216f294301cbd",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_D_Planter_Leaf_0_Pivot": {
+      "geometry": "50a51d1ac38cf618f94811fe9e348bda17ca006c557a95a032f2f8b898cab063",
+      "id": "small_planter_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_0__baked__A3": {
+      "geometry": "20381fc17883ab354d69bf0f865c7d373be04ffa88e25f901715ce3555703876",
+      "id": null,
+      "owner": "small_planter_leaf_0",
+      "parent": "WEB8_D_Planter_Leaf_0_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_1_Pivot": {
+      "geometry": "179006d4ced5e530d67b06ad4467234b787ca0af43265e2908ca9b575520dab7",
+      "id": "small_planter_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_1__baked__A3": {
+      "geometry": "b82e64d3564a407f86fd51f5e5b12202f49223cdf2aab2ffaa492e74f939417a",
+      "id": null,
+      "owner": "small_planter_leaf_1",
+      "parent": "WEB8_D_Planter_Leaf_1_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_2_Pivot": {
+      "geometry": "95b0614720b39ad2efcdd92869ef05fb00b8e177e592e269d7134049c7e7ee15",
+      "id": "small_planter_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_2__baked__A3": {
+      "geometry": "79382b4cc460d66d5002e1aa2228ee170f04bbc6bd24c0ddf5df31e49ee232de",
+      "id": null,
+      "owner": "small_planter_leaf_2",
+      "parent": "WEB8_D_Planter_Leaf_2_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_3_Pivot": {
+      "geometry": "aedc19b7cfa309f1209d42717b261eb6d8f5436b764ccba04171cf6ee143fee2",
+      "id": "small_planter_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_3__baked__A3": {
+      "geometry": "9b7600b45b1097a9ca25cd63a5eb588030bbfb4b36fe066a49b6658af3d86725",
+      "id": null,
+      "owner": "small_planter_leaf_3",
+      "parent": "WEB8_D_Planter_Leaf_3_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_4_Pivot": {
+      "geometry": "48f71ab649b90c95c30d050467a0834dd17631e97ef434417691131c3e1710c6",
+      "id": "small_planter_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_4__baked__A3": {
+      "geometry": "461502ccac63dfd75b0ee11c1a3cda43a5100e5ce87df4ce2143eea40b4003ef",
+      "id": null,
+      "owner": "small_planter_leaf_4",
+      "parent": "WEB8_D_Planter_Leaf_4_Pivot"
+    },
+    "WEB8_D_FLOOR_VASE_Root": {
+      "geometry": "1b53906b33dabc3494608e759cacab4eccb365ed3880a5a57fdf6cf1e70bd775",
+      "id": "black_ceramic_floor_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_black_ceramic_floor_planter__baked__A3": {
+      "geometry": "3f8ac5f74abd5ec72f810b4dffeea82ed17e835008bd1139c77923139b38283f",
+      "id": null,
+      "owner": "black_ceramic_floor_planter",
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_D_FloorVase_Leaf_0_Pivot": {
+      "geometry": "280c51aa43bd0773aa1422e3a78789be767b1f6eeb05c59b3b7bf52b669173c3",
+      "id": "floor_vase_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_0__baked__A3": {
+      "geometry": "2f64644af8c60bc20eaccd12fe146d385584bf4d602c7c8eca71795887146889",
+      "id": null,
+      "owner": "floor_vase_leaf_0",
+      "parent": "WEB8_D_FloorVase_Leaf_0_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_1_Pivot": {
+      "geometry": "9ab41cea7c159c2f810ee28bd7decb5cd8ef142c88e59b9d835943b560bc6d4e",
+      "id": "floor_vase_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_1__baked__A3": {
+      "geometry": "735248f553037f5263d4ef67efc7b01749a52832fe8a9ea8bfd8cda90cd3ad9a",
+      "id": null,
+      "owner": "floor_vase_leaf_1",
+      "parent": "WEB8_D_FloorVase_Leaf_1_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_2_Pivot": {
+      "geometry": "30e342128ef572852d43087ebef12ef216adcc9e4ea160bd7660321b05d819e3",
+      "id": "floor_vase_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_2__baked__A3": {
+      "geometry": "9c8d59959caefcb43066074d41c152bec0df9872aa7fe2a90f22821c9513fbea",
+      "id": null,
+      "owner": "floor_vase_leaf_2",
+      "parent": "WEB8_D_FloorVase_Leaf_2_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_3_Pivot": {
+      "geometry": "8e34d240e87c755a14802055b764cd404f57620111608b99867cd67c2001f88d",
+      "id": "floor_vase_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_3__baked__A3": {
+      "geometry": "93931912c7d7f2806735fe8eaf15c021361fd00604fcca81cfc101475b677c17",
+      "id": null,
+      "owner": "floor_vase_leaf_3",
+      "parent": "WEB8_D_FloorVase_Leaf_3_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_4_Pivot": {
+      "geometry": "3a92fff692e6e72d603f8bb58498fa035bbbf608edcaf6b0f648aa011fd42555",
+      "id": "floor_vase_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_4__baked__A3": {
+      "geometry": "206ac26b216f5007b8b140db80186d293a199dc3e424d9e78bbc95faca79eafc",
+      "id": null,
+      "owner": "floor_vase_leaf_4",
+      "parent": "WEB8_D_FloorVase_Leaf_4_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_5_Pivot": {
+      "geometry": "7a4e4c58bed62dc214b1cb74ca544d38b50ec7187f42191c4e77a0d4ba5e9dd9",
+      "id": "floor_vase_leaf_5",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_5__baked__A3": {
+      "geometry": "bf267a81f5f1e2f0d71d2e804a3d76336e8ff0c6cf48c94677de63bc949e0f1f",
+      "id": null,
+      "owner": "floor_vase_leaf_5",
+      "parent": "WEB8_D_FloorVase_Leaf_5_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_6_Pivot": {
+      "geometry": "50d690d8d65c389d23bd2ee8448cbaae111590ff47ffdcd0188449872777340c",
+      "id": "floor_vase_leaf_6",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_6__baked__A3": {
+      "geometry": "bc8d8c940571ae58ea8c1b00c873ea72e2d8f47144b4861e1970e5c5ed82e8ae",
+      "id": null,
+      "owner": "floor_vase_leaf_6",
+      "parent": "WEB8_D_FloorVase_Leaf_6_Pivot"
+    },
+    "WEB8_V5_ORBITAL_CLOCK_Root": {
+      "geometry": "834c4adb411f1ad13106c17764980b3bf9803c26a1ced4c1dae5072d40d5df9c",
+      "id": "v5_orbital_clock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_orbital_clock__baked__A4": {
+      "geometry": "0559676f17c10332d11e18461134672a32768f52fedadc89a9d6162ccb5a6800",
+      "id": null,
+      "owner": "v5_orbital_clock",
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_V5_CLOCK_DIAL_Pivot": {
+      "geometry": "28945f79a79f8643595704e9c4c508ed0531ae6d53950a9bef5dbe63b89c0ab3",
+      "id": "v5_clock_dial",
+      "owner": null,
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_v5_clock_dial__baked__A4": {
+      "geometry": "591bc9edf749b634004c065b527f51510518dac8d89c5452739e3836180c5b8f",
+      "id": null,
+      "owner": "v5_clock_dial",
+      "parent": "WEB8_V5_CLOCK_DIAL_Pivot"
+    },
+    "WEB8_V5_PROJECTOR_Root": {
+      "geometry": "8387e75450264c40eefc508b732451da3b0716ad59f07a9ef18dd5f9d156c94b",
+      "id": "v5_portable_projector",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_portable_projector__baked__A4": {
+      "geometry": "26330d91b6c834635b5147c9fcf1401fb6a8c1376ef6d325ed7a52f0e9468e09",
+      "id": null,
+      "owner": "v5_portable_projector",
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_V5_PROJECTOR_LENS_Pivot": {
+      "geometry": "32e2440fc72dc1d53d403194756851ff2ea07fb7a1fe8d272596a15f46212668",
+      "id": "v5_projector_lens",
+      "owner": null,
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_v5_projector_lens__baked__A4": {
+      "geometry": "fb059fd1e007516ee75222c90811d24e4a5eb94e22e1e7496bd080e10ef98f94",
+      "id": null,
+      "owner": "v5_projector_lens",
+      "parent": "WEB8_V5_PROJECTOR_LENS_Pivot"
+    },
+    "WEB8_V5_PEN_DOCK_Root": {
+      "geometry": "310d154261a9dd562a821615c8a7cd1dd8ef9d95a95c5528ed2bb17b5b441f23",
+      "id": "v5_magnetic_pen_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_magnetic_pen_dock__baked__A4": {
+      "geometry": "c126d79dfc8e7f9b4bea5ec361b57084437ebc81b7b6caf068af74c143b047da",
+      "id": null,
+      "owner": "v5_magnetic_pen_dock",
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_V5_MAGNETIC_STYLUS_Pivot": {
+      "geometry": "f942285a23f6a9439eb1559d479255baed9f0e2ecb36c62f1e1356263236a506",
+      "id": "v5_magnetic_stylus",
+      "owner": null,
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_v5_magnetic_stylus__baked__A4": {
+      "geometry": "934f2cfccd48aa6cce6e10576568874d760f0cc2ad404a2ca81d480c07ea985b",
+      "id": null,
+      "owner": "v5_magnetic_stylus",
+      "parent": "WEB8_V5_MAGNETIC_STYLUS_Pivot"
+    },
+    "WEB8_V5_MODULAR_CASES_Root": {
+      "geometry": "52a3dbb4dbf6d19d963c7414d1df7e1b28eb95759aaa3ed8f5fb1ab67afe8427",
+      "id": "v5_modular_equipment_cases",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_modular_equipment_cases__baked__A4": {
+      "geometry": "353e2884918c0f08adc3d410ee3d6cbf658dc6576f23c0407008232431718be1",
+      "id": null,
+      "owner": "v5_modular_equipment_cases",
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_V5_UPPER_CASE_Pivot": {
+      "geometry": "365c1639d6693b049f52e8236d2d16ea5ea81b339d1c6196d56492feea9f3032",
+      "id": "v5_upper_equipment_case",
+      "owner": null,
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_v5_upper_equipment_case__baked__A4": {
+      "geometry": "108fc5252031fb747b5bf8a3d84cbef620903544462fa6f6224bc353fe26820c",
+      "id": null,
+      "owner": "v5_upper_equipment_case",
+      "parent": "WEB8_V5_UPPER_CASE_Pivot"
+    },
+    "WEB8_V5_GEOMETRIC_LAMP_Root": {
+      "geometry": "05f901dcda2cd863673789ca8457a12e62c9c9df34618f2faa0bf659b05b2171",
+      "id": "v5_geometric_floor_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_geometric_floor_lamp__baked__A4": {
+      "geometry": "78805a9352ff93b1c9ff00d3d66f6bd633f6728dd0fc4aab51d13909049d6636",
+      "id": null,
+      "owner": "v5_geometric_floor_lamp",
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_V5_LAMP_HEAD_Pivot": {
+      "geometry": "2902af1d83a0db58f0cefdbdfe3b7986dc3573f3546254d02abc339e844765e7",
+      "id": "v5_floor_lamp_head",
+      "owner": null,
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_v5_floor_lamp_head__baked__A4": {
+      "geometry": "de776a3d148602d89c8c30e92866156988a94e65929b340cad1345b253cec5e7",
+      "id": null,
+      "owner": "v5_floor_lamp_head",
+      "parent": "WEB8_V5_LAMP_HEAD_Pivot"
+    },
+    "WEB8_V5_CAPSULE_RACK_Root": {
+      "geometry": "a0266280ae1b0b4c6748523f56811e3e57b7480754ecf8d8e01fffcc229528bb",
+      "id": "v5_energy_capsule_rack",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_energy_capsule_rack__baked__A4": {
+      "geometry": "e7e4f2c4b0e5ce30fcc446364f71f3f84d22dbffc18650e8ea3b4427fbcf0044",
+      "id": null,
+      "owner": "v5_energy_capsule_rack",
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_V5_ENERGY_CAPSULE_Pivot": {
+      "geometry": "6ae9b33030647546a7821023ae9de94b023e6ae0e410d75c2ffdfaa8c6264bf0",
+      "id": "v5_energy_capsule",
+      "owner": null,
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_v5_energy_capsule__baked__A4": {
+      "geometry": "6cade0c5058329c9179e088d3c316ecd8c20fcc76c9cca8581e6afe7f40f798a",
+      "id": null,
+      "owner": "v5_energy_capsule",
+      "parent": "WEB8_V5_ENERGY_CAPSULE_Pivot"
+    },
+    "WEB8_V5_MECHANICAL_PANEL_Root": {
+      "geometry": "634e9bcaac3ee311859984dd347fbe0a4d78b6ea05746a5db45ca37687dbed69",
+      "id": "v5_mechanical_data_panel",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_mechanical_data_panel__baked__A4": {
+      "geometry": "d8ac56bba3cac16e010477c61bee4b5ca63a7462ce7d5448748946467036d57c",
+      "id": null,
+      "owner": "v5_mechanical_data_panel",
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_V5_DATA_SELECTOR_Pivot": {
+      "geometry": "81fda1adbac1f3c04f5f9c0ac51eef0c17c88d44d251a9ab5ebc05c76954183e",
+      "id": "v5_data_panel_selector",
+      "owner": null,
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_v5_data_panel_selector__baked__A4": {
+      "geometry": "28f80c8015e4154730bdf3f347ce2debc0be68c80a17eada12f3912e2adb4aa3",
+      "id": null,
+      "owner": "v5_data_panel_selector",
+      "parent": "WEB8_V5_DATA_SELECTOR_Pivot"
+    },
+    "WEB8_V5_SCOUT_DISPLAY_Root": {
+      "geometry": "326f59674066306482d30c9b24dfa951868ce7be4357ed40e6f1b66905094243",
+      "id": "v5_scout_drone_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_scout_drone_display__baked__A4": {
+      "geometry": "68d586984aac791612b4bac881007b63fb8397e63f2ec05e34d73e4d91e49adf",
+      "id": null,
+      "owner": "v5_scout_drone_display",
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_V5_SCOUT_DRONE_Pivot": {
+      "geometry": "d658a2596913b2b4850d238c21670bcec97c865413237c9a8e3ea3a3937d52a4",
+      "id": "v5_scout_drone",
+      "owner": null,
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_v5_scout_drone__baked__A4": {
+      "geometry": "a1ce691d0d3814072ccaa1931f8f32cd5fb68f03dff9219f3d435608f3e0cbcc",
+      "id": null,
+      "owner": "v5_scout_drone",
+      "parent": "WEB8_V5_SCOUT_DRONE_Pivot"
+    },
+    "WEB8_EXT6_ORBITAL_DOCK_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.orbital_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.orbital_dock__baked__A5": {
+      "geometry": "c51921918b3deaa0ed73d0f5652fa2656c9f952b642e0877657384fa98b46fca",
+      "id": null,
+      "owner": "environment.orbital_dock",
+      "parent": "WEB8_EXT6_ORBITAL_DOCK_Root"
+    },
+    "WEB8_WG7_WARM_GALLERY_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.warm_gallery",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.warm_gallery__baked__A6": {
+      "geometry": "6e99bf57d114e26e4501d72ca123dfa3947a753f9d017c2a27210a334b988336",
+      "id": null,
+      "owner": "environment.warm_gallery",
+      "parent": "WEB8_WG7_WARM_GALLERY_Root"
+    },
+    "WEB8_IW8_DeskPetal_Root": {
+      "geometry": "99e738a11773d1bafabc6fca2492908626a7c0cf8da3e51a030f567fdd064af8",
+      "id": "v8_desk_glow_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_desk_glow_lamp__baked__A4": {
+      "geometry": "36d7c3c8f1def8becc63ae4465b81a3fe3675a703d7aae3be21c3d7da0e1d1f8",
+      "id": null,
+      "owner": "v8_desk_glow_lamp",
+      "parent": "WEB8_IW8_DeskPetal_Root"
+    },
+    "WEB8_IW8_WindowUndershelf_Root": {
+      "geometry": "826b7939558ef800022b4016ce09e3afb11f22340b7b597c95b67b75e92ecd85",
+      "id": "v8_window_light_bar",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_window_light_bar__baked__A4": {
+      "geometry": "7f6bc0c1a23b97a414b08c38f5a1f943e8600a14267c2370614b90c757a64863",
+      "id": null,
+      "owner": "v8_window_light_bar",
+      "parent": "WEB8_IW8_WindowUndershelf_Root"
+    },
+    "WEB8_IW8_ReadingPuck_Root": {
+      "geometry": "7082044a5a1d6ec333bccda0676f5dfbf061540ba7d4c48d34eb100387b24edf",
+      "id": "v8_reading_puck",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_reading_puck__baked__A4": {
+      "geometry": "09e0dabfc4ce8bea1e19434f94759f504a021176f2801590384bbca04ccc1fc8",
+      "id": null,
+      "owner": "v8_reading_puck",
+      "parent": "WEB8_IW8_ReadingPuck_Root"
+    },
+    "WEB8_room_static__baked__A0": {
+      "geometry": "fc23fedc654ad452e0a897fad5705dff7770acda3f6d1bc57ef227b017984061",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_room_static__baked__A8": {
+      "geometry": "da6106888dcd32202402a0bbc526ecd18619b6c897f1a781551fd237a96381cd",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_architecture.platform__baked__A0": {
+      "geometry": "0d8bb882ef8c2537c80a4d65e9719871c7c09ec0ac785988d53c691147370882",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    },
+    "WEB8_architecture.platform__baked__A8": {
+      "geometry": "7f0cda52267ffaaf28804fae90c5776bb9d7d89ff6002a9756df268b0dbde92f",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    },
+    "WEB19_CEILING_WARM_Root": {
+      "geometry": "a143939d93b3350136dc2fcb8ebc576d4c1a6dfeabc8a7c30a362ad3f5255c6d",
+      "id": "lighting.ceiling_warm",
+      "owner": null,
+      "parent": null
+    },
+    "WEB19_lighting.ceiling_warm__baked__A12": {
+      "geometry": "a68c339032f42dc69c1b88c6f2882dcfcccfdc27c55cb4ac0f6868e1fef934c4",
+      "id": null,
+      "owner": "lighting.ceiling_warm",
+      "parent": "WEB19_CEILING_WARM_Root"
+    }
+  },
+  "existingGeometryAfter": {
+    "WEB8_room_static__image__A0": {
+      "geometry": "cf7d438330736b982b95ec08ada613ad5ea44c0a65f26449bbd1a6484e21d29b",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_V10__A_Platform": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "architecture.platform",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_T_MainDisplay": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "main_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_main_display__baked__A2": {
+      "geometry": "9415eb198450fd052ec07153d9db7cb53c3fb5de094df0544a8d15088f892544",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_main_display__image__A2": {
+      "geometry": "3916a5990f541e2d57aa43f7cc1e36ec29a2d8f2d480d597649a30a7dd3bbc3b",
+      "id": null,
+      "owner": "main_display",
+      "parent": "WEB8_T_MainDisplay"
+    },
+    "WEB8_T_ComputeCore": {
+      "geometry": "2f3fcd609baca07a057ca510056ce26ab64f9a4d95ba1860df77f5d97aa4c58d",
+      "id": "compute_core",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compute_core__glass__A2": {
+      "geometry": "5d8bacb5f0284bf213a5fc211f6b8f8810f49ca9035b9178d4e241e2ee64cc53",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_compute_core__baked__A2": {
+      "geometry": "d722a2038a2600b4f30633312a2f41ac8367e28e29cb8f0fb6e3a7c352b2ba24",
+      "id": null,
+      "owner": "compute_core",
+      "parent": "WEB8_T_ComputeCore"
+    },
+    "WEB8_F_Cantilever_Desk": {
+      "geometry": "b1521f51d9940baa09a35864d512cd7faf52f063668651d876ac67a0dbbe5250",
+      "id": "furniture.desk",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.desk__baked__A1": {
+      "geometry": "1f68f63aea10eb6192f318a45e607b1ed4fc2ce1f7c91e8c6aa7bf84ff552e9c",
+      "id": null,
+      "owner": "furniture.desk",
+      "parent": "WEB8_F_Cantilever_Desk"
+    },
+    "WEB8_F_Sculptural_Work_Chair": {
+      "geometry": "70c1a70228d15c3dea1e18624e279602ebe7e30a6139731c1495e26b6d048673",
+      "id": "furniture.work_chair",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.work_chair__baked__A1": {
+      "geometry": "756ae0adfc2436247e671f1e3f3d3c99f57123e38b197170a71a02848581384d",
+      "id": null,
+      "owner": "furniture.work_chair",
+      "parent": "WEB8_F_Sculptural_Work_Chair"
+    },
+    "WEB8_F_Crescent_Orange_Lounge": {
+      "geometry": "8b6eb0a8ed0848cf8f64b1f3475a73bab57ee43196234eefcf813f8ecf4f995b",
+      "id": "furniture.lounge",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.lounge__baked__A7": {
+      "geometry": "33a06cbb890bbf13ed28d3081822a706e0e750d5efa6456cc1d0d328266128a6",
+      "id": null,
+      "owner": "furniture.lounge",
+      "parent": "WEB8_F_Crescent_Orange_Lounge"
+    },
+    "WEB8_F_Smoked_Glass_Coffee_Table": {
+      "geometry": "559cb0b24333751a96990f4f57f97d0b1158de3f53bca065eca7961c715eb6a7",
+      "id": "furniture.coffee_table",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.coffee_table__baked__A1": {
+      "geometry": "187583cc90ebd5f41819373cea82f5e7bd35390233dbef65bf41ca33a05b5320",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_furniture.coffee_table__glass__A1": {
+      "geometry": "871794b159fb75d25d242ac11e51eb8852e59feb537a33bd52be569098381c7c",
+      "id": null,
+      "owner": "furniture.coffee_table",
+      "parent": "WEB8_F_Smoked_Glass_Coffee_Table"
+    },
+    "WEB8_F_Charcoal_Inlaid_Rug": {
+      "geometry": "2042b301c88b93f8f6a3549527ec1a771fbfecd11685d2d7841b286eec6b0054",
+      "id": "furniture.rug",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_furniture.rug__baked__A1": {
+      "geometry": "a205ac10ca942de21515b5ca0570d4389542cac207e2bbdf5c1447a7a6dfe07f",
+      "id": null,
+      "owner": "furniture.rug",
+      "parent": "WEB8_F_Charcoal_Inlaid_Rug"
+    },
+    "WEB8_P_ROBOT_Root": {
+      "geometry": "63e0c791b0d6f0d1ad50adf2979fc89585ed73e4a633ebbc91c0c5fca1392edc",
+      "id": "robot_companion",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_robot_companion__baked__A2": {
+      "geometry": "d29695a94cf5125be61d823359ab407b2294328fce252c6db9141abd5e4f393b",
+      "id": null,
+      "owner": "robot_companion",
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_P_Robot_ServiceHatch": {
+      "geometry": "6c2c9de035116ba6e1f77f40bda5fcf3e97b369e2890653ac26d5bcf62d31d69",
+      "id": "robot_service_hatch",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_service_hatch__baked__A2": {
+      "geometry": "309f1a92b5afbf812bfeb0f8e311e776f06b7e058d3942da56abce70cf6ad18c",
+      "id": null,
+      "owner": "robot_service_hatch",
+      "parent": "WEB8_P_Robot_ServiceHatch"
+    },
+    "WEB8_P_Robot_Leg_00_Pivot": {
+      "geometry": "85e8975f3c86d5793c735db56a7f71554b6f20eed79489277e0bc3a762c9ac1e",
+      "id": "robot_leg_00",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_00__baked__A2": {
+      "geometry": "dde140718438943f80c13f1b507781937121fff823ddfed7b6e63229a737df6b",
+      "id": null,
+      "owner": "robot_leg_00",
+      "parent": "WEB8_P_Robot_Leg_00_Pivot"
+    },
+    "WEB8_P_Robot_Leg_01_Pivot": {
+      "geometry": "94050930d04a3f59c41c731c267fff1d4648a3d561c6746fe0772877737971e3",
+      "id": "robot_leg_01",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_01__baked__A2": {
+      "geometry": "f77a2ffa79239a8f02a534e6aedcec8243b47b61885c1de85f6999a1e47a7d11",
+      "id": null,
+      "owner": "robot_leg_01",
+      "parent": "WEB8_P_Robot_Leg_01_Pivot"
+    },
+    "WEB8_P_Robot_Leg_02_Pivot": {
+      "geometry": "7593e0a81bd3d09291d74ae4bb79cc0ad667b803ce16df7ab7366672269127aa",
+      "id": "robot_leg_02",
+      "owner": null,
+      "parent": "WEB8_P_ROBOT_Root"
+    },
+    "WEB8_robot_leg_02__baked__A2": {
+      "geometry": "a42fa4cdcc07f809a0f7e9b8ef2e2e120a3ac70c143d9d7c7e436ec98d3f15b7",
+      "id": null,
+      "owner": "robot_leg_02",
+      "parent": "WEB8_P_Robot_Leg_02_Pivot"
+    },
+    "WEB8_P_TERMINAL_Root": {
+      "geometry": "15cfa717a80ea77d9db2341062fd971774201fe316d0beb87f08a9ae47ca4031",
+      "id": "folding_drawing_terminal",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_folding_drawing_terminal__baked__A2": {
+      "geometry": "606b8c6416929ccb4f50b206a4f2774efc492673b12c671632a1427ad15a71d7",
+      "id": null,
+      "owner": "folding_drawing_terminal",
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_P_Terminal_TiltPivot": {
+      "geometry": "a56f9977a07f93d13cac86b7c091cc9e90028f2392b470fd44390483384b3d7a",
+      "id": "terminal_tilt",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_terminal_tilt__baked__A2": {
+      "geometry": "fc64166fdd9d4bfeb9e6a54048c53dc4af266bfd98f6156e390da79e6cc43661",
+      "id": null,
+      "owner": "terminal_tilt",
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_P_Terminal_L_FoldPivot": {
+      "geometry": "1856f1f15aec3cddd0c9d36b8f9614a583a5a1cef2a17209a0c6700acafc6c1e",
+      "id": "terminal_panel_L",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_L__baked__A2": {
+      "geometry": "9a6d7a85f5c8163a3cec6802810e40585bb9e72637eefc2cd7ad84a2f8a72195",
+      "id": null,
+      "owner": "terminal_panel_L",
+      "parent": "WEB8_P_Terminal_L_FoldPivot"
+    },
+    "WEB8_P_Terminal_R_FoldPivot": {
+      "geometry": "6a2c748453a595e04877811d890eb2f25f6d63b3bda00482b3c30b8f8708511a",
+      "id": "terminal_panel_R",
+      "owner": null,
+      "parent": "WEB8_P_Terminal_TiltPivot"
+    },
+    "WEB8_terminal_panel_R__baked__A2": {
+      "geometry": "63a9b28c8b89ace75446081091a79d0ce6388e7d710648bccf4110ea72ea1c1b",
+      "id": null,
+      "owner": "terminal_panel_R",
+      "parent": "WEB8_P_Terminal_R_FoldPivot"
+    },
+    "WEB8_P_Terminal_Stylus_Root": {
+      "geometry": "9bacf223c5185742fd269e60e377caebe610be8fd23257211f372e2f3123be64",
+      "id": "drawing_stylus",
+      "owner": null,
+      "parent": "WEB8_P_TERMINAL_Root"
+    },
+    "WEB8_drawing_stylus__baked__A2": {
+      "geometry": "ed0465134e1f70a6f44721bc268cea5ae1874964d80a949008685f81b979e3be",
+      "id": null,
+      "owner": "drawing_stylus",
+      "parent": "WEB8_P_Terminal_Stylus_Root"
+    },
+    "WEB8_P_ARCHIVE_Root": {
+      "geometry": "38e79c6398b0ef568db55f8e97ee70342e35efb97eb80e6b6fe9c5eb093e5ddc",
+      "id": "c_archive_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_c_archive_dock__baked__A2": {
+      "geometry": "5248fa214f8e6303314960cbc3d408c145cce0b728259f67af457adc23aa413f",
+      "id": null,
+      "owner": "c_archive_dock",
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_P_Archive_Cartridge_00_Root": {
+      "geometry": "09b1b982d7d35acb6f1e62248230e6b4f79abe5cfac9a8327f94eac8bd6a8e8c",
+      "id": "archive_cartridge_00",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_00__baked__A2": {
+      "geometry": "2275a33e13eb671ec479eb4dc099ddc107b3b9ea6efa2321b729be4db47755dc",
+      "id": null,
+      "owner": "archive_cartridge_00",
+      "parent": "WEB8_P_Archive_Cartridge_00_Root"
+    },
+    "WEB8_P_Archive_Cartridge_01_Root": {
+      "geometry": "27b4ae7a37a718197f924b39c3a23a932d9f045f0eb8ca253628188d4cf7750f",
+      "id": "archive_cartridge_01",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_01__baked__A2": {
+      "geometry": "63c3558379a86e4096485756974d47420dac29bc91b1ebd081a5d7e5cd9d6872",
+      "id": null,
+      "owner": "archive_cartridge_01",
+      "parent": "WEB8_P_Archive_Cartridge_01_Root"
+    },
+    "WEB8_P_Archive_Cartridge_02_Root": {
+      "geometry": "5cb3186e9aed482b51986b006f244bec96718c15806aeafa8eb0bd9ed7d571bd",
+      "id": "archive_cartridge_02",
+      "owner": null,
+      "parent": "WEB8_P_ARCHIVE_Root"
+    },
+    "WEB8_archive_cartridge_02__baked__A2": {
+      "geometry": "f19e7207935920ba7bc804e62f68aecccd35f668744919c4bf35f5031a76091d",
+      "id": null,
+      "owner": "archive_cartridge_02",
+      "parent": "WEB8_P_Archive_Cartridge_02_Root"
+    },
+    "WEB8_P_FLOWER_Root": {
+      "geometry": "117acfb4e60339d7ba52a24fde0545895d8588e50197d17bd05278f7633d15a1",
+      "id": "kinetic_three_petal_flower",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_kinetic_three_petal_flower__baked__A2": {
+      "geometry": "859528330e53f7013abce477b7e930c565a37a88bb19199d8cccae1d24726531",
+      "id": null,
+      "owner": "kinetic_three_petal_flower",
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_P_Flower_Petal_0_Hinge": {
+      "geometry": "127a1199eba0096e2f2a267ed8da6826862187d8555d6305f9998ae9ba160fd6",
+      "id": "flower_petal_0",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_0__baked__A2": {
+      "geometry": "c8900554ccb3d56e8ca43ec5bb25a5cf7446c89523789be4045d88f1a65570a4",
+      "id": null,
+      "owner": "flower_petal_0",
+      "parent": "WEB8_P_Flower_Petal_0_Hinge"
+    },
+    "WEB8_P_Flower_Petal_1_Hinge": {
+      "geometry": "cffd69021f3bf3cd76a607a362e9eb0ff9fb25c9cceb2e74a2e74a5c324262d3",
+      "id": "flower_petal_1",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_1__baked__A2": {
+      "geometry": "cf9d2fa688ad1ae19b2880380ac8df156649e0ae6dd02f6689d476ea73cb8c52",
+      "id": null,
+      "owner": "flower_petal_1",
+      "parent": "WEB8_P_Flower_Petal_1_Hinge"
+    },
+    "WEB8_P_Flower_Petal_2_Hinge": {
+      "geometry": "33c473e99d0ef237f0550a20ae9edd9979b88f3c1c7f68c0081365395e561926",
+      "id": "flower_petal_2",
+      "owner": null,
+      "parent": "WEB8_P_FLOWER_Root"
+    },
+    "WEB8_flower_petal_2__baked__A2": {
+      "geometry": "216ecd2375be8bc2207fc118ec19a4bf13d885086dc05c7a13e1f35d50bcd24b",
+      "id": null,
+      "owner": "flower_petal_2",
+      "parent": "WEB8_P_Flower_Petal_2_Hinge"
+    },
+    "WEB8_P_HEADPHONES_Root": {
+      "geometry": "c08e0817c6baaaaf88d534966b5aca6dadd136a45fa951352050863bdd0abd29",
+      "id": "headphones_on_stand",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_headphones_on_stand__baked__A2": {
+      "geometry": "45eca92514232e8c607958f9b694d735ee0f4a1dab9dcd98742664f240c8dd08",
+      "id": null,
+      "owner": "headphones_on_stand",
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_P_Headphones_Cup_0_Pivot": {
+      "geometry": "8ea97b99564ed6c4316a9eb6872d06d35d7b8b05bba495b960dc138524e57c4a",
+      "id": "headphone_cup_0",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_0__baked__A2": {
+      "geometry": "58146fd1c7bf1223a12a460288a9cd6b7a07c336d688b7bdb5c03bdce4cf7e39",
+      "id": null,
+      "owner": "headphone_cup_0",
+      "parent": "WEB8_P_Headphones_Cup_0_Pivot"
+    },
+    "WEB8_P_Headphones_Cup_1_Pivot": {
+      "geometry": "0121344cd5cc6a30736131fffa506d8ada6387d723f09ad23735cf05138ed412",
+      "id": "headphone_cup_1",
+      "owner": null,
+      "parent": "WEB8_P_HEADPHONES_Root"
+    },
+    "WEB8_headphone_cup_1__baked__A2": {
+      "geometry": "1a9ca2432c29e66c4af32dc4934862a4d675b98e3f2b596c7c8578d186f75874",
+      "id": null,
+      "owner": "headphone_cup_1",
+      "parent": "WEB8_P_Headphones_Cup_1_Pivot"
+    },
+    "WEB8_P_SPEAKER_Root": {
+      "geometry": "c6b1a956182b663209fbadf871080eaaba059de5b26e940cd20643d2e3443ca1",
+      "id": "ceramic_ring_speaker",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_ring_speaker__baked__A2": {
+      "geometry": "bea571b8819c93a4494e6e1e29767d86c6de89ac55e339da45d1abce2b26e4a5",
+      "id": null,
+      "owner": "ceramic_ring_speaker",
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_P_Speaker_Gimbal": {
+      "geometry": "663be1013c0c38ff17710138636eaeeb4edb16973eb6df9e70072be1e8fb4e9e",
+      "id": "speaker_gimbal",
+      "owner": null,
+      "parent": "WEB8_P_SPEAKER_Root"
+    },
+    "WEB8_speaker_gimbal__baked__A2": {
+      "geometry": "f3e6b46f8160ba69daa4411b27a0b8d8fe469809f7eb291ee4b45e9df5a4fee6",
+      "id": null,
+      "owner": "speaker_gimbal",
+      "parent": "WEB8_P_Speaker_Gimbal"
+    },
+    "WEB8_P_KEYBOARD_Root": {
+      "geometry": "00a6cca8a1c28e056bb03f6a25cda8f92c6cd9551cc3c93f6350c05a6a60db30",
+      "id": "split_keyboard",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Keyboard_L_Half": {
+      "geometry": "0d9eab21b7f07113703dabd46c134607580fd6c2520bbc35454a1e610b0de584",
+      "id": "keyboard_half_0",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_0__baked__A2": {
+      "geometry": "4a547808edae07137ddd76590ca5022b0e007e849f49d1a5e806096d7632009e",
+      "id": null,
+      "owner": "keyboard_half_0",
+      "parent": "WEB8_P_Keyboard_L_Half"
+    },
+    "WEB8_P_Keyboard_R_Half": {
+      "geometry": "e3abe260842e4a87a0fb5a5c02ea57855392a8f5af7fd8088bb2043497b51a23",
+      "id": "keyboard_half_1",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_half_1__baked__A2": {
+      "geometry": "b949d85a3316b8764688fb7031fafa87389110e1cbcff21bfd0b28210f93f794",
+      "id": null,
+      "owner": "keyboard_half_1",
+      "parent": "WEB8_P_Keyboard_R_Half"
+    },
+    "WEB8_P_Keyboard_Dial_Root": {
+      "geometry": "bc9f9c946f61b1e0d3a90a5de79ad2f458825d9edf3efcbdbdc29789f388779e",
+      "id": "keyboard_dial",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_keyboard_dial__baked__A2": {
+      "geometry": "daeb001f14ef4de4271d52014e58e07793b25be88995b65271fc0a3e8569cd0f",
+      "id": null,
+      "owner": "keyboard_dial",
+      "parent": "WEB8_P_Keyboard_Dial_Root"
+    },
+    "WEB8_P_Desktop_Controller_Root": {
+      "geometry": "59e31de04a64fb3e12638188dd73f7449f44d4ad59876bfa06094128745c1a7c",
+      "id": "desktop_creative_controller",
+      "owner": null,
+      "parent": "WEB8_P_KEYBOARD_Root"
+    },
+    "WEB8_desktop_creative_controller__baked__A2": {
+      "geometry": "88d8c0b4c4f4f714aab66549477359c19ed95d0f4a17e625bdbc13995c05ccba",
+      "id": null,
+      "owner": "desktop_creative_controller",
+      "parent": "WEB8_P_Desktop_Controller_Root"
+    },
+    "WEB8_P_CAMERA_Root": {
+      "geometry": "e88e42e4d2223e4363ddc6d36ae431c3afc70ca1bdb8773db5fbf9168c5d68c7",
+      "id": "compact_camera",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_compact_camera__baked__A2": {
+      "geometry": "01a79925ceaec6a9b6444a2187a4f2ce51db3b55da561a02ae051a4911ce9fb4",
+      "id": null,
+      "owner": "compact_camera",
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_P_Camera_Lens_Root": {
+      "geometry": "27bd75418e15703b3dbfb83d1cd7c76b90b40bd950aadbf2b88ad7bf8fdadfd3",
+      "id": "camera_focus_lens",
+      "owner": null,
+      "parent": "WEB8_P_CAMERA_Root"
+    },
+    "WEB8_camera_focus_lens__baked__A2": {
+      "geometry": "6b51538ae4ffe5ba99fa154397335ba28ac256dd7b72cfc2338ce2417afc377d",
+      "id": null,
+      "owner": "camera_focus_lens",
+      "parent": "WEB8_P_Camera_Lens_Root"
+    },
+    "WEB8_P_CUP_Root": {
+      "geometry": "83fbb31e3df124f26b5fcda090f1e57186ea6d4bad05682ae6a433bd56bbdc69",
+      "id": "thermal_cup",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_thermal_cup__baked__A2": {
+      "geometry": "382defd2d0af6b2b5ffa39ea6fb08ac2fb3994f61e8de0c3a458ccb65bf6605b",
+      "id": null,
+      "owner": "thermal_cup",
+      "parent": "WEB8_P_CUP_Root"
+    },
+    "WEB8_P_TABLE_OBJECTS_Root": {
+      "geometry": "8ea4d34a1349678944f2f9f07ba471bdcb52b23e92fa03a172b04c5657f2e87b",
+      "id": "table_notebook_group",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_P_Notebook_Root": {
+      "geometry": "29be774f135cee96292f305b52005e1ebc551bea501bb0c02092a3febcdf114d",
+      "id": "notebook",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_P_CreativeFolio_Root": {
+      "geometry": "aa41dedf0abdd96bc301afaf5f6bd916e3a6b18ef455800a7098c8970d68ff07",
+      "id": "creative_folio",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_creative_folio__baked__A2": {
+      "geometry": "713a7cf7a3fe1fd3d5c764b41cdd254083a8592be315dcb5fbf6087ea0ab936b",
+      "id": null,
+      "owner": "creative_folio",
+      "parent": "WEB8_P_CreativeFolio_Root"
+    },
+    "WEB8_notebook__baked__A2": {
+      "geometry": "cf9f18a0ad97ef6e3c1c7d2d6ea104e3eec6154247e29177f8b4a417445ee459",
+      "id": null,
+      "owner": "notebook",
+      "parent": "WEB8_P_Notebook_Root"
+    },
+    "WEB8_P_CoffeePen_Root": {
+      "geometry": "8c8f72f5f8d6b0898f43aebddc9636eafb636ecab3f998bef4906e821eb56cdf",
+      "id": "coffee_table_pen",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_pen__baked__A2": {
+      "geometry": "0edb94c41b13879e57aa02acbd1c1791b5f4973f243f4a443477ab2bad3afe0a",
+      "id": null,
+      "owner": "coffee_table_pen",
+      "parent": "WEB8_P_CoffeePen_Root"
+    },
+    "WEB8_P_CoffeeDial_Root": {
+      "geometry": "bd9b848eff86702d715d389fd485d10a7fc8cd01912c52df18b2837bd0247d40",
+      "id": "coffee_table_dial",
+      "owner": null,
+      "parent": "WEB8_P_TABLE_OBJECTS_Root"
+    },
+    "WEB8_coffee_table_dial__baked__A2": {
+      "geometry": "af2def41955042aa267cd03a63725bc0e85d68e6498c156ba068400a58251c6e",
+      "id": null,
+      "owner": "coffee_table_dial",
+      "parent": "WEB8_P_CoffeeDial_Root"
+    },
+    "WEB8_P_TERRARIUM_Root": {
+      "geometry": "b1c62e0b9fe88eb05ba1110a1ae9c79395243e44eaeb7b1b45794ad1e963d0c9",
+      "id": "glass_bonsai_terrarium",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_bonsai_terrarium__baked__A2": {
+      "geometry": "50e0f47dce156bf393d853ef91c8e0b06612a165c8edddc121303e4bdeb749a6",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_glass_bonsai_terrarium__glass__A2": {
+      "geometry": "92a31607fa169ff523ead37b530032e4fa7eb20015e17cea62586eff313853ac",
+      "id": null,
+      "owner": "glass_bonsai_terrarium",
+      "parent": "WEB8_P_TERRARIUM_Root"
+    },
+    "WEB8_P_VINES_Root": {
+      "geometry": "5105f089402e2ba9025673bf07c23301b38b00577ae7c2770314473cb276b38f",
+      "id": "trailing_wall_plant",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_trailing_wall_plant__baked__A2": {
+      "geometry": "c8993d53ffd48051f60e2867f7cb89488d8431b1821cf74e6c5628a42776b1ee",
+      "id": null,
+      "owner": "trailing_wall_plant",
+      "parent": "WEB8_P_VINES_Root"
+    },
+    "WEB8_D_BOOKS_Root": {
+      "geometry": "2c3580a8ee0e9b4c3091dd5295f6f51f4447a7b8a3498789c20604f3d6a0adcb",
+      "id": "studio_reference_books",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_D_Book_0_Root": {
+      "geometry": "8989bc01b7f030d3d9f8ec092d93ac87323691abeae10f870c89286292b60215",
+      "id": "creative_book_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_0__baked__A3": {
+      "geometry": "5a46963d2e93cbc33a6455c9ea56bb271ca1950d6611e3409acf401382d26e4b",
+      "id": null,
+      "owner": "creative_book_0",
+      "parent": "WEB8_D_Book_0_Root"
+    },
+    "WEB8_D_Book_1_Root": {
+      "geometry": "2d531cf63266e2e0a1df82a88b92f457364aa08b886ea6771ea3de59accc52cc",
+      "id": "creative_book_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_1__baked__A3": {
+      "geometry": "9b88f5f382ba1d3c8b31ba129d0df6f758dc7767558872fbb58f964e065a2c29",
+      "id": null,
+      "owner": "creative_book_1",
+      "parent": "WEB8_D_Book_1_Root"
+    },
+    "WEB8_D_Book_2_Root": {
+      "geometry": "a6db691be5d41999499a9494721aca79516375dc398235277c17e8b0f20239df",
+      "id": "creative_book_2",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_creative_book_2__baked__A3": {
+      "geometry": "b9fef505ab30c4d706d291848d544e7746cfba289f80812ed10ad1978d47b48d",
+      "id": null,
+      "owner": "creative_book_2",
+      "parent": "WEB8_D_Book_2_Root"
+    },
+    "WEB8_D_Bookend_0_Root": {
+      "geometry": "aa71ddc3e2c54d9717bc125cfd12ccb3aaf3be18e408a6b33b1d2b4deddbfcd8",
+      "id": "titanium_bookend_0",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_0__baked__A3": {
+      "geometry": "5fcaa26e6493f7a2bcf3a915cd133cb37fdafc79cb96107061cc69ba6d90b03d",
+      "id": null,
+      "owner": "titanium_bookend_0",
+      "parent": "WEB8_D_Bookend_0_Root"
+    },
+    "WEB8_D_Bookend_1_Root": {
+      "geometry": "7ac11453074e7cf876daea75961f1dcbe37bc787a4cbfc6e6853e0cc12cafcf3",
+      "id": "titanium_bookend_1",
+      "owner": null,
+      "parent": "WEB8_D_BOOKS_Root"
+    },
+    "WEB8_titanium_bookend_1__baked__A3": {
+      "geometry": "1162037a7e380a4724977fc406cf4f519fd3dd1f1da998cd8658ace842e77946",
+      "id": null,
+      "owner": "titanium_bookend_1",
+      "parent": "WEB8_D_Bookend_1_Root"
+    },
+    "WEB8_D_SPECIMEN_Root": {
+      "geometry": "dada1ee44edc562e3db6926761958f1b05a45ab646b773353e9cd366d747f5df",
+      "id": "geometric_specimen_cloche",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_geometric_specimen_cloche__baked__A3": {
+      "geometry": "ea194ba5794dbf69a1da3092c95f75d9d6d7f5cd50ef13c0cf13ab817000e669",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_geometric_specimen_cloche__glass__A3": {
+      "geometry": "de5e8eefb5f9df495bcea3659355b4de5f86dce2e615b9a942e8067b62f36a6c",
+      "id": null,
+      "owner": "geometric_specimen_cloche",
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_D_Specimen_Geometry_Root": {
+      "geometry": "5ce868ab641e3bea074d7da4fb5b6086b61c02fa7688382020a0a38bb870ce90",
+      "id": "original_trefoil_geometry",
+      "owner": null,
+      "parent": "WEB8_D_SPECIMEN_Root"
+    },
+    "WEB8_original_trefoil_geometry__baked__A3": {
+      "geometry": "731b58f7ae06e3a58b9e39a64462d4a0bd2b3317bed6652fa016dfc8d0701fd3",
+      "id": null,
+      "owner": "original_trefoil_geometry",
+      "parent": "WEB8_D_Specimen_Geometry_Root"
+    },
+    "WEB8_D_COMMUNICATOR_Root": {
+      "geometry": "9c2c9096374615bdb2da77ff3483eebd863ff1543ca830a5215920930fde1148",
+      "id": "portable_fold_communicator",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_portable_fold_communicator__baked__A3": {
+      "geometry": "86c01fe868f2e9117ffdd827b0b764b3dc32ab65b1c216643c31632de83b181b",
+      "id": null,
+      "owner": "portable_fold_communicator",
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Handset_Root": {
+      "geometry": "a627b9455a49f9e87128a716b12154d4be3d5529e6a5a34905c51aaf70f8a1ef",
+      "id": "folding_communicator_handset",
+      "owner": null,
+      "parent": "WEB8_D_COMMUNICATOR_Root"
+    },
+    "WEB8_D_Comms_Panel_0_Hinge": {
+      "geometry": "d523d263b0a4e68849d6ed26eb6f709e16dd70602ddf56b2371b9a1e23b816e9",
+      "id": "communicator_panel_0",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_0__baked__A3": {
+      "geometry": "1e6ca49b0196c620be0b6eba3efe417803432aad8c590bdb761a754a2e89e4c3",
+      "id": null,
+      "owner": "communicator_panel_0",
+      "parent": "WEB8_D_Comms_Panel_0_Hinge"
+    },
+    "WEB8_D_Comms_Panel_1_Hinge": {
+      "geometry": "6e8b443f32f7e7e63b4fb76c0a8d3ed6a963b37d49c76865cfda7e87a83ccb43",
+      "id": "communicator_panel_1",
+      "owner": null,
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_communicator_panel_1__baked__A3": {
+      "geometry": "3419b947e2b4c3955be8365e92ad03307215887b4aef065ea16a7bab9be747f6",
+      "id": null,
+      "owner": "communicator_panel_1",
+      "parent": "WEB8_D_Comms_Panel_1_Hinge"
+    },
+    "WEB8_folding_communicator_handset__baked__A3": {
+      "geometry": "754828a2ba9bdebf429ad28b471058cc6adb9457f7575e5bff0339a0371059ec",
+      "id": null,
+      "owner": "folding_communicator_handset",
+      "parent": "WEB8_D_Comms_Handset_Root"
+    },
+    "WEB8_D_SCULPTURE_Root": {
+      "geometry": "687586446403792b4f0b3759a23539148a3a58f1755373880c7944f2e49f434c",
+      "id": "ceramic_mobius_study",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_ceramic_mobius_study__baked__A3": {
+      "geometry": "70fe8fcc10950738e1d2076db433d26efe2e56db307339d3e70c7cecc52943d1",
+      "id": null,
+      "owner": "ceramic_mobius_study",
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_D_Sculpture_Form_Root": {
+      "geometry": "554e4e04cbf2dac8b1504a37349f684ad37ab25a3dffbd0e263afc076b3490b8",
+      "id": "ceramic_mobius_form",
+      "owner": null,
+      "parent": "WEB8_D_SCULPTURE_Root"
+    },
+    "WEB8_ceramic_mobius_form__baked__A3": {
+      "geometry": "c21c4b00a06b63db9b0653cdd64462cb93c21914a5d89b451ea6a98e89c44706",
+      "id": null,
+      "owner": "ceramic_mobius_form",
+      "parent": "WEB8_D_Sculpture_Form_Root"
+    },
+    "WEB8_D_SMALL_PLANTER_Root": {
+      "geometry": "d97b18a422a2f4ac9344259b522997173ef8d087ffe5c25c7f9493bd87f3d7d1",
+      "id": "glass_cutting_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_glass_cutting_planter__glass__A3": {
+      "geometry": "3c38d5dc3f15f7fb176e8ee91685911c12b053c097ef66c7244de67a3104fa41",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_glass_cutting_planter__baked__A3": {
+      "geometry": "b7c9927a287a003a5d31f07ca520b1ec5c4a22405d214a66dda216f294301cbd",
+      "id": null,
+      "owner": "glass_cutting_planter",
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_D_Planter_Leaf_0_Pivot": {
+      "geometry": "50a51d1ac38cf618f94811fe9e348bda17ca006c557a95a032f2f8b898cab063",
+      "id": "small_planter_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_0__baked__A3": {
+      "geometry": "20381fc17883ab354d69bf0f865c7d373be04ffa88e25f901715ce3555703876",
+      "id": null,
+      "owner": "small_planter_leaf_0",
+      "parent": "WEB8_D_Planter_Leaf_0_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_1_Pivot": {
+      "geometry": "179006d4ced5e530d67b06ad4467234b787ca0af43265e2908ca9b575520dab7",
+      "id": "small_planter_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_1__baked__A3": {
+      "geometry": "b82e64d3564a407f86fd51f5e5b12202f49223cdf2aab2ffaa492e74f939417a",
+      "id": null,
+      "owner": "small_planter_leaf_1",
+      "parent": "WEB8_D_Planter_Leaf_1_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_2_Pivot": {
+      "geometry": "95b0614720b39ad2efcdd92869ef05fb00b8e177e592e269d7134049c7e7ee15",
+      "id": "small_planter_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_2__baked__A3": {
+      "geometry": "79382b4cc460d66d5002e1aa2228ee170f04bbc6bd24c0ddf5df31e49ee232de",
+      "id": null,
+      "owner": "small_planter_leaf_2",
+      "parent": "WEB8_D_Planter_Leaf_2_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_3_Pivot": {
+      "geometry": "aedc19b7cfa309f1209d42717b261eb6d8f5436b764ccba04171cf6ee143fee2",
+      "id": "small_planter_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_3__baked__A3": {
+      "geometry": "9b7600b45b1097a9ca25cd63a5eb588030bbfb4b36fe066a49b6658af3d86725",
+      "id": null,
+      "owner": "small_planter_leaf_3",
+      "parent": "WEB8_D_Planter_Leaf_3_Pivot"
+    },
+    "WEB8_D_Planter_Leaf_4_Pivot": {
+      "geometry": "48f71ab649b90c95c30d050467a0834dd17631e97ef434417691131c3e1710c6",
+      "id": "small_planter_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_SMALL_PLANTER_Root"
+    },
+    "WEB8_small_planter_leaf_4__baked__A3": {
+      "geometry": "461502ccac63dfd75b0ee11c1a3cda43a5100e5ce87df4ce2143eea40b4003ef",
+      "id": null,
+      "owner": "small_planter_leaf_4",
+      "parent": "WEB8_D_Planter_Leaf_4_Pivot"
+    },
+    "WEB8_D_FLOOR_VASE_Root": {
+      "geometry": "1b53906b33dabc3494608e759cacab4eccb365ed3880a5a57fdf6cf1e70bd775",
+      "id": "black_ceramic_floor_planter",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_black_ceramic_floor_planter__baked__A3": {
+      "geometry": "3f8ac5f74abd5ec72f810b4dffeea82ed17e835008bd1139c77923139b38283f",
+      "id": null,
+      "owner": "black_ceramic_floor_planter",
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_D_FloorVase_Leaf_0_Pivot": {
+      "geometry": "280c51aa43bd0773aa1422e3a78789be767b1f6eeb05c59b3b7bf52b669173c3",
+      "id": "floor_vase_leaf_0",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_0__baked__A3": {
+      "geometry": "2f64644af8c60bc20eaccd12fe146d385584bf4d602c7c8eca71795887146889",
+      "id": null,
+      "owner": "floor_vase_leaf_0",
+      "parent": "WEB8_D_FloorVase_Leaf_0_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_1_Pivot": {
+      "geometry": "9ab41cea7c159c2f810ee28bd7decb5cd8ef142c88e59b9d835943b560bc6d4e",
+      "id": "floor_vase_leaf_1",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_1__baked__A3": {
+      "geometry": "735248f553037f5263d4ef67efc7b01749a52832fe8a9ea8bfd8cda90cd3ad9a",
+      "id": null,
+      "owner": "floor_vase_leaf_1",
+      "parent": "WEB8_D_FloorVase_Leaf_1_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_2_Pivot": {
+      "geometry": "30e342128ef572852d43087ebef12ef216adcc9e4ea160bd7660321b05d819e3",
+      "id": "floor_vase_leaf_2",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_2__baked__A3": {
+      "geometry": "9c8d59959caefcb43066074d41c152bec0df9872aa7fe2a90f22821c9513fbea",
+      "id": null,
+      "owner": "floor_vase_leaf_2",
+      "parent": "WEB8_D_FloorVase_Leaf_2_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_3_Pivot": {
+      "geometry": "8e34d240e87c755a14802055b764cd404f57620111608b99867cd67c2001f88d",
+      "id": "floor_vase_leaf_3",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_3__baked__A3": {
+      "geometry": "93931912c7d7f2806735fe8eaf15c021361fd00604fcca81cfc101475b677c17",
+      "id": null,
+      "owner": "floor_vase_leaf_3",
+      "parent": "WEB8_D_FloorVase_Leaf_3_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_4_Pivot": {
+      "geometry": "3a92fff692e6e72d603f8bb58498fa035bbbf608edcaf6b0f648aa011fd42555",
+      "id": "floor_vase_leaf_4",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_4__baked__A3": {
+      "geometry": "206ac26b216f5007b8b140db80186d293a199dc3e424d9e78bbc95faca79eafc",
+      "id": null,
+      "owner": "floor_vase_leaf_4",
+      "parent": "WEB8_D_FloorVase_Leaf_4_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_5_Pivot": {
+      "geometry": "7a4e4c58bed62dc214b1cb74ca544d38b50ec7187f42191c4e77a0d4ba5e9dd9",
+      "id": "floor_vase_leaf_5",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_5__baked__A3": {
+      "geometry": "bf267a81f5f1e2f0d71d2e804a3d76336e8ff0c6cf48c94677de63bc949e0f1f",
+      "id": null,
+      "owner": "floor_vase_leaf_5",
+      "parent": "WEB8_D_FloorVase_Leaf_5_Pivot"
+    },
+    "WEB8_D_FloorVase_Leaf_6_Pivot": {
+      "geometry": "50d690d8d65c389d23bd2ee8448cbaae111590ff47ffdcd0188449872777340c",
+      "id": "floor_vase_leaf_6",
+      "owner": null,
+      "parent": "WEB8_D_FLOOR_VASE_Root"
+    },
+    "WEB8_floor_vase_leaf_6__baked__A3": {
+      "geometry": "bc8d8c940571ae58ea8c1b00c873ea72e2d8f47144b4861e1970e5c5ed82e8ae",
+      "id": null,
+      "owner": "floor_vase_leaf_6",
+      "parent": "WEB8_D_FloorVase_Leaf_6_Pivot"
+    },
+    "WEB8_V5_ORBITAL_CLOCK_Root": {
+      "geometry": "834c4adb411f1ad13106c17764980b3bf9803c26a1ced4c1dae5072d40d5df9c",
+      "id": "v5_orbital_clock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_orbital_clock__baked__A4": {
+      "geometry": "0559676f17c10332d11e18461134672a32768f52fedadc89a9d6162ccb5a6800",
+      "id": null,
+      "owner": "v5_orbital_clock",
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_V5_CLOCK_DIAL_Pivot": {
+      "geometry": "28945f79a79f8643595704e9c4c508ed0531ae6d53950a9bef5dbe63b89c0ab3",
+      "id": "v5_clock_dial",
+      "owner": null,
+      "parent": "WEB8_V5_ORBITAL_CLOCK_Root"
+    },
+    "WEB8_v5_clock_dial__baked__A4": {
+      "geometry": "591bc9edf749b634004c065b527f51510518dac8d89c5452739e3836180c5b8f",
+      "id": null,
+      "owner": "v5_clock_dial",
+      "parent": "WEB8_V5_CLOCK_DIAL_Pivot"
+    },
+    "WEB8_V5_PROJECTOR_Root": {
+      "geometry": "8387e75450264c40eefc508b732451da3b0716ad59f07a9ef18dd5f9d156c94b",
+      "id": "v5_portable_projector",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_portable_projector__baked__A4": {
+      "geometry": "26330d91b6c834635b5147c9fcf1401fb6a8c1376ef6d325ed7a52f0e9468e09",
+      "id": null,
+      "owner": "v5_portable_projector",
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_V5_PROJECTOR_LENS_Pivot": {
+      "geometry": "32e2440fc72dc1d53d403194756851ff2ea07fb7a1fe8d272596a15f46212668",
+      "id": "v5_projector_lens",
+      "owner": null,
+      "parent": "WEB8_V5_PROJECTOR_Root"
+    },
+    "WEB8_v5_projector_lens__baked__A4": {
+      "geometry": "fb059fd1e007516ee75222c90811d24e4a5eb94e22e1e7496bd080e10ef98f94",
+      "id": null,
+      "owner": "v5_projector_lens",
+      "parent": "WEB8_V5_PROJECTOR_LENS_Pivot"
+    },
+    "WEB8_V5_PEN_DOCK_Root": {
+      "geometry": "310d154261a9dd562a821615c8a7cd1dd8ef9d95a95c5528ed2bb17b5b441f23",
+      "id": "v5_magnetic_pen_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_magnetic_pen_dock__baked__A4": {
+      "geometry": "c126d79dfc8e7f9b4bea5ec361b57084437ebc81b7b6caf068af74c143b047da",
+      "id": null,
+      "owner": "v5_magnetic_pen_dock",
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_V5_MAGNETIC_STYLUS_Pivot": {
+      "geometry": "f942285a23f6a9439eb1559d479255baed9f0e2ecb36c62f1e1356263236a506",
+      "id": "v5_magnetic_stylus",
+      "owner": null,
+      "parent": "WEB8_V5_PEN_DOCK_Root"
+    },
+    "WEB8_v5_magnetic_stylus__baked__A4": {
+      "geometry": "934f2cfccd48aa6cce6e10576568874d760f0cc2ad404a2ca81d480c07ea985b",
+      "id": null,
+      "owner": "v5_magnetic_stylus",
+      "parent": "WEB8_V5_MAGNETIC_STYLUS_Pivot"
+    },
+    "WEB8_V5_MODULAR_CASES_Root": {
+      "geometry": "52a3dbb4dbf6d19d963c7414d1df7e1b28eb95759aaa3ed8f5fb1ab67afe8427",
+      "id": "v5_modular_equipment_cases",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_modular_equipment_cases__baked__A4": {
+      "geometry": "353e2884918c0f08adc3d410ee3d6cbf658dc6576f23c0407008232431718be1",
+      "id": null,
+      "owner": "v5_modular_equipment_cases",
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_V5_UPPER_CASE_Pivot": {
+      "geometry": "365c1639d6693b049f52e8236d2d16ea5ea81b339d1c6196d56492feea9f3032",
+      "id": "v5_upper_equipment_case",
+      "owner": null,
+      "parent": "WEB8_V5_MODULAR_CASES_Root"
+    },
+    "WEB8_v5_upper_equipment_case__baked__A4": {
+      "geometry": "108fc5252031fb747b5bf8a3d84cbef620903544462fa6f6224bc353fe26820c",
+      "id": null,
+      "owner": "v5_upper_equipment_case",
+      "parent": "WEB8_V5_UPPER_CASE_Pivot"
+    },
+    "WEB8_V5_GEOMETRIC_LAMP_Root": {
+      "geometry": "05f901dcda2cd863673789ca8457a12e62c9c9df34618f2faa0bf659b05b2171",
+      "id": "v5_geometric_floor_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_geometric_floor_lamp__baked__A4": {
+      "geometry": "78805a9352ff93b1c9ff00d3d66f6bd633f6728dd0fc4aab51d13909049d6636",
+      "id": null,
+      "owner": "v5_geometric_floor_lamp",
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_V5_LAMP_HEAD_Pivot": {
+      "geometry": "2902af1d83a0db58f0cefdbdfe3b7986dc3573f3546254d02abc339e844765e7",
+      "id": "v5_floor_lamp_head",
+      "owner": null,
+      "parent": "WEB8_V5_GEOMETRIC_LAMP_Root"
+    },
+    "WEB8_v5_floor_lamp_head__baked__A4": {
+      "geometry": "de776a3d148602d89c8c30e92866156988a94e65929b340cad1345b253cec5e7",
+      "id": null,
+      "owner": "v5_floor_lamp_head",
+      "parent": "WEB8_V5_LAMP_HEAD_Pivot"
+    },
+    "WEB8_V5_CAPSULE_RACK_Root": {
+      "geometry": "a0266280ae1b0b4c6748523f56811e3e57b7480754ecf8d8e01fffcc229528bb",
+      "id": "v5_energy_capsule_rack",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_energy_capsule_rack__baked__A4": {
+      "geometry": "e7e4f2c4b0e5ce30fcc446364f71f3f84d22dbffc18650e8ea3b4427fbcf0044",
+      "id": null,
+      "owner": "v5_energy_capsule_rack",
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_V5_ENERGY_CAPSULE_Pivot": {
+      "geometry": "6ae9b33030647546a7821023ae9de94b023e6ae0e410d75c2ffdfaa8c6264bf0",
+      "id": "v5_energy_capsule",
+      "owner": null,
+      "parent": "WEB8_V5_CAPSULE_RACK_Root"
+    },
+    "WEB8_v5_energy_capsule__baked__A4": {
+      "geometry": "6cade0c5058329c9179e088d3c316ecd8c20fcc76c9cca8581e6afe7f40f798a",
+      "id": null,
+      "owner": "v5_energy_capsule",
+      "parent": "WEB8_V5_ENERGY_CAPSULE_Pivot"
+    },
+    "WEB8_V5_MECHANICAL_PANEL_Root": {
+      "geometry": "634e9bcaac3ee311859984dd347fbe0a4d78b6ea05746a5db45ca37687dbed69",
+      "id": "v5_mechanical_data_panel",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_mechanical_data_panel__baked__A4": {
+      "geometry": "d8ac56bba3cac16e010477c61bee4b5ca63a7462ce7d5448748946467036d57c",
+      "id": null,
+      "owner": "v5_mechanical_data_panel",
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_V5_DATA_SELECTOR_Pivot": {
+      "geometry": "81fda1adbac1f3c04f5f9c0ac51eef0c17c88d44d251a9ab5ebc05c76954183e",
+      "id": "v5_data_panel_selector",
+      "owner": null,
+      "parent": "WEB8_V5_MECHANICAL_PANEL_Root"
+    },
+    "WEB8_v5_data_panel_selector__baked__A4": {
+      "geometry": "28f80c8015e4154730bdf3f347ce2debc0be68c80a17eada12f3912e2adb4aa3",
+      "id": null,
+      "owner": "v5_data_panel_selector",
+      "parent": "WEB8_V5_DATA_SELECTOR_Pivot"
+    },
+    "WEB8_V5_SCOUT_DISPLAY_Root": {
+      "geometry": "326f59674066306482d30c9b24dfa951868ce7be4357ed40e6f1b66905094243",
+      "id": "v5_scout_drone_display",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v5_scout_drone_display__baked__A4": {
+      "geometry": "68d586984aac791612b4bac881007b63fb8397e63f2ec05e34d73e4d91e49adf",
+      "id": null,
+      "owner": "v5_scout_drone_display",
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_V5_SCOUT_DRONE_Pivot": {
+      "geometry": "d658a2596913b2b4850d238c21670bcec97c865413237c9a8e3ea3a3937d52a4",
+      "id": "v5_scout_drone",
+      "owner": null,
+      "parent": "WEB8_V5_SCOUT_DISPLAY_Root"
+    },
+    "WEB8_v5_scout_drone__baked__A4": {
+      "geometry": "a1ce691d0d3814072ccaa1931f8f32cd5fb68f03dff9219f3d435608f3e0cbcc",
+      "id": null,
+      "owner": "v5_scout_drone",
+      "parent": "WEB8_V5_SCOUT_DRONE_Pivot"
+    },
+    "WEB8_EXT6_ORBITAL_DOCK_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.orbital_dock",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.orbital_dock__baked__A5": {
+      "geometry": "c51921918b3deaa0ed73d0f5652fa2656c9f952b642e0877657384fa98b46fca",
+      "id": null,
+      "owner": "environment.orbital_dock",
+      "parent": "WEB8_EXT6_ORBITAL_DOCK_Root"
+    },
+    "WEB8_WG7_WARM_GALLERY_Root": {
+      "geometry": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+      "id": "environment.warm_gallery",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_environment.warm_gallery__baked__A6": {
+      "geometry": "6e99bf57d114e26e4501d72ca123dfa3947a753f9d017c2a27210a334b988336",
+      "id": null,
+      "owner": "environment.warm_gallery",
+      "parent": "WEB8_WG7_WARM_GALLERY_Root"
+    },
+    "WEB8_IW8_DeskPetal_Root": {
+      "geometry": "99e738a11773d1bafabc6fca2492908626a7c0cf8da3e51a030f567fdd064af8",
+      "id": "v8_desk_glow_lamp",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_desk_glow_lamp__baked__A4": {
+      "geometry": "36d7c3c8f1def8becc63ae4465b81a3fe3675a703d7aae3be21c3d7da0e1d1f8",
+      "id": null,
+      "owner": "v8_desk_glow_lamp",
+      "parent": "WEB8_IW8_DeskPetal_Root"
+    },
+    "WEB8_IW8_WindowUndershelf_Root": {
+      "geometry": "826b7939558ef800022b4016ce09e3afb11f22340b7b597c95b67b75e92ecd85",
+      "id": "v8_window_light_bar",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_window_light_bar__baked__A4": {
+      "geometry": "7f6bc0c1a23b97a414b08c38f5a1f943e8600a14267c2370614b90c757a64863",
+      "id": null,
+      "owner": "v8_window_light_bar",
+      "parent": "WEB8_IW8_WindowUndershelf_Root"
+    },
+    "WEB8_IW8_ReadingPuck_Root": {
+      "geometry": "7082044a5a1d6ec333bccda0676f5dfbf061540ba7d4c48d34eb100387b24edf",
+      "id": "v8_reading_puck",
+      "owner": null,
+      "parent": null
+    },
+    "WEB8_v8_reading_puck__baked__A4": {
+      "geometry": "09e0dabfc4ce8bea1e19434f94759f504a021176f2801590384bbca04ccc1fc8",
+      "id": null,
+      "owner": "v8_reading_puck",
+      "parent": "WEB8_IW8_ReadingPuck_Root"
+    },
+    "WEB8_room_static__baked__A0": {
+      "geometry": "fc23fedc654ad452e0a897fad5705dff7770acda3f6d1bc57ef227b017984061",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_room_static__baked__A8": {
+      "geometry": "da6106888dcd32202402a0bbc526ecd18619b6c897f1a781551fd237a96381cd",
+      "id": null,
+      "owner": "room_static",
+      "parent": null
+    },
+    "WEB8_architecture.platform__baked__A0": {
+      "geometry": "0d8bb882ef8c2537c80a4d65e9719871c7c09ec0ac785988d53c691147370882",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    },
+    "WEB8_architecture.platform__baked__A8": {
+      "geometry": "7f0cda52267ffaaf28804fae90c5776bb9d7d89ff6002a9756df268b0dbde92f",
+      "id": null,
+      "owner": "architecture.platform",
+      "parent": "WEB8_V10__A_Platform"
+    },
+    "WEB19_CEILING_WARM_Root": {
+      "geometry": "a143939d93b3350136dc2fcb8ebc576d4c1a6dfeabc8a7c30a362ad3f5255c6d",
+      "id": "lighting.ceiling_warm",
+      "owner": null,
+      "parent": null
+    },
+    "WEB19_lighting.ceiling_warm__baked__A12": {
+      "geometry": "a68c339032f42dc69c1b88c6f2882dcfcccfdc27c55cb4ac0f6868e1fef934c4",
+      "id": null,
+      "owner": "lighting.ceiling_warm",
+      "parent": "WEB19_CEILING_WARM_Root"
+    }
+  },
+  "wholeFileMeshSignatureBefore": "632ff8b70137ee033af8b9a91ed05ff158e2785a263616ffa7e423bb86ae0c31",
+  "wholeFileMeshSignatureAfter": "632ff8b70137ee033af8b9a91ed05ff158e2785a263616ffa7e423bb86ae0c31",
+  "geometryUvsNormalsMaterialIndicesUnchanged": true,
+  "originalMaterialGraphsBefore": {
+    "CHAIR_BAKE_F_Orange_Upholstery_Stitch": "e9a9d8949490fb46c599341b999ae988ae814086077ab1b34438a52da094916c",
+    "CHAIR_BAKE_MAT_Charcoal_Woven": "ef0914411bac5587c3b48f047caa534404d50778045866019186ddbf4a3a5297",
+    "CHAIR_BAKE_MAT_Graphite_Enamel": "5f71682df6519e762d502421ce66235b9aae3c6cf65fdd31a963cd2a4374f63f",
+    "CHAIR_BAKE_MAT_Optical_Black": "674c6ecc5491d23f38ca425d38a656ff5db03857a7ba29133340d8749470bc0c",
+    "CHAIR_BAKE_MAT_Satin_Titanium": "0161d23b40e3f0c540f9c1ff30d19af2842e4ebeb0e3a0e658027a07694d86e1",
+    "CHAIR_BAKE_MAT_Vermilion_Woven": "71c5c1f1ddeb9e86473a34b1a09624480f69db296ee033b91daf687910abacd9",
+    "DAY_SUN_V9_DAY_V8__MAT_Graphite_Enamel": "ca527e36e7777e480773410701bc8b48c16efc130ebe694aa475573084a408de",
+    "DAY_SUN_V9_DAY_V8__MAT_Optical_White": "601a4e7da14297b53f20d4ba861589acc8ef75ce848ec897199a33f848aee774",
+    "DAY_SUN_V9_DAY_V8__MAT_Original_Window_City_V2.001": "141a8c28fc06c54bd82ac862ee3102bae44a6f976bf6c990e5d091b38c44dcec",
+    "DAY_SUN_V9_DAY_V8__MAT_Satin_Titanium": "eedd5cf3ab45400b3bf6ab6bdc130b579ac2516988a5cd14384e8fb8132bfd2f",
+    "DAY_SUN_V9_Opaque_Shadow_Flag": "453623d15bc3c95235eb05f199f793dae6f70325a2666241f238735e69681274",
+    "DAY_V8__D_BlackCeramic": "48b2616f7cecec42ab579e16f7fc9bc59408d6f346755605e054ea73466e89f8",
+    "DAY_V8__D_BlueGreyBookCloth": "9ef427e80f178a0753c5d997dd4a2e7809f498345e6bae4b5a21421bafee8973",
+    "DAY_V8__D_BookPaper": "59c988eaf0a66fcc247198cfe1625a0ebcf85b42e05295eb710f64653da2b7a6",
+    "DAY_V8__D_DeepLanceLeaf": "1ced9daf9d4b902c66558a1ecf34aad5fd94c8fc5434d9b95bb45d44b2443332",
+    "DAY_V8__D_OpticCoating": "5faa91c81588998090ef5fb59b8b11f1f8391bad25e2390cd29fe97bf848652c",
+    "DAY_V8__D_PaleMidrib": "9ab3552beec25544613cf877ddfd110e03c1c01f5fef6f7f387a4ef452aa9949",
+    "DAY_V8__D_PaperEdges": "40e112d49ee347804e57a6b28baa42b9fe0e3736d4ea64620d6fa29ac39c48a4",
+    "DAY_V8__D_PlanterGlass": "8bd74b660afc5e7a99d23d71f9de26d27b90a522983e46c4ac41203e28c5afe7",
+    "DAY_V8__D_PlanterSoil": "de336b77cb12e0666ecae2768fe62663cef5dfab4ddebcf7c2d72c871545213a",
+    "DAY_V8__D_SageLanceLeaf": "069e1059f55f19c3437bc0bb238f5279fb2c84ef3c646b58240171efd10c3cb0",
+    "DAY_V8__D_SoftAnodizedGold": "2fdb3cd1bb5c9b9017fb3fe592904660ba211ef672cb5530ca2458ede60460a0",
+    "DAY_V8__D_SoftDisplayLine": "9d676c7936a0bbd1de2ff0c4b899ecbbf5963786ee38da2026a883491027e15c",
+    "DAY_V8__D_SpecimenSmokeGlass": "50b818a3b5555c06bf549c2f3148d577ad049fa1660dd50ccf6dd1a47e6f8e12",
+    "DAY_V8__D_WarmGreyBookCloth": "6764c9c48f408b6a4a204b6d9493458c60eab252d70540943a1f69c6e5eb392f",
+    "DAY_V8__EXT6_MAT_BlueGreyEnamel": "e7131a014341a118bfe2cfc3ca90db3290ad32290c9d8d3048a49b12a5d03bdc",
+    "DAY_V8__EXT6_MAT_BurntOrange": "827ea5f185331af0e810800acfefb6cae44e146303408e81924fdc1c405d5d71",
+    "DAY_V8__EXT6_MAT_Graphite": "f4eb74781ce67940bd827c7e70a2525f4b258a3728a9af91c11fefc1372b2254",
+    "DAY_V8__EXT6_MAT_IceSignal": "ed59c45fefff6c5b18468c2fef389c3cacf0b355c7b750883bfb08da1ffe8343",
+    "DAY_V8__EXT6_MAT_SatinTitanium": "11e80bd010986c1ca08d1af1ad8becc25cdf98a05fa6aa1d6b05653400eef7a2",
+    "DAY_V8__EXT6_MAT_WarmSignal": "553a53a120b1df155eac18a05596670ab4391a2c0f7372321ada080399527904",
+    "DAY_V8__F_Chair_Seam": "018537374147f001665a991d6929a59a3449ef9dd8718a05ffbdfc8c759d5c19",
+    "DAY_V8__F_Orange_Upholstery_Stitch": "a7e6262fcd1594fbe062f4dca788c7ba139ce5a6ea1116977d82306d8a84c7c5",
+    "DAY_V8__F_Rug_Embossed_Grooves": "84f164848a0d0584c92bd3b4aa18c2f70a220596c72189af2deec606d24b4b63",
+    "DAY_V8__IW8_MAT_Graphite": "f5bcfd6bc98f91bac90e9141157d9c02276f63bb129c878d29887a4d0680a7e5",
+    "DAY_V8__IW8_MAT_IvoryCeramic": "f4b3768511245727c23ac9d2c7f85f303f3ba68c3436be51e1b794b98f85bc01",
+    "DAY_V8__IW8_MAT_SatinTitanium": "bad24e40bdc0db018f586bae2eb3ebceb0fd43e5cfa81f3b8dc3604924ddbc08",
+    "DAY_V8__IW8_MAT_WarmDiffuser": "7743ba1a3cf12aa8be5feddec71963a89581c62cd54e135f67170331c7fd3c98",
+    "DAY_V8__MAT_Amber_Status": "05c508d7655be810f5b332f83204b3c3bef91115970bc6c5be5cd31b3bfbbefe",
+    "DAY_V8__MAT_Charcoal_Woven": "eb2c9be3953f48bda3943258884338903a25b10ab1d29e6c4e8d2e212751a44c",
+    "DAY_V8__MAT_Compute_Smoked_Optical_Glass": "ee37632680c807b0b650c5c4cad0492dd33460260cc6b084de73d8c52e433814",
+    "DAY_V8__MAT_Graphite_Enamel": "28c2eb1bd64ef08317d36b575e8e04d0107d975e66eafca30f8da15ad4c17578",
+    "DAY_V8__MAT_Graphite_Rug": "f2c2badf1506c1fce6e6decac9e015560b9781a2018503dfc6cbd65322aa5731",
+    "DAY_V8__MAT_Ivory_Ceramic": "7f52977a6c38f8c8c3011c899d91b8c1846eb7eab200fd2c722d4d19afc26114",
+    "DAY_V8__MAT_Optical_Black": "f721dd0f9fde8d94e36d68790c3cf52d4a5e6b534fd87c57f5aad60ccc5a4e47",
+    "DAY_V8__MAT_Optical_White": "535a5f500e8259534b87af290c27e6ab4d107d699db0df0bdb03bee4baa03eda",
+    "DAY_V8__MAT_Rendered_3D_ScreenArtwork": "cd3417cc17ae107b03d1950c0b4222a1f4494c1babe67e07a0b5ef4d6cbf71f3",
+    "DAY_V8__MAT_Satin_Titanium": "612fb5727778878ec215761359db192cfae4d3cd38d24bd414bf0d3294ee6d0a",
+    "DAY_V8__MAT_Smoke_Glass": "92653165b7db573a6f6937005c324bada2a8acc1b3edadc431327197c83939ed",
+    "DAY_V8__MAT_Studio_Backdrop": "e82be5a4c91214ef0f6d93c76c36438a688d74ae3eeb3432ee13f7398ed374fe",
+    "DAY_V8__MAT_Titanium_Floor": "82135f0f8729f772f7c2bc06dd6b3f8a6a2b06e2fc7f93c7254baa80dc743706",
+    "DAY_V8__MAT_Vermilion_Woven": "61e4535c6cdbdbbf19362cc5cfe1e4dba9008138e4dcaffb8e63f65ebb33fd0f",
+    "DAY_V8__MAT_Warm_White": "7cc5c235f7bb5dedd0bcda3f6c648483bb4e451d7315ccb1238528e67f5e24dc",
+    "DAY_V8__P_BonsaiBark": "5ec330c8be261a54da24f9266dff01a04203f6ca562403ab1e7c2548481af701",
+    "DAY_V8__P_ClearTerrariumGlass": "a52e4d77dbffff64bcda33cd10311a4b4c0561ddaa44f191a66492507def543f",
+    "DAY_V8__P_CreativeFolioCover": "5e8ae3670aade94130d7b03d75464fc53843ece7a1f8a6b42145babbafee601d",
+    "DAY_V8__P_DeepLeaf": "0abb4f042284953257cf40a6c9754e8703042b1beb079d95291730f7d06430f6",
+    "DAY_V8__P_DisplayInk": "7be829c241b057cc27246f8d69ab6f2a636bc84486545cb440e0c4deabfc2b59",
+    "DAY_V8__P_DisplaySilverBlue": "30a68ddb3367282d33976488666c9bbae4154f8ce8a736109085db3fd2634c79",
+    "DAY_V8__P_GreenStem": "d15f57405eab9ca38322548782b7252393c38ca355aab6d95e5e153a0e071b06",
+    "DAY_V8__P_LensCoating": "e7f397853c4f8b0a5dde848ac5815e8e1d62a6f27291138c61951c37b986b691",
+    "DAY_V8__P_NewLeaf": "7afe90576f8711cd37969778b2dcc87a1edf3a1ad9a3a2ae2fd1968f45d99efb",
+    "DAY_V8__P_PageEdge": "9cadd54b85a6aa18565d4a81683e3d6adf14aa198d13c09e775d05f2ce541c59",
+    "DAY_V8__P_PetalBrushedSilver": "d5ff118524df40628c1154129119647a740f98bcdec847e7217002b6f61e7f7c",
+    "DAY_V8__P_RiverStone": "fcefecba8f6126f11f3ae54ffadbb0c21bf19429aec25b47ede8aa21a912f356",
+    "DAY_V8__P_Soil": "be5ef5ccb27597316f4803bb77e1d78a942341cae60b7a0d10af384da132919e",
+    "DAY_V8__P_TeaSurface": "d307bb4de0a0c01cc8e77dcb0cbf97ed25110cbfa135ae0b93f51aeff3056769",
+    "DAY_V8__P_TerrariumMoss": "de4cd9b56deac64c3c11902fe663e4b2a87f4b5dc32b9acb1afc96049d7fca99",
+    "DAY_V8__P_WarmAnodizedMetal": "432ea027a8d898373fb2213704c916807a0acaa3ba6e9887e33c799caf029b64",
+    "DAY_V8__P_WarmPaper": "c9bb40a5edeee3f6d58bf591315b6378224c4e2f699edc9385fd27a48fa640fe",
+    "DAY_V8__V5_MAT_AmberSignal": "5b48375091b405531bf591eab9a058e29d6007f3415c460c07653860c6b14f2f",
+    "DAY_V8__V5_MAT_BlueGreyEnamel": "86c4e585c4623ec916c675a7eb7076a03fd5741635a279f6420a00a235877f7a",
+    "DAY_V8__V5_MAT_BurntOrange": "1689a5f51b44ce8c5a0826b1b0fc96330cbe3d7371d4874aefdce941023b63e1",
+    "DAY_V8__V5_MAT_Graphite": "512a5db8350907ac9ff86d208a671bc16bc91a5a3ae41c2286e0fb18f6b208c0",
+    "DAY_V8__V5_MAT_IceSignal": "8af05d3c2295c857f654108dad4ba3bc1db03a91e52f0924d0742151ff7683eb",
+    "DAY_V8__V5_MAT_PearlCeramic": "6fdf75ae242ba13bce1cb39f284490fcdbb9da357eff2a22bd87fb1366e66bb1",
+    "DAY_V8__V5_MAT_RecessedOptics": "2c142a9b5ef512a87ad90d79046aba7f479c8fd986c1dde51a8711eba38fe9ee",
+    "DAY_V8__V5_MAT_SatinTitanium": "46de34a8b1f18526fd7c17bbe4396c0f4cb5db0f5162f8cf46ccecac25a408c8",
+    "DAY_V8__V5_MAT_WarmDiffuser": "91e93ebaf052c54e9378f4f63ea3c9a591fdc3171cd3ccc796c10d1f6be7f3fd",
+    "DAY_V8__WG7_MAT_AmberDiffuser": "d71da90c8ab8cef1d51ce290b3cfd6f45958281dcd9a11e70cc6dc3d90c9a44a",
+    "DAY_V8__WG7_MAT_BlueGrey": "63fbc0f0780a2d24657f20616a6de5938e5b2aace8036ffecb0f97da1397185a",
+    "DAY_V8__WG7_MAT_ChampagneMetal": "c2ebd641f75fadd57d4124b9024906a68250bf4c09ce1b6cc96fd4c6be4118df",
+    "DAY_V8__WG7_MAT_DesaturatedBotanical": "4f4776e723a215749fc420ecd4a9525d73d45783aae67162162ab6ddd0c34f6f",
+    "DAY_V8__WG7_MAT_Graphite": "63b845e5baf82f7f019d701874d293a1960561dde36ef05777cfc63f992b6490",
+    "DAY_V8__WG7_MAT_Titanium": "a9a4d1c6509efccb1c6f4d901739e255a9b5fb27979bb93d4352383301b3c417",
+    "DAY_V8__WG7_MAT_WalnutOrangeEnamel": "58f46488566a27621d6dd914fbb2870ae79c3e4eb0a919c70daf2203ee68f647",
+    "DAY_V8__WG7_MAT_WarmCeramic": "647fcddb205312b2ed40810ee7c1a6ba0843ffee62cf36e9845a980ee5632252",
+    "DAY_V8__WG7_MAT_WarmWhiteDiffuser": "db2d57847b753a4b723e61dca4346457e8acc8f9c63ef9ebd34724572a5d786e",
+    "D_BlackCeramic": "69673e221a9b3c46996c5b6dbe6ed89ae7099c80f714d24ba610368dc1b5923f",
+    "D_BlueGreyBookCloth": "008af5e8d764f85a7a232a1aca21e73fd14f98299423502880fe16f26038d911",
+    "D_BookPaper": "3779529224186a4c1d25848e14c4f5a575e0ecf1c6009e803eb7e6b9d156e415",
+    "D_DeepLanceLeaf": "d078374c0903aed0b34e3a9492db928a6f99616262352c5b6559d67e1dd0be2f",
+    "D_OpticCoating": "96be17d8e728cdfb8eb5b1369e87532d2bcf5e7b2671ae53076303cc47a6dd9e",
+    "D_PaleMidrib": "406188d9d1371ee488a283dcfa62529db28e88d90c5edf47830983ca0f8237a8",
+    "D_PaperEdges": "bf827709381c25c204cf69850758cdd624de681ec55a3cc76f940eda7fded95a",
+    "D_PlanterGlass": "09228c7279131b467ec7201d30a5f8b7912ca6426d15e405fa22b08df93f4a37",
+    "D_PlanterSoil": "f966058a5f9131154cc6591692129cb03efe6cfbc89e09a86a8347da5a4f9732",
+    "D_SageLanceLeaf": "9297d9eba8d80596a4d11fe0064322bd18cd14f97c310ddac37e1034d09701a3",
+    "D_SoftAnodizedGold": "ed06dc3448cb058e991ab84f6a71623e87ded5b30985bfb96b88568a322dc982",
+    "D_SoftDisplayLine": "d98edf8c7e9e54dc99e98c1931218599d6f6262599cf887e43ecc3b363fff717",
+    "D_SpecimenSmokeGlass": "716faa189da53eda6f44b3800b6c62a8ffa7410f72d1191ed6f6a4c5b97719a2",
+    "D_WarmGreyBookCloth": "4b041372746b18cad30c0d4bd145535c4f75a2ce8a67ff3c1f568e16e79efb75",
+    "ENV_Cliff_Stone": "8c2ede822d068ec96a71a7368e7c56b65fc997c4d657028468adbefd0dc979d7",
+    "ENV_Cliff_Stone.001": "de4fc3fe84e6d2dbd2ee738138ea6f7f7146c37541582605d0ec3a3e1d067b44",
+    "ENV_Cliff_Vegetation": "9a765abe9ca9e71d8c12f375fa162a86a4bb6a29e5902de7ffcf96339fe183a1",
+    "ENV_Cliff_Vegetation.001": "0c0762ac3c5043a5f4cc9498b89898cfa73f6c2a81815fd7d00a6a5cfa2c45b1",
+    "ENV_Cloud_Sea_Volume": "7d6a70723f78a8dbd74242b69a37d6034296da1389057360dfb57e16ecd39672",
+    "ENV_Cloud_Sea_Volume.001": "7f95eca149ca289e6289f2546574b11123f61f7d83f83a8d60b0aa0b29867f7e",
+    "ENV_Curtain_Wall_Glass": "eaaed231e45294191468b6022710beb694dbe114af09b3743c7c117c0e7a756b",
+    "ENV_Distant_Planet": "1b884d0224e75e7069bc28c1df7ecbd5d0fe7d63dc04876c2106ed362f178279",
+    "ENV_Distant_Planet.001": "1b8e662d17be26d8c6e648557ffa9d66da9fc81877c3929b53d529f7b2739c01",
+    "ENV_Fine_Cyan_Lines": "7e83c40c89c3b7de7a47dfc9315f7e8953d11d670c52fc888d86e3dac9d3b5be",
+    "ENV_Fine_Cyan_Lines.001": "d245472a9425af1af24cd85442bd84793ad3ba255f716d80fd156e6e7972b70d",
+    "ENV_Glass": "2ba7292e0d7b8e2cae621a55ff3fa835cfd073225f9b914baf1a0de2edb1162e",
+    "ENV_Gradient_Sky": "f3fe016af758cdfdb3269671559c1d2fc8562d9373331061245e98f0e4574b8a",
+    "ENV_Gradient_Sky.001": "d74d6ef084a1380011b0b9c7ecb236bdfa3cb612ea259b91b98d11660553ad15",
+    "ENV_Haze_Layer_1": "2158cfac9906e390b8e05c4b44d73a635d068f64bbb4617ff05ce25e7dd0fc21",
+    "ENV_Haze_Layer_1.001": "d785c8b798587a066751427d50633af8e6fa8e9d6025dd5f522d786c019ca658",
+    "ENV_Haze_Layer_2": "ec98a0eeb989acde0e86f3f9e7a7589d2998257ac13c21c0b31c6f90dc04fda8",
+    "ENV_Haze_Layer_2.001": "e02ebf6aa39e33357273976d30f07cc691757339ac38f32feceaec964989ffb9",
+    "ENV_Haze_Layer_3": "23e5865f0f0ac7215b73773d95ff468230e66e1bcfacc8e5f905799818c2d862",
+    "ENV_Haze_Layer_3.001": "4b3194092189e6d4bcc687d4f2197cef6c92fa461aef99d93a1c45a14dcbfe61",
+    "ENV_Porcelain": "f75974648f8c0a16507b6b65f645c6efc7e81f50405884eae886612b429f2bfb",
+    "ENV_Porcelain.001": "c22163fc22f347ad79f86a89cb70a0a5dcad18657fa74c6299260a9ba49b9df8",
+    "ENV_Structural_Shadow.001": "c12e855af7006aada8b95e3c4960c5892a424446bc48b9bb6abcfb925be37b3f",
+    "ENV_Titanium": "2001a559864af688f34210183d3364179625c535355f39aa5b8f893836e95167",
+    "ENV_Titanium.001": "a63db7a24c3062d5e1880cb15960c61c977f5025b4614e287b04a19f64e1b2ba",
+    "EXT6_MAT_BlueGreyEnamel": "0f84f84eda2f929c04e28d54994ebb0e24aca0bbae1a93576de06e7d6d55e3db",
+    "EXT6_MAT_BurntOrange": "0df3bf29bfdab413fd2c15ad9f59df9a7ff77267e5ad813767cd4101d59b9250",
+    "EXT6_MAT_Graphite": "3af466a160481c4089aa07f1800c126824f765f0998b228718afc66226044d45",
+    "EXT6_MAT_IceSignal": "24ab355d8b97404cedb83c50cf7584b089240f2dcb42892a826de44d69cb6efb",
+    "EXT6_MAT_SatinTitanium": "113712dd39109ea380e1360637baa84a3a650531204ddf5da8dbbc7f5176b6e5",
+    "EXT6_MAT_WarmSignal": "c0a13e592dcce4984f4a15c28f70a77528fedbccd8d7ea047327ce77b13f9c46",
+    "F_Chair_Seam": "003425c562fc491dd19d74cffa819b111b46d4ddf6da9df34094a94860768fc4",
+    "F_Orange_Upholstery_Stitch": "0d45b2ff69432d225791cd82a51db6845bce005c96912690fcdd6e7a78ee9ec3",
+    "F_Rug_Embossed_Grooves": "d2d3c6406c706c48e057ad8cf14c798b8a1a3b4068578e618a8106285c900de3",
+    "IW8_MAT_Graphite": "a0389f184cbd8b105aada662b4ec4fe56a40049572b43aa37c21abbfdd9f0f85",
+    "IW8_MAT_IvoryCeramic": "35585d3d5400595fcd766569ee1121a98566a9581c0540b5b9525bf0c5dc2608",
+    "IW8_MAT_SatinTitanium": "f69ff363830352b575509ea7ec922371005a67fdeeb8d89322ad1fb91bc27b3e",
+    "IW8_MAT_WarmDiffuser": "57139dbf1a74499094aa4abac6727640ee55915ff903e7ef9b11feee76b5b978",
+    "MAT_Amber_Status": "09c8ed58118bcdb5a88cf09177ed9b21c4648e3b65b7c98b006f27c2c641ae1f",
+    "MAT_Charcoal_Woven": "317fd605362c6cfa2b461a3557d2631993ccda22db895bbdce035bc6c26efb01",
+    "MAT_Compute_Smoked_Optical_Glass": "5f5b144bee9de2612d27f0a0e1fc8d2556bff0b998b917c3c46373d63dca377d",
+    "MAT_Graphite_Enamel": "293ffff2905d21d771ac97223e934cc3e3213aa7a4e39ab96944d69a306409e9",
+    "MAT_Graphite_Rug": "2d935538fc0bbe805c00d6189b10ee5326dc036f984ba4e5fe92bab976db1f89",
+    "MAT_Ivory_Ceramic": "b634c380914da796038cb54a3101c015bf61d2f1389f66b72e55690a553cc53f",
+    "MAT_Optical_Black": "f80242b14b76e927a8954fe914c77c1bd85c37ff08d01021710e5626e4e62ab9",
+    "MAT_Optical_White": "87b890d60b521e3e36c52d94badc18f1dbe576bd750f731172936566bddcdf2b",
+    "MAT_Original_Window_City_V2.001": "f10b8381d25dbd7849133e0bdbf937f7222eaece592c7d494e5729b8d3dfaf40",
+    "MAT_Rendered_3D_ScreenArtwork": "f89f52aa90d171ed70090f50789dc96e6ecff3ec805c4667cb67f8c6341782d1",
+    "MAT_Satin_Titanium": "99e3a72d80abb55c0f66b8d5fb59278530c6635202281401930504c6df914480",
+    "MAT_Smoke_Glass": "1c7ab93a122632d1f01f1bed7e0fa21f8f6723fdbdbbb2e33e09387bf40f8b34",
+    "MAT_Studio_Backdrop": "73c88a8c2faa6cbd9348c97e7c5c5acbae076a98249ad028ce3d668ca6562692",
+    "MAT_Titanium_Floor": "4bb4d08647edbe5bb30c06265fed70b3bc6713b86a76e748c369954c7db370db",
+    "MAT_Vermilion_Woven": "8c1f75587a9d7c2ae8460c346def73d0e05a3b04786e4fb8438cbce2d235884d",
+    "MAT_Warm_White": "c5fe7636b08239ae868d06bac95bcbdfdb637ca47addb0f03d3af8b2a755b462",
+    "Material": "9f5bf53fb979773d70d669245745e5a3c3b59d2a98b01d9439dcdf07b20383f4",
+    "NIGHT_V8__D_BlackCeramic": "8d2a377b60c604ba55c512a3eaa13fa28fd4cc0b13a8bb6a620870573779dba6",
+    "NIGHT_V8__D_BlueGreyBookCloth": "51155de4deed1214e7396e725a8e3c727998b30d005d033f5523aef6498cc05d",
+    "NIGHT_V8__D_BookPaper": "bafd994f5b5b35a6cf964fd4bad9eaf2b7ed3d5cdac428a4be4638fd81e5a104",
+    "NIGHT_V8__D_DeepLanceLeaf": "7e67fa554a250a4c6fd990d33a3d2be5f462d9b5ed3f85d86b9b3e133aaabab7",
+    "NIGHT_V8__D_OpticCoating": "26b5080dd0167e0dadc667695b9034e9fe3a71f90977d2e113225b1cf3af10fa",
+    "NIGHT_V8__D_PaleMidrib": "e85a2b36f403c7521ad4b14612741e0b3f48dd8d4d63d34c4a7a34a79ea25c44",
+    "NIGHT_V8__D_PaperEdges": "10ed4c2ede40b8c6667e9404406f67b6ca3daba1f868f04cc4c306ad42f6a7ee",
+    "NIGHT_V8__D_PlanterGlass": "3a8b57acf28b4c096d5f588165309728639162407dd674c285619fd43aaffc4a",
+    "NIGHT_V8__D_PlanterSoil": "6f745bb57072dab67c9c74fb33fb5285e8b24529f7e6cec8c8033973ed6262ab",
+    "NIGHT_V8__D_SageLanceLeaf": "7094706c0382b19b18a9062d6a19e2abd6197d7fb14c1696e558a98b47520aea",
+    "NIGHT_V8__D_SoftAnodizedGold": "1b498526620c2a1038365df99d8c072c0f771c5a60b8efc3d4e621ec5bf2cd3d",
+    "NIGHT_V8__D_SoftDisplayLine": "4e2fbfc96d013f3d175749c36fb9b0222b093bce9c85c1d55e9824aa3200925d",
+    "NIGHT_V8__D_SpecimenSmokeGlass": "2d7b7f08f26767d5f80872f2fb14819de74fd5232858bea464b7d51c94683cce",
+    "NIGHT_V8__D_WarmGreyBookCloth": "023394529cacbc88c687df1db8bcecf11f738c624137a561d2b2ebbb830ec09b",
+    "NIGHT_V8__EXT6_MAT_BlueGreyEnamel": "1a264881b18a749113cf32a21f4f35899236db1f977f1ac0b6a08542199909ec",
+    "NIGHT_V8__EXT6_MAT_BurntOrange": "382fb07f794e6b6b520c631f8cac802022b1cc7b3dc7536b02b799f10bb40f4d",
+    "NIGHT_V8__EXT6_MAT_Graphite": "c5bef34356b9538a3422de7bc7c91a54a9df6e623dad96808f9afc14e7df6f0a",
+    "NIGHT_V8__EXT6_MAT_IceSignal": "bd1a346974a935fc4fccb2805f21e27352f61b6224fd8b37326018552c0e150c",
+    "NIGHT_V8__EXT6_MAT_SatinTitanium": "5e202f305652e77abe622a25d4b8f9e0ec93d19ba796e29341227432c0b583fc",
+    "NIGHT_V8__EXT6_MAT_WarmSignal": "093cda1eaaec2c18a7609f0aba664bce101247e41d3cf56d9ba49d657f358407",
+    "NIGHT_V8__F_Chair_Seam": "5cdd9841b2647834b691310f6a7907d90acf18e3edfa097f0b73c4bdbc9d72ec",
+    "NIGHT_V8__F_Orange_Upholstery_Stitch": "c52303db87287ac7b19896c9bebaabbb6df157bf6bca720efbfe2a7cd36fc745",
+    "NIGHT_V8__F_Rug_Embossed_Grooves": "f6b21dffdf72dcb3289e415d055fb6902aa71b42a1be86877c9826b10e9121c4",
+    "NIGHT_V8__IW8_MAT_Graphite": "19303f0c3cb92341a5692e13c605680a03e86bdededbc27fe98fcc6a3f3f747e",
+    "NIGHT_V8__IW8_MAT_IvoryCeramic": "5ba5d617ef99420d74a3b853d30fadc3f9564bc7ce554106977e3a5665e5cba8",
+    "NIGHT_V8__IW8_MAT_SatinTitanium": "080875cc0c9d4b49eadb820eee056ca2649f6e999b38919bb63bd2701b85d09c",
+    "NIGHT_V8__IW8_MAT_WarmDiffuser": "94cfcaf43c3bce30594225cc17c24aa9e4f29261da3f34ce41b53ebe3457109a",
+    "NIGHT_V8__MAT_Amber_Status": "8b46cd93dac1eb3586c285adbe2d62863f8b121c66d65d6b20764eaf5852a923",
+    "NIGHT_V8__MAT_Charcoal_Woven": "ed600faca51ea950b4af81105d60c50b886efa7a6da2e596356e44c97c909f10",
+    "NIGHT_V8__MAT_Compute_Smoked_Optical_Glass": "5265b9566f83f712455743a5a524782e7067a95da5b74d0390d1b498c46e840b",
+    "NIGHT_V8__MAT_Graphite_Enamel": "96ed490dc8c1014448b2c4e9d5ecbab741a80cac9a29d230364a0b5296fc3eaa",
+    "NIGHT_V8__MAT_Graphite_Rug": "ff2df63b00cf5d08998cfeb0006642e2129cae6fb067aa86644c779450b8fc39",
+    "NIGHT_V8__MAT_Ivory_Ceramic": "0efddaa40e7b80ab8706e29c6e5e6e3b1bc6b14fe7a7c56fac6c296eef0317cd",
+    "NIGHT_V8__MAT_Optical_Black": "1b084574433714552bd2c0683835bd0a5d90ac25973279e50c25395bb607c223",
+    "NIGHT_V8__MAT_Optical_White": "d8bf261d7156382ebefe3a2b29b45cbcd13a9532905f7e7718784727c3e3cc27",
+    "NIGHT_V8__MAT_Original_Window_City_V2.001": "99e493e654627d6952947042d2c5000979b7ffbe9bc10e87aafef9fac24cf418",
+    "NIGHT_V8__MAT_Rendered_3D_ScreenArtwork": "9b85eff597a5941aa161ebb2ad381b9bed338631d2f2497c24fece9d63498555",
+    "NIGHT_V8__MAT_Satin_Titanium": "ac0b9ca0470a1670731b91794af4de483f7ff792ceabbec6493f43f451fda0db",
+    "NIGHT_V8__MAT_Smoke_Glass": "b28fc3f53b543e645f7439ef8f23a5886e9c6f9e576b912d31aafa155c0fc39b",
+    "NIGHT_V8__MAT_Studio_Backdrop": "8279ef02b7a44c6e16b8a01ed666bbfc5cf7bc2d005d6e266471628a6cc12bcd",
+    "NIGHT_V8__MAT_Titanium_Floor": "710e7b2c5249543f7867fa013982b7354e9dd3e129b7f9b7f9c7f285bb2bd6f0",
+    "NIGHT_V8__MAT_Vermilion_Woven": "2775c4f3a62718b91732bc913fe5588b6903da6774ca289602fcf34cdf02be6e",
+    "NIGHT_V8__MAT_Warm_White": "efe58903200883af7b2519f3bb3921188bcdbd253f7c6a921b934ff35344d14b",
+    "NIGHT_V8__P_BonsaiBark": "06143e7fd9116441783da9845e4fcc3abb57e61709b20031a05d58284c683109",
+    "NIGHT_V8__P_ClearTerrariumGlass": "7133be82f0977e44a7107d1016901e6f11d75b0a40ecc37d97461938478039ff",
+    "NIGHT_V8__P_CreativeFolioCover": "dfda6207cbe823644a1b03b36741c1635892d2e13329efe2985edafe7e0d20d5",
+    "NIGHT_V8__P_DeepLeaf": "e03bcb69ceb0e14be5d6198e82e011fe326ac73937fee4ec6b884e962f29b3ab",
+    "NIGHT_V8__P_DisplayInk": "4f87b8fe7cc818485f5cd0f007288631d1e2de6e89d82ed26fd277e7a8ff0458",
+    "NIGHT_V8__P_DisplaySilverBlue": "083dbebd0d6c7c4b6094aada42a24c60402a077cc2ccc49940bb783f4483b478",
+    "NIGHT_V8__P_GreenStem": "73f4755b145f3f09cf8290e8af6ea8edf03fcfe0a195c350577f69cec0183a3a",
+    "NIGHT_V8__P_LensCoating": "1461c6a7077abb8524d861b00d1e3e01be82003a82a343f1e5d90db6d527ce82",
+    "NIGHT_V8__P_NewLeaf": "51e59df6a7fe9f3e32b9c6349c126c6e49ef0e05fb1670ba281774fb32d75e0d",
+    "NIGHT_V8__P_PageEdge": "2abb68515fb16681ee6ae08787456d0b938d4246869e390da310d4ccc9b17dee",
+    "NIGHT_V8__P_PetalBrushedSilver": "7b1c2de6282d78ef1571bec84cd35cceea96c04ef40f30e3951877d75b74fef8",
+    "NIGHT_V8__P_RiverStone": "c88fd33f52bc98210fad47405436845b64433ce8cab6af68a1064e41cfd73a6c",
+    "NIGHT_V8__P_Soil": "0cbe3655e121538e6a35e055563a1313f5ce7aca261094e4f85c18832a353701",
+    "NIGHT_V8__P_TeaSurface": "d6fe71e4b69e30565cde023d805eab5acf5bc5b5d1734654a1fd7421ab9bb7be",
+    "NIGHT_V8__P_TerrariumMoss": "4f9cc67accbacc8b877fe38c1902fd225fd910b70debe37b6e5270789d1578c6",
+    "NIGHT_V8__P_WarmAnodizedMetal": "cd8364caf7e7a6b0a63eb103649d314778f5f373beaeba2a065402a49e8e1561",
+    "NIGHT_V8__P_WarmPaper": "3b0199bdb7069278f9427e96d53fc814fbd5317a5643bf58f0143869edeef7fc",
+    "NIGHT_V8__V5_MAT_AmberSignal": "0cfb92e8d3883c338b21154d29f6648eaad3681b7733b848a47453763e9a7d05",
+    "NIGHT_V8__V5_MAT_BlueGreyEnamel": "57198c86ed3b8b30545cd766316890a4bfb8150ec44a502f88426bdf5ff6d684",
+    "NIGHT_V8__V5_MAT_BurntOrange": "ddd8b109d3129c53faec0ddddc4af3810a1cb42c2c469fbdc41548846b81adde",
+    "NIGHT_V8__V5_MAT_Graphite": "eb6ce560d20433538f9eb932ec9fa28def35bad8d4ef7816d63f7f9b7cc6f8f3",
+    "NIGHT_V8__V5_MAT_IceSignal": "deb82688fa849f27e2ef83cd5da2f21bc346c30613bbf6598aa503d4feb212b2",
+    "NIGHT_V8__V5_MAT_PearlCeramic": "235ac3192a649c5319a5ee2fb49dc89337d79758427ebfc7a18f9a0a96aca8da",
+    "NIGHT_V8__V5_MAT_RecessedOptics": "f874cc487c6f33eb271340646b62323411b0c49918cc1e6a0747b37b393c7896",
+    "NIGHT_V8__V5_MAT_SatinTitanium": "fa1e7c4715b4351051bcaa0ca97cceff509fbdb0c5488322e8a97bee1c31b113",
+    "NIGHT_V8__V5_MAT_WarmDiffuser": "6db312d35c18b5e71391888771a83257b8875ccab97e0b2aa2b7089b9261dda1",
+    "NIGHT_V8__WG7_MAT_AmberDiffuser": "e76b7b5ca36caae2947166763da6a01f026541f1534b4f0f25cae344ce090129",
+    "NIGHT_V8__WG7_MAT_BlueGrey": "25bebc5dde6ca02a01e6d53ebc9ab2f58caeac8b1d864ff88238950697ce6c71",
+    "NIGHT_V8__WG7_MAT_ChampagneMetal": "7d46dc0bf15b26eaed3ea8d7b638d4747d9a9cfbbb130a5889221de321d079a1",
+    "NIGHT_V8__WG7_MAT_DesaturatedBotanical": "d9543dd6e1d76a13da9994dd4799d1293b727a0d422eab64c9314fdb54576a46",
+    "NIGHT_V8__WG7_MAT_Graphite": "ce1f234deba9ee8e036a510e2e8da071cc8edc78b39157208b7ca61e77b17007",
+    "NIGHT_V8__WG7_MAT_Titanium": "bca5b598ea881ce1f5d8e4c4b7c21d4cc1c373b3880ba7ad18b87e38680c831b",
+    "NIGHT_V8__WG7_MAT_WalnutOrangeEnamel": "84ca1b1d7acc136fd8260864b08c27996b2d7142a44b8ddf768f6ff681f14a62",
+    "NIGHT_V8__WG7_MAT_WarmCeramic": "22668b99dddeb3b8afdca34579ec4fd79689ee517df75ddbf830ce52a279d133",
+    "NIGHT_V8__WG7_MAT_WarmWhiteDiffuser": "d24b7433ba9e0d9aaa5467de96309f18fbdb69a2cdbe4f95c0978e2885e41f9c",
+    "P_BonsaiBark": "5db22c986c9b796be0ce98a3609b2641adb985796bdc1139dc1bfb787e9ec91b",
+    "P_ClearTerrariumGlass": "369141e46a75e69af6d0feb0e2eeeefd2651b6f082921b60795cd44baa23c80b",
+    "P_CreativeFolioCover": "47bd2de689787c13577c1386e39801e86895596a7d4d43701add0d6b959010fb",
+    "P_DeepLeaf": "47856477c18bfcc90440cb035ff3042b953f2d327a48fed081264289af2874bd",
+    "P_DisplayInk": "f022f4f903ac3d332baec625b316ff17bbc7c0fc4b7f3e34668234c43736972d",
+    "P_DisplaySilverBlue": "b7c0f6b5929b67b9a8ef3f13cfce6b221681ca22a5e539bb57450d406b8e2323",
+    "P_GreenStem": "4d24bd629b062d27b33fafec8f3ae3ca88a53214e2d8565d74e6c8824e8470f0",
+    "P_LensCoating": "6c67b2df991c22a1c044769e244ddfa6d2cb9544a253d616a972989805b5b4be",
+    "P_NewLeaf": "7a6840ae1ff3817a5ab068daec17fc19eb041ab51726127348cf0a640b2c38e8",
+    "P_PageEdge": "cbb06347c0b802b30760c31e267d585f845aa63c8b030f5468bb1fbe9a690af4",
+    "P_PetalBrushedSilver": "b5d739c0304d263ca18c4e38a61415717a83200f83e2fa7e8665f53882e7dcc2",
+    "P_RiverStone": "39c04b78992ef8ed5ffa50340fd7996fd7b93e9abfd5920da81ad7bc8b6d8c22",
+    "P_Soil": "62bb930f642bcdbb0b86b1360d9358e52d561fd3a19d686a453c9c8a929a8aa8",
+    "P_TeaSurface": "54008c415bfd943168dc25ef17952223c5edf8295abd14d246a46b840948b064",
+    "P_TerrariumMoss": "0eaa2c02649986af741f5c7c77ffa1193c6cd0d04c085aeadef3fd1e966886fd",
+    "P_WarmAnodizedMetal": "8b0b0f8cb889edcf8f139734ad4762eafd4eb5970a6b63af886ee5c9b40cd27d",
+    "P_WarmPaper": "c07c9667d03ba341f6eced0abd59d9a70aa231dfba4f6bce15688504cf622874",
+    "SCREEN_Amber_Edge": "316e74e83ede740a217b8eb462830f0f53c3ea8a9328be41daa0266a90bd4729",
+    "SCREEN_Blue_Silver": "b2c73d2c8ae61b5bd7e76224ba01e2ea740ee2fdb19eff922a2c2f07245d5813",
+    "SCREEN_Burnished_Amber": "f353561ef3795a57fe64dc94526681f077e8dd5d4298deb80eaa98e23450ca97",
+    "SCREEN_Frosted_Platinum": "619b730cf20b8dc5e9551d597aa627607493c4f7bc4e4ae0eccc7c3335ef1daf",
+    "SCREEN_Honey_Glass": "023fbbc4e527d7da427046f6a7840abacfd1e97c80ea3ef6439a9efcc4cae2b4",
+    "SCREEN_Ice_Blue_Glass": "eaaf00d9976ec9735491d1fba7221928942026c241d0841a7f3b5bfe1b30b3a0",
+    "SCREEN_Ice_Edge": "ea3f5c791c340e34a50ee7167a978ce03f32360e5b2dfb686872224b4616adbc",
+    "SCREEN_Near_Black_Backdrop": "014f30a237343e5ceaf0035bdea724d647298d3a095c8594af3e66653bbf3dcc",
+    "SCREEN_Pale_Gold_Folds": "5fd8a75b22e52e14680dbcab0c3c0f44ed877c46878a2b43ddf57c04f327aeb0",
+    "SCREEN_Tiny_Stars": "a580b5defbb8edeaeab9c49c3f4959552fdde76b2380e427ea2820c9e4df771b",
+    "V19_Ceiling_Anodized_Graphite": "1342f9129a78982e970e0fc4cd04df233bd1709c6dcec30638c92fb73d43ad7b",
+    "V19_Ceiling_Brushed_Champagne": "16bb3533da3bfef4d5e47fbb768afbc0e474e424c790c7191765202e22cd13a0",
+    "V19_Ceiling_Opal_Diffuser": "c9a37449cbfff819965b26078376e886e98b324a86c7c6059f060f531b3156b9",
+    "V5_MAT_AmberSignal": "2cf8e92d978b35faec27572761c1c45457198697bfd5441269c29c8091269fc9",
+    "V5_MAT_BlueGreyEnamel": "5ace2a5a488f32eb867478039d4748d06e8ec1891c5d2e8dfb84f33ef1b69b79",
+    "V5_MAT_BurntOrange": "8daf865dae75e45c9cc704b3d9447560bdbadb5012d4b710bbca254f53720ea1",
+    "V5_MAT_Graphite": "867863c6d1c89c2d00700959a6eee29663d212f870c81379dc893a8a340a2bbd",
+    "V5_MAT_IceSignal": "d9d49ea0be9e437d3e05ce121fb2153422dbeae027caa75d58c7fcdd1db0ebdf",
+    "V5_MAT_PearlCeramic": "ce9ebc161a319216fd2c0f9d309418cb9d0b2076a308ab93358ccdb861fc3165",
+    "V5_MAT_RecessedOptics": "5e7e08838a2b39fdc67c2894e7d0b75a483aa7f3da7d7604af98e54b2cdc7f2c",
+    "V5_MAT_SatinTitanium": "11b74fc441d40fd7623dc97327cbe79059c40fc1a9733920af8204a1f899e2df",
+    "V5_MAT_WarmDiffuser": "612c6a68fc18956579a3561313ffe92d1504ba8aadda015b1d4aefa9ff48fcf5",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Amber_Status": "f6829a969abee27fcbcadd59337492e762345c739d72c69f6767565ad416d5f4",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Graphite_Enamel": "f908785772f7608c1c1b75ea0dbb0a4821a9ba756b3534a3c5c258ad15b4bf81",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Ivory_Ceramic": "1c31d32d9135cec94ffdedf219423cefef58f109821e268dbe54a3e532c24fea",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Optical_Black": "f495c5e2e91db281962ea95b5808a129ceea1b31f9e4a06561bf74b4367364ce",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Satin_Titanium": "cb64ceea422f225810d7db4efade333582118434bafad3aaafc38b83b03c4f33",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Warm_White": "6e7de8eb3842faba55ed5780063712e3ed0e52d2a4a9ea9f2bb029314b9293a0",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_BonsaiBark": "6123ae827317683ba573b3dd5dae44a5ba6171d4720604dde482f432b6b90ef9",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_CreativeFolioCover": "eae81f29ae9878351818ea45a3abcfde8720c48a6f839736bccd7b775a8a6f60",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DeepLeaf": "4acf026c58a4cfb20b27bf8b6d2a12eee3dbfe5b1fbafad95ed07e0a6e9a13ee",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplayInk": "775d52a79d228bbf270a77f2d7ca87451a704097c80bf0f639bfba6e490bd4a9",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplaySilverBlue": "f57b723819d68a5fdbc785ed8511c6ac8b06fa658c795fe89e1664aec0cc4cd9",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_GreenStem": "d2327061b41dac9436a3334a6d173addad675559723ba47c7d7535e335aca23e",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_LensCoating": "4948de1a684adba3f9f8f71351816ddcf288956a739defe1dae2facb808673b0",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_NewLeaf": "39c8485c046b4843c17cf39d9c0b12dc017743217ddeac4a487fc261b4dca9ca",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PageEdge": "b8fa4b8fdfc8884f22f162fc1d17424b772bfec02d74ac151c2596913cdc5208",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PetalBrushedSilver": "a2c2b7e029116ba0a03de5d43907728f7dcebd10b98fc1301400f9783f3ab4ed",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_RiverStone": "7ffe881f6ef497a6f6d5a5e8f57c27dfea9a606bceea109dbda9eba4f1a2d6dc",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_Soil": "cbbbc3a4b7c96fab7f5814b0355f14b26bd2834ba27d9e5fcb703fea9dc4aeb5",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_TerrariumMoss": "bc6b9b48709e259d6a9c6978e6e8b189559b488fac564a7ba80031d6c8e5ccb1",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmAnodizedMetal": "d3b6b39b2607accb4c2fd06e02e545965e23d465603e0d5049b451b04d1febfa",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmPaper": "28735eb4d3b9cd2de55a4aa960b65c525f01c14c7a8ae0c5aa46bca087343856",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Amber_Status": "666860d09237b1befb05f31e0771cc7a9e3efe976f0770580e0959742d1a7e1c",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Graphite_Enamel": "7659c78078a3bc77d4abfe7af48f04c04704a862d7dc34fbdc49e4aead291cfe",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Ivory_Ceramic": "6ba4f29934b57e8fde820d709fef97ac66ef8c1df01c171b26a361f193a187d7",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Optical_Black": "5dc2c579cf21e17734e617e9321c70ccbae39c4d45bd07a528650999e1a68a93",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Satin_Titanium": "b1e5a88bed10e88302ee699d611e39e24e90655fdaf1cf368987bc744e2cc580",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Amber_Status": "dc14d6545647e6638477aa9b76a638c773679f19211c68ee08afe5799ad6f1b2",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Charcoal_Woven": "16417fa6544c5ec8e8046dd3798e98a7aed839cc877179a0d0d74aee6a254863",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Graphite_Enamel": "911ed633a975fc7f638cb6cfff758442c8a1f7dc44399a7b365b60d384af2f22",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Ivory_Ceramic": "b7668c5c9793db54af306f0bad21530a7be6892e610c9ae0ef4a9f1825aa1c1c",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_Black": "1f0b33e7a6cf802ce947e8ad7602d3f889ec3624120bcf8ae367ff68001e26a7",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_White": "8aafbeb3c8c913586cf68b5d53c9ec696a8f2d1f54b220256a7cbc936761ed1f",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Satin_Titanium": "7f3d0ccb9cf2e730c1140f8708927c4ae64370eaefa121dbeadfb05cb5635f01",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_DisplaySilverBlue": "06bb258e6067efcdf4aa9718e82f2b53e629bf06df945ed3fbcc898644e572f5",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_LensCoating": "872ab1fa6d544b7e9c039e2e8caa6b274d1b9d8bc21f7b7f345d90e212244322",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_TeaSurface": "ccf7396a75b6066098e1e4a5567e6ca17ed67feebb3ab2334c1c45465032192a",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_WarmAnodizedMetal": "3fe19825cc694c8f0d9da9deb6ac62896c6b71d0cbac3ad04adbb3abcb2741b0",
+    "WEB8_BAKE_A0_MAT_Graphite_Enamel": "98a811514a313b2099bb81c7606d72971f2988f3eccf865d6a1cda0d02275a33",
+    "WEB8_BAKE_A0_MAT_Optical_Black": "d96ce9860d35c292812be60bcc4d99f86be9c8734e96141019b14436d8cd1398",
+    "WEB8_BAKE_A0_MAT_Optical_White": "99466e2fd490b26a266490dc704f50b516a020aa713e5e810fddedc637811303",
+    "WEB8_BAKE_A0_MAT_Satin_Titanium": "acf789797c171ebe32fa8b8cdf3ab01585d0c648e8da3612825876177e8d0d30",
+    "WEB8_BAKE_A0_MAT_Titanium_Floor": "39ba35072abc66dc8c1b4db52ce6bf0beed969f8047f8afd7021a4b03d10aab3",
+    "WEB8_BAKE_A0_MAT_Warm_White": "c2095cde74cf3d315b94b6adf55ffd635170d0846faf68b3d97ac7e136f8e8ba",
+    "WEB8_BAKE_A11_F_Chair_Seam": "3afca4affeee08bd79fa6057e64486dfe9203ce6a9d46014bdefa2ffc70def88",
+    "WEB8_BAKE_A11_MAT_Charcoal_Woven": "bb3944bc8f77ad28407679d3f665d63238a2d99873b7d01ceca4aaad71eb44ce",
+    "WEB8_BAKE_A11_MAT_Ivory_Ceramic": "84a262672994c0d56fcbe853b2a12ea449d9149b2c84040efa87053a402c9fcb",
+    "WEB8_BAKE_A11_MAT_Optical_Black": "46d04449742301aec56faab4c06e88f76a70845aae3896916a77d0c70625a08d",
+    "WEB8_BAKE_A11_MAT_Satin_Titanium": "de575ddb14670b1730e8b98a2ae2b89a572abdc38b51373090532e396917292c",
+    "WEB8_BAKE_A1_F_Rug_Embossed_Grooves": "f24e742365738b095b87b60728a70db02e75ab717eae7d060f906f97a9eaf1bb",
+    "WEB8_BAKE_A1_MAT_Graphite_Enamel": "e63e996d83a65e117caf08c1810714eb907561b139ee5d08b1d7336a1c02a655",
+    "WEB8_BAKE_A1_MAT_Graphite_Rug": "f54fd766e066e33deeede46e449e3267371654e990b49a447ca24147e0c8f04c",
+    "WEB8_BAKE_A1_MAT_Optical_Black": "b1017b039ec9a43c97a9096ea665a2dbc4007f8403fb57780fe1047eafcdd1c1",
+    "WEB8_BAKE_A1_MAT_Optical_White": "8dbaf981cb513d7f72726564ea45cc008b2cfb0c98a6fa2309a458163d09ba7f",
+    "WEB8_BAKE_A1_MAT_Satin_Titanium": "82f82bba98e7cd74b420cc5b3a3b99409c875dbfa9138c9fd6f3d8564868b0c6",
+    "WEB8_BAKE_A3_D_BlackCeramic": "069df1a3f9ec3607981caa4c083a39b99c653574a213a472aeadba12ad958ffe",
+    "WEB8_BAKE_A3_D_BlueGreyBookCloth": "7eaad47388125e287558875eb2444cd41e775b8b9e27a79787f9b592fe5ef818",
+    "WEB8_BAKE_A3_D_BookPaper": "6b795a49073be73d45a93a905c0b81e60cf3416f5769659685408fee2578494f",
+    "WEB8_BAKE_A3_D_DeepLanceLeaf": "4e02c3d9de72e6d83d986f1147b537c8990ebb9b48dc559242abb1cfabaed1e1",
+    "WEB8_BAKE_A3_D_OpticCoating": "0b16f80d5e5fabb99ef1dd52bd736dd4c3c046c06463b6779e553dcf435f5d72",
+    "WEB8_BAKE_A3_D_PaleMidrib": "b2250dc2fa6b472921b003dc01d7be0d1e88f0b89036ce688887509ebc815b57",
+    "WEB8_BAKE_A3_D_PaperEdges": "e3b093fe17236b19711ca0f048318fd8df09ed7c138d0d8189dd9296790b77c9",
+    "WEB8_BAKE_A3_D_PlanterSoil": "a0bc1e1eb6f182a593912055ac85b92ca2d7647db9094e12f93c48339c68db1b",
+    "WEB8_BAKE_A3_D_SageLanceLeaf": "65a3befdf5235c1ac6aeb04b68a6a630a857a4579c3501529b9d729ddc4eee9a",
+    "WEB8_BAKE_A3_D_SoftAnodizedGold": "72fc22b30298df5788f186606ed376b40e99a87c0df9e8ad3dba45425707e4d6",
+    "WEB8_BAKE_A3_D_SoftDisplayLine": "ec538f87c01965db693d6acde0cd001f7afa2ce14664f505417107f2d4dbf643",
+    "WEB8_BAKE_A3_D_WarmGreyBookCloth": "ac1e8954d956754b5e74fa024df6b6e0b18d75ad2fe186cc4c064f26d4ab6610",
+    "WEB8_BAKE_A3_MAT_Amber_Status": "4fb75c6dd4a0a464d5d5ffacdee3bce34be82a0b1c150601b21127014ca4ec79",
+    "WEB8_BAKE_A3_MAT_Graphite_Enamel": "294498d769bd1208b53420cd96ab527d360a79d37ce2fc951f058b22cc2a2d2f",
+    "WEB8_BAKE_A3_MAT_Ivory_Ceramic": "132ce75639b6c870dfa4caae867452e0deddfaa7f5587dd8e86a709c62ba83af",
+    "WEB8_BAKE_A3_MAT_Optical_Black": "246a48d03df84904a0551692edd7c9d93839f47a1e5067acee2c62b4f0d2b034",
+    "WEB8_BAKE_A3_MAT_Optical_White": "739419d32bce02947394b0ffcfd23ae6e27bccbaa4f5a69b98518e8ac6815d01",
+    "WEB8_BAKE_A3_MAT_Satin_Titanium": "ccd68ce438042eef7f011f6d51390a17c0a555adcbbe8c064b00c15767ad7dcf",
+    "WEB8_BAKE_A4_IW8_MAT_Graphite": "887b6447c4fa5f459fb5226e690ab6b6640d5c6972ccda552bbea1376b952cd4",
+    "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic": "82c5231257cd8dd5aea7417e232f09a1a005cd380e1be0ca23802920cd9fef9b",
+    "WEB8_BAKE_A4_IW8_MAT_SatinTitanium": "8705409e9a4ed885c6ec793b1035797002bee11f5ab3089af0555d741102b3da",
+    "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser": "fdede9a375399c923275b0d92008314c93188d1517ce993522b7d4a08fcb9f03",
+    "WEB8_BAKE_A4_V5_MAT_AmberSignal": "845c3e6b2d3d4a2d5d412e2563925f7b6b2e34db44731acd89f90f5928318225",
+    "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel": "c181e9ee4e8275765db0aeca22359cdde668dee56644345dbeacdb070d21c57d",
+    "WEB8_BAKE_A4_V5_MAT_BurntOrange": "be6bca50dd95d96594a642066d71d994e812694eecc6885ea58c394f915d2b23",
+    "WEB8_BAKE_A4_V5_MAT_Graphite": "6fa3bdf9dff58f1eff48ec6a51fe91f52b8ac21fa789c80473b4ab605c1664cb",
+    "WEB8_BAKE_A4_V5_MAT_IceSignal": "745fd8d95268141d01fff40c83db28967f73f04d1b9af7f24524d3be352192c7",
+    "WEB8_BAKE_A4_V5_MAT_PearlCeramic": "5e3870a7342b87d4e7f6fd8ded03f09d2a590e9138766e71dbd56f099234158e",
+    "WEB8_BAKE_A4_V5_MAT_RecessedOptics": "d2a7a69f328236ff769b1dd9f7eaf921f3ba9c3b6a3dd052974c850f6909d964",
+    "WEB8_BAKE_A4_V5_MAT_SatinTitanium": "c690160b2c334764b6695a80114a341905e44e232451d8aec2df02fba8219299",
+    "WEB8_BAKE_A4_V5_MAT_WarmDiffuser": "354d26413b5ca6ab4fabd8a9a876ea7b3ec6bf17dab8b5f997c1d5f3762d0f62",
+    "WEB8_BAKE_A5_EXT6_MAT_BlueGreyEnamel": "04276a4055f36756b98c626a345d217be9bc10a3a626bee909a1308c280ccb8a",
+    "WEB8_BAKE_A5_EXT6_MAT_BurntOrange": "05819d90c6d58dfd853c21ab24e68aaab9f704daaec9ff4de6acb1e8ce302d05",
+    "WEB8_BAKE_A5_EXT6_MAT_Graphite": "9c23afe42ff532fbe7df58d1b4e229e2fa147a8de0daff58c940a8390d2a6bc9",
+    "WEB8_BAKE_A5_EXT6_MAT_IceSignal": "7a953a583a0dd2cb347644220b87e0b58de3b8ed1cf3913978fcb152e427e6ca",
+    "WEB8_BAKE_A5_EXT6_MAT_SatinTitanium": "8e2ed318543c22a2d3227de351127bccef9d05de0289ba37be7f5a2eebc419e4",
+    "WEB8_BAKE_A5_EXT6_MAT_WarmSignal": "685cb2a40cb5442b879d208d3fdd4fd311322fb48febc90dbb38b6cb66fc71d9",
+    "WEB8_BAKE_A6_WG7_MAT_AmberDiffuser": "383e66047b03be5992c6d1de0e4b727d7557620d55f5fccf05ce62ea56631acf",
+    "WEB8_BAKE_A6_WG7_MAT_BlueGrey": "f45744ff635416ac648854d66ca39bb0778faa6fa0f4d5743875b07d6541a0f4",
+    "WEB8_BAKE_A6_WG7_MAT_ChampagneMetal": "894a0905ae48525d019aa5d9e2569650c826f2e416a6450e6a514fe598ec4c3c",
+    "WEB8_BAKE_A6_WG7_MAT_DesaturatedBotanical": "d5a41a2d071f794d321a084feef57cd4fdd356acdf1d097ccb968689c85e9079",
+    "WEB8_BAKE_A6_WG7_MAT_Graphite": "cab6882262cd803599aa82a3c6773ba49b6113cd4588f94a745964767863a382",
+    "WEB8_BAKE_A6_WG7_MAT_Titanium": "f42adf869161f601da621db21a63e1ed4daab1e1f3877f4db4ec150ef5cf03d6",
+    "WEB8_BAKE_A6_WG7_MAT_WalnutOrangeEnamel": "cbe721ebe067deeeb7f716565757e7a371a7ecfe4dcaec65bff263032f689209",
+    "WEB8_BAKE_A6_WG7_MAT_WarmCeramic": "65d9ee5b8c824c8f87fe0f227b2da0065b0991b43a8ae5ff295249bc64180415",
+    "WEB8_BAKE_A6_WG7_MAT_WarmWhiteDiffuser": "542aae3e25f87da999a9e2c7408147e628ae63baae12a25452fefe877cc4dabd",
+    "WEB8_BAKE_A7_F_Orange_Upholstery_Stitch": "871d2f0b297ae4cbff57b3b280e92d068f36d13ed41842eda7372baa5364aa95",
+    "WEB8_BAKE_A7_MAT_Charcoal_Woven": "b2d118a4771e64ec103abe30c3b06d4471f3f872d570d7651a1504ef480fefff",
+    "WEB8_BAKE_A7_MAT_Graphite_Enamel": "b18c805dc27d7d065b122f743525d7639aeb30431c52c238f5e0fbb6fe28bf21",
+    "WEB8_BAKE_A7_MAT_Optical_Black": "8e3439a9baee31f7ef61e5d69cda4b1af6f36a6d7c4d5565474a8e6c445867f0",
+    "WEB8_BAKE_A7_MAT_Satin_Titanium": "f8afbd89a831453ceb151fc8e39830e51e84ed49d7d633e082bb266238c44f6c",
+    "WEB8_BAKE_A7_MAT_Vermilion_Woven": "72c0b6358d0cfb41b41d9f3bc6715354f7968938465214270691a2a1b0be26c9",
+    "WEB8_BAKE_A8_MAT_Graphite_Enamel": "09494ee01da1092b9881fccdf29b28d468194108bcd12698003ddba918ac79ac",
+    "WEB8_BAKE_A8_MAT_Optical_Black": "716e53e7837a3be161ba53c14fdda6a402c1ae8af2f6ab1a7bf6ea38fb81b379",
+    "WEB8_BAKE_A8_MAT_Optical_White": "7ccb6effaf6e0b3f88bd5ce76d28c0d7ae5dd7c6c367c4cb9df0ac147ab5ddd8",
+    "WEB8_BAKE_A8_MAT_Satin_Titanium": "0bd36bba6f66c2b35bf0787a070690506a0e8ab2fe51a60c1a885c012a7a33cc",
+    "WEB8_BAKE_A8_MAT_Titanium_Floor": "ab52f2d52ae4d0db8fa269b27cb86f36c5434e99767a9e60aa356b6c6148fa18",
+    "WEB8_BAKE_A8_MAT_Warm_White": "3cdd286fb0d0952b5645898b3345dfe404762f83459110242a53ef994625b4e8",
+    "WEB8_CONTEXT_MAT_Studio_Backdrop": "9c2bc0d3edc02b28f68a91bdd653fb60a41032ac7ce564e36e80f57b2c377a6e",
+    "WEB8_GLASS_D_PlanterGlass": "d93812e4fba5a731d6932d57c1d3614441fff696d501c6d8ecb0feab8c585f40",
+    "WEB8_GLASS_D_SpecimenSmokeGlass": "7f89049698e274b1448a8357a3b641bfe68ae3a40067bd967721d515096d38c9",
+    "WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass": "28c60238a302a27fff666a804b053b0bfda751e252541bedeadb44f477e2bc03",
+    "WEB8_GLASS_MAT_Smoke_Glass": "b1f36f5efed629faf53984270ae9522144b61bfbae38163bafa96d8906a04630",
+    "WEB8_GLASS_P_ClearTerrariumGlass": "239a8f5c33ef36a6808736487a4e3c0604877ae7463baa4b12a775d90aeb87c4",
+    "WEB8_IMAGE_MAT_Original_Window_City_V2.001": "92e8ee563c468ffefc43aa2a02799cba3c9d42d537a0f03a4e8b35561df9638d",
+    "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork": "429bae538ae64504c6364968632027d490d394fba0a1d8c9acff978a55067c17",
+    "WEB_BAKED_ATLAS_0": "33d0ea6d69ea752b62a79611854e94dece2db76f9a94ffcc37135c0782b8047e",
+    "WEB_BAKED_ATLAS_1": "861e20fe0a5e9853fb7c64368645ebeb394e7d0be1178f2be71f78bc0985a556",
+    "WEB_BAKED_ATLAS_2": "048a41c9c3e96cd524d06b0026d51a83cf8ed21cf9fe791aa66b1b804c89fe08",
+    "WEB_BAKED_ATLAS_3": "feff87e00743d3b54538a96bc977ccf79305d39b810cd7242be962077185987b",
+    "WEB_BAKED_CHAIR_REPAIRED.001": "457ced16e6f513ba1f3a8786eb3eaf20c54b20b7474f1048b5328b66cab1be52",
+    "WEB_CLEAR_D_PlanterGlass": "90be2275ca3c7ef04ce7d6310bfe7872a6776cb9ce3d8f97821ac5c182534cb8",
+    "WEB_CLEAR_D_SpecimenSmokeGlass": "69c3f21d3c90167749e27cdd9bd6ee9e7a6542b37bc995e6c9c087727c475f88",
+    "WEB_CLEAR_MAT_Compute_Smoked_Optical_Glass": "17e853299350d623100191927e59ec01d38f7d3588e0d9af4f481122e2166e12",
+    "WEB_CLEAR_MAT_Smoke_Glass": "370aa1a1796aad9538ba4f6585d063607f02c0e01514e2c872cc20119756118a",
+    "WEB_CLEAR_P_ClearTerrariumGlass": "32ea3b6e4ca2930780ac6007a186a69416bfc5232fae176465148c318615db44",
+    "WG7_MAT_AmberDiffuser": "7535ecd77a8003c0353aae5ced312c1175bfd94cbf29d9221b072337feb93df2",
+    "WG7_MAT_BlueGrey": "0153d57016879a31c0c7aa8545ac5487435aade7145fddc27cbae4bfece4b5af",
+    "WG7_MAT_ChampagneMetal": "2507cd01d228d5340d8d79c102143681dc5ac106f808ba87943677b7e0bf55fd",
+    "WG7_MAT_DesaturatedBotanical": "daa506b6804d9b087435ed3c5576db97dcdc31c4d7a0fd3557a1378372578e18",
+    "WG7_MAT_Graphite": "0ea4ca50b990a8e1e6d11918646e52370beffece0e8b112cb96fde68cf86e573",
+    "WG7_MAT_Titanium": "68055ba50dd06d84b0346e0fe9ae38b9382e8bc340f26de02f283a6cd28d9815",
+    "WG7_MAT_WalnutOrangeEnamel": "683491709893a8048dd0ca6c50f0bd9cb652ed768d8813840816014ac8495f89",
+    "WG7_MAT_WarmCeramic": "3f036207012c2764ab9f51d0abc315825a92d1925b49a30937337e9de080e179",
+    "WG7_MAT_WarmWhiteDiffuser": "5026adb8986c649fe5ac5756d0201d664fb24aa467f5eb32b076fc84aa23acb9"
+  },
+  "originalMaterialGraphsAfter": {
+    "CHAIR_BAKE_F_Orange_Upholstery_Stitch": "e9a9d8949490fb46c599341b999ae988ae814086077ab1b34438a52da094916c",
+    "CHAIR_BAKE_MAT_Charcoal_Woven": "ef0914411bac5587c3b48f047caa534404d50778045866019186ddbf4a3a5297",
+    "CHAIR_BAKE_MAT_Graphite_Enamel": "5f71682df6519e762d502421ce66235b9aae3c6cf65fdd31a963cd2a4374f63f",
+    "CHAIR_BAKE_MAT_Optical_Black": "674c6ecc5491d23f38ca425d38a656ff5db03857a7ba29133340d8749470bc0c",
+    "CHAIR_BAKE_MAT_Satin_Titanium": "0161d23b40e3f0c540f9c1ff30d19af2842e4ebeb0e3a0e658027a07694d86e1",
+    "CHAIR_BAKE_MAT_Vermilion_Woven": "71c5c1f1ddeb9e86473a34b1a09624480f69db296ee033b91daf687910abacd9",
+    "DAY_SUN_V9_DAY_V8__MAT_Graphite_Enamel": "ca527e36e7777e480773410701bc8b48c16efc130ebe694aa475573084a408de",
+    "DAY_SUN_V9_DAY_V8__MAT_Optical_White": "601a4e7da14297b53f20d4ba861589acc8ef75ce848ec897199a33f848aee774",
+    "DAY_SUN_V9_DAY_V8__MAT_Original_Window_City_V2.001": "141a8c28fc06c54bd82ac862ee3102bae44a6f976bf6c990e5d091b38c44dcec",
+    "DAY_SUN_V9_DAY_V8__MAT_Satin_Titanium": "eedd5cf3ab45400b3bf6ab6bdc130b579ac2516988a5cd14384e8fb8132bfd2f",
+    "DAY_SUN_V9_Opaque_Shadow_Flag": "453623d15bc3c95235eb05f199f793dae6f70325a2666241f238735e69681274",
+    "DAY_V8__D_BlackCeramic": "48b2616f7cecec42ab579e16f7fc9bc59408d6f346755605e054ea73466e89f8",
+    "DAY_V8__D_BlueGreyBookCloth": "9ef427e80f178a0753c5d997dd4a2e7809f498345e6bae4b5a21421bafee8973",
+    "DAY_V8__D_BookPaper": "59c988eaf0a66fcc247198cfe1625a0ebcf85b42e05295eb710f64653da2b7a6",
+    "DAY_V8__D_DeepLanceLeaf": "1ced9daf9d4b902c66558a1ecf34aad5fd94c8fc5434d9b95bb45d44b2443332",
+    "DAY_V8__D_OpticCoating": "5faa91c81588998090ef5fb59b8b11f1f8391bad25e2390cd29fe97bf848652c",
+    "DAY_V8__D_PaleMidrib": "9ab3552beec25544613cf877ddfd110e03c1c01f5fef6f7f387a4ef452aa9949",
+    "DAY_V8__D_PaperEdges": "40e112d49ee347804e57a6b28baa42b9fe0e3736d4ea64620d6fa29ac39c48a4",
+    "DAY_V8__D_PlanterGlass": "8bd74b660afc5e7a99d23d71f9de26d27b90a522983e46c4ac41203e28c5afe7",
+    "DAY_V8__D_PlanterSoil": "de336b77cb12e0666ecae2768fe62663cef5dfab4ddebcf7c2d72c871545213a",
+    "DAY_V8__D_SageLanceLeaf": "069e1059f55f19c3437bc0bb238f5279fb2c84ef3c646b58240171efd10c3cb0",
+    "DAY_V8__D_SoftAnodizedGold": "2fdb3cd1bb5c9b9017fb3fe592904660ba211ef672cb5530ca2458ede60460a0",
+    "DAY_V8__D_SoftDisplayLine": "9d676c7936a0bbd1de2ff0c4b899ecbbf5963786ee38da2026a883491027e15c",
+    "DAY_V8__D_SpecimenSmokeGlass": "50b818a3b5555c06bf549c2f3148d577ad049fa1660dd50ccf6dd1a47e6f8e12",
+    "DAY_V8__D_WarmGreyBookCloth": "6764c9c48f408b6a4a204b6d9493458c60eab252d70540943a1f69c6e5eb392f",
+    "DAY_V8__EXT6_MAT_BlueGreyEnamel": "e7131a014341a118bfe2cfc3ca90db3290ad32290c9d8d3048a49b12a5d03bdc",
+    "DAY_V8__EXT6_MAT_BurntOrange": "827ea5f185331af0e810800acfefb6cae44e146303408e81924fdc1c405d5d71",
+    "DAY_V8__EXT6_MAT_Graphite": "f4eb74781ce67940bd827c7e70a2525f4b258a3728a9af91c11fefc1372b2254",
+    "DAY_V8__EXT6_MAT_IceSignal": "ed59c45fefff6c5b18468c2fef389c3cacf0b355c7b750883bfb08da1ffe8343",
+    "DAY_V8__EXT6_MAT_SatinTitanium": "11e80bd010986c1ca08d1af1ad8becc25cdf98a05fa6aa1d6b05653400eef7a2",
+    "DAY_V8__EXT6_MAT_WarmSignal": "553a53a120b1df155eac18a05596670ab4391a2c0f7372321ada080399527904",
+    "DAY_V8__F_Chair_Seam": "018537374147f001665a991d6929a59a3449ef9dd8718a05ffbdfc8c759d5c19",
+    "DAY_V8__F_Orange_Upholstery_Stitch": "a7e6262fcd1594fbe062f4dca788c7ba139ce5a6ea1116977d82306d8a84c7c5",
+    "DAY_V8__F_Rug_Embossed_Grooves": "84f164848a0d0584c92bd3b4aa18c2f70a220596c72189af2deec606d24b4b63",
+    "DAY_V8__IW8_MAT_Graphite": "f5bcfd6bc98f91bac90e9141157d9c02276f63bb129c878d29887a4d0680a7e5",
+    "DAY_V8__IW8_MAT_IvoryCeramic": "f4b3768511245727c23ac9d2c7f85f303f3ba68c3436be51e1b794b98f85bc01",
+    "DAY_V8__IW8_MAT_SatinTitanium": "bad24e40bdc0db018f586bae2eb3ebceb0fd43e5cfa81f3b8dc3604924ddbc08",
+    "DAY_V8__IW8_MAT_WarmDiffuser": "7743ba1a3cf12aa8be5feddec71963a89581c62cd54e135f67170331c7fd3c98",
+    "DAY_V8__MAT_Amber_Status": "05c508d7655be810f5b332f83204b3c3bef91115970bc6c5be5cd31b3bfbbefe",
+    "DAY_V8__MAT_Charcoal_Woven": "eb2c9be3953f48bda3943258884338903a25b10ab1d29e6c4e8d2e212751a44c",
+    "DAY_V8__MAT_Compute_Smoked_Optical_Glass": "ee37632680c807b0b650c5c4cad0492dd33460260cc6b084de73d8c52e433814",
+    "DAY_V8__MAT_Graphite_Enamel": "28c2eb1bd64ef08317d36b575e8e04d0107d975e66eafca30f8da15ad4c17578",
+    "DAY_V8__MAT_Graphite_Rug": "f2c2badf1506c1fce6e6decac9e015560b9781a2018503dfc6cbd65322aa5731",
+    "DAY_V8__MAT_Ivory_Ceramic": "7f52977a6c38f8c8c3011c899d91b8c1846eb7eab200fd2c722d4d19afc26114",
+    "DAY_V8__MAT_Optical_Black": "f721dd0f9fde8d94e36d68790c3cf52d4a5e6b534fd87c57f5aad60ccc5a4e47",
+    "DAY_V8__MAT_Optical_White": "535a5f500e8259534b87af290c27e6ab4d107d699db0df0bdb03bee4baa03eda",
+    "DAY_V8__MAT_Rendered_3D_ScreenArtwork": "cd3417cc17ae107b03d1950c0b4222a1f4494c1babe67e07a0b5ef4d6cbf71f3",
+    "DAY_V8__MAT_Satin_Titanium": "612fb5727778878ec215761359db192cfae4d3cd38d24bd414bf0d3294ee6d0a",
+    "DAY_V8__MAT_Smoke_Glass": "92653165b7db573a6f6937005c324bada2a8acc1b3edadc431327197c83939ed",
+    "DAY_V8__MAT_Studio_Backdrop": "e82be5a4c91214ef0f6d93c76c36438a688d74ae3eeb3432ee13f7398ed374fe",
+    "DAY_V8__MAT_Titanium_Floor": "82135f0f8729f772f7c2bc06dd6b3f8a6a2b06e2fc7f93c7254baa80dc743706",
+    "DAY_V8__MAT_Vermilion_Woven": "61e4535c6cdbdbbf19362cc5cfe1e4dba9008138e4dcaffb8e63f65ebb33fd0f",
+    "DAY_V8__MAT_Warm_White": "7cc5c235f7bb5dedd0bcda3f6c648483bb4e451d7315ccb1238528e67f5e24dc",
+    "DAY_V8__P_BonsaiBark": "5ec330c8be261a54da24f9266dff01a04203f6ca562403ab1e7c2548481af701",
+    "DAY_V8__P_ClearTerrariumGlass": "a52e4d77dbffff64bcda33cd10311a4b4c0561ddaa44f191a66492507def543f",
+    "DAY_V8__P_CreativeFolioCover": "5e8ae3670aade94130d7b03d75464fc53843ece7a1f8a6b42145babbafee601d",
+    "DAY_V8__P_DeepLeaf": "0abb4f042284953257cf40a6c9754e8703042b1beb079d95291730f7d06430f6",
+    "DAY_V8__P_DisplayInk": "7be829c241b057cc27246f8d69ab6f2a636bc84486545cb440e0c4deabfc2b59",
+    "DAY_V8__P_DisplaySilverBlue": "30a68ddb3367282d33976488666c9bbae4154f8ce8a736109085db3fd2634c79",
+    "DAY_V8__P_GreenStem": "d15f57405eab9ca38322548782b7252393c38ca355aab6d95e5e153a0e071b06",
+    "DAY_V8__P_LensCoating": "e7f397853c4f8b0a5dde848ac5815e8e1d62a6f27291138c61951c37b986b691",
+    "DAY_V8__P_NewLeaf": "7afe90576f8711cd37969778b2dcc87a1edf3a1ad9a3a2ae2fd1968f45d99efb",
+    "DAY_V8__P_PageEdge": "9cadd54b85a6aa18565d4a81683e3d6adf14aa198d13c09e775d05f2ce541c59",
+    "DAY_V8__P_PetalBrushedSilver": "d5ff118524df40628c1154129119647a740f98bcdec847e7217002b6f61e7f7c",
+    "DAY_V8__P_RiverStone": "fcefecba8f6126f11f3ae54ffadbb0c21bf19429aec25b47ede8aa21a912f356",
+    "DAY_V8__P_Soil": "be5ef5ccb27597316f4803bb77e1d78a942341cae60b7a0d10af384da132919e",
+    "DAY_V8__P_TeaSurface": "d307bb4de0a0c01cc8e77dcb0cbf97ed25110cbfa135ae0b93f51aeff3056769",
+    "DAY_V8__P_TerrariumMoss": "de4cd9b56deac64c3c11902fe663e4b2a87f4b5dc32b9acb1afc96049d7fca99",
+    "DAY_V8__P_WarmAnodizedMetal": "432ea027a8d898373fb2213704c916807a0acaa3ba6e9887e33c799caf029b64",
+    "DAY_V8__P_WarmPaper": "c9bb40a5edeee3f6d58bf591315b6378224c4e2f699edc9385fd27a48fa640fe",
+    "DAY_V8__V5_MAT_AmberSignal": "5b48375091b405531bf591eab9a058e29d6007f3415c460c07653860c6b14f2f",
+    "DAY_V8__V5_MAT_BlueGreyEnamel": "86c4e585c4623ec916c675a7eb7076a03fd5741635a279f6420a00a235877f7a",
+    "DAY_V8__V5_MAT_BurntOrange": "1689a5f51b44ce8c5a0826b1b0fc96330cbe3d7371d4874aefdce941023b63e1",
+    "DAY_V8__V5_MAT_Graphite": "512a5db8350907ac9ff86d208a671bc16bc91a5a3ae41c2286e0fb18f6b208c0",
+    "DAY_V8__V5_MAT_IceSignal": "8af05d3c2295c857f654108dad4ba3bc1db03a91e52f0924d0742151ff7683eb",
+    "DAY_V8__V5_MAT_PearlCeramic": "6fdf75ae242ba13bce1cb39f284490fcdbb9da357eff2a22bd87fb1366e66bb1",
+    "DAY_V8__V5_MAT_RecessedOptics": "2c142a9b5ef512a87ad90d79046aba7f479c8fd986c1dde51a8711eba38fe9ee",
+    "DAY_V8__V5_MAT_SatinTitanium": "46de34a8b1f18526fd7c17bbe4396c0f4cb5db0f5162f8cf46ccecac25a408c8",
+    "DAY_V8__V5_MAT_WarmDiffuser": "91e93ebaf052c54e9378f4f63ea3c9a591fdc3171cd3ccc796c10d1f6be7f3fd",
+    "DAY_V8__WG7_MAT_AmberDiffuser": "d71da90c8ab8cef1d51ce290b3cfd6f45958281dcd9a11e70cc6dc3d90c9a44a",
+    "DAY_V8__WG7_MAT_BlueGrey": "63fbc0f0780a2d24657f20616a6de5938e5b2aace8036ffecb0f97da1397185a",
+    "DAY_V8__WG7_MAT_ChampagneMetal": "c2ebd641f75fadd57d4124b9024906a68250bf4c09ce1b6cc96fd4c6be4118df",
+    "DAY_V8__WG7_MAT_DesaturatedBotanical": "4f4776e723a215749fc420ecd4a9525d73d45783aae67162162ab6ddd0c34f6f",
+    "DAY_V8__WG7_MAT_Graphite": "63b845e5baf82f7f019d701874d293a1960561dde36ef05777cfc63f992b6490",
+    "DAY_V8__WG7_MAT_Titanium": "a9a4d1c6509efccb1c6f4d901739e255a9b5fb27979bb93d4352383301b3c417",
+    "DAY_V8__WG7_MAT_WalnutOrangeEnamel": "58f46488566a27621d6dd914fbb2870ae79c3e4eb0a919c70daf2203ee68f647",
+    "DAY_V8__WG7_MAT_WarmCeramic": "647fcddb205312b2ed40810ee7c1a6ba0843ffee62cf36e9845a980ee5632252",
+    "DAY_V8__WG7_MAT_WarmWhiteDiffuser": "db2d57847b753a4b723e61dca4346457e8acc8f9c63ef9ebd34724572a5d786e",
+    "D_BlackCeramic": "69673e221a9b3c46996c5b6dbe6ed89ae7099c80f714d24ba610368dc1b5923f",
+    "D_BlueGreyBookCloth": "008af5e8d764f85a7a232a1aca21e73fd14f98299423502880fe16f26038d911",
+    "D_BookPaper": "3779529224186a4c1d25848e14c4f5a575e0ecf1c6009e803eb7e6b9d156e415",
+    "D_DeepLanceLeaf": "d078374c0903aed0b34e3a9492db928a6f99616262352c5b6559d67e1dd0be2f",
+    "D_OpticCoating": "96be17d8e728cdfb8eb5b1369e87532d2bcf5e7b2671ae53076303cc47a6dd9e",
+    "D_PaleMidrib": "406188d9d1371ee488a283dcfa62529db28e88d90c5edf47830983ca0f8237a8",
+    "D_PaperEdges": "bf827709381c25c204cf69850758cdd624de681ec55a3cc76f940eda7fded95a",
+    "D_PlanterGlass": "09228c7279131b467ec7201d30a5f8b7912ca6426d15e405fa22b08df93f4a37",
+    "D_PlanterSoil": "f966058a5f9131154cc6591692129cb03efe6cfbc89e09a86a8347da5a4f9732",
+    "D_SageLanceLeaf": "9297d9eba8d80596a4d11fe0064322bd18cd14f97c310ddac37e1034d09701a3",
+    "D_SoftAnodizedGold": "ed06dc3448cb058e991ab84f6a71623e87ded5b30985bfb96b88568a322dc982",
+    "D_SoftDisplayLine": "d98edf8c7e9e54dc99e98c1931218599d6f6262599cf887e43ecc3b363fff717",
+    "D_SpecimenSmokeGlass": "716faa189da53eda6f44b3800b6c62a8ffa7410f72d1191ed6f6a4c5b97719a2",
+    "D_WarmGreyBookCloth": "4b041372746b18cad30c0d4bd145535c4f75a2ce8a67ff3c1f568e16e79efb75",
+    "ENV_Cliff_Stone": "8c2ede822d068ec96a71a7368e7c56b65fc997c4d657028468adbefd0dc979d7",
+    "ENV_Cliff_Stone.001": "de4fc3fe84e6d2dbd2ee738138ea6f7f7146c37541582605d0ec3a3e1d067b44",
+    "ENV_Cliff_Vegetation": "9a765abe9ca9e71d8c12f375fa162a86a4bb6a29e5902de7ffcf96339fe183a1",
+    "ENV_Cliff_Vegetation.001": "0c0762ac3c5043a5f4cc9498b89898cfa73f6c2a81815fd7d00a6a5cfa2c45b1",
+    "ENV_Cloud_Sea_Volume": "7d6a70723f78a8dbd74242b69a37d6034296da1389057360dfb57e16ecd39672",
+    "ENV_Cloud_Sea_Volume.001": "7f95eca149ca289e6289f2546574b11123f61f7d83f83a8d60b0aa0b29867f7e",
+    "ENV_Curtain_Wall_Glass": "eaaed231e45294191468b6022710beb694dbe114af09b3743c7c117c0e7a756b",
+    "ENV_Distant_Planet": "1b884d0224e75e7069bc28c1df7ecbd5d0fe7d63dc04876c2106ed362f178279",
+    "ENV_Distant_Planet.001": "1b8e662d17be26d8c6e648557ffa9d66da9fc81877c3929b53d529f7b2739c01",
+    "ENV_Fine_Cyan_Lines": "7e83c40c89c3b7de7a47dfc9315f7e8953d11d670c52fc888d86e3dac9d3b5be",
+    "ENV_Fine_Cyan_Lines.001": "d245472a9425af1af24cd85442bd84793ad3ba255f716d80fd156e6e7972b70d",
+    "ENV_Glass": "2ba7292e0d7b8e2cae621a55ff3fa835cfd073225f9b914baf1a0de2edb1162e",
+    "ENV_Gradient_Sky": "f3fe016af758cdfdb3269671559c1d2fc8562d9373331061245e98f0e4574b8a",
+    "ENV_Gradient_Sky.001": "d74d6ef084a1380011b0b9c7ecb236bdfa3cb612ea259b91b98d11660553ad15",
+    "ENV_Haze_Layer_1": "2158cfac9906e390b8e05c4b44d73a635d068f64bbb4617ff05ce25e7dd0fc21",
+    "ENV_Haze_Layer_1.001": "d785c8b798587a066751427d50633af8e6fa8e9d6025dd5f522d786c019ca658",
+    "ENV_Haze_Layer_2": "ec98a0eeb989acde0e86f3f9e7a7589d2998257ac13c21c0b31c6f90dc04fda8",
+    "ENV_Haze_Layer_2.001": "e02ebf6aa39e33357273976d30f07cc691757339ac38f32feceaec964989ffb9",
+    "ENV_Haze_Layer_3": "23e5865f0f0ac7215b73773d95ff468230e66e1bcfacc8e5f905799818c2d862",
+    "ENV_Haze_Layer_3.001": "4b3194092189e6d4bcc687d4f2197cef6c92fa461aef99d93a1c45a14dcbfe61",
+    "ENV_Porcelain": "f75974648f8c0a16507b6b65f645c6efc7e81f50405884eae886612b429f2bfb",
+    "ENV_Porcelain.001": "c22163fc22f347ad79f86a89cb70a0a5dcad18657fa74c6299260a9ba49b9df8",
+    "ENV_Structural_Shadow.001": "c12e855af7006aada8b95e3c4960c5892a424446bc48b9bb6abcfb925be37b3f",
+    "ENV_Titanium": "2001a559864af688f34210183d3364179625c535355f39aa5b8f893836e95167",
+    "ENV_Titanium.001": "a63db7a24c3062d5e1880cb15960c61c977f5025b4614e287b04a19f64e1b2ba",
+    "EXT6_MAT_BlueGreyEnamel": "0f84f84eda2f929c04e28d54994ebb0e24aca0bbae1a93576de06e7d6d55e3db",
+    "EXT6_MAT_BurntOrange": "0df3bf29bfdab413fd2c15ad9f59df9a7ff77267e5ad813767cd4101d59b9250",
+    "EXT6_MAT_Graphite": "3af466a160481c4089aa07f1800c126824f765f0998b228718afc66226044d45",
+    "EXT6_MAT_IceSignal": "24ab355d8b97404cedb83c50cf7584b089240f2dcb42892a826de44d69cb6efb",
+    "EXT6_MAT_SatinTitanium": "113712dd39109ea380e1360637baa84a3a650531204ddf5da8dbbc7f5176b6e5",
+    "EXT6_MAT_WarmSignal": "c0a13e592dcce4984f4a15c28f70a77528fedbccd8d7ea047327ce77b13f9c46",
+    "F_Chair_Seam": "003425c562fc491dd19d74cffa819b111b46d4ddf6da9df34094a94860768fc4",
+    "F_Orange_Upholstery_Stitch": "0d45b2ff69432d225791cd82a51db6845bce005c96912690fcdd6e7a78ee9ec3",
+    "F_Rug_Embossed_Grooves": "d2d3c6406c706c48e057ad8cf14c798b8a1a3b4068578e618a8106285c900de3",
+    "IW8_MAT_Graphite": "a0389f184cbd8b105aada662b4ec4fe56a40049572b43aa37c21abbfdd9f0f85",
+    "IW8_MAT_IvoryCeramic": "35585d3d5400595fcd766569ee1121a98566a9581c0540b5b9525bf0c5dc2608",
+    "IW8_MAT_SatinTitanium": "f69ff363830352b575509ea7ec922371005a67fdeeb8d89322ad1fb91bc27b3e",
+    "IW8_MAT_WarmDiffuser": "57139dbf1a74499094aa4abac6727640ee55915ff903e7ef9b11feee76b5b978",
+    "MAT_Amber_Status": "09c8ed58118bcdb5a88cf09177ed9b21c4648e3b65b7c98b006f27c2c641ae1f",
+    "MAT_Charcoal_Woven": "317fd605362c6cfa2b461a3557d2631993ccda22db895bbdce035bc6c26efb01",
+    "MAT_Compute_Smoked_Optical_Glass": "5f5b144bee9de2612d27f0a0e1fc8d2556bff0b998b917c3c46373d63dca377d",
+    "MAT_Graphite_Enamel": "293ffff2905d21d771ac97223e934cc3e3213aa7a4e39ab96944d69a306409e9",
+    "MAT_Graphite_Rug": "2d935538fc0bbe805c00d6189b10ee5326dc036f984ba4e5fe92bab976db1f89",
+    "MAT_Ivory_Ceramic": "b634c380914da796038cb54a3101c015bf61d2f1389f66b72e55690a553cc53f",
+    "MAT_Optical_Black": "f80242b14b76e927a8954fe914c77c1bd85c37ff08d01021710e5626e4e62ab9",
+    "MAT_Optical_White": "87b890d60b521e3e36c52d94badc18f1dbe576bd750f731172936566bddcdf2b",
+    "MAT_Original_Window_City_V2.001": "f10b8381d25dbd7849133e0bdbf937f7222eaece592c7d494e5729b8d3dfaf40",
+    "MAT_Rendered_3D_ScreenArtwork": "f89f52aa90d171ed70090f50789dc96e6ecff3ec805c4667cb67f8c6341782d1",
+    "MAT_Satin_Titanium": "99e3a72d80abb55c0f66b8d5fb59278530c6635202281401930504c6df914480",
+    "MAT_Smoke_Glass": "1c7ab93a122632d1f01f1bed7e0fa21f8f6723fdbdbbb2e33e09387bf40f8b34",
+    "MAT_Studio_Backdrop": "73c88a8c2faa6cbd9348c97e7c5c5acbae076a98249ad028ce3d668ca6562692",
+    "MAT_Titanium_Floor": "4bb4d08647edbe5bb30c06265fed70b3bc6713b86a76e748c369954c7db370db",
+    "MAT_Vermilion_Woven": "8c1f75587a9d7c2ae8460c346def73d0e05a3b04786e4fb8438cbce2d235884d",
+    "MAT_Warm_White": "c5fe7636b08239ae868d06bac95bcbdfdb637ca47addb0f03d3af8b2a755b462",
+    "Material": "9f5bf53fb979773d70d669245745e5a3c3b59d2a98b01d9439dcdf07b20383f4",
+    "NIGHT_V8__D_BlackCeramic": "8d2a377b60c604ba55c512a3eaa13fa28fd4cc0b13a8bb6a620870573779dba6",
+    "NIGHT_V8__D_BlueGreyBookCloth": "51155de4deed1214e7396e725a8e3c727998b30d005d033f5523aef6498cc05d",
+    "NIGHT_V8__D_BookPaper": "bafd994f5b5b35a6cf964fd4bad9eaf2b7ed3d5cdac428a4be4638fd81e5a104",
+    "NIGHT_V8__D_DeepLanceLeaf": "7e67fa554a250a4c6fd990d33a3d2be5f462d9b5ed3f85d86b9b3e133aaabab7",
+    "NIGHT_V8__D_OpticCoating": "26b5080dd0167e0dadc667695b9034e9fe3a71f90977d2e113225b1cf3af10fa",
+    "NIGHT_V8__D_PaleMidrib": "e85a2b36f403c7521ad4b14612741e0b3f48dd8d4d63d34c4a7a34a79ea25c44",
+    "NIGHT_V8__D_PaperEdges": "10ed4c2ede40b8c6667e9404406f67b6ca3daba1f868f04cc4c306ad42f6a7ee",
+    "NIGHT_V8__D_PlanterGlass": "3a8b57acf28b4c096d5f588165309728639162407dd674c285619fd43aaffc4a",
+    "NIGHT_V8__D_PlanterSoil": "6f745bb57072dab67c9c74fb33fb5285e8b24529f7e6cec8c8033973ed6262ab",
+    "NIGHT_V8__D_SageLanceLeaf": "7094706c0382b19b18a9062d6a19e2abd6197d7fb14c1696e558a98b47520aea",
+    "NIGHT_V8__D_SoftAnodizedGold": "1b498526620c2a1038365df99d8c072c0f771c5a60b8efc3d4e621ec5bf2cd3d",
+    "NIGHT_V8__D_SoftDisplayLine": "4e2fbfc96d013f3d175749c36fb9b0222b093bce9c85c1d55e9824aa3200925d",
+    "NIGHT_V8__D_SpecimenSmokeGlass": "2d7b7f08f26767d5f80872f2fb14819de74fd5232858bea464b7d51c94683cce",
+    "NIGHT_V8__D_WarmGreyBookCloth": "023394529cacbc88c687df1db8bcecf11f738c624137a561d2b2ebbb830ec09b",
+    "NIGHT_V8__EXT6_MAT_BlueGreyEnamel": "1a264881b18a749113cf32a21f4f35899236db1f977f1ac0b6a08542199909ec",
+    "NIGHT_V8__EXT6_MAT_BurntOrange": "382fb07f794e6b6b520c631f8cac802022b1cc7b3dc7536b02b799f10bb40f4d",
+    "NIGHT_V8__EXT6_MAT_Graphite": "c5bef34356b9538a3422de7bc7c91a54a9df6e623dad96808f9afc14e7df6f0a",
+    "NIGHT_V8__EXT6_MAT_IceSignal": "bd1a346974a935fc4fccb2805f21e27352f61b6224fd8b37326018552c0e150c",
+    "NIGHT_V8__EXT6_MAT_SatinTitanium": "5e202f305652e77abe622a25d4b8f9e0ec93d19ba796e29341227432c0b583fc",
+    "NIGHT_V8__EXT6_MAT_WarmSignal": "093cda1eaaec2c18a7609f0aba664bce101247e41d3cf56d9ba49d657f358407",
+    "NIGHT_V8__F_Chair_Seam": "5cdd9841b2647834b691310f6a7907d90acf18e3edfa097f0b73c4bdbc9d72ec",
+    "NIGHT_V8__F_Orange_Upholstery_Stitch": "c52303db87287ac7b19896c9bebaabbb6df157bf6bca720efbfe2a7cd36fc745",
+    "NIGHT_V8__F_Rug_Embossed_Grooves": "f6b21dffdf72dcb3289e415d055fb6902aa71b42a1be86877c9826b10e9121c4",
+    "NIGHT_V8__IW8_MAT_Graphite": "19303f0c3cb92341a5692e13c605680a03e86bdededbc27fe98fcc6a3f3f747e",
+    "NIGHT_V8__IW8_MAT_IvoryCeramic": "5ba5d617ef99420d74a3b853d30fadc3f9564bc7ce554106977e3a5665e5cba8",
+    "NIGHT_V8__IW8_MAT_SatinTitanium": "080875cc0c9d4b49eadb820eee056ca2649f6e999b38919bb63bd2701b85d09c",
+    "NIGHT_V8__IW8_MAT_WarmDiffuser": "94cfcaf43c3bce30594225cc17c24aa9e4f29261da3f34ce41b53ebe3457109a",
+    "NIGHT_V8__MAT_Amber_Status": "8b46cd93dac1eb3586c285adbe2d62863f8b121c66d65d6b20764eaf5852a923",
+    "NIGHT_V8__MAT_Charcoal_Woven": "ed600faca51ea950b4af81105d60c50b886efa7a6da2e596356e44c97c909f10",
+    "NIGHT_V8__MAT_Compute_Smoked_Optical_Glass": "5265b9566f83f712455743a5a524782e7067a95da5b74d0390d1b498c46e840b",
+    "NIGHT_V8__MAT_Graphite_Enamel": "96ed490dc8c1014448b2c4e9d5ecbab741a80cac9a29d230364a0b5296fc3eaa",
+    "NIGHT_V8__MAT_Graphite_Rug": "ff2df63b00cf5d08998cfeb0006642e2129cae6fb067aa86644c779450b8fc39",
+    "NIGHT_V8__MAT_Ivory_Ceramic": "0efddaa40e7b80ab8706e29c6e5e6e3b1bc6b14fe7a7c56fac6c296eef0317cd",
+    "NIGHT_V8__MAT_Optical_Black": "1b084574433714552bd2c0683835bd0a5d90ac25973279e50c25395bb607c223",
+    "NIGHT_V8__MAT_Optical_White": "d8bf261d7156382ebefe3a2b29b45cbcd13a9532905f7e7718784727c3e3cc27",
+    "NIGHT_V8__MAT_Original_Window_City_V2.001": "99e493e654627d6952947042d2c5000979b7ffbe9bc10e87aafef9fac24cf418",
+    "NIGHT_V8__MAT_Rendered_3D_ScreenArtwork": "9b85eff597a5941aa161ebb2ad381b9bed338631d2f2497c24fece9d63498555",
+    "NIGHT_V8__MAT_Satin_Titanium": "ac0b9ca0470a1670731b91794af4de483f7ff792ceabbec6493f43f451fda0db",
+    "NIGHT_V8__MAT_Smoke_Glass": "b28fc3f53b543e645f7439ef8f23a5886e9c6f9e576b912d31aafa155c0fc39b",
+    "NIGHT_V8__MAT_Studio_Backdrop": "8279ef02b7a44c6e16b8a01ed666bbfc5cf7bc2d005d6e266471628a6cc12bcd",
+    "NIGHT_V8__MAT_Titanium_Floor": "710e7b2c5249543f7867fa013982b7354e9dd3e129b7f9b7f9c7f285bb2bd6f0",
+    "NIGHT_V8__MAT_Vermilion_Woven": "2775c4f3a62718b91732bc913fe5588b6903da6774ca289602fcf34cdf02be6e",
+    "NIGHT_V8__MAT_Warm_White": "efe58903200883af7b2519f3bb3921188bcdbd253f7c6a921b934ff35344d14b",
+    "NIGHT_V8__P_BonsaiBark": "06143e7fd9116441783da9845e4fcc3abb57e61709b20031a05d58284c683109",
+    "NIGHT_V8__P_ClearTerrariumGlass": "7133be82f0977e44a7107d1016901e6f11d75b0a40ecc37d97461938478039ff",
+    "NIGHT_V8__P_CreativeFolioCover": "dfda6207cbe823644a1b03b36741c1635892d2e13329efe2985edafe7e0d20d5",
+    "NIGHT_V8__P_DeepLeaf": "e03bcb69ceb0e14be5d6198e82e011fe326ac73937fee4ec6b884e962f29b3ab",
+    "NIGHT_V8__P_DisplayInk": "4f87b8fe7cc818485f5cd0f007288631d1e2de6e89d82ed26fd277e7a8ff0458",
+    "NIGHT_V8__P_DisplaySilverBlue": "083dbebd0d6c7c4b6094aada42a24c60402a077cc2ccc49940bb783f4483b478",
+    "NIGHT_V8__P_GreenStem": "73f4755b145f3f09cf8290e8af6ea8edf03fcfe0a195c350577f69cec0183a3a",
+    "NIGHT_V8__P_LensCoating": "1461c6a7077abb8524d861b00d1e3e01be82003a82a343f1e5d90db6d527ce82",
+    "NIGHT_V8__P_NewLeaf": "51e59df6a7fe9f3e32b9c6349c126c6e49ef0e05fb1670ba281774fb32d75e0d",
+    "NIGHT_V8__P_PageEdge": "2abb68515fb16681ee6ae08787456d0b938d4246869e390da310d4ccc9b17dee",
+    "NIGHT_V8__P_PetalBrushedSilver": "7b1c2de6282d78ef1571bec84cd35cceea96c04ef40f30e3951877d75b74fef8",
+    "NIGHT_V8__P_RiverStone": "c88fd33f52bc98210fad47405436845b64433ce8cab6af68a1064e41cfd73a6c",
+    "NIGHT_V8__P_Soil": "0cbe3655e121538e6a35e055563a1313f5ce7aca261094e4f85c18832a353701",
+    "NIGHT_V8__P_TeaSurface": "d6fe71e4b69e30565cde023d805eab5acf5bc5b5d1734654a1fd7421ab9bb7be",
+    "NIGHT_V8__P_TerrariumMoss": "4f9cc67accbacc8b877fe38c1902fd225fd910b70debe37b6e5270789d1578c6",
+    "NIGHT_V8__P_WarmAnodizedMetal": "cd8364caf7e7a6b0a63eb103649d314778f5f373beaeba2a065402a49e8e1561",
+    "NIGHT_V8__P_WarmPaper": "3b0199bdb7069278f9427e96d53fc814fbd5317a5643bf58f0143869edeef7fc",
+    "NIGHT_V8__V5_MAT_AmberSignal": "0cfb92e8d3883c338b21154d29f6648eaad3681b7733b848a47453763e9a7d05",
+    "NIGHT_V8__V5_MAT_BlueGreyEnamel": "57198c86ed3b8b30545cd766316890a4bfb8150ec44a502f88426bdf5ff6d684",
+    "NIGHT_V8__V5_MAT_BurntOrange": "ddd8b109d3129c53faec0ddddc4af3810a1cb42c2c469fbdc41548846b81adde",
+    "NIGHT_V8__V5_MAT_Graphite": "eb6ce560d20433538f9eb932ec9fa28def35bad8d4ef7816d63f7f9b7cc6f8f3",
+    "NIGHT_V8__V5_MAT_IceSignal": "deb82688fa849f27e2ef83cd5da2f21bc346c30613bbf6598aa503d4feb212b2",
+    "NIGHT_V8__V5_MAT_PearlCeramic": "235ac3192a649c5319a5ee2fb49dc89337d79758427ebfc7a18f9a0a96aca8da",
+    "NIGHT_V8__V5_MAT_RecessedOptics": "f874cc487c6f33eb271340646b62323411b0c49918cc1e6a0747b37b393c7896",
+    "NIGHT_V8__V5_MAT_SatinTitanium": "fa1e7c4715b4351051bcaa0ca97cceff509fbdb0c5488322e8a97bee1c31b113",
+    "NIGHT_V8__V5_MAT_WarmDiffuser": "6db312d35c18b5e71391888771a83257b8875ccab97e0b2aa2b7089b9261dda1",
+    "NIGHT_V8__WG7_MAT_AmberDiffuser": "e76b7b5ca36caae2947166763da6a01f026541f1534b4f0f25cae344ce090129",
+    "NIGHT_V8__WG7_MAT_BlueGrey": "25bebc5dde6ca02a01e6d53ebc9ab2f58caeac8b1d864ff88238950697ce6c71",
+    "NIGHT_V8__WG7_MAT_ChampagneMetal": "7d46dc0bf15b26eaed3ea8d7b638d4747d9a9cfbbb130a5889221de321d079a1",
+    "NIGHT_V8__WG7_MAT_DesaturatedBotanical": "d9543dd6e1d76a13da9994dd4799d1293b727a0d422eab64c9314fdb54576a46",
+    "NIGHT_V8__WG7_MAT_Graphite": "ce1f234deba9ee8e036a510e2e8da071cc8edc78b39157208b7ca61e77b17007",
+    "NIGHT_V8__WG7_MAT_Titanium": "bca5b598ea881ce1f5d8e4c4b7c21d4cc1c373b3880ba7ad18b87e38680c831b",
+    "NIGHT_V8__WG7_MAT_WalnutOrangeEnamel": "84ca1b1d7acc136fd8260864b08c27996b2d7142a44b8ddf768f6ff681f14a62",
+    "NIGHT_V8__WG7_MAT_WarmCeramic": "22668b99dddeb3b8afdca34579ec4fd79689ee517df75ddbf830ce52a279d133",
+    "NIGHT_V8__WG7_MAT_WarmWhiteDiffuser": "d24b7433ba9e0d9aaa5467de96309f18fbdb69a2cdbe4f95c0978e2885e41f9c",
+    "P_BonsaiBark": "5db22c986c9b796be0ce98a3609b2641adb985796bdc1139dc1bfb787e9ec91b",
+    "P_ClearTerrariumGlass": "369141e46a75e69af6d0feb0e2eeeefd2651b6f082921b60795cd44baa23c80b",
+    "P_CreativeFolioCover": "47bd2de689787c13577c1386e39801e86895596a7d4d43701add0d6b959010fb",
+    "P_DeepLeaf": "47856477c18bfcc90440cb035ff3042b953f2d327a48fed081264289af2874bd",
+    "P_DisplayInk": "f022f4f903ac3d332baec625b316ff17bbc7c0fc4b7f3e34668234c43736972d",
+    "P_DisplaySilverBlue": "b7c0f6b5929b67b9a8ef3f13cfce6b221681ca22a5e539bb57450d406b8e2323",
+    "P_GreenStem": "4d24bd629b062d27b33fafec8f3ae3ca88a53214e2d8565d74e6c8824e8470f0",
+    "P_LensCoating": "6c67b2df991c22a1c044769e244ddfa6d2cb9544a253d616a972989805b5b4be",
+    "P_NewLeaf": "7a6840ae1ff3817a5ab068daec17fc19eb041ab51726127348cf0a640b2c38e8",
+    "P_PageEdge": "cbb06347c0b802b30760c31e267d585f845aa63c8b030f5468bb1fbe9a690af4",
+    "P_PetalBrushedSilver": "b5d739c0304d263ca18c4e38a61415717a83200f83e2fa7e8665f53882e7dcc2",
+    "P_RiverStone": "39c04b78992ef8ed5ffa50340fd7996fd7b93e9abfd5920da81ad7bc8b6d8c22",
+    "P_Soil": "62bb930f642bcdbb0b86b1360d9358e52d561fd3a19d686a453c9c8a929a8aa8",
+    "P_TeaSurface": "54008c415bfd943168dc25ef17952223c5edf8295abd14d246a46b840948b064",
+    "P_TerrariumMoss": "0eaa2c02649986af741f5c7c77ffa1193c6cd0d04c085aeadef3fd1e966886fd",
+    "P_WarmAnodizedMetal": "8b0b0f8cb889edcf8f139734ad4762eafd4eb5970a6b63af886ee5c9b40cd27d",
+    "P_WarmPaper": "c07c9667d03ba341f6eced0abd59d9a70aa231dfba4f6bce15688504cf622874",
+    "SCREEN_Amber_Edge": "316e74e83ede740a217b8eb462830f0f53c3ea8a9328be41daa0266a90bd4729",
+    "SCREEN_Blue_Silver": "b2c73d2c8ae61b5bd7e76224ba01e2ea740ee2fdb19eff922a2c2f07245d5813",
+    "SCREEN_Burnished_Amber": "f353561ef3795a57fe64dc94526681f077e8dd5d4298deb80eaa98e23450ca97",
+    "SCREEN_Frosted_Platinum": "619b730cf20b8dc5e9551d597aa627607493c4f7bc4e4ae0eccc7c3335ef1daf",
+    "SCREEN_Honey_Glass": "023fbbc4e527d7da427046f6a7840abacfd1e97c80ea3ef6439a9efcc4cae2b4",
+    "SCREEN_Ice_Blue_Glass": "eaaf00d9976ec9735491d1fba7221928942026c241d0841a7f3b5bfe1b30b3a0",
+    "SCREEN_Ice_Edge": "ea3f5c791c340e34a50ee7167a978ce03f32360e5b2dfb686872224b4616adbc",
+    "SCREEN_Near_Black_Backdrop": "014f30a237343e5ceaf0035bdea724d647298d3a095c8594af3e66653bbf3dcc",
+    "SCREEN_Pale_Gold_Folds": "5fd8a75b22e52e14680dbcab0c3c0f44ed877c46878a2b43ddf57c04f327aeb0",
+    "SCREEN_Tiny_Stars": "a580b5defbb8edeaeab9c49c3f4959552fdde76b2380e427ea2820c9e4df771b",
+    "V19_Ceiling_Anodized_Graphite": "1342f9129a78982e970e0fc4cd04df233bd1709c6dcec30638c92fb73d43ad7b",
+    "V19_Ceiling_Brushed_Champagne": "16bb3533da3bfef4d5e47fbb768afbc0e474e424c790c7191765202e22cd13a0",
+    "V19_Ceiling_Opal_Diffuser": "c9a37449cbfff819965b26078376e886e98b324a86c7c6059f060f531b3156b9",
+    "V5_MAT_AmberSignal": "2cf8e92d978b35faec27572761c1c45457198697bfd5441269c29c8091269fc9",
+    "V5_MAT_BlueGreyEnamel": "5ace2a5a488f32eb867478039d4748d06e8ec1891c5d2e8dfb84f33ef1b69b79",
+    "V5_MAT_BurntOrange": "8daf865dae75e45c9cc704b3d9447560bdbadb5012d4b710bbca254f53720ea1",
+    "V5_MAT_Graphite": "867863c6d1c89c2d00700959a6eee29663d212f870c81379dc893a8a340a2bbd",
+    "V5_MAT_IceSignal": "d9d49ea0be9e437d3e05ce121fb2153422dbeae027caa75d58c7fcdd1db0ebdf",
+    "V5_MAT_PearlCeramic": "ce9ebc161a319216fd2c0f9d309418cb9d0b2076a308ab93358ccdb861fc3165",
+    "V5_MAT_RecessedOptics": "5e7e08838a2b39fdc67c2894e7d0b75a483aa7f3da7d7604af98e54b2cdc7f2c",
+    "V5_MAT_SatinTitanium": "11b74fc441d40fd7623dc97327cbe79059c40fc1a9733920af8204a1f899e2df",
+    "V5_MAT_WarmDiffuser": "612c6a68fc18956579a3561313ffe92d1504ba8aadda015b1d4aefa9ff48fcf5",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Amber_Status": "f6829a969abee27fcbcadd59337492e762345c739d72c69f6767565ad416d5f4",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Graphite_Enamel": "f908785772f7608c1c1b75ea0dbb0a4821a9ba756b3534a3c5c258ad15b4bf81",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Ivory_Ceramic": "1c31d32d9135cec94ffdedf219423cefef58f109821e268dbe54a3e532c24fea",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Optical_Black": "f495c5e2e91db281962ea95b5808a129ceea1b31f9e4a06561bf74b4367364ce",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Satin_Titanium": "cb64ceea422f225810d7db4efade333582118434bafad3aaafc38b83b03c4f33",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_MAT_Warm_White": "6e7de8eb3842faba55ed5780063712e3ed0e52d2a4a9ea9f2bb029314b9293a0",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_BonsaiBark": "6123ae827317683ba573b3dd5dae44a5ba6171d4720604dde482f432b6b90ef9",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_CreativeFolioCover": "eae81f29ae9878351818ea45a3abcfde8720c48a6f839736bccd7b775a8a6f60",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DeepLeaf": "4acf026c58a4cfb20b27bf8b6d2a12eee3dbfe5b1fbafad95ed07e0a6e9a13ee",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplayInk": "775d52a79d228bbf270a77f2d7ca87451a704097c80bf0f639bfba6e490bd4a9",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_DisplaySilverBlue": "f57b723819d68a5fdbc785ed8511c6ac8b06fa658c795fe89e1664aec0cc4cd9",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_GreenStem": "d2327061b41dac9436a3334a6d173addad675559723ba47c7d7535e335aca23e",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_LensCoating": "4948de1a684adba3f9f8f71351816ddcf288956a739defe1dae2facb808673b0",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_NewLeaf": "39c8485c046b4843c17cf39d9c0b12dc017743217ddeac4a487fc261b4dca9ca",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PageEdge": "b8fa4b8fdfc8884f22f162fc1d17424b772bfec02d74ac151c2596913cdc5208",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_PetalBrushedSilver": "a2c2b7e029116ba0a03de5d43907728f7dcebd10b98fc1301400f9783f3ab4ed",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_RiverStone": "7ffe881f6ef497a6f6d5a5e8f57c27dfea9a606bceea109dbda9eba4f1a2d6dc",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_Soil": "cbbbc3a4b7c96fab7f5814b0355f14b26bd2834ba27d9e5fcb703fea9dc4aeb5",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_TerrariumMoss": "bc6b9b48709e259d6a9c6978e6e8b189559b488fac564a7ba80031d6c8e5ccb1",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmAnodizedMetal": "d3b6b39b2607accb4c2fd06e02e545965e23d465603e0d5049b451b04d1febfa",
+    "WEB15_BAKE_A10_WEB8_BAKE_A2_P_WarmPaper": "28735eb4d3b9cd2de55a4aa960b65c525f01c14c7a8ae0c5aa46bca087343856",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Amber_Status": "666860d09237b1befb05f31e0771cc7a9e3efe976f0770580e0959742d1a7e1c",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Graphite_Enamel": "7659c78078a3bc77d4abfe7af48f04c04704a862d7dc34fbdc49e4aead291cfe",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Ivory_Ceramic": "6ba4f29934b57e8fde820d709fef97ac66ef8c1df01c171b26a361f193a187d7",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Optical_Black": "5dc2c579cf21e17734e617e9321c70ccbae39c4d45bd07a528650999e1a68a93",
+    "WEB15_BAKE_A2_WEB8_BAKE_A2_MAT_Satin_Titanium": "b1e5a88bed10e88302ee699d611e39e24e90655fdaf1cf368987bc744e2cc580",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Amber_Status": "dc14d6545647e6638477aa9b76a638c773679f19211c68ee08afe5799ad6f1b2",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Charcoal_Woven": "16417fa6544c5ec8e8046dd3798e98a7aed839cc877179a0d0d74aee6a254863",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Graphite_Enamel": "911ed633a975fc7f638cb6cfff758442c8a1f7dc44399a7b365b60d384af2f22",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Ivory_Ceramic": "b7668c5c9793db54af306f0bad21530a7be6892e610c9ae0ef4a9f1825aa1c1c",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_Black": "1f0b33e7a6cf802ce947e8ad7602d3f889ec3624120bcf8ae367ff68001e26a7",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Optical_White": "8aafbeb3c8c913586cf68b5d53c9ec696a8f2d1f54b220256a7cbc936761ed1f",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_MAT_Satin_Titanium": "7f3d0ccb9cf2e730c1140f8708927c4ae64370eaefa121dbeadfb05cb5635f01",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_DisplaySilverBlue": "06bb258e6067efcdf4aa9718e82f2b53e629bf06df945ed3fbcc898644e572f5",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_LensCoating": "872ab1fa6d544b7e9c039e2e8caa6b274d1b9d8bc21f7b7f345d90e212244322",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_TeaSurface": "ccf7396a75b6066098e1e4a5567e6ca17ed67feebb3ab2334c1c45465032192a",
+    "WEB15_BAKE_A9_WEB8_BAKE_A2_P_WarmAnodizedMetal": "3fe19825cc694c8f0d9da9deb6ac62896c6b71d0cbac3ad04adbb3abcb2741b0",
+    "WEB8_BAKE_A0_MAT_Graphite_Enamel": "98a811514a313b2099bb81c7606d72971f2988f3eccf865d6a1cda0d02275a33",
+    "WEB8_BAKE_A0_MAT_Optical_Black": "d96ce9860d35c292812be60bcc4d99f86be9c8734e96141019b14436d8cd1398",
+    "WEB8_BAKE_A0_MAT_Optical_White": "99466e2fd490b26a266490dc704f50b516a020aa713e5e810fddedc637811303",
+    "WEB8_BAKE_A0_MAT_Satin_Titanium": "acf789797c171ebe32fa8b8cdf3ab01585d0c648e8da3612825876177e8d0d30",
+    "WEB8_BAKE_A0_MAT_Titanium_Floor": "39ba35072abc66dc8c1b4db52ce6bf0beed969f8047f8afd7021a4b03d10aab3",
+    "WEB8_BAKE_A0_MAT_Warm_White": "c2095cde74cf3d315b94b6adf55ffd635170d0846faf68b3d97ac7e136f8e8ba",
+    "WEB8_BAKE_A11_F_Chair_Seam": "3afca4affeee08bd79fa6057e64486dfe9203ce6a9d46014bdefa2ffc70def88",
+    "WEB8_BAKE_A11_MAT_Charcoal_Woven": "bb3944bc8f77ad28407679d3f665d63238a2d99873b7d01ceca4aaad71eb44ce",
+    "WEB8_BAKE_A11_MAT_Ivory_Ceramic": "84a262672994c0d56fcbe853b2a12ea449d9149b2c84040efa87053a402c9fcb",
+    "WEB8_BAKE_A11_MAT_Optical_Black": "46d04449742301aec56faab4c06e88f76a70845aae3896916a77d0c70625a08d",
+    "WEB8_BAKE_A11_MAT_Satin_Titanium": "de575ddb14670b1730e8b98a2ae2b89a572abdc38b51373090532e396917292c",
+    "WEB8_BAKE_A1_F_Rug_Embossed_Grooves": "f24e742365738b095b87b60728a70db02e75ab717eae7d060f906f97a9eaf1bb",
+    "WEB8_BAKE_A1_MAT_Graphite_Enamel": "e63e996d83a65e117caf08c1810714eb907561b139ee5d08b1d7336a1c02a655",
+    "WEB8_BAKE_A1_MAT_Graphite_Rug": "f54fd766e066e33deeede46e449e3267371654e990b49a447ca24147e0c8f04c",
+    "WEB8_BAKE_A1_MAT_Optical_Black": "b1017b039ec9a43c97a9096ea665a2dbc4007f8403fb57780fe1047eafcdd1c1",
+    "WEB8_BAKE_A1_MAT_Optical_White": "8dbaf981cb513d7f72726564ea45cc008b2cfb0c98a6fa2309a458163d09ba7f",
+    "WEB8_BAKE_A1_MAT_Satin_Titanium": "82f82bba98e7cd74b420cc5b3a3b99409c875dbfa9138c9fd6f3d8564868b0c6",
+    "WEB8_BAKE_A3_D_BlackCeramic": "069df1a3f9ec3607981caa4c083a39b99c653574a213a472aeadba12ad958ffe",
+    "WEB8_BAKE_A3_D_BlueGreyBookCloth": "7eaad47388125e287558875eb2444cd41e775b8b9e27a79787f9b592fe5ef818",
+    "WEB8_BAKE_A3_D_BookPaper": "6b795a49073be73d45a93a905c0b81e60cf3416f5769659685408fee2578494f",
+    "WEB8_BAKE_A3_D_DeepLanceLeaf": "4e02c3d9de72e6d83d986f1147b537c8990ebb9b48dc559242abb1cfabaed1e1",
+    "WEB8_BAKE_A3_D_OpticCoating": "0b16f80d5e5fabb99ef1dd52bd736dd4c3c046c06463b6779e553dcf435f5d72",
+    "WEB8_BAKE_A3_D_PaleMidrib": "b2250dc2fa6b472921b003dc01d7be0d1e88f0b89036ce688887509ebc815b57",
+    "WEB8_BAKE_A3_D_PaperEdges": "e3b093fe17236b19711ca0f048318fd8df09ed7c138d0d8189dd9296790b77c9",
+    "WEB8_BAKE_A3_D_PlanterSoil": "a0bc1e1eb6f182a593912055ac85b92ca2d7647db9094e12f93c48339c68db1b",
+    "WEB8_BAKE_A3_D_SageLanceLeaf": "65a3befdf5235c1ac6aeb04b68a6a630a857a4579c3501529b9d729ddc4eee9a",
+    "WEB8_BAKE_A3_D_SoftAnodizedGold": "72fc22b30298df5788f186606ed376b40e99a87c0df9e8ad3dba45425707e4d6",
+    "WEB8_BAKE_A3_D_SoftDisplayLine": "ec538f87c01965db693d6acde0cd001f7afa2ce14664f505417107f2d4dbf643",
+    "WEB8_BAKE_A3_D_WarmGreyBookCloth": "ac1e8954d956754b5e74fa024df6b6e0b18d75ad2fe186cc4c064f26d4ab6610",
+    "WEB8_BAKE_A3_MAT_Amber_Status": "4fb75c6dd4a0a464d5d5ffacdee3bce34be82a0b1c150601b21127014ca4ec79",
+    "WEB8_BAKE_A3_MAT_Graphite_Enamel": "294498d769bd1208b53420cd96ab527d360a79d37ce2fc951f058b22cc2a2d2f",
+    "WEB8_BAKE_A3_MAT_Ivory_Ceramic": "132ce75639b6c870dfa4caae867452e0deddfaa7f5587dd8e86a709c62ba83af",
+    "WEB8_BAKE_A3_MAT_Optical_Black": "246a48d03df84904a0551692edd7c9d93839f47a1e5067acee2c62b4f0d2b034",
+    "WEB8_BAKE_A3_MAT_Optical_White": "739419d32bce02947394b0ffcfd23ae6e27bccbaa4f5a69b98518e8ac6815d01",
+    "WEB8_BAKE_A3_MAT_Satin_Titanium": "ccd68ce438042eef7f011f6d51390a17c0a555adcbbe8c064b00c15767ad7dcf",
+    "WEB8_BAKE_A4_IW8_MAT_Graphite": "887b6447c4fa5f459fb5226e690ab6b6640d5c6972ccda552bbea1376b952cd4",
+    "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic": "82c5231257cd8dd5aea7417e232f09a1a005cd380e1be0ca23802920cd9fef9b",
+    "WEB8_BAKE_A4_IW8_MAT_SatinTitanium": "8705409e9a4ed885c6ec793b1035797002bee11f5ab3089af0555d741102b3da",
+    "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser": "fdede9a375399c923275b0d92008314c93188d1517ce993522b7d4a08fcb9f03",
+    "WEB8_BAKE_A4_V5_MAT_AmberSignal": "845c3e6b2d3d4a2d5d412e2563925f7b6b2e34db44731acd89f90f5928318225",
+    "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel": "c181e9ee4e8275765db0aeca22359cdde668dee56644345dbeacdb070d21c57d",
+    "WEB8_BAKE_A4_V5_MAT_BurntOrange": "be6bca50dd95d96594a642066d71d994e812694eecc6885ea58c394f915d2b23",
+    "WEB8_BAKE_A4_V5_MAT_Graphite": "6fa3bdf9dff58f1eff48ec6a51fe91f52b8ac21fa789c80473b4ab605c1664cb",
+    "WEB8_BAKE_A4_V5_MAT_IceSignal": "745fd8d95268141d01fff40c83db28967f73f04d1b9af7f24524d3be352192c7",
+    "WEB8_BAKE_A4_V5_MAT_PearlCeramic": "5e3870a7342b87d4e7f6fd8ded03f09d2a590e9138766e71dbd56f099234158e",
+    "WEB8_BAKE_A4_V5_MAT_RecessedOptics": "d2a7a69f328236ff769b1dd9f7eaf921f3ba9c3b6a3dd052974c850f6909d964",
+    "WEB8_BAKE_A4_V5_MAT_SatinTitanium": "c690160b2c334764b6695a80114a341905e44e232451d8aec2df02fba8219299",
+    "WEB8_BAKE_A4_V5_MAT_WarmDiffuser": "354d26413b5ca6ab4fabd8a9a876ea7b3ec6bf17dab8b5f997c1d5f3762d0f62",
+    "WEB8_BAKE_A5_EXT6_MAT_BlueGreyEnamel": "04276a4055f36756b98c626a345d217be9bc10a3a626bee909a1308c280ccb8a",
+    "WEB8_BAKE_A5_EXT6_MAT_BurntOrange": "05819d90c6d58dfd853c21ab24e68aaab9f704daaec9ff4de6acb1e8ce302d05",
+    "WEB8_BAKE_A5_EXT6_MAT_Graphite": "9c23afe42ff532fbe7df58d1b4e229e2fa147a8de0daff58c940a8390d2a6bc9",
+    "WEB8_BAKE_A5_EXT6_MAT_IceSignal": "7a953a583a0dd2cb347644220b87e0b58de3b8ed1cf3913978fcb152e427e6ca",
+    "WEB8_BAKE_A5_EXT6_MAT_SatinTitanium": "8e2ed318543c22a2d3227de351127bccef9d05de0289ba37be7f5a2eebc419e4",
+    "WEB8_BAKE_A5_EXT6_MAT_WarmSignal": "685cb2a40cb5442b879d208d3fdd4fd311322fb48febc90dbb38b6cb66fc71d9",
+    "WEB8_BAKE_A6_WG7_MAT_AmberDiffuser": "383e66047b03be5992c6d1de0e4b727d7557620d55f5fccf05ce62ea56631acf",
+    "WEB8_BAKE_A6_WG7_MAT_BlueGrey": "f45744ff635416ac648854d66ca39bb0778faa6fa0f4d5743875b07d6541a0f4",
+    "WEB8_BAKE_A6_WG7_MAT_ChampagneMetal": "894a0905ae48525d019aa5d9e2569650c826f2e416a6450e6a514fe598ec4c3c",
+    "WEB8_BAKE_A6_WG7_MAT_DesaturatedBotanical": "d5a41a2d071f794d321a084feef57cd4fdd356acdf1d097ccb968689c85e9079",
+    "WEB8_BAKE_A6_WG7_MAT_Graphite": "cab6882262cd803599aa82a3c6773ba49b6113cd4588f94a745964767863a382",
+    "WEB8_BAKE_A6_WG7_MAT_Titanium": "f42adf869161f601da621db21a63e1ed4daab1e1f3877f4db4ec150ef5cf03d6",
+    "WEB8_BAKE_A6_WG7_MAT_WalnutOrangeEnamel": "cbe721ebe067deeeb7f716565757e7a371a7ecfe4dcaec65bff263032f689209",
+    "WEB8_BAKE_A6_WG7_MAT_WarmCeramic": "65d9ee5b8c824c8f87fe0f227b2da0065b0991b43a8ae5ff295249bc64180415",
+    "WEB8_BAKE_A6_WG7_MAT_WarmWhiteDiffuser": "542aae3e25f87da999a9e2c7408147e628ae63baae12a25452fefe877cc4dabd",
+    "WEB8_BAKE_A7_F_Orange_Upholstery_Stitch": "871d2f0b297ae4cbff57b3b280e92d068f36d13ed41842eda7372baa5364aa95",
+    "WEB8_BAKE_A7_MAT_Charcoal_Woven": "b2d118a4771e64ec103abe30c3b06d4471f3f872d570d7651a1504ef480fefff",
+    "WEB8_BAKE_A7_MAT_Graphite_Enamel": "b18c805dc27d7d065b122f743525d7639aeb30431c52c238f5e0fbb6fe28bf21",
+    "WEB8_BAKE_A7_MAT_Optical_Black": "8e3439a9baee31f7ef61e5d69cda4b1af6f36a6d7c4d5565474a8e6c445867f0",
+    "WEB8_BAKE_A7_MAT_Satin_Titanium": "f8afbd89a831453ceb151fc8e39830e51e84ed49d7d633e082bb266238c44f6c",
+    "WEB8_BAKE_A7_MAT_Vermilion_Woven": "72c0b6358d0cfb41b41d9f3bc6715354f7968938465214270691a2a1b0be26c9",
+    "WEB8_BAKE_A8_MAT_Graphite_Enamel": "09494ee01da1092b9881fccdf29b28d468194108bcd12698003ddba918ac79ac",
+    "WEB8_BAKE_A8_MAT_Optical_Black": "716e53e7837a3be161ba53c14fdda6a402c1ae8af2f6ab1a7bf6ea38fb81b379",
+    "WEB8_BAKE_A8_MAT_Optical_White": "7ccb6effaf6e0b3f88bd5ce76d28c0d7ae5dd7c6c367c4cb9df0ac147ab5ddd8",
+    "WEB8_BAKE_A8_MAT_Satin_Titanium": "0bd36bba6f66c2b35bf0787a070690506a0e8ab2fe51a60c1a885c012a7a33cc",
+    "WEB8_BAKE_A8_MAT_Titanium_Floor": "ab52f2d52ae4d0db8fa269b27cb86f36c5434e99767a9e60aa356b6c6148fa18",
+    "WEB8_BAKE_A8_MAT_Warm_White": "3cdd286fb0d0952b5645898b3345dfe404762f83459110242a53ef994625b4e8",
+    "WEB8_CONTEXT_MAT_Studio_Backdrop": "9c2bc0d3edc02b28f68a91bdd653fb60a41032ac7ce564e36e80f57b2c377a6e",
+    "WEB8_GLASS_D_PlanterGlass": "d93812e4fba5a731d6932d57c1d3614441fff696d501c6d8ecb0feab8c585f40",
+    "WEB8_GLASS_D_SpecimenSmokeGlass": "7f89049698e274b1448a8357a3b641bfe68ae3a40067bd967721d515096d38c9",
+    "WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass": "28c60238a302a27fff666a804b053b0bfda751e252541bedeadb44f477e2bc03",
+    "WEB8_GLASS_MAT_Smoke_Glass": "b1f36f5efed629faf53984270ae9522144b61bfbae38163bafa96d8906a04630",
+    "WEB8_GLASS_P_ClearTerrariumGlass": "239a8f5c33ef36a6808736487a4e3c0604877ae7463baa4b12a775d90aeb87c4",
+    "WEB8_IMAGE_MAT_Original_Window_City_V2.001": "92e8ee563c468ffefc43aa2a02799cba3c9d42d537a0f03a4e8b35561df9638d",
+    "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork": "429bae538ae64504c6364968632027d490d394fba0a1d8c9acff978a55067c17",
+    "WEB_BAKED_ATLAS_0": "33d0ea6d69ea752b62a79611854e94dece2db76f9a94ffcc37135c0782b8047e",
+    "WEB_BAKED_ATLAS_1": "861e20fe0a5e9853fb7c64368645ebeb394e7d0be1178f2be71f78bc0985a556",
+    "WEB_BAKED_ATLAS_2": "048a41c9c3e96cd524d06b0026d51a83cf8ed21cf9fe791aa66b1b804c89fe08",
+    "WEB_BAKED_ATLAS_3": "feff87e00743d3b54538a96bc977ccf79305d39b810cd7242be962077185987b",
+    "WEB_BAKED_CHAIR_REPAIRED.001": "457ced16e6f513ba1f3a8786eb3eaf20c54b20b7474f1048b5328b66cab1be52",
+    "WEB_CLEAR_D_PlanterGlass": "90be2275ca3c7ef04ce7d6310bfe7872a6776cb9ce3d8f97821ac5c182534cb8",
+    "WEB_CLEAR_D_SpecimenSmokeGlass": "69c3f21d3c90167749e27cdd9bd6ee9e7a6542b37bc995e6c9c087727c475f88",
+    "WEB_CLEAR_MAT_Compute_Smoked_Optical_Glass": "17e853299350d623100191927e59ec01d38f7d3588e0d9af4f481122e2166e12",
+    "WEB_CLEAR_MAT_Smoke_Glass": "370aa1a1796aad9538ba4f6585d063607f02c0e01514e2c872cc20119756118a",
+    "WEB_CLEAR_P_ClearTerrariumGlass": "32ea3b6e4ca2930780ac6007a186a69416bfc5232fae176465148c318615db44",
+    "WG7_MAT_AmberDiffuser": "7535ecd77a8003c0353aae5ced312c1175bfd94cbf29d9221b072337feb93df2",
+    "WG7_MAT_BlueGrey": "0153d57016879a31c0c7aa8545ac5487435aade7145fddc27cbae4bfece4b5af",
+    "WG7_MAT_ChampagneMetal": "2507cd01d228d5340d8d79c102143681dc5ac106f808ba87943677b7e0bf55fd",
+    "WG7_MAT_DesaturatedBotanical": "daa506b6804d9b087435ed3c5576db97dcdc31c4d7a0fd3557a1378372578e18",
+    "WG7_MAT_Graphite": "0ea4ca50b990a8e1e6d11918646e52370beffece0e8b112cb96fde68cf86e573",
+    "WG7_MAT_Titanium": "68055ba50dd06d84b0346e0fe9ae38b9382e8bc340f26de02f283a6cd28d9815",
+    "WG7_MAT_WalnutOrangeEnamel": "683491709893a8048dd0ca6c50f0bd9cb652ed768d8813840816014ac8495f89",
+    "WG7_MAT_WarmCeramic": "3f036207012c2764ab9f51d0abc315825a92d1925b49a30937337e9de080e179",
+    "WG7_MAT_WarmWhiteDiffuser": "5026adb8986c649fe5ac5756d0201d664fb24aa467f5eb32b076fc84aa23acb9"
+  },
+  "protectedFloorMaterials": {
+    "before": {
+      "WEB8_BAKE_A0_MAT_Titanium_Floor": "39ba35072abc66dc8c1b4db52ce6bf0beed969f8047f8afd7021a4b03d10aab3",
+      "WEB8_BAKE_A8_MAT_Titanium_Floor": "ab52f2d52ae4d0db8fa269b27cb86f36c5434e99767a9e60aa356b6c6148fa18"
+    },
+    "after": {
+      "WEB8_BAKE_A0_MAT_Titanium_Floor": "39ba35072abc66dc8c1b4db52ce6bf0beed969f8047f8afd7021a4b03d10aab3",
+      "WEB8_BAKE_A8_MAT_Titanium_Floor": "ab52f2d52ae4d0db8fa269b27cb86f36c5434e99767a9e60aa356b6c6148fa18"
+    }
+  },
+  "protectedLampMaterials": {
+    "before": {
+      "V19_Ceiling_Anodized_Graphite": "1342f9129a78982e970e0fc4cd04df233bd1709c6dcec30638c92fb73d43ad7b",
+      "V19_Ceiling_Brushed_Champagne": "16bb3533da3bfef4d5e47fbb768afbc0e474e424c790c7191765202e22cd13a0",
+      "V19_Ceiling_Opal_Diffuser": "c9a37449cbfff819965b26078376e886e98b324a86c7c6059f060f531b3156b9"
+    },
+    "after": {
+      "V19_Ceiling_Anodized_Graphite": "1342f9129a78982e970e0fc4cd04df233bd1709c6dcec30638c92fb73d43ad7b",
+      "V19_Ceiling_Brushed_Champagne": "16bb3533da3bfef4d5e47fbb768afbc0e474e424c790c7191765202e22cd13a0",
+      "V19_Ceiling_Opal_Diffuser": "c9a37449cbfff819965b26078376e886e98b324a86c7c6059f060f531b3156b9"
+    }
+  },
+  "authoredLightsBefore": "1cd3064209f4b0c037895b913f3ab33d2e79a9e29f5c72073e0317d9e882c212",
+  "authoredLightsAfter": "1cd3064209f4b0c037895b913f3ab33d2e79a9e29f5c72073e0317d9e882c212",
+  "newWallMaterialGraphs": {
+    "V20_MARBLE_WEB8_BAKE_A0_MAT_Graphite_Enamel": "562b99d6afc1b1028c97ede4e1d22429e56f9db1d1d36922fa4367629b99ea1c",
+    "V20_MARBLE_WEB8_BAKE_A0_MAT_Satin_Titanium": "fec7d032ef294243a9e0a013eadda6282854e1aa1756e81f7f6ece19a31f2801",
+    "V20_MARBLE_WEB8_BAKE_A8_MAT_Satin_Titanium": "d6e76a813ba12d49475edd08900ad5a12dbb626a4cde3dc3aeceb9b5e05ab9a3"
+  },
+  "expectedExportTriangles": 418383,
+  "atlasCount": 13,
+  "affectedSurfaceSlots": [
+    0,
+    8
+  ],
+  "unchangedSurfaceSlots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+  ],
+  "rebakeDayNightSlots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "introSlots": [
+    0,
+    1,
+    8
+  ],
+  "legacyV19Preserved": true,
+  "aboutAssetsUnchanged": true,
+  "galleryAssetsUnchanged": true,
+  "runtimeExported": false,
+  "recipeFiles": [
+    {
+      "path": "assets/blender/scripts/room_marble_v20.py",
+      "sha256": "9b799103fb393ca425ad0d797c624018f1f2c954f6faa768d3da7b356bac36f4"
+    },
+    {
+      "path": "assets/blender/scripts/photoreal_materials_v20.py",
+      "sha256": "ecf8f80caac1fdb2f4e59bec7940c8de66431b0c237dab014ca3219ba02fff7a"
+    },
+    {
+      "path": "assets/blender/scripts/pbr_bake_channels.py",
+      "sha256": "bcf3d8be033c0a0192e7a5c6d1e56f1373c8542397cac53001d4dcf9e497601b"
+    },
+    {
+      "path": "assets/blender/scripts/room_refinement_v19.py",
+      "sha256": "51a7ee22ce354bc59ccebb66b1b7f90e744ac80a0d17526a27f97001678380f3"
+    }
+  ]
+}

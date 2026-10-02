@@ -1,0 +1,339 @@
+{
+  "collection": "WARM_GALLERY_V7",
+  "root": "WG7_WARM_GALLERY_Root",
+  "asset_id": "environment.warm_gallery",
+  "triangles": 16384,
+  "triangle_budget": 35000,
+  "within_budget": true,
+  "mesh_count_before_bake_merge": 260,
+  "bounds_min": [
+    -18.887821197509766,
+    -4.679999828338623,
+    -1.0400002002716064
+  ],
+  "bounds_max": [
+    19.221725463867188,
+    20.09987449645996,
+    8.069999694824219
+  ],
+  "floor_z": -1.04,
+  "warm_light_sources": [
+    {
+      "id": "Bay_00_Cornice",
+      "position": [
+        15.228803634643555,
+        6.780300140380859,
+        5.269999980926514
+      ],
+      "color": "#ffb368",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        15.228803634643555,
+        6.780300140380859,
+        2.9700000286102295
+      ],
+      "type": "area",
+      "width": 4.5,
+      "height": 0.65
+    },
+    {
+      "id": "Bay_01_Cornice",
+      "position": [
+        12.674766540527344,
+        12.239880561828613,
+        6.21999979019165
+      ],
+      "color": "#ffb368",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        12.674766540527344,
+        12.239880561828613,
+        3.919999837875366
+      ],
+      "type": "area",
+      "width": 4.5,
+      "height": 0.65
+    },
+    {
+      "id": "Bay_01_AmberScreen",
+      "position": [
+        12.804247856140137,
+        12.36491870880127,
+        3.384999990463257
+      ],
+      "color": "#ff862c",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        11.149765968322754,
+        10.767204284667969,
+        3.384999990463257
+      ],
+      "type": "area",
+      "width": 3.0,
+      "height": 4.53
+    },
+    {
+      "id": "Bay_02_Cornice",
+      "position": [
+        7.899447917938232,
+        16.19626808166504,
+        6.769999980926514
+      ],
+      "color": "#ffb368",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        7.899447917938232,
+        16.19626808166504,
+        4.470000267028809
+      ],
+      "type": "area",
+      "width": 4.5,
+      "height": 0.65
+    },
+    {
+      "id": "Bay_02_Pendant",
+      "position": [
+        9.306612014770508,
+        15.454318046569824,
+        5.0
+      ],
+      "color": "#ffb368",
+      "scale": 1.8,
+      "energy": 65,
+      "target": [
+        9.306612014770508,
+        15.454318046569824,
+        3.700000047683716
+      ],
+      "type": "point",
+      "width": 0.6,
+      "height": 0.6
+    },
+    {
+      "id": "Bay_03_Cornice",
+      "position": [
+        1.9149614572525024,
+        18.219640731811523,
+        7.420000076293945
+      ],
+      "color": "#ffb368",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        1.9149614572525024,
+        18.219640731811523,
+        5.119999885559082
+      ],
+      "type": "area",
+      "width": 4.5,
+      "height": 0.65
+    },
+    {
+      "id": "Bay_03_AmberScreen",
+      "position": [
+        1.933776617050171,
+        18.39865493774414,
+        3.984999895095825
+      ],
+      "color": "#ff862c",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        1.6933611631393433,
+        16.111255645751953,
+        3.984999895095825
+      ],
+      "type": "area",
+      "width": 3.0,
+      "height": 5.7299999999999995
+    },
+    {
+      "id": "Bay_04_Cornice",
+      "position": [
+        -4.32314395904541,
+        17.339183807373047,
+        6.670000076293945
+      ],
+      "color": "#ffb368",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        -4.32314395904541,
+        17.339183807373047,
+        4.369999885559082
+      ],
+      "type": "area",
+      "width": 4.5,
+      "height": 0.65
+    },
+    {
+      "id": "Bay_04_Pendant",
+      "position": [
+        -2.768277645111084,
+        17.675323486328125,
+        4.900000095367432
+      ],
+      "color": "#ffb368",
+      "scale": 1.8,
+      "energy": 65,
+      "target": [
+        -2.768277645111084,
+        17.675323486328125,
+        3.6000001430511475
+      ],
+      "type": "point",
+      "width": 0.6,
+      "height": 0.6
+    },
+    {
+      "id": "Bay_05_Cornice",
+      "position": [
+        -9.685220718383789,
+        14.358930587768555,
+        6.03000020980835
+      ],
+      "color": "#ffb368",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        -9.685220718383789,
+        14.358930587768555,
+        3.7300002574920654
+      ],
+      "type": "area",
+      "width": 4.5,
+      "height": 0.65
+    },
+    {
+      "id": "Bay_05_AmberScreen",
+      "position": [
+        -9.78587532043457,
+        14.508156776428223,
+        3.2899999618530273
+      ],
+      "color": "#ff862c",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        -8.49973201751709,
+        12.601370811462402,
+        3.2899999618530273
+      ],
+      "type": "area",
+      "width": 3.0,
+      "height": 4.34
+    },
+    {
+      "id": "Bay_06_Cornice",
+      "position": [
+        -13.820056915283203,
+        9.321745872497559,
+        5.119999885559082
+      ],
+      "color": "#ffb368",
+      "scale": 3.0,
+      "energy": 230,
+      "target": [
+        -13.820056915283203,
+        9.321745872497559,
+        2.819999933242798
+      ],
+      "type": "area",
+      "width": 4.5,
+      "height": 0.65
+    },
+    {
+      "id": "PathLantern_0",
+      "position": [
+        -8.1,
+        -4.35,
+        0.47999999999999987
+      ],
+      "color": "#ff862c",
+      "scale": 1.55,
+      "energy": 65,
+      "target": [
+        -8.100000381469727,
+        -4.349999904632568,
+        1.7799999713897705
+      ],
+      "type": "point",
+      "width": 0.36,
+      "height": 0.4
+    },
+    {
+      "id": "PathLantern_1",
+      "position": [
+        -9.0,
+        -3.3,
+        0.09
+      ],
+      "color": "#ff862c",
+      "scale": 1.55,
+      "energy": 65,
+      "target": [
+        -9.0,
+        -3.299999952316284,
+        1.3899999856948853
+      ],
+      "type": "point",
+      "width": 0.36,
+      "height": 0.4
+    },
+    {
+      "id": "PathLantern_2",
+      "position": [
+        8.15,
+        -3.4,
+        0.66
+      ],
+      "color": "#ff862c",
+      "scale": 1.55,
+      "energy": 65,
+      "target": [
+        8.149999618530273,
+        -3.4000000953674316,
+        1.9600000381469727
+      ],
+      "type": "point",
+      "width": 0.36,
+      "height": 0.4
+    },
+    {
+      "id": "PathLantern_3",
+      "position": [
+        9.12,
+        -2.65,
+        0.1
+      ],
+      "color": "#ff862c",
+      "scale": 1.55,
+      "energy": 65,
+      "target": [
+        9.119999885559082,
+        -2.6500000953674316,
+        1.399999976158142
+      ],
+      "type": "point",
+      "width": 0.36,
+      "height": 0.4
+    }
+  ],
+  "gallery_bays": 7,
+  "materials": [
+    "WG7_MAT_Titanium",
+    "WG7_MAT_WarmCeramic",
+    "WG7_MAT_WalnutOrangeEnamel",
+    "WG7_MAT_BlueGrey",
+    "WG7_MAT_Graphite",
+    "WG7_MAT_ChampagneMetal",
+    "WG7_MAT_DesaturatedBotanical",
+    "WG7_MAT_AmberDiffuser",
+    "WG7_MAT_WarmWhiteDiffuser"
+  ],
+  "notes": "Seven deep solid gallery bays, 3 broad amber screens, 2 pendants, 4 foreground lanterns; all original static geometry."
+}

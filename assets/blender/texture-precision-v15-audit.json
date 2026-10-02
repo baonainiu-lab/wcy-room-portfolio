@@ -1,0 +1,1765 @@
+{
+  "objects": [
+    {
+      "name": "WEB8_room_static__image__A0",
+      "atlas": -1,
+      "kind": "image",
+      "owner": "room_static",
+      "faces": 54,
+      "materials": [
+        "WEB8_IMAGE_MAT_Original_Window_City_V2.001"
+      ]
+    },
+    {
+      "name": "WEB8_main_display__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "main_display",
+      "faces": 150,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 11.666034359835237,
+      "uvArea": 0.01385158053880835,
+      "texelsPerMeter": 141.1393094131891,
+      "trianglesBelowOnePixel": 40
+    },
+    {
+      "name": "WEB8_main_display__image__A2",
+      "atlas": -1,
+      "kind": "image",
+      "owner": "main_display",
+      "faces": 54,
+      "materials": [
+        "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork"
+      ]
+    },
+    {
+      "name": "WEB8_compute_core__glass__A2",
+      "atlas": -1,
+      "kind": "glass",
+      "owner": "compute_core",
+      "faces": 150,
+      "materials": [
+        "WEB8_GLASS_MAT_Compute_Smoked_Optical_Glass"
+      ]
+    },
+    {
+      "name": "WEB8_compute_core__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "compute_core",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 4.566297024852748,
+      "uvArea": 0.004946387528955649,
+      "texelsPerMeter": 134.8099471306394,
+      "trianglesBelowOnePixel": 224
+    },
+    {
+      "name": "WEB8_furniture.desk__baked__A1",
+      "atlas": 1,
+      "kind": "baked",
+      "owner": "furniture.desk",
+      "faces": 4500,
+      "materials": [
+        "WEB8_BAKE_A1_MAT_Satin_Titanium",
+        "WEB8_BAKE_A1_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A1_MAT_Optical_White",
+        "WEB8_BAKE_A1_MAT_Optical_Black"
+      ],
+      "worldArea": 28.45412316873435,
+      "uvArea": 0.09191142319854514,
+      "texelsPerMeter": 232.79416468195166,
+      "trianglesBelowOnePixel": 318
+    },
+    {
+      "name": "WEB8_furniture.work_chair__baked__A1",
+      "atlas": 1,
+      "kind": "baked",
+      "owner": "furniture.work_chair",
+      "faces": 8000,
+      "materials": [
+        "WEB8_BAKE_A1_MAT_Satin_Titanium",
+        "WEB8_BAKE_A1_MAT_Optical_Black",
+        "WEB8_BAKE_A1_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A1_MAT_Charcoal_Woven",
+        "WEB8_BAKE_A1_F_Chair_Seam"
+      ],
+      "worldArea": 13.702269843336985,
+      "uvArea": 0.04193454128832758,
+      "texelsPerMeter": 226.59464300187156,
+      "trianglesBelowOnePixel": 26
+    },
+    {
+      "name": "WEB8_furniture.lounge__baked__A7",
+      "atlas": 7,
+      "kind": "baked",
+      "owner": "furniture.lounge",
+      "faces": 32746,
+      "materials": [
+        "WEB8_BAKE_A7_MAT_Satin_Titanium",
+        "WEB8_BAKE_A7_MAT_Optical_Black",
+        "WEB8_BAKE_A7_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A7_MAT_Vermilion_Woven",
+        "WEB8_BAKE_A7_F_Orange_Upholstery_Stitch",
+        "WEB8_BAKE_A7_MAT_Charcoal_Woven"
+      ],
+      "worldArea": 20.412556771063628,
+      "uvArea": 0.2401943019248111,
+      "texelsPerMeter": 222.1583288086637,
+      "trianglesBelowOnePixel": 7676
+    },
+    {
+      "name": "WEB8_furniture.coffee_table__baked__A1",
+      "atlas": 1,
+      "kind": "baked",
+      "owner": "furniture.coffee_table",
+      "faces": 4500,
+      "materials": [
+        "WEB8_BAKE_A1_MAT_Satin_Titanium",
+        "WEB8_BAKE_A1_MAT_Optical_Black",
+        "WEB8_BAKE_A1_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 9.388560892495184,
+      "uvArea": 0.026066652276670408,
+      "texelsPerMeter": 215.82565299689333,
+      "trianglesBelowOnePixel": 11
+    },
+    {
+      "name": "WEB8_furniture.coffee_table__glass__A1",
+      "atlas": -1,
+      "kind": "glass",
+      "owner": "furniture.coffee_table",
+      "faces": 562,
+      "materials": [
+        "WEB8_GLASS_MAT_Smoke_Glass"
+      ]
+    },
+    {
+      "name": "WEB8_furniture.rug__baked__A1",
+      "atlas": 1,
+      "kind": "baked",
+      "owner": "furniture.rug",
+      "faces": 3498,
+      "materials": [
+        "WEB8_BAKE_A1_MAT_Graphite_Rug",
+        "WEB8_BAKE_A1_F_Rug_Embossed_Grooves"
+      ],
+      "worldArea": 44.91944675159081,
+      "uvArea": 0.12815704418579707,
+      "texelsPerMeter": 218.78320987275677,
+      "trianglesBelowOnePixel": 4
+    },
+    {
+      "name": "WEB8_robot_companion__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "robot_companion",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Amber_Status"
+      ],
+      "worldArea": 3.5846098184649264,
+      "uvArea": 0.0027599195759339112,
+      "texelsPerMeter": 113.6546519675375,
+      "trianglesBelowOnePixel": 48
+    },
+    {
+      "name": "WEB8_robot_service_hatch__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "robot_service_hatch",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Optical_Black"
+      ],
+      "worldArea": 0.03176326910956727,
+      "uvArea": 2.6223939675048198e-05,
+      "texelsPerMeter": 117.691831009436,
+      "trianglesBelowOnePixel": 2432
+    },
+    {
+      "name": "WEB8_robot_leg_00__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "robot_leg_00",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_MAT_Optical_Black"
+      ],
+      "worldArea": 0.7716962368323347,
+      "uvArea": 0.0005883563161367266,
+      "texelsPerMeter": 113.09853171233996,
+      "trianglesBelowOnePixel": 470
+    },
+    {
+      "name": "WEB8_robot_leg_01__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "robot_leg_01",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_MAT_Optical_Black"
+      ],
+      "worldArea": 0.7716696234098765,
+      "uvArea": 0.000584404720930908,
+      "texelsPerMeter": 112.72003200655628,
+      "trianglesBelowOnePixel": 451
+    },
+    {
+      "name": "WEB8_robot_leg_02__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "robot_leg_02",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_MAT_Optical_Black"
+      ],
+      "worldArea": 0.7634206007081661,
+      "uvArea": 0.0005538223298707801,
+      "texelsPerMeter": 110.3222832711759,
+      "trianglesBelowOnePixel": 464
+    },
+    {
+      "name": "WEB8_folding_drawing_terminal__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "folding_drawing_terminal",
+      "faces": 620,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 0.84906260899187,
+      "uvArea": 0.0009713782996527143,
+      "texelsPerMeter": 138.54290463875049,
+      "trianglesBelowOnePixel": 475
+    },
+    {
+      "name": "WEB8_terminal_tilt__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "terminal_tilt",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 0.19275330951140607,
+      "uvArea": 0.00021312677325803557,
+      "texelsPerMeter": 136.20028963211274,
+      "trianglesBelowOnePixel": 2133
+    },
+    {
+      "name": "WEB8_terminal_panel_L__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "terminal_panel_L",
+      "faces": 10000,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_P_DisplayInk",
+        "WEB8_BAKE_A2_P_DisplaySilverBlue",
+        "WEB8_BAKE_A2_MAT_Warm_White",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_P_LensCoating"
+      ],
+      "worldArea": 1.7797097179451522,
+      "uvArea": 0.002125595387324231,
+      "texelsPerMeter": 141.5551458284564,
+      "trianglesBelowOnePixel": 9812
+    },
+    {
+      "name": "WEB8_terminal_panel_R__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "terminal_panel_R",
+      "faces": 10000,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_P_DisplayInk",
+        "WEB8_BAKE_A2_P_DisplaySilverBlue",
+        "WEB8_BAKE_A2_MAT_Warm_White",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_P_LensCoating"
+      ],
+      "worldArea": 1.779620450711075,
+      "uvArea": 0.002123409645076595,
+      "texelsPerMeter": 141.48589517131984,
+      "trianglesBelowOnePixel": 9812
+    },
+    {
+      "name": "WEB8_drawing_stylus__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "drawing_stylus",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Amber_Status"
+      ],
+      "worldArea": 0.04960202625804703,
+      "uvArea": 5.409719192436824e-05,
+      "texelsPerMeter": 135.2687884330726,
+      "trianglesBelowOnePixel": 2413
+    },
+    {
+      "name": "WEB8_c_archive_dock__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "c_archive_dock",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Warm_White"
+      ],
+      "worldArea": 2.704256337078555,
+      "uvArea": 0.0031156140613329856,
+      "texelsPerMeter": 139.0297838395487,
+      "trianglesBelowOnePixel": 928
+    },
+    {
+      "name": "WEB8_archive_cartridge_00__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "archive_cartridge_00",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal"
+      ],
+      "worldArea": 0.6425912844469531,
+      "uvArea": 0.0006573114001624489,
+      "texelsPerMeter": 131.0020569428814,
+      "trianglesBelowOnePixel": 1960
+    },
+    {
+      "name": "WEB8_archive_cartridge_01__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "archive_cartridge_01",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal"
+      ],
+      "worldArea": 0.6425971397835194,
+      "uvArea": 0.0007395813613558942,
+      "texelsPerMeter": 138.9579929555593,
+      "trianglesBelowOnePixel": 1936
+    },
+    {
+      "name": "WEB8_archive_cartridge_02__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "archive_cartridge_02",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal"
+      ],
+      "worldArea": 0.642598440818122,
+      "uvArea": 0.000633885961899323,
+      "texelsPerMeter": 128.64582049467361,
+      "trianglesBelowOnePixel": 1967
+    },
+    {
+      "name": "WEB8_kinetic_three_petal_flower__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "kinetic_three_petal_flower",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Optical_Black"
+      ],
+      "worldArea": 1.214119944180726,
+      "uvArea": 0.0013309046712438447,
+      "texelsPerMeter": 135.61340674463796,
+      "trianglesBelowOnePixel": 753
+    },
+    {
+      "name": "WEB8_flower_petal_0__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "flower_petal_0",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_PetalBrushedSilver"
+      ],
+      "worldArea": 0.2776629276873484,
+      "uvArea": 0.00029184810370186387,
+      "texelsPerMeter": 132.79430079747576,
+      "trianglesBelowOnePixel": 1450
+    },
+    {
+      "name": "WEB8_flower_petal_1__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "flower_petal_1",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_PetalBrushedSilver"
+      ],
+      "worldArea": 0.27839824581297606,
+      "uvArea": 0.000292399654331003,
+      "texelsPerMeter": 132.74406968734706,
+      "trianglesBelowOnePixel": 1369
+    },
+    {
+      "name": "WEB8_flower_petal_2__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "flower_petal_2",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_PetalBrushedSilver"
+      ],
+      "worldArea": 0.27514894779816007,
+      "uvArea": 0.00028886887100864386,
+      "texelsPerMeter": 132.71694979144434,
+      "trianglesBelowOnePixel": 1374
+    },
+    {
+      "name": "WEB8_headphones_on_stand__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "headphones_on_stand",
+      "faces": 2499,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Charcoal_Woven"
+      ],
+      "worldArea": 0.8982192491188984,
+      "uvArea": 0.0010200754609056338,
+      "texelsPerMeter": 138.03363316387959,
+      "trianglesBelowOnePixel": 697
+    },
+    {
+      "name": "WEB8_headphone_cup_0__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "headphone_cup_0",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Charcoal_Woven",
+        "WEB8_BAKE_A2_MAT_Amber_Status"
+      ],
+      "worldArea": 0.4487137071839806,
+      "uvArea": 0.0005010462097649814,
+      "texelsPerMeter": 136.87186039934332,
+      "trianglesBelowOnePixel": 1356
+    },
+    {
+      "name": "WEB8_headphone_cup_1__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "headphone_cup_1",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Charcoal_Woven",
+        "WEB8_BAKE_A2_MAT_Amber_Status"
+      ],
+      "worldArea": 0.4486759760339597,
+      "uvArea": 0.0005006519270634303,
+      "texelsPerMeter": 136.82374897256165,
+      "trianglesBelowOnePixel": 1357
+    },
+    {
+      "name": "WEB8_ceramic_ring_speaker__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "ceramic_ring_speaker",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 0.7128383917354284,
+      "uvArea": 0.0008360992430835935,
+      "texelsPerMeter": 140.27921349492885,
+      "trianglesBelowOnePixel": 1002
+    },
+    {
+      "name": "WEB8_speaker_gimbal__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "speaker_gimbal",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_MAT_Charcoal_Woven",
+        "WEB8_BAKE_A2_MAT_Amber_Status"
+      ],
+      "worldArea": 1.1582379648375392,
+      "uvArea": 0.0012656893493762603,
+      "texelsPerMeter": 135.4018545206476,
+      "trianglesBelowOnePixel": 771
+    },
+    {
+      "name": "WEB8_keyboard_half_0__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "keyboard_half_0",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic"
+      ],
+      "worldArea": 0.6773971213381235,
+      "uvArea": 0.0007694166075780732,
+      "texelsPerMeter": 138.04448239618517,
+      "trianglesBelowOnePixel": 1499
+    },
+    {
+      "name": "WEB8_keyboard_half_1__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "keyboard_half_1",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Ivory_Ceramic"
+      ],
+      "worldArea": 0.6774308514619043,
+      "uvArea": 0.000776087563820763,
+      "texelsPerMeter": 138.6381723314813,
+      "trianglesBelowOnePixel": 1512
+    },
+    {
+      "name": "WEB8_keyboard_dial__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "keyboard_dial",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Optical_White"
+      ],
+      "worldArea": 0.11699929731714245,
+      "uvArea": 0.00013330668226534773,
+      "texelsPerMeter": 138.2592768972304,
+      "trianglesBelowOnePixel": 2264
+    },
+    {
+      "name": "WEB8_desktop_creative_controller__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "desktop_creative_controller",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_MAT_Optical_White",
+        "WEB8_BAKE_A2_MAT_Amber_Status"
+      ],
+      "worldArea": 0.17810541263951477,
+      "uvArea": 0.00020690318527230578,
+      "texelsPerMeter": 139.60628722384274,
+      "trianglesBelowOnePixel": 2165
+    },
+    {
+      "name": "WEB8_compact_camera__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "compact_camera",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_P_LensCoating"
+      ],
+      "worldArea": 0.5742997681071911,
+      "uvArea": 0.0006736475665419184,
+      "texelsPerMeter": 140.28363159273792,
+      "trianglesBelowOnePixel": 2037
+    },
+    {
+      "name": "WEB8_camera_focus_lens__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "camera_focus_lens",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal",
+        "WEB8_BAKE_A2_P_LensCoating",
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_P_DisplaySilverBlue"
+      ],
+      "worldArea": 0.21284836437420201,
+      "uvArea": 0.0002423679836056284,
+      "texelsPerMeter": 138.21730293449053,
+      "trianglesBelowOnePixel": 1912
+    },
+    {
+      "name": "WEB8_thermal_cup__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "thermal_cup",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Amber_Status",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal",
+        "WEB8_BAKE_A2_P_TeaSurface"
+      ],
+      "worldArea": 0.3302126932133404,
+      "uvArea": 0.0003509542963158813,
+      "texelsPerMeter": 133.53292062639778,
+      "trianglesBelowOnePixel": 2061
+    },
+    {
+      "name": "WEB8_creative_folio__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "creative_folio",
+      "faces": 600,
+      "materials": [
+        "WEB8_BAKE_A2_P_CreativeFolioCover",
+        "WEB8_BAKE_A2_P_WarmPaper",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal"
+      ],
+      "worldArea": 1.7673015592595787,
+      "uvArea": 0.0017945388254399664,
+      "texelsPerMeter": 130.52119672244015,
+      "trianglesBelowOnePixel": 948
+    },
+    {
+      "name": "WEB8_notebook__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "notebook",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Optical_Black",
+        "WEB8_BAKE_A2_P_WarmPaper",
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_P_PageEdge",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal"
+      ],
+      "worldArea": 1.6324510855240864,
+      "uvArea": 0.0016774483454794487,
+      "texelsPerMeter": 131.29991267725268,
+      "trianglesBelowOnePixel": 2156
+    },
+    {
+      "name": "WEB8_coffee_table_pen__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "coffee_table_pen",
+      "faces": 1092,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal"
+      ],
+      "worldArea": 0.030050073849517616,
+      "uvArea": 2.9626642182000482e-05,
+      "texelsPerMeter": 128.6110821027591,
+      "trianglesBelowOnePixel": 2282
+    },
+    {
+      "name": "WEB8_coffee_table_dial__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "coffee_table_dial",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_MAT_Optical_White"
+      ],
+      "worldArea": 0.17160415267413773,
+      "uvArea": 0.00017156249254446365,
+      "texelsPerMeter": 129.51116946367503,
+      "trianglesBelowOnePixel": 2139
+    },
+    {
+      "name": "WEB8_glass_bonsai_terrarium__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "glass_bonsai_terrarium",
+      "faces": 17999,
+      "materials": [
+        "WEB8_BAKE_A2_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A2_MAT_Satin_Titanium",
+        "WEB8_BAKE_A2_P_WarmAnodizedMetal",
+        "WEB8_BAKE_A2_P_Soil",
+        "WEB8_BAKE_A2_P_RiverStone",
+        "WEB8_BAKE_A2_P_BonsaiBark",
+        "WEB8_BAKE_A2_P_NewLeaf",
+        "WEB8_BAKE_A2_P_DeepLeaf",
+        "WEB8_BAKE_A2_P_TerrariumMoss"
+      ],
+      "worldArea": 3.1281584272744505,
+      "uvArea": 0.003146747339465866,
+      "texelsPerMeter": 129.91117618694517,
+      "trianglesBelowOnePixel": 8039
+    },
+    {
+      "name": "WEB8_glass_bonsai_terrarium__glass__A2",
+      "atlas": -1,
+      "kind": "glass",
+      "owner": "glass_bonsai_terrarium",
+      "faces": 2500,
+      "materials": [
+        "WEB8_GLASS_P_ClearTerrariumGlass"
+      ]
+    },
+    {
+      "name": "WEB8_trailing_wall_plant__baked__A2",
+      "atlas": 2,
+      "kind": "baked",
+      "owner": "trailing_wall_plant",
+      "faces": 9500,
+      "materials": [
+        "WEB8_BAKE_A2_P_GreenStem",
+        "WEB8_BAKE_A2_P_NewLeaf",
+        "WEB8_BAKE_A2_P_DeepLeaf"
+      ],
+      "worldArea": 2.1253356747189063,
+      "uvArea": 0.0030504754082941237,
+      "texelsPerMeter": 155.17792704914825,
+      "trianglesBelowOnePixel": 4598
+    },
+    {
+      "name": "WEB8_creative_book_0__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "creative_book_0",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_D_BookPaper",
+        "WEB8_BAKE_A3_D_BlueGreyBookCloth",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_D_SoftAnodizedGold",
+        "WEB8_BAKE_A3_D_PaperEdges"
+      ],
+      "worldArea": 0.8702457750567547,
+      "uvArea": 0.030893715142418766,
+      "texelsPerMeter": 771.7454098851011,
+      "trianglesBelowOnePixel": 1812
+    },
+    {
+      "name": "WEB8_creative_book_1__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "creative_book_1",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_D_BookPaper",
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_D_SoftAnodizedGold",
+        "WEB8_BAKE_A3_D_PaperEdges"
+      ],
+      "worldArea": 0.989354079027134,
+      "uvArea": 0.036681351082182095,
+      "texelsPerMeter": 788.6907284427162,
+      "trianglesBelowOnePixel": 1791
+    },
+    {
+      "name": "WEB8_creative_book_2__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "creative_book_2",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_D_BookPaper",
+        "WEB8_BAKE_A3_D_WarmGreyBookCloth",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_D_SoftAnodizedGold",
+        "WEB8_BAKE_A3_D_PaperEdges"
+      ],
+      "worldArea": 0.7984622367951951,
+      "uvArea": 0.028749396423816825,
+      "texelsPerMeter": 777.2256471075991,
+      "trianglesBelowOnePixel": 1812
+    },
+    {
+      "name": "WEB8_titanium_bookend_0__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "titanium_bookend_0",
+      "faces": 882,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 0.3605625077209466,
+      "uvArea": 0.012976769369633021,
+      "texelsPerMeter": 777.0571452567365,
+      "trianglesBelowOnePixel": 312
+    },
+    {
+      "name": "WEB8_titanium_bookend_1__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "titanium_bookend_1",
+      "faces": 882,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 0.36056249728533346,
+      "uvArea": 0.012976757464534992,
+      "texelsPerMeter": 777.056800059279,
+      "trianglesBelowOnePixel": 312
+    },
+    {
+      "name": "WEB8_geometric_specimen_cloche__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "geometric_specimen_cloche",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_D_SoftAnodizedGold"
+      ],
+      "worldArea": 0.37896681972363355,
+      "uvArea": 0.013718842816578343,
+      "texelsPerMeter": 779.3240781386045,
+      "trianglesBelowOnePixel": 128
+    },
+    {
+      "name": "WEB8_geometric_specimen_cloche__glass__A3",
+      "atlas": -1,
+      "kind": "glass",
+      "owner": "geometric_specimen_cloche",
+      "faces": 2500,
+      "materials": [
+        "WEB8_GLASS_D_SpecimenSmokeGlass"
+      ]
+    },
+    {
+      "name": "WEB8_original_trefoil_geometry__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "original_trefoil_geometry",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_D_SoftAnodizedGold"
+      ],
+      "worldArea": 0.22900549416741123,
+      "uvArea": 0.007302581515736373,
+      "texelsPerMeter": 731.4341003736938,
+      "trianglesBelowOnePixel": 0
+    },
+    {
+      "name": "WEB8_portable_fold_communicator__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "portable_fold_communicator",
+      "faces": 588,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel"
+      ],
+      "worldArea": 0.3312553808439299,
+      "uvArea": 0.012083020521217562,
+      "texelsPerMeter": 782.2872170209461,
+      "trianglesBelowOnePixel": 220
+    },
+    {
+      "name": "WEB8_communicator_panel_0__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "communicator_panel_0",
+      "faces": 1800,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_MAT_Optical_Black",
+        "WEB8_BAKE_A3_D_SoftDisplayLine",
+        "WEB8_BAKE_A3_MAT_Optical_White"
+      ],
+      "worldArea": 0.2031842501860067,
+      "uvArea": 0.007301759194983579,
+      "texelsPerMeter": 776.4771515224394,
+      "trianglesBelowOnePixel": 609
+    },
+    {
+      "name": "WEB8_communicator_panel_1__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "communicator_panel_1",
+      "faces": 1800,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_MAT_Optical_Black",
+        "WEB8_BAKE_A3_D_SoftDisplayLine",
+        "WEB8_BAKE_A3_D_OpticCoating",
+        "WEB8_BAKE_A3_MAT_Amber_Status"
+      ],
+      "worldArea": 0.2038985739538281,
+      "uvArea": 0.007428220022951273,
+      "texelsPerMeter": 781.7992208664429,
+      "trianglesBelowOnePixel": 507
+    },
+    {
+      "name": "WEB8_folding_communicator_handset__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "folding_communicator_handset",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium"
+      ],
+      "worldArea": 0.023197910109922833,
+      "uvArea": 0.0007910631372589627,
+      "texelsPerMeter": 756.3818359785427,
+      "trianglesBelowOnePixel": 2129
+    },
+    {
+      "name": "WEB8_ceramic_mobius_study__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "ceramic_mobius_study",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_D_SoftAnodizedGold"
+      ],
+      "worldArea": 0.2700138785281745,
+      "uvArea": 0.009860824383633459,
+      "texelsPerMeter": 782.750793473845,
+      "trianglesBelowOnePixel": 0
+    },
+    {
+      "name": "WEB8_ceramic_mobius_form__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "ceramic_mobius_form",
+      "faces": 4500,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Ivory_Ceramic"
+      ],
+      "worldArea": 0.31264827727899036,
+      "uvArea": 0.010367941017970783,
+      "texelsPerMeter": 745.8958432307253,
+      "trianglesBelowOnePixel": 95
+    },
+    {
+      "name": "WEB8_glass_cutting_planter__glass__A3",
+      "atlas": -1,
+      "kind": "glass",
+      "owner": "glass_cutting_planter",
+      "faces": 384,
+      "materials": [
+        "WEB8_GLASS_D_PlanterGlass"
+      ]
+    },
+    {
+      "name": "WEB8_glass_cutting_planter__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "glass_cutting_planter",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A3_D_PlanterSoil",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium"
+      ],
+      "worldArea": 0.17445977021756684,
+      "uvArea": 0.006143361917427037,
+      "texelsPerMeter": 768.6264945391816,
+      "trianglesBelowOnePixel": 0
+    },
+    {
+      "name": "WEB8_small_planter_leaf_0__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "small_planter_leaf_0",
+      "faces": 180,
+      "materials": [
+        "WEB8_BAKE_A3_D_SageLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.043080038269299785,
+      "uvArea": 0.0014959202150098272,
+      "texelsPerMeter": 763.2663625408619,
+      "trianglesBelowOnePixel": 42
+    },
+    {
+      "name": "WEB8_small_planter_leaf_1__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "small_planter_leaf_1",
+      "faces": 179,
+      "materials": [
+        "WEB8_BAKE_A3_D_DeepLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.050493264142910596,
+      "uvArea": 0.0017474186124313285,
+      "texelsPerMeter": 761.976720613386,
+      "trianglesBelowOnePixel": 39
+    },
+    {
+      "name": "WEB8_small_planter_leaf_2__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "small_planter_leaf_2",
+      "faces": 179,
+      "materials": [
+        "WEB8_BAKE_A3_D_SageLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.033996333516790884,
+      "uvArea": 0.001161494059635837,
+      "texelsPerMeter": 757.0985316004665,
+      "trianglesBelowOnePixel": 43
+    },
+    {
+      "name": "WEB8_small_planter_leaf_3__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "small_planter_leaf_3",
+      "faces": 179,
+      "materials": [
+        "WEB8_BAKE_A3_D_DeepLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.04768860813755067,
+      "uvArea": 0.0016796394060539285,
+      "texelsPerMeter": 768.7066744944146,
+      "trianglesBelowOnePixel": 40
+    },
+    {
+      "name": "WEB8_small_planter_leaf_4__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "small_planter_leaf_4",
+      "faces": 179,
+      "materials": [
+        "WEB8_BAKE_A3_D_SageLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.023505169073657618,
+      "uvArea": 0.0007778290767412616,
+      "texelsPerMeter": 745.1099196308048,
+      "trianglesBelowOnePixel": 39
+    },
+    {
+      "name": "WEB8_black_ceramic_floor_planter__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "black_ceramic_floor_planter",
+      "faces": 2500,
+      "materials": [
+        "WEB8_BAKE_A3_D_BlackCeramic",
+        "WEB8_BAKE_A3_MAT_Satin_Titanium",
+        "WEB8_BAKE_A3_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A3_D_PlanterSoil"
+      ],
+      "worldArea": 2.2036988402451,
+      "uvArea": 0.07092598895787255,
+      "texelsPerMeter": 734.8294045245962,
+      "trianglesBelowOnePixel": 128
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_0__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "floor_vase_leaf_0",
+      "faces": 179,
+      "materials": [
+        "WEB8_BAKE_A3_D_SageLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.11062644967270426,
+      "uvArea": 0.0039109522542398675,
+      "texelsPerMeter": 770.1436121323661,
+      "trianglesBelowOnePixel": 42
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_1__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "floor_vase_leaf_1",
+      "faces": 179,
+      "materials": [
+        "WEB8_BAKE_A3_D_DeepLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.1046686290732707,
+      "uvArea": 0.0035469359077657868,
+      "texelsPerMeter": 754.0121611599367,
+      "trianglesBelowOnePixel": 37
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_2__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "floor_vase_leaf_2",
+      "faces": 180,
+      "materials": [
+        "WEB8_BAKE_A3_D_DeepLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.10439125657714576,
+      "uvArea": 0.0036427285635466378,
+      "texelsPerMeter": 765.1406770441968,
+      "trianglesBelowOnePixel": 38
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_3__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "floor_vase_leaf_3",
+      "faces": 180,
+      "materials": [
+        "WEB8_BAKE_A3_D_SageLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.11465842622900252,
+      "uvArea": 0.004092269944190561,
+      "texelsPerMeter": 773.8184792395763,
+      "trianglesBelowOnePixel": 38
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_4__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "floor_vase_leaf_4",
+      "faces": 180,
+      "materials": [
+        "WEB8_BAKE_A3_D_DeepLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.09357414064705859,
+      "uvArea": 0.003271551241507129,
+      "texelsPerMeter": 765.8767536177887,
+      "trianglesBelowOnePixel": 39
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_5__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "floor_vase_leaf_5",
+      "faces": 179,
+      "materials": [
+        "WEB8_BAKE_A3_D_DeepLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.07357091309616429,
+      "uvArea": 0.002591756198373041,
+      "texelsPerMeter": 768.7833125310711,
+      "trianglesBelowOnePixel": 43
+    },
+    {
+      "name": "WEB8_floor_vase_leaf_6__baked__A3",
+      "atlas": 3,
+      "kind": "baked",
+      "owner": "floor_vase_leaf_6",
+      "faces": 180,
+      "materials": [
+        "WEB8_BAKE_A3_D_SageLanceLeaf",
+        "WEB8_BAKE_A3_D_PaleMidrib"
+      ],
+      "worldArea": 0.11673832653612125,
+      "uvArea": 0.004149846741158341,
+      "texelsPerMeter": 772.2701439611938,
+      "trianglesBelowOnePixel": 39
+    },
+    {
+      "name": "WEB8_v5_orbital_clock__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_orbital_clock",
+      "faces": 1838,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal",
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic"
+      ],
+      "worldArea": 1.995132592713877,
+      "uvArea": 0.05140794707041086,
+      "texelsPerMeter": 657.4900680381029,
+      "trianglesBelowOnePixel": 596
+    },
+    {
+      "name": "WEB8_v5_clock_dial__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_clock_dial",
+      "faces": 230,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium"
+      ],
+      "worldArea": 0.0193400659693319,
+      "uvArea": 0.0004884870567308797,
+      "texelsPerMeter": 650.9647962312722,
+      "trianglesBelowOnePixel": 0
+    },
+    {
+      "name": "WEB8_v5_portable_projector__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_portable_projector",
+      "faces": 642,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal"
+      ],
+      "worldArea": 1.124306007302858,
+      "uvArea": 0.022455431477903978,
+      "texelsPerMeter": 578.8664568889745,
+      "trianglesBelowOnePixel": 616
+    },
+    {
+      "name": "WEB8_v5_projector_lens__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_projector_lens",
+      "faces": 606,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel"
+      ],
+      "worldArea": 0.09149158213215171,
+      "uvArea": 0.0017968173643863308,
+      "texelsPerMeter": 574.0124962087568,
+      "trianglesBelowOnePixel": 260
+    },
+    {
+      "name": "WEB8_v5_magnetic_pen_dock__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_magnetic_pen_dock",
+      "faces": 1432,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_BurntOrange",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal"
+      ],
+      "worldArea": 0.5197182964631261,
+      "uvArea": 0.010263340807481588,
+      "texelsPerMeter": 575.5993834482449,
+      "trianglesBelowOnePixel": 632
+    },
+    {
+      "name": "WEB8_v5_magnetic_stylus__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_magnetic_stylus",
+      "faces": 164,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal"
+      ],
+      "worldArea": 0.025280633122845817,
+      "uvArea": 0.00045968622614478427,
+      "texelsPerMeter": 552.3275678918826,
+      "trianglesBelowOnePixel": 256
+    },
+    {
+      "name": "WEB8_v5_modular_equipment_cases__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_modular_equipment_cases",
+      "faces": 728,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal"
+      ],
+      "worldArea": 3.9237173481920125,
+      "uvArea": 0.10291424294208851,
+      "texelsPerMeter": 663.3593157581003,
+      "trianglesBelowOnePixel": 240
+    },
+    {
+      "name": "WEB8_v5_upper_equipment_case__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_upper_equipment_case",
+      "faces": 512,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_BurntOrange",
+        "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal"
+      ],
+      "worldArea": 3.0507361299474294,
+      "uvArea": 0.07989006841599902,
+      "texelsPerMeter": 662.8328467439613,
+      "trianglesBelowOnePixel": 240
+    },
+    {
+      "name": "WEB8_v5_geometric_floor_lamp__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_geometric_floor_lamp",
+      "faces": 684,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal"
+      ],
+      "worldArea": 0.8476124873183949,
+      "uvArea": 0.02195901921768184,
+      "texelsPerMeter": 659.2767257294875,
+      "trianglesBelowOnePixel": 64
+    },
+    {
+      "name": "WEB8_v5_floor_lamp_head__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_floor_lamp_head",
+      "faces": 1396,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_WarmDiffuser"
+      ],
+      "worldArea": 0.5034399092298113,
+      "uvArea": 0.011386802794873776,
+      "texelsPerMeter": 616.008957532728,
+      "trianglesBelowOnePixel": 0
+    },
+    {
+      "name": "WEB8_v5_energy_capsule_rack__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_energy_capsule_rack",
+      "faces": 1142,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal",
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic"
+      ],
+      "worldArea": 0.5862288573459464,
+      "uvArea": 0.014966374694543455,
+      "texelsPerMeter": 654.462336437208,
+      "trianglesBelowOnePixel": 240
+    },
+    {
+      "name": "WEB8_v5_energy_capsule__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_energy_capsule",
+      "faces": 490,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+        "WEB8_BAKE_A4_V5_MAT_Graphite"
+      ],
+      "worldArea": 0.0888385833509504,
+      "uvArea": 0.002184128696849871,
+      "texelsPerMeter": 642.2413270848068,
+      "trianglesBelowOnePixel": 72
+    },
+    {
+      "name": "WEB8_v5_mechanical_data_panel__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_mechanical_data_panel",
+      "faces": 758,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel"
+      ],
+      "worldArea": 1.4697636416916686,
+      "uvArea": 0.03851248597550294,
+      "texelsPerMeter": 663.035794332322,
+      "trianglesBelowOnePixel": 696
+    },
+    {
+      "name": "WEB8_v5_data_panel_selector__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_data_panel_selector",
+      "faces": 176,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal"
+      ],
+      "worldArea": 0.02824823020568732,
+      "uvArea": 0.0007162304483492932,
+      "texelsPerMeter": 652.2148997167577,
+      "trianglesBelowOnePixel": 88
+    },
+    {
+      "name": "WEB8_v5_scout_drone_display__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_scout_drone_display",
+      "faces": 210,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium"
+      ],
+      "worldArea": 0.5030812013607566,
+      "uvArea": 0.013198037784906334,
+      "texelsPerMeter": 663.4307344116177,
+      "trianglesBelowOnePixel": 72
+    },
+    {
+      "name": "WEB8_v5_scout_drone__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v5_scout_drone",
+      "faces": 934,
+      "materials": [
+        "WEB8_BAKE_A4_V5_MAT_PearlCeramic",
+        "WEB8_BAKE_A4_V5_MAT_RecessedOptics",
+        "WEB8_BAKE_A4_V5_MAT_IceSignal",
+        "WEB8_BAKE_A4_V5_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_V5_MAT_Graphite",
+        "WEB8_BAKE_A4_V5_MAT_AmberSignal",
+        "WEB8_BAKE_A4_V5_MAT_BlueGreyEnamel"
+      ],
+      "worldArea": 0.3591618552075017,
+      "uvArea": 0.009087261000584048,
+      "texelsPerMeter": 651.525391397265,
+      "trianglesBelowOnePixel": 96
+    },
+    {
+      "name": "WEB8_environment.orbital_dock__baked__A5",
+      "atlas": 5,
+      "kind": "baked",
+      "owner": "environment.orbital_dock",
+      "faces": 12100,
+      "materials": [
+        "WEB8_BAKE_A5_EXT6_MAT_Graphite",
+        "WEB8_BAKE_A5_EXT6_MAT_SatinTitanium",
+        "WEB8_BAKE_A5_EXT6_MAT_BlueGreyEnamel",
+        "WEB8_BAKE_A5_EXT6_MAT_IceSignal",
+        "WEB8_BAKE_A5_EXT6_MAT_BurntOrange",
+        "WEB8_BAKE_A5_EXT6_MAT_WarmSignal"
+      ],
+      "worldArea": 2203.65674955313,
+      "uvArea": 0.3639900863124679,
+      "texelsPerMeter": 52.64204494332671,
+      "trianglesBelowOnePixel": 2786
+    },
+    {
+      "name": "WEB8_environment.warm_gallery__baked__A6",
+      "atlas": 6,
+      "kind": "baked",
+      "owner": "environment.warm_gallery",
+      "faces": 7988,
+      "materials": [
+        "WEB8_BAKE_A6_WG7_MAT_Graphite",
+        "WEB8_BAKE_A6_WG7_MAT_Titanium",
+        "WEB8_BAKE_A6_WG7_MAT_WalnutOrangeEnamel",
+        "WEB8_BAKE_A6_WG7_MAT_BlueGrey",
+        "WEB8_BAKE_A6_WG7_MAT_WarmCeramic",
+        "WEB8_BAKE_A6_WG7_MAT_ChampagneMetal",
+        "WEB8_BAKE_A6_WG7_MAT_WarmWhiteDiffuser",
+        "WEB8_BAKE_A6_WG7_MAT_DesaturatedBotanical",
+        "WEB8_BAKE_A6_WG7_MAT_AmberDiffuser"
+      ],
+      "worldArea": 3123.718026093189,
+      "uvArea": 0.33599543692838324,
+      "texelsPerMeter": 31.860456135518895,
+      "trianglesBelowOnePixel": 5779
+    },
+    {
+      "name": "WEB8_v8_desk_glow_lamp__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v8_desk_glow_lamp",
+      "faces": 182,
+      "materials": [
+        "WEB8_BAKE_A4_IW8_MAT_Graphite",
+        "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic",
+        "WEB8_BAKE_A4_IW8_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser"
+      ],
+      "worldArea": 0.8957514598698505,
+      "uvArea": 0.023224446805968635,
+      "texelsPerMeter": 659.5365599603219,
+      "trianglesBelowOnePixel": 0
+    },
+    {
+      "name": "WEB8_v8_window_light_bar__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v8_window_light_bar",
+      "faces": 130,
+      "materials": [
+        "WEB8_BAKE_A4_IW8_MAT_Graphite",
+        "WEB8_BAKE_A4_IW8_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic",
+        "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser"
+      ],
+      "worldArea": 1.071387014526612,
+      "uvArea": 0.028512312415598227,
+      "texelsPerMeter": 668.1946273207093,
+      "trianglesBelowOnePixel": 32
+    },
+    {
+      "name": "WEB8_v8_reading_puck__baked__A4",
+      "atlas": 4,
+      "kind": "baked",
+      "owner": "v8_reading_puck",
+      "faces": 146,
+      "materials": [
+        "WEB8_BAKE_A4_IW8_MAT_Graphite",
+        "WEB8_BAKE_A4_IW8_MAT_IvoryCeramic",
+        "WEB8_BAKE_A4_IW8_MAT_SatinTitanium",
+        "WEB8_BAKE_A4_IW8_MAT_WarmDiffuser"
+      ],
+      "worldArea": 0.6164520240273581,
+      "uvArea": 0.016229869650946,
+      "texelsPerMeter": 664.6114551634721,
+      "trianglesBelowOnePixel": 0
+    },
+    {
+      "name": "WEB8_room_static__baked__A0",
+      "atlas": 0,
+      "kind": "baked",
+      "owner": "room_static",
+      "faces": 11779,
+      "materials": [
+        "WEB8_BAKE_A0_MAT_Satin_Titanium",
+        "WEB8_BAKE_A0_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A0_MAT_Optical_White",
+        "WEB8_BAKE_A0_MAT_Warm_White",
+        null
+      ],
+      "worldArea": 228.41180520898385,
+      "uvArea": 0.13373873521289345,
+      "texelsPerMeter": 99.11269395249897,
+      "trianglesBelowOnePixel": 15790
+    },
+    {
+      "name": "WEB8_room_static__baked__A8",
+      "atlas": 8,
+      "kind": "baked",
+      "owner": "room_static",
+      "faces": 9649,
+      "materials": [
+        "WEB8_BAKE_A8_MAT_Satin_Titanium",
+        "WEB8_BAKE_A8_MAT_Graphite_Enamel",
+        "WEB8_BAKE_A8_MAT_Optical_White",
+        "WEB8_BAKE_A8_MAT_Warm_White",
+        null
+      ],
+      "worldArea": 66.7718397410171,
+      "uvArea": 0.2827386047514052,
+      "texelsPerMeter": 199.90197985224728,
+      "trianglesBelowOnePixel": 2834
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A0",
+      "atlas": 0,
+      "kind": "baked",
+      "owner": "architecture.platform",
+      "faces": 446,
+      "materials": [
+        "WEB8_BAKE_A0_MAT_Titanium_Floor",
+        "WEB8_BAKE_A0_MAT_Optical_Black",
+        "WEB8_BAKE_A0_MAT_Satin_Titanium"
+      ],
+      "worldArea": 436.59212041256194,
+      "uvArea": 0.26840299627309994,
+      "texelsPerMeter": 101.55836047630376,
+      "trianglesBelowOnePixel": 146
+    },
+    {
+      "name": "WEB8_architecture.platform__baked__A8",
+      "atlas": 8,
+      "kind": "baked",
+      "owner": "architecture.platform",
+      "faces": 2054,
+      "materials": [
+        "WEB8_BAKE_A8_MAT_Titanium_Floor",
+        "WEB8_BAKE_A8_MAT_Optical_Black",
+        "WEB8_BAKE_A8_MAT_Satin_Titanium"
+      ],
+      "worldArea": 15.327616749318546,
+      "uvArea": 0.06972322918701482,
+      "texelsPerMeter": 207.19183723305588,
+      "trianglesBelowOnePixel": 0
+    }
+  ],
+  "ids": [
+    "architecture.platform",
+    "main_display",
+    "compute_core",
+    "furniture.desk",
+    "furniture.work_chair",
+    "furniture.lounge",
+    "furniture.coffee_table",
+    "furniture.rug",
+    "robot_companion",
+    "robot_service_hatch",
+    "robot_leg_00",
+    "robot_leg_01",
+    "robot_leg_02",
+    "folding_drawing_terminal",
+    "terminal_tilt",
+    "terminal_panel_L",
+    "terminal_panel_R",
+    "drawing_stylus",
+    "c_archive_dock",
+    "archive_cartridge_00",
+    "archive_cartridge_01",
+    "archive_cartridge_02",
+    "kinetic_three_petal_flower",
+    "flower_petal_0",
+    "flower_petal_1",
+    "flower_petal_2",
+    "headphones_on_stand",
+    "headphone_cup_0",
+    "headphone_cup_1",
+    "ceramic_ring_speaker",
+    "speaker_gimbal",
+    "split_keyboard",
+    "keyboard_half_0",
+    "keyboard_half_1",
+    "keyboard_dial",
+    "desktop_creative_controller",
+    "compact_camera",
+    "camera_focus_lens",
+    "thermal_cup",
+    "table_notebook_group",
+    "notebook",
+    "creative_folio",
+    "coffee_table_pen",
+    "coffee_table_dial",
+    "glass_bonsai_terrarium",
+    "trailing_wall_plant",
+    "studio_reference_books",
+    "creative_book_0",
+    "creative_book_1",
+    "creative_book_2",
+    "titanium_bookend_0",
+    "titanium_bookend_1",
+    "geometric_specimen_cloche",
+    "original_trefoil_geometry",
+    "portable_fold_communicator",
+    "folding_communicator_handset",
+    "communicator_panel_0",
+    "communicator_panel_1",
+    "ceramic_mobius_study",
+    "ceramic_mobius_form",
+    "glass_cutting_planter",
+    "small_planter_leaf_0",
+    "small_planter_leaf_1",
+    "small_planter_leaf_2",
+    "small_planter_leaf_3",
+    "small_planter_leaf_4",
+    "black_ceramic_floor_planter",
+    "floor_vase_leaf_0",
+    "floor_vase_leaf_1",
+    "floor_vase_leaf_2",
+    "floor_vase_leaf_3",
+    "floor_vase_leaf_4",
+    "floor_vase_leaf_5",
+    "floor_vase_leaf_6",
+    "v5_orbital_clock",
+    "v5_clock_dial",
+    "v5_portable_projector",
+    "v5_projector_lens",
+    "v5_magnetic_pen_dock",
+    "v5_magnetic_stylus",
+    "v5_modular_equipment_cases",
+    "v5_upper_equipment_case",
+    "v5_geometric_floor_lamp",
+    "v5_floor_lamp_head",
+    "v5_energy_capsule_rack",
+    "v5_energy_capsule",
+    "v5_mechanical_data_panel",
+    "v5_data_panel_selector",
+    "v5_scout_drone_display",
+    "v5_scout_drone",
+    "environment.orbital_dock",
+    "environment.warm_gallery",
+    "v8_desk_glow_lamp",
+    "v8_window_light_bar",
+    "v8_reading_puck"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "complete": true,
+  "revision": 20,
+  "reviewRevision": 4,
+  "preparedSource": "assets/blender/orbital-dual-bake-v20.blend",
+  "preparedSha256": "88fc6d9c51dc70909c6c7e5154d8d755a60f30dd8f75174108a360ccf487f33a",
+  "authoring": {
+    "method": "File-targeted Blender MCP with Python helper scripts",
+    "scope": "White marble walls and black marble upper caps, with immutable V19 geometry, floor, luminaire and other asset materials preserved."
+  },
+  "production": {
+    "method": "File-targeted Blender MCP",
+    "freshSurfacePasses": 6,
+    "freshSurfaceSlots": [
+      0,
+      8
+    ],
+    "provenInheritedSurfaceSlots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dayRadianceSlots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "nightRadianceSlots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "introRadianceSlots": [
+      0,
+      1,
+      8
+    ],
+    "reflectionStates": [
+      "day",
+      "night"
+    ],
+    "rawModelExportedThroughMcp": true,
+    "bakeSamples": 96,
+    "surfaceSamples": 8,
+    "reflectionSamples": 64,
+    "largestRecordedSingleRadianceBakeSeconds": 101.75,
+    "atlasDimensionsPreserved": true,
+    "qualityReduced": false,
+    "offlineCliFallbackUsed": false,
+    "receiverPartitioningUsed": false
+  },
+  "denoising": {
+    "algorithm": "OPENIMAGEDENOISE",
+    "quality": "HIGH",
+    "backend": "Metal-supported GPU OIDN",
+    "reason": "Supported by configured Cycles hardware; identical algorithm, input passes and precision. No 120-second timeout occurred in delivered V20 jobs.",
+    "recipeFiles": [
+      {
+        "path": "assets/blender/scripts/room_marble_v20.py",
+        "sha256": "3f96fb8b9854877f8fde28bee5a3134eb9045bb345833aa5acc31f4b457489c2"
+      },
+      {
+        "path": "assets/blender/scripts/photoreal_materials_v20.py",
+        "sha256": "d7d2785b626fd6c8ff8cd9edd46d63196e65bf2bcb142ad7b11197279f29e680"
+      },
+      {
+        "path": "assets/blender/scripts/room_marble_pbr_v20.py",
+        "sha256": "09f0567318e31297bf404ff9557c3e5c879ec4763601fa22763da4cebf32d8f9"
+      },
+      {
+        "path": "assets/blender/scripts/pbr_bake_channels.py",
+        "sha256": "bcf3d8be033c0a0192e7a5c6d1e56f1373c8542397cac53001d4dcf9e497601b"
+      },
+      {
+        "path": "assets/blender/scripts/room_refinement_v19.py",
+        "sha256": "51a7ee22ce354bc59ccebb66b1b7f90e744ac80a0d17526a27f97001678380f3"
+      }
+    ]
+  },
+  "foregroundSafety": {
+    "interactiveMcpConnection": "unavailable at localhost:9876 before task; file-targeted MCP remained available",
+    "didNotOpenSwitchOrSaveInteractiveScene": true,
+    "previousUnrelatedScene": "Iron_Flower_Courtyard_v03.blend / CY03_DAY_MAIN"
+  },
+  "textureCreation": {
+    "provider": "ambientCG",
+    "assets": [
+      "Marble005",
+      "Marble002"
+    ],
+    "creationMethod": "PBRProcedural",
+    "license": "CC0-1.0",
+    "notDescribedAsPhotogrammetry": true,
+    "newPackedSourceImages": 8,
+    "oldPackedImagesUnchanged": true
+  },
+  "status": "Source bakes, reflection probes and raw GLB complete. Runtime activation is performed separately by root."
+}

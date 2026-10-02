@@ -1,0 +1,17 @@
+{
+  "state": "day",
+  "completed": [
+    {
+      "atlas": 0,
+      "path": "public/textures/lighting-v11/day-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 4427760
+    }
+  ],
+  "phase": "baking",
+  "elapsed": 79.11
+}

@@ -1,0 +1,52 @@
+{
+  "complete": true,
+  "blender_bounds": {
+    "min": [
+      -60.0,
+      -28.0,
+      -7.619999885559082
+    ],
+    "max": [
+      56.0,
+      84.0,
+      16.764598846435547
+    ]
+  },
+  "web_bounds": {
+    "min": [
+      -60.0,
+      -7.619999885559082,
+      -84.0
+    ],
+    "max": [
+      56.0,
+      16.764598846435547,
+      28.0
+    ]
+  },
+  "foundation_top": -5.82,
+  "runtime_floor_max_web_y": -7.619999885559082,
+  "room_stage_floor_y": -1.065,
+  "gallery_stage_offset_y": 4.755,
+  "foundation_mesh_closed": {
+    "vertices": 24520,
+    "edges": 47820,
+    "faces": 23546,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "loose_vertices": 0,
+    "zero_area_faces": 0
+  },
+  "atlas_sizes": [
+    4096,
+    3072,
+    4096,
+    4096,
+    2048
+  ],
+  "triangles": 834070,
+  "ids": 87,
+  "existing_ids_and_hierarchy_preserved": true,
+  "existing_geometry_uv_sha256": "25229fd6683864cde3cbead0561cf5dbd46da4b6885acf5286cdb803d903b122",
+  "stage_alignment": "terrain TOP -5.82 + 4.755 aligned to room ground -1.065; hide stage-only old infinite ground; bottom-alignment 6.555 is superseded because broad landmass overlaps room"
+}

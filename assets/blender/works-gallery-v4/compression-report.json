@@ -1,0 +1,210 @@
+{
+  "complete": true,
+  "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+  "encoding": "UASTC quality 2 + Zstd 9",
+  "model": {
+    "source": "public/models/works-gallery-v4.glb",
+    "sourceBytes": 38550188,
+    "sourceSha256": "ef6f54192a538afaf5d427c5b04d9c99f22043aff0023439277913da6cb84bbf",
+    "path": "public/models/works-gallery-v4-compressed.glb",
+    "bytes": 40606824,
+    "sha256": "da7f6045703dee51f4ea83f644451293992ba5e2fc7b86a42e41a98779577bbf",
+    "nodes": 142,
+    "meshes": 80,
+    "materials": 6,
+    "triangles": 542976,
+    "replacedImageBufferViews": [
+      4,
+      17,
+      66,
+      156
+    ],
+    "preservedNonImageBufferViews": 303,
+    "geometryAndHierarchyUnchanged": true,
+    "otherTopLevelJsonUnchanged": true,
+    "sourceGlbUnchanged": true,
+    "requiredExtension": "KHR_texture_basisu"
+  },
+  "textures": [
+    {
+      "state": "day",
+      "atlas": 0,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/day-0.png",
+      "sourceSha256": "a853dc9982ef2c0a7813b3ae8bcea097b08beb2050afcea5a3d6e3e5243d9652",
+      "sourceBytes": 4062190,
+      "path": "public/textures/works-gallery-v4/day-0.ktx2",
+      "sha256": "91202fb36b76a9fa6a56e514817b8dd745d45d40323a19bfc5126eb53de5912f",
+      "bytes": 4549900,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 7.26,
+      "validated": true
+    },
+    {
+      "state": "day",
+      "atlas": 1,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/day-1.png",
+      "sourceSha256": "1bc36422d7138c68682d642d2a77640f28bb55f8388777edcd41ce0e97f2f794",
+      "sourceBytes": 5286537,
+      "path": "public/textures/works-gallery-v4/day-1.ktx2",
+      "sha256": "8c5a9da3cc856e0abee7ce7c6db489aa9200c6d46cab9333b7f12cd5e0aa240e",
+      "bytes": 6255739,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 7.9,
+      "validated": true
+    },
+    {
+      "state": "day",
+      "atlas": 2,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/day-2.png",
+      "sourceSha256": "632cd77a87659c005d19fc02949bb0bc28eaef99e383b43818e2781a05431ffc",
+      "sourceBytes": 5060901,
+      "path": "public/textures/works-gallery-v4/day-2.ktx2",
+      "sha256": "34f5bd7efc95b2fd85ea39fdc636c7ba8b7e2f4d543550ee7fbf8f57c70dd6d7",
+      "bytes": 5553436,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 9.36,
+      "validated": true
+    },
+    {
+      "state": "day",
+      "atlas": 3,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/day-3.png",
+      "sourceSha256": "651d109fb8150aaa791260ad1b62c73685c09c1a74fbab70f4f6ed0f07e9cab0",
+      "sourceBytes": 171580,
+      "path": "public/textures/works-gallery-v4/day-3.ktx2",
+      "sha256": "35b80cbb729814498927f9b2d2abd741291abf1eb6981eba54fe3ff9ffa5e6f5",
+      "bytes": 178003,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "uastcAstcBc7MipBytes": 1398128,
+      "rgba8MipBytes": 5592404,
+      "seconds": 0.35,
+      "validated": true
+    },
+    {
+      "state": "night",
+      "atlas": 0,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/night-0.png",
+      "sourceSha256": "5403b00c3581f4eac596c8a769c758b14100ee7f5e1c57bc95fd58b00fe7f37d",
+      "sourceBytes": 3398349,
+      "path": "public/textures/works-gallery-v4/night-0.ktx2",
+      "sha256": "31dd2423e0999e511266735f62c6261e6205b981a2d0d4aa9cdc7b3b34154a78",
+      "bytes": 3915866,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 6.58,
+      "validated": true
+    },
+    {
+      "state": "night",
+      "atlas": 1,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/night-1.png",
+      "sourceSha256": "106163a66ddb2e7fc8acf027c57218eee60c579c4662f39371fb483cc9ee905a",
+      "sourceBytes": 5426635,
+      "path": "public/textures/works-gallery-v4/night-1.ktx2",
+      "sha256": "64b6c5ce81b5fb1f69ea86a8db2e0f13c18233a4d4928ac8c7a155297d88114f",
+      "bytes": 6487046,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 8.53,
+      "validated": true
+    },
+    {
+      "state": "night",
+      "atlas": 2,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/night-2.png",
+      "sourceSha256": "0cd82daf2ecc54663e3d3ab713ff366a2eecb511bfd7d4a88fe7bfef2138f313",
+      "sourceBytes": 5150214,
+      "path": "public/textures/works-gallery-v4/night-2.ktx2",
+      "sha256": "20ce577266c335d23990a6654dfaf73d32f0d7ae2b7f9a8cfcd1fee0ca20c3ba",
+      "bytes": 5614440,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 15.44,
+      "validated": true
+    },
+    {
+      "state": "night",
+      "atlas": 3,
+      "preparation_id": "61726e4e5b02b89fd1738685e6a702df8f15a1d19ce9696267266c36bf7e8df3",
+      "source": "public/textures/works-gallery-v4/night-3.png",
+      "sourceSha256": "b8807b8d39c561f961f348b3a3d95c8eb98de97e25958d065bafa5055878a0fe",
+      "sourceBytes": 123724,
+      "path": "public/textures/works-gallery-v4/night-3.ktx2",
+      "sha256": "924e941c745a6f7b0897eca5350548f2f9e28b528834f4ea48ef4ab69147f2d0",
+      "bytes": 137659,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mipLevels": 11,
+      "uastcAstcBc7MipBytes": 1398128,
+      "rgba8MipBytes": 5592404,
+      "seconds": 0.36,
+      "validated": true
+    }
+  ],
+  "decoderFiles": [
+    {
+      "path": "public/basis/basis_transcoder.js",
+      "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1"
+    },
+    {
+      "path": "public/basis/basis_transcoder.wasm",
+      "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a"
+    },
+    {
+      "path": "public/basis/README.md",
+      "sha256": "930b11bbbb742b2525491b0964f0462d63d8b21383c0623ec4c98c43d53723c6"
+    }
+  ],
+  "textureTransferBytes": 32692089,
+  "sourcePngBytes": 28680130,
+  "estimatedRgba8MipBytesBothStates": 548055712,
+  "estimatedAstcOrBc7MipBytesBothStates": 137014144,
+  "memoryEstimateNote": "Block payload estimate only; browser target format must be ASTC 4x4 or BC7. RGBA fallback does not save GPU texture memory.",
+  "elapsedSeconds": 403.04
+}

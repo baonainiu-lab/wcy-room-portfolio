@@ -1,0 +1,330 @@
+{
+  "checkedAt": "2026-09-28T05:12:31.408Z",
+  "model": "/models/works-gallery-v4-compressed.glb",
+  "runtime": "v24.19.0",
+  "threeRevision": "172",
+  "sourceSha256": {
+    "src/gallery-framing.js": "820ebd3dd317191c237eb5a88cfebfcc11e6c96d036ece628db9cb4add80ded0",
+    "src/works-gallery.js": "210e78cac8952369c10d6dbeebe3463479219035a4806b35c112079836426b80",
+    "src/gallery-transition-path.js": "6d3a93e3ba3ca15e648b0db4636c756f56a3498478b2edc8ad5feae9e2762d19",
+    "src/main.js": "36aad31c3aa15247c81442b56b3a3a8d4d440f20ed41de6e3b26b2e5c8c0a491",
+    "scripts/check-gallery-framing.mjs": "bf155e8d21993dfede042298bcea0a2077c60df5e02829513332ecee87437e30",
+    "public/models/works-gallery-v4-compressed.glb": "da7f6045703dee51f4ea83f644451293992ba5e2fc7b86a42e41a98779577bbf"
+  },
+  "methodology": "Actual runtime GLB vertices and production framing, travel path and scene-limit function. Real mathematical camera projection, cache isolation and endpoint checks. No GPU render, visual quality, FPS or exhaustive free-orbit collision claim.",
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "check": "framing excludes the retained terrace without moving, hiding or deleting any runtime assets",
+      "status": "passed",
+      "vertices": 649013,
+      "retainedAssets": 77,
+      "excludedFramingVertices": {
+        "gallery.environment.terrace": 12012
+      }
+    },
+    {
+      "check": "every authored corridor vertex fits desktop, square and portrait views with the requested margins",
+      "status": "passed",
+      "views": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "fov": 35,
+          "distance": 22.096481632958074,
+          "maxDistance": 24.748059428913045,
+          "cameraClearance": 12.598375654646526,
+          "widthPercent": 71.97468011044053,
+          "heightPercent": 81.92741082323391,
+          "projected": {
+            "min": [
+              -0.7195617895837427,
+              -0.8200000132568885,
+              0.9874784584926882
+            ],
+            "max": [
+              0.7199318126250677,
+              0.8185482032077899,
+              0.9937355764444403
+            ]
+          },
+          "target": [
+            0.49300447956196064,
+            0.8413636436630598,
+            0.6739744505215713
+          ]
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "fov": 35,
+          "distance": 22.096481632958074,
+          "maxDistance": 24.748059428913045,
+          "cameraClearance": 12.598375654646526,
+          "widthPercent": 79.97186678937834,
+          "heightPercent": 81.92741082323391,
+          "projected": {
+            "min": [
+              -0.7995130995374918,
+              -0.8200000132568885,
+              0.9874784584926882
+            ],
+            "max": [
+              0.799924236250075,
+              0.8185482032077899,
+              0.9937355764444403
+            ]
+          },
+          "target": [
+            0.4930044795619612,
+            0.8413636436630598,
+            0.6739744505215709
+          ]
+        },
+        {
+          "viewport": [
+            844,
+            795
+          ],
+          "fov": 35,
+          "distance": 28.814795108967257,
+          "maxDistance": 32.27257052204333,
+          "cameraClearance": 19.139392023208977,
+          "widthPercent": 91.99983019403464,
+          "heightPercent": 62.35730586705168,
+          "projected": {
+            "min": [
+              -0.9199966191967707,
+              -0.6235750939045511,
+              0.9913890022818367
+            ],
+            "max": [
+              0.919999984683922,
+              0.6235710234364824,
+              0.9949544515652631
+            ]
+          },
+          "target": [
+            0.32233370185308896,
+            1.1638599650975883,
+            0.6233261990323096
+          ]
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "fov": 35,
+          "distance": 22.096481632958074,
+          "maxDistance": 24.748059428913045,
+          "cameraClearance": 12.59837565464653,
+          "widthPercent": 59.126119522004814,
+          "heightPercent": 81.92741082323388,
+          "projected": {
+            "min": [
+              -0.5911092110324581,
+              -0.820000013256888,
+              0.9874784584926882
+            ],
+            "max": [
+              0.5914131794076384,
+              0.8185482032077896,
+              0.9937355764444403
+            ]
+          },
+          "target": [
+            0.4930044795619594,
+            0.8413636436630598,
+            0.673974450521572
+          ]
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "fov": 35,
+          "distance": 69.06657820526783,
+          "maxDistance": 77.35456758989997,
+          "cameraClearance": 59.15744383885928,
+          "widthPercent": 87.99998790301522,
+          "heightPercent": 25.67036422491149,
+          "projected": {
+            "min": [
+              -0.8799997148156762,
+              -0.2567038313143054,
+              0.9971969350995192
+            ],
+            "max": [
+              0.8800000432446281,
+              0.25670345318392446,
+              0.9978016798907782
+            ]
+          },
+          "target": [
+            0.020913582748987802,
+            1.778550030065765,
+            0.5121877953903923
+          ]
+        },
+        {
+          "viewport": [
+            320,
+            740
+          ],
+          "fov": 35,
+          "distance": 73.8304057907939,
+          "maxDistance": 82.69005448568917,
+          "cameraClearance": 63.912262849842435,
+          "widthPercent": 87.99999023660199,
+          "heightPercent": 23.999429277402967,
+          "projected": {
+            "min": [
+              -0.8799997615336479,
+              -0.23999443543744226,
+              0.9974239564573081
+            ],
+            "max": [
+              0.880000043198392,
+              0.2399941501106171,
+              0.9979530973955062
+            ]
+          },
+          "target": [
+            0.010109893759471003,
+            1.806574350727178,
+            0.505324652582033
+          ]
+        },
+        {
+          "viewport": [
+            768,
+            1024
+          ],
+          "fov": 35,
+          "distance": 42.494760987849375,
+          "maxDistance": 47.5941323063913,
+          "cameraClearance": 32.67982619849343,
+          "widthPercent": 87.99995645405228,
+          "heightPercent": 41.96909743771712,
+          "projected": {
+            "min": [
+              -0.8799991268057835,
+              -0.41969219687722564,
+              0.9948247216087428
+            ],
+            "max": [
+              0.880000002275262,
+              0.41968975187711677,
+              0.9964321359871895
+            ]
+          },
+          "target": [
+            0.1421051188280967,
+            1.5051993926178189,
+            0.569465360589102
+          ]
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "fov": 45,
+          "distance": 52.47666055094422,
+          "maxDistance": 58.773859817057534,
+          "cameraClearance": 42.61400156079191,
+          "widthPercent": 87.9999706798303,
+          "heightPercent": 25.794475467318044,
+          "projected": {
+            "min": [
+              -0.8799993701250953,
+              -0.2579451981705909,
+              0.9960382235898853
+            ],
+            "max": [
+              0.8800000434715107,
+              0.25794431117577,
+              0.9970879355730365
+            ]
+          },
+          "target": [
+            0.07389930314922855,
+            1.6407516976447862,
+            0.5460183380759454
+          ]
+        }
+      ]
+    },
+    {
+      "check": "cached poses and diagnostic copies cannot be mutated by callers, and projection changes refit deterministically",
+      "status": "passed"
+    },
+    {
+      "check": "gallery zoom bounds retain work focus while returning restores separate room bounds",
+      "status": "passed",
+      "galleryViews": [
+        {
+          "aspect": 1.6,
+          "minDistance": 10,
+          "maxDistance": 24.748059428913045,
+          "workFocusDistance": 10
+        },
+        {
+          "aspect": 0.46208530805687204,
+          "minDistance": 10,
+          "maxDistance": 77.35456758989997,
+          "workFocusDistance": 30.88645399839867
+        }
+      ],
+      "room": {
+        "minDistance": 5,
+        "maxDistance": 63
+      }
+    },
+    {
+      "check": "tail push approaches the exact framed endpoint, never overshoots it, and preserves returning and reduced-motion endpoints",
+      "status": "passed",
+      "views": [
+        {
+          "aspect": 1.7777777777777777,
+          "finalDistance": 22.096481632958074,
+          "lastStepDistance": 0.000008696595464013551,
+          "forwardSamples": 121,
+          "returningEndpointPreserved": true,
+          "reducedMotionEndpointsPreserved": true
+        },
+        {
+          "aspect": 1.6,
+          "finalDistance": 22.096481632958074,
+          "lastStepDistance": 0.000009171791824238597,
+          "forwardSamples": 121,
+          "returningEndpointPreserved": true,
+          "reducedMotionEndpointsPreserved": true
+        },
+        {
+          "aspect": 0.46208530805687204,
+          "finalDistance": 69.06657820526783,
+          "lastStepDistance": 0.000018895130889669672,
+          "forwardSamples": 121,
+          "returningEndpointPreserved": true,
+          "reducedMotionEndpointsPreserved": true
+        },
+        {
+          "aspect": 0.43243243243243246,
+          "finalDistance": 73.8304057907939,
+          "lastStepDistance": 0.00001914235744022228,
+          "forwardSamples": 121,
+          "returningEndpointPreserved": true,
+          "reducedMotionEndpointsPreserved": true
+        }
+      ]
+    }
+  ]
+}

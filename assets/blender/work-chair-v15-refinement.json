@@ -1,0 +1,124 @@
+{
+  "revision": 15,
+  "preparedBeforeSha256": "ada64411ff60de044e6f5a7e0a7035305fdf78ae982948e65040210765488f42",
+  "sourceSha256": "ee353085b7f0004ced816f5b681b43c295210a41998c87af5467df89705a9ef2",
+  "backup": "assets/blender/v15-pre-chair",
+  "object": "WEB8_furniture.work_chair__baked__A1",
+  "assetId": "furniture.work_chair",
+  "authoredParts": [
+    {
+      "name": "F_Chair_Base_Polish",
+      "sha256": "faf26514d9f62b81add285d077424d88794a2bbf4856de48b6d12b6fb95fd827",
+      "triangles": 3840
+    },
+    {
+      "name": "F_Chair_Base_Shadow_Ring",
+      "sha256": "7989ff6af9a8a2ea718b8a8be1ab521fcd3fee51462b597aefaeaed395e81339",
+      "triangles": 1276
+    },
+    {
+      "name": "F_Chair_Continuous_Ceramic_Shell",
+      "sha256": "5ea5fa46ea2002479e928921c8db0de273aa47422e01794c54eab2828c7cf122",
+      "triangles": 10208
+    },
+    {
+      "name": "F_Chair_Contoured_Back_Upholstery",
+      "sha256": "8e1f5f214c190ff82339544773ff1bc81c498ea2219e6f97494ae29aad96b40d",
+      "triangles": 10208
+    },
+    {
+      "name": "F_Chair_Floating_Base",
+      "sha256": "61ae9b1a0747752eea37c51f5d4c28b4915befeeff6f0715a666998393a20132",
+      "triangles": 1276
+    },
+    {
+      "name": "F_Chair_Lumbar_Stitch",
+      "sha256": "4813483eaf75fb6aa43d7bbfce559edeb3d9589ee7c89bf0e6e67f91aa8478b0",
+      "triangles": 780
+    },
+    {
+      "name": "F_Chair_Sculpted_Pedestal",
+      "sha256": "d7d650c204ef05608e7b95e533654c4d9479b18c09d6d17f65ec833b5c4fef90",
+      "triangles": 5632
+    },
+    {
+      "name": "F_Chair_Seat_Cushion",
+      "sha256": "e53ecbee6eaf1a0641c2b09ae4fece11c8b676295f01bd086eb813a9cc4c454e",
+      "triangles": 5184
+    },
+    {
+      "name": "F_Chair_Shell_Edge_-1",
+      "sha256": "cbfa2b8d42f4cf46fd8f71107bb93a744b12449a3c67990300fa7eb9b8e2d5ab",
+      "triangles": 1496
+    },
+    {
+      "name": "F_Chair_Shell_Edge_1",
+      "sha256": "0ac9f932f489646089661e06951aeda6baaa8f67974e42b7d31fc3c917f157cd",
+      "triangles": 1496
+    },
+    {
+      "name": "F_Chair_Tailored_Back_Welt_-1",
+      "sha256": "a22eae426cc2c46aca00700916cc1df51d5d1ec4c044b24117f6e4fed384fae2",
+      "triangles": 1036
+    },
+    {
+      "name": "F_Chair_Tailored_Back_Welt_1",
+      "sha256": "b322fba1058af67cef93695b3345a4c0fcc3f90d2e1c3f9d7be8df07b60c1d86",
+      "triangles": 1036
+    },
+    {
+      "name": "F_Chair_Underside_Mechanism",
+      "sha256": "e87627e4346e58704837031a67de378530199fd991f86f3af2dfabdb982bb886",
+      "triangles": 5184
+    }
+  ],
+  "oldTriangles": 8000,
+  "newTriangles": 48652,
+  "sceneTriangles": 413855,
+  "atlas": 11,
+  "size": 3072,
+  "samples": 96,
+  "material": "WEB8_LIGHTMAP_11",
+  "shellInternalUvDiscontinuities": 0,
+  "whiteShellTriangles": 10208,
+  "whiteShellSurfaceUVRectangles": [
+    [
+      0.01,
+      0.015,
+      0.265,
+      0.985
+    ],
+    [
+      0.285,
+      0.015,
+      0.54,
+      0.985
+    ]
+  ],
+  "metrics": {
+    "worldArea": 13.707462007827361,
+    "uvArea": 0.6359888756405164,
+    "texelsPerMeter": 661.7096155351566,
+    "trianglesBelowOnePixel": 156
+  },
+  "whiteShellMetrics": {
+    "worldArea": 5.036926040763326,
+    "uvArea": 0.49766840140435015,
+    "texelsPerMeter": 965.6249036904691,
+    "trianglesBelowOnePixel": 0
+  },
+  "otherGeometryAndUVUnchanged": true,
+  "stableRootTransform": {
+    "geometry": "cc6b8726914b725a981a6333947eb7e86bf6545811c28102fd2d560e8d52e825",
+    "id": null,
+    "owner": "furniture.work_chair",
+    "parent": "WEB8_F_Sculptural_Work_Chair"
+  },
+  "bakeInputsFingerprint": {
+    "atlas": 11,
+    "vertices": 24755,
+    "loops": 96952,
+    "sha256": "d16420e1bb88f8049b51e32f38ccf3efabce92479ff1e3995265f512883ac40b"
+  },
+  "preparedSha256": "74d66417d8a764f71380d1e154839aa6fa66b2752aa1e06acac8120aeb9dcd98"
+}

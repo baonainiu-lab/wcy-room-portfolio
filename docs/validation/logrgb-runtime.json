@@ -1,0 +1,66 @@
+{
+  "complete": true,
+  "passed": 10,
+  "checks": [
+    {
+      "name": "Actual LogRGB GLSL branch recovers zero through HDR32 and ignores alpha; window and About retain sRGB",
+      "passed": true
+    },
+    {
+      "name": "Day/night decode before linear mixing, with one clock uniform and no reupload at fractional time",
+      "passed": true,
+      "wrongEncodedMidpoint": [
+        0.37414336154465216,
+        0.41537469255410986,
+        0.2745795149666539
+      ],
+      "correctLinearMidpoint": [
+        6.004,
+        2.02,
+        0.325
+      ]
+    },
+    {
+      "name": "A normalized HDR night atlas restores x8 before mixing while daylight, clean intro and unscaled slots retain their original energy",
+      "passed": true,
+      "sourceNightPeak": 139.899,
+      "normalizationScale": 8,
+      "dayEnergyUnchanged": true,
+      "invalidScaleAndEncodingCases": 5
+    },
+    {
+      "name": "Clean intro uses the same LogRGB decoder before scene blending and one AgX, then removes only its own layer",
+      "passed": true
+    },
+    {
+      "name": "Invalid LogRGB range/gain are rejected before any texture request or material mutation",
+      "passed": true
+    },
+    {
+      "name": "Missing physical data disposes parallel partial loads and leaves original materials intact",
+      "passed": true
+    },
+    {
+      "name": "Missing LogRGB day map releases its successful siblings; caller can dispose the prior physical layer without leaked ownership",
+      "passed": true
+    },
+    {
+      "name": "A night texture upload failure rolls back partially installed LogRGB day hooks and source color spaces",
+      "passed": true
+    },
+    {
+      "name": "Missing clean receiver releases only intro textures and retains a usable LogRGB day/night material until caller cleanup",
+      "passed": true
+    },
+    {
+      "name": "Disposal through a later wrapper cannot revive deleted LogRGB, intro, or reflection resources",
+      "passed": true
+    }
+  ],
+  "encoding": {
+    "encoding": "logrgb",
+    "radianceRange": 32,
+    "logGain": 256
+  },
+  "scope": "Actual production shader composition and ownership, scalar evaluation extracted from the compiled-hook GLSL expression, controlled network/texture-decode/PMREM substitutes. No GPU, browser or ASTC verification is claimed. About remains unchanged."
+}

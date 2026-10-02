@@ -1,0 +1,679 @@
+{
+  "checkedAt": "2026-09-25T02:57:10.163Z",
+  "status": "fail",
+  "usageStatus": "experimental/non-active",
+  "scope": "Entire active GLB scene, including orbital_dock and warm_gallery; no owner-based triangle attribution",
+  "tolerances": {
+    "positionMetres": 0.00001,
+    "uv": 0.00001,
+    "normalizedNormal": 0.0002,
+    "worldMatrix": 0.00001,
+    "quaternionLength": 0.002
+  },
+  "texturePixelIntegrity": "Checked separately by scripts/compress-room-unfold.py; this comparator verifies material semantic assignment and texture slot/UV-transform semantics, not image bytes.",
+  "files": {
+    "reference": {
+      "path": "public/models/orbital-atelier-v15.glb",
+      "sha256": "5e919bbc24ccbf0b097a9c4c1b181d48b538d6ff25c0899d1f5cb8d949e15c15",
+      "bytes": 70281488
+    },
+    "unfolded": {
+      "path": "public/models/room-unfold-v1.glb",
+      "sha256": "22112d4ad3fac69a1504c92852ede5858d55af27afc39be0e214fd6d56dae125",
+      "bytes": 70510364
+    }
+  },
+  "assets": {
+    "referenceCount": 95,
+    "preservedCount": 95,
+    "addedFoldAssetIds": []
+  },
+  "animation": {
+    "name": "RoomUnfold",
+    "durationSeconds": 3.0166666507720947,
+    "channels": 12,
+    "finiteLegalSamplers": true
+  },
+  "comparedUVSets": [
+    "TEXCOORD_0"
+  ],
+  "restAssetWorldMatrices": {
+    "pass": true,
+    "compared": 95,
+    "maximumElementError": 5.4836272056491e-7,
+    "mismatches": []
+  },
+  "restGeometry": {
+    "pass": false,
+    "referenceBoundingBox": {
+      "min": [
+        -18.887821197509766,
+        -1.0400002002716064,
+        -20.09987449645996
+      ],
+      "max": [
+        19.221725463867188,
+        8.069999694824219,
+        8.27500057220459
+      ]
+    },
+    "targetBoundingBox": {
+      "min": [
+        -18.887821197509766,
+        -1.0400002002716064,
+        -20.09987449645996
+      ],
+      "max": [
+        19.221725463867188,
+        8.069999694824219,
+        8.27500057220459
+      ]
+    },
+    "referenceTriangles": 413855,
+    "targetTriangles": 413855,
+    "matchedTriangles": 394313,
+    "missingReferenceTriangles": 19542,
+    "unmatchedTargetTriangles": 19542,
+    "maximumPositionErrorMetres": 8.22544080847365e-7,
+    "maximumUVError": 0,
+    "maximumNormalizedNormalError": 0.00019999999394757512,
+    "worstNormalMatch": {
+      "referenceNode": "WEB8_room_static__baked__A0",
+      "targetNode": "fold.display-tower__A0",
+      "referenceTriangle": 379053,
+      "targetTriangle": 291542,
+      "maximumComponentError": 0.00019999999394757512,
+      "referenceCornerNormals": [
+        [
+          0,
+          -0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          -0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          -0.00009999999697378756,
+          0.9999999950000003
+        ]
+      ],
+      "targetCorrespondingCornerNormals": [
+        [
+          0,
+          0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          0.00009999999697378756,
+          0.9999999950000003
+        ]
+      ]
+    },
+    "unmatchedByNode": {
+      "WEB8_furniture.lounge__baked__A7": 5928,
+      "WEB8_furniture.work_chair__baked__A1": 4006,
+      "fold.wall.back__A8": 2930,
+      "fold.window__A8": 1766,
+      "fold.wall.left__A8": 1026,
+      "main_display__A0": 975,
+      "WEB8_glass_bonsai_terrarium__baked__A2": 457,
+      "fold.display-tower__A8": 267,
+      "fold.wall.left__A0": 260,
+      "fold.wall.back__A0": 248,
+      "compute_core__A0": 237,
+      "fold.display-tower__A0": 162,
+      "WEB8_environment.orbital_dock__baked__A5": 154,
+      "WEB8_black_ceramic_floor_planter__baked__A3": 96,
+      "WEB8_drawing_stylus__baked__A2": 85,
+      "fold.floor__A8": 64,
+      "WEB8_terminal_panel_L__baked__A2": 52,
+      "WEB8_compute_core__glass__A2": 48,
+      "WEB8_terminal_panel_R__baked__A2": 47,
+      "WEB8_folding_communicator_handset__baked__A3": 46,
+      "WEB8_environment.warm_gallery__baked__A6": 44,
+      "WEB8_compact_camera__baked__A2": 40,
+      "WEB8_camera_focus_lens__baked__A2": 37,
+      "fold.floor__A0": 36,
+      "WEB8_creative_book_0__baked__A3": 36,
+      "WEB8_creative_book_1__baked__A3": 36,
+      "WEB8_creative_book_2__baked__A3": 36,
+      "WEB8_communicator_panel_0__baked__A3": 36,
+      "WEB8_main_display__baked__A2": 28,
+      "WEB8_keyboard_dial__baked__A2": 25,
+      "WEB8_archive_cartridge_00__baked__A2": 23,
+      "WEB8_archive_cartridge_01__baked__A2": 23,
+      "WEB8_archive_cartridge_02__baked__A2": 23,
+      "WEB8_trailing_wall_plant__baked__A2": 23,
+      "WEB8_portable_fold_communicator__baked__A3": 22,
+      "WEB8_furniture.rug__baked__A1": 20,
+      "fold.window-ledge__A0": 16,
+      "WEB8_kinetic_three_petal_flower__baked__A2": 14,
+      "WEB8_titanium_bookend_0__baked__A3": 14,
+      "WEB8_titanium_bookend_1__baked__A3": 14,
+      "WEB8_furniture.desk__baked__A1": 12,
+      "WEB8_headphone_cup_1__baked__A2": 12,
+      "WEB8_speaker_gimbal__baked__A2": 12,
+      "WEB8_geometric_specimen_cloche__baked__A3": 10,
+      "WEB8_flower_petal_2__baked__A2": 8,
+      "WEB8_robot_leg_01__baked__A2": 6,
+      "WEB8_headphone_cup_0__baked__A2": 6,
+      "WEB8_creative_folio__baked__A2": 6,
+      "WEB8_floor_vase_leaf_3__baked__A3": 6,
+      "WEB8_v5_magnetic_pen_dock__baked__A4": 6,
+      "WEB8_v5_modular_equipment_cases__baked__A4": 6,
+      "WEB8_headphones_on_stand__baked__A2": 5,
+      "WEB8_flower_petal_1__baked__A2": 5,
+      "WEB8_ceramic_mobius_form__baked__A3": 5,
+      "WEB8_furniture.coffee_table__baked__A1": 4,
+      "WEB8_desktop_creative_controller__baked__A2": 4,
+      "WEB8_v5_energy_capsule__baked__A4": 4,
+      "WEB8_v5_data_panel_selector__baked__A4": 4,
+      "WEB8_folding_drawing_terminal__baked__A2": 3,
+      "WEB8_ceramic_ring_speaker__baked__A2": 3,
+      "WEB8_v5_upper_equipment_case__baked__A4": 3,
+      "WEB8_small_planter_leaf_1__baked__A3": 3,
+      "WEB8_floor_vase_leaf_1__baked__A3": 2,
+      "WEB8_main_display__image__A2": 1,
+      "WEB8_floor_vase_leaf_0__baked__A3": 1,
+      "WEB8_floor_vase_leaf_2__baked__A3": 1,
+      "WEB8_small_planter_leaf_2__baked__A3": 1,
+      "WEB8_small_planter_leaf_3__baked__A3": 1,
+      "WEB8_small_planter_leaf_4__baked__A3": 1,
+      "WEB8_v5_mechanical_data_panel__baked__A4": 1
+    },
+    "mismatchExamples": [
+      {
+        "triangle": 0,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.1107080607070916,
+          3.7010657114948167,
+          -1.6541685623449323
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 1,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.1107080607070916,
+          3.7010657114948167,
+          -1.6541685623449323
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 2,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.10455781327601,
+          3.70082180927721,
+          -1.6430800721155976
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 3,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.10455781327601,
+          3.70082180927721,
+          -1.6430800721155976
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 4,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.093064129137526,
+          3.70082180927721,
+          -1.637720423702207
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 5,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.093064129137526,
+          3.70082180927721,
+          -1.637720423702207
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 7,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.0806165332392568,
+          3.7010657114948167,
+          -1.6401366785495322
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 8,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.0719705226753473,
+          3.7014602942613273,
+          -1.6494059176664728
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 9,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.0719705226753473,
+          3.7014602942613273,
+          -1.6494059176664728
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 10,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.070427240790728,
+          3.701854877027838,
+          -1.66198750533363
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 11,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.070427240790728,
+          3.701854877027838,
+          -1.66198750533363
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 12,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.07657748822181,
+          3.7020987792454454,
+          -1.6730759955629648
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      }
+    ]
+  },
+  "finalAssetWorldMatrices": {
+    "pass": true,
+    "compared": 95,
+    "maximumElementError": 5.4836272056491e-7,
+    "mismatches": []
+  },
+  "finalGeometry": {
+    "pass": false,
+    "referenceBoundingBox": {
+      "min": [
+        -18.887821197509766,
+        -1.0400002002716064,
+        -20.09987449645996
+      ],
+      "max": [
+        19.221725463867188,
+        8.069999694824219,
+        8.27500057220459
+      ]
+    },
+    "targetBoundingBox": {
+      "min": [
+        -18.887821197509766,
+        -1.0400002002716064,
+        -20.09987449645996
+      ],
+      "max": [
+        19.221725463867188,
+        8.069999694824219,
+        8.27500057220459
+      ]
+    },
+    "referenceTriangles": 413855,
+    "targetTriangles": 413855,
+    "matchedTriangles": 394313,
+    "missingReferenceTriangles": 19542,
+    "unmatchedTargetTriangles": 19542,
+    "maximumPositionErrorMetres": 8.22544080847365e-7,
+    "maximumUVError": 0,
+    "maximumNormalizedNormalError": 0.00019999999394757512,
+    "worstNormalMatch": {
+      "referenceNode": "WEB8_room_static__baked__A0",
+      "targetNode": "fold.display-tower__A0",
+      "referenceTriangle": 379053,
+      "targetTriangle": 291542,
+      "maximumComponentError": 0.00019999999394757512,
+      "referenceCornerNormals": [
+        [
+          0,
+          -0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          -0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          -0.00009999999697378756,
+          0.9999999950000003
+        ]
+      ],
+      "targetCorrespondingCornerNormals": [
+        [
+          0,
+          0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          0.00009999999697378756,
+          0.9999999950000003
+        ],
+        [
+          0,
+          0.00009999999697378756,
+          0.9999999950000003
+        ]
+      ]
+    },
+    "unmatchedByNode": {
+      "WEB8_furniture.lounge__baked__A7": 5928,
+      "WEB8_furniture.work_chair__baked__A1": 4006,
+      "fold.wall.back__A8": 2930,
+      "fold.window__A8": 1766,
+      "fold.wall.left__A8": 1026,
+      "main_display__A0": 975,
+      "WEB8_glass_bonsai_terrarium__baked__A2": 457,
+      "fold.display-tower__A8": 267,
+      "fold.wall.left__A0": 260,
+      "fold.wall.back__A0": 248,
+      "compute_core__A0": 237,
+      "fold.display-tower__A0": 162,
+      "WEB8_environment.orbital_dock__baked__A5": 154,
+      "WEB8_black_ceramic_floor_planter__baked__A3": 96,
+      "WEB8_drawing_stylus__baked__A2": 85,
+      "fold.floor__A8": 64,
+      "WEB8_terminal_panel_L__baked__A2": 52,
+      "WEB8_compute_core__glass__A2": 48,
+      "WEB8_terminal_panel_R__baked__A2": 47,
+      "WEB8_folding_communicator_handset__baked__A3": 46,
+      "WEB8_environment.warm_gallery__baked__A6": 44,
+      "WEB8_compact_camera__baked__A2": 40,
+      "WEB8_camera_focus_lens__baked__A2": 37,
+      "fold.floor__A0": 36,
+      "WEB8_creative_book_0__baked__A3": 36,
+      "WEB8_creative_book_1__baked__A3": 36,
+      "WEB8_creative_book_2__baked__A3": 36,
+      "WEB8_communicator_panel_0__baked__A3": 36,
+      "WEB8_main_display__baked__A2": 28,
+      "WEB8_keyboard_dial__baked__A2": 25,
+      "WEB8_archive_cartridge_00__baked__A2": 23,
+      "WEB8_archive_cartridge_01__baked__A2": 23,
+      "WEB8_archive_cartridge_02__baked__A2": 23,
+      "WEB8_trailing_wall_plant__baked__A2": 23,
+      "WEB8_portable_fold_communicator__baked__A3": 22,
+      "WEB8_furniture.rug__baked__A1": 20,
+      "fold.window-ledge__A0": 16,
+      "WEB8_kinetic_three_petal_flower__baked__A2": 14,
+      "WEB8_titanium_bookend_0__baked__A3": 14,
+      "WEB8_titanium_bookend_1__baked__A3": 14,
+      "WEB8_furniture.desk__baked__A1": 12,
+      "WEB8_headphone_cup_1__baked__A2": 12,
+      "WEB8_speaker_gimbal__baked__A2": 12,
+      "WEB8_geometric_specimen_cloche__baked__A3": 10,
+      "WEB8_flower_petal_2__baked__A2": 8,
+      "WEB8_robot_leg_01__baked__A2": 6,
+      "WEB8_headphone_cup_0__baked__A2": 6,
+      "WEB8_creative_folio__baked__A2": 6,
+      "WEB8_floor_vase_leaf_3__baked__A3": 6,
+      "WEB8_v5_magnetic_pen_dock__baked__A4": 6,
+      "WEB8_v5_modular_equipment_cases__baked__A4": 6,
+      "WEB8_headphones_on_stand__baked__A2": 5,
+      "WEB8_flower_petal_1__baked__A2": 5,
+      "WEB8_ceramic_mobius_form__baked__A3": 5,
+      "WEB8_furniture.coffee_table__baked__A1": 4,
+      "WEB8_desktop_creative_controller__baked__A2": 4,
+      "WEB8_v5_energy_capsule__baked__A4": 4,
+      "WEB8_v5_data_panel_selector__baked__A4": 4,
+      "WEB8_folding_drawing_terminal__baked__A2": 3,
+      "WEB8_ceramic_ring_speaker__baked__A2": 3,
+      "WEB8_v5_upper_equipment_case__baked__A4": 3,
+      "WEB8_small_planter_leaf_1__baked__A3": 3,
+      "WEB8_floor_vase_leaf_1__baked__A3": 2,
+      "WEB8_main_display__image__A2": 1,
+      "WEB8_floor_vase_leaf_0__baked__A3": 1,
+      "WEB8_floor_vase_leaf_2__baked__A3": 1,
+      "WEB8_small_planter_leaf_2__baked__A3": 1,
+      "WEB8_small_planter_leaf_3__baked__A3": 1,
+      "WEB8_small_planter_leaf_4__baked__A3": 1,
+      "WEB8_v5_mechanical_data_panel__baked__A4": 1
+    },
+    "mismatchExamples": [
+      {
+        "triangle": 0,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.1107080607070916,
+          3.7010657114948167,
+          -1.6541685623449323
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 1,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.1107080607070916,
+          3.7010657114948167,
+          -1.6541685623449323
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 2,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.10455781327601,
+          3.70082180927721,
+          -1.6430800721155976
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 3,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.10455781327601,
+          3.70082180927721,
+          -1.6430800721155976
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 4,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.093064129137526,
+          3.70082180927721,
+          -1.637720423702207
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 5,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.093064129137526,
+          3.70082180927721,
+          -1.637720423702207
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 7,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.0806165332392568,
+          3.7010657114948167,
+          -1.6401366785495322
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 8,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.0719705226753473,
+          3.7014602942613273,
+          -1.6494059176664728
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 9,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.0719705226753473,
+          3.7014602942613273,
+          -1.6494059176664728
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 10,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.070427240790728,
+          3.701854877027838,
+          -1.66198750533363
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 11,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.070427240790728,
+          3.701854877027838,
+          -1.66198750533363
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      },
+      {
+        "triangle": 12,
+        "node": "main_display__A0",
+        "firstCorner": [
+          -3.07657748822181,
+          3.7020987792454454,
+          -1.6730759955629648
+        ],
+        "reason": "No same-material same-UV same-normal triangle with matching cyclic winding within tolerance"
+      }
+    ]
+  },
+  "normalIsolationDiagnostic": {
+    "informationalOnly": true,
+    "doesNotOverrideStrictResult": true,
+    "note": "Normal-error examples use one valid position/UV/material/cyclic-winding pairing; coincident faces can have multiple such pairings. The strict normal-aware mismatch count remains the acceptance result.",
+    "pass": true,
+    "referenceBoundingBox": {
+      "min": [
+        -18.887821197509766,
+        -1.0400002002716064,
+        -20.09987449645996
+      ],
+      "max": [
+        19.221725463867188,
+        8.069999694824219,
+        8.27500057220459
+      ]
+    },
+    "targetBoundingBox": {
+      "min": [
+        -18.887821197509766,
+        -1.0400002002716064,
+        -20.09987449645996
+      ],
+      "max": [
+        19.221725463867188,
+        8.069999694824219,
+        8.27500057220459
+      ]
+    },
+    "referenceTriangles": 413855,
+    "targetTriangles": 413855,
+    "matchedTriangles": 413855,
+    "missingReferenceTriangles": 0,
+    "unmatchedTargetTriangles": 0,
+    "maximumPositionErrorMetres": 8.22544080847365e-7,
+    "maximumUVError": 0,
+    "maximumNormalizedNormalError": 1.4214054960193803,
+    "worstNormalMatch": {
+      "referenceNode": "WEB8_headphone_cup_0__baked__A2",
+      "targetNode": "WEB8_headphone_cup_0__baked__A2",
+      "referenceTriangle": 196708,
+      "targetTriangle": 189352,
+      "maximumComponentError": 1.4214054960193803,
+      "referenceCornerNormals": [
+        [
+          0.14350090635448975,
+          0.6964375029620019,
+          0.7031232426420645
+        ],
+        [
+          -0.1929549795375894,
+          0.8296254548224337,
+          -0.523917913973476
+        ],
+        [
+          -0.6424328828942473,
+          0.6608021558451542,
+          0.38809857228104155
+        ]
+      ],
+      "targetCorrespondingCornerNormals": [
+        [
+          -0.4185055374998785,
+          0.13917311218526987,
+          0.8974875820459044
+        ],
+        [
+          -0.4185055374998785,
+          0.13917311218526987,
+          0.8974875820459044
+        ],
+        [
+          -0.4185055374998785,
+          0.13917311218526987,
+          0.8974875820459044
+        ]
+      ]
+    },
+    "unmatchedByNode": {},
+    "mismatchExamples": []
+  },
+  "materialComparison": {
+    "stableNameAndEffectivePBRAndTextureSlotSemantics": true,
+    "ignoredInertFields": "KHR_materials_unlit metallicFactor/roughnessFactor only (glTF unlit ignores both). Non-unlit values, alpha, UV transform and slot semantics remain strict."
+  },
+  "error": "rest geometry: 19542 unmatched target triangles, 19542 missing reference triangles",
+  "actualNewModelVerified": false
+}
