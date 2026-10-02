@@ -1,0 +1,551 @@
+{
+  "asset": "welcome-terminal-v2",
+  "checkedAt": "2026-09-26T03:44:27.635548+00:00",
+  "type": "Native Blender precision-detail revision of the existing portable creative terminal",
+  "description": "Machined blue enclosure, recessed cooling slots, segmented hinge, captive fasteners, knurled orange encoder and an anti-reflective PBR display. Original four carriers and TerminalUnfold animation retained.",
+  "source_blend": "assets/blender/welcome-terminal-v2.blend",
+  "parent_blend": "assets/blender/welcome-terminal-v1.blend",
+  "authoring_record": "assets/blender/build-welcome-terminal-v2.py",
+  "authoring_report": "assets/blender/welcome-terminal-v2-authoring-report.json",
+  "runtime_glb": "public/models/welcome-terminal-v2.glb",
+  "review_render": "renders/welcome-terminal-v2-blender.png",
+  "provenance": {
+    "geometry": "Authored using Blender MCP in the isolated terminal scene; primitives, bevels, Boolean recessed vents, native cleanup and grouped decorative geometry. No changes to the room blend.",
+    "materials": "Original navy/titanium/vermilion palette with an ivory ceramic status inlay. PBR clearcoat and anti-reflection screen settings exported natively.",
+    "reused_bitmap": "public/textures/lighting-v15/screen-art-render.png",
+    "third_party_models_added": false,
+    "third_party_textures_added": false
+  },
+  "coordinate_system": "glTF/Three +Y up, metres; Blender source +Z up. Raw glTF node names with dots are preserved by GLTFLoader in userData.name.",
+  "roots": [
+    {
+      "name": "seed.base",
+      "loaderName": "seedbase",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "floor",
+      "meshCount": 11
+    },
+    {
+      "name": "seed.lid",
+      "loaderName": "seedlid",
+      "position": [
+        0,
+        0.2849999964237213,
+        0.44999998807907104
+      ],
+      "quaternion": [
+        0.10452848672866821,
+        0,
+        0,
+        0.994521975517273
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "window-wall",
+      "meshCount": 7
+    },
+    {
+      "name": "seed.dial",
+      "loaderName": "seeddial",
+      "position": [
+        1.059999942779541,
+        0.28999999165534973,
+        0.7049999833106995
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "desktop-detail",
+      "meshCount": 6
+    },
+    {
+      "name": "seed.rail",
+      "loaderName": "seedrail",
+      "position": [
+        -1.3350000381469727,
+        0.23999999463558197,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "side-wall",
+      "meshCount": 3
+    }
+  ],
+  "mesh_count": 27,
+  "material_count": 7,
+  "triangles": 26868,
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.23999999463558197,
+          "clearcoatRoughnessFactor": 0.18000000715255737
+        }
+      },
+      "name": "TERMINAL_DeepBlue_Enamel",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.017641954123973846,
+          0.07818742096424103,
+          0.16202937066555023,
+          1
+        ],
+        "metallicFactor": 0.5699999928474426,
+        "roughnessFactor": 0.25
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.05999999865889549,
+          "clearcoatRoughnessFactor": 0.18000000715255737
+        }
+      },
+      "name": "TERMINAL_SatinTitanium",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4564110338687897,
+          0.5520114302635193,
+          0.6239603757858276,
+          1
+        ],
+        "metallicFactor": 0.8999999761581421,
+        "roughnessFactor": 0.2199999988079071
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatRoughnessFactor": 0.18000000715255737
+        }
+      },
+      "name": "TERMINAL_DarkRubber",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.005181516520678997,
+          0.010960093699395657,
+          0.019382361322641373,
+          1
+        ],
+        "metallicFactor": 0.05999999865889549,
+        "roughnessFactor": 0.4399999976158142
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.11999999731779099,
+          "clearcoatRoughnessFactor": 0.18000000715255737
+        }
+      },
+      "name": "TERMINAL_WarmTrace",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8631572127342224,
+          0.41788506507873535,
+          0.09989872574806213,
+          1
+        ],
+        "metallicFactor": 0.550000011920929,
+        "roughnessFactor": 0.23000000417232513
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.30000001192092896,
+          "clearcoatRoughnessFactor": 0.18000000715255737
+        }
+      },
+      "name": "TERMINAL_IvoryCeramic",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7835378050804138,
+          0.7230551242828369,
+          0.577580451965332,
+          1
+        ],
+        "metallicFactor": 0.07999999821186066,
+        "roughnessFactor": 0.27000001072883606
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.3199999928474426,
+          "clearcoatRoughnessFactor": 0.18000000715255737
+        }
+      },
+      "name": "TERMINAL_Vermilion",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9130986332893372,
+          0.2158605009317398,
+          0.03688944876194,
+          1
+        ],
+        "metallicFactor": 0.2199999988079071,
+        "roughnessFactor": 0.25999999046325684
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.8500000238418579,
+        0.8500000238418579,
+        0.8500000238418579
+      ],
+      "emissiveTexture": {
+        "index": 0
+      },
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.02500000037252903,
+          "clearcoatRoughnessFactor": 0.18000000715255737
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.07000000029802322
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4600000381469727
+        }
+      },
+      "name": "TERMINAL_OriginalScreenArtwork",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0010000000474974513,
+          0.003000000026077032,
+          0.006000000052154064,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.2199999988079071
+      }
+    }
+  ],
+  "embedded_texture": {
+    "source": "public/textures/lighting-v15/screen-art-render.png",
+    "embeddedImageIndex": 0,
+    "embeddedBufferView": 46,
+    "dimensions": [
+      2880,
+      1200
+    ],
+    "bytes": 4040686,
+    "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+    "sourceSha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+    "byteIdentical": true
+  },
+  "default_world_bounds": {
+    "min": [
+      -1.4049999713897705,
+      -0.057500001043081284,
+      -0.9049999713897705
+    ],
+    "max": [
+      1.4049999713897705,
+      0.6559767126356233,
+      0.9049999713897705
+    ],
+    "size": [
+      2.809999942779541,
+      0.7134767136787046,
+      1.809999942779541
+    ]
+  },
+  "animation": {
+    "name": "TerminalUnfold",
+    "duration": 1.6166666746139526,
+    "tracks": [
+      {
+        "root": "seed.lid",
+        "property": "position",
+        "loaderTrack": "seedlid.position",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0,
+          0.2849999964237213,
+          0.44999998807907104
+        ],
+        "last": [
+          0,
+          0.2849999964237213,
+          -0.6499999761581421
+        ]
+      },
+      {
+        "root": "seed.lid",
+        "property": "quaternion",
+        "loaderTrack": "seedlid.quaternion",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0.1045285016298294,
+          0,
+          0,
+          0.9945218563079834
+        ],
+        "last": [
+          0.7372773885726929,
+          0,
+          0,
+          0.6755901575088501
+        ]
+      },
+      {
+        "root": "seed.dial",
+        "property": "quaternion",
+        "loaderTrack": "seeddial.quaternion",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "last": [
+          0,
+          -0.38941827416419983,
+          0,
+          0.9210610389709473
+        ]
+      },
+      {
+        "root": "seed.rail",
+        "property": "quaternion",
+        "loaderTrack": "seedrail.quaternion",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "last": [
+          0,
+          0,
+          0.1593182384967804,
+          0.9872272610664368
+        ]
+      }
+    ]
+  },
+  "animation_initial_matrix_error": 6.230383764460612e-09,
+  "root_transform_and_envelope_comparison": [
+    {
+      "frame": 1,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.6559766530990601
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.6559766530990601
+        ]
+      }
+    },
+    {
+      "frame": 25,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.8291914463043213
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          0.8291914463043213
+        ]
+      }
+    },
+    {
+      "frame": 49,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.359477162361145
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.359477162361145
+        ]
+      }
+    },
+    {
+      "frame": 73,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.588877558708191
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.588877558708191
+        ]
+      }
+    },
+    {
+      "frame": 97,
+      "rootMatrixError": 0.0,
+      "boundsExcess": 0.0,
+      "oldBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.5835524797439575
+        ]
+      },
+      "newBoundsBlender": {
+        "min": [
+          -1.4049999713897705,
+          -0.9049999713897705,
+          -0.057500001043081284
+        ],
+        "max": [
+          1.4049999713897705,
+          0.9049999713897705,
+          1.5835524797439575
+        ]
+      }
+    }
+  ],
+  "geometry_cleanup": "Merged coincident vertices at tolerance 1e-8, triangulated in Blender, checked relative triangle area and reapplied weighted normals. Tiny detail bevels use two segments; independent validator found zero degenerate triangles.",
+  "file_bytes": {
+    "blend": 4694985,
+    "glb": 4788760
+  },
+  "sha256": {
+    "blend": "0461e14ab58d2fb6d11cd31f068fb6f51d4b2e2e07b3c931580c275ebc0eaa53",
+    "glb": "ba10a1e700e057631ca79ca9bdea21840ba5f7d1fa9b1f9e846338ab3783339a",
+    "authoring_record": "493e908f57af645140511c56ea03c6b77b9b54189e77724debdb50234dd96d01"
+  },
+  "validation": {
+    "report": "docs/validation/welcome-terminal-v2.json",
+    "checks": 5,
+    "passed": 5,
+    "failed": 0,
+    "passed_all": true,
+    "validated_glb_sha256": "ba10a1e700e057631ca79ca9bdea21840ba5f7d1fa9b1f9e846338ab3783339a",
+    "browser_visual_review": "Root agent is validating the actual local homepage; Blender final render inspected for enclosure, screen contrast and decorative joins.",
+    "checkedAt": "2026-09-26T03:46:41.607Z"
+  },
+  "additional_review_render": "renders/welcome-terminal-v2-open-blender.png"
+}

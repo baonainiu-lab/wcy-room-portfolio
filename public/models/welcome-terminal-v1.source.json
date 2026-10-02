@@ -1,0 +1,300 @@
+{
+  "asset": "welcome-terminal-v1",
+  "checkedAt": "2026-09-25T03:03:26.977Z",
+  "type": "Independent Blender-authored portable creative terminal",
+  "description": "Independent portable creative terminal: existing original artwork, blue enamel, titanium and vermilion. Blender-authored geometry and hinge animation.",
+  "source_blend": "assets/blender/welcome-terminal-v1.blend",
+  "authoring_record": "assets/blender/build-welcome-terminal-v1.py",
+  "runtime_glb": "public/models/welcome-terminal-v1.glb",
+  "provenance": {
+    "geometry": "Authored in a dedicated WELCOME_TERMINAL_V1 Blender scene; editable base, lid, dial and rail carriers.",
+    "materials": "Five original constant-factor PBR colors plus the project’s existing rendered screen artwork.",
+    "reused_bitmap": "public/textures/lighting-v15/screen-art-render.png",
+    "third_party_models_added": false,
+    "third_party_textures_added": false
+  },
+  "coordinate_system": "glTF/Three +Y up, metres; Blender source +Z up. Raw glTF node names with dots are preserved by GLTFLoader in userData.name.",
+  "roots": [
+    {
+      "name": "seed.base",
+      "loaderName": "seedbase",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "floor",
+      "meshCount": 7
+    },
+    {
+      "name": "seed.lid",
+      "loaderName": "seedlid",
+      "position": [
+        0,
+        0.2849999964237213,
+        0.44999998807907104
+      ],
+      "quaternion": [
+        0.10452848672866821,
+        0,
+        0,
+        0.994521975517273
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "window-wall",
+      "meshCount": 5
+    },
+    {
+      "name": "seed.dial",
+      "loaderName": "seeddial",
+      "position": [
+        1.059999942779541,
+        0.28999999165534973,
+        0.7049999833106995
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "desktop-detail",
+      "meshCount": 4
+    },
+    {
+      "name": "seed.rail",
+      "loaderName": "seedrail",
+      "position": [
+        -1.3350000381469727,
+        0.23999999463558197,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "destination": "side-wall",
+      "meshCount": 2
+    }
+  ],
+  "mesh_count": 18,
+  "material_count": 6,
+  "triangles": 11294,
+  "palette": [
+    {
+      "name": "TERMINAL_DeepBlue_Enamel",
+      "linearRGB": [
+        0.017641954123973846,
+        0.07818742096424103,
+        0.16202937066555023
+      ],
+      "srgbHex": "#244f70",
+      "metallic": 0.41999998688697815,
+      "roughness": 0.27000001072883606
+    },
+    {
+      "name": "TERMINAL_SatinTitanium",
+      "linearRGB": [
+        0.4564110338687897,
+        0.5520114302635193,
+        0.6239603757858276
+      ],
+      "srgbHex": "#b4c4cf",
+      "metallic": 0.8500000238418579,
+      "roughness": 0.23999999463558197
+    },
+    {
+      "name": "TERMINAL_DarkRubber",
+      "linearRGB": [
+        0.005181516520678997,
+        0.010960093699395657,
+        0.019382361322641373
+      ],
+      "srgbHex": "#101b26",
+      "metallic": 0.05000000074505806,
+      "roughness": 0.4300000071525574
+    },
+    {
+      "name": "TERMINAL_WarmTrace",
+      "linearRGB": [
+        0.8631572127342224,
+        0.41788506507873535,
+        0.09989872574806213
+      ],
+      "srgbHex": "#efad59",
+      "metallic": 0.550000011920929,
+      "roughness": 0.25999999046325684
+    },
+    {
+      "name": "TERMINAL_Vermilion",
+      "linearRGB": [
+        0.9130986332893372,
+        0.2158605009317398,
+        0.03688944876194
+      ],
+      "srgbHex": "#f58036",
+      "metallic": 0.18000000715255737,
+      "roughness": 0.30000001192092896
+    }
+  ],
+  "embedded_texture": {
+    "source": "public/textures/lighting-v15/screen-art-render.png",
+    "embeddedImageIndex": 0,
+    "embeddedBufferView": 29,
+    "dimensions": [
+      2880,
+      1200
+    ],
+    "bytes": 4040686,
+    "sha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+    "sourceSha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+    "byteIdentical": true,
+    "pixelsIdentical": true
+  },
+  "default_world_bounds": {
+    "min": [
+      -1.4049999713897705,
+      -0.057500001043081284,
+      -0.9049999713897705
+    ],
+    "max": [
+      1.4049999713897705,
+      0.6559767126356233,
+      0.9049999713897705
+    ],
+    "size": [
+      2.809999942779541,
+      0.7134767136787046,
+      1.809999942779541
+    ]
+  },
+  "animation": {
+    "name": "TerminalUnfold",
+    "duration": 1.6166666746139526,
+    "tracks": [
+      {
+        "root": "seed.lid",
+        "property": "position",
+        "loaderTrack": "seedlid.position",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0,
+          0.2849999964237213,
+          0.44999998807907104
+        ],
+        "last": [
+          0,
+          0.2849999964237213,
+          -0.6499999761581421
+        ]
+      },
+      {
+        "root": "seed.lid",
+        "property": "quaternion",
+        "loaderTrack": "seedlid.quaternion",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0.1045285016298294,
+          0,
+          0,
+          0.9945218563079834
+        ],
+        "last": [
+          0.7372773885726929,
+          0,
+          0,
+          0.6755901575088501
+        ]
+      },
+      {
+        "root": "seed.dial",
+        "property": "quaternion",
+        "loaderTrack": "seeddial.quaternion",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "last": [
+          0,
+          -0.38941827416419983,
+          0,
+          0.9210610389709473
+        ]
+      },
+      {
+        "root": "seed.rail",
+        "property": "quaternion",
+        "loaderTrack": "seedrail.quaternion",
+        "keys": 97,
+        "firstTime": 0.01666666753590107,
+        "lastTime": 1.6166666746139526,
+        "first": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "last": [
+          0,
+          0,
+          0.1593182384967804,
+          0.9872272610664368
+        ]
+      }
+    ]
+  },
+  "animation_initial_matrix_error": 6.230383764460612e-9,
+  "file_bytes": {
+    "blend": 4263821,
+    "glb": 4306676
+  },
+  "sha256": {
+    "blend": "10263463500d711ca38b2c5cf03805131a2526365a211921736d82dbf64dfdc1",
+    "glb": "00052405d86acf54031f1b874ecf370c8afa1e75e5f92ccd0f3dda5414642d24",
+    "authoring_record": "ec4393280c4f526c6fefe40c0269f5a6878a1e4b651cdadf435583a6c1b72892"
+  },
+  "validation": {
+    "report": "docs/validation/welcome-terminal-v1.json",
+    "checks": 8,
+    "passed": 8,
+    "failed": 0,
+    "passed_all": true,
+    "browser_visual_review": "separate"
+  }
+}

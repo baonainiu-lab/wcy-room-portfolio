@@ -1,0 +1,116 @@
+{
+  "asset": "welcome-orbit-v1",
+  "created_utc": "2026-09-25",
+  "type": "original procedural Blender model",
+  "description": "Minimal orbital welcome sculpture: thin deep blue elliptical base, two separate satin titanium arc halves with tiny copper endcaps, floating warm ivory ceramic sphere.",
+  "provenance": {
+    "geometry": "Created specifically for this personal portfolio project in Blender using original parametric meshes.",
+    "materials": "Original constant-factor PBR materials.",
+    "textures": "None",
+    "third_party_models": "None",
+    "third_party_textures": "None",
+    "reference": "Visual language of the project orbital room; no downloaded geometry or image data."
+  },
+  "source_blend": "assets/blender/welcome-orbit-v1.blend",
+  "runtime_glb": "public/models/welcome-orbit-v1.glb",
+  "coordinate_system": "glTF / THREE: +Y up, metres. Blender source: +Z up; exported using export_yup=True.",
+  "mesh_nodes": [
+    {
+      "name": "welcome_base",
+      "triangles": 896,
+      "gltf_pivot": [
+        0.0,
+        -0.550000011920929,
+        -0.0
+      ]
+    },
+    {
+      "name": "welcome_ring_left",
+      "triangles": 2076,
+      "gltf_pivot": [
+        0.0,
+        0.30000001192092896,
+        -0.0
+      ]
+    },
+    {
+      "name": "welcome_ring_right",
+      "triangles": 2076,
+      "gltf_pivot": [
+        0.0,
+        0.30000001192092896,
+        -0.0
+      ]
+    },
+    {
+      "name": "welcome_core",
+      "triangles": 2976,
+      "gltf_pivot": [
+        0.0,
+        0.30000001192092896,
+        0.012000000104308128
+      ]
+    }
+  ],
+  "gltf_world_bbox": {
+    "min": [
+      -0.8659999966621399,
+      -0.6110000126063824,
+      -0.33500000834465027
+    ],
+    "max": [
+      0.8659999966621399,
+      1.1648131608963013,
+      0.33500000834465027
+    ]
+  },
+  "total_triangles": 8024,
+  "material_count": 3,
+  "texture_count": 0,
+  "file_bytes": {
+    "blend": 221337,
+    "glb": 179404
+  },
+  "sha256": {
+    "blend": "0dbf0ed8d2978622d7df0aa8351843be0ec400832611a9c0d4d8a7a43b0f21dd",
+    "glb": "d86e2f3c71d676671c7a8a5dda5372444a584877957847dd48378d4ab523ecea"
+  },
+  "validation": {
+    "under_10000_triangles": true,
+    "under_1MB": true,
+    "four_independent_mesh_nodes": true,
+    "within_requested_world_bounds": true
+  },
+  "glb_binary_validation": {
+    "mesh_nodes": [
+      "welcome_base",
+      "welcome_ring_right",
+      "welcome_ring_left",
+      "welcome_core"
+    ],
+    "primitive_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "triangles": 8024,
+    "bbox": {
+      "min": [
+        -0.8659999966621399,
+        -0.6110000126063824,
+        -0.33500000834465027
+      ],
+      "max": [
+        0.8659999966621399,
+        1.1648131608963013,
+        0.33500000834465027
+      ]
+    },
+    "materials": 3,
+    "textures": 0,
+    "images": 0,
+    "bytes": 179404,
+    "sha256": "d86e2f3c71d676671c7a8a5dda5372444a584877957847dd48378d4ab523ecea"
+  }
+}
