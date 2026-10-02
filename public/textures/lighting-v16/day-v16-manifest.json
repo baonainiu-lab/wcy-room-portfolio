@@ -1,0 +1,153 @@
+{
+  "state": "day",
+  "samples": 96,
+  "preparedSha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/lighting-v16/day-0.png",
+      "sha256": "3735675484f5e575fed0d43a0822d7f853b79896d8536820aee4c12b505e8e1f",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 138.1,
+      "bytes": 2481387
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/lighting-v16/day-1.png",
+      "sha256": "4723f5d6e666c99c0dd62bfafe816c5a746298a0ad5af076751b8e8aa03f70f9",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 126.42,
+      "bytes": 3508568
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/lighting-v16/day-2.png",
+      "sha256": "3fb3fd9befa899624a732ea5a91d23d78134e65c7f26a5dc5286323ca44baeac",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "secondsIncludingGpuQueue": 158.8,
+      "bytes": 6981186
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/lighting-v16/day-3.png",
+      "sha256": "6d4140e9e019b681d77685f04f952c9f20cc4194e18e853c96e1bba79d8a5130",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 102.51,
+      "bytes": 6605262
+    },
+    {
+      "atlas": 4,
+      "path": "public/textures/lighting-v16/day-4.png",
+      "sha256": "50f4acdcf0a873d15a3681def958ff42c577afc7f769689424c4856a9bacca25",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 119.8,
+      "bytes": 7537825
+    },
+    {
+      "atlas": 5,
+      "path": "public/textures/lighting-v16/day-5.png",
+      "sha256": "cb03541dc358aa7a68f3c6b57a19cf41d218e077b9f2551e2c16f465280addd6",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 103.39,
+      "bytes": 5903229
+    },
+    {
+      "atlas": 6,
+      "path": "public/textures/lighting-v16/day-6.png",
+      "sha256": "4094a8026c510fdddf8489066ad22cad57c348cc65af90bada78a3fb1dafaaf4",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 55.59,
+      "bytes": 4028947
+    },
+    {
+      "atlas": 7,
+      "path": "public/textures/lighting-v16/day-7.png",
+      "sha256": "cae8471ad8d31fa15143309f5e5cccf09c70043ccc29a844333fd137d170d7e9",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 28.98,
+      "bytes": 1661828
+    },
+    {
+      "atlas": 8,
+      "path": "public/textures/lighting-v16/day-8.png",
+      "sha256": "0184292acc3d1310577f4a24a2c44d82d5da241fb56888ed1a35425bd18df6e0",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 68.57,
+      "bytes": 3675691
+    },
+    {
+      "atlas": 9,
+      "path": "public/textures/lighting-v16/day-9.png",
+      "sha256": "c36ef32c7ac526bfb76dcc2cbcbd39da11de607ec3826cfc0d1df950ea6f8284",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "secondsIncludingGpuQueue": 152.75,
+      "bytes": 8226144
+    },
+    {
+      "atlas": 10,
+      "path": "public/textures/lighting-v16/day-10.png",
+      "sha256": "9c67e09de2ec5214ce55ed0f517a4cf9dd049a6c87215b25c3f8e852c59a6532",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "secondsIncludingGpuQueue": 99.81,
+      "bytes": 6265892
+    },
+    {
+      "atlas": 11,
+      "path": "public/textures/lighting-v16/day-11.png",
+      "sha256": "5eba0ef5423cdb93b0c938cdcf5301d24fc2894dcf5c3c3cdce5ed67c177f178",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 12,
+      "secondsIncludingGpuQueue": 96.01,
+      "bytes": 3304024
+    }
+  ],
+  "complete": true,
+  "secondsThisRun": 1265.0
+}
