@@ -1,0 +1,34 @@
+{
+  "kind": "Actual Blender Cycles 64-sample baked lighting and photographed surface materials",
+  "editable_source": "assets/blender/works-gallery-v5.blend",
+  "bake_source": "assets/blender/works-gallery-bake-v5.blend",
+  "geometry_uv_preserved": true,
+  "asset_ids": 77,
+  "sources": [
+    {
+      "name": "Terrazzo001",
+      "author": "ambientCG / Lennart Demes",
+      "url": "https://ambientcg.com/view?id=Terrazzo001",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "Brown Leather",
+      "author": "Rob Tuytel / Poly Haven",
+      "url": "https://polyhaven.com/a/brown_leather",
+      "license": "CC0-1.0"
+    }
+  ],
+  "source_maps_sha256": {
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Color.jpg": "e075ccaaced9f10e4b9900a866e43e41f95c8d1a8f4a2e2f81895499951df355",
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Roughness.jpg": "d37b2befb5643c5b820c9fb1bf76709b33ca8dd6d3d8668866e9b1e96f124b34",
+    "assets/textures/about-atelier-v3/Terrazzo001/Terrazzo001_2K-JPG_Displacement.jpg": "9c1e6fb0c7a5f6ea5f35c2557f7e9fa3d361d842ae16e490d3adaf3a3be05f73",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_albedo_2k.jpg": "b0de2403a31efa31e501b0028c0bd8e504d5bd6318f4a5ce90c550c3067f96d8",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_rough_2k.jpg": "8a47afca2630310849034fe40ca9497db0956c67c0d933e6efd49d3cd2befe83",
+    "assets/textures/about-atelier-v3/brown_leather/brown_leather_disp_2k.jpg": "37ff21737b1ca5ea8cfe88d9a8fe1e2ace0ef190d9ee2d23369307f63c7c3eab"
+  },
+  "source_provenance_manifest": "assets/textures/about-atelier-v3/texture-manifest.json",
+  "source_pixels_unchanged": true,
+  "shader_processing": "World-metre triplanar albedo, scanned roughness and scanned height bump; cool stone / saddle-brown linear tint; fine procedural silver/brass brushing",
+  "day_night": "Independent actual Cycles bakes with unchanged authored lighting, never simulated by darkening the day image",
+  "license_file": "LICENSE-CC0-1.0.txt"
+}

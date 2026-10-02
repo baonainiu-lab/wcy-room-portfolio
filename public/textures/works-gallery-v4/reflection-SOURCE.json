@@ -1,0 +1,984 @@
+{
+  "complete": true,
+  "type": "Actual Blender Cycles reflection probe; not AI imagery",
+  "source": "assets/blender/works-gallery-v4.blend",
+  "source_sha256": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+  "input_sha256": {
+    "assets/blender/works-gallery-v4.blend": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+    "assets/blender/gallery-atmosphere-sky-v1.blend": "4530c76dcfd9778664a5a99668ea49e87bc6e35ba2ded51a06fb1eeb758bac57",
+    "public/textures/gallery-atmosphere-v1/SKY_SOURCE.json": "f0a685f3f45f7b43f01ccb1c18d959f964298bfc79c57d4f0358ff63c09cec86"
+  },
+  "world_source": "assets/blender/gallery-atmosphere-sky-v1.blend",
+  "camera_blender_location": [
+    0.12,
+    3.36,
+    2.7
+  ],
+  "requested_probe_location": [
+    0.0,
+    3.36,
+    2.7
+  ],
+  "probe_adjustment": "Shifted 0.12m along X to avoid the solid central window mullion at the requested point; orientation and Y/Z unchanged.",
+  "camera_web_location": [
+    0.12,
+    2.7,
+    -3.36
+  ],
+  "camera_rotation_euler": [
+    1.5707963267948966,
+    0.0,
+    0.0
+  ],
+  "projection": "EQUIRECTANGULAR",
+  "resolution": [
+    2048,
+    1024
+  ],
+  "cycles": {
+    "device": "GPU",
+    "backend": "METAL",
+    "names": [
+      "Apple M5 (GPU - 10 cores)"
+    ]
+  },
+  "hidden_architectural_glass": [
+    {
+      "name": "Clear terrace balustrade",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "Clear terrace balustrade.001",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "Clear terrace balustrade.002",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "Clear terrace balustrade.003",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 00",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 01",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 02",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 03",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 04",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 05",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 00",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 01",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 02",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 03",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 04",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 05",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    }
+  ],
+  "preserved_other_glass": [
+    {
+      "name": "gallery.work.02.vitrine.glass.side.-1",
+      "owner": "gallery.work.02.vitrine.glass.side.-1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.02.vitrine.glass.face.-1",
+      "owner": "gallery.work.02.vitrine.glass.face.-1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.02.vitrine.glass.side.1",
+      "owner": "gallery.work.02.vitrine.glass.side.1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.02.vitrine.glass.face.1",
+      "owner": "gallery.work.02.vitrine.glass.face.1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.02.vitrine.glass.roof",
+      "owner": "gallery.work.02.vitrine.glass.roof",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.05.vitrine.glass.side.-1",
+      "owner": "gallery.work.05.vitrine.glass.side.-1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.05.vitrine.glass.face.-1",
+      "owner": "gallery.work.05.vitrine.glass.face.-1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.05.vitrine.glass.side.1",
+      "owner": "gallery.work.05.vitrine.glass.side.1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.05.vitrine.glass.face.1",
+      "owner": "gallery.work.05.vitrine.glass.face.1",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.work.05.vitrine.glass.roof",
+      "owner": "gallery.work.05.vitrine.glass.roof",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.archive.cart.tray.2",
+      "owner": "gallery.archive.cart",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.archive.cart.tray.3",
+      "owner": "gallery.archive.cart",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.lantern.01.glass",
+      "owner": "gallery.lantern.01",
+      "hidden_originally": false
+    },
+    {
+      "name": "gallery.lantern.02.glass",
+      "owner": "gallery.lantern.02",
+      "hidden_originally": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 00",
+      "owner": "gallery.architecture",
+      "hidden_originally": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 01",
+      "owner": "gallery.architecture",
+      "hidden_originally": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 02",
+      "owner": "gallery.architecture",
+      "hidden_originally": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 03",
+      "owner": "gallery.architecture",
+      "hidden_originally": false
+    },
+    {
+      "name": "V4 inset glazing edge strip 04",
+      "owner": "gallery.architecture",
+      "hidden_originally": false
+    }
+  ],
+  "ground": {
+    "name": "REFLECTION_ONLY neutral stone ground",
+    "size_meters": [
+      256.0,
+      256.0
+    ],
+    "blender_z": -0.88,
+    "web_y": -0.88,
+    "saved_to_source": false,
+    "material": "same neutral stone parameters as gallery-atmosphere-v1",
+    "added_lights": 0
+  },
+  "original_lights": {
+    "Passage amber": {
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          0.9158691167831421,
+          -0.40147697925567627,
+          -8.600000381469727
+        ],
+        [
+          -1.0,
+          -9.79983596494094e-08,
+          -1.1468223704014235e-07,
+          0.0
+        ],
+        [
+          -1.4437800643918308e-07,
+          0.40147697925567627,
+          0.9158691167831421,
+          3.950000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 140
+    },
+    "Gallery directional sunlight": {
+      "matrix": [
+        [
+          -0.6726728081703186,
+          -0.46476274728775024,
+          0.5757663249969482,
+          8.0
+        ],
+        [
+          0.7399400472640991,
+          -0.4225116968154907,
+          0.5234238505363464,
+          6.0
+        ],
+        [
+          1.044661104288025e-07,
+          0.7781255841255188,
+          0.6281087398529053,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "SUN",
+      "base_power": null
+    },
+    "Warm exhibit spotlight 0": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.800000190734863
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 170
+    },
+    "Warm exhibit spotlight 1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.700000047683716
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 170
+    },
+    "Warm exhibit spotlight 2": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6000000238418579
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 170
+    },
+    "Warm exhibit spotlight 3": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 170
+    },
+    "Warm exhibit spotlight 4": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.5999999046325684
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 170
+    },
+    "Warm exhibit spotlight 5": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.699999809265137
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 170
+    },
+    "Warm table wash": {
+      "matrix": [
+        [
+          -1.0,
+          1.510095870571604e-07,
+          2.8556851843072537e-14,
+          0.20000000298023224
+        ],
+        [
+          -1.5099580252808664e-07,
+          -0.9999087452888489,
+          0.013510857708752155,
+          -0.44999998807907104
+        ],
+        [
+          2.0402974865163515e-09,
+          0.013510857708752155,
+          0.9999087452888489,
+          4.300000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 240
+    },
+    "Low lantern light": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.199999809265137
+        ],
+        [
+          0.0,
+          0.847998321056366,
+          -0.5299988985061646,
+          -2.200000047683716
+        ],
+        [
+          0.0,
+          0.5299988985061646,
+          0.847998321056366,
+          0.949999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 50
+    },
+    "Low lantern light.001": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.199999809265137
+        ],
+        [
+          0.0,
+          0.847998321056366,
+          -0.5299988985061646,
+          -2.200000047683716
+        ],
+        [
+          0.0,
+          0.5299988985061646,
+          0.847998321056366,
+          0.949999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 50
+    },
+    "Dusk skylight bounce": {
+      "matrix": [
+        [
+          -1.0,
+          1.6171739503079152e-07,
+          -4.467354486337172e-09,
+          0.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          -0.923076868057251,
+          0.3846154510974884,
+          2.5
+        ],
+        [
+          5.807529390722266e-08,
+          0.3846154510974884,
+          0.923076868057251,
+          7.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "base_power": 500
+    }
+  },
+  "sun_blender_direction": [
+    0.5757664442062378,
+    0.5234237909317017,
+    0.6281086802482605
+  ],
+  "sun_web_direction": [
+    0.5757664442062378,
+    0.6281086802482605,
+    -0.5234237909317017
+  ],
+  "sun_direction_error_degrees": 0.0,
+  "runtime_uv_contract": {
+    "direction": "normalized world Web direction, Y up",
+    "u": "fract(0.5 + atan(direction.x, -direction.z) / (2*PI))",
+    "v_ktx2_or_png_flipY_false": "0.5 - asin(clamp(direction.y,-1,1)) / PI",
+    "v_png_flipY_true": "0.5 + asin(clamp(direction.y,-1,1)) / PI",
+    "yaw_rotation_radians": 0,
+    "cardinals": {
+      "web_minus_z": [
+        0.5,
+        0.5
+      ],
+      "web_plus_x": [
+        0.75,
+        0.5
+      ],
+      "web_plus_z": [
+        0,
+        0.5
+      ],
+      "web_minus_x": [
+        0.25,
+        0.5
+      ],
+      "web_plus_y": [
+        null,
+        0
+      ]
+    },
+    "texture_color_space": "sRGB",
+    "tone_mapped": false,
+    "wrap_s": "Repeat",
+    "wrap_t": "ClampToEdge"
+  },
+  "color_management": "AgX Medium High Contrast, day +0.18EV / night 0EV; display-referred sRGB LDR. Decode sRGB once; no second tone mapping.",
+  "limitation": "Single local probe captures static surroundings. Not an HDR irradiance map or view-dependent planar reflection; box projection can reduce parallax error.",
+  "renders": [
+    {
+      "state": "day",
+      "path": "public/textures/works-gallery-v4/reflection-day.png",
+      "sha256": "7322edfd21dd903c11594691b5c17f23fa5419cba744975ff846dfccf1da3a6b",
+      "bytes": 2096463,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "samples": 32,
+      "seconds": 14.633,
+      "world": "DAY physical multiscattering atmosphere",
+      "original_lighting_setter": {
+        "state": "day",
+        "sunEnergy": 3.5,
+        "worldStrength": 0.054999999701976776
+      },
+      "lights": {
+        "Passage amber": {
+          "energy": 22.399999618530273,
+          "color": [
+            1.0,
+            0.6399999856948853,
+            0.33000001311302185
+          ]
+        },
+        "Gallery directional sunlight": {
+          "energy": 3.5,
+          "color": [
+            1.0,
+            0.8600000143051147,
+            0.6399999856948853
+          ]
+        },
+        "Warm exhibit spotlight 0": {
+          "energy": 27.200000762939453,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 1": {
+          "energy": 27.200000762939453,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 2": {
+          "energy": 27.200000762939453,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 3": {
+          "energy": 27.200000762939453,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 4": {
+          "energy": 27.200000762939453,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 5": {
+          "energy": 27.200000762939453,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm table wash": {
+          "energy": 38.400001525878906,
+          "color": [
+            1.0,
+            0.7699999809265137,
+            0.5199999809265137
+          ]
+        },
+        "Low lantern light": {
+          "energy": 8.0,
+          "color": [
+            1.0,
+            0.5600000023841858,
+            0.2199999988079071
+          ]
+        },
+        "Low lantern light.001": {
+          "energy": 8.0,
+          "color": [
+            1.0,
+            0.5600000023841858,
+            0.2199999988079071
+          ]
+        },
+        "Dusk skylight bounce": {
+          "energy": 80.0,
+          "color": [
+            0.41999998688697815,
+            0.5899999737739563,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "state": "night",
+      "path": "public/textures/works-gallery-v4/reflection-night.png",
+      "sha256": "e7a8f45c4268b892be1fb1a8bb3bb73b9ddaf92a14567ceff9dfef5782d42141",
+      "bytes": 2106717,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "samples": 48,
+      "seconds": 15.134,
+      "world": "NIGHT quiet blue atmosphere",
+      "original_lighting_setter": {
+        "state": "night",
+        "sunEnergy": 0.07,
+        "worldStrength": 0.3400000035762787
+      },
+      "lights": {
+        "Passage amber": {
+          "energy": 140.0,
+          "color": [
+            1.0,
+            0.6399999856948853,
+            0.33000001311302185
+          ]
+        },
+        "Gallery directional sunlight": {
+          "energy": 0.07000000029802322,
+          "color": [
+            0.4000000059604645,
+            0.5699999928474426,
+            1.0
+          ]
+        },
+        "Warm exhibit spotlight 0": {
+          "energy": 170.0,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 1": {
+          "energy": 170.0,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 2": {
+          "energy": 170.0,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 3": {
+          "energy": 170.0,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 4": {
+          "energy": 170.0,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm exhibit spotlight 5": {
+          "energy": 170.0,
+          "color": [
+            1.0,
+            0.7200000286102295,
+            0.41999998688697815
+          ]
+        },
+        "Warm table wash": {
+          "energy": 240.0,
+          "color": [
+            1.0,
+            0.7699999809265137,
+            0.5199999809265137
+          ]
+        },
+        "Low lantern light": {
+          "energy": 50.0,
+          "color": [
+            1.0,
+            0.5600000023841858,
+            0.2199999988079071
+          ]
+        },
+        "Low lantern light.001": {
+          "energy": 50.0,
+          "color": [
+            1.0,
+            0.5600000023841858,
+            0.2199999988079071
+          ]
+        },
+        "Dusk skylight bounce": {
+          "energy": 500.0,
+          "color": [
+            0.41999998688697815,
+            0.5899999737739563,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "source_blends_written": false,
+  "compression_complete": true,
+  "source_inputs_unchanged": true,
+  "gpu_jobs_complete": true,
+  "visual_inspection": {
+    "complete": true,
+    "probe_avoids_solid_mullion": true,
+    "day": "Actual panorama contains sky, structural frames, preserved display cases, and ground; no black inside-solid capture.",
+    "night": "Actual panorama has dark blue sky and readable local-lit architecture; preserved exhibits remain present.",
+    "statistics": {
+      "day": {
+        "size": [
+          2048,
+          1024
+        ],
+        "nearly_black_fraction": 0.0,
+        "srgb_mean": [
+          129.558,
+          147.582,
+          162.566
+        ]
+      },
+      "night": {
+        "size": [
+          2048,
+          1024
+        ],
+        "nearly_black_fraction": 1.5e-05,
+        "srgb_mean": [
+          44.993,
+          58.037,
+          74.372
+        ]
+      }
+    }
+  },
+  "compressed_textures": [
+    {
+      "state": "day",
+      "path": "public/textures/works-gallery-v4/reflection-day.ktx2",
+      "sha256": "ea4d57df10a25c302bca42bd62a93c5ac771eb7a8080916623b04334f169f6ee",
+      "bytes": 2113921,
+      "source_png_sha256": "7322edfd21dd903c11594691b5c17f23fa5419cba744975ff846dfccf1da3a6b",
+      "encoding": "UASTC quality2 + Zstd9, sRGB",
+      "seconds": 3.064,
+      "reused": false,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "mip_levels": 12,
+      "orientation": "rd",
+      "uastc_mip_bytes": 2796240,
+      "validated": true
+    },
+    {
+      "state": "night",
+      "path": "public/textures/works-gallery-v4/reflection-night.ktx2",
+      "sha256": "56acc3ab5d97ce21761db29f18ae5d2b35a35023d26cb7b366a0d6794011bf06",
+      "bytes": 1992360,
+      "source_png_sha256": "e7a8f45c4268b892be1fb1a8bb3bb73b9ddaf92a14567ceff9dfef5782d42141",
+      "encoding": "UASTC quality2 + Zstd9, sRGB",
+      "seconds": 2.337,
+      "reused": false,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "mip_levels": 12,
+      "orientation": "rd",
+      "uastc_mip_bytes": 2796240,
+      "validated": true
+    }
+  ]
+}
