@@ -1,0 +1,159 @@
+{
+  "complete": true,
+  "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v18/night-3.png",
+  "sourceSha256": "2c1516626240be5d02214988350c5818758672b2716b2447ca9ce4bf78de690b",
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v18/night-3.ktx2",
+  "sha256": "8539ccd55203ea48605a4d2d9c681fadf3731aed9be5dc433e49765c8e142809",
+  "bytes": 3954168,
+  "codecRevision": "linear-surface-v2-logrgb256",
+  "sourceEncoding": "RGBM32",
+  "encodedSource": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v18/night-3.logrgb.png",
+    "sha256": "4d98c611c1173eee15ee50f3290ee6d8bdf656740d31ffd44e21beb33696bff9",
+    "encoding": "LogRGB32 k256 alpha1",
+    "radianceScale": 1.0
+  },
+  "kind": "logrgb32-k256",
+  "dimensions": [
+    4096,
+    4096
+  ],
+  "mipLevels": 13,
+  "quality": 2,
+  "ktxValidate": "passed",
+  "transferFunction": "linear",
+  "targetType": "RGBA",
+  "premultipliedAlpha": false,
+  "sourceAlphaRange": [
+    1,
+    113
+  ],
+  "mipMethod": "Decode unchanged source RGBM32 to linear radiance; encode level0 and every floating-radiance BOX-filtered mip as LogRGB32 k256 with constant alpha1. Never filter encoded LogRGB values.",
+  "mipStatistics": [
+    {
+      "level": 0,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "encodingQuantizationMAE": 4.189463288639672e-05,
+      "sceneRadianceQuantizationMAE": 4.189463288639672e-05
+    },
+    {
+      "level": 1,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "encodingQuantizationMAE": 4.1395618609385565e-05,
+      "sceneRadianceQuantizationMAE": 4.1395618609385565e-05
+    },
+    {
+      "level": 2,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "encodingQuantizationMAE": 4.199382965452969e-05,
+      "sceneRadianceQuantizationMAE": 4.199382965452969e-05
+    },
+    {
+      "level": 3,
+      "dimensions": [
+        512,
+        512
+      ],
+      "encodingQuantizationMAE": 4.275936589692719e-05,
+      "sceneRadianceQuantizationMAE": 4.275936589692719e-05
+    },
+    {
+      "level": 4,
+      "dimensions": [
+        256,
+        256
+      ],
+      "encodingQuantizationMAE": 4.4299809815129265e-05,
+      "sceneRadianceQuantizationMAE": 4.4299809815129265e-05
+    },
+    {
+      "level": 5,
+      "dimensions": [
+        128,
+        128
+      ],
+      "encodingQuantizationMAE": 4.7396926674991846e-05,
+      "sceneRadianceQuantizationMAE": 4.7396926674991846e-05
+    },
+    {
+      "level": 6,
+      "dimensions": [
+        64,
+        64
+      ],
+      "encodingQuantizationMAE": 5.0583836127771065e-05,
+      "sceneRadianceQuantizationMAE": 5.0583836127771065e-05
+    },
+    {
+      "level": 7,
+      "dimensions": [
+        32,
+        32
+      ],
+      "encodingQuantizationMAE": 5.809179856441915e-05,
+      "sceneRadianceQuantizationMAE": 5.809179856441915e-05
+    },
+    {
+      "level": 8,
+      "dimensions": [
+        16,
+        16
+      ],
+      "encodingQuantizationMAE": 6.364713044604287e-05,
+      "sceneRadianceQuantizationMAE": 6.364713044604287e-05
+    },
+    {
+      "level": 9,
+      "dimensions": [
+        8,
+        8
+      ],
+      "encodingQuantizationMAE": 6.69127402943559e-05,
+      "sceneRadianceQuantizationMAE": 6.69127402943559e-05
+    },
+    {
+      "level": 10,
+      "dimensions": [
+        4,
+        4
+      ],
+      "encodingQuantizationMAE": 5.7212120736949146e-05,
+      "sceneRadianceQuantizationMAE": 5.7212120736949146e-05
+    },
+    {
+      "level": 11,
+      "dimensions": [
+        2,
+        2
+      ],
+      "encodingQuantizationMAE": 7.082667434588075e-05,
+      "sceneRadianceQuantizationMAE": 7.082667434588075e-05
+    },
+    {
+      "level": 12,
+      "dimensions": [
+        1,
+        1
+      ],
+      "encodingQuantizationMAE": 0.00010513196320971474,
+      "sceneRadianceQuantizationMAE": 0.00010513196320971474
+    }
+  ],
+  "seconds": 4.28,
+  "radianceScale": 1.0,
+  "radianceOverflow": null,
+  "scalingRevision": "linear-radiance-overflow-v1",
+  "sourceSceneRadiancePeak": 14.12478256225586,
+  "encodedRadiancePeak": 14.12478256225586,
+  "sceneRadianceRange": 32.0,
+  "sceneRadianceReconstruction": "((exp2(encodedRGB * log2(8193)) - 1) / 256) * radianceScale; restore each endpoint before mixing"
+}
