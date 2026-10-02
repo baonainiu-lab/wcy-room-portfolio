@@ -1,0 +1,149 @@
+{
+  "complete": true,
+  "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/night-12.png",
+  "sourceSha256": "bb03530fb009895743442949105ee3b981f286c375801a7f065e5de275e320b6",
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/night-12.ktx2",
+  "sha256": "8f30c94566c8824c82af0254954ed5c31b19efb2fab4ce49bf992e6c5b328cb9",
+  "bytes": 136533,
+  "codecRevision": "linear-surface-v2-logrgb256",
+  "sourceEncoding": "RGBM32",
+  "encodedSource": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/night-12.logrgb.png",
+    "sha256": "3e1975c572ff665d7583a16dbbd3c6192d155e6ffb460999db5240e4ff3bcca3",
+    "encoding": "LogRGB32 k256 alpha1",
+    "radianceScale": 128.0
+  },
+  "kind": "logrgb32-k256",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "mipLevels": 11,
+  "quality": 2,
+  "ktxValidate": "passed",
+  "transferFunction": "linear",
+  "targetType": "RGBA",
+  "premultipliedAlpha": false,
+  "sourceAlphaRange": [
+    1,
+    255
+  ],
+  "mipMethod": "Decode unchanged source RGBM32 to linear radiance; encode level0 and every floating-radiance BOX-filtered mip as LogRGB32 k256 with constant alpha1. Never filter encoded LogRGB values.",
+  "mipStatistics": [
+    {
+      "level": 0,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "encodingQuantizationMAE": 4.809326492249966e-05,
+      "sceneRadianceQuantizationMAE": 0.006155937910079956
+    },
+    {
+      "level": 1,
+      "dimensions": [
+        512,
+        512
+      ],
+      "encodingQuantizationMAE": 4.946424814988859e-05,
+      "sceneRadianceQuantizationMAE": 0.0063314237631857395
+    },
+    {
+      "level": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "encodingQuantizationMAE": 5.21906949870754e-05,
+      "sceneRadianceQuantizationMAE": 0.006680408958345652
+    },
+    {
+      "level": 3,
+      "dimensions": [
+        128,
+        128
+      ],
+      "encodingQuantizationMAE": 5.157209307071753e-05,
+      "sceneRadianceQuantizationMAE": 0.006601227913051844
+    },
+    {
+      "level": 4,
+      "dimensions": [
+        64,
+        64
+      ],
+      "encodingQuantizationMAE": 4.9864243919728324e-05,
+      "sceneRadianceQuantizationMAE": 0.0063826232217252254
+    },
+    {
+      "level": 5,
+      "dimensions": [
+        32,
+        32
+      ],
+      "encodingQuantizationMAE": 5.3311738156480715e-05,
+      "sceneRadianceQuantizationMAE": 0.0068239024840295315
+    },
+    {
+      "level": 6,
+      "dimensions": [
+        16,
+        16
+      ],
+      "encodingQuantizationMAE": 5.362981391954236e-05,
+      "sceneRadianceQuantizationMAE": 0.006864616181701422
+    },
+    {
+      "level": 7,
+      "dimensions": [
+        8,
+        8
+      ],
+      "encodingQuantizationMAE": 5.274826617096551e-05,
+      "sceneRadianceQuantizationMAE": 0.006751778069883585
+    },
+    {
+      "level": 8,
+      "dimensions": [
+        4,
+        4
+      ],
+      "encodingQuantizationMAE": 5.5116212024586275e-05,
+      "sceneRadianceQuantizationMAE": 0.007054875139147043
+    },
+    {
+      "level": 9,
+      "dimensions": [
+        2,
+        2
+      ],
+      "encodingQuantizationMAE": 6.491840758826584e-05,
+      "sceneRadianceQuantizationMAE": 0.008309556171298027
+    },
+    {
+      "level": 10,
+      "dimensions": [
+        1,
+        1
+      ],
+      "encodingQuantizationMAE": 5.550459536607377e-05,
+      "sceneRadianceQuantizationMAE": 0.007104588206857443
+    }
+  ],
+  "seconds": 0.3,
+  "radianceScale": 128.0,
+  "radianceOverflow": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/linear-intermediates/lighting-v19/night-12-hdr-outliers.npz",
+    "sha256": "c184e87beb4b8af121b2b03fb933b0d055f07aa717a7c44a42405ada913589fc",
+    "count": 6582,
+    "indexConvention": "flattened bottom-up Blender RGB float buffer; convert yTop=height-1-yBottom before PNG restoration",
+    "sourceManifest": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/night-12-manifest.json",
+    "sourceManifestSha256": "50501d2bea8c0de597c6a35787b964dffc2d3a44834eb04de6d1a509c7fd0b9e",
+    "restoredMaximum": 2950.88818359375
+  },
+  "scalingRevision": "linear-radiance-overflow-v1",
+  "sourceSceneRadiancePeak": 2950.88818359375,
+  "encodedRadiancePeak": 23.053813934326172,
+  "sceneRadianceRange": 4096.0,
+  "sceneRadianceReconstruction": "((exp2(encodedRGB * log2(8193)) - 1) / 256) * radianceScale; restore each endpoint before mixing"
+}

@@ -1,0 +1,66 @@
+{
+  "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/textures/lighting-v19/night-5.png",
+  "sha256": "4d7ddbafc8d260e6f790c9cc101875fa56b021d9f1f092b32b72854f9a83ae4f",
+  "bytes": 4751311,
+  "dimensions": [
+    4096,
+    4096
+  ],
+  "colorSpace": "NoColorSpace / linear data",
+  "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+  "channels": 4,
+  "encoding": "RGBM32",
+  "decode": "32 * rgb * alpha",
+  "range": 32,
+  "sourceRadianceMaximum": 16.765460968017578,
+  "valuesAboveRangeFraction": 0.0,
+  "negativeInputFraction": 0.0,
+  "quantizationMAE": 0.00014471026952378452,
+  "quantizationMaxError": 0.02984476089477539,
+  "alphaIsMultiplier": true,
+  "hdrOutliers": null,
+  "slot": 5,
+  "state": "night",
+  "engine": "CYCLES",
+  "samples": 96,
+  "passFilter": [
+    "DIRECT",
+    "INDIRECT",
+    "COLOR",
+    "DIFFUSE",
+    "EMIT"
+  ],
+  "glossyExcluded": true,
+  "geometryUvNormalsUnchanged": true,
+  "seconds": 42.87,
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-dual-bake-v19.blend",
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "cleanIntro": false,
+  "receiverOnly": false,
+  "execution": {
+    "method": "offline Blender CLI fallback",
+    "reason": "MCP file-targeted CLI hard timeout 120 seconds; same approved source and bake recipe",
+    "authoringAndReview": "Blender MCP",
+    "blenderVersion": "5.1.2",
+    "denoiseExecutionOverride": [
+      {
+        "before": {
+          "denoiser": "OPENIMAGEDENOISE",
+          "denoising_quality": "HIGH",
+          "denoising_prefilter": "ACCURATE",
+          "denoising_input_passes": "RGB_ALBEDO_NORMAL",
+          "denoising_use_gpu": false
+        },
+        "after": {
+          "denoiser": "OPENIMAGEDENOISE",
+          "denoising_quality": "HIGH",
+          "denoising_prefilter": "ACCURATE",
+          "denoising_input_passes": "RGB_ALBEDO_NORMAL",
+          "denoising_use_gpu": true
+        },
+        "supported": true,
+        "computeBackend": "METAL"
+      }
+    ]
+  }
+}
