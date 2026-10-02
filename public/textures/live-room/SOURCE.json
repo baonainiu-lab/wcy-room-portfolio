@@ -1,0 +1,86 @@
+{
+  "version": 15,
+  "role": "original scene-study slideshow",
+  "screenMaterial": "WEB8_IMAGE_MAT_Rendered_3D_ScreenArtwork",
+  "windowMaterial": "WEB8_WINDOW_CITY",
+  "existingScreenSource": "public/textures/lighting-v15/screen-art-render.png",
+  "sourceScreenSha256": "e507d4952d56eedce460abd2775b3ee5f9be281db358afdb074425aba488f59d",
+  "slides": [
+    "Existing embedded original orange-blue sculpture",
+    {
+      "path": "public/textures/live-room/gallery-day.ktx2",
+      "source": "renders/works-gallery-v4/day.png",
+      "sourceSha256": "2e4d7d1f035210ed1274966a91abd7ea2027f82c2b845215c16005022376a7c1",
+      "sha256": "33ad3333a12ab27e9c16bbfdeebcc5f089427b3b34c928a55765846eb59e1071",
+      "bytes": 2246676,
+      "dimensions": [
+        2000,
+        1200
+      ],
+      "encoding": "UASTC quality 2, Zstd 9, full mip chain, sRGB",
+      "content": "Original V4 gallery scene study with continuous frame walls and solid architectural glass. Personal work remains pending.",
+      "previousSource": {
+        "path": "renders/works-gallery-v3/day.png",
+        "sha256": "9b41fd0a43222079a235be8425ec5bb834417d1f1f8f63d3b84e8e1e87f6096e"
+      },
+      "mipLevels": 11,
+      "renderState": "day",
+      "sourceRenderManifest": "renders/works-gallery-v4/render-final.json",
+      "renderEngine": "Cycles",
+      "renderSamples": 72,
+      "cameraUnchangedFromV1": true,
+      "validation": {
+        "tool": "KTX-Software 4.4.2 ktx validate",
+        "result": "passed",
+        "orientation": "rd",
+        "transfer": "sRGB",
+        "headerMatchesPreviousSlide": true
+      }
+    },
+    {
+      "path": "public/textures/live-room/gallery-night.ktx2",
+      "source": "renders/works-gallery-v4/night.png",
+      "sourceSha256": "ab45870c6dc886c421fd962c7c8395b634fe53bbcc369892594736638c866de8",
+      "sha256": "ae02a828e9934420bfbe7338ca8c10048430d8eafed12bcbb055fc84831fac8a",
+      "bytes": 2188957,
+      "dimensions": [
+        2000,
+        1200
+      ],
+      "encoding": "UASTC quality 2, Zstd 9, full mip chain, sRGB",
+      "content": "Original V4 gallery scene study with continuous frame walls and solid architectural glass. Personal work remains pending.",
+      "previousSource": {
+        "path": "renders/works-gallery-v3/night.png",
+        "sha256": "74b16fff12af7e32f925bf59c3de9bcf00456142678901545910fcc228feaf01"
+      },
+      "mipLevels": 11,
+      "renderState": "night",
+      "sourceRenderManifest": "renders/works-gallery-v4/render-final.json",
+      "renderEngine": "Cycles",
+      "renderSamples": 72,
+      "cameraUnchangedFromV1": true,
+      "validation": {
+        "tool": "KTX-Software 4.4.2 ktx validate",
+        "result": "passed",
+        "orientation": "rd",
+        "transfer": "sRGB",
+        "headerMatchesPreviousSlide": true
+      }
+    }
+  ],
+  "externalImagesDownloaded": false,
+  "newRenderer": false,
+  "addedMeshes": 0,
+  "ownership": "Original assets already authored for this project. Personal work/content remains pending.",
+  "previousScreenSource": {
+    "path": "assets/textures/screen-art-render.png",
+    "sha256": "62d931999242d5e62552d7af43c483b8cba0a6f67fdef4e6cd17689ed5b8f08d"
+  },
+  "screenDimensions": [
+    2880,
+    1200
+  ],
+  "screenRenderManifest": "public/textures/lighting-v15/screen-v15-manifest.json",
+  "gallerySlideshowRevision": 4,
+  "gallerySlideshowNotes": "Only gallery slides refreshed from 2000×1200 V4 Cycles renders. Original sculpture slide, room model and room window city remain unchanged."
+}
