@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "state": "night",
+  "samples": 64,
+  "preparedSha256": "762cff96ff06d33eb9dc734ca6b4eb3004f5711843bbf7c0fda3c1c89cb544e6",
+  "preparation_id": "fa9caba96a184b4cb6d35fc02e413644fbf86703aad6edd13765897560ca8ede",
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/about-atelier-v3/night-0.png",
+      "sha256": "26559cc92290a587743ab91d4193697c713ef6adcb5324d3ce2d39b3081f5663",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 4910224,
+      "secondsIncludingGpuQueue": 131.53
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/about-atelier-v3/night-1.png",
+      "sha256": "a2760e933af92ec066ccb567e49dcdb3dc3f276d84cb2715f84bdef47380d439",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 3200458,
+      "secondsIncludingGpuQueue": 90.18
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/about-atelier-v3/night-2.png",
+      "sha256": "72e0f79fbfcfe003fcedc146d02944c5013b77e9d8070682a2c61c204cfcc786",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 3343922,
+      "secondsIncludingGpuQueue": 69.58
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/about-atelier-v3/night-3.png",
+      "sha256": "9b13360d5bd4ca76973151f109613e8346d9b651a034db6a16a139dc8ddb2711",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 4497303,
+      "secondsIncludingGpuQueue": 85.24
+    }
+  ]
+}

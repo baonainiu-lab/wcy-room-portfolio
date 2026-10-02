@@ -1,0 +1,464 @@
+{
+  "complete": true,
+  "source": "assets/blender/gallery-atmosphere-sky-v1.blend",
+  "format": "Equirectangular panorama 2:1; whole sphere; RGB sRGB PNG",
+  "resolution": [
+    2048,
+    1024
+  ],
+  "cycles": {
+    "device": "GPU",
+    "backend": "METAL",
+    "names": [
+      "Apple M5 (GPU - 10 cores)"
+    ]
+  },
+  "camera_rotation_euler": [
+    1.5707963705062866,
+    0.0,
+    0.0
+  ],
+  "sun_blender_direction": [
+    0.5757659673690796,
+    0.523423969745636,
+    0.6281089186668396
+  ],
+  "sun_web_direction": [
+    0.5757659673690796,
+    0.6281089186668396,
+    -0.523423969745636
+  ],
+  "sun_elevation_rad": 0.6791205166533564,
+  "sky_sun_rotation_rad": 0.8329809214439048,
+  "sun_disc_degrees": 0.545,
+  "sky_altitude_km": 1.2,
+  "sky_altitude_blender_meters": 1200.0,
+  "air_density": 1.0,
+  "aerosol_density": 0.08,
+  "color_management": "AgX Medium High Contrast, day exposure +0.18 / night 0; already display-referred sRGB; runtime SRGBColorSpace, no second tone mapping",
+  "clouds": "Sparse low-contrast 3D procedural wisps; no models, buildings, moon, starfield or external images",
+  "calibration": "renders/gallery-atmosphere-v1/sky-cardinal-calibration.png",
+  "renders": [
+    {
+      "state": "day",
+      "path": "public/textures/gallery-atmosphere-v1/day-sky.png",
+      "sha256": "12c12f518ac6129f885acf6557fb478f32d3172e4b2284cf291b3012c105be91",
+      "bytes": 1613477,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "samples": 32,
+      "seconds": 1.55,
+      "type": "actual Blender Cycles world equirectangular render; no image generation",
+      "world": "DAY physical multiscattering atmosphere"
+    },
+    {
+      "state": "night",
+      "path": "public/textures/gallery-atmosphere-v1/night-sky.png",
+      "sha256": "81d7eb81c7d48499567909967e564dc9909d54aa817c4419f17dea5a0bf392e3",
+      "bytes": 1526162,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "samples": 32,
+      "seconds": 1.81,
+      "type": "actual Blender Cycles world equirectangular render; no image generation",
+      "world": "NIGHT quiet blue atmosphere",
+      "reused_without_rerender": true
+    }
+  ],
+  "direction_verification": {
+    "complete": true,
+    "cardinal_calibration": {
+      "blender_plus_x_web_plus_x": {
+        "uv_top_down": [
+          0.7503906320594534,
+          0.499609375
+        ],
+        "pixels": 10,
+        "web_direction_measured": [
+          0.9999962349397159,
+          0.0012271843222887817,
+          0.002454409304031436
+        ]
+      },
+      "blender_plus_y_web_minus_z": {
+        "uv_top_down": [
+          0.5002663358901898,
+          0.4998224431818182
+        ],
+        "pixels": 11,
+        "web_direction_measured": [
+          0.0016734367106197977,
+          0.0005578111666673264,
+          -0.9999984442269287
+        ]
+      },
+      "blender_minus_x_web_minus_x": {
+        "uv_top_down": [
+          0.2500887843760908,
+          0.49946732954545453
+        ],
+        "pixels": 11,
+        "web_direction_measured": [
+          -0.999998444212985,
+          0.0016734328057428434,
+          -0.0005578478773335891
+        ]
+      },
+      "blender_minus_y_web_plus_z": {
+        "uv_top_down": [
+          0.9997336641098101,
+          0.5001775568181818
+        ],
+        "pixels": 11,
+        "web_direction_measured": [
+          0.001673436710620797,
+          -0.000557811166667152,
+          0.9999984442269287
+        ]
+      }
+    },
+    "sun_expected_web_direction": [
+      0.575765991840989,
+      0.6281089453634932,
+      -0.5234239919928418
+    ],
+    "sun_measured_web_direction": [
+      0.5755493650961682,
+      0.6284457666018327,
+      -0.5232579161155927
+    ],
+    "sun_expected_uv_top_down": [
+      0.6325730311490392,
+      0.28382921471812017
+    ],
+    "sun_measured_uv_top_down": [
+      0.632568359375,
+      0.28369140625
+    ],
+    "sun_core_pixels": 21,
+    "angular_error_degrees": 0.024840009699188117
+  },
+  "source_sha256": "4530c76dcfd9778664a5a99668ea49e87bc6e35ba2ded51a06fb1eeb758bac57",
+  "runtime_uv_contract": {
+    "direction": "normalized world Web direction, Y up",
+    "u": "fract(0.5 + atan(direction.x, -direction.z) / (2*PI))",
+    "v_ktx2_or_png_flipY_false": "0.5 - asin(clamp(direction.y,-1,1)) / PI",
+    "v_png_flipY_true": "0.5 + asin(clamp(direction.y,-1,1)) / PI",
+    "yaw_rotation_radians": 0,
+    "cardinals": {
+      "web_minus_z": [
+        0.5,
+        0.5
+      ],
+      "web_plus_x": [
+        0.75,
+        0.5
+      ],
+      "web_plus_z": [
+        0,
+        0.5
+      ],
+      "web_minus_x": [
+        0.25,
+        0.5
+      ],
+      "web_plus_y": [
+        null,
+        0
+      ]
+    },
+    "texture_color_space": "sRGB",
+    "tone_mapped": false,
+    "wrap_s": "Repeat",
+    "wrap_t": "ClampToEdge"
+  },
+  "compressed_textures": [
+    {
+      "state": "day",
+      "path": "public/textures/gallery-atmosphere-v1/day-sky.ktx2",
+      "sha256": "db4640a7b99020dcd7a914a0329c3fc7645bcaf777f93e6fe942103d1f2648b6",
+      "bytes": 1475069,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "mip_levels": 12,
+      "orientation": "rd",
+      "source_png_sha256": "12c12f518ac6129f885acf6557fb478f32d3172e4b2284cf291b3012c105be91",
+      "encoding": "UASTC quality2 + Zstd9, sRGB",
+      "color_ranges": {
+        "upper_hemisphere": {
+          "srgb8_mean": [
+            84.27850437164307,
+            124.89238357543945,
+            164.17521381378174
+          ],
+          "srgb8_min": [
+            42,
+            87,
+            132
+          ],
+          "srgb8_max": [
+            255,
+            255,
+            255
+          ],
+          "linear_mean": [
+            0.12167390074866867,
+            0.22704659971198027,
+            0.3844205963008946
+          ]
+        },
+        "zenith": {
+          "srgb8_mean": [
+            47.43419596354167,
+            93.75895182291667,
+            139.28526204427084
+          ],
+          "srgb8_min": [
+            43,
+            89,
+            134
+          ],
+          "srgb8_max": [
+            54,
+            100,
+            146
+          ],
+          "linear_mean": [
+            0.028968987943637853,
+            0.11141494719079624,
+            0.2594505255023515
+          ]
+        },
+        "upper_horizon": {
+          "srgb8_mean": [
+            197.404443359375,
+            207.52431640625,
+            210.95400390625
+          ],
+          "srgb8_min": [
+            184,
+            198,
+            205
+          ],
+          "srgb8_max": [
+            210,
+            217,
+            217
+          ],
+          "linear_mean": [
+            0.5616573255530243,
+            0.627940235789981,
+            0.6513522001047878
+          ]
+        },
+        "lower_horizon": {
+          "srgb8_mean": [
+            140.38779296875,
+            168.226318359375,
+            193.256005859375
+          ],
+          "srgb8_min": [
+            105,
+            142,
+            176
+          ],
+          "srgb8_max": [
+            179,
+            196,
+            209
+          ],
+          "linear_mean": [
+            0.26950550618656754,
+            0.3959685300957457,
+            0.536047153402132
+          ]
+        },
+        "lower_hemisphere": {
+          "srgb8_mean": [
+            22.71986198425293,
+            45.91974449157715,
+            68.59438705444336
+          ],
+          "srgb8_min": [
+            5,
+            20,
+            37
+          ],
+          "srgb8_max": [
+            220,
+            219,
+            216
+          ],
+          "linear_mean": [
+            0.024243819042519946,
+            0.047560937521027774,
+            0.08530695494194958
+          ]
+        }
+      },
+      "validated": true
+    },
+    {
+      "state": "night",
+      "path": "public/textures/gallery-atmosphere-v1/night-sky.ktx2",
+      "sha256": "ff670944bc460fc7fa659c5eb52ec1e7612edde87cf9fc8ee56276fdf60ce6d1",
+      "bytes": 1153351,
+      "resolution": [
+        2048,
+        1024
+      ],
+      "mip_levels": 12,
+      "orientation": "rd",
+      "source_png_sha256": "81d7eb81c7d48499567909967e564dc9909d54aa817c4419f17dea5a0bf392e3",
+      "encoding": "UASTC quality2 + Zstd9, sRGB",
+      "color_ranges": {
+        "upper_hemisphere": {
+          "srgb8_mean": [
+            7.057635307312012,
+            19.780149459838867,
+            37.006086349487305
+          ],
+          "srgb8_min": [
+            0,
+            7,
+            22
+          ],
+          "srgb8_max": [
+            22,
+            38,
+            59
+          ],
+          "linear_mean": [
+            0.0022641366568217783,
+            0.007764455986720511,
+            0.019989979082389378
+          ]
+        },
+        "zenith": {
+          "srgb8_mean": [
+            0.105029296875,
+            8.146590169270834,
+            23.12314453125
+          ],
+          "srgb8_min": [
+            0,
+            7,
+            22
+          ],
+          "srgb8_max": [
+            2,
+            12,
+            27
+          ],
+          "linear_mean": [
+            3.1879225664728065e-05,
+            0.0024727439616302432,
+            0.008639835530727311
+          ]
+        },
+        "upper_horizon": {
+          "srgb8_mean": [
+            20.18271484375,
+            36.339794921875,
+            57.203173828125
+          ],
+          "srgb8_min": [
+            19,
+            35,
+            56
+          ],
+          "srgb8_max": [
+            22,
+            37,
+            58
+          ],
+          "linear_mean": [
+            0.007088326623082414,
+            0.017933923048158246,
+            0.04120020698282382
+          ]
+        },
+        "lower_horizon": {
+          "srgb8_mean": [
+            20.1513671875,
+            36.275830078125,
+            57.110546875
+          ],
+          "srgb8_min": [
+            19,
+            35,
+            56
+          ],
+          "srgb8_max": [
+            22,
+            38,
+            58
+          ],
+          "linear_mean": [
+            0.007072881741209865,
+            0.017879235885241686,
+            0.04107172626554707
+          ]
+        },
+        "lower_hemisphere": {
+          "srgb8_mean": [
+            7.052104949951172,
+            19.787150382995605,
+            37.01480007171631
+          ],
+          "srgb8_min": [
+            0,
+            7,
+            22
+          ],
+          "srgb8_max": [
+            22,
+            38,
+            59
+          ],
+          "linear_mean": [
+            0.0022623571322421,
+            0.007763936855433396,
+            0.01999145525821205
+          ]
+        }
+      },
+      "validated": true
+    }
+  ],
+  "lower_hemisphere_note": "Day physical atmosphere has black lower hemisphere because no ground exists in this empty-world render. Runtime must blend view directions below horizon toward measured upper-horizon fog color, not sample black lower day sky into far ground. Night contains a quiet symmetric gradient but should share the same fog handling.",
+  "gpu_jobs_complete": true,
+  "clear_air_revision": {
+    "complete": true,
+    "altitude_blender_meters": 1200.0,
+    "altitude_km": 1.2,
+    "aerosol_density": 0.08,
+    "air_density": 1.0,
+    "archive": "assets/experiments/gallery-atmosphere-v1/sky-before-clear-air",
+    "night_png_and_ktx2_byte_identical": true,
+    "comparison_report": "renders/gallery-atmosphere-v1/clear-air-comparison.json",
+    "eight_degree_blue_minus_red_increase_percent": 20.6015048920289
+  },
+  "geometry_verification": {
+    "reopened_saved_blend": true,
+    "mesh_count": 0,
+    "scene_objects": [
+      [
+        "Calibrated world panorama camera",
+        "CAMERA"
+      ]
+    ]
+  },
+  "visual_inspection": {
+    "complete": true,
+    "day": "Clearer high-altitude blue sky with reduced aerosols; same physical solar direction and same sparse thin clouds.",
+    "night": "PNG and KTX2 remain byte-identical to original night sky.",
+    "lower_hemisphere": "Physical day lower hemisphere remains black; same runtime horizon fog handling remains required."
+  }
+}

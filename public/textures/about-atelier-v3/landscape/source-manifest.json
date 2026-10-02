@@ -1,0 +1,20 @@
+{
+  "asset": "lake_pier",
+  "title": "Lake Pier",
+  "author": "Alexander Scholten",
+  "official_page": "https://polyhaven.com/a/lake_pier",
+  "license": "CC0-1.0",
+  "license_evidence": "https://polyhaven.com/license",
+  "cc0_legal_text": "../LICENSE-CC0-1.0.txt",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/lake_pier_2k.hdr",
+  "file": "lake_pier_2k.hdr",
+  "bytes": 6412039,
+  "dimensions": [
+    2048,
+    1024
+  ],
+  "sha256": "e5daa3e7d1de3807c6e0c07131943b24a6518e2f0f4adfcaa3272d8c7a50b6c2",
+  "md5": "e5699e7826366e3a97eb7896943123a0",
+  "checked": "2026-09-29",
+  "usage": "Equirectangular HDR environment for offline About Atelier Blender review; original pixels unchanged"
+}

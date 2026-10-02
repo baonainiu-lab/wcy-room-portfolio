@@ -1,0 +1,562 @@
+{
+  "complete": true,
+  "source": "assets/blender/works-gallery-v4.blend",
+  "source_sha256": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+  "editable_background_source": "assets/blender/gallery-atmosphere-v2.blend",
+  "geometry": "one UV plane only for ground baking; V4 rebuilt gallery is shadow-casting context, no new buildings",
+  "floor": {
+    "size": [
+      64,
+      64
+    ],
+    "web_y": -0.88,
+    "web_xz_bounds": [
+      -32,
+      32,
+      -32,
+      32
+    ],
+    "blender_xy_bounds": [
+      -32,
+      32,
+      -32,
+      32
+    ],
+    "blender_z": -0.88,
+    "blender_uv_formula": [
+      "u=(x+32)/64",
+      "v=(y+32)/64"
+    ],
+    "ktx2_or_png_flipY_false_sampler_uv_formula": [
+      "u=(webX+32)/64",
+      "v=(webZ+32)/64"
+    ],
+    "three_plane_rotated_minus_half_pi_v_must_flip_for_ktx2": true
+  },
+  "texture_resolution": [
+    2048,
+    2048
+  ],
+  "color_management": "Cycles scene-linear combined bake -> AgX Medium High Contrast save_render -> sRGB PNG. GPU decode sRGB, blend day/night in linear display-referred space; no second tone mapping.",
+  "material": {
+    "name": "ATMOSPHERE fine neutral stone",
+    "linear_color_ramp": [
+      [
+        0.225,
+        0.233,
+        0.239
+      ],
+      [
+        0.258,
+        0.269,
+        0.277
+      ]
+    ],
+    "metallic": 0.04,
+    "roughness": 0.66,
+    "stone_noise_scale_per_meter": 32,
+    "bump_strength": 0.055,
+    "bump_distance": 0.009
+  },
+  "cycles": {
+    "samples": 64,
+    "passes": [
+      "COLOR",
+      "DIFFUSE",
+      "DIRECT",
+      "EMIT",
+      "GLOSSY",
+      "INDIRECT"
+    ],
+    "device": "GPU",
+    "backend": "METAL",
+    "names": [
+      "Apple M5 (GPU - 10 cores)"
+    ]
+  },
+  "original_lights": {
+    "Passage amber": {
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          0.9158691167831421,
+          -0.40147697925567627,
+          -8.600000381469727
+        ],
+        [
+          -1.0,
+          -9.79983596494094e-08,
+          -1.1468223704014235e-07,
+          0.0
+        ],
+        [
+          -1.4437800643918308e-07,
+          0.40147697925567627,
+          0.9158691167831421,
+          3.950000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 22.399999618530273,
+      "base_power": 140,
+      "color": [
+        1.0,
+        0.6399999856948853,
+        0.33000001311302185
+      ]
+    },
+    "Gallery directional sunlight": {
+      "matrix": [
+        [
+          -0.6726728081703186,
+          -0.46476274728775024,
+          0.5757663249969482,
+          8.0
+        ],
+        [
+          0.7399400472640991,
+          -0.4225116968154907,
+          0.5234238505363464,
+          6.0
+        ],
+        [
+          1.044661104288025e-07,
+          0.7781255841255188,
+          0.6281087398529053,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 3.5,
+      "base_power": null,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.6399999856948853
+      ]
+    },
+    "Warm exhibit spotlight 0": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.800000190734863
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 27.200000762939453,
+      "base_power": 170,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ]
+    },
+    "Warm exhibit spotlight 1": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.700000047683716
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 27.200000762939453,
+      "base_power": 170,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ]
+    },
+    "Warm exhibit spotlight 2": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6000000238418579
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 27.200000762939453,
+      "base_power": 170,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ]
+    },
+    "Warm exhibit spotlight 3": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 27.200000762939453,
+      "base_power": 170,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ]
+    },
+    "Warm exhibit spotlight 4": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.5999999046325684
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 27.200000762939453,
+      "base_power": 170,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ]
+    },
+    "Warm exhibit spotlight 5": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.699999809265137
+        ],
+        [
+          0.0,
+          0.9978801012039185,
+          -0.0650792047381401,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0650792047381401,
+          0.9978801012039185,
+          3.8499999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 27.200000762939453,
+      "base_power": 170,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ]
+    },
+    "Warm table wash": {
+      "matrix": [
+        [
+          -1.0,
+          1.510095870571604e-07,
+          2.8556851843072537e-14,
+          0.20000000298023224
+        ],
+        [
+          -1.5099580252808664e-07,
+          -0.9999087452888489,
+          0.013510857708752155,
+          -0.44999998807907104
+        ],
+        [
+          2.0402974865163515e-09,
+          0.013510857708752155,
+          0.9999087452888489,
+          4.300000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 38.400001525878906,
+      "base_power": 240,
+      "color": [
+        1.0,
+        0.7699999809265137,
+        0.5199999809265137
+      ]
+    },
+    "Low lantern light": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.199999809265137
+        ],
+        [
+          0.0,
+          0.847998321056366,
+          -0.5299988985061646,
+          -2.200000047683716
+        ],
+        [
+          0.0,
+          0.5299988985061646,
+          0.847998321056366,
+          0.949999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 8.0,
+      "base_power": 50,
+      "color": [
+        1.0,
+        0.5600000023841858,
+        0.2199999988079071
+      ]
+    },
+    "Low lantern light.001": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.199999809265137
+        ],
+        [
+          0.0,
+          0.847998321056366,
+          -0.5299988985061646,
+          -2.200000047683716
+        ],
+        [
+          0.0,
+          0.5299988985061646,
+          0.847998321056366,
+          0.949999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 8.0,
+      "base_power": 50,
+      "color": [
+        1.0,
+        0.5600000023841858,
+        0.2199999988079071
+      ]
+    },
+    "Dusk skylight bounce": {
+      "matrix": [
+        [
+          -1.0,
+          1.6171739503079152e-07,
+          -4.467354486337172e-09,
+          0.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          -0.923076868057251,
+          0.3846154510974884,
+          2.5
+        ],
+        [
+          5.807529390722266e-08,
+          0.3846154510974884,
+          0.923076868057251,
+          7.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "energy": 80.0,
+      "base_power": 500,
+      "color": [
+        0.41999998688697815,
+        0.5899999737739563,
+        1.0
+      ]
+    }
+  },
+  "bakes": [
+    {
+      "state": "day",
+      "path": "public/textures/gallery-atmosphere-v2/day.png",
+      "sha256": "7022dcc06b93b58604503b4f65d357b720ae12f434059338ff061ca7c31a37db",
+      "bytes": 3708842,
+      "seconds": 36.14,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "original_lighting": {
+        "state": "day",
+        "sunEnergy": 3.5,
+        "worldStrength": 0.054999999701976776
+      },
+      "added_area_lights": {
+        "ATMOSPHERE warm daylight softbox": 700.0,
+        "ATMOSPHERE doorway warm bounce": 10.0,
+        "ATMOSPHERE quiet amber floor bounce": 6.0
+      }
+    },
+    {
+      "state": "night",
+      "path": "public/textures/gallery-atmosphere-v2/night.png",
+      "sha256": "68f81d54ac4cf434b7d5e0bc99ed05361f3e416e85bfaaef86d8f63f9e7f341e",
+      "bytes": 2222747,
+      "seconds": 38.94,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "original_lighting": {
+        "state": "night",
+        "sunEnergy": 0.07,
+        "worldStrength": 0.3400000035762787
+      },
+      "added_area_lights": {
+        "ATMOSPHERE warm daylight softbox": 0.0,
+        "ATMOSPHERE doorway warm bounce": 60.0,
+        "ATMOSPHERE quiet amber floor bounce": 34.0
+      }
+    }
+  ],
+  "protected_input_sha256": {
+    "assets/blender/works-gallery-v4.blend": "a5a2153af91e171ae2e5ac7be2ed997a75e8f67cc506b12dceb84df6da86c43e",
+    "assets/blender/gallery-atmosphere-v1.blend": "6a52cc11c01f62045b467ce4c7b72a16c03c5f788d31dd0b80e9fc7478fab97d",
+    "public/textures/gallery-atmosphere-v1/day.png": "3afa2eb20e2be71582d27e6e75f12f995b8ecc56791a1df815c52b4682eee881",
+    "public/textures/gallery-atmosphere-v1/night.png": "d6cc846e39ee3fce33404eeaa48053388a66c6037d5fc3ffc5c5406eee89c59c"
+  },
+  "retained_floor_material_and_lights_from": "gallery-atmosphere-v1",
+  "changed": "V4 architectural geometry casts new real shadows; original ground material, helper lights, dimensions and mapping preserved",
+  "background_blend_sha256": "3ea6b4a186afb6f8a2233d8299fbbc3e982396df462532ee435b4925a60b1a18",
+  "original_v4_source_unchanged": true,
+  "original_v1_atmosphere_unchanged": true,
+  "gpu_bake_complete": true,
+  "visual_inspection": {
+    "complete": true,
+    "day": "Visible sun-cast architectural and doorway shadow outside the terrace footprint; physically occluded central footprint stays underneath the solid platform.",
+    "night": "Dark blue surroundings with localized low warm spill and soft contact shadow.",
+    "source_geometry": "V4 gallery casts the actual bake; original V1 floor material and auxiliary lights preserved."
+  },
+  "v1_floor_material_and_light_setup_ast_identical": true
+}

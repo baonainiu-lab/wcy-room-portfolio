@@ -1,0 +1,30 @@
+{
+  "phase": "complete",
+  "completed": [
+    {
+      "atlas": 0,
+      "state": "day",
+      "path": "public/textures/intro-clean-v1/day-0.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "bytes": 5015635,
+      "sha256": "adec125584be52482a74ec9d4069b5e8771308cbdcf1fe44fcb8f089f23b4eae",
+      "bakeSeconds": 62.41
+    },
+    {
+      "atlas": 8,
+      "state": "day",
+      "path": "public/textures/intro-clean-v1/day-8.png",
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "bytes": 4873716,
+      "sha256": "2f97469c947fc7c3e66b0b3a926f071a3828a276157b5d82d0ba8396f4f3ef4c",
+      "bakeSeconds": 37.05
+    }
+  ],
+  "elapsedSeconds": 116.77
+}

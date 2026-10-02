@@ -1,0 +1,76 @@
+{
+  "complete": true,
+  "encoding": "UASTC quality 2 + Zstd 9, full mip chain, sRGB",
+  "scope": "intro-only new textures; no original models/maps modified",
+  "tool": "tools/ktx-software/bin/toktx",
+  "toolSha256": "708e94078c8b8a8096f3573e2899bf08fbcf702d92bbbac47bd2098a1aaa6eb6",
+  "authoringScript": "scripts/compress-intro-clean-v1.py",
+  "textures": [
+    {
+      "atlas": 0,
+      "state": "day",
+      "source": "public/textures/intro-clean-v1/day-0.png",
+      "sourceSha256": "adec125584be52482a74ec9d4069b5e8771308cbdcf1fe44fcb8f089f23b4eae",
+      "sourceBytes": 5015635,
+      "path": "public/textures/intro-clean-v1/day-0.ktx2",
+      "sha256": "9184484727bdf8c4d5fa6e46ee1aec649eb8f82289b6185fbd1c70c65b2cb14f",
+      "bytes": 5644303,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 11.27,
+      "ktxValidate": "passed",
+      "sourcePNGUnchanged": true,
+      "colorSpace": "sRGB",
+      "orientation": "rd"
+    },
+    {
+      "atlas": 1,
+      "state": "day",
+      "source": "public/textures/intro-clean-v1/day-1.png",
+      "sourceSha256": "f20a996f788ec240811331a9a1ecf453ec3fbdae651073f3f5af7a714943d7ca",
+      "sourceBytes": 5792936,
+      "path": "public/textures/intro-clean-v1/day-1.ktx2",
+      "sha256": "46fa3b7558f34aeb71a8a8883fadbbaf493b92c8a9bb4a2f68f8539e64a135ec",
+      "bytes": 5759537,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "mipLevels": 13,
+      "uastcAstcBc7MipBytes": 22369648,
+      "rgba8MipBytes": 89478484,
+      "seconds": 8.21,
+      "ktxValidate": "passed",
+      "sourcePNGUnchanged": true,
+      "colorSpace": "sRGB",
+      "orientation": "rd"
+    },
+    {
+      "atlas": 8,
+      "state": "day",
+      "source": "public/textures/intro-clean-v1/day-8.png",
+      "sourceSha256": "2f97469c947fc7c3e66b0b3a926f071a3828a276157b5d82d0ba8396f4f3ef4c",
+      "sourceBytes": 4873716,
+      "path": "public/textures/intro-clean-v1/day-8.ktx2",
+      "sha256": "5703d1e8ae6c91af21cb7039cd85cfea9d917524c400000ec0196f0d15d376b7",
+      "bytes": 5126392,
+      "resolution": [
+        3072,
+        3072
+      ],
+      "mipLevels": 12,
+      "uastcAstcBc7MipBytes": 12582960,
+      "rgba8MipBytes": 50331640,
+      "seconds": 5.67,
+      "ktxValidate": "passed",
+      "sourcePNGUnchanged": true,
+      "colorSpace": "sRGB",
+      "orientation": "rd"
+    }
+  ]
+}

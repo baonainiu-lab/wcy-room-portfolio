@@ -1,0 +1,18 @@
+{
+  "phase": "complete",
+  "completed": [
+    {
+      "atlas": 1,
+      "state": "day",
+      "path": "public/textures/intro-clean-v1/day-1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "bytes": 5792936,
+      "sha256": "f20a996f788ec240811331a9a1ecf453ec3fbdae651073f3f5af7a714943d7ca",
+      "bakeSeconds": 52.39
+    }
+  ],
+  "elapsedSeconds": 66.2
+}

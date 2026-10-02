@@ -1,0 +1,52 @@
+{
+  "complete": true,
+  "state": "day",
+  "preparation_id": "fa9caba96a184b4cb6d35fc02e413644fbf86703aad6edd13765897560ca8ede",
+  "samples": 32,
+  "atlases": [
+    {
+      "atlas": 0,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "path": "public/textures/about-atelier-v3/day-0.png",
+      "bytes": 6092101,
+      "sha256": "86a2dcf84adfa4b5dd3f4e3c722f28392de1b8f73e9871165713b4c6441e43c2",
+      "seconds": 97.57
+    },
+    {
+      "atlas": 1,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "path": "public/textures/about-atelier-v3/day-1.png",
+      "bytes": 5544873,
+      "sha256": "617520295978a241f32a54b6430ab14745e645475a4d948f09696c64f9b50d20",
+      "seconds": 60.81
+    },
+    {
+      "atlas": 2,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "path": "public/textures/about-atelier-v3/day-2.png",
+      "bytes": 5875440,
+      "sha256": "65eab721c5a4b2acec6f791cb8fab69b3bda370a98d6a6844d98c6c1691a1378",
+      "seconds": 61.77
+    },
+    {
+      "atlas": 3,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "path": "public/textures/about-atelier-v3/day-3.png",
+      "bytes": 9254270,
+      "sha256": "7bb69bea2f7e2842b63153b077d98ebaef7c18e5609c485b297f44c26b36cf1f",
+      "seconds": 53.8
+    }
+  ]
+}
