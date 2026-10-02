@@ -1,0 +1,118 @@
+{
+  "state": "night",
+  "preparation_id": "19f9793e0eb84b717e3e32225152a92c278d0f0f5f5aea9fa2204ab6714a2aee",
+  "prepared": "assets/blender/works-gallery-bake-v2.blend",
+  "scene": "WEB_WORKS_GALLERY_V2",
+  "lighting": {
+    "state": "night",
+    "sunEnergy": 0.07,
+    "worldStrength": 0.3400000035762787,
+    "device": "GPU",
+    "backend": "METAL",
+    "names": [
+      "Apple M5 (GPU - 10 cores)"
+    ],
+    "samples": 64,
+    "preparation_id": "19f9793e0eb84b717e3e32225152a92c278d0f0f5f5aea9fa2204ab6714a2aee",
+    "color_management": "AgX save_render to sRGB PNG",
+    "passes": [
+      "COLOR",
+      "DIFFUSE",
+      "DIRECT",
+      "EMIT",
+      "GLOSSY",
+      "INDIRECT"
+    ]
+  },
+  "complete": true,
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/works-gallery-v2/night-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 3936707,
+      "sha256": "aaff830127dc61568cc5004fcd298734ad75c27beb4c0e5a730d164c5c023069",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 157.78,
+      "retained_from_preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+      "retained_original_geometry_uv_sha256": "25229fd6683864cde3cbead0561cf5dbd46da4b6885acf5286cdb803d903b122",
+      "rebaked": false
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/works-gallery-v2/night-1.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 1251595,
+      "sha256": "5bcb0cd6173b78fde492577c127cd06b9e32fe57a91fcd779a620c2c9a3b87c3",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 32.94,
+      "rebaked": true,
+      "samples": 64
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/works-gallery-v2/night-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5525485,
+      "sha256": "f88d2a61ec01ae4daee238c5cfa9089f5661990660122e3e371b682841263961",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 103.41,
+      "retained_from_preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+      "retained_original_geometry_uv_sha256": "25229fd6683864cde3cbead0561cf5dbd46da4b6885acf5286cdb803d903b122",
+      "rebaked": false
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/works-gallery-v2/night-3.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5224677,
+      "sha256": "d7d104978b97f7a262752239c0f8ab925f6c1d18a2c8e0ba2f1df102ef355604",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 58.38,
+      "retained_from_preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+      "retained_original_geometry_uv_sha256": "25229fd6683864cde3cbead0561cf5dbd46da4b6885acf5286cdb803d903b122",
+      "rebaked": false
+    },
+    {
+      "atlas": 4,
+      "path": "public/textures/works-gallery-v2/night-4.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "bytes": 560809,
+      "sha256": "7536a2c3f4176489bdf616538ccecf86e13f2b92aa5c03c84725ed1363bd2c65",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 25.01,
+      "rebaked": true,
+      "samples": 64
+    }
+  ],
+  "retained_atlases": [
+    0,
+    2,
+    3
+  ],
+  "rebaked_atlases": [
+    1,
+    4
+  ],
+  "seconds": 57.97
+}
