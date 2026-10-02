@@ -1,0 +1,153 @@
+{
+  "state": "night",
+  "samples": 96,
+  "preparedSha256": "6383e0985e9f3ea2eacd87a61bed9c8ef237b8dd0d96f16b873cfac828ac46e7",
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/lighting-v16/night-0.png",
+      "sha256": "a7682600e9e8e6067d4e0e9e5b6761409cbd804444582ec6ac585663d71bf3da",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 121.68,
+      "bytes": 1762119
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/lighting-v16/night-1.png",
+      "sha256": "916ca99d77e59bd1b0bc57378241519193163476b539c02a64a2716ade43dccb",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 86.22,
+      "bytes": 2636201
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/lighting-v16/night-2.png",
+      "sha256": "77223f885c4b52cdfef191d9ebad6ab5dca8ced1138663f19afd203245f201b2",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "secondsIncludingGpuQueue": 155.08,
+      "bytes": 5670805
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/lighting-v16/night-3.png",
+      "sha256": "08de7a3cfde464a3106f743c38595df1cfc8cb2d53f6a610881e720052d5540e",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 93.1,
+      "bytes": 4435145
+    },
+    {
+      "atlas": 4,
+      "path": "public/textures/lighting-v16/night-4.png",
+      "sha256": "d56872b3662bfd7a5c0ad3708935792b3695f8b9a50d04d476407a14552cc8d3",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 154.68,
+      "bytes": 6596972
+    },
+    {
+      "atlas": 5,
+      "path": "public/textures/lighting-v16/night-5.png",
+      "sha256": "cb3a7053194aa97a6101f29069035bb53c806eb128b77a073c59f312332990d3",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 82.95,
+      "bytes": 4552862
+    },
+    {
+      "atlas": 6,
+      "path": "public/textures/lighting-v16/night-6.png",
+      "sha256": "c7b6541bbebe127aa8906a9a89843b3362d88b9542a7a33c0afffeb6e25bf984",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 47.84,
+      "bytes": 3721774
+    },
+    {
+      "atlas": 7,
+      "path": "public/textures/lighting-v16/night-7.png",
+      "sha256": "910b6fb2d55baddb8ce72bfe9acda88af3c3a89f26d88f0158fd3e49dd02b488",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 24.86,
+      "bytes": 1226461
+    },
+    {
+      "atlas": 8,
+      "path": "public/textures/lighting-v16/night-8.png",
+      "sha256": "3fb1a6bf2c93abdb7d078e1b0dfdbb8ebeee2afb48d99ee49645a3bcc1df454c",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 16,
+      "secondsIncludingGpuQueue": 57.64,
+      "bytes": 2801827
+    },
+    {
+      "atlas": 9,
+      "path": "public/textures/lighting-v16/night-9.png",
+      "sha256": "66c6f84d2f1cb27a91e8862ca09fe3e900faacc9a28f7f334962660642a2644e",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "secondsIncludingGpuQueue": 116.04,
+      "bytes": 6937268
+    },
+    {
+      "atlas": 10,
+      "path": "public/textures/lighting-v16/night-10.png",
+      "sha256": "291b6ed8fd818e41bd5a2ae436cce88ae0237f2fefaa9e66430d3cf5009623f5",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "secondsIncludingGpuQueue": 88.27,
+      "bytes": 5419727
+    },
+    {
+      "atlas": 11,
+      "path": "public/textures/lighting-v16/night-11.png",
+      "sha256": "cd7c09e86e53cac75e219bd7b1038683c76f456ae42b9c8170f2de0a8de61b1a",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 12,
+      "secondsIncludingGpuQueue": 88.0,
+      "bytes": 3055055
+    }
+  ],
+  "complete": true,
+  "secondsThisRun": 1128.89
+}
