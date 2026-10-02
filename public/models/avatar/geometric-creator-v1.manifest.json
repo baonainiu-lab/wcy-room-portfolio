@@ -1,0 +1,113 @@
+{
+  "name": "小轨 / Orbit",
+  "version": 1,
+  "root": "GeometricCreator",
+  "source": "Original deterministic Blender geometry and materials",
+  "glb": "/models/avatar/geometric-creator-v1.glb",
+  "blend": "assets/blender/avatar-geometric/geometric-creator-v1.blend",
+  "generator": "assets/blender/avatar-geometric/build_avatar.py",
+  "axis": {
+    "blender_up": "+Z",
+    "blender_front": "-Y",
+    "gltf_up": "+Y",
+    "gltf_front": "+Z"
+  },
+  "gltf_bounds": {
+    "min": [
+      -0.3869999945163727,
+      7.450580596923828e-09,
+      -0.2459999918937683
+    ],
+    "max": [
+      0.3889999985694885,
+      1.7890000343322754,
+      0.3530000150203705
+    ]
+  },
+  "dimensions_m": {
+    "width": 0.7759999930858612,
+    "height": 1.7890000268816948,
+    "depth": 0.5990000069141388
+  },
+  "triangles": 21164,
+  "mesh_nodes": 25,
+  "total_nodes": 31,
+  "editable_mesh_nodes": 116,
+  "optimization": "Export-only duplicate joins static meshes by rigid parent and shared material; animated boundaries and eyes stay independent.",
+  "material_count": 7,
+  "bytes": 601888,
+  "materials": {
+    "CeramicShell": "#EEE7D8",
+    "GraphiteJoint": "#384149",
+    "SignalOrange": "#F5803D",
+    "ObsidianGlass": "#172A30",
+    "WarmLED": "#FFE1A8",
+    "BrushedTitanium": "#89918F",
+    "ScreenMint": "#9EDAD2"
+  },
+  "rig": {
+    "AvatarBody": {
+      "pivot_blender": [
+        0,
+        0,
+        0.82
+      ],
+      "idle_axis_gltf": "Y"
+    },
+    "AvatarHead": {
+      "pivot_blender": [
+        0,
+        0,
+        1.4
+      ],
+      "yaw_axis_gltf": "Y",
+      "nod_axis_gltf": "X",
+      "suggested_yaw_limit_rad": 0.35
+    },
+    "AvatarArmL": {
+      "pivot_blender": [
+        0.257,
+        0,
+        1.17
+      ],
+      "free_for_wave": true,
+      "wave_axis_gltf": "Z",
+      "lift_axis_gltf": "X"
+    },
+    "AvatarArmR": {
+      "pivot_blender": [
+        -0.257,
+        0,
+        1.17
+      ],
+      "free_for_wave": false,
+      "note": "Right hand supports slate; leave relaxed"
+    },
+    "EyeL": {
+      "blink_scale_axis_gltf": "Y",
+      "rest_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "EyeR": {
+      "blink_scale_axis_gltf": "Y",
+      "rest_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "AvatarTerminal": {
+      "pivot_blender": [
+        -0.16,
+        -0.3,
+        1.0
+      ],
+      "asset_id": "avatar.terminal"
+    }
+  },
+  "identity_guarantee": "Studio reference and website load the same exported mesh hierarchy; lighting, camera, tone mapping and display affect rendered pixels.",
+  "limitations": "Rigid segmented character; no organic skin, no skinned skeleton, no embedded animation clips."
+}
