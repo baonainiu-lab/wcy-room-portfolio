@@ -1,0 +1,35 @@
+{
+  "state": "day",
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/lighting-v15/day-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 16,
+      "bytes": 2690321,
+      "sha256": "41011f1e5c30ae690ee3dcd3958b8ac4e6cfa210067a3f6c1d3568d6b2384012",
+      "preparedSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+      "windowGeometry": "Repaired window with 25 cm narrower right edge; corrected daylight aperture."
+    },
+    {
+      "atlas": 8,
+      "path": "public/textures/lighting-v15/day-8.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 16,
+      "bytes": 4240380,
+      "sha256": "09f9f5c9e6b5cf73c8b753de2025fede1e41ce69df8ca4c3c3675266db40349b",
+      "preparedSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+      "windowGeometry": "Repaired window with 25 cm narrower right edge; corrected daylight aperture."
+    }
+  ],
+  "seconds": 239.81,
+  "samples": 96,
+  "preparedSha256": "9f6e79ce92c6681b150c2c2ed58d58de2839c44d8ea4c53be606894e94c7e89a",
+  "complete": true
+}

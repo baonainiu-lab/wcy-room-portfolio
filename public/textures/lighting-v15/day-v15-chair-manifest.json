@@ -1,0 +1,26 @@
+{
+  "state": "day",
+  "atlases": [
+    {
+      "atlas": 11,
+      "path": "public/textures/lighting-v15/day-11.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "margin": 12,
+      "bytes": 3795087,
+      "sha256": "e089640e9dc8d0cfc0e079210ab4b1c3a4dca18da9cb49a0e384e325291ba1cd"
+    }
+  ],
+  "seconds": 126.76,
+  "complete": true,
+  "samples": 96,
+  "preparedSha256": "74d66417d8a764f71380d1e154839aa6fa66b2752aa1e06acac8120aeb9dcd98",
+  "geometryAndUV": {
+    "atlas": 11,
+    "vertices": 24755,
+    "loops": 96952,
+    "sha256": "d16420e1bb88f8049b51e32f38ccf3efabce92479ff1e3995265f512883ac40b"
+  }
+}

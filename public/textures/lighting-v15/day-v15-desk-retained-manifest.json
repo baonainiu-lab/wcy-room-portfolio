@@ -1,0 +1,35 @@
+{
+  "state": "day",
+  "atlases": [
+    {
+      "atlas": 9,
+      "path": "public/textures/lighting-v15/day-9.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "bytes": 7428557,
+      "sha256": "fe0c1871b1e5d038bc2399d9258b3a92fa72174a40ebfaa844c6f87e02cddf02",
+      "preparedSha256": "d53d3f4ed77ae411ab019dd47eaa555000af4b93f7fafba1814baf156fcaa87e",
+      "preparedSnapshot": "assets/blender/orbital-dual-bake-v15-props-snapshot.blend",
+      "windowGeometry": "Completed before window-aperture correction. Retained; adjacent window props and architectural receivers separately rebaked from corrected source."
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/lighting-v15/day-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "margin": 8,
+      "bytes": 5949860,
+      "sha256": "1c0e5bf8394f55857c432c8b800117990b4590791b22e30feb04e61e7669ad77",
+      "preparedSha256": "d53d3f4ed77ae411ab019dd47eaa555000af4b93f7fafba1814baf156fcaa87e",
+      "preparedSnapshot": "assets/blender/orbital-dual-bake-v15-props-snapshot.blend",
+      "windowGeometry": "Completed before window-aperture correction. Retained; adjacent window props and architectural receivers separately rebaked from corrected source."
+    }
+  ],
+  "samples": 96,
+  "complete": true
+}
