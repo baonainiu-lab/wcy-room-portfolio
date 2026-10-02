@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "state": "night",
+  "samples": 64,
+  "preparedSha256": "10b1bbb87762893b9c2e1941f231b1512a8eeb2423078d6d1eefb06884d13703",
+  "path": "public/textures/about-atelier-v3/architecture/night.png",
+  "sha256": "64dca3ec98d8ba3c0cdaf34014155e3e2212dd7865d65d2f9bec121eb7bde0e8",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "secondsIncludingGpuQueue": 101.02,
+  "uvValidation": {
+    "sourceGlb": "public/models/about-atelier-v3-architecture.glb",
+    "sourceGlbSha256": "cab48868aa2f3b679264cfa274de06c62d014fdd8d01afd04e9f1dfb80f84a87",
+    "triangles": 27000,
+    "loopCorners": 54000,
+    "maximumReconstructionUvDelta": 2.9802322387695312e-08,
+    "shippedUvsRecovered": true,
+    "geometryMatchesShippedGlb": true
+  }
+}
