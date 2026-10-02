@@ -1,0 +1,22 @@
+{
+  "state": "day",
+  "path": "public/textures/lighting-v20/reflection-day.hdr",
+  "sha256": "e56f278d3a2c15108f1d86ad96b94a93f28bcbeb6b28776033677fb98df54b19",
+  "dimensions": [
+    2048,
+    1024
+  ],
+  "cameraLocation": [
+    0.0,
+    -0.6499999761581421,
+    1.7000000476837158
+  ],
+  "cameraEuler": [
+    1.5707963705062866,
+    0.0,
+    0.0
+  ],
+  "encoding": "scene-linear Radiance HDR",
+  "samples": 64,
+  "sourceSha256": "88fc6d9c51dc70909c6c7e5154d8d755a60f30dd8f75174108a360ccf487f33a"
+}
