@@ -1,0 +1,141 @@
+{
+  "complete": true,
+  "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v20/day-12.png",
+  "sourceSha256": "7ae23a1a66446b30576b1e515e028c7ee715821b8700a2bdb36bb085ae2b2d42",
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v20/day-12.ktx2",
+  "sha256": "574794b55f393798ad09a80afcadf231be55a1b2323eab884c061d22953fc2bb",
+  "bytes": 291841,
+  "codecRevision": "linear-surface-v2-logrgb256",
+  "sourceEncoding": "RGBM32",
+  "encodedSource": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v20/day-12.logrgb.png",
+    "sha256": "1855c4c44b0dfb409a624d3bf41e5defa60b87848ddd3e6d9d18b76b3f643dc4",
+    "encoding": "LogRGB32 k256 alpha1",
+    "radianceScale": 1.0
+  },
+  "kind": "logrgb32-k256",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "mipLevels": 11,
+  "quality": 2,
+  "ktxValidate": "passed",
+  "transferFunction": "linear",
+  "targetType": "RGBA",
+  "premultipliedAlpha": false,
+  "sourceAlphaRange": [
+    1,
+    4
+  ],
+  "mipMethod": "Decode unchanged source RGBM32 to linear radiance; encode level0 and every floating-radiance BOX-filtered mip as LogRGB32 k256 with constant alpha1. Never filter encoded LogRGB values.",
+  "mipStatistics": [
+    {
+      "level": 0,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "encodingQuantizationMAE": 0.00016200460959225893,
+      "sceneRadianceQuantizationMAE": 0.00016200460959225893
+    },
+    {
+      "level": 1,
+      "dimensions": [
+        512,
+        512
+      ],
+      "encodingQuantizationMAE": 0.00016130905714817345,
+      "sceneRadianceQuantizationMAE": 0.00016130905714817345
+    },
+    {
+      "level": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "encodingQuantizationMAE": 0.00016118599160108715,
+      "sceneRadianceQuantizationMAE": 0.00016118599160108715
+    },
+    {
+      "level": 3,
+      "dimensions": [
+        128,
+        128
+      ],
+      "encodingQuantizationMAE": 0.00016191463510040194,
+      "sceneRadianceQuantizationMAE": 0.00016191463510040194
+    },
+    {
+      "level": 4,
+      "dimensions": [
+        64,
+        64
+      ],
+      "encodingQuantizationMAE": 0.00017007793940138072,
+      "sceneRadianceQuantizationMAE": 0.00017007793940138072
+    },
+    {
+      "level": 5,
+      "dimensions": [
+        32,
+        32
+      ],
+      "encodingQuantizationMAE": 0.00016357032291125506,
+      "sceneRadianceQuantizationMAE": 0.00016357032291125506
+    },
+    {
+      "level": 6,
+      "dimensions": [
+        16,
+        16
+      ],
+      "encodingQuantizationMAE": 0.00018709995492827147,
+      "sceneRadianceQuantizationMAE": 0.00018709995492827147
+    },
+    {
+      "level": 7,
+      "dimensions": [
+        8,
+        8
+      ],
+      "encodingQuantizationMAE": 0.00015709978470113128,
+      "sceneRadianceQuantizationMAE": 0.00015709978470113128
+    },
+    {
+      "level": 8,
+      "dimensions": [
+        4,
+        4
+      ],
+      "encodingQuantizationMAE": 0.00017648011271376163,
+      "sceneRadianceQuantizationMAE": 0.00017648011271376163
+    },
+    {
+      "level": 9,
+      "dimensions": [
+        2,
+        2
+      ],
+      "encodingQuantizationMAE": 0.00018944521434605122,
+      "sceneRadianceQuantizationMAE": 0.00018944521434605122
+    },
+    {
+      "level": 10,
+      "dimensions": [
+        1,
+        1
+      ],
+      "encodingQuantizationMAE": 0.00013884746294934303,
+      "sceneRadianceQuantizationMAE": 0.00013884746294934303
+    }
+  ],
+  "seconds": 0.37,
+  "radianceScale": 1.0,
+  "radianceOverflow": null,
+  "scalingRevision": "linear-radiance-overflow-v1",
+  "sourceSceneRadiancePeak": 0.4015686511993408,
+  "encodedRadiancePeak": 0.4015686511993408,
+  "sceneRadianceRange": 32.0,
+  "sceneRadianceReconstruction": "((exp2(encodedRGB * log2(8193)) - 1) / 256) * radianceScale; restore each endpoint before mixing"
+}

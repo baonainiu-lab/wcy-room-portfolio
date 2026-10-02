@@ -1,0 +1,40 @@
+{
+  "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/textures/lighting-v20/day-0.png",
+  "sha256": "20118a3a0207c008ebdc70400b76c82516f7a42eb09532cc95fe75e4c1c18147",
+  "bytes": 5409222,
+  "dimensions": [
+    4096,
+    4096
+  ],
+  "colorSpace": "NoColorSpace / linear data",
+  "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+  "channels": 4,
+  "encoding": "RGBM32",
+  "decode": "32 * rgb * alpha",
+  "range": 32,
+  "sourceRadianceMaximum": 7.729500770568848,
+  "valuesAboveRangeFraction": 0.0,
+  "negativeInputFraction": 0.0,
+  "quantizationMAE": 0.00014163721061777323,
+  "quantizationMaxError": 0.014111042022705078,
+  "alphaIsMultiplier": true,
+  "hdrOutliers": null,
+  "slot": 0,
+  "state": "day",
+  "engine": "CYCLES",
+  "samples": 96,
+  "passFilter": [
+    "DIRECT",
+    "INDIRECT",
+    "COLOR",
+    "DIFFUSE",
+    "EMIT"
+  ],
+  "glossyExcluded": true,
+  "geometryUvNormalsUnchanged": true,
+  "seconds": 85.44,
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-dual-bake-v20.blend",
+  "sourceSha256": "88fc6d9c51dc70909c6c7e5154d8d755a60f30dd8f75174108a360ccf487f33a",
+  "cleanIntro": false,
+  "receiverOnly": false
+}

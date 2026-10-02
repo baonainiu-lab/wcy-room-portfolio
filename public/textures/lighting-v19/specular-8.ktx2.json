@@ -1,0 +1,122 @@
+{
+  "complete": true,
+  "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-8.png",
+  "sourceSha256": "1770fdd5c79ec9fa905c2ce32d4bbbd8013f84391a908546e9688321f20c91bc",
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-8.ktx2",
+  "sha256": "346a36e56a4c2d9c14cf2d70e0bc0863625a86eaddbb7d40d811513201a717c2",
+  "bytes": 1320523,
+  "codecRevision": "linear-surface-v2-logrgb256",
+  "sourceEncoding": "Linear F0 RGB + perceptual roughness alpha",
+  "encodedSource": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/lighting-v19/specular-8.png",
+    "sha256": "1770fdd5c79ec9fa905c2ce32d4bbbd8013f84391a908546e9688321f20c91bc",
+    "encoding": "Linear F0 RGB + perceptual roughness alpha"
+  },
+  "kind": "specular",
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "mipLevels": 12,
+  "quality": 2,
+  "ktxValidate": "passed",
+  "transferFunction": "linear",
+  "targetType": "RGBA",
+  "premultipliedAlpha": false,
+  "sourceAlphaRange": [
+    72,
+    255
+  ],
+  "mipMethod": "Box-filter linear F0 and GGX alpha (roughness squared), then sqrt alpha to perceptual roughness.",
+  "mipStatistics": [
+    {
+      "level": 1,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "encodingQuantizationMAE": 0.00018371935584582388
+    },
+    {
+      "level": 2,
+      "dimensions": [
+        512,
+        512
+      ],
+      "encodingQuantizationMAE": 0.00029000904760323465
+    },
+    {
+      "level": 3,
+      "dimensions": [
+        256,
+        256
+      ],
+      "encodingQuantizationMAE": 0.0003949045785702765
+    },
+    {
+      "level": 4,
+      "dimensions": [
+        128,
+        128
+      ],
+      "encodingQuantizationMAE": 0.0005195626290515065
+    },
+    {
+      "level": 5,
+      "dimensions": [
+        64,
+        64
+      ],
+      "encodingQuantizationMAE": 0.0007811489049345255
+    },
+    {
+      "level": 6,
+      "dimensions": [
+        32,
+        32
+      ],
+      "encodingQuantizationMAE": 0.0009198582847602665
+    },
+    {
+      "level": 7,
+      "dimensions": [
+        16,
+        16
+      ],
+      "encodingQuantizationMAE": 0.0010797102004289627
+    },
+    {
+      "level": 8,
+      "dimensions": [
+        8,
+        8
+      ],
+      "encodingQuantizationMAE": 0.001180840888991952
+    },
+    {
+      "level": 9,
+      "dimensions": [
+        4,
+        4
+      ],
+      "encodingQuantizationMAE": 0.0011659511364996433
+    },
+    {
+      "level": 10,
+      "dimensions": [
+        2,
+        2
+      ],
+      "encodingQuantizationMAE": 0.0013724034652113914
+    },
+    {
+      "level": 11,
+      "dimensions": [
+        1,
+        1
+      ],
+      "encodingQuantizationMAE": 0.001379469409584999
+    }
+  ],
+  "seconds": 4.81
+}
