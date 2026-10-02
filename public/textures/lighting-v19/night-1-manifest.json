@@ -1,0 +1,71 @@
+{
+  "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/public/textures/lighting-v19/night-1.png",
+  "sha256": "66579919199bd068cafcb4565299b9f015232d02cd9b11e5d75a846146f6dfca",
+  "bytes": 3002203,
+  "dimensions": [
+    4096,
+    4096
+  ],
+  "colorSpace": "NoColorSpace / linear data",
+  "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+  "channels": 4,
+  "encoding": "RGBM32",
+  "decode": "32 * rgb * alpha",
+  "range": 32,
+  "sourceRadianceMaximum": 33.52783203125,
+  "valuesAboveRangeFraction": 1.9868214925130207e-08,
+  "negativeInputFraction": 0.0,
+  "quantizationMAE": 0.00012152686394983903,
+  "quantizationMaxError": 0.054134368896484375,
+  "alphaIsMultiplier": true,
+  "hdrOutliers": {
+    "path": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/linear-intermediates/lighting-v19/night-1-hdr-outliers.npz",
+    "sha256": "89372b40e5e4ffdc142db26995595b68a378f0ada3886749aaf71005390b76e3",
+    "count": 1,
+    "indexConvention": "flattened bottom-up Blender RGB float buffer; restore before PNG row flip"
+  },
+  "slot": 1,
+  "state": "night",
+  "engine": "CYCLES",
+  "samples": 96,
+  "passFilter": [
+    "DIRECT",
+    "INDIRECT",
+    "COLOR",
+    "DIFFUSE",
+    "EMIT"
+  ],
+  "glossyExcluded": true,
+  "geometryUvNormalsUnchanged": true,
+  "seconds": 41.13,
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/个人网站/room-portfolio/assets/blender/orbital-dual-bake-v19.blend",
+  "sourceSha256": "45e258c586f5bc46203ca1d3ff6be14cfde72fcc28a40ec919040fcee9a9cd64",
+  "cleanIntro": false,
+  "receiverOnly": false,
+  "execution": {
+    "method": "offline Blender CLI fallback",
+    "reason": "MCP file-targeted CLI hard timeout 120 seconds; same approved source and bake recipe",
+    "authoringAndReview": "Blender MCP",
+    "blenderVersion": "5.1.2",
+    "denoiseExecutionOverride": [
+      {
+        "before": {
+          "denoiser": "OPENIMAGEDENOISE",
+          "denoising_quality": "HIGH",
+          "denoising_prefilter": "ACCURATE",
+          "denoising_input_passes": "RGB_ALBEDO_NORMAL",
+          "denoising_use_gpu": false
+        },
+        "after": {
+          "denoiser": "OPENIMAGEDENOISE",
+          "denoising_quality": "HIGH",
+          "denoising_prefilter": "ACCURATE",
+          "denoising_input_passes": "RGB_ALBEDO_NORMAL",
+          "denoising_use_gpu": true
+        },
+        "supported": true,
+        "computeBackend": "METAL"
+      }
+    ]
+  }
+}
