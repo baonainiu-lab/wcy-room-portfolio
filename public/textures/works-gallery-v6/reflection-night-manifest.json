@@ -1,0 +1,138 @@
+{
+  "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/works-gallery-v6/reflection-night.hdr",
+  "size": [
+    2048,
+    1024
+  ],
+  "maxRadiance": 53.21673583984375,
+  "sha256": "22719a30f964d77a3c27806c8c739a999487a85cdc987aee21c0dcd6397e71e0",
+  "state": "night",
+  "samples": 32,
+  "source": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/works-gallery-v6.blend",
+  "sourceSha256": "afdd2b46f95d84b98a438c5e4c66f01b7ba2e8b2175525033c755fd8765ca953",
+  "encoding": "scene-linear Radiance RGBE, no exposure/AgX applied",
+  "cameraLocation": [
+    0.11999999731779099,
+    3.359999895095825,
+    2.700000047683716
+  ],
+  "cameraRotation": [
+    1.5707963705062866,
+    0.0,
+    0.0
+  ],
+  "hiddenArchitecturalGlass": [
+    {
+      "name": "Clear terrace balustrade",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "Clear terrace balustrade.001",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "Clear terrace balustrade.002",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "Clear terrace balustrade.003",
+      "owner": "gallery.environment.terrace",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 00",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 01",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 02",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 03",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 04",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 inset rear glazing pane 05",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 00",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 01",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 02",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 03",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 04",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    },
+    {
+      "name": "V4 solid canopy glass 05",
+      "owner": "gallery.architecture.glazing",
+      "materials": [
+        "GALLERY_ARCH_GLASS_PBR"
+      ]
+    }
+  ]
+}
