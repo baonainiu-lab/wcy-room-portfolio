@@ -19,5 +19,6 @@ https://github.com/baonainiu-lab/wcy-room-portfolio
 - 主站直接导入的 `assets/blender/warm-gallery-v7-manifest.json` 已包含；最终目录无嵌套 gitlink。
 - 对 1,878 个文本文件与 45 个 GLB JSON 元数据进行明显密钥扫描，未发现凭据。未宣称完成压缩 Blender 文件的深层二进制审计。
 - CPU 加载生命周期检查已通过 9/9；没有将本次文件归档等同于 120 FPS 测量。
+- 2026-10-03：将 `pnpm-workspace.yaml` 中两项依赖构建权限的占位文字改为布尔值，并固定 pnpm 11.25.0。使用 Node.js 24.19.0 / pnpm 11.25.0，在独立临时目录全新安装依赖、生产构建通过；锁文件未变化。
 
 远端上传采用可快进的分批提交，避免单次传输过大。此次只上传仓库，不部署网站。

@@ -14,7 +14,7 @@
 
 ## 本地运行
 
-需要 Node.js 20.19+ 或 22.12+、pnpm 10、Git LFS。普通网页资源在 Git 中；可编辑 Blender 源文件使用 Git LFS。
+建议使用 Node.js 24.19.0、pnpm 11.25.0，并安装 Git LFS。本项目已在该 Node.js / pnpm 组合下验证全新依赖安装与生产构建。普通网页资源保存在 Git 中；可编辑 Blender 源文件使用 Git LFS。
 
 ```sh
 git clone https://github.com/baonainiu-lab/wcy-room-portfolio.git
