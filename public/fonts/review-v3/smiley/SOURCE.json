@@ -1,0 +1,66 @@
+{
+  "slug": "smiley",
+  "name": "得意黑",
+  "source": "SmileySans-Oblique.ttf",
+  "family": "OrbitalReviewSlant",
+  "version": "v2.0.1",
+  "repo": "https://github.com/atelier-anchor/smiley-sans",
+  "release": "https://github.com/atelier-anchor/smiley-sans/releases/tag/v2.0.1",
+  "download": "https://github.com/atelier-anchor/smiley-sans/releases/download/v2.0.1/smiley-sans-v2.0.1.zip",
+  "license_url": "https://github.com/atelier-anchor/smiley-sans/blob/v2.0.1/LICENSE",
+  "description": "窄长右倾、带美术字转折，动势强，原生中粗；适合有速度感的品牌短标题。",
+  "license": "SIL Open Font License 1.1",
+  "checkedAt": "2026-09-22",
+  "weight": 400,
+  "singleWeight": true,
+  "originalItalicAngle": -8.0,
+  "syntheticBold": false,
+  "source_file": "assets/font-candidates/v3/smiley/SmileySans-Oblique.ttf",
+  "source_bytes": 2629764,
+  "source_sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+  "web_file": "public/fonts/review-v3/smiley/review.woff2",
+  "web_bytes": 34160,
+  "web_sha256": "9d541f59dc4ddf6a23bf079c22a63171fe2896a5aa7b467c42514d57b7569178",
+  "web_family": "OrbitalReviewSlant",
+  "subset_characters": 293,
+  "unsupported_optional_characters": "",
+  "required_phrase_coverage": true,
+  "modified": true,
+  "modifications": "Character subset and distinct family/full/PostScript names; glyph outlines and weight untouched. Original copyright and OFL retained.",
+  "note": "Review candidate only. Do not replace the approved production UI before user selection.",
+  "archive_files": {
+    "SmileySans-Oblique.ttf.woff2": {
+      "bytes": 1150924,
+      "sha256": "731f22973349404b15a88a99ef3b5dd4104c0965c23b7e485c1f11e84fea99e2"
+    },
+    "smiley-sans-v2.0.1.zip": {
+      "bytes": 5781344,
+      "sha256": "299c0be6c960ae37361762eca76f7d0cd516615435bb96c0d4b98a1e70178a07"
+    },
+    "subset-characters.txt": {
+      "bytes": 688,
+      "sha256": "9baad365707b686602fd079473b188b939cdf1e422a720a74bc8308abafae20e"
+    },
+    "SmileySans-Oblique.otf": {
+      "bytes": 2003884,
+      "sha256": "139b5dcbe70d6d52de85a62d148784c6af4bd161e38fdb62ba0c1e7e5065fca6"
+    },
+    "SmileySans-Oblique.otf.woff2": {
+      "bytes": 1361268,
+      "sha256": "4895e7a5b72753b7d4bf090581fbc4375e0ec53484944f369a584588f1eeaf08"
+    },
+    "SmileySans-Oblique.ttf": {
+      "bytes": 2629764,
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4"
+    },
+    "LICENSE.txt": {
+      "bytes": 4422,
+      "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72"
+    }
+  },
+  "fontUrl": "/fonts/review-v3/smiley/review.woff2",
+  "style": "normal",
+  "fontDisplay": "swap",
+  "fontSynthesis": "none",
+  "uiRole": "display"
+}

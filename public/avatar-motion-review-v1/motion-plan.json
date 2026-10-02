@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "title": "动作关键帧 · 切换预演",
+  "status": "concept-review-only",
+  "medium": "static-keyframe-crossfade",
+  "disclaimer": "展示静态关键帧与切换节奏，尚非骨骼动画或视频；人物尚未接入正式首页。",
+  "image": {
+    "file": "poses.png",
+    "layout": "2x2",
+    "order": "row-major",
+    "gutterPixels": 0,
+    "camera": "identical camera, framing, character scale and foot baseline in all cells"
+  },
+  "preview": {
+    "initialPose": 0,
+    "autoplayInitially": false,
+    "sequence": [0, 1, 0, 2, 0, 3],
+    "crossfadeSeconds": 0.35,
+    "reducedMotion": "manual-only, no transition",
+    "onManualSelection": "stop autoplay",
+    "onDocumentHidden": "stop autoplay"
+  },
+  "characterConstraints": [
+    "固定同一角色、服装、装饰与终端尺寸，不改变体型和机位。",
+    "右手始终承托终端的底部重心，手腕与肘部不瞬移。",
+    "左手在待机、微笑和展示姿势中离开设备，只在点触动作接触屏幕。",
+    "双脚不移位，脚底基线固定，重心变化受控。",
+    "不使用整张人物图片漂浮模拟呼吸或骨骼动作。"
+  ],
+  "poses": [
+    {
+      "id": "01",
+      "key": "supported-idle",
+      "title": "单手托终端待机",
+      "description": "右手稳定承托终端，左手自然放松，双脚保持原位。",
+      "holdSeconds": 3.2,
+      "backgroundPosition": "0% 0%",
+      "futureMotion": "保留自然稳态，小幅胸腔呼吸和偶发眨眼；终端不浮动，双脚不滑动。"
+    },
+    {
+      "id": "02",
+      "key": "look-up-smile",
+      "title": "抬眼微笑",
+      "description": "从终端轻轻抬眼看向访客，眉眼放松、露出微笑；右手继续承托。",
+      "holdSeconds": 2.0,
+      "backgroundPosition": "100% 0%",
+      "futureMotion": "视线先抬起，头部轻微跟随，表情随后变化；结束回到托举稳态。"
+    },
+    {
+      "id": "03",
+      "key": "screen-tap",
+      "title": "左手点触屏幕",
+      "description": "空闲左手抬起，以食指轻点屏幕；右手始终在设备底部承托。",
+      "holdSeconds": 2.4,
+      "backgroundPosition": "0% 100%",
+      "futureMotion": "左手沿短弧线抬起，食指点触一次后收回；右手和设备保持支撑关系。"
+    },
+    {
+      "id": "04",
+      "key": "present-terminal",
+      "title": "终端前送展示",
+      "description": "右手将终端小幅前送展示，左手自然打开作介绍，脚步保持不动。",
+      "holdSeconds": 2.2,
+      "backgroundPosition": "100% 100%",
+      "futureMotion": "右前臂带动终端小幅前送，左手以开放手势介绍；收回后恢复托举稳态。"
+    }
+  ],
+  "future3D": {
+    "status": "not-built-not-rigged",
+    "crossfadeSecondsRange": [0.35, 0.5],
+    "transitionHub": "supported-idle",
+    "notes": [
+      "后续真实三维动画需完成骨骼绑定、手部接触约束及终端随手关系。",
+      "所有动作从托举稳态进入并回到稳态，避免手腕、肩部和设备跳变。",
+      "此网页的图片淡化不代表已实现上述骨骼运动。"
+    ]
+  }
+}

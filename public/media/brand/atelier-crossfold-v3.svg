@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">创作空间 · 交错折翼</title>
+  <desc id="desc">三片具有厚度的实心折翼交错展开，冷银与墨蓝承托铜橙色创作面，中央负形形成向前打开的通道。</desc>
+  <defs>
+    <linearGradient id="ink" x1="16" y1="26" x2="45" y2="77" gradientUnits="userSpaceOnUse"><stop stop-color="#6E919F"/><stop offset=".42" stop-color="#365A6C"/><stop offset="1" stop-color="#142F40"/></linearGradient>
+    <linearGradient id="silver" x1="50" y1="14" x2="81" y2="66" gradientUnits="userSpaceOnUse"><stop stop-color="#EBE7D9"/><stop offset=".45" stop-color="#B4CAD0"/><stop offset="1" stop-color="#527687"/></linearGradient>
+    <linearGradient id="copper" x1="42" y1="43" x2="54" y2="82" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE1AE"/><stop offset=".43" stop-color="#EDA165"/><stop offset="1" stop-color="#AB5231"/></linearGradient>
+  </defs>
+  <path d="M12 37 42 16 61 27V34L33 53V73L12 61V37Z" fill="#152D3B"/>
+  <path d="M47 12 84 34V62L65 72V51L47 41V12Z" fill="#2A495A"/>
+  <path d="M37 52 56 40 76 52V59L47 89 26 77V70L37 52Z" fill="#713D2B"/>
+  <path data-brand-face="ink" d="M12 37 42 16 61 27 33 46V66L12 54V37Z" fill="url(#ink)"/>
+  <path data-brand-face="silver" d="M47 12 84 34V55L65 65V44L47 34V12Z" fill="url(#silver)"/>
+  <path data-brand-face="copper" d="M37 52 56 40 76 52 47 82 26 70 37 52Z" fill="url(#copper)"/>
+  <path d="M12 37 42 16 61 27M47 12 84 34V55M37 52 56 40 76 52" stroke="#F6F0DD" stroke-opacity=".72" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M33 46 12 37M65 44 84 34M47 82 47 62 76 52" stroke="#1F3D4A" stroke-opacity=".3" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M39 55 55 46 65 52" stroke="#FFF2D7" stroke-width="1.1" stroke-linecap="round"/>
+</svg>

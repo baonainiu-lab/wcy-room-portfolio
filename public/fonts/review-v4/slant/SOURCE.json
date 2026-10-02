@@ -1,0 +1,39 @@
+{
+  "id": "slant",
+  "letter": "D",
+  "name": "得意黑",
+  "shortName": "得意黑",
+  "family": "Atelier Slant Display",
+  "weight": 400,
+  "file": "../v3/smiley/SmileySans-Oblique.ttf",
+  "licenseFile": "../v3/smiley/LICENSE.txt",
+  "source": "https://github.com/atelier-anchor/smiley-sans",
+  "licenseSource": "https://github.com/atelier-anchor/smiley-sans/blob/v2.0.1/LICENSE",
+  "author": "atelierAnchor 锚坞",
+  "tag": "前倾窄体 · 动势标题",
+  "description": "明显的前倾与紧凑节奏，擅长短标题。作为旧候选基准，对照新字体的厚度与个性。",
+  "kind": "旧候选基准",
+  "fontUrl": "/fonts/review-v4/slant/display.woff2",
+  "licenseUrl": "/fonts/review-v4/slant/OFL.txt",
+  "fontBytes": 16160,
+  "version": [
+    "Version 2.0.1"
+  ],
+  "originalOs2Weight": 400,
+  "requiredTextMissing": [],
+  "reviewOnly": true,
+  "modified": true,
+  "modifications": "Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only.",
+  "copyright": [
+    "Copyright © 2022–2024 atelierAnchor. All rights reserved."
+  ],
+  "glyphCount": 176,
+  "removedTables": [],
+  "requiredOutlinesUnchanged": true,
+  "commit": "official release v2.0.1",
+  "sha256": {
+    "source": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+    "woff2": "88d498350fb273ded743e80115bc3d8d7ef1ddcf5b61928cae388fb2c481f759",
+    "license": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72"
+  }
+}

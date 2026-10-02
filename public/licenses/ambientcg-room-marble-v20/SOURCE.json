@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-01",
+  "license": "CC0-1.0",
+  "licenseURL": "https://docs.ambientcg.com/license/",
+  "materialAuthorship": "ambientCG PBRProcedural assets; not claimed as scans",
+  "uses": [
+    {
+      "asset": "Marble005",
+      "source": "https://ambientcg.com/a/Marble005",
+      "role": "room white marble walls"
+    },
+    {
+      "asset": "Marble002",
+      "source": "https://ambientcg.com/a/Marble002",
+      "role": "room black marble upper cap"
+    }
+  ],
+  "adjustments": "World-space mapping, color/roughness calibration and diffuse/normal/specular baking into the original room atlas UVs in Blender."
+}

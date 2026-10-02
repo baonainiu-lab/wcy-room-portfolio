@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>人物动作 · 切换预演</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:#19303c;background:#f2efe7;font-synthesis:none;--ink:#19303c;--muted:#6c767a;--line:#d2d4cf;--orange:#df754b}
+    *{box-sizing:border-box}[hidden]{display:none!important}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:disabled{cursor:not-allowed}button:focus-visible,a:focus-visible{outline:3px solid var(--orange);outline-offset:4px}a{color:inherit;text-underline-offset:4px}
+    .page{max-width:1220px;margin:auto;padding:30px 34px 20px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--ink);padding-bottom:22px}.eyebrow{font-size:10px;letter-spacing:.17em;margin:0 0 10px;font-weight:750;color:var(--muted)}h1{font-size:clamp(20px,2.4vw,28px);font-weight:750;letter-spacing:-.04em;margin:0}.local-link{font-size:12px;white-space:nowrap}.intro{font-size:13px;line-height:1.85;color:var(--muted);max-width:700px;margin:20px 0 28px}
+    main{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(285px,.75fr);gap:40px;align-items:start}.image-area{background:#e9e6df;border:1px solid var(--line);min-width:0}.image-top{display:flex;justify-content:space-between;padding:13px 17px;font-size:10px;letter-spacing:.12em;border-bottom:1px solid var(--line);gap:12px}.image-top span:last-child{color:var(--muted);letter-spacing:.02em}.stage-wrap{display:flex;justify-content:center;align-items:center;min-height:300px}.stage{--frame-ratio:.75;position:relative;width:100%;max-width:calc(66svh * var(--frame-ratio));aspect-ratio:var(--frame-ratio);overflow:hidden;background:#e9e6df}.pose-layer{position:absolute;inset:0;background-size:200% 200%;background-repeat:no-repeat;opacity:0;transition:opacity .35s ease-in-out}.pose-layer.is-active{opacity:1}.stage.no-transition .pose-layer{transition:none}.stage[hidden]{display:none}.image-message{padding:64px 25px;text-align:center;line-height:1.9;font-size:13px;color:var(--muted);max-width:380px}.image-message strong{display:block;color:var(--ink);font-size:16px;margin-bottom:8px}.retry{display:block;background:transparent;border:1px solid var(--ink);padding:8px 18px;margin:18px auto 0;color:var(--ink)}.image-bottom{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding:12px 17px;font-size:11px;color:var(--muted)}
+    .section-label{font-size:11px;letter-spacing:.14em;color:var(--muted);margin:2px 0 14px}.steps{display:grid;gap:0;border-top:1px solid var(--line)}.step{position:relative;display:grid;grid-template-columns:33px 1fr auto;align-items:center;gap:8px;padding:18px 13px;border:0;border-bottom:1px solid var(--line);background:transparent;text-align:left;color:var(--ink);min-height:64px}.step[aria-pressed="true"]{background:#e8e4da}.step[aria-pressed="true"]::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:var(--orange)}.step:hover:not(:disabled){background:#e8e4da}.step:disabled{opacity:.55}.step-number{font-size:11px;letter-spacing:.08em;color:var(--muted)}.step-name{font-size:14px;font-weight:650}.step-time{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}.detail{min-height:136px;padding:22px 0 17px}.detail h2{font-size:19px;letter-spacing:-.025em;margin:0 0 10px}.detail p{font-size:13px;line-height:1.9;margin:0;color:var(--muted)}.play{width:100%;display:flex;align-items:center;justify-content:space-between;padding:15px 17px;border:1px solid var(--ink);background:var(--ink);color:#fffaf0;font-size:13px;font-weight:650}.play .symbol{font-size:12px;color:#f0ad8d}.play:disabled{opacity:.5}.play-hint{font-size:11px;line-height:1.8;color:var(--muted);margin:11px 0 0}.motion-note{margin-top:25px;padding-top:19px;border-top:1px solid var(--line)}.motion-note p{font-size:12px;line-height:1.9;margin:0 0 7px;color:var(--muted)}.motion-note strong{color:var(--ink);font-weight:650}.live-status{min-height:20px;font-size:11px;line-height:1.8;color:var(--muted);margin:14px 0 0}footer{display:flex;justify-content:space-between;gap:20px;margin-top:28px;padding-top:15px;border-top:1px solid var(--line);font-size:10px;line-height:1.8;color:var(--muted)}
+    @media(max-width:740px){.page{padding:23px 20px 20px}header{gap:12px;padding-bottom:18px}.local-link{font-size:11px}main{grid-template-columns:1fr;gap:26px}.intro{margin:17px 0 22px}.stage{max-width:calc(59svh * var(--frame-ratio))}.steps{grid-template-columns:1fr 1fr}.step{padding:14px 9px;grid-template-columns:24px 1fr;gap:5px;min-height:76px}.step:nth-child(odd){border-right:1px solid var(--line)}.step-name{font-size:12px}.step-time{grid-column:2}.detail{min-height:110px;padding-top:19px}.motion-note{margin-top:21px}footer{margin-top:21px}.image-top,.image-bottom{padding-left:13px;padding-right:13px}.stage-wrap{min-height:240px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}.pose-layer{transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header><div><p class="eyebrow">CHARACTER / MOTION STUDY 01</p><h1>动作关键帧 · 切换预演</h1></div><a class="local-link" href="/">返回作品集 ↗</a></header>
+    <p class="intro">先看人物的四种姿态与切换节奏。这里展示的是静态关键帧之间的淡化切换，尚非骨骼动画或视频；人物未接入正式首页。</p>
+    <main>
+      <section class="image-area" aria-label="人物关键帧预览">
+        <div class="image-top"><span id="frame-count">01 / 04</span><span>同机位 · 固定脚位</span></div>
+        <div class="stage-wrap">
+          <div id="stage" class="stage" role="img" aria-label="人物关键帧正在加载" hidden><div class="pose-layer is-active" aria-hidden="true"></div><div class="pose-layer" aria-hidden="true"></div></div>
+          <div id="image-message" class="image-message" role="status"><strong>正在载入关键帧</strong><span id="image-message-detail">准备人物与终端的四种姿态。</span><button id="retry" class="retry" type="button" hidden>重试加载</button></div>
+        </div>
+        <div class="image-bottom"><span id="pose-caption">单手托终端待机</span><span>静态关键帧</span></div>
+      </section>
+      <section class="controls" aria-label="动作切换控制">
+        <p class="section-label">选择动作</p>
+        <div id="steps" class="steps" role="group" aria-label="四种动作，可用左右方向键切换">
+          <button class="step" type="button" data-index="0" aria-pressed="true" disabled><span class="step-number">01</span><span class="step-name">托举待机</span><span class="step-time">3.2 秒</span></button>
+          <button class="step" type="button" data-index="1" aria-pressed="false" disabled><span class="step-number">02</span><span class="step-name">抬眼微笑</span><span class="step-time">2.0 秒</span></button>
+          <button class="step" type="button" data-index="2" aria-pressed="false" disabled><span class="step-number">03</span><span class="step-name">点触屏幕</span><span class="step-time">2.4 秒</span></button>
+          <button class="step" type="button" data-index="3" aria-pressed="false" disabled><span class="step-number">04</span><span class="step-name">前送展示</span><span class="step-time">2.2 秒</span></button>
+        </div>
+        <div class="detail"><h2 id="pose-title">单手托终端待机</h2><p id="pose-description">右手稳定承托终端，左手自然放松，双脚保持原位。</p></div>
+        <button id="play" class="play" type="button" aria-pressed="false" disabled><span id="play-label">自动顺序预演</span><span id="play-symbol" class="symbol" aria-hidden="true">▶</span></button>
+        <p id="play-hint" class="play-hint">01 → 02 → 01 → 03 → 01 → 04；每个动作先回到托举稳态再衔接。手动选择会暂停自动预演。</p>
+        <div class="motion-note"><p><strong>姿态约束</strong>　右手始终承托；左手只在点触动作接触屏幕；双脚不移位，重心小幅变化。</p><p><strong>后续动画</strong>　正式 3D 需完成绑定和动作制作，建议以 0.35–0.5 秒交叉混合衔接，不以整张图片漂浮模拟呼吸。</p></div>
+        <p id="live-status" class="live-status" role="status" aria-live="polite">准备预览。</p>
+      </section>
+    </main>
+    <footer><span>概念验收 · 未接入网页人物</span><span>米白 / 墨蓝 / 橙 / 银</span></footer>
+  </div>
+  <script type="module">
+    const stage = document.querySelector('#stage');
+    const layers = [...stage.querySelectorAll('.pose-layer')];
+    const stepButtons = [...document.querySelectorAll('.step')];
+    const playButton = document.querySelector('#play');
+    const status = document.querySelector('#live-status');
+    const message = document.querySelector('#image-message');
+    const retryButton = document.querySelector('#retry');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let plan, ready = false, playing = false, current = 0, layerIndex = 0;
+    let sequenceIndex = 0, timer, loadAttempt = 0;
+
+    function updatePlayButton() {
+      playButton.disabled = !ready || reduceMotion.matches;
+      playButton.setAttribute('aria-pressed', String(playing));
+      document.querySelector('#play-label').textContent = reduceMotion.matches ? '减少动态效果已启用' : playing ? '暂停顺序预演' : '自动顺序预演';
+      document.querySelector('#play-symbol').textContent = playing ? 'Ⅱ' : '▶';
+      document.querySelector('#play-hint').textContent = reduceMotion.matches
+        ? '当前禁用自动预演与过渡动画；仍可用按钮直接查看每个关键帧。'
+        : '01 → 02 → 01 → 03 → 01 → 04；每个动作先回到托举稳态再衔接。手动选择会暂停自动预演。';
+    }
+
+    function stop(reason = '') {
+      clearTimeout(timer);
+      timer = undefined;
+      playing = false;
+      updatePlayButton();
+      if (reason) status.textContent = reason;
+    }
+
+    function showPose(index, { instant = false, announce = false } = {}) {
+      if (!ready || !plan.poses[index]) return;
+      const pose = plan.poses[index];
+      stage.classList.toggle('no-transition', instant || reduceMotion.matches);
+      if (current !== index || instant) {
+        const nextLayer = 1 - layerIndex;
+        layers[nextLayer].style.backgroundPosition = pose.backgroundPosition;
+        layers[nextLayer].classList.add('is-active');
+        layers[layerIndex].classList.remove('is-active');
+        layerIndex = nextLayer;
+      }
+      current = index;
+      stage.setAttribute('aria-label', `${pose.id}，${pose.title}。${pose.description}`);
+      document.querySelector('#frame-count').textContent = `${pose.id} / 04`;
+      document.querySelector('#pose-caption').textContent = pose.title;
+      document.querySelector('#pose-title').textContent = pose.title;
+      document.querySelector('#pose-description').textContent = pose.description;
+      stepButtons.forEach((button, buttonIndex) => button.setAttribute('aria-pressed', String(buttonIndex === index)));
+      if (announce) status.textContent = `当前：${pose.id} ${pose.title}。`;
+    }
+
+    function scheduleNext() {
+      clearTimeout(timer);
+      if (!playing || !ready || reduceMotion.matches) return;
+      timer = setTimeout(() => {
+        sequenceIndex = (sequenceIndex + 1) % plan.preview.sequence.length;
+        showPose(plan.preview.sequence[sequenceIndex]);
+        scheduleNext();
+      }, plan.poses[current].holdSeconds * 1000);
+    }
+
+    stepButtons.forEach((button, index) => {
+      button.addEventListener('click', () => {
+        stop();
+        showPose(index, { announce: true });
+      });
+      button.addEventListener('keydown', (event) => {
+        let next;
+        if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % stepButtons.length;
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index + stepButtons.length - 1) % stepButtons.length;
+        if (event.key === 'Home') next = 0;
+        if (event.key === 'End') next = stepButtons.length - 1;
+        if (next === undefined) return;
+        event.preventDefault();
+        stepButtons[next].focus();
+        stepButtons[next].click();
+      });
+    });
+
+    playButton.addEventListener('click', () => {
+      if (playing) return stop('已暂停。可继续手动查看关键帧。');
+      if (!ready || reduceMotion.matches) return;
+      sequenceIndex = 0;
+      showPose(0);
+      playing = true;
+      updatePlayButton();
+      status.textContent = '正在顺序预演；每个动作之间回到托举待机。';
+      scheduleNext();
+    });
+
+    reduceMotion.addEventListener('change', () => {
+      stop(reduceMotion.matches ? '已停止自动预演，切换不使用过渡动画。' : '可手动切换，或重新开启自动预演。');
+      stage.classList.toggle('no-transition', reduceMotion.matches);
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden && playing) stop('离开页面后已暂停预演。');
+    });
+
+    async function load() {
+      const attempt = ++loadAttempt;
+      stop();
+      ready = false;
+      stepButtons.forEach((button) => { button.disabled = true; });
+      updatePlayButton();
+      stage.hidden = true;
+      message.hidden = false;
+      retryButton.hidden = true;
+      message.querySelector('strong').textContent = '正在载入关键帧';
+      document.querySelector('#image-message-detail').textContent = '准备人物与终端的四种姿态。';
+      try {
+        const response = await fetch('./motion-plan.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('plan');
+        const nextPlan = await response.json();
+        if (!Array.isArray(nextPlan.poses) || nextPlan.poses.length !== 4 || !nextPlan.preview?.sequence?.length) throw new Error('plan');
+        const assetUrl = new URL(nextPlan.image.file, window.location.href);
+        assetUrl.searchParams.set('review', String(attempt));
+        const source = new Image();
+        source.src = assetUrl.href;
+        await source.decode();
+        if (attempt !== loadAttempt) return;
+        plan = nextPlan;
+        stage.style.setProperty('--frame-ratio', String(source.naturalWidth / source.naturalHeight));
+        layers.forEach((layer) => { layer.style.backgroundImage = `url("${assetUrl.href}")`; });
+        ready = true;
+        stage.hidden = false;
+        message.hidden = true;
+        stepButtons.forEach((button) => { button.disabled = false; });
+        updatePlayButton();
+        showPose(0, { instant: true });
+        status.textContent = reduceMotion.matches ? '关键帧已就绪；减少动态效果已启用。' : '停在 01 托举待机，等待你选择动作。';
+      } catch (error) {
+        if (attempt !== loadAttempt) return;
+        ready = false;
+        updatePlayButton();
+        message.querySelector('strong').textContent = error.message === 'plan' ? '动作说明暂时无法加载' : '关键帧图片尚未就绪';
+        document.querySelector('#image-message-detail').textContent = error.message === 'plan'
+          ? '请确认 motion-plan.json 可访问，再点击重试。'
+          : '未能读取同目录下的 poses.png。图片准备好后，请点击重试。';
+        retryButton.hidden = false;
+        status.textContent = '预演未开始，请先重新加载关键帧。';
+      }
+    }
+    retryButton.addEventListener('click', load);
+    load();
+  </script>
+</body>
+</html>

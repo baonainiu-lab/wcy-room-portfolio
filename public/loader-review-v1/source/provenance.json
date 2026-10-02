@@ -1,0 +1,132 @@
+{
+  "review": "loader-review-v1",
+  "verifiedAt": "2026-09-30",
+  "sources": [
+    {
+      "repository": "https://github.com/olaf-wilkosz/gsap-website-reveal-animation",
+      "commit": "5fc869e418af5b7df8baece5032df16483773f5b",
+      "variants": [
+        "A"
+      ],
+      "files": [
+        {
+          "path": "script.js",
+          "sha256": "85ff2c7b779aa97ad7c3c96fea39178fb6fbc538a7bf2838a12e52a39ab5fb00",
+          "url": "https://github.com/olaf-wilkosz/gsap-website-reveal-animation/blob/5fc869e418af5b7df8baece5032df16483773f5b/script.js"
+        },
+        {
+          "path": "style.css",
+          "sha256": "eeb055a17e20c17da6dd276db245c3f441962b9731cfa9e09177f73f72530efe",
+          "url": "https://github.com/olaf-wilkosz/gsap-website-reveal-animation/blob/5fc869e418af5b7df8baece5032df16483773f5b/style.css"
+        },
+        {
+          "path": "index.html",
+          "sha256": "4cabea738f2247234a13f9dc1af34f2263d020b37717ce789c19b24d94dd7bf0",
+          "url": "https://github.com/olaf-wilkosz/gsap-website-reveal-animation/blob/5fc869e418af5b7df8baece5032df16483773f5b/index.html"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e99b510bb3fd9f30f40e32b466ac24f1608aac037e652c0424568334a1bed03a",
+          "url": "https://github.com/olaf-wilkosz/gsap-website-reveal-animation/blob/5fc869e418af5b7df8baece5032df16483773f5b/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "8ea529ebb3cab1fae053b5732318278eed69e5040aaea85529db625508225fa0",
+          "url": "https://github.com/olaf-wilkosz/gsap-website-reveal-animation/blob/5fc869e418af5b7df8baece5032df16483773f5b/LICENSE"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/codrops/PageLoadingEffects",
+      "commit": "d4348fe750a3903d962775f76b77fc41d203b0d4",
+      "variants": [
+        "B",
+        "D"
+      ],
+      "files": [
+        {
+          "path": "js/svgLoader.js",
+          "sha256": "3c8dbdc508f1d20cf343626b310210c70fb850f2f96db2e82ed7fc79c733f85f",
+          "url": "https://github.com/codrops/PageLoadingEffects/blob/d4348fe750a3903d962775f76b77fc41d203b0d4/js/svgLoader.js"
+        },
+        {
+          "path": "css/component.css",
+          "sha256": "3632a7e64829ff893bf5697b90027a1808a9f99b12687686721e7253b3a043d2",
+          "url": "https://github.com/codrops/PageLoadingEffects/blob/d4348fe750a3903d962775f76b77fc41d203b0d4/css/component.css"
+        },
+        {
+          "path": "index12.html",
+          "sha256": "88bc8325c318d1e5a1176c57d449cdf069f1acd66891e949856b8999fc32fc84",
+          "url": "https://github.com/codrops/PageLoadingEffects/blob/d4348fe750a3903d962775f76b77fc41d203b0d4/index12.html"
+        },
+        {
+          "path": "index4.html",
+          "sha256": "fc76ab5bedb48cfc90227093c0c892a352c0e7ab1adeebf196c2ea377dd08f8c",
+          "url": "https://github.com/codrops/PageLoadingEffects/blob/d4348fe750a3903d962775f76b77fc41d203b0d4/index4.html"
+        },
+        {
+          "path": "README.md",
+          "sha256": "1f8325c692048674b57043cdb4c4e19f357af911c5f5acd3fae577451d5a0042",
+          "url": "https://github.com/codrops/PageLoadingEffects/blob/d4348fe750a3903d962775f76b77fc41d203b0d4/README.md"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/codrops/PagePreloadingEffect",
+      "commit": "7a7893f4145f1dcfcf5dccd1ec893b24170fc987",
+      "variants": [
+        "C"
+      ],
+      "files": [
+        {
+          "path": "js/pathLoader.js",
+          "sha256": "6cdcac755f00958b04f9734dda3baa2a3f899368aae2fa2018ade936d1323e35",
+          "url": "https://github.com/codrops/PagePreloadingEffect/blob/7a7893f4145f1dcfcf5dccd1ec893b24170fc987/js/pathLoader.js"
+        },
+        {
+          "path": "js/main.js",
+          "sha256": "e37fd2a164301afc9999eb15807ed1a38d4c4c13e2f783a973fa697154bb93dc",
+          "url": "https://github.com/codrops/PagePreloadingEffect/blob/7a7893f4145f1dcfcf5dccd1ec893b24170fc987/js/main.js"
+        },
+        {
+          "path": "css/effect1.css",
+          "sha256": "1edcaf013294b09a125ff3bef9778030198b83946846c138a301b28e42900a9f",
+          "url": "https://github.com/codrops/PagePreloadingEffect/blob/7a7893f4145f1dcfcf5dccd1ec893b24170fc987/css/effect1.css"
+        },
+        {
+          "path": "index.html",
+          "sha256": "8b4df662826faa5d3d35d49d9db49ebc4d1a85bc28177ebcf8feb7f360f10536",
+          "url": "https://github.com/codrops/PagePreloadingEffect/blob/7a7893f4145f1dcfcf5dccd1ec893b24170fc987/index.html"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c0fc3647f5f50d9e74800d13862a40acba8da893b319c991931383a81ce03e5d",
+          "url": "https://github.com/codrops/PagePreloadingEffect/blob/7a7893f4145f1dcfcf5dccd1ec893b24170fc987/README.md"
+        }
+      ]
+    }
+  ],
+  "dependency": {
+    "name": "gsap",
+    "version": "3.15.0",
+    "source": "node_modules/gsap/dist/gsap.min.js",
+    "local": "source/vendor/gsap.min.js",
+    "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+    "license": "GSAP Standard License",
+    "licenseUrl": "https://gsap.com/community/standard-license/"
+  },
+  "projectMedia": [
+    {
+      "source": "renders/terminal-only-homepage.png",
+      "local": "media/terminal-homepage-demo.png",
+      "sha256": "7772e1c00f3a1aad32ac931529725de3ff37eb51448916fe957a5e6f61497dec"
+    }
+  ],
+  "excluded": [
+    {
+      "repository": "https://github.com/MohamedEzz524/Experiment-3-cinematic-landing-page-reveal",
+      "commit": "412ad6667172d11ac721e2c44e5b004b22f250e4",
+      "reason": "MIT declared in README and package.json, but no LICENSE/COPYING/NOTICE or independent full grant/copyright record; no code or assets copied."
+    }
+  ]
+}

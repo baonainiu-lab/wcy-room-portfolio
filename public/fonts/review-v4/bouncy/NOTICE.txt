@@ -1,0 +1,7 @@
+Copyright 2023 The Bobohei Project Authors (https://github.com/maoken-fonts/KNBobohei)
+版权 2023 荆南字坊波波黑计划（https://github.com/maoken-fonts/KNBobohei）
+
+Original design: 荆南波波黑 Bold
+Review derivative family: Atelier Bouncy Display
+Source: https://github.com/maoken-fonts/KNBobohei
+Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only.

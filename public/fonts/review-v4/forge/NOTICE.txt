@@ -1,0 +1,7 @@
+(c)2023 北京字跳网络技术有限公司 版权所有
+copyright(c)2023 by Beijing Zitiao Network Technology Co., Ltd. All rights reserved.
+
+Original design: 抖音美好体 Bold
+Review derivative family: Atelier Forge Display
+Source: https://github.com/bytedance/fonts
+Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only. Removed malformed upstream optional GSUB substitution table; normal cmap/glyph outlines/advance widths preserved.

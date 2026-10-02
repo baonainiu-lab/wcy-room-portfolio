@@ -1,0 +1,43 @@
+{
+  "id": "forge",
+  "letter": "A",
+  "name": "抖音美好体 Bold",
+  "shortName": "抖音美好体",
+  "family": "Atelier Forge Display",
+  "weight": 400,
+  "file": "douyin-upstream/DouyinSans/DouyinSansBold.ttf",
+  "licenseFile": "douyin-upstream/DouyinSans/OFL.txt",
+  "repo": "douyin-upstream",
+  "source": "https://github.com/bytedance/fonts",
+  "licenseSource": "https://github.com/bytedance/fonts/blob/main/DouyinSans/OFL.txt",
+  "author": "抖音品牌创意中心 / 北京字跳网络技术有限公司",
+  "tag": "厚块切角 · 几何秩序",
+  "description": "饱满的黑度、利落的切角，像游戏标题中的实体标牌。适合偏科幻、硬表面与场景方向。",
+  "kind": "全新候选",
+  "fontUrl": "/fonts/review-v4/forge/display.woff2",
+  "licenseUrl": "/fonts/review-v4/forge/OFL.txt",
+  "fontBytes": 12492,
+  "version": [
+    "Version 1.01"
+  ],
+  "originalOs2Weight": 400,
+  "requiredTextMissing": [],
+  "reviewOnly": true,
+  "modified": true,
+  "modifications": "Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only. Removed malformed upstream optional GSUB substitution table; normal cmap/glyph outlines/advance widths preserved.",
+  "copyright": [
+    "(c)2023 北京字跳网络技术有限公司 版权所有",
+    "copyright(c)2023 by Beijing Zitiao Network Technology Co., Ltd. All rights reserved."
+  ],
+  "glyphCount": 176,
+  "removedTables": [
+    "GSUB: invalid upstream lookup/subtable offset"
+  ],
+  "requiredOutlinesUnchanged": true,
+  "commit": "327565b61501d7a6d4902ed6ce417a7bd2ae54e6",
+  "sha256": {
+    "source": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "woff2": "e62dd7b70a8509da1a6100fadbeb0fc6fca9f009fd2ca8a6dbd909536c392ff9",
+    "license": "a6d5700a002ea32bcfbe3310253d603997683dac8ac63777e375d06c07c30ea6"
+  }
+}

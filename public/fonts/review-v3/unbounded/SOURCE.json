@@ -1,0 +1,66 @@
+{
+  "slug": "unbounded",
+  "name": "标小智无界黑",
+  "source": "LogoSCUnboundedSans.ttf",
+  "family": "OrbitalReviewBlock",
+  "version": "v1.100",
+  "repo": "https://github.com/maoken-fonts/unbounded-sans",
+  "release": "https://github.com/maoken-fonts/unbounded-sans/releases/tag/v1.100",
+  "download": "https://github.com/maoken-fonts/unbounded-sans/releases/download/v1.100/LogoSCUnboundedSans.zip",
+  "license_url": "https://github.com/maoken-fonts/unbounded-sans/blob/v1.100/OFL.txt",
+  "description": "宽扁厚重、方块与圆转折结合，黑色面积最大；适合未来感空间品牌标题。",
+  "license": "SIL Open Font License 1.1",
+  "checkedAt": "2026-09-22",
+  "weight": 400,
+  "singleWeight": true,
+  "originalItalicAngle": 0.0,
+  "syntheticBold": false,
+  "source_file": "assets/font-candidates/v3/unbounded/LogoSCUnboundedSans.ttf",
+  "source_bytes": 2836736,
+  "source_sha256": "b25b6b546701a7ce296a847660f859bb42d2cf3dad16f11f78e1f18f3d2b29f8",
+  "web_file": "public/fonts/review-v3/unbounded/review.woff2",
+  "web_bytes": 38588,
+  "web_sha256": "eb8ad1ab8d2856f84decc2345a6905cb620b023dd74e2633b94b2d906adc74e9",
+  "web_family": "OrbitalReviewBlock",
+  "subset_characters": 293,
+  "unsupported_optional_characters": "",
+  "required_phrase_coverage": true,
+  "modified": true,
+  "modifications": "Character subset and distinct family/full/PostScript names; glyph outlines and weight untouched. Original copyright and OFL retained.",
+  "note": "Review candidate only. Do not replace the approved production UI before user selection.",
+  "archive_files": {
+    "LogoSCUnboundedSans-v1.100.zip": {
+      "bytes": 3463272,
+      "sha256": "567c5f0bc19595b046ecbeaabcf842be08d02818abc392b7725a3b2031864d89"
+    },
+    "LogoSCUnboundedSans.ttf": {
+      "bytes": 2836736,
+      "sha256": "b25b6b546701a7ce296a847660f859bb42d2cf3dad16f11f78e1f18f3d2b29f8"
+    },
+    "OFL_ZHS.txt": {
+      "bytes": 6624,
+      "sha256": "e2256575154ea2b5a03b973e198d1d40ec5a8a477a6f6d9cda10b7212fbc02ec"
+    },
+    "LogoSCUnboundedSans.otf": {
+      "bytes": 2047888,
+      "sha256": "8dd7fb81a5112f06dcdacfadd041a3de46384c41312a76e0f2f1e097cd6147a8"
+    },
+    "subset-characters.txt": {
+      "bytes": 688,
+      "sha256": "9baad365707b686602fd079473b188b939cdf1e422a720a74bc8308abafae20e"
+    },
+    "OFL.txt": {
+      "bytes": 4666,
+      "sha256": "98d9a03804b968bea35bf2ee7f45d203260751d4307bf5e9cb2d9b4b5bfb130d"
+    },
+    "LICENSE.txt": {
+      "bytes": 4572,
+      "sha256": "eb01489da86293bac8dc8c6f046a4b6364991278d9c8afaafb2b7374e6d04e1a"
+    }
+  },
+  "fontUrl": "/fonts/review-v3/unbounded/review.woff2",
+  "style": "normal",
+  "fontDisplay": "swap",
+  "fontSynthesis": "none",
+  "uiRole": "display"
+}

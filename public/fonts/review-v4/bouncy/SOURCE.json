@@ -1,0 +1,42 @@
+{
+  "id": "bouncy",
+  "letter": "C",
+  "name": "荆南波波黑 Bold",
+  "shortName": "荆南波波黑",
+  "family": "Atelier Bouncy Display",
+  "weight": 700,
+  "file": "bobo-upstream/fonts/TTF/KNBobohei-Bold.ttf",
+  "licenseFile": "bobo-upstream/OFL.txt",
+  "repo": "bobo-upstream",
+  "source": "https://github.com/maoken-fonts/KNBobohei",
+  "licenseSource": "https://github.com/maoken-fonts/KNBobohei/blob/main/OFL.txt",
+  "author": "荆南字坊 / Kingnam Type Foundry",
+  "tag": "饱满波浪 · 卡通雕塑感",
+  "description": "波浪形笔画和柔软转角，厚重但不机械。适合卡通、玩具感与休闲游戏美术方向。",
+  "kind": "全新候选",
+  "fontUrl": "/fonts/review-v4/bouncy/display.woff2",
+  "licenseUrl": "/fonts/review-v4/bouncy/OFL.txt",
+  "fontBytes": 18304,
+  "version": [
+    "Version 1.710;March 18, 2023",
+    "版本 1.710；2023年3月18日"
+  ],
+  "originalOs2Weight": 700,
+  "requiredTextMissing": [],
+  "reviewOnly": true,
+  "modified": true,
+  "modifications": "Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only.",
+  "copyright": [
+    "Copyright 2023 The Bobohei Project Authors (https://github.com/maoken-fonts/KNBobohei)",
+    "版权 2023 荆南字坊波波黑计划（https://github.com/maoken-fonts/KNBobohei）"
+  ],
+  "glyphCount": 176,
+  "removedTables": [],
+  "requiredOutlinesUnchanged": true,
+  "commit": "3218fbf0078541ff6bc0b7811e6e5e4d5e90d352",
+  "sha256": {
+    "source": "4d641bd7885bed7e32eb823723c93259d9678923c4606803fa96d080af465825",
+    "woff2": "ba22996b7b126fbb381f034dbcbfe1dcd77ad4b51975d1df6b2acfdf7d63ad17",
+    "license": "2f4d367072f5f4d154c0e1a6716f04d10a707a05ed5540a9bc68c7661d0e4770"
+  }
+}

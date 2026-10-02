@@ -1,0 +1,291 @@
+{
+  "name": "寒蝉圆黑体 Heavy",
+  "family": "Atelier Rounded Display",
+  "style": "normal",
+  "weight": 900,
+  "source": "https://github.com/Warren2060/ChillRoundGothic",
+  "licenseSource": "https://github.com/Warren2060/ChillRoundGothic/blob/main/License.txt",
+  "download": "https://raw.githubusercontent.com/Warren2060/ChillRoundGothic/main/ttf/ChillRoundGothic_Heavy.ttf",
+  "license": "SIL Open Font License 1.1",
+  "copyright": [
+    "© 2014-2021 Adobe, with Reserved Font Name 'Source'.",
+    "© 2023 ChillType, with Reserved Font Name 'ChillRounded'.",
+    "Copyright 2023 The ChillRoundGothic Project Authors"
+  ],
+  "approval": {
+    "evidence": "寒蝉圆黑体立体厚字",
+    "date": "2026-09-22"
+  },
+  "original": {
+    "path": "assets/font-candidates/v3/chill-rounded-heavy/ChillRoundGothic_Heavy.ttf",
+    "version": "Version 3.700",
+    "weight": 900,
+    "bytes": 12870060,
+    "sha256": "8e008ecec9854ec2887cea9e28a7826c65c00409d532e0fe5bd01afe704e718e"
+  },
+  "derivative": {
+    "file": "atelier-rounded-display-ui.woff2",
+    "fontUrl": "/fonts/orbital-rounded/atelier-rounded-display-ui.woff2",
+    "family": "Atelier Rounded Display",
+    "style": "normal",
+    "weight": 900,
+    "characters": 548,
+    "glyphs": 594,
+    "bytes": 88296,
+    "sha256": "9f430c6b90775ab50ccb2539e99ab42509ce3d4b9fd51be4142496a3442535d0",
+    "fontTools": "4.65.0",
+    "renamed": true,
+    "scope": "All previous 540 UI subset characters retained; added cube welcome and identity copy. Rebuild when new UI copy introduces characters outside CHARACTERS.txt."
+  },
+  "coverage": {
+    "requiredSources": [
+      "index.html",
+      "src/main.js",
+      "src/scene-callout.js",
+      "src/gallery-navigation.js",
+      "src/works-gallery.js"
+    ],
+    "requiredSourceCharacters": 520,
+    "reviewSubsetCharacters": 509,
+    "addedToReviewSubset": [
+      {
+        "character": "↗",
+        "codepoint": "U+2197"
+      }
+    ],
+    "requiredTextMissing": [],
+    "subsetTextMissing": [],
+    "outlineMismatch": [],
+    "validatedOutlineCharacters": 548,
+    "advanceWidthMismatch": [],
+    "galleryAddedCharacters": [
+      {
+        "character": "–",
+        "codepoint": "U+2013"
+      },
+      {
+        "character": "←",
+        "codepoint": "U+2190"
+      },
+      {
+        "character": "↔",
+        "codepoint": "U+2194"
+      },
+      {
+        "character": "仍",
+        "codepoint": "U+4ECD"
+      },
+      {
+        "character": "位",
+        "codepoint": "U+4F4D"
+      },
+      {
+        "character": "具",
+        "codepoint": "U+5177"
+      },
+      {
+        "character": "册",
+        "codepoint": "U+518C"
+      },
+      {
+        "character": "切",
+        "codepoint": "U+5207"
+      },
+      {
+        "character": "占",
+        "codepoint": "U+5360"
+      },
+      {
+        "character": "厅",
+        "codepoint": "U+5385"
+      },
+      {
+        "character": "场",
+        "codepoint": "U+573A"
+      },
+      {
+        "character": "安",
+        "codepoint": "U+5B89"
+      },
+      {
+        "character": "完",
+        "codepoint": "U+5B8C"
+      },
+      {
+        "character": "实",
+        "codepoint": "U+5B9E"
+      },
+      {
+        "character": "屉",
+        "codepoint": "U+5C49"
+      },
+      {
+        "character": "意",
+        "codepoint": "U+610F"
+      },
+      {
+        "character": "或",
+        "codepoint": "U+6216"
+      },
+      {
+        "character": "换",
+        "codepoint": "U+6362"
+      },
+      {
+        "character": "推",
+        "codepoint": "U+63A8"
+      },
+      {
+        "character": "摆",
+        "codepoint": "U+6446"
+      },
+      {
+        "character": "暂",
+        "codepoint": "U+6682"
+      },
+      {
+        "character": "未",
+        "codepoint": "U+672A"
+      },
+      {
+        "character": "此",
+        "codepoint": "U+6B64"
+      },
+      {
+        "character": "浏",
+        "codepoint": "U+6D4F"
+      },
+      {
+        "character": "真",
+        "codepoint": "U+771F"
+      },
+      {
+        "character": "笼",
+        "codepoint": "U+7B3C"
+      },
+      {
+        "character": "继",
+        "codepoint": "U+7EE7"
+      },
+      {
+        "character": "览",
+        "codepoint": "U+89C8"
+      },
+      {
+        "character": "车",
+        "codepoint": "U+8F66"
+      },
+      {
+        "character": "预",
+        "codepoint": "U+9884"
+      }
+    ],
+    "introAddedCharacters": [
+      {
+        "character": "份",
+        "codepoint": "U+4EFD"
+      },
+      {
+        "character": "到",
+        "codepoint": "U+5230"
+      },
+      {
+        "character": "始",
+        "codepoint": "U+59CB"
+      },
+      {
+        "character": "扫",
+        "codepoint": "U+626B"
+      },
+      {
+        "character": "来",
+        "codepoint": "U+6765"
+      },
+      {
+        "character": "欢",
+        "codepoint": "U+6B22"
+      },
+      {
+        "character": "跳",
+        "codepoint": "U+8DF3"
+      },
+      {
+        "character": "迎",
+        "codepoint": "U+8FCE"
+      }
+    ]
+  },
+  "sourceFiles": [
+    {
+      "path": "src/main.js",
+      "sha256": "c8d101bfc57b3724986590b67562d7eafd5c448252c568bb49c1424f273d012e"
+    },
+    {
+      "path": "src/scene-callout.js",
+      "sha256": "7f82b0109bdeecdbf8c21f48cbe3579b13c5d2d3bf794795514c5da4143bcb5a"
+    },
+    {
+      "path": "src/gallery-navigation.js",
+      "sha256": "d4d9db1f16b26a7fcd9d458817ac000a7e7adf5c1462b0a796d31bcd5a15cd47"
+    },
+    {
+      "path": "src/works-gallery.js",
+      "sha256": "b76da4c4696bfcef39aea7f530ae2ea49666ca89764297be497707df54ffa23e"
+    },
+    {
+      "path": "index.html",
+      "sha256": "75186ed6d4f397e4b252428528e874b781f93524606ebbdf62dcf986fffdd718"
+    }
+  ],
+  "licenseFile": {
+    "file": "OFL.txt",
+    "sha256": "bdefa7c6496762298804550255762c4532124282910e976db960b24d04665ad4"
+  },
+  "modifications": "Character subsetting and WOFF2 conversion; renamed primary family/full/PostScript/unique names. All requested glyph outlines verified unchanged. Native OS/2 weight 900 retained. Original copyright and license name records retained.",
+  "revisions": [
+    {
+      "date": "2026-09-24",
+      "reason": "Works gallery UI character coverage",
+      "previousDerivative": {
+        "file": "atelier-rounded-display-ui.woff2",
+        "fontUrl": "/fonts/orbital-rounded/atelier-rounded-display-ui.woff2",
+        "family": "Atelier Rounded Display",
+        "style": "normal",
+        "weight": 900,
+        "characters": 510,
+        "glyphs": 767,
+        "bytes": 99512,
+        "sha256": "9c1ecdc6cb0a42ed16519a1e31788757d1233933be1acee18924b532a6ab2d5b",
+        "fontTools": "4.65.0",
+        "renamed": true,
+        "scope": "Current main UI source character coverage plus all existing review subset characters; printable ASCII included. Rebuild when new UI copy introduces characters outside CHARACTERS.txt."
+      },
+      "addedCharacters": 30,
+      "outlineCharactersValidated": 540,
+      "outlinesAndAdvanceWidthsUnchanged": true,
+      "nameTableUnchanged": true
+    },
+    {
+      "date": "2026-09-25",
+      "reason": "Cube welcome and identity text character coverage",
+      "previousDerivative": {
+        "file": "atelier-rounded-display-ui.woff2",
+        "fontUrl": "/fonts/orbital-rounded/atelier-rounded-display-ui.woff2",
+        "family": "Atelier Rounded Display",
+        "style": "normal",
+        "weight": 900,
+        "characters": 540,
+        "glyphs": 797,
+        "bytes": 104264,
+        "sha256": "67c9f01efec8c819e926a896fa89e46b0dfb5abf00a94e5b767b5cd9f89b21bb",
+        "fontTools": "4.65.0",
+        "renamed": true,
+        "scope": "All previous 510 UI subset characters retained; added main and gallery UI Chinese, punctuation, arrows and printable ASCII coverage. Rebuild when new UI copy introduces characters outside CHARACTERS.txt."
+      },
+      "addedCharacters": 8,
+      "outlineCharactersValidated": 548,
+      "outlinesAndAdvanceWidthsUnchanged": true,
+      "nameTableUnchanged": true
+    }
+  ]
+}

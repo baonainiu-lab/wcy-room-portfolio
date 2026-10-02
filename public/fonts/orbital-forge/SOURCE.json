@@ -1,0 +1,447 @@
+{
+  "name": "抖音美好体 Bold",
+  "family": "Atelier Forge Display",
+  "style": "normal",
+  "cssWeight": 700,
+  "fontSynthesis": "none",
+  "approval": {
+    "evidence": "用户在 V4 验收页选择 A：抖音美好体 Bold；选定截图开启立体厚度。",
+    "date": "2026-09-25"
+  },
+  "source": "https://github.com/bytedance/fonts",
+  "sourceCommit": "327565b61501d7a6d4902ed6ce417a7bd2ae54e6",
+  "license": "SIL Open Font License 1.1",
+  "licenseSource": "https://github.com/bytedance/fonts/blob/main/DouyinSans/OFL.txt",
+  "copyright": [
+    "(c)2023 北京字跳网络技术有限公司 版权所有",
+    "copyright(c)2023 by Beijing Zitiao Network Technology Co., Ltd. All rights reserved."
+  ],
+  "original": {
+    "path": "assets/font-candidates/v4/douyin-upstream/DouyinSans/DouyinSansBold.ttf",
+    "version": "1.01",
+    "os2Weight": 400,
+    "styleName": "Bold",
+    "bytes": 1919404,
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1"
+  },
+  "derivative": {
+    "file": "atelier-forge-display-ui.woff2",
+    "fontUrl": "/fonts/orbital-forge/atelier-forge-display-ui.woff2",
+    "family": "Atelier Forge Display",
+    "cssWeight": 700,
+    "os2Weight": 400,
+    "characters": 1085,
+    "glyphs": 1086,
+    "bytes": 115368,
+    "sha256": "75c106b7b7cd9dda16068202ac454c1352b8528897a849c3604b17534a7fb6b3",
+    "renamed": true
+  },
+  "weightNote": "Upstream names its sole design Bold but its original OS/2 usWeightClass is 400. That metadata and the real outlines are preserved. CSS maps this supplied face explicitly to 700; font-synthesis:none prevents browser emboldening. This is not a native 700 metadata claim or synthesized 900.",
+  "removedTables": [
+    "Malformed upstream GSUB: invalid lookup/subtable offset. Normal character mapping and outlines retained."
+  ],
+  "modifications": "Renamed family/full/PostScript/unique/style records, selected current-site character subset, WOFF2 conversion, removal of malformed optional upstream GSUB. No outline or advance-width changes. Original OS/2 weight, copyright and license records preserved. Depth remains CSS text-shadow.",
+  "coverage": {
+    "requiredSources": [
+      "index.html",
+      "src/about-atelier-environment.js",
+      "src/about-atelier.js",
+      "src/about-book-entry.js",
+      "src/about-framing.js",
+      "src/avatar/geometric-creator.js",
+      "src/avatar-homepage.js",
+      "src/cube-intro.js",
+      "src/dual-lighting.js",
+      "src/exhibit-detail.js",
+      "src/exterior-atmosphere.js",
+      "src/folded-room-intro.experimental.js",
+      "src/folded-room-motion.js",
+      "src/gallery-catalog.js",
+      "src/gallery-exhibit-cover.js",
+      "src/gallery-floor-finish.js",
+      "src/gallery-framing.js",
+      "src/gallery-glass.js",
+      "src/gallery-navigation.js",
+      "src/gallery-transition-path.js",
+      "src/gallery-transition.js",
+      "src/homepage-room.js",
+      "src/intro-backdrop.js",
+      "src/intro-input.js",
+      "src/intro-lighting.js",
+      "src/live-room-surfaces.js",
+      "src/main.js",
+      "src/material-release.js",
+      "src/physical-surface.js",
+      "src/resident-terminal.js",
+      "src/resume-book-content.js",
+      "src/resume-book.js",
+      "src/resume-entry-labels.js",
+      "src/robot-patrol.js",
+      "src/room-camera-guard.js",
+      "src/room-entry-attachments.js",
+      "src/room-entry-profiles.js",
+      "src/room-entry.js",
+      "src/room-hover-clearance.js",
+      "src/scene-callout.js",
+      "src/scene-clock.js",
+      "src/scene-inspection.js",
+      "src/scene-motion.js",
+      "src/scene-panorama.js",
+      "src/scene-time-theme.js",
+      "src/startup-readiness.js",
+      "src/terminal-tone.js",
+      "src/tracked-hitboxes.js",
+      "src/utils/OrbitControls.js",
+      "src/work-detail.js",
+      "src/works-gallery.js",
+      "src/avatar-homepage.scss",
+      "src/cube-intro.scss",
+      "src/exhibit-detail.scss",
+      "src/gallery-navigation.scss",
+      "src/gallery-transition.scss",
+      "src/minimal-scene-ui.scss",
+      "src/resume-book-cover.scss",
+      "src/resume-book.scss",
+      "src/resume-entry-labels.scss",
+      "src/scene-callout.scss",
+      "src/scene-time-theme.scss",
+      "src/style.scss",
+      "src/styles/defaults.scss",
+      "src/styles/fonts.scss",
+      "src/styles/reset.scss",
+      "src/styles/typography.scss",
+      "src/styles/variables.scss",
+      "src/work-detail.scss",
+      "src/content/gallery-exhibits-23.json",
+      "src/content/gallery-exhibits-45.json"
+    ],
+    "currentChineseSourceCharacters": 958,
+    "chineseMissing": [],
+    "coveredCharacters": 1085,
+    "validatedOutlineCharacters": 1085,
+    "outlineMismatch": [],
+    "advanceWidthMismatch": [],
+    "copyrightAndLicenseNameRecordsUnchanged": true,
+    "optionalSymbolFallback": [
+      {
+        "character": "–",
+        "codepoint": "U+2013"
+      },
+      {
+        "character": "↔",
+        "codepoint": "U+2194"
+      },
+      {
+        "character": "↗",
+        "codepoint": "U+2197"
+      },
+      {
+        "character": "↶",
+        "codepoint": "U+21B6"
+      },
+      {
+        "character": "↷",
+        "codepoint": "U+21B7"
+      },
+      {
+        "character": "▶",
+        "codepoint": "U+25B6"
+      },
+      {
+        "character": "・",
+        "codepoint": "U+30FB"
+      }
+    ],
+    "fallbackPolicy": "Only upstream-absent punctuation/arrows use existing system fallback. All current Chinese source characters are present in the selected font."
+  },
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "4c9cf4fe55c25e1c92a7232eefd4c6839d40710a672ac354e19bf290c853136b"
+    },
+    {
+      "path": "src/about-atelier-environment.js",
+      "sha256": "86d207d174611aa05047b3e69ff56cf664adfb4780893c11aad8ab483d04914f"
+    },
+    {
+      "path": "src/about-atelier.js",
+      "sha256": "38bc93ac4cea36b725027a7db03d868763938eacd7b1af7381126a9cc8c48acf"
+    },
+    {
+      "path": "src/about-book-entry.js",
+      "sha256": "7889102b9a800fd6bf6549c7dff6d89d09e75b5484945f1f93c4ecc496b94255"
+    },
+    {
+      "path": "src/about-framing.js",
+      "sha256": "84f6ba5a5811aae1b2b52b90edcc3e231d4c43e6786a9b5a699747dacb630cad"
+    },
+    {
+      "path": "src/avatar/geometric-creator.js",
+      "sha256": "aa0d7a159abd801614006c584033afe1d2c81c0a2a377716c82ab7f3d5166357"
+    },
+    {
+      "path": "src/avatar-homepage.js",
+      "sha256": "48c0fecd8c7a661ff4821221c179689cb3e56e337fc4d9965cbcd3d237487015"
+    },
+    {
+      "path": "src/cube-intro.js",
+      "sha256": "d5fb8f118d1eb50773714e04874b38d5570b66bdef6fb8e2135d70316555877b"
+    },
+    {
+      "path": "src/dual-lighting.js",
+      "sha256": "fa2fa80dfd1550325d621115ef1df04a4b1bd06e552a06263aea37314623fee3"
+    },
+    {
+      "path": "src/exhibit-detail.js",
+      "sha256": "bfc3edbf77a3c1a9e5ce92f2418a4c10056f2bc208d042ced9888d196164b1ca"
+    },
+    {
+      "path": "src/exterior-atmosphere.js",
+      "sha256": "2048676688b50d1c2e7e854a40c265d44126941ae5200055280b5213c737fff8"
+    },
+    {
+      "path": "src/folded-room-intro.experimental.js",
+      "sha256": "d41281526a753f855a241aa89e1c4b5ba54fca23ad37cc927090fafb732b619b"
+    },
+    {
+      "path": "src/folded-room-motion.js",
+      "sha256": "c45703f09ec57dcd6837b16d483efa64756353eb1baffb17efe5dfb7c13a663c"
+    },
+    {
+      "path": "src/gallery-catalog.js",
+      "sha256": "bc5189e667c2427917b6d524919d349cfe400f3421e8b803646ad4ed4f401571"
+    },
+    {
+      "path": "src/gallery-exhibit-cover.js",
+      "sha256": "7367bfeb0e0c45a831a7ce3ed9ee8929fe575efa903fda2981e2e1502f465a9f"
+    },
+    {
+      "path": "src/gallery-floor-finish.js",
+      "sha256": "2f9cb483d091dc5c296cc254d927a2e6509174d2e050f9cffcea6ced72423f18"
+    },
+    {
+      "path": "src/gallery-framing.js",
+      "sha256": "820ebd3dd317191c237eb5a88cfebfcc11e6c96d036ece628db9cb4add80ded0"
+    },
+    {
+      "path": "src/gallery-glass.js",
+      "sha256": "3037af8923cda95f1c627e95f3270109f804ed72620c57deac1165202e1f387c"
+    },
+    {
+      "path": "src/gallery-navigation.js",
+      "sha256": "54fc1054373f6f54606954e4bda9841d15e83665dff64ed63458e515a5a1e03e"
+    },
+    {
+      "path": "src/gallery-transition-path.js",
+      "sha256": "b123b5602e5886bf54aac12cf823a49b4c3ba8df5385decc8d2869c306398763"
+    },
+    {
+      "path": "src/gallery-transition.js",
+      "sha256": "949ac3c068a2d15861c3007fd26272d692dae63c9171928fa9b01124a1a2e6a5"
+    },
+    {
+      "path": "src/homepage-room.js",
+      "sha256": "c85b9160a887d3bca56890a7b3bd9830ff55b20f9427601da5995f261f86b41c"
+    },
+    {
+      "path": "src/intro-backdrop.js",
+      "sha256": "984d9393f768f680120c2b2884cced8b696d80c2aa1aac95b9a1a10d4b72fd18"
+    },
+    {
+      "path": "src/intro-input.js",
+      "sha256": "cc8148b1e99cb508a19b936c2d8630052affd8e8457dead3b004ce896ed930cc"
+    },
+    {
+      "path": "src/intro-lighting.js",
+      "sha256": "94efc3f054687f29811bbef0eba1601c5edb77bf5b65121550b64f36de30fcc9"
+    },
+    {
+      "path": "src/live-room-surfaces.js",
+      "sha256": "89de4ecc91897a34230dc6e51586e004b6d65430a7c77654067919ca9e8f2c4c"
+    },
+    {
+      "path": "src/main.js",
+      "sha256": "1e6a4e2086898ac2c924d0e4909746231c7b39215523fe2c9e352334e1cefc25"
+    },
+    {
+      "path": "src/material-release.js",
+      "sha256": "d08d16bfb5a0cee55cfe39b01bbcd841f69e6b8a7ee01a623824f38045457a23"
+    },
+    {
+      "path": "src/physical-surface.js",
+      "sha256": "3566541727c64aa235cd9b7973237875678a84dbae62ee51870beca18ebcf3c7"
+    },
+    {
+      "path": "src/resident-terminal.js",
+      "sha256": "37e1f7a7ea0045fb477b773312e6e3810b83e8dcd453787452f7b5432e1baa83"
+    },
+    {
+      "path": "src/resume-book-content.js",
+      "sha256": "a4da6ee3c0b279fa6285be8be6d347253f15e0b1bcf25fb038c6fb16a3c64496"
+    },
+    {
+      "path": "src/resume-book.js",
+      "sha256": "1fd7e1829c8560385c7467f922792185cae2e4d5d04c81ee768c10bd70eefe69"
+    },
+    {
+      "path": "src/resume-entry-labels.js",
+      "sha256": "54931a40e860a760a360105ae2e534d7433508bb1b63cfffda4d6b05e1852af2"
+    },
+    {
+      "path": "src/robot-patrol.js",
+      "sha256": "4d7291727a3a48395f09ff4abdad172cd9c432cca25b78cabf3a7dc9f309f96e"
+    },
+    {
+      "path": "src/room-camera-guard.js",
+      "sha256": "abdb97cbb79a7da13ad6469ceefa0e9803e23cb2a263dd3afe1dbf3a153c98d6"
+    },
+    {
+      "path": "src/room-entry-attachments.js",
+      "sha256": "200c8128335adc99f200e4d3aaa555d9c373d7319f0e2c76e55ea03d58e65cc1"
+    },
+    {
+      "path": "src/room-entry-profiles.js",
+      "sha256": "bcb434eddec1924a6d28957f1e3597915a100937a8369239b612eeacef1312c7"
+    },
+    {
+      "path": "src/room-entry.js",
+      "sha256": "347a214c889e2cbb3dc6cdb9ed9d0e65f1f64f36429a357e26a7080b8b510494"
+    },
+    {
+      "path": "src/room-hover-clearance.js",
+      "sha256": "028ba8bb08fbf9f61870c5932edf92630d79473b71d5c823eeaa2b8be4a26de0"
+    },
+    {
+      "path": "src/scene-callout.js",
+      "sha256": "7f82b0109bdeecdbf8c21f48cbe3579b13c5d2d3bf794795514c5da4143bcb5a"
+    },
+    {
+      "path": "src/scene-clock.js",
+      "sha256": "a2d6a92d4b1bda0243ca2ee60eabdea9db80e4f6c6ca14473690c5a06095089e"
+    },
+    {
+      "path": "src/scene-inspection.js",
+      "sha256": "cd9b9f656026ca74236405d6f5f4d0a45ab688ab6c77a42dedb932ed1a266bc3"
+    },
+    {
+      "path": "src/scene-motion.js",
+      "sha256": "0020198b4aac58a125544b21caa744e9a0c86210cb5eae402cff009dd81804b9"
+    },
+    {
+      "path": "src/scene-panorama.js",
+      "sha256": "a39b1262d0e626110978804db9ff1ff4a8bc92ac56ee56485d51810d0165716a"
+    },
+    {
+      "path": "src/scene-time-theme.js",
+      "sha256": "eabc6a3583dc68fcfafc8615dedb0cd092a6e07992a0f172e3fa6714ad281735"
+    },
+    {
+      "path": "src/startup-readiness.js",
+      "sha256": "2b576de28ad45c6be99fcd5ae8fb8d22158cc7c4cd9491d96dd2b3ffd1558e06"
+    },
+    {
+      "path": "src/terminal-tone.js",
+      "sha256": "8904d2d17b096d0aa14e5044ea7bdf8b99c27ab6ad9adfc181e06e835932be1d"
+    },
+    {
+      "path": "src/tracked-hitboxes.js",
+      "sha256": "fd40985742690c2efa88425c43734a26692976f07d955c5199c420532efda023"
+    },
+    {
+      "path": "src/utils/OrbitControls.js",
+      "sha256": "ab46812656956ff81a121973a82acb179e7d3b0b782483693e2440313fa94160"
+    },
+    {
+      "path": "src/work-detail.js",
+      "sha256": "b460155ea9ef85076119e05848c20bd8a009fba1f815acb583235ccafb776f9e"
+    },
+    {
+      "path": "src/works-gallery.js",
+      "sha256": "1749128d29ebb0c9c35f028bed8480e0b5e4cc66edb86f257e96a64644065d98"
+    },
+    {
+      "path": "src/avatar-homepage.scss",
+      "sha256": "01dd2236909dd627b6bf6cb6b27c4278a64ed10446301364761ed535e764d318"
+    },
+    {
+      "path": "src/cube-intro.scss",
+      "sha256": "e4746955ffb28c3218ad28aaa1f0a06f6000d8b89f3b930bb076f16083461d86"
+    },
+    {
+      "path": "src/exhibit-detail.scss",
+      "sha256": "24f8693c1edf682eda4133c789c1de2eaeeff9e4cc6984b1cd478b3217924761"
+    },
+    {
+      "path": "src/gallery-navigation.scss",
+      "sha256": "8db1646cbf3e21b8327020db8de127e529725346a36b13f5c7d1e734a297c2a8"
+    },
+    {
+      "path": "src/gallery-transition.scss",
+      "sha256": "a30b62208808b69947e423321573395a5b1b338914273cb5bf4ef60f06a3b3e2"
+    },
+    {
+      "path": "src/minimal-scene-ui.scss",
+      "sha256": "5a0092b494b775aeac2ab02c693b4356809d90dc7e2654d06157a9b934422d82"
+    },
+    {
+      "path": "src/resume-book-cover.scss",
+      "sha256": "0df0aa871e6219ad175a9b77d8fe6cff5deed3c0df7b14ce57dd4f7ce9ac5370"
+    },
+    {
+      "path": "src/resume-book.scss",
+      "sha256": "46b8de12bc31de9eb863895419d911a04f7ef0dbc285ce20862fd70a9ad3ccc6"
+    },
+    {
+      "path": "src/resume-entry-labels.scss",
+      "sha256": "017b3320cbc2dbd8c6e5ca2c088e037d36f63764da48c0d76304e63596a15058"
+    },
+    {
+      "path": "src/scene-callout.scss",
+      "sha256": "f6d9a66c272f2ec94598cf7a502f27a160dcbdbace4be6341535ec18fcd8c94b"
+    },
+    {
+      "path": "src/scene-time-theme.scss",
+      "sha256": "7caaf27e4843c6dabf45a610decd03afc9bf90c6df60d01a36988045b73f7b34"
+    },
+    {
+      "path": "src/style.scss",
+      "sha256": "b7a70bc557befa5871800c354c294d47176d6a04eb0e6d26f0261523ce94ee7f"
+    },
+    {
+      "path": "src/styles/defaults.scss",
+      "sha256": "b16da74232c2c91f42a69460a3996c55d149effcaf2f21c46b7bf5f66bbd70dd"
+    },
+    {
+      "path": "src/styles/fonts.scss",
+      "sha256": "36baf649442fb0c1fc45cfc80e6ca584fdda0c19a9bc4ea540f910ea393587b0"
+    },
+    {
+      "path": "src/styles/reset.scss",
+      "sha256": "4d6706665618b49047b2d8d386f44caee36d429673e2632f2260f6c8b376ea99"
+    },
+    {
+      "path": "src/styles/typography.scss",
+      "sha256": "22fdae94e65bc1f4d2d365c0aea2df00f2c5ea72efcb16f7d929a86e56408c65"
+    },
+    {
+      "path": "src/styles/variables.scss",
+      "sha256": "21c8deb25d88dad0bea1389995d13942b62abe9e600a970ae4a419fb07f25efe"
+    },
+    {
+      "path": "src/work-detail.scss",
+      "sha256": "c2ec05e787d3c11156c6548753cb5e0eccf44de75ce988c328b80d2b13c5da0d"
+    },
+    {
+      "path": "src/content/gallery-exhibits-23.json",
+      "sha256": "6cf8e1bef6985bbc49bc12093fccc5156de043ef37316dc548863847165f4a65"
+    },
+    {
+      "path": "src/content/gallery-exhibits-45.json",
+      "sha256": "33636d96f3a8475e732cef939be41731cb212a88921669c9a58752c08c643261"
+    }
+  ],
+  "licenseFile": {
+    "file": "OFL.txt",
+    "sha256": "a6d5700a002ea32bcfbe3310253d603997683dac8ac63777e375d06c07c30ea6"
+  }
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f2eee5">
+  <title>四种开场 · 创作空间</title>
+  <link rel="icon" href="/media/brand/atelier-fold-v2-favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/orbital-forge/atelier-forge-display-ui.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./review.css">
+  <script id="loader-review-diagnostics" type="application/json">{"phase":"boot","simulated":true}</script>
+  <script src="./source/vendor/gsap.min.js" defer></script>
+  <script type="module" src="./review.js"></script>
+</head>
+<body>
+  <header class="review-header">
+    <a class="review-brand" href="/" aria-label="返回本站首页"><img src="/media/brand/atelier-fold-v2.svg" width="38" height="38" alt=""><span>创作空间</span></a>
+    <p>开场动效研究 <span>／ 01</span></p>
+    <a href="./source/ATTRIBUTION.md" target="_blank" rel="noopener">源码与许可 ↗</a>
+  </header>
+  <main class="review-layout">
+    <aside class="review-sidebar">
+      <div class="review-intro"><p class="eyebrow">OPENING STUDIES</p><h1>让进入，<br>成为开始。</h1><p>四个开源动效的本地适配。<br>选择一种，完整看完它的开场。</p></div>
+      <div class="variant-tabs" role="tablist" aria-label="选择开场方案" aria-orientation="vertical">
+        <button type="button" id="tab-A" role="tab" aria-selected="true" aria-controls="preview" data-variant="A"><span class="variant-letter">A</span><span><strong>斜线启幕</strong><small>填充 · 字幕 · 横向色幕</small></span><span class="variant-arrow">↗</span></button>
+        <button type="button" id="tab-B" role="tab" aria-selected="false" aria-controls="preview" tabindex="-1" data-variant="B"><span class="variant-letter">B</span><span><strong>折页开场</strong><small>几何折角 · 向外展开</small></span><span class="variant-arrow">↗</span></button>
+        <button type="button" id="tab-C" role="tab" aria-selected="false" aria-controls="preview" tabindex="-1" data-variant="C"><span class="variant-letter">C</span><span><strong>标志升起 · 已选</strong><small>描边成形 · 幕布抬升</small></span><span class="variant-arrow">↗</span></button>
+        <button type="button" id="tab-D" role="tab" aria-selected="false" aria-controls="preview" tabindex="-1" data-variant="D"><span class="variant-letter">D</span><span><strong>为你开窗</strong><small>四边进度 · 中央揭幕</small></span><span class="variant-arrow">↗</span></button>
+      </div>
+      <div class="source-card"><span class="eyebrow">ADAPTED FROM</span><a id="source-link" href="https://github.com/olaf-wilkosz/gsap-website-reveal-animation" target="_blank" rel="noopener">Olaf · Website Reveal ↗</a><p id="source-note">保留斜线填充、逐字进入与横向揭幕的原始编排。</p><span id="source-license">MIT · Olaf, 2023</span></div>
+      <p class="review-note">C 已选并接入主首页。本页保留最初四套演示，进度不是实际下载，新版标志与背景请返回首页查看。</p>
+    </aside>
+    <section class="preview-column" aria-label="动效与播放控制">
+      <div class="preview-meta"><span><i></i><span id="variant-caption">A / 斜线启幕</span></span><button type="button" id="fullscreen">沉浸预览 ⤢</button></div>
+      <section id="preview" class="preview" role="tabpanel" aria-labelledby="tab-A" data-variant="A" data-phase="loading" tabindex="0">
+        <div class="home-demo" aria-hidden="true">
+          <img class="home-image" src="./media/terminal-homepage-demo.png" alt="" width="1227" height="795">
+          <div class="home-brand"><img src="/media/brand/atelier-fold-v2.svg" alt="" width="42" height="42"></div>
+          <p class="home-caption">终端首页示意 · 本站已有画面</p>
+        </div>
+        <div id="effect-mount" class="effect-mount"></div>
+        <div class="stage-message" hidden><span class="message-dot"></span><p id="stage-message-copy"></p><button type="button" id="stage-retry" hidden>重试演示 ↗</button></div>
+        <button type="button" class="fullscreen-close" id="exit-fullscreen" aria-label="退出沉浸预览">退出预览 ↙</button>
+        <span class="demo-watermark">动效演示</span>
+      </section>
+      <div class="transport">
+        <div class="playback-buttons"><button type="button" id="play" aria-label="暂停演示">暂停 <span>Ⅱ</span></button><button type="button" id="replay">重播 <span>↻</span></button></div>
+        <label class="scrubber" for="progress"><span>演示进度 <output id="progress-output" for="progress">0%</output></span><input id="progress" type="range" min="0" max="100" step="1" value="0" aria-label="拖动演示加载进度"></label>
+        <div class="phase-readout"><span id="phase-label" role="status" aria-live="polite">正在演示加载</span><small>拖至 100% 播放退场</small></div>
+      </div>
+      <div class="options"><span>试试不同情况</span><label><input id="simulate-wait" type="checkbox">模拟等待</label><label><input id="simulate-failure" type="checkbox">模拟失败</label><label><input id="reduce-motion" type="checkbox">减少动态</label></div>
+      <p class="preview-footnote">四种方案使用相同首页示意。等待停在 78%，失败停在 62%；这些数字仅用于比较动效。</p>
+    </section>
+  </main>
+  <noscript>请启用 JavaScript 播放这些开场动效。<a href="./source/ATTRIBUTION.md">查看开源来源与许可</a></noscript>
+</body>
+</html>

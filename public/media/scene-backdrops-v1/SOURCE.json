@@ -1,0 +1,41 @@
+{
+  "createdAt": "2026-09-30T02:44:08.919454+00:00",
+  "tool": "OpenAI built-in imagegen",
+  "type": "AI-generated decorative 2:1 panoramic environment images",
+  "scenes": {
+    "room": "blue-gray creative technology campus",
+    "gallery": "sunlit coastal cultural campus"
+  },
+  "dayNightMethod": "Night is an imagegen lighting-weather edit of matching day image, preserving composition.",
+  "files": {
+    "gallery-day.png": {
+      "bytes": 2326942,
+      "sha256": "67f830429f2f057851a357b762f98f81d417806fc90515ceb66e0f162c86a2fa",
+      "width": 1774,
+      "height": 887
+    },
+    "gallery-night.png": {
+      "bytes": 2073719,
+      "sha256": "4238416b5e9ee7af884dd72c95a638db9896cbbc399c44790a469cec0b1e4875",
+      "width": 1774,
+      "height": 887
+    },
+    "room-day.png": {
+      "bytes": 2345618,
+      "sha256": "68c1dce540d5b1c8056c190f10d66bff8cdc75d8e11592691130aea2257ced1e",
+      "width": 1774,
+      "height": 887
+    },
+    "room-night.png": {
+      "bytes": 2141425,
+      "sha256": "8a94c8943d9a75c0f58018cb01b288f371b62affa4d19228c51bda98c18795f9",
+      "width": 1774,
+      "height": 887
+    }
+  },
+  "prompts": "assets/scene-backdrops-v1/prompts.json",
+  "nightPrompts": "assets/scene-backdrops-v1/night-prompts.json",
+  "externalImageInputs": false,
+  "replacesGeometry": false,
+  "localOnly": true
+}

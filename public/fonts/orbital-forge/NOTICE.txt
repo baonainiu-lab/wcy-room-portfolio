@@ -1,0 +1,10 @@
+(c)2023 北京字跳网络技术有限公司 版权所有
+copyright(c)2023 by Beijing Zitiao Network Technology Co., Ltd. All rights reserved.
+
+Atelier Forge Display is a renamed current-site subset derivative of DouyinSans Bold 1.01.
+Source: https://github.com/bytedance/fonts
+License: SIL OFL 1.1; see OFL.txt.
+
+Upstream names its sole design Bold but its original OS/2 usWeightClass is 400. That metadata and the real outlines are preserved. CSS maps this supplied face explicitly to 700; font-synthesis:none prevents browser emboldening. This is not a native 700 metadata claim or synthesized 900.
+
+Renamed family/full/PostScript/unique/style records, selected current-site character subset, WOFF2 conversion, removal of malformed optional upstream GSUB. No outline or advance-width changes. Original OS/2 weight, copyright and license records preserved. Depth remains CSS text-shadow.

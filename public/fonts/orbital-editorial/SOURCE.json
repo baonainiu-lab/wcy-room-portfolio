@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/google/fonts",
+  "retrieved": "2026-09-22",
+  "upstreamFontCommit": "985fa52c81c1d6692ccdd82bc3656e8fb932fd89",
+  "files": [
+    {
+      "file": "NotoSerifSC[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+      "bytes": 25125512,
+      "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9"
+    },
+    {
+      "file": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "file": "METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/METADATA.pb",
+      "bytes": 1373,
+      "sha256": "e0c253c6f850fc3ef6e7fc398361133dd55acc408c931822a3f69cfac08554c2"
+    }
+  ],
+  "derivative": {
+    "file": "orbital-editorial-sc-ui.woff2",
+    "family": "Orbital Editorial SC",
+    "upstreamFamily": "Noto Serif SC",
+    "weights": [
+      600,
+      700
+    ],
+    "characters": 497,
+    "glyphs": 910,
+    "bytes": 188964,
+    "sha256": "e79e72d9ffe6beec7fc755bc3518bae5df6a1ec595bf2c4c9a671aaaf5b40004",
+    "omittedUnsupportedCharacters": [],
+    "fontTools": "4.65.0",
+    "renamed": true,
+    "scope": "UI text only; new text outside this subset falls back to the system serif."
+  }
+}

@@ -1,0 +1,6 @@
+Copyright © 2022–2024 atelierAnchor. All rights reserved.
+
+Original design: 得意黑
+Review derivative family: Atelier Slant Display
+Source: https://github.com/atelier-anchor/smiley-sans
+Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only.

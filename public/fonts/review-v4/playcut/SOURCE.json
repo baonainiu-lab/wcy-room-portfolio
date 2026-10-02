@@ -1,0 +1,40 @@
+{
+  "id": "playcut",
+  "letter": "B",
+  "name": "站酷快乐体",
+  "shortName": "站酷快乐体",
+  "family": "Atelier Playcut Display",
+  "weight": 400,
+  "file": "kuaile-upstream/fonts/ttf/ZCOOLKuaiLe-Regular.ttf",
+  "licenseFile": "kuaile-upstream/OFL.txt",
+  "repo": "kuaile-upstream",
+  "source": "https://github.com/googlefonts/zcool-kuaile",
+  "licenseSource": "https://github.com/googlefonts/zcool-kuaile/blob/main/OFL.txt",
+  "author": "The ZCOOL KuaiLe Project Authors",
+  "tag": "不规则切面 · 手作游戏感",
+  "description": "不规则转折与剪纸般的块面，艺术感更直接。适合风格化、独立游戏与创意玩法方向。",
+  "kind": "全新候选",
+  "fontUrl": "/fonts/review-v4/playcut/display.woff2",
+  "licenseUrl": "/fonts/review-v4/playcut/OFL.txt",
+  "fontBytes": 10992,
+  "version": [
+    "Version 2.001"
+  ],
+  "originalOs2Weight": 400,
+  "requiredTextMissing": [],
+  "reviewOnly": true,
+  "modified": true,
+  "modifications": "Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only.",
+  "copyright": [
+    "Copyright 2018 The ZCOOL KuaiLe Project Authors (https://github.com/googlefonts/zcool-kuaile)"
+  ],
+  "glyphCount": 176,
+  "removedTables": [],
+  "requiredOutlinesUnchanged": true,
+  "commit": "577cd45e035fa0cd27f74579de6ff47db62fde8c",
+  "sha256": {
+    "source": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d",
+    "woff2": "06bda9990b9fe0c0249984ed99b4a530c6c12ee9eba712759fe148edb323bf8f",
+    "license": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+  }
+}

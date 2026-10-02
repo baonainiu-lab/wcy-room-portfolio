@@ -1,0 +1,25 @@
+GSAP 3.15.0 — existing project dependency, copied without changes from
+node_modules/gsap/dist/gsap.min.js. No package installation or upgrade.
+
+Original file header (retained in the runtime file):
+/*!
+ * GSAP 3.15.0
+ * https://gsap.com
+ *
+ * @license Copyright 2026, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license.
+ * @author: Jack Doyle, jack@greensock.com
+ */
+
+License: GSAP Standard "No Charge" License, not MIT.
+Canonical URL: https://gsap.com/community/standard-license/
+Checked 2026-09-30. Effective April 30, 2025; last modified May 30, 2025.
+
+The Standard License permits use, reproduction, display and implementation
+on websites, web applications and digital interfaces, subject to its terms.
+Proprietary notices must remain intact. The review shows four fixed effects;
+it does not create or export animations and is not a visual animation builder.
+
+The original runtime header is preserved in full. The upstream effect-code
+MIT licenses do not relicense GSAP. Refer to the canonical license for its
+complete terms and incorporated terms of service.

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN" data-depth="2">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#11161b">
+  <title>字体试样 · 创作空间</title>
+  <link rel="stylesheet" href="./review.css">
+</head>
+<body>
+  <main>
+    <header class="review-header">
+      <a class="back" href="/">← 返回房间</a><p class="edition">字体试样 / 05</p>
+      <h1>这次，从字形开始选。</h1>
+      <p class="intro">五款真实中文展示字体，同一文案、同一光色。先看字形，再看它放进房间的样子。</p>
+      <p class="approval-note">这是验收对比页。你选定后，再替换网站正式字体。</p>
+    </header>
+    <section class="review-tools" aria-label="字体厚度预览">
+      <span>文字厚度</span>
+      <div class="depth-options" role="group" aria-label="选择文字厚度">
+        <button type="button" data-depth="0" aria-pressed="false">平面字形</button>
+        <button type="button" data-depth="1" aria-pressed="false">浅浮雕</button>
+        <button type="button" data-depth="2" aria-pressed="true">立体厚字</button>
+      </div>
+      <span class="depth-hint">粗笔画 + 有侧面的厚度</span>
+    </section>
+    <div class="candidate-grid" id="candidates" aria-label="五款字体候选"></div>
+    <section class="room-section" aria-labelledby="room-heading">
+      <div class="room-section-header"><div><p class="eyebrow">放进房间看</p><h2 id="room-heading">场景排版预览</h2></div><p id="selected-name" aria-live="polite"></p></div>
+      <div class="stage-font-options" role="group" aria-label="切换场景预览字体"></div>
+      <div class="room-stage" id="room-stage">
+        <div class="room-image" aria-hidden="true"></div>
+        <div class="room-scrim" aria-hidden="true"></div>
+        <div class="stage-brand"><svg class="orbit" viewBox="0 0 56 48" aria-hidden="true"><ellipse cx="28" cy="24" rx="25" ry="14" transform="rotate(-38 28 24)"/><ellipse cx="28" cy="24" rx="13" ry="23" transform="rotate(20 28 24)"/><circle cx="42" cy="8" r="2"/></svg><div><p class="stage-title lettering">创作空间</p><p class="stage-subtitle">个人作品集</p></div></div>
+        <div class="stage-nav" aria-hidden="true"><span class="lettering">作品</span><span class="lettering">关于</span><span class="lettering">联系</span></div>
+        <div class="stage-control" aria-hidden="true"><span class="lettering">☀ 白天</span><span class="lettering active">☾ 夜晚</span><span>↻</span></div>
+        <p class="stage-caption">夜景静态排版预览</p>
+      </div>
+      <p class="decision-copy">在对话里告诉我编号，也可以说明“标题用 01、导航用 04”。本页的预览按钮不会替你确认。</p>
+    </section>
+    <footer>字体本地加载 · 原始许可与来源见各卡片链接</footer>
+  </main>
+  <script type="module" src="./review.js"></script>
+</body>
+</html>

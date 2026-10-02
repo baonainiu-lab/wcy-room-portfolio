@@ -1,0 +1,6 @@
+Copyright 2018 The ZCOOL KuaiLe Project Authors (https://github.com/googlefonts/zcool-kuaile)
+
+Original design: 站酷快乐体
+Review derivative family: Atelier Playcut Display
+Source: https://github.com/googlefonts/zcool-kuaile
+Review-only character subset, WOFF2 conversion, renamed primary family/full/PostScript/unique names. Original glyph outlines and native weight are unchanged. All copyright and OFL information retained. Visual depth is CSS text-shadow only.

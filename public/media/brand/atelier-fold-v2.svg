@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">创作空间 · 折角标志</title>
+  <desc id="desc">深蓝立体折角围合出开放的创作空间，暖橙色悬片呼应终端机，钛银侧面强调厚度。</desc>
+  <path d="M39 5 68 22V35L56 28 39 18 21 28V49L39 60 56 50V44L69 36V57L39 75 9 57V23L39 5Z" fill="#203D4D" stroke="#F2F0E6" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M9 23 21 28V49L39 60V75L9 57V23Z" fill="#2C5367"/>
+  <path d="M39 5 68 22V35L56 28 39 18 21 28 9 23 39 5Z" fill="#91A9B6"/>
+  <path d="M39 5 68 22 56 28 39 18 21 28 9 23 39 5Z" fill="#C7D4D8"/>
+  <path d="M39 60 56 50V44L69 36V57L39 75V60Z" fill="#142F3E"/>
+  <path d="M39 60 56 50V44L69 36" stroke="#AFC3CE" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M39 36 53 28 68 37 54 45 39 36Z" fill="#F4A35C"/>
+  <path d="M39 36 54 45V56L39 47V36Z" fill="#D66B35"/>
+  <path d="M54 45 68 37V48L54 56V45Z" fill="#A94F2C"/>
+  <path d="M44 36 53 31 63 37" stroke="#FFE1B3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="brand-title brand-description">
+  <title id="brand-title">创作空间</title>
+  <desc id="brand-description">一扇深蓝色几何门，以银白线条勾勒，门内留出终端的轮廓，右上角是一颗橙色圆点。</desc>
+  <path d="M14 9H42L51 18V50H37V43H44V21L39 16H21V50H14V9Z" fill="#243C49" stroke="#E9EEE9" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M26 36H34L40 43H26V36Z" fill="#E9EEE9" stroke="#243C49" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="48" cy="11" r="3.25" fill="#DF754B" stroke="#E9EEE9" stroke-width="1.5"/>
+</svg>

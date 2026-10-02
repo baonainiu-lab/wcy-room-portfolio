@@ -1,0 +1,6 @@
+© 2023 ChillType, with Reserved Font Name 'Tanhei'.
+© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+Review derivative family: Atelier Reverse Display
+Source: https://github.com/Warren2060/ChillTanHei
+Review-only character subset; converted to WOFF2; renamed primary family/PostScript/unique names. Outlines and native weight preserved. OFL retained in font and adjacent file.

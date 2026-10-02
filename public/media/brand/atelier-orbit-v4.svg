@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">创作空间 · 轨道星核</title>
+  <desc id="desc">厚实的不对称轨道环绕四角星核，阶梯切口与独立铜色光点指向下一段探索。</desc>
+  <defs>
+    <linearGradient id="orbit" x1="23" y1="14" x2="71" y2="81" gradientUnits="userSpaceOnUse"><stop stop-color="#698894"/><stop offset=".29" stop-color="#284756"/><stop offset=".68" stop-color="#142D3C"/><stop offset="1" stop-color="#426270"/></linearGradient>
+    <linearGradient id="core" x1="39" y1="31" x2="58" y2="66" gradientUnits="userSpaceOnUse"><stop stop-color="#F3D3A0"/><stop offset=".46" stop-color="#C48A51"/><stop offset="1" stop-color="#825034"/></linearGradient>
+    <radialGradient id="beacon" cx=".34" cy=".24" r=".8"><stop stop-color="#FFF0CD"/><stop offset=".43" stop-color="#E5AE70"/><stop offset="1" stop-color="#AA603D"/></radialGradient>
+  </defs>
+  <path data-brand-face="orbit" d="M83 29 77 24V21H72V17H64V14C44 16 21 27 12 44C1 62 10 78 29 80C52 84 77 65 87 42C75 60 48 76 29 75C15 74 10 65 17 53C27 36 51 25 72 27L83 29Z" fill="url(#orbit)"/>
+  <path data-brand-face="star" d="M49 31C51 42 53 45 63 48C53 51 51 55 49 67C47 55 44 51 35 48C44 45 47 42 49 31Z" fill="url(#core)"/>
+  <path data-brand-face="beacon" d="M89.3 33A4.3 4.3 0 1 1 80.7 33A4.3 4.3 0 1 1 89.3 33Z" fill="url(#beacon)"/>
+  <path d="M83 29 77 24V21H72V17H64V14C44 16 21 27 12 44M17 53C27 36 51 25 72 27M29 75C48 76 75 60 87 42" stroke="#9CB2B5" stroke-opacity=".64" stroke-width=".65" stroke-linejoin="round"/>
+  <path d="M49 31C51 42 53 45 63 48M49 67C47 55 44 51 35 48" stroke="#F8DFB4" stroke-opacity=".78" stroke-width=".6"/>
+</svg>

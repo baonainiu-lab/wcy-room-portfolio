@@ -1,0 +1,67 @@
+[
+  {
+    "id": "unbounded",
+    "name": "标小智无界黑",
+    "family": "OrbitalReviewBlock",
+    "weight": 400,
+    "style": "normal",
+    "fontUrl": "/fonts/review-v3/unbounded/review.woff2",
+    "tag": "极粗宽扁 · 金属字块",
+    "source": "https://github.com/maoken-fonts/unbounded-sans",
+    "provenance": "assets/font-candidates/v3/unbounded/SOURCE.json",
+    "fontBytes": 38588,
+    "shortName": "无界黑"
+  },
+  {
+    "id": "chill-rounded-heavy",
+    "name": "寒蝉圆黑体 Heavy",
+    "family": "Atelier Rounded Display",
+    "weight": 900,
+    "style": "normal",
+    "fontUrl": "/fonts/review-v3/chill-rounded-heavy/display.woff2",
+    "tag": "厚实圆角 · 饱满雕塑感",
+    "source": "https://github.com/Warren2060/ChillRoundGothic",
+    "provenance": "assets/font-candidates/v3/chill-rounded-heavy/SOURCE.json",
+    "fontBytes": 82120,
+    "shortName": "圆黑 Heavy"
+  },
+  {
+    "id": "chill-tanhei",
+    "name": "寒蝉无机体·宽体",
+    "family": "Atelier Reverse Display",
+    "weight": 500,
+    "style": "normal",
+    "fontUrl": "/fonts/review-v3/chill-tanhei/display.woff2",
+    "tag": "横粗竖细 · 展览美术字",
+    "source": "https://github.com/Warren2060/ChillTanHei",
+    "provenance": "assets/font-candidates/v3/chill-tanhei/SOURCE.json",
+    "fontBytes": 87184,
+    "shortName": "无机体"
+  },
+  {
+    "id": "smiley",
+    "name": "得意黑",
+    "family": "OrbitalReviewSlant",
+    "weight": 400,
+    "style": "normal",
+    "fontUrl": "/fonts/review-v3/smiley/review.woff2",
+    "tag": "倾斜切角 · 动势标题",
+    "source": "https://github.com/atelier-anchor/smiley-sans",
+    "provenance": "assets/font-candidates/v3/smiley/SOURCE.json",
+    "fontBytes": 34160,
+    "shortName": "得意黑"
+  },
+  {
+    "id": "zcool-qingke",
+    "name": "站酷庆科黄油体",
+    "family": "Room Review Qingke",
+    "weight": 400,
+    "style": "normal",
+    "fontUrl": "/fonts/review-v3/zcool-qingke/review-qingke.woff2",
+    "tag": "圆角切口 · 未来铭牌",
+    "source": "https://github.com/googlefonts/zcool-qingke-huangyou",
+    "provenance": "assets/font-candidates/v3/zcool-qingke/SOURCE.json",
+    "fontBytes": 18508,
+    "shortName": "黄油体"
+  }
+]

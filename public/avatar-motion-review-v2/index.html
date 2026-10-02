@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>逐帧人物动图 · 2D 序列帧</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-synthesis:none;color:#1d3541;background:#f2efe7;--ink:#1d3541;--muted:#727b7c;--line:#d3d5cc;--orange:#dd744e}
+    *{box-sizing:border-box}[hidden]{display:none!important}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}button:focus-visible,a:focus-visible{outline:3px solid var(--orange);outline-offset:4px}a{color:inherit;text-underline-offset:4px}
+    .page{width:min(1180px,100%);margin:auto;padding:34px 38px 22px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:25px;border-bottom:1px solid var(--ink)}.eyebrow{margin:0 0 12px;font-size:10px;font-weight:700;letter-spacing:.16em;color:var(--muted)}h1{margin:0;font-size:clamp(25px,3vw,34px);font-weight:720;letter-spacing:-.04em}.edition{align-self:flex-end;margin:0 0 3px;font-size:11px;letter-spacing:.08em;color:var(--muted);white-space:nowrap}.edition span{color:var(--orange)}
+    main{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(265px,.8fr);align-items:start;gap:48px;padding-top:28px}.viewer{min-width:0;border:1px solid var(--line);background:#eae8e0}.viewer-head,.viewer-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 17px;font-size:11px}.viewer-head{border-bottom:1px solid var(--line)}.viewer-head strong{font-size:10px;letter-spacing:.13em;font-weight:650}.format{font-size:10px;color:var(--muted);letter-spacing:.09em}.stage{position:relative;display:grid;place-items:center;aspect-ratio:1/1;max-height:64svh;min-height:260px;overflow:hidden;background:#eeece5}.motion-image{display:block;width:100%;height:100%;min-height:0;object-fit:contain;grid-area:1/1}.placeholder{grid-area:1/1;padding:32px;text-align:center;color:var(--muted);font-size:12px;line-height:1.8}.placeholder strong{display:block;margin-bottom:7px;color:var(--ink);font-size:17px;font-weight:650}.placeholder span{display:block}.retry{margin-top:18px;padding:8px 18px;background:transparent;color:var(--ink);border:1px solid var(--ink);font-size:12px}.viewer-foot{border-top:1px solid var(--line);color:var(--muted);font-size:10px}.state{display:flex;align-items:center;gap:7px}.state::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--muted)}.state[data-playing="true"]::before{background:var(--orange)}
+    .controls{padding-top:2px}.section-label{font-size:10px;letter-spacing:.12em;margin:0 0 15px;color:var(--muted)}.actions{border-top:1px solid var(--line)}.action{position:relative;width:100%;display:grid;grid-template-columns:32px 1fr 20px;align-items:center;gap:10px;min-height:77px;padding:16px 14px;border:0;border-bottom:1px solid var(--line);text-align:left;background:transparent;color:var(--ink)}.action:hover{background:#e9e6dd}.action[aria-pressed="true"]{background:#e6e3d9}.action[aria-pressed="true"]::before{position:absolute;content:"";inset:0 auto 0 0;width:3px;background:var(--orange)}.number{font-size:10px;font-variant-numeric:tabular-nums;color:var(--muted)}.action-name{font-size:15px;font-weight:650;letter-spacing:-.02em}.action-name small{display:block;font-size:9px;font-weight:450;letter-spacing:.12em;color:var(--muted);margin-top:5px}.arrow{font-size:15px;opacity:0;color:var(--orange)}.action[aria-pressed="true"] .arrow{opacity:1}.detail{padding:27px 0 23px;min-height:119px}.detail h2{font-size:20px;letter-spacing:-.025em;margin:0 0 10px;font-weight:650}.detail p{margin:0;font-size:12px;line-height:1.85;color:var(--muted)}.playback{display:flex;gap:9px}.play,.first-frame{display:flex;align-items:center;justify-content:center;gap:12px;min-height:47px;border:1px solid var(--ink);font-size:12px}.play{flex:1;background:var(--ink);color:#fffaf0}.play-symbol{font-size:10px;color:#eaa17e}.first-frame{padding:0 16px;color:var(--ink);background:transparent}.playback-note{margin:11px 0 0;font-size:10px;color:var(--muted);line-height:1.8;min-height:36px}.download-row{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:25px;padding-top:19px;border-top:1px solid var(--line)}.download{font-size:12px;font-weight:650;text-decoration:none}.download span{color:var(--orange);margin-left:8px}.download[aria-disabled="true"]{pointer-events:none;opacity:.4}.asset-label{font-size:9px;letter-spacing:.1em;color:var(--muted)}.live-status{font-size:10px;line-height:1.8;min-height:18px;margin:17px 0 0;color:var(--muted)}
+    footer{display:flex;justify-content:space-between;gap:18px;margin-top:27px;padding-top:16px;border-top:1px solid var(--line);font-size:10px;color:var(--muted);line-height:1.8}footer a{text-decoration:none}
+    @media(max-width:760px){.page{padding:24px 20px 20px}header{padding-bottom:21px}.eyebrow{font-size:9px;margin-bottom:10px}.edition{font-size:9px}main{grid-template-columns:1fr;gap:26px;padding-top:22px}.stage{max-height:58svh;min-height:240px}.actions{display:grid;grid-template-columns:repeat(3,1fr)}.action{grid-template-columns:1fr;gap:10px;padding:14px 12px;min-height:88px;align-content:start}.action+.action{border-left:1px solid var(--line)}.action-name{font-size:13px}.action-name small{font-size:8px;letter-spacing:.06em}.arrow{display:none}.detail{min-height:0;padding:22px 0}.detail h2{font-size:18px}.download-row{margin-top:16px}.playback-note{min-height:0}.live-status{margin-top:14px}footer{margin-top:21px}}
+    @media(max-width:380px){.edition{display:none}.page{padding-inline:16px}.action{padding-inline:10px}.action-name{font-size:12px}.viewer-head,.viewer-foot{padding-inline:13px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div><p class="eyebrow">CHARACTER MOTION / STUDY 02</p><h1>逐帧人物动图</h1></div>
+      <p class="edition"><span>●</span> 2D 序列帧</p>
+    </header>
+    <main>
+      <section class="viewer" aria-label="逐帧人物动图预览">
+        <div class="viewer-head"><strong id="action-count">01 / 03</strong><span class="format">2D FRAME ANIMATION</span></div>
+        <div id="stage" class="stage" aria-busy="true">
+          <img id="motion-image" class="motion-image" alt="抬眼致意，人物逐帧动图" hidden>
+          <div id="placeholder" class="placeholder" role="status">
+            <strong id="placeholder-title">正在载入</strong>
+            <span id="placeholder-detail">准备逐帧人物动图。</span>
+            <button id="retry" class="retry" type="button" hidden>重新加载</button>
+          </div>
+        </div>
+        <div class="viewer-foot"><span id="media-state" class="state" data-playing="false">正在载入</span><span id="caption">抬眼致意</span></div>
+      </section>
+      <section class="controls" aria-label="动作与播放控制">
+        <p class="section-label">选择动作 / 03 MOTIONS</p>
+        <div id="actions" class="actions" role="group" aria-label="三段动作，可用方向键切换">
+          <button class="action" type="button" data-index="0" aria-pressed="true"><span class="number">01</span><span class="action-name">抬眼致意<small>GREETING</small></span><span class="arrow" aria-hidden="true">↗</span></button>
+          <button class="action" type="button" data-index="1" aria-pressed="false"><span class="number">02</span><span class="action-name">点触屏幕<small>TAP</small></span><span class="arrow" aria-hidden="true">↗</span></button>
+          <button class="action" type="button" data-index="2" aria-pressed="false"><span class="number">03</span><span class="action-name">前送展示<small>PRESENT</small></span><span class="arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <div class="detail"><h2 id="action-title">抬眼致意</h2><p id="action-description">从终端抬眼，轻轻微笑，再回到待机。</p></div>
+        <div class="playback">
+          <button id="play" class="play" type="button" aria-pressed="false" disabled><span id="play-symbol" class="play-symbol" aria-hidden="true">▶</span><span id="play-label">播放 GIF</span></button>
+          <button id="first-frame" class="first-frame" type="button" disabled>查看首帧</button>
+        </div>
+        <p class="playback-note">暂停会显示首帧；再次播放将重新载入 GIF。<br><span id="motion-preference">方向键切换动作，空格操作当前按钮。</span></p>
+        <div class="download-row"><a id="download" class="download" aria-disabled="true" tabindex="-1">下载当前 GIF<span aria-hidden="true">↓</span></a><span class="asset-label">ANIMATED GIF</span></div>
+        <p id="live-status" class="live-status" role="status" aria-live="polite">准备预览。</p>
+      </section>
+    </main>
+    <footer><span>人物动作验收 · 本地预览</span><a href="/">返回作品集 ↗</a></footer>
+  </div>
+  <script type="module">
+    const motions = [
+      { folder: 'greeting', name: '抬眼致意', description: '从终端抬眼，轻轻微笑，再回到待机。' },
+      { folder: 'tap', name: '点触屏幕', description: '一手承托终端，另一手抬起并点触屏幕。' },
+      { folder: 'present', name: '前送展示', description: '稳稳托住终端，轻轻前送，展示后收回。' },
+    ];
+    const select = (selector) => document.querySelector(selector);
+    const actionButtons = [...document.querySelectorAll('.action')];
+    const stage = select('#stage');
+    const placeholder = select('#placeholder');
+    const playButton = select('#play');
+    const firstFrameButton = select('#first-frame');
+    const download = select('#download');
+    const status = select('#live-status');
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let current = 0;
+    let image = select('#motion-image');
+    let playing = false;
+    let wantsPlayback = !preference.matches;
+    let assets = { gif: null, poster: null };
+    let revision = 0;
+    let run = 0;
+    let loading = false;
+
+    function assetUrl(file, fresh = false) {
+      const url = new URL(`./${motions[current].folder}/${file}`, window.location.href);
+      if (fresh) url.searchParams.set('preview', `${Date.now()}-${++run}`);
+      return url.href;
+    }
+
+    function loadImage(url) {
+      return new Promise((resolve) => {
+        const next = new Image();
+        next.className = 'motion-image';
+        next.onload = () => { next.onload = next.onerror = null; resolve(next); };
+        next.onerror = () => { next.onload = next.onerror = null; resolve(null); };
+        next.src = url;
+      });
+    }
+
+    function updateControls() {
+      playButton.disabled = loading || (playing ? !assets.poster : !assets.gif);
+      playButton.setAttribute('aria-pressed', String(playing));
+      select('#play-label').textContent = playing ? '暂停 · 显示首帧' : '播放 GIF';
+      select('#play-symbol').textContent = playing ? 'Ⅱ' : '▶';
+      firstFrameButton.disabled = loading || !assets.poster;
+      download.setAttribute('aria-disabled', String(!assets.gif));
+      if (assets.gif) {
+        download.href = assetUrl('preview.gif');
+        download.download = `${motions[current].folder}.gif`;
+        download.removeAttribute('tabindex');
+      } else {
+        download.removeAttribute('href');
+        download.removeAttribute('download');
+        download.setAttribute('tabindex', '-1');
+      }
+      select('#motion-preference').textContent = preference.matches
+        ? '已按减少动态效果偏好显示首帧，可主动播放。'
+        : '方向键切换动作，空格操作当前按钮。';
+    }
+
+    function showMessage(title, detail, retry = true) {
+      image.hidden = true;
+      placeholder.hidden = false;
+      select('#placeholder-title').textContent = title;
+      select('#placeholder-detail').textContent = detail;
+      select('#retry').hidden = !retry;
+    }
+
+    function showImage(next, animated) {
+      next.id = 'motion-image';
+      next.alt = `${motions[current].name}，${animated ? '逐帧人物动图' : '动作首帧'}`;
+      next.hidden = false;
+      image.replaceWith(next);
+      image = next;
+      placeholder.hidden = true;
+      playing = animated;
+      const mediaState = select('#media-state');
+      mediaState.textContent = animated ? 'GIF 循环播放' : '首帧静图';
+      mediaState.dataset.playing = String(animated);
+      status.textContent = animated ? `正在播放：${motions[current].name}。` : `当前首帧：${motions[current].name}。`;
+      updateControls();
+    }
+
+    async function selectMotion(index) {
+      const thisRevision = ++revision;
+      current = index;
+      playing = false;
+      loading = true;
+      assets = { gif: null, poster: null };
+      stage.setAttribute('aria-busy', 'true');
+      showMessage('正在载入', '准备逐帧人物动图。', false);
+      select('#media-state').textContent = '正在载入';
+      select('#media-state').dataset.playing = 'false';
+      select('#action-count').textContent = `${String(index + 1).padStart(2, '0')} / 03`;
+      select('#caption').textContent = motions[index].name;
+      select('#action-title').textContent = motions[index].name;
+      select('#action-description').textContent = motions[index].description;
+      actionButtons.forEach((button, buttonIndex) => button.setAttribute('aria-pressed', String(buttonIndex === index)));
+      status.textContent = `正在载入：${motions[index].name}。`;
+      updateControls();
+      const [gif, poster] = await Promise.all([
+        loadImage(assetUrl('preview.gif', true)),
+        loadImage(assetUrl('poster.png', true)),
+      ]);
+      if (thisRevision !== revision) return;
+      assets = { gif, poster };
+      loading = false;
+      stage.setAttribute('aria-busy', 'false');
+      if (wantsPlayback && gif) {
+        showImage(gif, true);
+      } else if (poster) {
+        showImage(poster, false);
+        if (!gif) status.textContent = '动图生成中，当前显示已就绪的首帧。';
+      } else {
+        showMessage('生成中', gif ? '首帧尚未就绪，可点击播放查看动图。' : '这段人物动图尚未就绪。');
+        select('#media-state').textContent = '生成中';
+        status.textContent = '资源就绪后，点击重新加载。';
+        updateControls();
+      }
+    }
+
+    function showFirstFrame() {
+      if (!assets.poster || loading) return;
+      wantsPlayback = false;
+      showImage(assets.poster, false);
+    }
+
+    async function play() {
+      if (loading || !assets.gif) return;
+      if (playing) return showFirstFrame();
+      const thisRevision = ++revision;
+      wantsPlayback = true;
+      loading = true;
+      stage.setAttribute('aria-busy', 'true');
+      status.textContent = '正在重新载入 GIF。';
+      updateControls();
+      const gif = await loadImage(assetUrl('preview.gif', true));
+      if (thisRevision !== revision) return;
+      loading = false;
+      stage.setAttribute('aria-busy', 'false');
+      assets.gif = gif;
+      if (gif) showImage(gif, true);
+      else {
+        status.textContent = 'GIF 暂时无法载入，请重新加载。';
+        select('#retry').hidden = false;
+        if (!assets.poster) showMessage('生成中', '这段人物动图暂时无法载入。');
+        else showMessage('动图暂时无法载入', '点击重新加载，再查看这段动作。');
+        updateControls();
+      }
+    }
+
+    actionButtons.forEach((button, index) => {
+      button.addEventListener('click', () => selectMotion(index));
+      button.addEventListener('keydown', (event) => {
+        let next;
+        if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % motions.length;
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index + motions.length - 1) % motions.length;
+        if (event.key === 'Home') next = 0;
+        if (event.key === 'End') next = motions.length - 1;
+        if (next === undefined) return;
+        event.preventDefault();
+        actionButtons[next].focus();
+        selectMotion(next);
+      });
+    });
+    playButton.addEventListener('click', play);
+    firstFrameButton.addEventListener('click', showFirstFrame);
+    select('#retry').addEventListener('click', () => selectMotion(current));
+    preference.addEventListener('change', () => {
+      if (preference.matches) {
+        wantsPlayback = false;
+        if (!loading && assets.poster) showFirstFrame();
+        else if (playing || loading) selectMotion(current);
+      }
+      updateControls();
+    });
+    selectMotion(0);
+  </script>
+</body>
+</html>

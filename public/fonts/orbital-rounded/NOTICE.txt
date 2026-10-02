@@ -1,0 +1,10 @@
+Atelier Rounded Display Heavy is a character-subset derivative of Chill Round Gothic Heavy / 寒蝉圆黑体 Heavy, Version 3.700.
+
+© 2014-2021 Adobe, with Reserved Font Name 'Source'.
+© 2023 ChillType, with Reserved Font Name 'ChillRounded'.
+Copyright 2023 The ChillRoundGothic Project Authors
+
+Licensed under the SIL Open Font License 1.1; see OFL.txt.
+Source: https://github.com/Warren2060/ChillRoundGothic
+
+The derivative has renamed family, full, PostScript and unique names, is subset for the current website UI, and is converted to WOFF2. Original glyph outlines and native weight 900 are preserved. No outline expansion or synthetic bold has been added to this font. New text outside this subset requires regeneration or uses the configured CSS fallback.
