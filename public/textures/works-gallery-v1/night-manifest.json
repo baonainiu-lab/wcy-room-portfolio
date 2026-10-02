@@ -1,0 +1,83 @@
+{
+  "state": "night",
+  "preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+  "prepared": "assets/blender/works-gallery-bake-v1.blend",
+  "scene": "WEB_WORKS_GALLERY_V1",
+  "lighting": {
+    "state": "night",
+    "sunEnergy": 0.07,
+    "worldStrength": 0.3400000035762787,
+    "device": "GPU",
+    "backend": "METAL",
+    "names": [
+      "Apple M5 (GPU - 10 cores)"
+    ],
+    "samples": 40,
+    "preparation_id": "149d700f68725d02e6da01e9a0e9e19514317ca75299fe3144b88e44be3ef2a7",
+    "color_management": "AgX save_render to sRGB PNG",
+    "passes": [
+      "COLOR",
+      "DIFFUSE",
+      "DIRECT",
+      "EMIT",
+      "GLOSSY",
+      "INDIRECT"
+    ]
+  },
+  "atlases": [
+    {
+      "atlas": 0,
+      "path": "public/textures/works-gallery-v1/night-0.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 3936707,
+      "sha256": "aaff830127dc61568cc5004fcd298734ad75c27beb4c0e5a730d164c5c023069",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 157.78
+    },
+    {
+      "atlas": 1,
+      "path": "public/textures/works-gallery-v1/night-1.png",
+      "resolution": [
+        3072,
+        3072
+      ],
+      "bytes": 1345770,
+      "sha256": "06c3d602eb624a072e32aa0edf6d5660d4534a59d6c972f252a5c1e8526123e3",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 53.27
+    },
+    {
+      "atlas": 2,
+      "path": "public/textures/works-gallery-v1/night-2.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5525485,
+      "sha256": "f88d2a61ec01ae4daee238c5cfa9089f5661990660122e3e371b682841263961",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 103.41
+    },
+    {
+      "atlas": 3,
+      "path": "public/textures/works-gallery-v1/night-3.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "bytes": 5224677,
+      "sha256": "d7d104978b97f7a262752239c0f8ab925f6c1d18a2c8e0ba2f1df102ef355604",
+      "margin": 16,
+      "device": "GPU",
+      "seconds": 58.38
+    }
+  ],
+  "complete": true,
+  "seconds": 373.37
+}
