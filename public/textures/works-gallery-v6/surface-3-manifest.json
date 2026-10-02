@@ -1,0 +1,85 @@
+{
+  "complete": true,
+  "sourceBlend": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/assets/blender/works-gallery-bake-v6.blend",
+  "sourceSha256": "5c79709604e3b7436cd782862cdaca6f3e775936905bffe1ad298ad7eb9b390f",
+  "slot": 3,
+  "dataSize": 1024,
+  "samples": 4,
+  "normal": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/works-gallery-v6/normal-3.png",
+    "sha256": "f39bdb18d73fdc79baa737f840395598ef617079a182e1575699ab2ef8e7b0ae",
+    "bytes": 256426,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "colorSpace": "NoColorSpace / linear data",
+    "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+    "channels": 4,
+    "encoding": "RGBA8 linear numeric data",
+    "sourceRange": [
+      0.39623504877090454,
+      1.0
+    ],
+    "valuesOutsideUnitRangeFraction": 0.0,
+    "valuesOutsideRangeBeyondFloatToleranceFraction": 0.0
+  },
+  "specular": {
+    "path": "/Users/a90/Documents/ChatGPT/\u4e2a\u4eba\u7f51\u7ad9/room-portfolio/public/textures/works-gallery-v6/specular-3.png",
+    "sha256": "e8e8085dd426368c6153e1919c6b8c3390feaeabccd703a047cc22f98374faee",
+    "bytes": 322541,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "colorSpace": "NoColorSpace / linear data",
+    "orientation": "PNG top-down from Blender bottom-up pixels; glTF flipY=false",
+    "channels": 4,
+    "encoding": "RGBA8 linear numeric data",
+    "sourceRange": [
+      0.0,
+      1.0
+    ],
+    "valuesOutsideUnitRangeFraction": 0.0,
+    "valuesOutsideRangeBeyondFloatToleranceFraction": 0.0
+  },
+  "geometryUvNormalsUnchanged": true,
+  "rawNormalStatistics": {
+    "channelMin": [
+      0.3962334394454956,
+      0.44275015592575073,
+      0.9891218543052673
+    ],
+    "channelMax": [
+      0.59518963098526,
+      0.5585725903511047,
+      1.0000100135803223
+    ],
+    "outsideExactUnitRangeFraction": 0.27421881333750275,
+    "outsideUnitRangeBeyond1e5Fraction": 0.0,
+    "decodedVectorLengthPercentiles": [
+      0.9924913048744202,
+      0.9991946697235108,
+      1.0000200271606445,
+      1.0000203847885132,
+      1.000023365020752
+    ],
+    "filteredVectorLengthBelowQuarterCount": 0,
+    "filteredVectorLengthBelowQuarterFraction": 0.0,
+    "zeroLengthFallbackCount": 0
+  },
+  "decodedNormalsRenormalizedBeforeQuantization": true,
+  "occupiedTexelFraction": 0.4391632080078125,
+  "unusedNormalTexels": "neutral +Z",
+  "unusedSpecularTexels": "zero F0, roughness one",
+  "seconds": {
+    "normal": 0.86,
+    "f0": 0.76,
+    "roughness": 0.65
+  },
+  "f0Formula": "mix(2 * specularIORLevel * ((IOR-1)/(IOR+1))^2 * specularTint, baseColor, metallic)",
+  "normalConvention": "Tangent +X +Y +Z (OpenGL), BakeUV; PNG top-down, glTF flipY=false",
+  "limitations": [
+    "Single base specular lobe; coat, anisotropy and transmission remain source-only unless runtime handles separate lobes."
+  ]
+}
